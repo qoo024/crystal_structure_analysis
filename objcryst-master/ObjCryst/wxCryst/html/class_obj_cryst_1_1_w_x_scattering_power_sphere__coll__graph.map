@@ -1,0 +1,11 @@
+<map id="ObjCryst::WXScatteringPowerSphere" name="ObjCryst::WXScatteringPowerSphere">
+<area shape="rect" id="node1" title="wxCryst class for ScatteringPowerSphere" alt="" coords="308,328,508,367"/>
+<area shape="rect" id="node2" href="$class_obj_cryst_1_1_w_x_refinable_obj.html" title=" " alt="" coords="318,253,497,279"/>
+<area shape="rect" id="node3" href="$class_obj_cryst_1_1_w_x_cryst_obj.html" title=" " alt="" coords="59,167,213,192"/>
+<area shape="rect" id="node7" href="$class_obj_cryst_1_1_w_x_field_name.html" title=" " alt="" coords="102,253,268,279"/>
+<area shape="rect" id="node4" href="$class_obj_cryst_1_1_w_x_cryst_obj_basic.html" title="Abstract base class for all objects in wxCryst." alt="" coords="237,80,424,105"/>
+<area shape="rect" id="node8" href="$class_obj_cryst_1_1_w_x_field.html" title=" " alt="" coords="237,167,368,192"/>
+<area shape="rect" id="node9" href="$class_obj_cryst_1_1_w_x_cryst_menu_bar.html" title="Our own local menu bar, using buttons and Popup menus." alt="" coords="391,167,579,192"/>
+<area shape="rect" id="node5" title=" " alt="" coords="288,5,373,31"/>
+<area shape="rect" id="node6" href="$class_obj_cryst_1_1_w_x_cryst_obj_basic_list.html" title="A List of WXCrystObjBasic." alt="" coords="5,80,213,105"/>
+</map>

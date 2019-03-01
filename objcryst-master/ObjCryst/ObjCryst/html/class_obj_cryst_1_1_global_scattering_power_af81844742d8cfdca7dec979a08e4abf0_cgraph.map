@@ -1,0 +1,45 @@
+<map id="ObjCryst::GlobalScatteringPower::GetScatteringFactor" name="ObjCryst::GlobalScatteringPower::GetScatteringFactor">
+<area shape="rect" id="node1" title="Get the Scattering factor for all reflections of a given ScatteringData object." alt="" coords="5,845,191,884"/>
+<area shape="rect" id="node2" href="$class_obj_cryst_1_1_scattering_data.html#a9356e72bc7a48184692100d0d1ee8ea1" title="So&#45;called virtual copy constructor." alt="" coords="239,309,408,348"/>
+<area shape="rect" id="node3" href="$class_obj_cryst_1_1_scattering_data.html#aec92465bb5615b797a1e17a796235840" title="Return the number of reflections in this experiment." alt="" coords="979,68,1147,107"/>
+<area shape="rect" id="node4" href="$class_obj_cryst_1_1_scattering_data.html#af36fabc6841d45d4be8a3c3e7fd4d1ff" title="Const access to the data&#39;s crystal." alt="" coords="979,851,1147,889"/>
+<area shape="rect" id="node5" href="$class_obj_cryst_1_1_unit_cell.html#a176768bac4762fa188a0e30c255c19fb" title=" " alt="" coords="260,372,387,411"/>
+<area shape="rect" id="node9" href="$class_obj_cryst_1_1_crystal.html#acee480ad824aa0eedf78a4fa414cf347" title="Add a scatterer to the crystal." alt="" coords="259,873,388,912"/>
+<area shape="rect" id="node11" href="$class_obj_cryst_1_1_scattering_data.html#a590a553dbea1970266a864256ebf94f3" title=" " alt="" coords="456,936,625,975"/>
+<area shape="rect" id="node13" href="$class_obj_cryst_1_1_scattering_data.html#af95450724f3e42f50cd0fc04cb8e1d2a" title="Access to real part of F(hkl)calc." alt="" coords="239,988,408,1027"/>
+<area shape="rect" id="node43" href="$class_obj_cryst_1_1_scattering_data.html#abaa9d939602278b94f19c9b592fb87c4" title="Access to imaginary part of F(hkl)calc." alt="" coords="239,1051,408,1089"/>
+<area shape="rect" id="node6" href="$class_obj_cryst_1_1_space_group.html#a914c50cfe2b9efbab98b7940bfff995a" title="Id number of the spacegroup." alt="" coords="977,5,1149,44"/>
+<area shape="rect" id="node7" href="$class_obj_cryst_1_1_space_group.html#a62966718407e7b2c666ffe376832ce31" title="Which is the unique axis (for monoclinic space groups )" alt="" coords="463,256,618,295"/>
+<area shape="rect" id="node8" href="$class_obj_cryst_1_1_space_group.html#a1c0dbd14dc315655333acedbc4289a94" title="Extension to space group symbol (&#39;1&#39;,&#39;2&#39;:origin choice ; &#39;R&#39;,&#39;H&#39;=rhomboedral/hexagonal)" alt="" coords="463,319,618,357"/>
+<area shape="rect" id="node10" href="$class_obj_cryst_1_1_scatterer.html#ace072c5113b5328a7145d33779582621" title="Set the crystal in which is included this Scatterer." alt="" coords="473,873,608,912"/>
+<area shape="rect" id="node12" href="$class_obj_cryst_1_1_unit_cell.html#ad774324f564621a3e7bcd0cfcafae9cc" title="last time the Lattice parameters were changed" alt="" coords="1279,652,1423,691"/>
+<area shape="rect" id="node14" href="$class_obj_cryst_1_1_scattering_data.html#aaf82b283529262aa6b0ec547e23c6b6d" title="Compute the overall structure factor (real and imaginary part). This function is optimized for speed ..." alt="" coords="456,1025,625,1064"/>
+<area shape="rect" id="node15" href="$class_obj_cryst_1_1_scattering_data.html#aeceded13328adf88e001b08ce1abed7f" title=" " alt="" coords="927,1268,1198,1307"/>
+<area shape="rect" id="node16" href="$class_obj_cryst_1_1_scattering_data.html#a1b0237b27cf0e5a3fef7dba65113504e" title="Compute the &#39;Geometrical Structure Factor&#39; for each ScatteringPower of the Crystal." alt="" coords="692,537,860,576"/>
+<area shape="rect" id="node38" href="$class_obj_cryst_1_1_scattering_data.html#a7806bd73e3405c7fa50b12a4722f8700" title="Compute the overall temperature factor affecting all reflections." alt="" coords="673,1205,879,1244"/>
+<area shape="rect" id="node40" href="$class_obj_cryst_1_1_scattering_data.html#a40e555c0ab59f92fda10dbe10cdee91b" title=" " alt="" coords="692,1085,860,1124"/>
+<area shape="rect" id="node42" href="$class_obj_cryst_1_1_scattering_data.html#a5e2175dbe3023c1f498091006b01a596" title=" " alt="" coords="692,773,860,812"/>
+<area shape="rect" id="node17" href="$class_obj_cryst_1_1_crystal.html#a5ff33da1575572684743281c92f6596a" title="Get the list of all scattering components." alt="" coords="967,965,1159,1004"/>
+<area shape="rect" id="node23" href="$class_obj_cryst_1_1_scattering_component_list.html#acda94d3d6f78467a7f56c0cf9aed1973" title="Number of components." alt="" coords="1504,809,1714,848"/>
+<area shape="rect" id="node25" href="$class_obj_cryst_1_1_crystal.html#a9b199fd99f7ccd74755bea232f43f8ca" title="Get the list of all scattering components." alt="" coords="981,245,1144,284"/>
+<area shape="rect" id="node26" href="$class_obj_cryst_1_1_crystal.html#afe78d3190beb21efe9c4d524ead73813" title="Get the clock which reports all changes in ScatteringPowers." alt="" coords="956,663,1170,701"/>
+<area shape="rect" id="node27" href="$class_obj_cryst_1_1_unit_cell.html#aa7d18fa157c16e2d084c3e403317d2ab" title="Access to the SpaceGroup object." alt="" coords="999,725,1127,764"/>
+<area shape="rect" id="node28" href="$class_obj_cryst_1_1_space_group.html#a3790c6c41b59e2584c48f62ab1766bec" title="Return the number of equivalent positions in the spacegroup, ie the multilicity of the general positi..." alt="" coords="985,788,1141,827"/>
+<area shape="rect" id="node29" href="$class_obj_cryst_1_1_space_group.html#ab29b2dbdb97ed82c9b609c7f59a3e656" title="Number of translation vectors (1 for &#39;P&#39; cells, 2 for &#39;I&#39;, 4 for &#39;F&#39;,etc..)" alt="" coords="1263,277,1440,316"/>
+<area shape="rect" id="node30" href="$class_obj_cryst_1_1_space_group.html#af0ee74eb5826d86a67e70a6113b7b34d" title=" " alt="" coords="983,360,1143,399"/>
+<area shape="rect" id="node31" href="$class_obj_cryst_1_1_crystal.html#a98b594908ebbdf25249965eaf61eccdc" title="Get the registry of ScatteringPower included in this Crystal." alt="" coords="968,1028,1158,1067"/>
+<area shape="rect" id="node32" href="$class_obj_cryst_1_1_scattering_power.html#a724900d7f7714f47ca62a715e26dd5ca" title="Maximum Likelihood: get the number of ghost elements per asymmetric unit." alt="" coords="937,600,1189,639"/>
+<area shape="rect" id="node33" href="$class_obj_cryst_1_1_space_group.html#ac297f3135ee0b981d36b44176550f284" title="Is centrosymmetric ?" alt="" coords="985,423,1141,461"/>
+<area shape="rect" id="node34" href="$class_obj_cryst_1_1_space_group.html#acda90f46fd5332c08b2915973ae9c1ad" title="Get all equivalent positions of a (xyz) position." alt="" coords="985,183,1141,221"/>
+<area shape="rect" id="node35" href="$class_obj_cryst_1_1_space_group.html#af75d004f6bb49e14acc5bcd06bf8dda6" title="Get the underlying cctbx Spacegroup object." alt="" coords="1273,125,1429,164"/>
+<area shape="rect" id="node37" href="$class_obj_cryst_1_1_space_group.html#a516ca407fbc80a8786fcdd6821668c58" title="Is the center of symmetry at the origin ?" alt="" coords="972,537,1154,576"/>
+<area shape="rect" id="node18" href="$class_obj_cryst_1_1_crystal.html#ab991f8f3cc005760f939f7d41694cfdf" title="Provides an access to the scatterers." alt="" coords="1286,903,1416,941"/>
+<area shape="rect" id="node19" href="$class_obj_cryst_1_1_scatterer.html#aa80ea62ee58a9c6e12cb2863d641b3d3" title="Last time anything in the scatterer was changed (atoms, positions, scattering power)" alt="" coords="1282,965,1420,1004"/>
+<area shape="rect" id="node20" href="$class_obj_cryst_1_1_scattering_component_list.html#a512dcd4870c53b3f98ad6e7b04be9801" title=" " alt="" coords="1246,1028,1456,1067"/>
+<area shape="rect" id="node21" href="$class_obj_cryst_1_1_scatterer.html#aca0e08e3793cc69d31fce53e481c2a67" title="Get the list of all scattering components for this scatterer." alt="" coords="1251,715,1451,753"/>
+<area shape="rect" id="node22" href="$class_obj_cryst_1_1_crystal.html#a003ff86924120b77365f8e129fde87f2" title="Reset Dynamical Population Correction factors (ie set it to 1)" alt="" coords="1286,777,1416,816"/>
+<area shape="rect" id="node24" href="$class_obj_cryst_1_1_scattering_component_list.html#af16db467893abc60b718dcc675d2ec66" title="Print the list of Scattering components. For debugging." alt="" coords="1246,840,1456,879"/>
+<area shape="rect" id="node36" href="$class_obj_cryst_1_1_space_group.html#ab379ea3ae8f70b96e325bcd694a0ee71" title="Is the crystal centrosymmetric ?" alt="" coords="1273,188,1429,227"/>
+<area shape="rect" id="node39" href="$class_obj_cryst_1_1_scattering_data.html#a27cf813d222bbc0b261f794051125219" title=" " alt="" coords="973,1205,1153,1244"/>
+<area shape="rect" id="node41" href="$class_obj_cryst_1_1_scattering_power.html#ae5d793cc7bb07b5aae0a8dc3c322ba6d" title=" " alt="" coords="940,1143,1185,1181"/>
+</map>

@@ -1,0 +1,106 @@
+\hypertarget{class_fox_server}{}\section{Fox\+Server Class Reference}
+\label{class_fox_server}\index{FoxServer@{FoxServer}}
+
+
+Inheritance diagram for Fox\+Server\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=142pt]{class_fox_server__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Fox\+Server\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=142pt]{class_fox_server__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_fox_server_a2dcab218b1ea353e23b3bdf53dbe2c0d}\label{class_fox_server_a2dcab218b1ea353e23b3bdf53dbe2c0d}} 
+void {\bfseries Start\+Grid\+Server} ()
+\item 
+\mbox{\Hypertarget{class_fox_server_abc7a3f8d810bbdf3b2453bb9cf956977}\label{class_fox_server_abc7a3f8d810bbdf3b2453bb9cf956977}} 
+void {\bfseries Set\+Working\+Dir} (wx\+String path)
+\item 
+\mbox{\Hypertarget{class_fox_server_ab2e373563b8f93305b56367d2d9da69d}\label{class_fox_server_ab2e373563b8f93305b56367d2d9da69d}} 
+wx\+String {\bfseries Get\+Working\+Dir} ()
+\item 
+\mbox{\Hypertarget{class_fox_server_a11b934b62bd4b78b978d614b9429991d}\label{class_fox_server_a11b934b62bd4b78b978d614b9429991d}} 
+void {\bfseries On\+Server\+Event} (wx\+Socket\+Event \&event)
+\item 
+\mbox{\Hypertarget{class_fox_server_a37b7fcd5aaf913692a49c498006c294b}\label{class_fox_server_a37b7fcd5aaf913692a49c498006c294b}} 
+void {\bfseries On\+Socket\+Event} (wx\+Socket\+Event \&event)
+\item 
+\mbox{\Hypertarget{class_fox_server_a022f92cdfb23a9ae774baed8ce697fb9}\label{class_fox_server_a022f92cdfb23a9ae774baed8ce697fb9}} 
+void {\bfseries Write\+Protocol} ()
+\item 
+\mbox{\Hypertarget{class_fox_server_a51e57806f1d9da87052d2bfe9b0db7c4}\label{class_fox_server_a51e57806f1d9da87052d2bfe9b0db7c4}} 
+void {\bfseries Get\+Data} (std\+::vector$<$ \mbox{\hyperlink{class_grid_client}{Grid\+Client}} $>$ \&Clients, std\+::vector$<$ \mbox{\hyperlink{class_grid_result}{Grid\+Result}} $>$ \&results, std\+::vector$<$ \mbox{\hyperlink{class_fox_job}{Fox\+Job}} $>$ \&Joblist)
+\item 
+\mbox{\Hypertarget{class_fox_server_a92d8c78deee842dada649b43d04ac074}\label{class_fox_server_a92d8c78deee842dada649b43d04ac074}} 
+bool {\bfseries Is\+Server\+Running} ()
+\item 
+\mbox{\Hypertarget{class_fox_server_a224627a667049881d5d4c352ada1b7b0}\label{class_fox_server_a224627a667049881d5d4c352ada1b7b0}} 
+void {\bfseries Run\+All\+Clients} ()
+\item 
+\mbox{\Hypertarget{class_fox_server_a0a1f84a0bc1a37d639bb84444f9de657}\label{class_fox_server_a0a1f84a0bc1a37d639bb84444f9de657}} 
+void {\bfseries Add\+Job\+To\+List} (\mbox{\hyperlink{class_fox_job}{Fox\+Job}} newjob)
+\item 
+\mbox{\Hypertarget{class_fox_server_abc52b09e665830ce57fdd2a682092d06}\label{class_fox_server_abc52b09e665830ce57fdd2a682092d06}} 
+void {\bfseries Change\+Job} (int index, \mbox{\hyperlink{class_fox_job}{Fox\+Job}} $\ast$cjob)
+\item 
+\mbox{\Hypertarget{class_fox_server_accc0dfab2951fa52c74af8bb38528e4c}\label{class_fox_server_accc0dfab2951fa52c74af8bb38528e4c}} 
+int {\bfseries Delete\+Job} (int index)
+\end{DoxyCompactItemize}
+\subsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_fox_server_a2caae95405baafc7cfeae77682e9a800}\label{class_fox_server_a2caae95405baafc7cfeae77682e9a800}} 
+void {\bfseries Write\+Log\+Message} (wx\+String msg)
+\end{DoxyCompactItemize}
+\subsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_fox_server_a2b4f2dd68ecaf75b0c702b894a812d2b}\label{class_fox_server_a2b4f2dd68ecaf75b0c702b894a812d2b}} 
+wx\+Mutex $\ast$ {\bfseries s\+\_\+mutex\+Protecting\+The\+Global\+Data}
+\item 
+\mbox{\Hypertarget{class_fox_server_aa781ecca4b5f4b80ddfefcfb60d4cbf4}\label{class_fox_server_aa781ecca4b5f4b80ddfefcfb60d4cbf4}} 
+wx\+Mutex $\ast$ {\bfseries mutex\+Message\+Log}
+\item 
+\mbox{\Hypertarget{class_fox_server_ae2144ba716b6ea905a2d4c85193716df}\label{class_fox_server_ae2144ba716b6ea905a2d4c85193716df}} 
+wx\+Mutex $\ast$ {\bfseries m\+\_\+thread\+Mutex}
+\item 
+\mbox{\Hypertarget{class_fox_server_a78ee1995ef7db417d6455f95056fe62e}\label{class_fox_server_a78ee1995ef7db417d6455f95056fe62e}} 
+wx\+Socket\+Server $\ast$ {\bfseries mp\+Server}
+\item 
+\mbox{\Hypertarget{class_fox_server_a048aa68ac02420fa24056e95139078e8}\label{class_fox_server_a048aa68ac02420fa24056e95139078e8}} 
+std\+::vector$<$ \mbox{\hyperlink{class_fox_server_thread}{Fox\+Server\+Thread}} $\ast$ $>$ {\bfseries m\+\_\+threads}
+\item 
+\mbox{\Hypertarget{class_fox_server_a868f6935ca6d00c8d500be2cf421835e}\label{class_fox_server_a868f6935ca6d00c8d500be2cf421835e}} 
+std\+::vector$<$ \mbox{\hyperlink{class_grid_result}{Grid\+Result}} $>$ {\bfseries m\+\_\+results}
+\item 
+\mbox{\Hypertarget{class_fox_server_a3b6baf61774657c72dd06d4cc33e4c27}\label{class_fox_server_a3b6baf61774657c72dd06d4cc33e4c27}} 
+bool {\bfseries m\+\_\+is\+Running}
+\item 
+\mbox{\Hypertarget{class_fox_server_a1451821b05ce893672fb2fd7c2ca6930}\label{class_fox_server_a1451821b05ce893672fb2fd7c2ca6930}} 
+bool {\bfseries m\+\_\+need\+Update}
+\item 
+\mbox{\Hypertarget{class_fox_server_a35201605805e70f4324cde46b1f39eb1}\label{class_fox_server_a35201605805e70f4324cde46b1f39eb1}} 
+std\+::vector$<$ \mbox{\hyperlink{class_fox_job}{Fox\+Job}} $>$ {\bfseries m\+\_\+jobs}
+\item 
+\mbox{\Hypertarget{class_fox_server_abc63f35998913aab7e662e6a8cf467f3}\label{class_fox_server_abc63f35998913aab7e662e6a8cf467f3}} 
+wx\+String {\bfseries m\+\_\+working\+\_\+dir}
+\end{DoxyCompactItemize}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+Fox\+Server.\+h\item 
+Fox\+Server.\+cpp\end{DoxyCompactItemize}

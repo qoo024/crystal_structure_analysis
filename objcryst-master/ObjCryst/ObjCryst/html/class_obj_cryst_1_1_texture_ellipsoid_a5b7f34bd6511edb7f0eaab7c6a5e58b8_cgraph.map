@@ -1,0 +1,9 @@
+<map id="ObjCryst::TextureEllipsoid::CalcCorr" name="ObjCryst::TextureEllipsoid::CalcCorr">
+<area shape="rect" id="node1" title="Do the computation of corrected intensities." alt="" coords="5,172,179,211"/>
+<area shape="rect" id="node2" href="$class_obj_cryst_1_1_scattering_data.html#aeceded13328adf88e001b08ce1abed7f" title=" " alt="" coords="227,5,498,44"/>
+<area shape="rect" id="node3" href="$class_obj_cryst_1_1_scattering_data.html#a7e8045588ffcc88c38f98a6661a57e64" title="Clock the last time the sin(theta)/lambda and theta arrays were re&#45;computed." alt="" coords="278,68,447,107"/>
+<area shape="rect" id="node4" href="$class_obj_cryst_1_1_scattering_data.html#a0f6f14009b6d935d9704f2a779d00fbd" title="Clock the last time the number of reflections used was changed." alt="" coords="243,131,482,183"/>
+<area shape="rect" id="node5" href="$class_obj_cryst_1_1_scattering_data.html#aec92465bb5615b797a1e17a796235840" title="Return the number of reflections in this experiment." alt="" coords="278,207,447,245"/>
+<area shape="rect" id="node6" href="$class_obj_cryst_1_1_scattering_data.html#a6f112d90257266103774cdcdecd3e31a" title="Return the 1D array of H coordinates for all reflections." alt="" coords="278,269,447,308"/>
+<area shape="rect" id="node7" href="$class_obj_cryst_1_1_scattering_data.html#a27cf813d222bbc0b261f794051125219" title=" " alt="" coords="273,332,453,371"/>
+</map>

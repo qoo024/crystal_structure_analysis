@@ -1,0 +1,7 @@
+<map id="ObjCryst::CellExplorer::DicVol" name="ObjCryst::CellExplorer::DicVol">
+<area shape="rect" id="node1" title=" " alt="" coords="5,33,159,72"/>
+<area shape="rect" id="node2" href="$class_obj_cryst_1_1_rec_unit_cell.html#ad8ad14d3c38e1926ea7e14a995824535" title=" " alt="" coords="207,5,358,44"/>
+<area shape="rect" id="node3" href="$namespace_obj_cryst.html#a5a702febb46b199ca5a4fd5a05372ab2" title="Compute score for a candidate RecUnitCell and a PeakList." alt="" coords="224,68,340,93"/>
+<area shape="rect" id="node4" href="$class_obj_cryst_1_1_peak_list.html#a68999a6748f5bc5c4cd185f843ac4550" title="Get peak list." alt="" coords="415,29,547,68"/>
+<area shape="rect" id="node5" href="$class_obj_cryst_1_1_rec_unit_cell.html#a677f7a039a1018695f242a0e3868945b" title=" " alt="" coords="406,92,557,131"/>
+</map>

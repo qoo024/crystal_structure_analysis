@@ -1,0 +1,6 @@
+<map id="ObjCryst::CreateSingleCrystalDataFromCIF" name="ObjCryst::CreateSingleCrystalDataFromCIF">
+<area shape="rect" id="node1" title=" " alt="" coords="5,37,204,76"/>
+<area shape="rect" id="node2" href="$class_obj_cryst_1_1_diffraction_data_single_crystal.html#a0d13ab934c60c9bd0aebbb285a92c5cb" title="input H,K,L, Iobs and Sigma" alt="" coords="252,5,424,44"/>
+<area shape="rect" id="node4" href="$class_obj_cryst_1_1_scattering_data.html#aec92465bb5615b797a1e17a796235840" title="Return the number of reflections in this experiment." alt="" coords="254,68,423,107"/>
+<area shape="rect" id="node3" href="$class_obj_cryst_1_1_diffraction_data_single_crystal.html#a76f0f6b9eab4f00b7fa9afc17e951235" title="Set the weight for all observed intensities to 1/sigma^2." alt="" coords="472,5,718,44"/>
+</map>

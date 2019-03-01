@@ -1,0 +1,151 @@
+\hypertarget{class_obj_cryst_1_1_simplex_obj}{}\section{Obj\+Cryst\+::Simplex\+Obj Class Reference}
+\label{class_obj_cryst_1_1_simplex_obj}\index{ObjCryst::SimplexObj@{ObjCryst::SimplexObj}}
+
+
+{\ttfamily \#include $<$Simplex.\+h$>$}
+
+
+
+Inheritance diagram for Obj\+Cryst\+::Simplex\+Obj\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=212pt]{class_obj_cryst_1_1_simplex_obj__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Obj\+Cryst\+::Simplex\+Obj\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_obj_cryst_1_1_simplex_obj__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_simplex_obj_a8af9110ac672b9b932adf838a853b90b}\label{class_obj_cryst_1_1_simplex_obj_a8af9110ac672b9b932adf838a853b90b}} 
+\mbox{\hyperlink{class_obj_cryst_1_1_simplex_obj_a8af9110ac672b9b932adf838a853b90b}{Simplex\+Obj}} (const string name=\char`\"{}Unnamed Simplex Object\char`\"{})
+\begin{DoxyCompactList}\small\item\em Constructor. \end{DoxyCompactList}\item 
+virtual void \mbox{\hyperlink{class_obj_cryst_1_1_simplex_obj_aa5d987434598f3c6e2045b1446cfb064}{Optimize}} (long \&nb\+Steps, const bool silent=false, const R\+E\+AL finalcost=0, const R\+E\+AL max\+Time=-\/1)
+\item 
+virtual void \mbox{\hyperlink{class_obj_cryst_1_1_simplex_obj_a15315e9e1509d8c1c0235d4b1e03ed92}{Multi\+Run\+Optimize}} (long \&nb\+Cycle, long \&nb\+Steps, const bool silent=false, const R\+E\+AL finalcost=0, const R\+E\+AL max\+Time=-\/1)
+\item 
+virtual void \mbox{\hyperlink{class_obj_cryst_1_1_simplex_obj_a6437ce6f4077afb198e26069c4cb224e}{X\+M\+L\+Output}} (ostream \&os, int indent=0) const
+\begin{DoxyCompactList}\small\item\em Output a description of the object in X\+ML format to a stream. \end{DoxyCompactList}\item 
+virtual void \mbox{\hyperlink{class_obj_cryst_1_1_simplex_obj_aeeb9fa38eb4e321724665045c39ad709}{X\+M\+L\+Input}} (istream \&is, const \mbox{\hyperlink{class_obj_cryst_1_1_x_m_l_cryst_tag}{X\+M\+L\+Cryst\+Tag}} \&tag)
+\begin{DoxyCompactList}\small\item\em Input in X\+ML format from a stream, restoring the set of refined objects and the associated cost functions. Note that the corresponding objects must have been loaded in memory before, else shit happens. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Additional Inherited Members}
+
+
+\subsection{Detailed Description}
+Conjugate Gradient Algorithm object
+
+currently does not handle parameters hitting limits, and is not very efficient (uses numerical derivatives) 
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{class_obj_cryst_1_1_simplex_obj_a15315e9e1509d8c1c0235d4b1e03ed92}\label{class_obj_cryst_1_1_simplex_obj_a15315e9e1509d8c1c0235d4b1e03ed92}} 
+\index{ObjCryst::SimplexObj@{ObjCryst::SimplexObj}!MultiRunOptimize@{MultiRunOptimize}}
+\index{MultiRunOptimize@{MultiRunOptimize}!ObjCryst::SimplexObj@{ObjCryst::SimplexObj}}
+\subsubsection{\texorpdfstring{MultiRunOptimize()}{MultiRunOptimize()}}
+{\footnotesize\ttfamily void Obj\+Cryst\+::\+Simplex\+Obj\+::\+Multi\+Run\+Optimize (\begin{DoxyParamCaption}\item[{long \&}]{nb\+Cycle,  }\item[{long \&}]{nb\+Steps,  }\item[{const bool}]{silent = {\ttfamily false},  }\item[{const R\+E\+AL}]{finalcost = {\ttfamily 0},  }\item[{const R\+E\+AL}]{max\+Time = {\ttfamily -\/1} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+Launch optimization for multiple runs of N steps 
+\begin{DoxyParams}{Parameters}
+{\em nb\+Cycle} & the number of runs (cycles) to perform. The structure is randomized at the beginning of each cycle. If nb\+Cycle==-\/1, this will run indefinitely. The nb\+Cycle parameter is decreased after each run. \\
+\hline
+{\em nb\+Steps} & the number of steps to go. This number is modified (decreases!) as the refinement goes on. \\
+\hline
+{\em silent} & \+: if true, absolutely no message should be printed (except debugging) \\
+\hline
+{\em finalcost} & the optimization will stop if overall cost fallse below this value \\
+\hline
+{\em max\+Time} & the optimization will stop after the given number of seconds has been spent optimizing (ignored if $<$0). \\
+\hline
+\end{DoxyParams}
+
+
+Implements \mbox{\hyperlink{class_obj_cryst_1_1_optimization_obj_aa53575dbda2ec3f561bed934beb4ca6f}{Obj\+Cryst\+::\+Optimization\+Obj}}.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_obj_cryst_1_1_simplex_obj_a15315e9e1509d8c1c0235d4b1e03ed92_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_obj_cryst_1_1_simplex_obj_aa5d987434598f3c6e2045b1446cfb064}\label{class_obj_cryst_1_1_simplex_obj_aa5d987434598f3c6e2045b1446cfb064}} 
+\index{ObjCryst::SimplexObj@{ObjCryst::SimplexObj}!Optimize@{Optimize}}
+\index{Optimize@{Optimize}!ObjCryst::SimplexObj@{ObjCryst::SimplexObj}}
+\subsubsection{\texorpdfstring{Optimize()}{Optimize()}}
+{\footnotesize\ttfamily void Obj\+Cryst\+::\+Simplex\+Obj\+::\+Optimize (\begin{DoxyParamCaption}\item[{long \&}]{nb\+Steps,  }\item[{const bool}]{silent = {\ttfamily false},  }\item[{const R\+E\+AL}]{finalcost = {\ttfamily 0},  }\item[{const R\+E\+AL}]{max\+Time = {\ttfamily -\/1} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+Launch optimization (a single run) for N steps 
+\begin{DoxyParams}{Parameters}
+{\em nb\+Steps} & the number of steps to go. This number is modified (decreases!) as the refinement goes on. \\
+\hline
+{\em silent} & \+: if true, absolutely no message should be printed (except debugging) \\
+\hline
+{\em finalcost} & the optimization will stop if overall cost fallse below this value \\
+\hline
+{\em max\+Time} & the optimization will stop after the given number of seconds has been spent optimizing (ignored if $<$0). \\
+\hline
+\end{DoxyParams}
+
+
+Implements \mbox{\hyperlink{class_obj_cryst_1_1_optimization_obj_a08c77dc6ec80f63bf067ef2968a0b6dc}{Obj\+Cryst\+::\+Optimization\+Obj}}.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_obj_cryst_1_1_simplex_obj_aa5d987434598f3c6e2045b1446cfb064_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=339pt]{class_obj_cryst_1_1_simplex_obj_aa5d987434598f3c6e2045b1446cfb064_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_obj_cryst_1_1_simplex_obj_aeeb9fa38eb4e321724665045c39ad709}\label{class_obj_cryst_1_1_simplex_obj_aeeb9fa38eb4e321724665045c39ad709}} 
+\index{ObjCryst::SimplexObj@{ObjCryst::SimplexObj}!XMLInput@{XMLInput}}
+\index{XMLInput@{XMLInput}!ObjCryst::SimplexObj@{ObjCryst::SimplexObj}}
+\subsubsection{\texorpdfstring{XMLInput()}{XMLInput()}}
+{\footnotesize\ttfamily void Obj\+Cryst\+::\+Simplex\+Obj\+::\+X\+M\+L\+Input (\begin{DoxyParamCaption}\item[{istream \&}]{is,  }\item[{const \mbox{\hyperlink{class_obj_cryst_1_1_x_m_l_cryst_tag}{X\+M\+L\+Cryst\+Tag}} \&}]{tag }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Input in X\+ML format from a stream, restoring the set of refined objects and the associated cost functions. Note that the corresponding objects must have been loaded in memory before, else shit happens. 
+
+
+
+Implements \mbox{\hyperlink{class_obj_cryst_1_1_optimization_obj_aa07aee60f56780e2c56fb20f4a5f48a8}{Obj\+Cryst\+::\+Optimization\+Obj}}.
+
+\mbox{\Hypertarget{class_obj_cryst_1_1_simplex_obj_a6437ce6f4077afb198e26069c4cb224e}\label{class_obj_cryst_1_1_simplex_obj_a6437ce6f4077afb198e26069c4cb224e}} 
+\index{ObjCryst::SimplexObj@{ObjCryst::SimplexObj}!XMLOutput@{XMLOutput}}
+\index{XMLOutput@{XMLOutput}!ObjCryst::SimplexObj@{ObjCryst::SimplexObj}}
+\subsubsection{\texorpdfstring{XMLOutput()}{XMLOutput()}}
+{\footnotesize\ttfamily void Obj\+Cryst\+::\+Simplex\+Obj\+::\+X\+M\+L\+Output (\begin{DoxyParamCaption}\item[{ostream \&}]{os,  }\item[{int}]{indent = {\ttfamily 0} }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Output a description of the object in X\+ML format to a stream. 
+
+This saves the list of refined object and the cost functions, as well as options for the refinement. The refined objects are {\bfseries{not}} saved, so this must be done somewhere else (they must be reloaded before this object). 
+
+Implements \mbox{\hyperlink{class_obj_cryst_1_1_optimization_obj_a6b7726159bb0d5dad1c7eebaee78f53a}{Obj\+Cryst\+::\+Optimization\+Obj}}.
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+Simplex.\+h\item 
+Simplex.\+cpp\end{DoxyCompactItemize}

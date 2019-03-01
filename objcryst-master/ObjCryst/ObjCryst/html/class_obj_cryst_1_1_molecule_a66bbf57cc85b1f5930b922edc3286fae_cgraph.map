@@ -1,0 +1,9 @@
+<map id="ObjCryst::Molecule::RemoveAtom" name="ObjCryst::Molecule::RemoveAtom">
+<area shape="rect" id="node1" title=" " alt="" coords="5,100,139,139"/>
+<area shape="rect" id="node2" href="$class_obj_cryst_1_1_molecule.html#a9ad28d7c6c9ba8496a4fd876cc1db9d2" title="Formula with atoms in alphabetic order." alt="" coords="201,5,335,44"/>
+<area shape="rect" id="node4" href="$class_obj_cryst_1_1_molecule.html#aa02f2f7cea34333b5ddbb4a16678b7a4" title=" " alt="" coords="201,68,335,107"/>
+<area shape="rect" id="node6" href="$class_obj_cryst_1_1_molecule.html#a07ae7127f13c0527530074756093a653" title=" " alt="" coords="197,131,340,169"/>
+<area shape="rect" id="node7" href="$class_obj_cryst_1_1_molecule.html#a5603e0f2c58de705284f07903e4f597a" title=" " alt="" coords="187,193,349,232"/>
+<area shape="rect" id="node3" href="$class_obj_cryst_1_1_molecule.html#a839d362bb9c2e6f0951caf00c8c8e92c" title="Number of components in the scatterer (eg number of point scatterers)" alt="" coords="400,5,536,44"/>
+<area shape="rect" id="node5" href="$class_obj_cryst_1_1_mol_bond.html#aa2e55e0744234ef375f2b1e596270a03" title="Name of the bond, e.g. &quot;C3&#45;O4&quot;." alt="" coords="397,68,538,107"/>
+</map>

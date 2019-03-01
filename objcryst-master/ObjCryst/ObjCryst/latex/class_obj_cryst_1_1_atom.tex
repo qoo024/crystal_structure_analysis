@@ -1,0 +1,295 @@
+\hypertarget{class_obj_cryst_1_1_atom}{}\section{Obj\+Cryst\+::Atom Class Reference}
+\label{class_obj_cryst_1_1_atom}\index{ObjCryst::Atom@{ObjCryst::Atom}}
+
+
+{\ttfamily \#include $<$Atom.\+h$>$}
+
+
+
+Inheritance diagram for Obj\+Cryst\+::Atom\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=181pt]{class_obj_cryst_1_1_atom__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Obj\+Cryst\+::Atom\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=238pt]{class_obj_cryst_1_1_atom__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_obj_cryst_1_1_atom_afa78c541a05f1210e9913c4591752042}{Atom}} ()
+\item 
+\mbox{\hyperlink{class_obj_cryst_1_1_atom_a8f37e515c9e847ba20cc1033cd54e7b8}{Atom}} (const R\+E\+AL x, const R\+E\+AL y, const R\+E\+AL z, const string \&name, const \mbox{\hyperlink{class_obj_cryst_1_1_scattering_power}{Scattering\+Power}} $\ast$pow)
+\begin{DoxyCompactList}\small\item\em \mbox{\hyperlink{class_obj_cryst_1_1_atom}{Atom}} constructor. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_obj_cryst_1_1_atom_a1a4253d4b5ea4d8777963a43c7817e87}{Atom}} (const R\+E\+AL x, const R\+E\+AL y, const R\+E\+AL z, const string \&name, const \mbox{\hyperlink{class_obj_cryst_1_1_scattering_power}{Scattering\+Power}} $\ast$pow, const R\+E\+AL popu)
+\begin{DoxyCompactList}\small\item\em \mbox{\hyperlink{class_obj_cryst_1_1_atom}{Atom}} constructor. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_atom_a4882db30ef33e70582b354db8e76a07c}\label{class_obj_cryst_1_1_atom_a4882db30ef33e70582b354db8e76a07c}} 
+\mbox{\hyperlink{class_obj_cryst_1_1_atom_a4882db30ef33e70582b354db8e76a07c}{Atom}} (const \mbox{\hyperlink{class_obj_cryst_1_1_atom}{Atom}} \&old)
+\begin{DoxyCompactList}\small\item\em Copy constructor. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_atom_ad7542b375a56c677778bdd82bff07079}\label{class_obj_cryst_1_1_atom_ad7542b375a56c677778bdd82bff07079}} 
+virtual \mbox{\hyperlink{class_obj_cryst_1_1_atom}{Atom}} $\ast$ {\bfseries Create\+Copy} () const
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_atom_a86039a28098c9b48e7f4f57636a7e55d}\label{class_obj_cryst_1_1_atom_a86039a28098c9b48e7f4f57636a7e55d}} 
+\mbox{\hyperlink{class_obj_cryst_1_1_atom_a86039a28098c9b48e7f4f57636a7e55d}{$\sim$\+Atom}} ()
+\begin{DoxyCompactList}\small\item\em Destructor... \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_atom_abe8065c3ee0e20a38063650045ff1814}\label{class_obj_cryst_1_1_atom_abe8065c3ee0e20a38063650045ff1814}} 
+virtual const string \& {\bfseries Get\+Class\+Name} () const
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_atom_a4befd1307ea225071938f35cfae808a9}\label{class_obj_cryst_1_1_atom_a4befd1307ea225071938f35cfae808a9}} 
+virtual void {\bfseries operator=} (const \mbox{\hyperlink{class_obj_cryst_1_1_atom}{Atom}} \&rhs)
+\item 
+void \mbox{\hyperlink{class_obj_cryst_1_1_atom_ab05ef76113333041255789dba4bb60cd}{Init}} (const R\+E\+AL x, const R\+E\+AL y, const R\+E\+AL z, const string \&name, const \mbox{\hyperlink{class_obj_cryst_1_1_scattering_power}{Scattering\+Power}} $\ast$pow, const R\+E\+AL popu=1)
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_atom_a9ffe360231181b611dd388b28a68e4bb}\label{class_obj_cryst_1_1_atom_a9ffe360231181b611dd388b28a68e4bb}} 
+virtual int \mbox{\hyperlink{class_obj_cryst_1_1_atom_a9ffe360231181b611dd388b28a68e4bb}{Get\+Nb\+Component}} () const
+\begin{DoxyCompactList}\small\item\em Number of components in the scatterer (eg number of point scatterers) \end{DoxyCompactList}\item 
+virtual const \mbox{\hyperlink{class_obj_cryst_1_1_scattering_component_list}{Scattering\+Component\+List}} \& \mbox{\hyperlink{class_obj_cryst_1_1_atom_a91b7898458e7d14431ceaa380b8a2121}{Get\+Scattering\+Component\+List}} () const
+\begin{DoxyCompactList}\small\item\em Get the list of all scattering components for this scatterer. \end{DoxyCompactList}\item 
+virtual string \mbox{\hyperlink{class_obj_cryst_1_1_atom_ab6a32c77f67ab2682e00cef7969a59fd}{Get\+Component\+Name}} (const int i) const
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_atom_a8cf5b61d0df0bf2e55d6c44f67c06da0}\label{class_obj_cryst_1_1_atom_a8cf5b61d0df0bf2e55d6c44f67c06da0}} 
+virtual void \mbox{\hyperlink{class_obj_cryst_1_1_atom_a8cf5b61d0df0bf2e55d6c44f67c06da0}{Print}} () const
+\begin{DoxyCompactList}\small\item\em Print some info about the scatterer (ideally this should be one line...). \end{DoxyCompactList}\item 
+R\+E\+AL \mbox{\hyperlink{class_obj_cryst_1_1_atom_a9fb77dee90fcd6bbcd199e6efa8e8c3c}{Get\+Mass}} () const
+\begin{DoxyCompactList}\small\item\em Returns the molar mass of the atom. \end{DoxyCompactList}\item 
+R\+E\+AL \mbox{\hyperlink{class_obj_cryst_1_1_atom_a5a985d3220fb8754f0db01ecde408bb9}{Get\+Radius}} () const
+\begin{DoxyCompactList}\small\item\em Returns the radius (in Angstroems) of the atom. \end{DoxyCompactList}\item 
+virtual ostream \& \mbox{\hyperlink{class_obj_cryst_1_1_atom_aaf6475195502fff91903f30b5c6c3345}{P\+O\+V\+Ray\+Description}} (ostream \&os, const \mbox{\hyperlink{struct_obj_cryst_1_1_crystal_p_o_v_ray_options}{Crystal\+P\+O\+V\+Ray\+Options}} \&options) const
+\begin{DoxyCompactList}\small\item\em X\+M\+L\+Output a description of the scatterer for P\+O\+V\+Ray. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_obj_cryst_1_1_atom_a5f5aaf79fba4a85a0b2af58e817c3460}{Is\+Dummy}} () const
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_atom_af4795b5a28e7c3a475ecbd20ced38c3a}\label{class_obj_cryst_1_1_atom_af4795b5a28e7c3a475ecbd20ced38c3a}} 
+virtual void {\bfseries X\+M\+L\+Output} (ostream \&os, int indent=0) const
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_atom_aec034b47e186b19cb0802aaa82c7ca3a}\label{class_obj_cryst_1_1_atom_aec034b47e186b19cb0802aaa82c7ca3a}} 
+virtual void {\bfseries X\+M\+L\+Input} (istream \&is, const X\+M\+L\+Cryst\+Tag \&tag)
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_atom_ab4a0388c75cb7a51878199f1f86f6dac}\label{class_obj_cryst_1_1_atom_ab4a0388c75cb7a51878199f1f86f6dac}} 
+const \mbox{\hyperlink{class_obj_cryst_1_1_scattering_power}{Scattering\+Power}} \& \mbox{\hyperlink{class_obj_cryst_1_1_atom_ab4a0388c75cb7a51878199f1f86f6dac}{Get\+Scattering\+Power}} () const
+\begin{DoxyCompactList}\small\item\em Get the \mbox{\hyperlink{class_obj_cryst_1_1_scattering_power_atom}{Scattering\+Power\+Atom}} corresponding to this atom. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_atom_a111b96d82473e6386d18fec662d65c91}\label{class_obj_cryst_1_1_atom_a111b96d82473e6386d18fec662d65c91}} 
+void \mbox{\hyperlink{class_obj_cryst_1_1_atom_a111b96d82473e6386d18fec662d65c91}{Set\+Scattering\+Power}} (const \mbox{\hyperlink{class_obj_cryst_1_1_scattering_power}{Scattering\+Power}} \&pow)
+\begin{DoxyCompactList}\small\item\em Change the \mbox{\hyperlink{class_obj_cryst_1_1_scattering_power}{Scattering\+Power}} for this atom. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_atom_ab9578662bc4cbef83789a358de609d37}\label{class_obj_cryst_1_1_atom_ab9578662bc4cbef83789a358de609d37}} 
+virtual void {\bfseries Get\+Gene\+Group} (const Refinable\+Obj \&obj, Cryst\+Vector\+\_\+uint \&group\+Index, unsigned int \&first\+Group) const
+\end{DoxyCompactItemize}
+\subsection*{Additional Inherited Members}
+
+
+\subsection{Detailed Description}
+The basic atom scatterer, in a crystal.
+
+This class records the position of the atom, and has a pointer to its \mbox{\hyperlink{class_obj_cryst_1_1_scattering_power_atom}{Scattering\+Power\+Atom}}.
+
+\begin{DoxyNote}{Note}
+there can be \textquotesingle{}Dummy\textquotesingle{} atoms, for which the used symbol is \char`\"{}\+X\char`\"{}, and which have no scattering power (use with caution\+: dummy atoms are only supposed to be used within \mbox{\hyperlink{class_obj_cryst_1_1_z_scatterer}{Z\+Scatterer}}) 
+\end{DoxyNote}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_obj_cryst_1_1_atom_afa78c541a05f1210e9913c4591752042}\label{class_obj_cryst_1_1_atom_afa78c541a05f1210e9913c4591752042}} 
+\index{ObjCryst::Atom@{ObjCryst::Atom}!Atom@{Atom}}
+\index{Atom@{Atom}!ObjCryst::Atom@{ObjCryst::Atom}}
+\subsubsection{\texorpdfstring{Atom()}{Atom()}\hspace{0.1cm}{\footnotesize\ttfamily [1/3]}}
+{\footnotesize\ttfamily Obj\+Cryst\+::\+Atom\+::\+Atom (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Default constructor. The \mbox{\hyperlink{class_obj_cryst_1_1_atom}{Atom}} {\itshape must} be initialized thereafter using \mbox{\hyperlink{class_obj_cryst_1_1_atom_ab05ef76113333041255789dba4bb60cd}{Atom\+::\+Init()}} \mbox{\Hypertarget{class_obj_cryst_1_1_atom_a8f37e515c9e847ba20cc1033cd54e7b8}\label{class_obj_cryst_1_1_atom_a8f37e515c9e847ba20cc1033cd54e7b8}} 
+\index{ObjCryst::Atom@{ObjCryst::Atom}!Atom@{Atom}}
+\index{Atom@{Atom}!ObjCryst::Atom@{ObjCryst::Atom}}
+\subsubsection{\texorpdfstring{Atom()}{Atom()}\hspace{0.1cm}{\footnotesize\ttfamily [2/3]}}
+{\footnotesize\ttfamily Obj\+Cryst\+::\+Atom\+::\+Atom (\begin{DoxyParamCaption}\item[{const R\+E\+AL}]{x,  }\item[{const R\+E\+AL}]{y,  }\item[{const R\+E\+AL}]{z,  }\item[{const string \&}]{name,  }\item[{const \mbox{\hyperlink{class_obj_cryst_1_1_scattering_power}{Scattering\+Power}} $\ast$}]{pow }\end{DoxyParamCaption})}
+
+
+
+\mbox{\hyperlink{class_obj_cryst_1_1_atom}{Atom}} constructor. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em x,y,z} & \+: {\itshape fractional} coordinates of the atom \\
+\hline
+{\em pow} & \+: the \mbox{\hyperlink{class_obj_cryst_1_1_scattering_power}{Scattering\+Power}} associated to this atom. Must be allocated separately. \\
+\hline
+{\em name} & \+: name of the atom (\textquotesingle{}Ta1\textquotesingle{},\textquotesingle{}Sm2\textquotesingle{}, \textquotesingle{}Tungsten\+\_\+1\textquotesingle{}...). The name can have {\itshape any} format but spaces should be avoided. \\
+\hline
+\end{DoxyParams}
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=331pt]{class_obj_cryst_1_1_atom_a8f37e515c9e847ba20cc1033cd54e7b8_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_obj_cryst_1_1_atom_a1a4253d4b5ea4d8777963a43c7817e87}\label{class_obj_cryst_1_1_atom_a1a4253d4b5ea4d8777963a43c7817e87}} 
+\index{ObjCryst::Atom@{ObjCryst::Atom}!Atom@{Atom}}
+\index{Atom@{Atom}!ObjCryst::Atom@{ObjCryst::Atom}}
+\subsubsection{\texorpdfstring{Atom()}{Atom()}\hspace{0.1cm}{\footnotesize\ttfamily [3/3]}}
+{\footnotesize\ttfamily Obj\+Cryst\+::\+Atom\+::\+Atom (\begin{DoxyParamCaption}\item[{const R\+E\+AL}]{x,  }\item[{const R\+E\+AL}]{y,  }\item[{const R\+E\+AL}]{z,  }\item[{const string \&}]{name,  }\item[{const \mbox{\hyperlink{class_obj_cryst_1_1_scattering_power}{Scattering\+Power}} $\ast$}]{pow,  }\item[{const R\+E\+AL}]{popu }\end{DoxyParamCaption})}
+
+
+
+\mbox{\hyperlink{class_obj_cryst_1_1_atom}{Atom}} constructor. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em x,y,z} & \+: {\itshape fractional} coordinates of the atom \\
+\hline
+{\em popu} & \+: the population of the atom (0.\+0-\/$>$1.\+0) This should take into account the multiplicity of the atom. For an atom in group P2 and on the 2 axis, this should be set to 0.\+5, {\bfseries{unless}} you are using the dynamical occupancy correction (recommended for global optimizations). See Crystal\+::\+Calc\+Dyn\+Pop\+Corr() and Crystal\+::m\+Use\+Dyn\+Pop\+Corr\\
+\hline
+{\em pow} & \+: the \mbox{\hyperlink{class_obj_cryst_1_1_scattering_power}{Scattering\+Power}} associated to this atom. Must be allocated separatly. \\
+\hline
+{\em name} & \+: name of the atom (\textquotesingle{}Ta1\textquotesingle{},\textquotesingle{}Sm2\textquotesingle{}, \textquotesingle{}Tungsten\+\_\+1\textquotesingle{}...). The name can have {\itshape any} format but spaces should be avoided (just a precaution) \\
+\hline
+\end{DoxyParams}
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=331pt]{class_obj_cryst_1_1_atom_a1a4253d4b5ea4d8777963a43c7817e87_cgraph}
+\end{center}
+\end{figure}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{class_obj_cryst_1_1_atom_ab6a32c77f67ab2682e00cef7969a59fd}\label{class_obj_cryst_1_1_atom_ab6a32c77f67ab2682e00cef7969a59fd}} 
+\index{ObjCryst::Atom@{ObjCryst::Atom}!GetComponentName@{GetComponentName}}
+\index{GetComponentName@{GetComponentName}!ObjCryst::Atom@{ObjCryst::Atom}}
+\subsubsection{\texorpdfstring{GetComponentName()}{GetComponentName()}}
+{\footnotesize\ttfamily string Obj\+Cryst\+::\+Atom\+::\+Get\+Component\+Name (\begin{DoxyParamCaption}\item[{const int}]{i }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [virtual]}}
+
+Name for the i-\/th component of this scatterer. If the component is an \mbox{\hyperlink{class_obj_cryst_1_1_atom}{Atom}}, Then the name is that of the atom. Else, it is the name of the scatterer plus the component number in the scatterer plus the name of the \mbox{\hyperlink{class_obj_cryst_1_1_scattering_power}{Scattering\+Power}}. \begin{DoxyNote}{Note}
+It would be better to return a reference, but we don\textquotesingle{}t want to keep a name for all components... Weeelll, needs some more thinking... see what performance hit results (if any).
+\end{DoxyNote}
+\begin{DoxyRefDesc}{Bug}
+\item[\mbox{\hyperlink{bug__bug000001}{Bug}}]does not take into account dummy atoms !! \end{DoxyRefDesc}
+
+
+Implements \mbox{\hyperlink{class_obj_cryst_1_1_scatterer_a42bdf508da6a90859a5a61e16c27d47e}{Obj\+Cryst\+::\+Scatterer}}.
+
+\mbox{\Hypertarget{class_obj_cryst_1_1_atom_a9fb77dee90fcd6bbcd199e6efa8e8c3c}\label{class_obj_cryst_1_1_atom_a9fb77dee90fcd6bbcd199e6efa8e8c3c}} 
+\index{ObjCryst::Atom@{ObjCryst::Atom}!GetMass@{GetMass}}
+\index{GetMass@{GetMass}!ObjCryst::Atom@{ObjCryst::Atom}}
+\subsubsection{\texorpdfstring{GetMass()}{GetMass()}}
+{\footnotesize\ttfamily R\+E\+AL Obj\+Cryst\+::\+Atom\+::\+Get\+Mass (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Returns the molar mass of the atom. 
+
+Values are extracted from the \textquotesingle{}atominfo\textquotesingle{} package, which uses data from the C\+RC Handbook of Chemistry \& Physics, 63rd \& 70th editions The Mass is actually extracted from the \mbox{\hyperlink{class_obj_cryst_1_1_scattering_power_atom}{Scattering\+Power\+Atom}}. Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_obj_cryst_1_1_atom_a9fb77dee90fcd6bbcd199e6efa8e8c3c_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_obj_cryst_1_1_atom_a5a985d3220fb8754f0db01ecde408bb9}\label{class_obj_cryst_1_1_atom_a5a985d3220fb8754f0db01ecde408bb9}} 
+\index{ObjCryst::Atom@{ObjCryst::Atom}!GetRadius@{GetRadius}}
+\index{GetRadius@{GetRadius}!ObjCryst::Atom@{ObjCryst::Atom}}
+\subsubsection{\texorpdfstring{GetRadius()}{GetRadius()}}
+{\footnotesize\ttfamily R\+E\+AL Obj\+Cryst\+::\+Atom\+::\+Get\+Radius (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Returns the radius (in Angstroems) of the atom. 
+
+Values are extracted from the \textquotesingle{}atominfo\textquotesingle{} package, which uses data from the I\+C\+S\+D/\+C\+R\+Y\+S\+T\+IN Manual The Radius is extracted from the \mbox{\hyperlink{class_obj_cryst_1_1_scattering_power_atom}{Scattering\+Power\+Atom}}. Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_obj_cryst_1_1_atom_a5a985d3220fb8754f0db01ecde408bb9_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_obj_cryst_1_1_atom_a91b7898458e7d14431ceaa380b8a2121}\label{class_obj_cryst_1_1_atom_a91b7898458e7d14431ceaa380b8a2121}} 
+\index{ObjCryst::Atom@{ObjCryst::Atom}!GetScatteringComponentList@{GetScatteringComponentList}}
+\index{GetScatteringComponentList@{GetScatteringComponentList}!ObjCryst::Atom@{ObjCryst::Atom}}
+\subsubsection{\texorpdfstring{GetScatteringComponentList()}{GetScatteringComponentList()}}
+{\footnotesize\ttfamily const \mbox{\hyperlink{class_obj_cryst_1_1_scattering_component_list}{Scattering\+Component\+List}} \& Obj\+Cryst\+::\+Atom\+::\+Get\+Scattering\+Component\+List (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Get the list of all scattering components for this scatterer. 
+
+This is the most important function of this class, giving the list of scattering positions along with the associated \mbox{\hyperlink{class_obj_cryst_1_1_scattering_power}{Scattering\+Power}}. 
+
+Implements \mbox{\hyperlink{class_obj_cryst_1_1_scatterer_aca0e08e3793cc69d31fce53e481c2a67}{Obj\+Cryst\+::\+Scatterer}}.
+
+\mbox{\Hypertarget{class_obj_cryst_1_1_atom_ab05ef76113333041255789dba4bb60cd}\label{class_obj_cryst_1_1_atom_ab05ef76113333041255789dba4bb60cd}} 
+\index{ObjCryst::Atom@{ObjCryst::Atom}!Init@{Init}}
+\index{Init@{Init}!ObjCryst::Atom@{ObjCryst::Atom}}
+\subsubsection{\texorpdfstring{Init()}{Init()}}
+{\footnotesize\ttfamily void Obj\+Cryst\+::\+Atom\+::\+Init (\begin{DoxyParamCaption}\item[{const R\+E\+AL}]{x,  }\item[{const R\+E\+AL}]{y,  }\item[{const R\+E\+AL}]{z,  }\item[{const string \&}]{name,  }\item[{const \mbox{\hyperlink{class_obj_cryst_1_1_scattering_power}{Scattering\+Power}} $\ast$}]{pow,  }\item[{const R\+E\+AL}]{popu = {\ttfamily 1} }\end{DoxyParamCaption})}
+
+initialize the atom (used for arrays of atoms). 
+\begin{DoxyParams}{Parameters}
+{\em x,y,z} & \+: {\itshape fractional} coordinates of the atom \\
+\hline
+{\em pow} & \+: the \mbox{\hyperlink{class_obj_cryst_1_1_scattering_power}{Scattering\+Power}} associated to this atom. Must be allocated separately. \\
+\hline
+{\em name} & \+: name of the atom (\textquotesingle{}Ta1\textquotesingle{},\textquotesingle{}Sm2\textquotesingle{}, \textquotesingle{}Tungsten\+\_\+1\textquotesingle{}...). \\
+\hline
+\end{DoxyParams}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=331pt]{class_obj_cryst_1_1_atom_ab05ef76113333041255789dba4bb60cd_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_obj_cryst_1_1_atom_a5f5aaf79fba4a85a0b2af58e817c3460}\label{class_obj_cryst_1_1_atom_a5f5aaf79fba4a85a0b2af58e817c3460}} 
+\index{ObjCryst::Atom@{ObjCryst::Atom}!IsDummy@{IsDummy}}
+\index{IsDummy@{IsDummy}!ObjCryst::Atom@{ObjCryst::Atom}}
+\subsubsection{\texorpdfstring{IsDummy()}{IsDummy()}}
+{\footnotesize\ttfamily bool Obj\+Cryst\+::\+Atom\+::\+Is\+Dummy (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+Is this a dummy atom ? (ie no \mbox{\hyperlink{class_obj_cryst_1_1_scattering_power}{Scattering\+Power}}) Dummy atoms should not exist ! Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_obj_cryst_1_1_atom_a5f5aaf79fba4a85a0b2af58e817c3460_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_obj_cryst_1_1_atom_aaf6475195502fff91903f30b5c6c3345}\label{class_obj_cryst_1_1_atom_aaf6475195502fff91903f30b5c6c3345}} 
+\index{ObjCryst::Atom@{ObjCryst::Atom}!POVRayDescription@{POVRayDescription}}
+\index{POVRayDescription@{POVRayDescription}!ObjCryst::Atom@{ObjCryst::Atom}}
+\subsubsection{\texorpdfstring{POVRayDescription()}{POVRayDescription()}}
+{\footnotesize\ttfamily ostream \& Obj\+Cryst\+::\+Atom\+::\+P\+O\+V\+Ray\+Description (\begin{DoxyParamCaption}\item[{ostream \&}]{os,  }\item[{const \mbox{\hyperlink{struct_obj_cryst_1_1_crystal_p_o_v_ray_options}{Crystal\+P\+O\+V\+Ray\+Options}} \&}]{options }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+X\+M\+L\+Output a description of the scatterer for P\+O\+V\+Ray. 
+
+
+
+Implements \mbox{\hyperlink{class_obj_cryst_1_1_scatterer}{Obj\+Cryst\+::\+Scatterer}}.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_obj_cryst_1_1_atom_aaf6475195502fff91903f30b5c6c3345_cgraph}
+\end{center}
+\end{figure}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+Atom.\+h\item 
+Atom.\+cpp\item 
+I\+O.\+cpp\end{DoxyCompactItemize}

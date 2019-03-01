@@ -1,0 +1,346 @@
+\hypertarget{class_obj_cryst_1_1_l_s_q_num_obj}{}\section{Obj\+Cryst\+::L\+S\+Q\+Num\+Obj Class Reference}
+\label{class_obj_cryst_1_1_l_s_q_num_obj}\index{ObjCryst::LSQNumObj@{ObjCryst::LSQNumObj}}
+
+
+(Quick \& dirty) Least-\/\+Squares Refinement Object with Numerical derivatives  
+
+
+
+
+{\ttfamily \#include $<$L\+S\+Q\+Num\+Obj.\+h$>$}
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_l_s_q_num_obj_a2ccb9fe18f1324eef38c6d24740bdf9b}\label{class_obj_cryst_1_1_l_s_q_num_obj_a2ccb9fe18f1324eef38c6d24740bdf9b}} 
+{\bfseries L\+S\+Q\+Num\+Obj} (std\+::string obj\+Name=\char`\"{}Unnamed L\+SQ object\char`\"{})
+\item 
+void \mbox{\hyperlink{class_obj_cryst_1_1_l_s_q_num_obj_a0bc210b1f4e4b7099493d71c1a7c084d}{Set\+Par\+Is\+Fixed}} (const std\+::string \&par\+Name, const bool fix)
+\item 
+void \mbox{\hyperlink{class_obj_cryst_1_1_l_s_q_num_obj_a1be81668c496a3232e4b8416a3414bf3}{Set\+Par\+Is\+Fixed}} (const \mbox{\hyperlink{class_obj_cryst_1_1_ref_par_type}{Ref\+Par\+Type}} $\ast$type, const bool fix)
+\item 
+void \mbox{\hyperlink{class_obj_cryst_1_1_l_s_q_num_obj_ad240667179e473c6c16e8928893dfdf8}{Set\+Par\+Is\+Fixed}} (\mbox{\hyperlink{class_obj_cryst_1_1_refinable_par}{Refinable\+Par}} \&par, const bool fix)
+\item 
+void \mbox{\hyperlink{class_obj_cryst_1_1_l_s_q_num_obj_a6fdf2b9d64a527b0c2e81f92fd9be2c3}{Set\+Par\+Is\+Fixed}} (\mbox{\hyperlink{class_obj_cryst_1_1_refinable_obj}{Refinable\+Obj}} \&obj, const bool fix)
+\item 
+void \mbox{\hyperlink{class_obj_cryst_1_1_l_s_q_num_obj_ad7a98f0a5a88f61ec49ba66f558fe567}{Un\+Fix\+All\+Par}} ()
+\item 
+void \mbox{\hyperlink{class_obj_cryst_1_1_l_s_q_num_obj_ab4da8ad96c83cb850145c028e0acb1a7}{Set\+Par\+Is\+Used}} (const std\+::string \&par\+Name, const bool use)
+\item 
+void \mbox{\hyperlink{class_obj_cryst_1_1_l_s_q_num_obj_a3164f80e5cecec4920aa8fae530a4ebe}{Set\+Par\+Is\+Used}} (const \mbox{\hyperlink{class_obj_cryst_1_1_ref_par_type}{Ref\+Par\+Type}} $\ast$type, const bool use)
+\item 
+void \mbox{\hyperlink{class_obj_cryst_1_1_l_s_q_num_obj_aaf5ceefe54c4fdfd0e48c3f5cd4f66b9}{Refine}} (int nb\+Cycle=1, bool use\+Levenberg\+Marquardt=false, const bool silent=false, const bool call\+Begin\+End\+Optimization=true, const float min\+Chi2var=0.\+01)
+\item 
+bool \mbox{\hyperlink{class_obj_cryst_1_1_l_s_q_num_obj_a61c7c1de61a88c742e0ab8194a6c8db9}{Safe\+Refine}} (std\+::list$<$ \mbox{\hyperlink{class_obj_cryst_1_1_refinable_par}{Refinable\+Par}} $\ast$ $>$ vnewpar, std\+::list$<$ const \mbox{\hyperlink{class_obj_cryst_1_1_ref_par_type}{Ref\+Par\+Type}} $\ast$ $>$ vnewpartype, R\+E\+AL max\+Chi2factor=1.\+01, int nb\+Cycle=1, bool use\+Levenberg\+Marquardt=false, const bool silent=false, const bool call\+Begin\+End\+Optimization=true, const float min\+Chi2var=0.\+01)
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_l_s_q_num_obj_a5d9dc0ea73f1a24a9b5597c6ca1bb24d}\label{class_obj_cryst_1_1_l_s_q_num_obj_a5d9dc0ea73f1a24a9b5597c6ca1bb24d}} 
+Cryst\+Vector\+\_\+\+R\+E\+AL {\bfseries Sigma} () const
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_l_s_q_num_obj_a848ab123263a5b5c2e68b8cb3be20fc5}\label{class_obj_cryst_1_1_l_s_q_num_obj_a848ab123263a5b5c2e68b8cb3be20fc5}} 
+Cryst\+Matrix\+\_\+\+R\+E\+AL {\bfseries Correl\+Matrix} () const
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_l_s_q_num_obj_ae4e75b95a8a7bcd7d48375f00baf3136}\label{class_obj_cryst_1_1_l_s_q_num_obj_ae4e75b95a8a7bcd7d48375f00baf3136}} 
+void {\bfseries Calc\+Rfactor} () const
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_l_s_q_num_obj_a1ee3fe63e440f215ac4c47c667a12589}\label{class_obj_cryst_1_1_l_s_q_num_obj_a1ee3fe63e440f215ac4c47c667a12589}} 
+R\+E\+AL {\bfseries Rfactor} () const
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_l_s_q_num_obj_a0c5ac737a9f8896cb75189812d24e286}\label{class_obj_cryst_1_1_l_s_q_num_obj_a0c5ac737a9f8896cb75189812d24e286}} 
+void {\bfseries Calc\+Rw\+Factor} () const
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_l_s_q_num_obj_a15240013ae99a29a3d6f7004c998aade}\label{class_obj_cryst_1_1_l_s_q_num_obj_a15240013ae99a29a3d6f7004c998aade}} 
+R\+E\+AL {\bfseries Rw\+Factor} () const
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_l_s_q_num_obj_aac385aa521db33e7949c899d1173637e}\label{class_obj_cryst_1_1_l_s_q_num_obj_aac385aa521db33e7949c899d1173637e}} 
+void {\bfseries Calc\+Chi\+Square} () const
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_l_s_q_num_obj_aeb993eb2d5321762809b8fc4b11eb2fc}\label{class_obj_cryst_1_1_l_s_q_num_obj_aeb993eb2d5321762809b8fc4b11eb2fc}} 
+R\+E\+AL {\bfseries Chi\+Square} () const
+\item 
+void \mbox{\hyperlink{class_obj_cryst_1_1_l_s_q_num_obj_ac093bab1bcb43aa4ea00f63fdb53063f}{Set\+Refined\+Obj}} (\mbox{\hyperlink{class_obj_cryst_1_1_refinable_obj}{Refinable\+Obj}} \&obj, const unsigned int L\+S\+Q\+Func\+Index=0, const bool init=true, const bool recursive=false)
+\item 
+const std\+::map$<$ \mbox{\hyperlink{class_obj_cryst_1_1_refinable_obj}{Refinable\+Obj}} $\ast$, unsigned int $>$ \& \mbox{\hyperlink{class_obj_cryst_1_1_l_s_q_num_obj_a67a9441f00f93e3ca73b1cab404bf565}{Get\+Refined\+Obj\+Map}} () const
+\item 
+std\+::map$<$ \mbox{\hyperlink{class_obj_cryst_1_1_refinable_obj}{Refinable\+Obj}} $\ast$, unsigned int $>$ \& \mbox{\hyperlink{class_obj_cryst_1_1_l_s_q_num_obj_a8dcad64f6e47e1722ba6946f879cdaa4}{Get\+Refined\+Obj\+Map}} ()
+\item 
+\mbox{\hyperlink{class_obj_cryst_1_1_refinable_obj}{Refinable\+Obj}} \& \mbox{\hyperlink{class_obj_cryst_1_1_l_s_q_num_obj_ac3f32c7adf83c788c43c16c07ad00630}{Get\+Compiled\+Refined\+Obj}} ()
+\item 
+const \mbox{\hyperlink{class_obj_cryst_1_1_refinable_obj}{Refinable\+Obj}} \& \mbox{\hyperlink{class_obj_cryst_1_1_l_s_q_num_obj_a6ddb54f933db8da5d006ed964a96fa94}{Get\+Compiled\+Refined\+Obj}} () const
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_l_s_q_num_obj_a5052fda0d9764bf06f985ec9443fa145}\label{class_obj_cryst_1_1_l_s_q_num_obj_a5052fda0d9764bf06f985ec9443fa145}} 
+void {\bfseries Set\+Use\+Save\+File\+On\+Each\+Cycle} (bool yes\+Or\+No=true)
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_l_s_q_num_obj_a62fe3d8067ee765448a0042a9a34bf2f}\label{class_obj_cryst_1_1_l_s_q_num_obj_a62fe3d8067ee765448a0042a9a34bf2f}} 
+void {\bfseries Set\+Save\+File} (std\+::string file\+Name=\char`\"{}refine.\+save\char`\"{})
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_l_s_q_num_obj_a590576091aa956f5451380a4e4fbdf56}\label{class_obj_cryst_1_1_l_s_q_num_obj_a590576091aa956f5451380a4e4fbdf56}} 
+void {\bfseries Print\+Ref\+Results} () const
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_l_s_q_num_obj_a0eb066c4614a884d6da923c575d31132}\label{class_obj_cryst_1_1_l_s_q_num_obj_a0eb066c4614a884d6da923c575d31132}} 
+void {\bfseries Set\+Damping\+Factor} (const R\+E\+AL new\+Damp\+Fact)
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_l_s_q_num_obj_ab91c3db60b9ce7de78a39191436878ae}\label{class_obj_cryst_1_1_l_s_q_num_obj_ab91c3db60b9ce7de78a39191436878ae}} 
+void {\bfseries Purge\+Save\+File} ()
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_l_s_q_num_obj_a96c96355c925ea920ccee5d5d284e7c3}\label{class_obj_cryst_1_1_l_s_q_num_obj_a96c96355c925ea920ccee5d5d284e7c3}} 
+void {\bfseries Write\+Report\+To\+File} () const
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_l_s_q_num_obj_a29f4c2161390356d75ca1caec508a263}\label{class_obj_cryst_1_1_l_s_q_num_obj_a29f4c2161390356d75ca1caec508a263}} 
+void {\bfseries Optimize\+Derivative\+Steps} ()
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_l_s_q_num_obj_a51bea0861a95fc0037253a8b0ed7bd72}\label{class_obj_cryst_1_1_l_s_q_num_obj_a51bea0861a95fc0037253a8b0ed7bd72}} 
+const std\+::map$<$ pair$<$ const \mbox{\hyperlink{class_obj_cryst_1_1_refinable_par}{Refinable\+Par}} $\ast$, const \mbox{\hyperlink{class_obj_cryst_1_1_refinable_par}{Refinable\+Par}} $\ast$ $>$, R\+E\+AL $>$ \& {\bfseries Get\+Variance\+Covariance\+Map} () const
+\item 
+void \mbox{\hyperlink{class_obj_cryst_1_1_l_s_q_num_obj_afdeb58450a3e0506fc02a0b5df15a600}{Prepare\+Ref\+Par\+List}} (const bool copy\+\_\+param=false)
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_l_s_q_num_obj_a14a066b9584d08650e6af409efa4d227}\label{class_obj_cryst_1_1_l_s_q_num_obj_a14a066b9584d08650e6af409efa4d227}} 
+const Cryst\+Vector\+\_\+\+R\+E\+AL \& \mbox{\hyperlink{class_obj_cryst_1_1_l_s_q_num_obj_a14a066b9584d08650e6af409efa4d227}{Get\+L\+S\+Q\+Calc}} () const
+\begin{DoxyCompactList}\small\item\em Get the L\+SQ calc vector (using either only the top or the hierarchy of object) \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_l_s_q_num_obj_aa31843004c510a2d98063c54d410521d}\label{class_obj_cryst_1_1_l_s_q_num_obj_aa31843004c510a2d98063c54d410521d}} 
+const Cryst\+Vector\+\_\+\+R\+E\+AL \& \mbox{\hyperlink{class_obj_cryst_1_1_l_s_q_num_obj_aa31843004c510a2d98063c54d410521d}{Get\+L\+S\+Q\+Obs}} () const
+\begin{DoxyCompactList}\small\item\em Get the L\+SQ obs vector (using either only the top or the hierarchy of object) \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_l_s_q_num_obj_a9d52c7a1eef7a810189c0ca96ade3ecf}\label{class_obj_cryst_1_1_l_s_q_num_obj_a9d52c7a1eef7a810189c0ca96ade3ecf}} 
+const Cryst\+Vector\+\_\+\+R\+E\+AL \& \mbox{\hyperlink{class_obj_cryst_1_1_l_s_q_num_obj_a9d52c7a1eef7a810189c0ca96ade3ecf}{Get\+L\+S\+Q\+Weight}} () const
+\begin{DoxyCompactList}\small\item\em Get the L\+SQ weight vector (using either only the top or the hierarchy of object) \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_l_s_q_num_obj_ad0510e8765e20c74f72d0c36daf94f86}\label{class_obj_cryst_1_1_l_s_q_num_obj_ad0510e8765e20c74f72d0c36daf94f86}} 
+const Cryst\+Vector\+\_\+\+R\+E\+AL \& \mbox{\hyperlink{class_obj_cryst_1_1_l_s_q_num_obj_ad0510e8765e20c74f72d0c36daf94f86}{Get\+L\+S\+Q\+Deriv}} (\mbox{\hyperlink{class_obj_cryst_1_1_refinable_par}{Refinable\+Par}} \&par)
+\begin{DoxyCompactList}\small\item\em Get the L\+SQ deriv vector (using either only the top or the hierarchy of object) \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_l_s_q_num_obj_a0ec930c38802fb8db5babbdecebc510b}\label{class_obj_cryst_1_1_l_s_q_num_obj_a0ec930c38802fb8db5babbdecebc510b}} 
+const std\+::map$<$ \mbox{\hyperlink{class_obj_cryst_1_1_refinable_par}{Refinable\+Par}} $\ast$, Cryst\+Vector\+\_\+\+R\+E\+AL $>$ \& {\bfseries Get\+L\+S\+Q\+\_\+\+Full\+Deriv} ()
+\item 
+void \mbox{\hyperlink{class_obj_cryst_1_1_l_s_q_num_obj_a6230c952ec8fc2c0ed63ac1b4de232a5}{Begin\+Optimization}} (const bool allow\+Approximations=false, const bool enable\+Restraints=false)
+\item 
+void \mbox{\hyperlink{class_obj_cryst_1_1_l_s_q_num_obj_a4c6168e319fd4a8f949997d1b54012ba}{End\+Optimization}} ()
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+(Quick \& dirty) Least-\/\+Squares Refinement Object with Numerical derivatives 
+
+This is still highly experimental ! 
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{class_obj_cryst_1_1_l_s_q_num_obj_a6230c952ec8fc2c0ed63ac1b4de232a5}\label{class_obj_cryst_1_1_l_s_q_num_obj_a6230c952ec8fc2c0ed63ac1b4de232a5}} 
+\index{ObjCryst::LSQNumObj@{ObjCryst::LSQNumObj}!BeginOptimization@{BeginOptimization}}
+\index{BeginOptimization@{BeginOptimization}!ObjCryst::LSQNumObj@{ObjCryst::LSQNumObj}}
+\subsubsection{\texorpdfstring{BeginOptimization()}{BeginOptimization()}}
+{\footnotesize\ttfamily void Obj\+Cryst\+::\+L\+S\+Q\+Num\+Obj\+::\+Begin\+Optimization (\begin{DoxyParamCaption}\item[{const bool}]{allow\+Approximations = {\ttfamily false},  }\item[{const bool}]{enable\+Restraints = {\ttfamily false} }\end{DoxyParamCaption})}
+
+Tell all refined object that the refinement is beginning \mbox{\Hypertarget{class_obj_cryst_1_1_l_s_q_num_obj_a4c6168e319fd4a8f949997d1b54012ba}\label{class_obj_cryst_1_1_l_s_q_num_obj_a4c6168e319fd4a8f949997d1b54012ba}} 
+\index{ObjCryst::LSQNumObj@{ObjCryst::LSQNumObj}!EndOptimization@{EndOptimization}}
+\index{EndOptimization@{EndOptimization}!ObjCryst::LSQNumObj@{ObjCryst::LSQNumObj}}
+\subsubsection{\texorpdfstring{EndOptimization()}{EndOptimization()}}
+{\footnotesize\ttfamily void Obj\+Cryst\+::\+L\+S\+Q\+Num\+Obj\+::\+End\+Optimization (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Tell all refined object that the refinement is finished \mbox{\Hypertarget{class_obj_cryst_1_1_l_s_q_num_obj_ac3f32c7adf83c788c43c16c07ad00630}\label{class_obj_cryst_1_1_l_s_q_num_obj_ac3f32c7adf83c788c43c16c07ad00630}} 
+\index{ObjCryst::LSQNumObj@{ObjCryst::LSQNumObj}!GetCompiledRefinedObj@{GetCompiledRefinedObj}}
+\index{GetCompiledRefinedObj@{GetCompiledRefinedObj}!ObjCryst::LSQNumObj@{ObjCryst::LSQNumObj}}
+\subsubsection{\texorpdfstring{GetCompiledRefinedObj()}{GetCompiledRefinedObj()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_obj_cryst_1_1_refinable_obj}{Refinable\+Obj}} \& Obj\+Cryst\+::\+L\+S\+Q\+Num\+Obj\+::\+Get\+Compiled\+Refined\+Obj (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Access to the \mbox{\hyperlink{class_obj_cryst_1_1_refinable_obj}{Refinable\+Obj}} which is the compilation of all parameters from the object supplied for optimization and its sub-\/objects.
+
+Since this compilation is only updated from the suplied refinableobj and its sub-\/objects when \mbox{\hyperlink{class_obj_cryst_1_1_l_s_q_num_obj_ac093bab1bcb43aa4ea00f63fdb53063f}{Set\+Refined\+Obj()}} and \mbox{\hyperlink{class_obj_cryst_1_1_l_s_q_num_obj_afdeb58450a3e0506fc02a0b5df15a600}{Prepare\+Ref\+Par\+List()}} are called, it is possible to alter the fixed/limited status of parameters here without affecting the parameters in the refined objects. \mbox{\Hypertarget{class_obj_cryst_1_1_l_s_q_num_obj_a6ddb54f933db8da5d006ed964a96fa94}\label{class_obj_cryst_1_1_l_s_q_num_obj_a6ddb54f933db8da5d006ed964a96fa94}} 
+\index{ObjCryst::LSQNumObj@{ObjCryst::LSQNumObj}!GetCompiledRefinedObj@{GetCompiledRefinedObj}}
+\index{GetCompiledRefinedObj@{GetCompiledRefinedObj}!ObjCryst::LSQNumObj@{ObjCryst::LSQNumObj}}
+\subsubsection{\texorpdfstring{GetCompiledRefinedObj()}{GetCompiledRefinedObj()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily const \mbox{\hyperlink{class_obj_cryst_1_1_refinable_obj}{Refinable\+Obj}} \& Obj\+Cryst\+::\+L\+S\+Q\+Num\+Obj\+::\+Get\+Compiled\+Refined\+Obj (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+Access to the \mbox{\hyperlink{class_obj_cryst_1_1_refinable_obj}{Refinable\+Obj}} which is the compilation of all parameters from the object supplied for optimization and its sub-\/objects.
+
+Since this compilation is only updated from the suplied refinableobj and its sub-\/objects when \mbox{\hyperlink{class_obj_cryst_1_1_l_s_q_num_obj_ac093bab1bcb43aa4ea00f63fdb53063f}{Set\+Refined\+Obj()}} and \mbox{\hyperlink{class_obj_cryst_1_1_l_s_q_num_obj_afdeb58450a3e0506fc02a0b5df15a600}{Prepare\+Ref\+Par\+List()}} are called, it is possible to alter the fixed/limited status of parameters here without affecting the parameters in the refined objects. \mbox{\Hypertarget{class_obj_cryst_1_1_l_s_q_num_obj_a67a9441f00f93e3ca73b1cab404bf565}\label{class_obj_cryst_1_1_l_s_q_num_obj_a67a9441f00f93e3ca73b1cab404bf565}} 
+\index{ObjCryst::LSQNumObj@{ObjCryst::LSQNumObj}!GetRefinedObjMap@{GetRefinedObjMap}}
+\index{GetRefinedObjMap@{GetRefinedObjMap}!ObjCryst::LSQNumObj@{ObjCryst::LSQNumObj}}
+\subsubsection{\texorpdfstring{GetRefinedObjMap()}{GetRefinedObjMap()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily const map$<$ \mbox{\hyperlink{class_obj_cryst_1_1_refinable_obj}{Refinable\+Obj}} $\ast$, unsigned int $>$ \& Obj\+Cryst\+::\+L\+S\+Q\+Num\+Obj\+::\+Get\+Refined\+Obj\+Map (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+Get the map of refined objects -\/ this is a recursive list of all the objects that are taken into account for the refinement. The key is a pointer to the object and the value is the L\+SQ function index for that object. Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_obj_cryst_1_1_l_s_q_num_obj_a67a9441f00f93e3ca73b1cab404bf565_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_obj_cryst_1_1_l_s_q_num_obj_a8dcad64f6e47e1722ba6946f879cdaa4}\label{class_obj_cryst_1_1_l_s_q_num_obj_a8dcad64f6e47e1722ba6946f879cdaa4}} 
+\index{ObjCryst::LSQNumObj@{ObjCryst::LSQNumObj}!GetRefinedObjMap@{GetRefinedObjMap}}
+\index{GetRefinedObjMap@{GetRefinedObjMap}!ObjCryst::LSQNumObj@{ObjCryst::LSQNumObj}}
+\subsubsection{\texorpdfstring{GetRefinedObjMap()}{GetRefinedObjMap()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily map$<$ \mbox{\hyperlink{class_obj_cryst_1_1_refinable_obj}{Refinable\+Obj}} $\ast$, unsigned int $>$ \& Obj\+Cryst\+::\+L\+S\+Q\+Num\+Obj\+::\+Get\+Refined\+Obj\+Map (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Get the map of refined objects -\/ this is a recursive list of all the objects that are taken into account for the refinement. The key is a pointer to the object and the value is the L\+SQ function index for that object. \mbox{\Hypertarget{class_obj_cryst_1_1_l_s_q_num_obj_afdeb58450a3e0506fc02a0b5df15a600}\label{class_obj_cryst_1_1_l_s_q_num_obj_afdeb58450a3e0506fc02a0b5df15a600}} 
+\index{ObjCryst::LSQNumObj@{ObjCryst::LSQNumObj}!PrepareRefParList@{PrepareRefParList}}
+\index{PrepareRefParList@{PrepareRefParList}!ObjCryst::LSQNumObj@{ObjCryst::LSQNumObj}}
+\subsubsection{\texorpdfstring{PrepareRefParList()}{PrepareRefParList()}}
+{\footnotesize\ttfamily void Obj\+Cryst\+::\+L\+S\+Q\+Num\+Obj\+::\+Prepare\+Ref\+Par\+List (\begin{DoxyParamCaption}\item[{const bool}]{copy\+\_\+param = {\ttfamily false} }\end{DoxyParamCaption})}
+
+Prepare the full parameter list for the refinement 
+\begin{DoxyParams}{Parameters}
+{\em copy\+\_\+param} & if false (the default), then the lsq algorithm will work directly on the parameters of the refined object and sub-\/object. So that any modification to the fixed/used/limited status applies permanently to the parameters. if true, then the parameters are copied and therefore only the value of the parameter is changed (and the clocks are ticked).\\
+\hline
+\end{DoxyParams}
+\begin{DoxyNote}{Note}
+\+: if copy\+\_\+param==true, then any modification to the parameters (fixed, limited, used status) only affects the copy and not the original. Also, calling again Prepare\+Ref\+Par\+List cancels any such modification.
+
+This will be called automatically before starting the refinement only if the parameter list is empty. Otherwise it should be called before refinement. 
+\end{DoxyNote}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_obj_cryst_1_1_l_s_q_num_obj_afdeb58450a3e0506fc02a0b5df15a600_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_obj_cryst_1_1_l_s_q_num_obj_aaf5ceefe54c4fdfd0e48c3f5cd4f66b9}\label{class_obj_cryst_1_1_l_s_q_num_obj_aaf5ceefe54c4fdfd0e48c3f5cd4f66b9}} 
+\index{ObjCryst::LSQNumObj@{ObjCryst::LSQNumObj}!Refine@{Refine}}
+\index{Refine@{Refine}!ObjCryst::LSQNumObj@{ObjCryst::LSQNumObj}}
+\subsubsection{\texorpdfstring{Refine()}{Refine()}}
+{\footnotesize\ttfamily void Obj\+Cryst\+::\+L\+S\+Q\+Num\+Obj\+::\+Refine (\begin{DoxyParamCaption}\item[{int}]{nb\+Cycle = {\ttfamily 1},  }\item[{bool}]{use\+Levenberg\+Marquardt = {\ttfamily false},  }\item[{const bool}]{silent = {\ttfamily false},  }\item[{const bool}]{call\+Begin\+End\+Optimization = {\ttfamily true},  }\item[{const float}]{min\+Chi2var = {\ttfamily 0.01} }\end{DoxyParamCaption})}
+
+Do the refinement
+
+
+\begin{DoxyParams}{Parameters}
+{\em nb\+Cycle} & number of L\+SQ cycles -\/ if negative, the algorithm will continue until it reaches (-\/nbcycle) or until the relative variation in Chi2 is less than min\+Chi2var \\
+\hline
+{\em use\+Levenberg\+Marquardt} & enable Levenberg-\/\+Marquardt algorithm to ensure that a decrease of Chi$^\wedge$2 will be obtained (actually a 1\% increase is allowed) \\
+\hline
+{\em call\+Begin\+End\+Optimization} & if true, will call Refinable\+Obj\+::\+Begin\+Optimization(true,...) and \mbox{\hyperlink{class_obj_cryst_1_1_refinable_obj_a05342aa16f7b0c0a2cf3380de16f75ef}{Refinable\+Obj\+::\+End\+Optimization()}}. You may not want this if the L\+SQ is done during another (e.\+g. monte-\/carlo) optimization -\/ but then the calling function {\bfseries{must}} ensure that approximations are disabled (using \mbox{\hyperlink{class_obj_cryst_1_1_refinable_obj_a4cec55794b964b148ef44bf244ad4104}{Refinable\+Obj\+::\+Set\+Approximation\+Flag}}) for objects where that would render derivative calculations imprecise. \\
+\hline
+{\em min\+Chi2var} & used for termination of the refinement if the relative variation of Chi2 between two successive cyles is less than min\+Chi2var \\
+\hline
+\end{DoxyParams}
+Applying new computed values \+:T\+O\+DO\+: \& Check if a limit has been hit \mbox{\Hypertarget{class_obj_cryst_1_1_l_s_q_num_obj_a61c7c1de61a88c742e0ab8194a6c8db9}\label{class_obj_cryst_1_1_l_s_q_num_obj_a61c7c1de61a88c742e0ab8194a6c8db9}} 
+\index{ObjCryst::LSQNumObj@{ObjCryst::LSQNumObj}!SafeRefine@{SafeRefine}}
+\index{SafeRefine@{SafeRefine}!ObjCryst::LSQNumObj@{ObjCryst::LSQNumObj}}
+\subsubsection{\texorpdfstring{SafeRefine()}{SafeRefine()}}
+{\footnotesize\ttfamily bool Obj\+Cryst\+::\+L\+S\+Q\+Num\+Obj\+::\+Safe\+Refine (\begin{DoxyParamCaption}\item[{std\+::list$<$ \mbox{\hyperlink{class_obj_cryst_1_1_refinable_par}{Refinable\+Par}} $\ast$ $>$}]{vnewpar,  }\item[{std\+::list$<$ const \mbox{\hyperlink{class_obj_cryst_1_1_ref_par_type}{Ref\+Par\+Type}} $\ast$ $>$}]{vnewpartype,  }\item[{R\+E\+AL}]{max\+Chi2factor = {\ttfamily 1.01},  }\item[{int}]{nb\+Cycle = {\ttfamily 1},  }\item[{bool}]{use\+Levenberg\+Marquardt = {\ttfamily false},  }\item[{const bool}]{silent = {\ttfamily false},  }\item[{const bool}]{call\+Begin\+End\+Optimization = {\ttfamily true},  }\item[{const float}]{min\+Chi2var = {\ttfamily 0.01} }\end{DoxyParamCaption})}
+
+Run a refinement in a \textquotesingle{}safe\textquotesingle{} way\+: if the Chi2 value increases by more that a given factor the parameters are reverted to their initial values. Moreover, the listed \textquotesingle{}new\textquotesingle{} parameters or parameter types are then fixed. 
+\begin{DoxyParams}{Parameters}
+{\em vnewpar} & list of parameters added for this optimization, which will be unfixed at the beginning, and will be fixed at the end if Chi2 increases. This can be empty. \\
+\hline
+{\em vnewpartype} & list of parameter types, which will be unfixed at the beginning, and will be fixed at the end if Chi2 increases. This can be empty. \\
+\hline
+{\em max\+Chi2factor} & if Chi2\+\_\+end$>$ max\+Chi2factor $\ast$ Chi2\+\_\+begin, parameters are reverted to their initial value, and new parameters are fixed. All the other parameters are the same as in \mbox{\hyperlink{class_obj_cryst_1_1_l_s_q_num_obj_aaf5ceefe54c4fdfd0e48c3f5cd4f66b9}{L\+S\+Q\+Num\+Obj\+::\+Refine}}. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\+: true if the minimization was succesful, false otherwise. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_obj_cryst_1_1_l_s_q_num_obj_a0bc210b1f4e4b7099493d71c1a7c084d}\label{class_obj_cryst_1_1_l_s_q_num_obj_a0bc210b1f4e4b7099493d71c1a7c084d}} 
+\index{ObjCryst::LSQNumObj@{ObjCryst::LSQNumObj}!SetParIsFixed@{SetParIsFixed}}
+\index{SetParIsFixed@{SetParIsFixed}!ObjCryst::LSQNumObj@{ObjCryst::LSQNumObj}}
+\subsubsection{\texorpdfstring{SetParIsFixed()}{SetParIsFixed()}\hspace{0.1cm}{\footnotesize\ttfamily [1/4]}}
+{\footnotesize\ttfamily void Obj\+Cryst\+::\+L\+S\+Q\+Num\+Obj\+::\+Set\+Par\+Is\+Fixed (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{par\+Name,  }\item[{const bool}]{fix }\end{DoxyParamCaption})}
+
+Fix one parameter.
+
+\mbox{\hyperlink{class_obj_cryst_1_1_l_s_q_num_obj_afdeb58450a3e0506fc02a0b5df15a600}{L\+S\+Q\+Num\+Obj\+::\+Prepare\+Ref\+Par\+List()}} must be called first! Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_obj_cryst_1_1_l_s_q_num_obj_a0bc210b1f4e4b7099493d71c1a7c084d_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_obj_cryst_1_1_l_s_q_num_obj_a1be81668c496a3232e4b8416a3414bf3}\label{class_obj_cryst_1_1_l_s_q_num_obj_a1be81668c496a3232e4b8416a3414bf3}} 
+\index{ObjCryst::LSQNumObj@{ObjCryst::LSQNumObj}!SetParIsFixed@{SetParIsFixed}}
+\index{SetParIsFixed@{SetParIsFixed}!ObjCryst::LSQNumObj@{ObjCryst::LSQNumObj}}
+\subsubsection{\texorpdfstring{SetParIsFixed()}{SetParIsFixed()}\hspace{0.1cm}{\footnotesize\ttfamily [2/4]}}
+{\footnotesize\ttfamily void Obj\+Cryst\+::\+L\+S\+Q\+Num\+Obj\+::\+Set\+Par\+Is\+Fixed (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{class_obj_cryst_1_1_ref_par_type}{Ref\+Par\+Type}} $\ast$}]{type,  }\item[{const bool}]{fix }\end{DoxyParamCaption})}
+
+Fix one family of parameters
+
+\mbox{\hyperlink{class_obj_cryst_1_1_l_s_q_num_obj_afdeb58450a3e0506fc02a0b5df15a600}{L\+S\+Q\+Num\+Obj\+::\+Prepare\+Ref\+Par\+List()}} must be called first! \mbox{\Hypertarget{class_obj_cryst_1_1_l_s_q_num_obj_ad240667179e473c6c16e8928893dfdf8}\label{class_obj_cryst_1_1_l_s_q_num_obj_ad240667179e473c6c16e8928893dfdf8}} 
+\index{ObjCryst::LSQNumObj@{ObjCryst::LSQNumObj}!SetParIsFixed@{SetParIsFixed}}
+\index{SetParIsFixed@{SetParIsFixed}!ObjCryst::LSQNumObj@{ObjCryst::LSQNumObj}}
+\subsubsection{\texorpdfstring{SetParIsFixed()}{SetParIsFixed()}\hspace{0.1cm}{\footnotesize\ttfamily [3/4]}}
+{\footnotesize\ttfamily void Obj\+Cryst\+::\+L\+S\+Q\+Num\+Obj\+::\+Set\+Par\+Is\+Fixed (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_obj_cryst_1_1_refinable_par}{Refinable\+Par}} \&}]{par,  }\item[{const bool}]{fix }\end{DoxyParamCaption})}
+
+Fix one parameter
+
+Note that this will fix the copied parameter, not the one in the original object. The supplied \mbox{\hyperlink{class_obj_cryst_1_1_refinable_par}{Refinable\+Par}} may be either the copied one or the original.
+
+\mbox{\hyperlink{class_obj_cryst_1_1_l_s_q_num_obj_afdeb58450a3e0506fc02a0b5df15a600}{L\+S\+Q\+Num\+Obj\+::\+Prepare\+Ref\+Par\+List()}} must be called first! Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_obj_cryst_1_1_l_s_q_num_obj_ad240667179e473c6c16e8928893dfdf8_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_obj_cryst_1_1_l_s_q_num_obj_a6fdf2b9d64a527b0c2e81f92fd9be2c3}\label{class_obj_cryst_1_1_l_s_q_num_obj_a6fdf2b9d64a527b0c2e81f92fd9be2c3}} 
+\index{ObjCryst::LSQNumObj@{ObjCryst::LSQNumObj}!SetParIsFixed@{SetParIsFixed}}
+\index{SetParIsFixed@{SetParIsFixed}!ObjCryst::LSQNumObj@{ObjCryst::LSQNumObj}}
+\subsubsection{\texorpdfstring{SetParIsFixed()}{SetParIsFixed()}\hspace{0.1cm}{\footnotesize\ttfamily [4/4]}}
+{\footnotesize\ttfamily void Obj\+Cryst\+::\+L\+S\+Q\+Num\+Obj\+::\+Set\+Par\+Is\+Fixed (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_obj_cryst_1_1_refinable_obj}{Refinable\+Obj}} \&}]{obj,  }\item[{const bool}]{fix }\end{DoxyParamCaption})}
+
+Fix all parameters within an object
+
+Note that this will fix the copied parameters, not the one in the original objects.
+
+\mbox{\hyperlink{class_obj_cryst_1_1_l_s_q_num_obj_afdeb58450a3e0506fc02a0b5df15a600}{L\+S\+Q\+Num\+Obj\+::\+Prepare\+Ref\+Par\+List()}} must be called first! Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_obj_cryst_1_1_l_s_q_num_obj_a6fdf2b9d64a527b0c2e81f92fd9be2c3_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_obj_cryst_1_1_l_s_q_num_obj_ab4da8ad96c83cb850145c028e0acb1a7}\label{class_obj_cryst_1_1_l_s_q_num_obj_ab4da8ad96c83cb850145c028e0acb1a7}} 
+\index{ObjCryst::LSQNumObj@{ObjCryst::LSQNumObj}!SetParIsUsed@{SetParIsUsed}}
+\index{SetParIsUsed@{SetParIsUsed}!ObjCryst::LSQNumObj@{ObjCryst::LSQNumObj}}
+\subsubsection{\texorpdfstring{SetParIsUsed()}{SetParIsUsed()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily void Obj\+Cryst\+::\+L\+S\+Q\+Num\+Obj\+::\+Set\+Par\+Is\+Used (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{par\+Name,  }\item[{const bool}]{use }\end{DoxyParamCaption})}
+
+Set a parameter to be used
+
+\mbox{\hyperlink{class_obj_cryst_1_1_l_s_q_num_obj_afdeb58450a3e0506fc02a0b5df15a600}{L\+S\+Q\+Num\+Obj\+::\+Prepare\+Ref\+Par\+List()}} must be called first! \mbox{\Hypertarget{class_obj_cryst_1_1_l_s_q_num_obj_a3164f80e5cecec4920aa8fae530a4ebe}\label{class_obj_cryst_1_1_l_s_q_num_obj_a3164f80e5cecec4920aa8fae530a4ebe}} 
+\index{ObjCryst::LSQNumObj@{ObjCryst::LSQNumObj}!SetParIsUsed@{SetParIsUsed}}
+\index{SetParIsUsed@{SetParIsUsed}!ObjCryst::LSQNumObj@{ObjCryst::LSQNumObj}}
+\subsubsection{\texorpdfstring{SetParIsUsed()}{SetParIsUsed()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily void Obj\+Cryst\+::\+L\+S\+Q\+Num\+Obj\+::\+Set\+Par\+Is\+Used (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{class_obj_cryst_1_1_ref_par_type}{Ref\+Par\+Type}} $\ast$}]{type,  }\item[{const bool}]{use }\end{DoxyParamCaption})}
+
+Set a family of parameters to be used
+
+\mbox{\hyperlink{class_obj_cryst_1_1_l_s_q_num_obj_afdeb58450a3e0506fc02a0b5df15a600}{L\+S\+Q\+Num\+Obj\+::\+Prepare\+Ref\+Par\+List()}} must be called first! \mbox{\Hypertarget{class_obj_cryst_1_1_l_s_q_num_obj_ac093bab1bcb43aa4ea00f63fdb53063f}\label{class_obj_cryst_1_1_l_s_q_num_obj_ac093bab1bcb43aa4ea00f63fdb53063f}} 
+\index{ObjCryst::LSQNumObj@{ObjCryst::LSQNumObj}!SetRefinedObj@{SetRefinedObj}}
+\index{SetRefinedObj@{SetRefinedObj}!ObjCryst::LSQNumObj@{ObjCryst::LSQNumObj}}
+\subsubsection{\texorpdfstring{SetRefinedObj()}{SetRefinedObj()}}
+{\footnotesize\ttfamily void Obj\+Cryst\+::\+L\+S\+Q\+Num\+Obj\+::\+Set\+Refined\+Obj (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_obj_cryst_1_1_refinable_obj}{Refinable\+Obj}} \&}]{obj,  }\item[{const unsigned int}]{L\+S\+Q\+Func\+Index = {\ttfamily 0},  }\item[{const bool}]{init = {\ttfamily true},  }\item[{const bool}]{recursive = {\ttfamily false} }\end{DoxyParamCaption})}
+
+Choose the object to refine. The minimization will be done against its L\+SQ function and its parameters, as well as the L\+SQ functions and parameters of its sub-\/objects (if recursive==true)
+
+
+\begin{DoxyParams}{Parameters}
+{\em L\+S\+Q\+Func\+Index} & one object can have a choice of several L\+SQ functions to minimize-\/ this allows to choose which one to minimize.\\
+\hline
+{\em init} & if true, the list of refined objects is first cleared. otherwise the new object (and its sub-\/objects) is just added to the list.\\
+\hline
+{\em recursive} & if false, only the supplied object is added, and not its sub-\/objects \\
+\hline
+\end{DoxyParams}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_obj_cryst_1_1_l_s_q_num_obj_ac093bab1bcb43aa4ea00f63fdb53063f_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_obj_cryst_1_1_l_s_q_num_obj_ad7a98f0a5a88f61ec49ba66f558fe567}\label{class_obj_cryst_1_1_l_s_q_num_obj_ad7a98f0a5a88f61ec49ba66f558fe567}} 
+\index{ObjCryst::LSQNumObj@{ObjCryst::LSQNumObj}!UnFixAllPar@{UnFixAllPar}}
+\index{UnFixAllPar@{UnFixAllPar}!ObjCryst::LSQNumObj@{ObjCryst::LSQNumObj}}
+\subsubsection{\texorpdfstring{UnFixAllPar()}{UnFixAllPar()}}
+{\footnotesize\ttfamily void Obj\+Cryst\+::\+L\+S\+Q\+Num\+Obj\+::\+Un\+Fix\+All\+Par (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Un\+Fix All parameters
+
+\mbox{\hyperlink{class_obj_cryst_1_1_l_s_q_num_obj_afdeb58450a3e0506fc02a0b5df15a600}{L\+S\+Q\+Num\+Obj\+::\+Prepare\+Ref\+Par\+List()}} must be called first! 
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+L\+S\+Q\+Num\+Obj.\+h\item 
+L\+S\+Q\+Num\+Obj.\+cpp\end{DoxyCompactItemize}

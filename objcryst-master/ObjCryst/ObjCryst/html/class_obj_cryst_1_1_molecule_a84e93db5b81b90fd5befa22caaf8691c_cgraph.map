@@ -1,0 +1,10 @@
+<map id="ObjCryst::Molecule::RotateAtomGroup" name="ObjCryst::Molecule::RotateAtomGroup">
+<area shape="rect" id="node1" title=" " alt="" coords="5,129,142,168"/>
+<area shape="rect" id="node2" href="$class_obj_cryst_1_1_quaternion.html#a530f0de9cea9dc7ac595722a0a636e2a" title="Create a rotation quaternion around a given vector for a given angle." alt="" coords="456,5,603,44"/>
+<area shape="rect" id="node4" href="$class_obj_cryst_1_1_quaternion.html#af8c6c41e1af3f0f0f1031dc3fe936254" title="Rotate vector v=(v1,v2,v3). The rotated components are directly written." alt="" coords="225,67,372,105"/>
+<area shape="rect" id="node6" href="$class_obj_cryst_1_1_molecule.html#a839d362bb9c2e6f0951caf00c8c8e92c" title="Number of components in the scatterer (eg number of point scatterers)" alt="" coords="231,129,367,168"/>
+<area shape="rect" id="node7" href="$class_obj_cryst_1_1_scatterer.html#a733922e9273220375cef87359773dc25" title="In which crystal is this Scatterer included ?" alt="" coords="231,192,366,231"/>
+<area shape="rect" id="node8" href="$class_obj_cryst_1_1_unit_cell.html#a69debaf9dc539baf3c5ccc599ae614cd" title="Get fractional cartesian coordinates for a set of (x,y,z) orthonormal coordinates." alt="" coords="190,255,408,293"/>
+<area shape="rect" id="node3" href="$class_obj_cryst_1_1_quaternion.html#af5260414dcf9aaeb479370b55542ad58" title="Default constructor, yields q=(1,0,0,0)" alt="" coords="651,37,797,76"/>
+<area shape="rect" id="node5" href="$class_obj_cryst_1_1_quaternion.html#a0d0d7b809d9447a70e2d91902ca0afcd" title="Get the conjugate of this quaternion (== the inverse if unit quaternion)" alt="" coords="456,68,603,107"/>
+</map>

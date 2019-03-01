@@ -1,0 +1,156 @@
+\hypertarget{class_obj_cryst_1_1_ref_obj_opt}{}\section{Obj\+Cryst\+::Ref\+Obj\+Opt Class Reference}
+\label{class_obj_cryst_1_1_ref_obj_opt}\index{ObjCryst::RefObjOpt@{ObjCryst::RefObjOpt}}
+
+
+{\ttfamily \#include $<$Refinable\+Obj.\+h$>$}
+
+
+
+Inheritance diagram for Obj\+Cryst\+::Ref\+Obj\+Opt\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=224pt]{class_obj_cryst_1_1_ref_obj_opt__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Obj\+Cryst\+::Ref\+Obj\+Opt\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=223pt]{class_obj_cryst_1_1_ref_obj_opt__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_obj_cryst_1_1_ref_obj_opt_ad4fd60241264e22179c9ab33fc58867f}{Ref\+Obj\+Opt}} ()
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_ref_obj_opt_acb2124833f426224863027d1f3f0e9d6}\label{class_obj_cryst_1_1_ref_obj_opt_acb2124833f426224863027d1f3f0e9d6}} 
+void {\bfseries Init} (const int nb\+Choice, const string $\ast$name, const string $\ast$choice\+Names)
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_ref_obj_opt_a682168d813d16167b59a8888ecaedff0}\label{class_obj_cryst_1_1_ref_obj_opt_a682168d813d16167b59a8888ecaedff0}} 
+int {\bfseries Get\+Nb\+Choice} () const
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_ref_obj_opt_a023fe7017577d7b5c8b44123869186f5}\label{class_obj_cryst_1_1_ref_obj_opt_a023fe7017577d7b5c8b44123869186f5}} 
+int {\bfseries Get\+Choice} () const
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_ref_obj_opt_a831bcd1e381e542ebee2500dfcf2965c}\label{class_obj_cryst_1_1_ref_obj_opt_a831bcd1e381e542ebee2500dfcf2965c}} 
+virtual void {\bfseries Set\+Choice} (const int choice)
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_ref_obj_opt_a9a92c1a5543e46119687462a1b7e706e}\label{class_obj_cryst_1_1_ref_obj_opt_a9a92c1a5543e46119687462a1b7e706e}} 
+void {\bfseries Set\+Choice} (const string \&choice\+Name)
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_ref_obj_opt_afa327e06a03e62b5643f3759b306c30a}\label{class_obj_cryst_1_1_ref_obj_opt_afa327e06a03e62b5643f3759b306c30a}} 
+const string \& {\bfseries Get\+Name} () const
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_ref_obj_opt_a0a9b58743511169ce9705244302e21d0}\label{class_obj_cryst_1_1_ref_obj_opt_a0a9b58743511169ce9705244302e21d0}} 
+const string \& {\bfseries Get\+Class\+Name} () const
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_ref_obj_opt_ad6c7b293ae14231a1f7fea4c22132534}\label{class_obj_cryst_1_1_ref_obj_opt_ad6c7b293ae14231a1f7fea4c22132534}} 
+const string \& {\bfseries Get\+Choice\+Name} (const int i) const
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_ref_obj_opt_a0f9cb7883e94e457bd91ed40425c9289}\label{class_obj_cryst_1_1_ref_obj_opt_a0f9cb7883e94e457bd91ed40425c9289}} 
+const \mbox{\hyperlink{class_obj_cryst_1_1_refinable_obj_clock}{Refinable\+Obj\+Clock}} \& {\bfseries Get\+Clock} () const
+\item 
+void \mbox{\hyperlink{class_obj_cryst_1_1_ref_obj_opt_aebeb771ffe0744aac86352f38ea67f42}{X\+M\+L\+Output}} (ostream \&os, int indent=0) const
+\begin{DoxyCompactList}\small\item\em X\+M\+L\+Output to stream in well-\/formed X\+ML. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_obj_cryst_1_1_ref_obj_opt_a9562e469ee61a710e535594fe58f0744}{X\+M\+L\+Input}} (istream \&is, const \mbox{\hyperlink{class_obj_cryst_1_1_x_m_l_cryst_tag}{X\+M\+L\+Cryst\+Tag}} \&tag)
+\begin{DoxyCompactList}\small\item\em X\+M\+L\+Input From stream. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_ref_obj_opt_a54ae7b002c156671d5b2176a46cf95d5}\label{class_obj_cryst_1_1_ref_obj_opt_a54ae7b002c156671d5b2176a46cf95d5}} 
+int \mbox{\hyperlink{class_obj_cryst_1_1_ref_obj_opt_a54ae7b002c156671d5b2176a46cf95d5}{m\+Nb\+Choice}}
+\begin{DoxyCompactList}\small\item\em Number of different choice possible for this option. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_ref_obj_opt_a34f40080b3adac88e5ab7e290dc951ae}\label{class_obj_cryst_1_1_ref_obj_opt_a34f40080b3adac88e5ab7e290dc951ae}} 
+int \mbox{\hyperlink{class_obj_cryst_1_1_ref_obj_opt_a34f40080b3adac88e5ab7e290dc951ae}{m\+Choice}}
+\begin{DoxyCompactList}\small\item\em Current value. \end{DoxyCompactList}\item 
+const string $\ast$ \mbox{\hyperlink{class_obj_cryst_1_1_ref_obj_opt_a45eb6eed7f6578f438433acddb2f1eb2}{mp\+Name}}
+\item 
+const string $\ast$ \mbox{\hyperlink{class_obj_cryst_1_1_ref_obj_opt_abc47d0f345c4121b6492e754b30f4fef}{mp\+Choice\+Name}}
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_ref_obj_opt_ace306a0100bbb1678c9b8683a009dc81}\label{class_obj_cryst_1_1_ref_obj_opt_ace306a0100bbb1678c9b8683a009dc81}} 
+\mbox{\hyperlink{class_obj_cryst_1_1_refinable_obj_clock}{Refinable\+Obj\+Clock}} \mbox{\hyperlink{class_obj_cryst_1_1_ref_obj_opt_ace306a0100bbb1678c9b8683a009dc81}{m\+Clock}}
+\begin{DoxyCompactList}\small\item\em The clock associated to this option. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Base class for options 
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_obj_cryst_1_1_ref_obj_opt_ad4fd60241264e22179c9ab33fc58867f}\label{class_obj_cryst_1_1_ref_obj_opt_ad4fd60241264e22179c9ab33fc58867f}} 
+\index{ObjCryst::RefObjOpt@{ObjCryst::RefObjOpt}!RefObjOpt@{RefObjOpt}}
+\index{RefObjOpt@{RefObjOpt}!ObjCryst::RefObjOpt@{ObjCryst::RefObjOpt}}
+\subsubsection{\texorpdfstring{RefObjOpt()}{RefObjOpt()}}
+{\footnotesize\ttfamily Obj\+Cryst\+::\+Ref\+Obj\+Opt\+::\+Ref\+Obj\+Opt (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Constructor for the option 
+\begin{DoxyParams}{Parameters}
+{\em obj} & the \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{class_obj_cryst_1_1_ref_obj_opt_a9562e469ee61a710e535594fe58f0744}\label{class_obj_cryst_1_1_ref_obj_opt_a9562e469ee61a710e535594fe58f0744}} 
+\index{ObjCryst::RefObjOpt@{ObjCryst::RefObjOpt}!XMLInput@{XMLInput}}
+\index{XMLInput@{XMLInput}!ObjCryst::RefObjOpt@{ObjCryst::RefObjOpt}}
+\subsubsection{\texorpdfstring{XMLInput()}{XMLInput()}}
+{\footnotesize\ttfamily void Obj\+Cryst\+::\+Ref\+Obj\+Opt\+::\+X\+M\+L\+Input (\begin{DoxyParamCaption}\item[{istream \&}]{is,  }\item[{const \mbox{\hyperlink{class_obj_cryst_1_1_x_m_l_cryst_tag}{X\+M\+L\+Cryst\+Tag}} \&}]{tag }\end{DoxyParamCaption})}
+
+
+
+X\+M\+L\+Input From stream. 
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_obj_cryst_1_1_ref_obj_opt_a9562e469ee61a710e535594fe58f0744_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_obj_cryst_1_1_ref_obj_opt_aebeb771ffe0744aac86352f38ea67f42}\label{class_obj_cryst_1_1_ref_obj_opt_aebeb771ffe0744aac86352f38ea67f42}} 
+\index{ObjCryst::RefObjOpt@{ObjCryst::RefObjOpt}!XMLOutput@{XMLOutput}}
+\index{XMLOutput@{XMLOutput}!ObjCryst::RefObjOpt@{ObjCryst::RefObjOpt}}
+\subsubsection{\texorpdfstring{XMLOutput()}{XMLOutput()}}
+{\footnotesize\ttfamily void Obj\+Cryst\+::\+Ref\+Obj\+Opt\+::\+X\+M\+L\+Output (\begin{DoxyParamCaption}\item[{ostream \&}]{os,  }\item[{int}]{indent = {\ttfamily 0} }\end{DoxyParamCaption}) const}
+
+
+
+X\+M\+L\+Output to stream in well-\/formed X\+ML. 
+
+In this function the name used is that of the Option. Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_obj_cryst_1_1_ref_obj_opt_aebeb771ffe0744aac86352f38ea67f42_icgraph}
+\end{center}
+\end{figure}
+
+
+\subsection{Member Data Documentation}
+\mbox{\Hypertarget{class_obj_cryst_1_1_ref_obj_opt_abc47d0f345c4121b6492e754b30f4fef}\label{class_obj_cryst_1_1_ref_obj_opt_abc47d0f345c4121b6492e754b30f4fef}} 
+\index{ObjCryst::RefObjOpt@{ObjCryst::RefObjOpt}!mpChoiceName@{mpChoiceName}}
+\index{mpChoiceName@{mpChoiceName}!ObjCryst::RefObjOpt@{ObjCryst::RefObjOpt}}
+\subsubsection{\texorpdfstring{mpChoiceName}{mpChoiceName}}
+{\footnotesize\ttfamily const string$\ast$ Obj\+Cryst\+::\+Ref\+Obj\+Opt\+::mp\+Choice\+Name\hspace{0.3cm}{\ttfamily [protected]}}
+
+Names corresponding to each possible value of this option (Human-\/understandable). Should be statically stored in the class using the option. \mbox{\Hypertarget{class_obj_cryst_1_1_ref_obj_opt_a45eb6eed7f6578f438433acddb2f1eb2}\label{class_obj_cryst_1_1_ref_obj_opt_a45eb6eed7f6578f438433acddb2f1eb2}} 
+\index{ObjCryst::RefObjOpt@{ObjCryst::RefObjOpt}!mpName@{mpName}}
+\index{mpName@{mpName}!ObjCryst::RefObjOpt@{ObjCryst::RefObjOpt}}
+\subsubsection{\texorpdfstring{mpName}{mpName}}
+{\footnotesize\ttfamily const string$\ast$ Obj\+Cryst\+::\+Ref\+Obj\+Opt\+::mp\+Name\hspace{0.3cm}{\ttfamily [protected]}}
+
+(short) Name for this option. Should be statically stored in the class using the option 
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+Refinable\+Obj.\+h\item 
+I\+O.\+cpp\item 
+Refinable\+Obj.\+cpp\end{DoxyCompactItemize}

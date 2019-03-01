@@ -1,0 +1,94 @@
+\hypertarget{class_obj_cryst_1_1_reflection_profile}{}\section{Obj\+Cryst\+::Reflection\+Profile Class Reference}
+\label{class_obj_cryst_1_1_reflection_profile}\index{ObjCryst::ReflectionProfile@{ObjCryst::ReflectionProfile}}
+
+
+{\ttfamily \#include $<$Reflection\+Profile.\+h$>$}
+
+
+
+Inheritance diagram for Obj\+Cryst\+::Reflection\+Profile\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_obj_cryst_1_1_reflection_profile__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Obj\+Cryst\+::Reflection\+Profile\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=213pt]{class_obj_cryst_1_1_reflection_profile__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_reflection_profile_a4647aa58d8e98429b10c54499b9b050e}\label{class_obj_cryst_1_1_reflection_profile_a4647aa58d8e98429b10c54499b9b050e}} 
+{\bfseries Reflection\+Profile} (const \mbox{\hyperlink{class_obj_cryst_1_1_reflection_profile}{Reflection\+Profile}} \&old)
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_reflection_profile_a620f88c536f3c13881262efd155cc504}\label{class_obj_cryst_1_1_reflection_profile_a620f88c536f3c13881262efd155cc504}} 
+virtual \mbox{\hyperlink{class_obj_cryst_1_1_reflection_profile}{Reflection\+Profile}} $\ast$ {\bfseries Create\+Copy} () const =0
+\item 
+virtual Cryst\+Vector\+\_\+\+R\+E\+AL \mbox{\hyperlink{class_obj_cryst_1_1_reflection_profile_a0c71ddbfb976e320ccedf907b741b4d5}{Get\+Profile}} (const Cryst\+Vector\+\_\+\+R\+E\+AL \&x, const R\+E\+AL xcenter, const R\+E\+AL h, const R\+E\+AL k, const R\+E\+AL l) const =0
+\item 
+virtual R\+E\+AL \mbox{\hyperlink{class_obj_cryst_1_1_reflection_profile_ac6d2a69e63c3efd06f30ab134062bbc0}{Get\+Full\+Profile\+Width}} (const R\+E\+AL relative\+Intensity, const R\+E\+AL xcenter, const R\+E\+AL h, const R\+E\+AL k, const R\+E\+AL l)=0
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_reflection_profile_a63364909d31445c5cc8faceb07ffee3f}\label{class_obj_cryst_1_1_reflection_profile_a63364909d31445c5cc8faceb07ffee3f}} 
+virtual bool \mbox{\hyperlink{class_obj_cryst_1_1_reflection_profile_a63364909d31445c5cc8faceb07ffee3f}{Is\+Anisotropic}} () const
+\begin{DoxyCompactList}\small\item\em Is the profile anisotropic ? \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_reflection_profile_a60e429bb999a8b39f09ef14cdaf5ad0c}\label{class_obj_cryst_1_1_reflection_profile_a60e429bb999a8b39f09ef14cdaf5ad0c}} 
+virtual void {\bfseries X\+M\+L\+Output} (ostream \&os, int indent=0) const =0
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_reflection_profile_a7ad38593ddb4601632beb0a6bcae50f3}\label{class_obj_cryst_1_1_reflection_profile_a7ad38593ddb4601632beb0a6bcae50f3}} 
+virtual void {\bfseries X\+M\+L\+Input} (istream \&is, const X\+M\+L\+Cryst\+Tag \&tag)=0
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Abstract base class for reflection profiles. 
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{class_obj_cryst_1_1_reflection_profile_ac6d2a69e63c3efd06f30ab134062bbc0}\label{class_obj_cryst_1_1_reflection_profile_ac6d2a69e63c3efd06f30ab134062bbc0}} 
+\index{ObjCryst::ReflectionProfile@{ObjCryst::ReflectionProfile}!GetFullProfileWidth@{GetFullProfileWidth}}
+\index{GetFullProfileWidth@{GetFullProfileWidth}!ObjCryst::ReflectionProfile@{ObjCryst::ReflectionProfile}}
+\subsubsection{\texorpdfstring{GetFullProfileWidth()}{GetFullProfileWidth()}}
+{\footnotesize\ttfamily virtual R\+E\+AL Obj\+Cryst\+::\+Reflection\+Profile\+::\+Get\+Full\+Profile\+Width (\begin{DoxyParamCaption}\item[{const R\+E\+AL}]{relative\+Intensity,  }\item[{const R\+E\+AL}]{xcenter,  }\item[{const R\+E\+AL}]{h,  }\item[{const R\+E\+AL}]{k,  }\item[{const R\+E\+AL}]{l }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+Get the (approximate) full profile width at a given percentage of the profile maximum (e.\+g. F\+W\+HM=Get\+Full\+Profile\+Width(0.\+5)). 
+
+Implemented in \mbox{\hyperlink{class_obj_cryst_1_1_reflection_profile_double_exponential_pseudo_voigt_a92a2e4fd2b10e0edc07b338b79b59418}{Obj\+Cryst\+::\+Reflection\+Profile\+Double\+Exponential\+Pseudo\+Voigt}}, \mbox{\hyperlink{class_obj_cryst_1_1_reflection_profile_pseudo_voigt_anisotropic_a43a9c77aa312df5ca00969c7f866f7a4}{Obj\+Cryst\+::\+Reflection\+Profile\+Pseudo\+Voigt\+Anisotropic}}, and \mbox{\hyperlink{class_obj_cryst_1_1_reflection_profile_pseudo_voigt_aab311ae897daf5e738eb7727e57fd0c7}{Obj\+Cryst\+::\+Reflection\+Profile\+Pseudo\+Voigt}}.
+
+\mbox{\Hypertarget{class_obj_cryst_1_1_reflection_profile_a0c71ddbfb976e320ccedf907b741b4d5}\label{class_obj_cryst_1_1_reflection_profile_a0c71ddbfb976e320ccedf907b741b4d5}} 
+\index{ObjCryst::ReflectionProfile@{ObjCryst::ReflectionProfile}!GetProfile@{GetProfile}}
+\index{GetProfile@{GetProfile}!ObjCryst::ReflectionProfile@{ObjCryst::ReflectionProfile}}
+\subsubsection{\texorpdfstring{GetProfile()}{GetProfile()}}
+{\footnotesize\ttfamily virtual Cryst\+Vector\+\_\+\+R\+E\+AL Obj\+Cryst\+::\+Reflection\+Profile\+::\+Get\+Profile (\begin{DoxyParamCaption}\item[{const Cryst\+Vector\+\_\+\+R\+E\+AL \&}]{x,  }\item[{const R\+E\+AL}]{xcenter,  }\item[{const R\+E\+AL}]{h,  }\item[{const R\+E\+AL}]{k,  }\item[{const R\+E\+AL}]{l }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+Get the reflection profile
+
+
+\begin{DoxyParams}{Parameters}
+{\em x} & the vector of x coordinates (i.\+e. either 2theta or time-\/of-\/flight) \\
+\hline
+{\em xcenter} & coordinate (2theta, tof) of the center of the peak \\
+\hline
+{\em h,k,l} & reflection Miller indices \\
+\hline
+\end{DoxyParams}
+\begin{DoxyNote}{Note}
+\+: derived classes who need either d\+\_\+hkl or the orthonormal coordinates of the scattering vector should be passed a \mbox{\hyperlink{class_obj_cryst_1_1_unit_cell}{Obj\+Cryst\+::\+Unit\+Cell}} object in the constructor so that they can use \mbox{\hyperlink{class_obj_cryst_1_1_unit_cell_a2c9490f42bf9fa2438eb311ac46fd448}{Obj\+Cryst\+::\+Unit\+Cell\+::\+Miller\+To\+Orthonormal\+Coords()}} 
+\end{DoxyNote}
+
+
+Implemented in \mbox{\hyperlink{class_obj_cryst_1_1_reflection_profile_double_exponential_pseudo_voigt_a4673785fae1ffdcc0a9c2402e8c4af8b}{Obj\+Cryst\+::\+Reflection\+Profile\+Double\+Exponential\+Pseudo\+Voigt}}, \mbox{\hyperlink{class_obj_cryst_1_1_reflection_profile_pseudo_voigt_anisotropic_a84ef718166e001fc1cada3320550674e}{Obj\+Cryst\+::\+Reflection\+Profile\+Pseudo\+Voigt\+Anisotropic}}, and \mbox{\hyperlink{class_obj_cryst_1_1_reflection_profile_pseudo_voigt_aa8a7489c58c10252c977de54e0aa6292}{Obj\+Cryst\+::\+Reflection\+Profile\+Pseudo\+Voigt}}.
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+Reflection\+Profile.\+h\item 
+Reflection\+Profile.\+cpp\end{DoxyCompactItemize}

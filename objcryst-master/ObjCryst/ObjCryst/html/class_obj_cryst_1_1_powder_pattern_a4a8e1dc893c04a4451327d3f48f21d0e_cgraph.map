@@ -1,0 +1,6 @@
+<map id="ObjCryst::PowderPattern::ImportPowderPatternXdd" name="ObjCryst::PowderPattern::ImportPowderPatternXdd">
+<area shape="rect" id="node1" title="Import *.xdd diffraction data (Topas,...)." alt="" coords="5,68,184,107"/>
+<area shape="rect" id="node2" href="$class_obj_cryst_1_1_powder_pattern.html#adb92497ec0c6793c1cb74fc1bf9914e2" title=" " alt="" coords="235,5,404,44"/>
+<area shape="rect" id="node3" href="$class_obj_cryst_1_1_powder_pattern.html#a1f2397ca48de524cb3916103eb83a267" title="Set sigma=sqrt(Iobs)" alt="" coords="235,68,404,107"/>
+<area shape="rect" id="node4" href="$class_obj_cryst_1_1_powder_pattern.html#add7d97cdb7610f7553b95c2eeefcd172" title=" " alt="" coords="232,131,408,169"/>
+</map>

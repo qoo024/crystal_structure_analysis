@@ -1,0 +1,9 @@
+<map id="ObjCryst::DiffractionDataSingleCrystal::SetWeightToInvSigma2" name="ObjCryst::DiffractionDataSingleCrystal::SetWeightToInvSigma2">
+<area shape="rect" id="node1" title="Set the weight for all observed intensities to 1/sigma^2." alt="" coords="528,153,773,192"/>
+<area shape="rect" id="node2" href="$class_obj_cryst_1_1_diffraction_data_single_crystal.html#a0d13ab934c60c9bd0aebbb285a92c5cb" title="input H,K,L, Iobs and Sigma" alt="" coords="280,67,452,105"/>
+<area shape="rect" id="node5" href="$namespace_obj_cryst.html#a775b62d07c596365d2f2d021dca408db" title=" " alt="" coords="33,131,177,156"/>
+<area shape="rect" id="node6" href="$class_obj_cryst_1_1_diffraction_data_single_crystal.html#a041f22715b9b4d1f2beb2b7e387fa682" title="Import h,k,l,I,Sigma from a file." alt="" coords="252,181,480,220"/>
+<area shape="rect" id="node7" href="$class_obj_cryst_1_1_diffraction_data_single_crystal.html#a7cb0c6ef5e877e582baf5eb8133e2199" title="Import h,k,l,I,Sigma from a file using shelx HKLF 4 format." alt="" coords="256,244,476,283"/>
+<area shape="rect" id="node3" href="$namespace_obj_cryst.html#a336ceab5acf3427d69f799599e47a976" title=" " alt="" coords="5,5,204,44"/>
+<area shape="rect" id="node4" href="$class_obj_cryst_1_1_diffraction_data_single_crystal.html#ad3528e9815e774d0a442fe231434ed05" title="Import diffraction data from a CIF file." alt="" coords="21,68,189,107"/>
+</map>

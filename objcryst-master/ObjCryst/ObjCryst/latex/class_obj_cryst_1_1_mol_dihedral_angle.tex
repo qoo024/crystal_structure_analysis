@@ -1,0 +1,172 @@
+\hypertarget{class_obj_cryst_1_1_mol_dihedral_angle}{}\section{Obj\+Cryst\+::Mol\+Dihedral\+Angle Class Reference}
+\label{class_obj_cryst_1_1_mol_dihedral_angle}\index{ObjCryst::MolDihedralAngle@{ObjCryst::MolDihedralAngle}}
+
+
+{\ttfamily \#include $<$Molecule.\+h$>$}
+
+
+
+Inheritance diagram for Obj\+Cryst\+::Mol\+Dihedral\+Angle\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=219pt]{class_obj_cryst_1_1_mol_dihedral_angle__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Obj\+Cryst\+::Mol\+Dihedral\+Angle\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=219pt]{class_obj_cryst_1_1_mol_dihedral_angle__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_obj_cryst_1_1_mol_dihedral_angle_abae4150558beac4a71498f471c22465e}{Mol\+Dihedral\+Angle}} (\mbox{\hyperlink{class_obj_cryst_1_1_mol_atom}{Mol\+Atom}} \&atom1, \mbox{\hyperlink{class_obj_cryst_1_1_mol_atom}{Mol\+Atom}} \&atom2, \mbox{\hyperlink{class_obj_cryst_1_1_mol_atom}{Mol\+Atom}} \&atom3, \mbox{\hyperlink{class_obj_cryst_1_1_mol_atom}{Mol\+Atom}} \&atom4, const R\+E\+AL angle, const R\+E\+AL sigma, const R\+E\+AL delta, \mbox{\hyperlink{class_obj_cryst_1_1_molecule}{Molecule}} \&parent)
+\item 
+virtual \mbox{\hyperlink{class_obj_cryst_1_1_mol_dihedral_angle_a82685f5d7c3f96a006daaf5c691b84cc}{$\sim$\+Mol\+Dihedral\+Angle}} ()
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_mol_dihedral_angle_af2d29fa7cbf4e22ba133d77ef87f8cfe}\label{class_obj_cryst_1_1_mol_dihedral_angle_af2d29fa7cbf4e22ba133d77ef87f8cfe}} 
+const \mbox{\hyperlink{class_obj_cryst_1_1_molecule}{Molecule}} \& {\bfseries Get\+Molecule} () const
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_mol_dihedral_angle_ae57e9465e7f56ad9d2984d5587372db0}\label{class_obj_cryst_1_1_mol_dihedral_angle_ae57e9465e7f56ad9d2984d5587372db0}} 
+\mbox{\hyperlink{class_obj_cryst_1_1_molecule}{Molecule}} \& {\bfseries Get\+Molecule} ()
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_mol_dihedral_angle_a84067f909e2d64ba0e84bcbda9895a1f}\label{class_obj_cryst_1_1_mol_dihedral_angle_a84067f909e2d64ba0e84bcbda9895a1f}} 
+string {\bfseries Get\+Name} () const
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_mol_dihedral_angle_a9f270e07e8a72fe71700d5a40d79d658}\label{class_obj_cryst_1_1_mol_dihedral_angle_a9f270e07e8a72fe71700d5a40d79d658}} 
+virtual void {\bfseries X\+M\+L\+Output} (ostream \&os, int indent=0) const
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_mol_dihedral_angle_a162da788b851f483a0ad52e8d0e99026}\label{class_obj_cryst_1_1_mol_dihedral_angle_a162da788b851f483a0ad52e8d0e99026}} 
+virtual void {\bfseries X\+M\+L\+Input} (istream \&is, const X\+M\+L\+Cryst\+Tag \&tag)
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_mol_dihedral_angle_ae68208b5df1c3e6232f5226d63f22dde}\label{class_obj_cryst_1_1_mol_dihedral_angle_ae68208b5df1c3e6232f5226d63f22dde}} 
+virtual R\+E\+AL {\bfseries Get\+Log\+Likelihood} () const
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_mol_dihedral_angle_a5c3974abf1db342eefd864d565c58348}\label{class_obj_cryst_1_1_mol_dihedral_angle_a5c3974abf1db342eefd864d565c58348}} 
+R\+E\+AL {\bfseries Get\+Log\+Likelihood} (const bool calc\+Deriv, const bool recalc) const
+\item 
+R\+E\+AL \mbox{\hyperlink{class_obj_cryst_1_1_mol_dihedral_angle_aee963422a0441a91408f8c888af098d2}{Get\+Deriv}} (const std\+::map$<$ const \mbox{\hyperlink{class_obj_cryst_1_1_mol_atom}{Mol\+Atom}} $\ast$, \mbox{\hyperlink{struct_obj_cryst_1_1_x_y_z}{X\+YZ}} $>$ \&m, const bool llk=false) const
+\item 
+void \mbox{\hyperlink{class_obj_cryst_1_1_mol_dihedral_angle_a9069b015834a8efe983b42bf35b75f4f}{Calc\+Gradient}} (std\+::map$<$ \mbox{\hyperlink{class_obj_cryst_1_1_mol_atom}{Mol\+Atom}} $\ast$, \mbox{\hyperlink{struct_obj_cryst_1_1_x_y_z}{X\+YZ}} $>$ \&m) const
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_mol_dihedral_angle_af758a755c2b94938cb43064981bf0e2f}\label{class_obj_cryst_1_1_mol_dihedral_angle_af758a755c2b94938cb43064981bf0e2f}} 
+R\+E\+AL {\bfseries Get\+Angle} () const
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_mol_dihedral_angle_ac9b6ece841dab9ce531ad2250da82069}\label{class_obj_cryst_1_1_mol_dihedral_angle_ac9b6ece841dab9ce531ad2250da82069}} 
+R\+E\+AL \& {\bfseries Angle0} ()
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_mol_dihedral_angle_a9eac13868bc3c83454582632b57d040c}\label{class_obj_cryst_1_1_mol_dihedral_angle_a9eac13868bc3c83454582632b57d040c}} 
+R\+E\+AL \& {\bfseries Angle\+Delta} ()
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_mol_dihedral_angle_a9d73378072684aa1e2462bad62df9d73}\label{class_obj_cryst_1_1_mol_dihedral_angle_a9d73378072684aa1e2462bad62df9d73}} 
+R\+E\+AL \& {\bfseries Angle\+Sigma} ()
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_mol_dihedral_angle_aed7d352ce6fa5b725e4f8ebb93cd6242}\label{class_obj_cryst_1_1_mol_dihedral_angle_aed7d352ce6fa5b725e4f8ebb93cd6242}} 
+R\+E\+AL {\bfseries Get\+Angle0} () const
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_mol_dihedral_angle_a9209fc26605f6d97df277be64daf9851}\label{class_obj_cryst_1_1_mol_dihedral_angle_a9209fc26605f6d97df277be64daf9851}} 
+R\+E\+AL {\bfseries Get\+Angle\+Delta} () const
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_mol_dihedral_angle_a414e21d6b9af395afd2ea3ddd1ae1861}\label{class_obj_cryst_1_1_mol_dihedral_angle_a414e21d6b9af395afd2ea3ddd1ae1861}} 
+R\+E\+AL {\bfseries Get\+Angle\+Sigma} () const
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_mol_dihedral_angle_ae19635b29a4ec5d729f8696607f89243}\label{class_obj_cryst_1_1_mol_dihedral_angle_ae19635b29a4ec5d729f8696607f89243}} 
+void {\bfseries Set\+Angle0} (const R\+E\+AL angle)
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_mol_dihedral_angle_a9541dec64bd326efe43302b4afd094bd}\label{class_obj_cryst_1_1_mol_dihedral_angle_a9541dec64bd326efe43302b4afd094bd}} 
+void {\bfseries Set\+Angle\+Delta} (const R\+E\+AL delta)
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_mol_dihedral_angle_aac5a7f2bd4f068b4cc923122d0786691}\label{class_obj_cryst_1_1_mol_dihedral_angle_aac5a7f2bd4f068b4cc923122d0786691}} 
+void {\bfseries Set\+Angle\+Sigma} (const R\+E\+AL sigma)
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_mol_dihedral_angle_ab1f146e655f8bab325379daf0cb9675a}\label{class_obj_cryst_1_1_mol_dihedral_angle_ab1f146e655f8bab325379daf0cb9675a}} 
+const \mbox{\hyperlink{class_obj_cryst_1_1_mol_atom}{Mol\+Atom}} \& {\bfseries Get\+Atom1} () const
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_mol_dihedral_angle_abfd86510516e305865802a150115fb07}\label{class_obj_cryst_1_1_mol_dihedral_angle_abfd86510516e305865802a150115fb07}} 
+const \mbox{\hyperlink{class_obj_cryst_1_1_mol_atom}{Mol\+Atom}} \& {\bfseries Get\+Atom2} () const
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_mol_dihedral_angle_afc1026bd54317f4abe7d09ba94c00cc1}\label{class_obj_cryst_1_1_mol_dihedral_angle_afc1026bd54317f4abe7d09ba94c00cc1}} 
+const \mbox{\hyperlink{class_obj_cryst_1_1_mol_atom}{Mol\+Atom}} \& {\bfseries Get\+Atom3} () const
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_mol_dihedral_angle_af3e1196981e13728c4b16ace62a6b9bd}\label{class_obj_cryst_1_1_mol_dihedral_angle_af3e1196981e13728c4b16ace62a6b9bd}} 
+const \mbox{\hyperlink{class_obj_cryst_1_1_mol_atom}{Mol\+Atom}} \& {\bfseries Get\+Atom4} () const
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_mol_dihedral_angle_aef8143e58caf0778123277c633497e37}\label{class_obj_cryst_1_1_mol_dihedral_angle_aef8143e58caf0778123277c633497e37}} 
+void {\bfseries Set\+Atom1} (\mbox{\hyperlink{class_obj_cryst_1_1_mol_atom}{Mol\+Atom}} \&at)
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_mol_dihedral_angle_abfd911db850ae2b50a8e23efb82597fc}\label{class_obj_cryst_1_1_mol_dihedral_angle_abfd911db850ae2b50a8e23efb82597fc}} 
+void {\bfseries Set\+Atom2} (\mbox{\hyperlink{class_obj_cryst_1_1_mol_atom}{Mol\+Atom}} \&at)
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_mol_dihedral_angle_aa012bfe98cca9eb980511eb5a86cb954}\label{class_obj_cryst_1_1_mol_dihedral_angle_aa012bfe98cca9eb980511eb5a86cb954}} 
+void {\bfseries Set\+Atom3} (\mbox{\hyperlink{class_obj_cryst_1_1_mol_atom}{Mol\+Atom}} \&at)
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_mol_dihedral_angle_a46547a5dd324aefb35cf6a5e2e62470b}\label{class_obj_cryst_1_1_mol_dihedral_angle_a46547a5dd324aefb35cf6a5e2e62470b}} 
+void {\bfseries Set\+Atom4} (\mbox{\hyperlink{class_obj_cryst_1_1_mol_atom}{Mol\+Atom}} \&at)
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_mol_dihedral_angle_a38338a9c07282dfe1fdd120eacdeb340}\label{class_obj_cryst_1_1_mol_dihedral_angle_a38338a9c07282dfe1fdd120eacdeb340}} 
+\mbox{\hyperlink{class_obj_cryst_1_1_mol_atom}{Mol\+Atom}} \& {\bfseries Get\+Atom1} ()
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_mol_dihedral_angle_a8fe4d2325f3107d5b3739f8e732b8303}\label{class_obj_cryst_1_1_mol_dihedral_angle_a8fe4d2325f3107d5b3739f8e732b8303}} 
+\mbox{\hyperlink{class_obj_cryst_1_1_mol_atom}{Mol\+Atom}} \& {\bfseries Get\+Atom2} ()
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_mol_dihedral_angle_a8f666bd256b025500359a20f6c0d15f5}\label{class_obj_cryst_1_1_mol_dihedral_angle_a8f666bd256b025500359a20f6c0d15f5}} 
+\mbox{\hyperlink{class_obj_cryst_1_1_mol_atom}{Mol\+Atom}} \& {\bfseries Get\+Atom3} ()
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_mol_dihedral_angle_a08a9bdffd2abf13971fdaf636ffd91ca}\label{class_obj_cryst_1_1_mol_dihedral_angle_a08a9bdffd2abf13971fdaf636ffd91ca}} 
+\mbox{\hyperlink{class_obj_cryst_1_1_mol_atom}{Mol\+Atom}} \& {\bfseries Get\+Atom4} ()
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Dihedral angle restraint between 4 atoms.
+
+The atoms involved need not be bonded. 
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_obj_cryst_1_1_mol_dihedral_angle_abae4150558beac4a71498f471c22465e}\label{class_obj_cryst_1_1_mol_dihedral_angle_abae4150558beac4a71498f471c22465e}} 
+\index{ObjCryst::MolDihedralAngle@{ObjCryst::MolDihedralAngle}!MolDihedralAngle@{MolDihedralAngle}}
+\index{MolDihedralAngle@{MolDihedralAngle}!ObjCryst::MolDihedralAngle@{ObjCryst::MolDihedralAngle}}
+\subsubsection{\texorpdfstring{MolDihedralAngle()}{MolDihedralAngle()}}
+{\footnotesize\ttfamily Obj\+Cryst\+::\+Mol\+Dihedral\+Angle\+::\+Mol\+Dihedral\+Angle (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_obj_cryst_1_1_mol_atom}{Mol\+Atom}} \&}]{atom1,  }\item[{\mbox{\hyperlink{class_obj_cryst_1_1_mol_atom}{Mol\+Atom}} \&}]{atom2,  }\item[{\mbox{\hyperlink{class_obj_cryst_1_1_mol_atom}{Mol\+Atom}} \&}]{atom3,  }\item[{\mbox{\hyperlink{class_obj_cryst_1_1_mol_atom}{Mol\+Atom}} \&}]{atom4,  }\item[{const R\+E\+AL}]{angle,  }\item[{const R\+E\+AL}]{sigma,  }\item[{const R\+E\+AL}]{delta,  }\item[{\mbox{\hyperlink{class_obj_cryst_1_1_molecule}{Molecule}} \&}]{parent }\end{DoxyParamCaption})}
+
+Constructor \mbox{\Hypertarget{class_obj_cryst_1_1_mol_dihedral_angle_a82685f5d7c3f96a006daaf5c691b84cc}\label{class_obj_cryst_1_1_mol_dihedral_angle_a82685f5d7c3f96a006daaf5c691b84cc}} 
+\index{ObjCryst::MolDihedralAngle@{ObjCryst::MolDihedralAngle}!````~MolDihedralAngle@{$\sim$MolDihedralAngle}}
+\index{````~MolDihedralAngle@{$\sim$MolDihedralAngle}!ObjCryst::MolDihedralAngle@{ObjCryst::MolDihedralAngle}}
+\subsubsection{\texorpdfstring{$\sim$MolDihedralAngle()}{~MolDihedralAngle()}}
+{\footnotesize\ttfamily Obj\+Cryst\+::\+Mol\+Dihedral\+Angle\+::$\sim$\+Mol\+Dihedral\+Angle (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+Destructor 
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{class_obj_cryst_1_1_mol_dihedral_angle_a9069b015834a8efe983b42bf35b75f4f}\label{class_obj_cryst_1_1_mol_dihedral_angle_a9069b015834a8efe983b42bf35b75f4f}} 
+\index{ObjCryst::MolDihedralAngle@{ObjCryst::MolDihedralAngle}!CalcGradient@{CalcGradient}}
+\index{CalcGradient@{CalcGradient}!ObjCryst::MolDihedralAngle@{ObjCryst::MolDihedralAngle}}
+\subsubsection{\texorpdfstring{CalcGradient()}{CalcGradient()}}
+{\footnotesize\ttfamily void Obj\+Cryst\+::\+Mol\+Dihedral\+Angle\+::\+Calc\+Gradient (\begin{DoxyParamCaption}\item[{std\+::map$<$ \mbox{\hyperlink{class_obj_cryst_1_1_mol_atom}{Mol\+Atom}} $\ast$, \mbox{\hyperlink{struct_obj_cryst_1_1_x_y_z}{X\+YZ}} $>$ \&}]{m }\end{DoxyParamCaption}) const}
+
+Calc log(likelihood) gradient -\/ versus all atomic coordinates
+
+
+\begin{DoxyParams}{Parameters}
+{\em m} & this map should have been initialized by adding all possible atom pointers as keys, with all \mbox{\hyperlink{struct_obj_cryst_1_1_x_y_z}{X\+YZ}} values equal to zeros. On return, the derivative of the log(likelihood) vs each atomic coordinates will {\bfseries{added}} to each coordinate of the corresponding atoms. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_obj_cryst_1_1_mol_dihedral_angle_aee963422a0441a91408f8c888af098d2}\label{class_obj_cryst_1_1_mol_dihedral_angle_aee963422a0441a91408f8c888af098d2}} 
+\index{ObjCryst::MolDihedralAngle@{ObjCryst::MolDihedralAngle}!GetDeriv@{GetDeriv}}
+\index{GetDeriv@{GetDeriv}!ObjCryst::MolDihedralAngle@{ObjCryst::MolDihedralAngle}}
+\subsubsection{\texorpdfstring{GetDeriv()}{GetDeriv()}}
+{\footnotesize\ttfamily R\+E\+AL Obj\+Cryst\+::\+Mol\+Dihedral\+Angle\+::\+Get\+Deriv (\begin{DoxyParamCaption}\item[{const std\+::map$<$ const \mbox{\hyperlink{class_obj_cryst_1_1_mol_atom}{Mol\+Atom}} $\ast$, \mbox{\hyperlink{struct_obj_cryst_1_1_x_y_z}{X\+YZ}} $>$ \&}]{m,  }\item[{const bool}]{llk = {\ttfamily false} }\end{DoxyParamCaption}) const}
+
+Get the derivative of the Angle, given the derivatives of the atom positions This requires that Get\+Log\+Likelihood(calc\+Deriv=true) be called first If llk=true, this will return the derivative of the llk rather than the derivative of the length or angle 
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+Molecule.\+h\item 
+Molecule.\+cpp\end{DoxyCompactItemize}

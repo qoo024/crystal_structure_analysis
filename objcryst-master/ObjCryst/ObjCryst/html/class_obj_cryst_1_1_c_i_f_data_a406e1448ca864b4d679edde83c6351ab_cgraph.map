@@ -1,0 +1,15 @@
+<map id="ObjCryst::CIFData::ExtractAll" name="ObjCryst::CIFData::ExtractAll">
+<area shape="rect" id="node1" title=" " alt="" coords="5,193,143,232"/>
+<area shape="rect" id="node2" href="$class_obj_cryst_1_1_c_i_f_data.html#a57e9ec3f37cfe8c272cc102280f08d66" title="Extract name &amp; formula for the crystal." alt="" coords="207,5,345,44"/>
+<area shape="rect" id="node3" href="$class_obj_cryst_1_1_c_i_f_data.html#ab0ea11e45199961a3af2981a5ba335c5" title="Extract unit cell." alt="" coords="207,68,345,107"/>
+<area shape="rect" id="node5" href="$class_obj_cryst_1_1_c_i_f_data.html#a9aa5afcbe90a074c4ace30ac5149526d" title="Extract spacegroup number or symbol." alt="" coords="207,131,345,169"/>
+<area shape="rect" id="node6" href="$class_obj_cryst_1_1_c_i_f_data.html#ada558a6f28454cae868aef9710a785d7" title=" " alt="" coords="197,193,355,232"/>
+<area shape="rect" id="node11" href="$class_obj_cryst_1_1_c_i_f_data.html#aeb07f0818672475c6ef2732e1254fd5a" title="Extract anisotropic atomic displacement parameters. Isotropic ADPs." alt="" coords="194,256,357,295"/>
+<area shape="rect" id="node12" href="$class_obj_cryst_1_1_c_i_f_data.html#a10ae5869370e46547334730a1daabe5e" title=" " alt="" coords="200,319,351,357"/>
+<area shape="rect" id="node13" href="$class_obj_cryst_1_1_c_i_f_data.html#aafcf8bbd95432172cca533d4a713729e" title="Extract single crystal data, with Iobs, sigma(Iobs) and h,k,l." alt="" coords="191,381,361,420"/>
+<area shape="rect" id="node4" href="$class_obj_cryst_1_1_c_i_f_data.html#a51e099b2881e73eb776855177aed4ca9" title=" " alt="" coords="430,68,568,107"/>
+<area shape="rect" id="node7" href="$class_obj_cryst_1_1_c_i_f_data.html#a8217fa94ba5f6291b566d43123162d9c" title=" " alt="" coords="409,161,589,200"/>
+<area shape="rect" id="node9" href="$class_obj_cryst_1_1_c_i_f_data.html#abe437ee4b2bbda8bf7a2861f9207a8ee" title=" " alt="" coords="409,224,589,263"/>
+<area shape="rect" id="node8" href="$class_obj_cryst_1_1_c_i_f_data.html#ab90f52bca82121f6ddc5efdddf5ac7bc" title=" " alt="" coords="637,168,793,193"/>
+<area shape="rect" id="node10" href="$class_obj_cryst_1_1_c_i_f_data.html#a8b83f52c41137c83fdfd6c75d9d83888" title=" " alt="" coords="637,231,793,256"/>
+</map>

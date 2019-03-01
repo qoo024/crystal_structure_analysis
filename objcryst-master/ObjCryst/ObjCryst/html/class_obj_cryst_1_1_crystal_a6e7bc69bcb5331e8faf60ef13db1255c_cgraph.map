@@ -1,0 +1,41 @@
+<map id="ObjCryst::Crystal::ConnectAtoms" name="ObjCryst::Crystal::ConnectAtoms">
+<area shape="rect" id="node1" title=" " alt="" coords="5,1163,135,1201"/>
+<area shape="rect" id="node2" href="$class_obj_cryst_1_1_crystal.html#a5ff33da1575572684743281c92f6596a" title="Get the list of all scattering components." alt="" coords="196,224,388,263"/>
+<area shape="rect" id="node9" href="$class_obj_cryst_1_1_scattering_component_list.html#acda94d3d6f78467a7f56c0cf9aed1973" title="Number of components." alt="" coords="707,131,916,169"/>
+<area shape="rect" id="node11" href="$class_obj_cryst_1_1_scattering_power_atom.html#ad81988ffdb47dd53db07431cbb8264c8" title="Atomic number for this atom." alt="" coords="203,496,381,535"/>
+<area shape="rect" id="node12" href="$class_obj_cryst_1_1_unit_cell.html#ae450547d6d700cd21accfb3a05d8192f" title="Get orthonormal cartesian coordinates for a set of (x,y,z) fractional coordinates." alt="" coords="183,559,401,597"/>
+<area shape="rect" id="node13" href="$class_obj_cryst_1_1_molecule.html#a7b193eac062233b758887cba671706f7" title=" " alt="" coords="225,673,359,712"/>
+<area shape="rect" id="node14" href="$class_obj_cryst_1_1_molecule.html#a9ad28d7c6c9ba8496a4fd876cc1db9d2" title="Formula with atoms in alphabetic order." alt="" coords="487,693,621,732"/>
+<area shape="rect" id="node15" href="$class_obj_cryst_1_1_molecule.html#a839d362bb9c2e6f0951caf00c8c8e92c" title="Number of components in the scatterer (eg number of point scatterers)" alt="" coords="744,655,880,693"/>
+<area shape="rect" id="node16" href="$class_obj_cryst_1_1_scattering_power_atom.html#a203ad8709ec6b88b43317a5d295e20c2" title="Returns the symbol (&#39;Ta&#39;, &#39;O2&#45;&#39;,...) of the atom." alt="" coords="203,901,381,940"/>
+<area shape="rect" id="node17" href="$class_obj_cryst_1_1_scattering_power_atom.html#a39c73f9c8d433bf5a177c14d54e00bca" title="Covalent Radius for this atom, in Angstroems (from cctbx)" alt="" coords="203,964,381,1003"/>
+<area shape="rect" id="node18" href="$class_obj_cryst_1_1_scattering_power_atom.html#a92354511acb0a7b562797098a32ed0fc" title="Maximum number of covalent bonds (from openbabel element.txt)" alt="" coords="203,1027,381,1065"/>
+<area shape="rect" id="node19" href="$namespace_obj_cryst.html#a1b8ee4ed3717968278182983f8a8a7b9" title="Get The Bond Length between two atoms." alt="" coords="205,1113,379,1139"/>
+<area shape="rect" id="node20" href="$class_obj_cryst_1_1_molecule.html#aa37feb3abde7ca0ff6453b97d910800f" title=" " alt="" coords="225,1163,359,1201"/>
+<area shape="rect" id="node21" href="$class_obj_cryst_1_1_molecule.html#a45ed440475011a0ceb933f56751c11da" title=" " alt="" coords="473,1249,635,1288"/>
+<area shape="rect" id="node22" href="$class_obj_cryst_1_1_molecule.html#ab8d8da3b17849fb222ff7b1a4078776b" title="Get the connectivity table." alt="" coords="215,1277,369,1316"/>
+<area shape="rect" id="node23" href="$class_obj_cryst_1_1_molecule.html#a66bbf57cc85b1f5930b922edc3286fae" title=" " alt="" coords="225,839,359,877"/>
+<area shape="rect" id="node24" href="$class_obj_cryst_1_1_molecule.html#aa02f2f7cea34333b5ddbb4a16678b7a4" title=" " alt="" coords="487,779,621,817"/>
+<area shape="rect" id="node28" href="$class_obj_cryst_1_1_molecule.html#a78cdfa9c0223f1f45d5aac3b0e0d4989" title=" " alt="" coords="225,1340,359,1379"/>
+<area shape="rect" id="node29" href="$class_obj_cryst_1_1_molecule.html#a5a9a7cfad7693ce55fa20be38f1a92c1" title=" " alt="" coords="225,1403,359,1441"/>
+<area shape="rect" id="node30" href="$class_obj_cryst_1_1_molecule.html#a25132c259da4d0bd739ff0ffc008575e" title=" " alt="" coords="225,1465,359,1504"/>
+<area shape="rect" id="node31" href="$namespace_obj_cryst.html#ad378f55096180bcac292460ddc816935" title="Get The Bond Angle of 3 atoms." alt="" coords="208,1552,376,1577"/>
+<area shape="rect" id="node32" href="$class_obj_cryst_1_1_unit_cell.html#a69debaf9dc539baf3c5ccc599ae614cd" title="Get fractional cartesian coordinates for a set of (x,y,z) orthonormal coordinates." alt="" coords="183,1601,401,1640"/>
+<area shape="rect" id="node33" href="$class_obj_cryst_1_1_scatterer.html#aff5316d7c3bdfe1122c7182a5fa74c55" title=" " alt="" coords="225,1664,359,1703"/>
+<area shape="rect" id="node34" href="$class_obj_cryst_1_1_scatterer.html#a4be726a73ee8c60ed3d2efbcdbddec0b" title=" " alt="" coords="225,1727,359,1765"/>
+<area shape="rect" id="node35" href="$class_obj_cryst_1_1_scatterer.html#a4b37d00a337253b810700e068046c6ec" title=" " alt="" coords="225,1789,359,1828"/>
+<area shape="rect" id="node36" href="$class_obj_cryst_1_1_crystal.html#acee480ad824aa0eedf78a4fa414cf347" title="Add a scatterer to the crystal." alt="" coords="227,1852,357,1891"/>
+<area shape="rect" id="node38" href="$class_obj_cryst_1_1_crystal.html#a4fcfaa8859bc402d7498849e4bb5de0a" title="Get the registry of scatterers." alt="" coords="219,1915,365,1953"/>
+<area shape="rect" id="node39" href="$class_obj_cryst_1_1_crystal.html#ac2755d27280cfa572aa334e6e596da98" title="Remove a Scatterer. This also deletes the scatterer unless del=false." alt="" coords="227,1977,357,2016"/>
+<area shape="rect" id="node3" href="$class_obj_cryst_1_1_unit_cell.html#ad774324f564621a3e7bcd0cfcafae9cc" title="last time the Lattice parameters were changed" alt="" coords="482,193,626,232"/>
+<area shape="rect" id="node4" href="$class_obj_cryst_1_1_crystal.html#ab991f8f3cc005760f939f7d41694cfdf" title="Provides an access to the scatterers." alt="" coords="489,256,619,295"/>
+<area shape="rect" id="node5" href="$class_obj_cryst_1_1_scatterer.html#aa80ea62ee58a9c6e12cb2863d641b3d3" title="Last time anything in the scatterer was changed (atoms, positions, scattering power)" alt="" coords="485,319,623,357"/>
+<area shape="rect" id="node6" href="$class_obj_cryst_1_1_scattering_component_list.html#a512dcd4870c53b3f98ad6e7b04be9801" title=" " alt="" coords="449,381,659,420"/>
+<area shape="rect" id="node7" href="$class_obj_cryst_1_1_scatterer.html#aca0e08e3793cc69d31fce53e481c2a67" title="Get the list of all scattering components for this scatterer." alt="" coords="454,5,654,44"/>
+<area shape="rect" id="node8" href="$class_obj_cryst_1_1_crystal.html#a003ff86924120b77365f8e129fde87f2" title="Reset Dynamical Population Correction factors (ie set it to 1)" alt="" coords="489,68,619,107"/>
+<area shape="rect" id="node10" href="$class_obj_cryst_1_1_scattering_component_list.html#af16db467893abc60b718dcc675d2ec66" title="Print the list of Scattering components. For debugging." alt="" coords="449,131,659,169"/>
+<area shape="rect" id="node26" href="$class_obj_cryst_1_1_molecule.html#a07ae7127f13c0527530074756093a653" title=" " alt="" coords="482,904,626,943"/>
+<area shape="rect" id="node27" href="$class_obj_cryst_1_1_molecule.html#a5603e0f2c58de705284f07903e4f597a" title=" " alt="" coords="473,841,635,880"/>
+<area shape="rect" id="node25" href="$class_obj_cryst_1_1_mol_bond.html#aa2e55e0744234ef375f2b1e596270a03" title="Name of the bond, e.g. &quot;C3&#45;O4&quot;." alt="" coords="741,779,882,817"/>
+<area shape="rect" id="node37" href="$class_obj_cryst_1_1_scatterer.html#ace072c5113b5328a7145d33779582621" title="Set the crystal in which is included this Scatterer." alt="" coords="487,1852,621,1891"/>
+</map>

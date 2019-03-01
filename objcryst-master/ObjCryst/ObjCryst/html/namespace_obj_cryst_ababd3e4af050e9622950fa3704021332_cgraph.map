@@ -1,0 +1,5 @@
+<map id="ObjCryst::CreateCrystalFromCIF" name="ObjCryst::CreateCrystalFromCIF">
+<area shape="rect" id="node1" title=" " alt="" coords="5,44,220,69"/>
+<area shape="rect" id="node2" href="$class_obj_cryst_1_1_scattering_power.html#a497e942601480325ef6f8f345f0e1517" title="Sets the isotropic temperature B factor." alt="" coords="268,5,446,44"/>
+<area shape="rect" id="node3" href="$class_obj_cryst_1_1_scattering_power.html#aee5ad2e8325feea42430bd1ed54eabfc" title="Sets the anisotropic temperature B factor for (i, j) pair." alt="" coords="268,68,446,107"/>
+</map>

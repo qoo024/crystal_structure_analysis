@@ -1,0 +1,27 @@
+<map id="ObjCryst::RefinableObj::GetNbPar" name="ObjCryst::RefinableObj::GetNbPar">
+<area shape="rect" id="node1" title=" " alt="" coords="867,433,1025,472"/>
+<area shape="rect" id="node2" href="$class_obj_cryst_1_1_l_s_q_num_obj.html#a6fdf2b9d64a527b0c2e81f92fd9be2c3" title=" " alt="" coords="659,5,815,44"/>
+<area shape="rect" id="node3" href="$class_obj_cryst_1_1_refinable_obj.html#a6710a75c0477b6ad7e42400cdc6f1c32" title=" " alt="" coords="655,68,819,107"/>
+<area shape="rect" id="node5" href="$class_obj_cryst_1_1_refinable_obj.html#ac1a65da1f7563472badaf699002b8b8b" title="Fix All parameters." alt="" coords="658,131,816,169"/>
+<area shape="rect" id="node6" href="$class_obj_cryst_1_1_refinable_obj.html#ab75dcf763d7f96063dcb4d85e6e78007" title="UnFix All parameters." alt="" coords="658,193,816,232"/>
+<area shape="rect" id="node7" href="$class_obj_cryst_1_1_refinable_obj.html#a8dc4cb100f839e12a9e0ae01facc5c9c" title="Fix/un&#45;fix one parameter from its name." alt="" coords="658,256,816,295"/>
+<area shape="rect" id="node8" href="$class_obj_cryst_1_1_refinable_obj.html#a1d0737a4ecb7cb1339f3138cd792ba7c" title="Set whether a parameter is used." alt="" coords="658,319,816,357"/>
+<area shape="rect" id="node9" href="$class_obj_cryst_1_1_refinable_obj.html#a6a28259e473fadd53fbc9b9bf7930813" title=" " alt="" coords="214,404,372,443"/>
+<area shape="rect" id="node10" href="$class_obj_cryst_1_1_refinable_obj.html#a515a81780181269eb232278f7511b2bb" title="Save the current set of refined values over a previously&#45;created set of saved values." alt="" coords="658,496,816,535"/>
+<area shape="rect" id="node15" href="$class_obj_cryst_1_1_refinable_obj.html#a057437fe6759b589906d8a16f9732e22" title="Restore a saved set of values." alt="" coords="440,621,598,660"/>
+<area shape="rect" id="node18" href="$class_obj_cryst_1_1_refinable_obj.html#a2f24a7b834f5588e32aac9c6e33a1020" title="Change the limits for a given parameter, giving absolute new limits." alt="" coords="658,611,816,649"/>
+<area shape="rect" id="node19" href="$class_obj_cryst_1_1_refinable_obj.html#acacf469614253239fdeebb21e50f0c1c" title=" " alt="" coords="658,673,816,712"/>
+<area shape="rect" id="node20" href="$class_obj_cryst_1_1_refinable_obj.html#adc6b05a95d524d600910a47861190e84" title=" " alt="" coords="658,736,816,775"/>
+<area shape="rect" id="node21" href="$class_obj_cryst_1_1_refinable_obj.html#ae4f0b5b0038ff3b49dcdc8adbf98bc58" title="Change the maximum step to use during Global Optimization algorithms." alt="" coords="658,799,816,837"/>
+<area shape="rect" id="node22" href="$class_obj_cryst_1_1_refinable_obj.html#ace4e00bd7787b2f490a1e4bfe85dbe89" title="Get the gene group assigned to each parameter." alt="" coords="658,861,816,900"/>
+<area shape="rect" id="node23" href="$class_obj_cryst_1_1_refinable_obj.html#a46caa32fb18f6728ecf42bacca789041" title="Find a refinable parameter with a given name." alt="" coords="658,433,816,472"/>
+<area shape="rect" id="node4" href="$class_obj_cryst_1_1_refinable_obj.html#ae0d568b66a8bfe39ebbb648d68a57239" title=" " alt="" coords="432,68,607,107"/>
+<area shape="rect" id="node11" href="$class_obj_cryst_1_1_refinable_obj.html#abb7ba59ef7cad325753587b484e60bfe" title="Save the current set of refined values in a new set." alt="" coords="440,559,598,597"/>
+<area shape="rect" id="node12" href="$class_obj_cryst_1_1_monte_carlo_obj.html#a86a5e1222f1a836da730f7d17b752021" title=" " alt="" coords="208,589,378,628"/>
+<area shape="rect" id="node13" href="$class_obj_cryst_1_1_simplex_obj.html#aa5d987434598f3c6e2045b1446cfb064" title=" " alt="" coords="218,527,367,565"/>
+<area shape="rect" id="node14" href="$class_obj_cryst_1_1_simplex_obj.html#a15315e9e1509d8c1c0235d4b1e03ed92" title=" " alt="" coords="5,527,154,565"/>
+<area shape="rect" id="node16" href="$class_obj_cryst_1_1_optimization_obj.html#a25a4ea1cf717a7d62ecf2cdbee87fa7a" title="Restore the Best configuration." alt="" coords="202,715,384,753"/>
+<area shape="rect" id="node17" href="$class_obj_cryst_1_1_monte_carlo_obj.html#ad036c6dbffb9a65ae1a7545418f16c73" title=" " alt="" coords="208,652,378,691"/>
+<area shape="rect" id="node24" href="$class_obj_cryst_1_1_refinable_obj.html#a504d0aadf2a13e8d6ecf40487d31cc8d" title="Access all parameters from their name." alt="" coords="440,496,598,535"/>
+<area shape="rect" id="node25" href="$class_obj_cryst_1_1_refinable_obj.html#a0c0050a3d3141ca34eb8f4b559ad2f8d" title=" " alt="" coords="440,433,598,472"/>
+</map>

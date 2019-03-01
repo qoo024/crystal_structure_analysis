@@ -1,0 +1,16 @@
+<map id="ObjCryst::PowderPatternDiffraction::GetNbReflBelowMaxSinThetaOvLambda" name="ObjCryst::PowderPatternDiffraction::GetNbReflBelowMaxSinThetaOvLambda">
+<area shape="rect" id="node1" title=" " alt="" coords="5,205,276,244"/>
+<area shape="rect" id="node2" href="$class_obj_cryst_1_1_powder_pattern.html#a9267c87c1e23978733d709827a6d6fc3" title="Number of points actually calculated (below the chosen max(sin(theta)/lambda)) ?" alt="" coords="324,205,493,244"/>
+<area shape="rect" id="node3" href="$class_obj_cryst_1_1_powder_pattern.html#a41398431ff5bc35f99d47224c3d4a6ec" title=" " alt="" coords="541,205,710,244"/>
+<area shape="rect" id="node4" href="$class_obj_cryst_1_1_powder_pattern.html#a8c545d3b5f5e9671a719040af2c229e3" title="Neutron or x&#45;ray experiment ?" alt="" coords="975,193,1144,232"/>
+<area shape="rect" id="node5" href="$class_obj_cryst_1_1_powder_pattern.html#a863415fc0586da70ea29600ffe01d954" title=" " alt="" coords="758,119,927,157"/>
+<area shape="rect" id="node12" href="$class_obj_cryst_1_1_powder_pattern.html#a05a4b659555b91a3996b016358168ae0" title=" " alt="" coords="758,233,927,272"/>
+<area shape="rect" id="node13" href="$class_obj_cryst_1_1_powder_pattern.html#a135e6cb36ade4ad2dafef04f91d53b96" title="wavelength of the experiment (in Angstroems)" alt="" coords="975,268,1144,307"/>
+<area shape="rect" id="node6" href="$class_obj_cryst_1_1_powder_pattern.html#a0146d35bdc502a6f40f006de837fb490" title=" " alt="" coords="975,125,1144,164"/>
+<area shape="rect" id="node10" href="$class_obj_cryst_1_1_powder_pattern.html#ad335f35d93beb9b269e003a4474c81f0" title=" " alt="" coords="975,32,1144,71"/>
+<area shape="rect" id="node7" href="$class_obj_cryst_1_1_powder_pattern.html#ab53befb0a673360c2cbd1261f4f120c4" title="Get the Minimum 2theta." alt="" coords="1195,131,1363,169"/>
+<area shape="rect" id="node8" href="$class_obj_cryst_1_1_powder_pattern.html#a6c86d0b0a22155319a212bfb4629c9dd" title=" " alt="" coords="1192,193,1366,232"/>
+<area shape="rect" id="node9" href="$class_obj_cryst_1_1_powder_pattern.html#a1a71f1c47f625ffeb46bddf34a6a5780" title="Get the maximum 2theta." alt="" coords="1193,68,1365,107"/>
+<area shape="rect" id="node11" href="$class_obj_cryst_1_1_radiation.html#a57eeae457d44ebb07216e144bbff31b0" title="Get the Wavelength type (monochromatic, Alpha1+Alpha2, Time Of Flight...)" alt="" coords="1204,5,1353,44"/>
+<area shape="rect" id="node14" href="$class_obj_cryst_1_1_radiation.html#a692ac2a7e9e4462e85479476f0485810" title=" " alt="" coords="1210,268,1347,307"/>
+</map>

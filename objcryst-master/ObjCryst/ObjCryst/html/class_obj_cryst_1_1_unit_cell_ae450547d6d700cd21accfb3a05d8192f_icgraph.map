@@ -1,0 +1,16 @@
+<map id="ObjCryst::UnitCell::FractionalToOrthonormalCoords" name="ObjCryst::UnitCell::FractionalToOrthonormalCoords">
+<area shape="rect" id="node1" title="Get orthonormal cartesian coordinates for a set of (x,y,z) fractional coordinates." alt="" coords="745,117,964,156"/>
+<area shape="rect" id="node2" href="$class_obj_cryst_1_1_atom.html#aaf6475195502fff91903f30b5c6c3345" title="XMLOutput a description of the scatterer for POVRay." alt="" coords="460,5,697,31"/>
+<area shape="rect" id="node3" href="$class_obj_cryst_1_1_crystal.html#a1cdcbdf36f1a93e86d8e56270ac817ad" title="XMLOutput POV&#45;Ray Description for this Crystal." alt="" coords="509,55,649,93"/>
+<area shape="rect" id="node4" href="$class_obj_cryst_1_1_crystal.html#a6e7bc69bcb5331e8faf60ef13db1255c" title=" " alt="" coords="514,117,643,156"/>
+<area shape="rect" id="node5" href="$class_obj_cryst_1_1_z_scatterer.html#abfce23ff84b572acf371cb9dc8cdb09f" title=" " alt="" coords="32,360,179,399"/>
+<area shape="rect" id="node6" href="$class_obj_cryst_1_1_z_scatterer.html#ab6afaab6104211bbca7722033e17a128" title=" " alt="" coords="507,388,650,427"/>
+<area shape="rect" id="node7" href="$class_obj_cryst_1_1_z_scatterer.html#a10481ea0bd711b3097b8cc931fce7eee" title="Get the X fractionnal coordinate of atom i." alt="" coords="261,232,404,271"/>
+<area shape="rect" id="node8" href="$class_obj_cryst_1_1_z_scatterer.html#a8b2384b8c75dd7078b134553a5694101" title="Get the Y fractionnal coordinate of atom i." alt="" coords="261,295,404,333"/>
+<area shape="rect" id="node9" href="$class_obj_cryst_1_1_z_scatterer.html#a4597d7ae7aa099821df9981a19b2763a" title="Get the Z fractionnal coordinate of atom i." alt="" coords="261,357,404,396"/>
+<area shape="rect" id="node10" href="$class_obj_cryst_1_1_z_scatterer.html#a6d7eeb015d3771ee0be1aa1fdd64de90" title="Get the list of all ZAtom cartesian x coordinates." alt="" coords="261,420,404,459"/>
+<area shape="rect" id="node11" href="$class_obj_cryst_1_1_z_scatterer.html#ab73089c2ffb605b3afcf01b0badd9d2a" title="Get the list of all ZAtom cartesian x coordinates." alt="" coords="261,483,404,521"/>
+<area shape="rect" id="node12" href="$class_obj_cryst_1_1_z_scatterer.html#a9daf54a58413751c7d749edfb1a1dd38" title="Get the list of all ZAtom cartesian x coordinates." alt="" coords="261,545,404,584"/>
+<area shape="rect" id="node13" href="$class_obj_cryst_1_1_z_scatterer.html#acec423f3f42ba0b1c173d8bc9fe96279" title=" " alt="" coords="253,608,412,647"/>
+<area shape="rect" id="node14" href="$class_obj_cryst_1_1_z_scatterer.html#afebe0638df5f8f8cd3db05f69ed41a21" title="Get the list of all scattering components for this scatterer." alt="" coords="5,608,205,647"/>
+</map>

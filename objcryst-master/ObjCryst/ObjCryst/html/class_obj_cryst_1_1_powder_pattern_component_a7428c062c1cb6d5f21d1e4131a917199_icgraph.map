@@ -1,0 +1,13 @@
+<map id="ObjCryst::PowderPatternComponent::GetParentPowderPattern" name="ObjCryst::PowderPatternComponent::GetParentPowderPattern">
+<area shape="rect" id="node1" title=" " alt="" coords="873,131,1111,169"/>
+<area shape="rect" id="node2" href="$class_obj_cryst_1_1_powder_pattern_background.html#ae68fc3a9883ca45c81a22119c28d9379" title="Import background points from a file (with two columns 2theta (or tof), intensity)" alt="" coords="583,5,823,44"/>
+<area shape="rect" id="node3" href="$class_obj_cryst_1_1_powder_pattern_background.html#a0735ae2350ebce9320ebc2fd16dd94be" title=" " alt="" coords="583,68,823,107"/>
+<area shape="rect" id="node4" href="$class_obj_cryst_1_1_powder_pattern_background.html#a874e0bed05f17df53ad6ddd3df989dc9" title=" " alt="" coords="581,131,825,169"/>
+<area shape="rect" id="node5" href="$class_obj_cryst_1_1_powder_pattern_background.html#a6e564159536442870bfb17be8e5b51e8" title=" " alt="" coords="583,193,823,232"/>
+<area shape="rect" id="node11" href="$class_obj_cryst_1_1_powder_pattern_diffraction.html#a0fba98457fffa0aef1d014fb2e7fcbc3" title=" " alt="" coords="589,256,817,295"/>
+<area shape="rect" id="node6" href="$class_obj_cryst_1_1_powder_pattern_background.html#aeff3379aae4bd4ff3d6ff353ce8f7f96" title=" " alt="" coords="293,131,533,169"/>
+<area shape="rect" id="node9" href="$class_obj_cryst_1_1_powder_pattern_background.html#a75c931bd3e0370e7434f75d70ba51295" title=" " alt="" coords="293,193,533,232"/>
+<area shape="rect" id="node10" href="$class_obj_cryst_1_1_powder_pattern_diffraction.html#a29b64d9d3d36eff816bd6dd2ce61a3c7" title=" " alt="" coords="299,256,528,295"/>
+<area shape="rect" id="node7" href="$class_obj_cryst_1_1_powder_pattern_background.html#a044838d76b1878a029d587480636e80e" title=" " alt="" coords="5,89,245,141"/>
+<area shape="rect" id="node8" href="$class_obj_cryst_1_1_powder_pattern_diffraction.html#aa86150b55c39275e7d076afb2b43513d" title=" " alt="" coords="11,165,240,204"/>
+</map>

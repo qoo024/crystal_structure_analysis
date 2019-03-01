@@ -1,0 +1,11 @@
+<map id="ObjCryst::MonteCarloObj" name="ObjCryst::MonteCarloObj">
+<area shape="rect" id="node1" title="Base object for Monte&#45;Carlo Global Optimization methods." alt="" coords="939,117,1109,142"/>
+<area shape="rect" id="node2" href="$class_obj_cryst_1_1_optimization_obj.html" title="Base object for Optimization methods." alt="" coords="673,117,849,142"/>
+<area shape="rect" id="node3" href="$class_obj_cryst_1_1_refinable_obj.html" title="Generic Refinable Object." alt="" coords="365,165,523,190"/>
+<area shape="rect" id="node4" href="$class_obj_cryst_1_1_refinable_obj_clock.html" title=" " alt="" coords="5,77,196,102"/>
+<area shape="rect" id="node7" href="$class_obj_cryst_1_1_ref_obj_opt.html" title=" " alt="" coords="372,54,515,79"/>
+<area shape="rect" id="node5" href="$class_obj_cryst_1_1_obj_registry.html" title=" " alt="" coords="11,230,191,269"/>
+<area shape="rect" id="node6" href="$class_obj_cryst_1_1_obj_registry.html" title=" " alt="" coords="18,149,184,187"/>
+<area shape="rect" id="node8" href="$class_obj_cryst_1_1_main_tracker.html" title=" " alt="" coords="367,115,521,141"/>
+<area shape="rect" id="node9" href="$class_obj_cryst_1_1_l_s_q_num_obj.html" title="(Quick &amp; dirty) Least&#45;Squares Refinement Object with Numerical derivatives" alt="" coords="683,166,839,191"/>
+</map>

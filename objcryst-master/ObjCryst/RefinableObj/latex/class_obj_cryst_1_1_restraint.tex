@@ -1,0 +1,54 @@
+\hypertarget{class_obj_cryst_1_1_restraint}{}\section{Obj\+Cryst\+::Restraint Class Reference}
+\label{class_obj_cryst_1_1_restraint}\index{ObjCryst::Restraint@{ObjCryst::Restraint}}
+
+
+{\ttfamily \#include $<$Refinable\+Obj.\+h$>$}
+
+
+
+Inheritance diagram for Obj\+Cryst\+::Restraint\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=198pt]{class_obj_cryst_1_1_restraint__inherit__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_restraint_ac916c489ee14891b38bf9a877d9e0d03}\label{class_obj_cryst_1_1_restraint_ac916c489ee14891b38bf9a877d9e0d03}} 
+\mbox{\hyperlink{class_obj_cryst_1_1_restraint_ac916c489ee14891b38bf9a877d9e0d03}{Restraint}} ()
+\begin{DoxyCompactList}\small\item\em Default constructor, sets \mbox{\hyperlink{class_obj_cryst_1_1_ref_par_type}{Ref\+Par\+Type}} to gp\+Ref\+Par\+Type\+Obj\+Cryst. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_restraint_a5fd37c4a5f20a41dcacb78b0af3b8a7d}\label{class_obj_cryst_1_1_restraint_a5fd37c4a5f20a41dcacb78b0af3b8a7d}} 
+\mbox{\hyperlink{class_obj_cryst_1_1_restraint_a5fd37c4a5f20a41dcacb78b0af3b8a7d}{Restraint}} (const \mbox{\hyperlink{class_obj_cryst_1_1_ref_par_type}{Ref\+Par\+Type}} $\ast$type)
+\begin{DoxyCompactList}\small\item\em constructor specifying the type \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_restraint_a7d9bf75d4d7a83fdf3c5f4b44bb4e7e7}\label{class_obj_cryst_1_1_restraint_a7d9bf75d4d7a83fdf3c5f4b44bb4e7e7}} 
+virtual const \mbox{\hyperlink{class_obj_cryst_1_1_ref_par_type}{Ref\+Par\+Type}} $\ast$ {\bfseries Get\+Type} () const
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_restraint_a61f0346a4896caa89ac880a76a632882}\label{class_obj_cryst_1_1_restraint_a61f0346a4896caa89ac880a76a632882}} 
+virtual void {\bfseries Set\+Type} (const \mbox{\hyperlink{class_obj_cryst_1_1_ref_par_type}{Ref\+Par\+Type}} $\ast$type)
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_restraint_ab2b50e5b6209b0443b6d746aa4ac2ffd}\label{class_obj_cryst_1_1_restraint_ab2b50e5b6209b0443b6d746aa4ac2ffd}} 
+virtual R\+E\+AL \mbox{\hyperlink{class_obj_cryst_1_1_restraint_ab2b50e5b6209b0443b6d746aa4ac2ffd}{Get\+Log\+Likelihood}} () const
+\begin{DoxyCompactList}\small\item\em Get -\/ln(likelihood) for this restraint. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+\mbox{\hyperlink{class_obj_cryst_1_1_restraint}{Restraint}}\+: generic class for a restraint of a given model. This defines only the category (\mbox{\hyperlink{class_obj_cryst_1_1_ref_par_type}{Ref\+Par\+Type}}) of restraint, and the function to access the log(likelihood) associated to this restraint and the current model.
+
+By default\+: -\/log(likelihood)=0, and the function must be overloaded for \char`\"{}real\char`\"{} restraints.
+
+\begin{DoxyNote}{Note}
+the log(likelihood) {\itshape must} always include the normalization term, so that variances can also optimized during the maximum likelihood optimization. e.\+g.\+:
+\begin{DoxyItemize}
+\item $ P=\frac{1}{\sqrt{2\pi\sigma^2}}e^{\frac{-(calc-expected)^2}{\sigma^2}}$
+\item $ -\log(P)= \log\left(\sqrt{2\pi\sigma^2}\right) + \left(\frac{calc-expected}{\sigma} \right)^2$
+\end{DoxyItemize}
+\end{DoxyNote}
+forgetting the normalization term would result in making the optimization diverge towards infinite variances. 
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+Refinable\+Obj.\+h\item 
+Refinable\+Obj.\+cpp\end{DoxyCompactItemize}

@@ -1,0 +1,6 @@
+<map id="ObjCryst::ScatteringData::SetHKL" name="ObjCryst::ScatteringData::SetHKL">
+<area shape="rect" id="node1" title="input H,K,L" alt="" coords="631,35,799,73"/>
+<area shape="rect" id="node2" href="$class_obj_cryst_1_1_scattering_data.html#a63f682dfda2e03f2ab00826c5e116033" title="Generate a list of h,k,l to describe a full reciprocal space, up to a given maximum theta value." alt="" coords="414,5,583,44"/>
+<area shape="rect" id="node4" href="$namespace_obj_cryst.html#a775b62d07c596365d2f2d021dca408db" title=" " alt="" coords="5,41,149,67"/>
+<area shape="rect" id="node3" href="$class_obj_cryst_1_1_scattering_data.html#a3d15ed5e447e6b2ff6fd8fdaad43a37d" title="Generate a list of h,k,l to describe a full reciprocal space, up to a given maximum theta value." alt="" coords="197,5,366,44"/>
+</map>

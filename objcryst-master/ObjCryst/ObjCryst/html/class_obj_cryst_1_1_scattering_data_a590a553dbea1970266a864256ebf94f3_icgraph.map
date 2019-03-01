@@ -1,0 +1,7 @@
+<map id="ObjCryst::ScatteringData::SetCrystal" name="ObjCryst::ScatteringData::SetCrystal">
+<area shape="rect" id="node1" title=" " alt="" coords="474,111,642,149"/>
+<area shape="rect" id="node2" href="$class_obj_cryst_1_1_diffraction_data_single_crystal.html#a3fcfa9d8f263043025d4167001c2243f" title=" " alt="" coords="214,5,409,57"/>
+<area shape="rect" id="node3" href="$class_obj_cryst_1_1_powder_pattern_diffraction.html#a5e32e21896fdd947add0cc47fad0bc87" title=" " alt="" coords="197,81,426,120"/>
+<area shape="rect" id="node4" href="$namespace_obj_cryst.html#a775b62d07c596365d2f2d021dca408db" title=" " alt="" coords="5,117,149,143"/>
+<area shape="rect" id="node5" href="$class_obj_cryst_1_1_global_scattering_power.html#af81844742d8cfdca7dec979a08e4abf0" title="Get the Scattering factor for all reflections of a given ScatteringData object." alt="" coords="218,196,404,235"/>
+</map>

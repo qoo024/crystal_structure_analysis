@@ -1,0 +1,5 @@
+<map id="ObjCryst::PowderPattern::SetPowderPatternObs" name="ObjCryst::PowderPattern::SetPowderPatternObs">
+<area shape="rect" id="node1" title="Set observed powder pattern from vector array." alt="" coords="5,37,174,76"/>
+<area shape="rect" id="node2" href="$class_obj_cryst_1_1_powder_pattern.html#a1f2397ca48de524cb3916103eb83a267" title="Set sigma=sqrt(Iobs)" alt="" coords="226,5,395,44"/>
+<area shape="rect" id="node3" href="$class_obj_cryst_1_1_powder_pattern.html#add7d97cdb7610f7553b95c2eeefcd172" title=" " alt="" coords="222,68,398,107"/>
+</map>

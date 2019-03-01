@@ -1,0 +1,9 @@
+<map id="ObjCryst::Molecule::TuneGlobalOptimRotationAmplitude" name="ObjCryst::Molecule::TuneGlobalOptimRotationAmplitude">
+<area shape="rect" id="node1" title=" " alt="" coords="5,97,247,136"/>
+<area shape="rect" id="node2" href="$class_obj_cryst_1_1_molecule.html#a839d362bb9c2e6f0951caf00c8c8e92c" title="Number of components in the scatterer (eg number of point scatterers)" alt="" coords="300,5,436,44"/>
+<area shape="rect" id="node3" href="$class_obj_cryst_1_1_molecule.html#a9bd595a0ad88d6832718f3bffb452866" title=" " alt="" coords="300,68,436,107"/>
+<area shape="rect" id="node4" href="$class_obj_cryst_1_1_quaternion.html#a530f0de9cea9dc7ac595722a0a636e2a" title="Create a rotation quaternion around a given vector for a given angle." alt="" coords="490,124,636,163"/>
+<area shape="rect" id="node6" href="$class_obj_cryst_1_1_quaternion.html#af8c6c41e1af3f0f0f1031dc3fe936254" title="Rotate vector v=(v1,v2,v3). The rotated components are directly written." alt="" coords="295,184,442,223"/>
+<area shape="rect" id="node5" href="$class_obj_cryst_1_1_quaternion.html#af5260414dcf9aaeb479370b55542ad58" title="Default constructor, yields q=(1,0,0,0)" alt="" coords="684,156,831,195"/>
+<area shape="rect" id="node7" href="$class_obj_cryst_1_1_quaternion.html#a0d0d7b809d9447a70e2d91902ca0afcd" title="Get the conjugate of this quaternion (== the inverse if unit quaternion)" alt="" coords="490,187,636,225"/>
+</map>

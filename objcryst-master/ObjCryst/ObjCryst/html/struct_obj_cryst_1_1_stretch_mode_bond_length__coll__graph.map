@@ -1,0 +1,14 @@
+<map id="ObjCryst::StretchModeBondLength" name="ObjCryst::StretchModeBondLength">
+<area shape="rect" id="node1" title=" " alt="" coords="162,515,350,553"/>
+<area shape="rect" id="node2" href="$struct_obj_cryst_1_1_stretch_mode.html" title=" " alt="" coords="178,428,334,453"/>
+<area shape="rect" id="node3" href="$class_obj_cryst_1_1_molecule.html" title=" " alt="" coords="210,328,344,353"/>
+<area shape="rect" id="node4" href="$class_obj_cryst_1_1_scatterer.html" title="Generic type of scatterer: can be an atom, or a more complex assembly of atoms." alt="" coords="586,241,721,267"/>
+<area shape="rect" id="node5" title=" " alt="" coords="584,5,682,31"/>
+<area shape="rect" id="node7" href="$class_obj_cryst_1_1_unit_cell.html" title="Unit Cell class: Unit cell with spacegroup information." alt="" coords="655,80,782,105"/>
+<area shape="rect" id="node6" href="$class_obj_cryst_1_1_crystal.html" title="Crystal class: Unit cell, spacegroup, scatterers." alt="" coords="656,155,778,180"/>
+<area shape="rect" id="node8" href="$class_obj_cryst_1_1_scattering_component_list.html" title="list of scattering positions in a crystal, associated with the corresponding occupancy and a pointer ..." alt="" coords="162,241,392,267"/>
+<area shape="rect" id="node9" href="$class_obj_cryst_1_1_mol_atom.html" title=" " alt="" coords="5,241,139,267"/>
+<area shape="rect" id="node10" href="$class_obj_cryst_1_1_quaternion.html" title=" " alt="" coords="416,241,563,267"/>
+<area shape="rect" id="node11" href="$class_obj_cryst_1_1_mol_bond.html" title=" " alt="" coords="359,428,492,453"/>
+<area shape="rect" id="node12" title=" " alt="" coords="388,328,463,353"/>
+</map>
