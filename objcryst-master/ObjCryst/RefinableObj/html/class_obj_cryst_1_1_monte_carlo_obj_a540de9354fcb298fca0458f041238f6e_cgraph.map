@@ -1,6 +1,0 @@
-<map id="ObjCryst::MonteCarloObj::XMLOutput" name="ObjCryst::MonteCarloObj::XMLOutput">
-<area shape="rect" id="node1" title="Output a description of the object in XML format to a stream." alt="" coords="5,68,176,107"/>
-<area shape="rect" id="node2" href="$class_obj_cryst_1_1_optimization_obj.html#ad9ecef3dfab776689e20fec12e6cbe38" title="Get the name for this object." alt="" coords="224,5,399,44"/>
-<area shape="rect" id="node3" href="$class_obj_cryst_1_1_optimization_obj.html#abce28f5f2b98dce089aad6933a3f3c3c" title="Number of trial per run." alt="" coords="224,68,399,107"/>
-<area shape="rect" id="node4" href="$class_obj_cryst_1_1_ref_obj_opt.html#aebeb771ffe0744aac86352f38ea67f42" title="XMLOutput to stream in well&#45;formed XML." alt="" coords="240,131,383,169"/>
-</map>

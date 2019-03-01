@@ -1,8 +1,0 @@
-<map id="ObjCryst::ScatteringPowerAtom::GetResonantScattFactReal" name="ObjCryst::ScatteringPowerAtom::GetResonantScattFactReal">
-<area shape="rect" id="node1" title="Get the real part of the resonant scattering factor." alt="" coords="5,69,228,108"/>
-<area shape="rect" id="node2" href="$class_obj_cryst_1_1_scattering_data.html#a78f6547a44470466f1b48cdfe9f9325d" title="Neutron or x&#45;ray experiment ? Wavelength ?" alt="" coords="276,37,444,76"/>
-<area shape="rect" id="node5" href="$class_obj_cryst_1_1_scattering_data.html#a406028377b84d874a68b31489d876760" title="wavelength of the experiment (in Angstroems)" alt="" coords="276,100,444,139"/>
-<area shape="rect" id="node3" href="$class_obj_cryst_1_1_scattering_data.html#a14deaa47d5b79d12369ed5d8d4afbfbe" title="Get the radiation object for this data." alt="" coords="492,68,661,107"/>
-<area shape="rect" id="node4" href="$class_obj_cryst_1_1_radiation.html#ae369d0c6868a6291af6527ada096a768" title="Get the radiation type (X&#45;Rays, Neutron)" alt="" coords="508,5,645,44"/>
-<area shape="rect" id="node6" href="$class_obj_cryst_1_1_radiation.html#a692ac2a7e9e4462e85479476f0485810" title=" " alt="" coords="508,131,645,169"/>
-</map>

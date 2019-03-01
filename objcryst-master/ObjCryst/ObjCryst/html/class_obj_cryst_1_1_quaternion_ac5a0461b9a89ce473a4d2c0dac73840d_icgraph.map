@@ -1,6 +1,0 @@
-<map id="ObjCryst::Quaternion::Normalize" name="ObjCryst::Quaternion::Normalize">
-<area shape="rect" id="node1" title=" " alt="" coords="460,37,606,76"/>
-<area shape="rect" id="node2" href="$class_obj_cryst_1_1_quaternion.html#a7adfabaa48d3f0a8aa056977f8a40492" title="Creates a unit quaternion from its components (normalized automatically)" alt="" coords="259,5,406,44"/>
-<area shape="rect" id="node3" href="$class_obj_cryst_1_1_molecule.html#a53e8b1249d2f489fd71f06612cde0bd4" title=" " alt="" coords="253,68,412,107"/>
-<area shape="rect" id="node4" href="$class_obj_cryst_1_1_molecule.html#a03f7f32ade8523f118cab14a21a87843" title="Get the list of all scattering components for this scatterer." alt="" coords="5,68,205,107"/>
-</map>

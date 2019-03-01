@@ -1,6 +1,0 @@
-<map id="ObjCryst::PowderPatternDiffraction" name="ObjCryst::PowderPatternDiffraction">
-<area shape="rect" id="node1" title="Class to compute the contribution to a powder pattern from a crystalline phase." alt="" coords="123,152,352,177"/>
-<area shape="rect" id="node2" href="$class_obj_cryst_1_1_powder_pattern_component.html" title="Generic class to compute components (eg the contribution of a given phase, or background) of a powder..." alt="" coords="5,79,243,104"/>
-<area shape="rect" id="node3" title=" " alt="" coords="188,5,287,31"/>
-<area shape="rect" id="node4" href="$class_obj_cryst_1_1_scattering_data.html" title="Class to compute structure factors for a set of reflections and a Crystal." alt="" coords="266,79,435,104"/>
-</map>

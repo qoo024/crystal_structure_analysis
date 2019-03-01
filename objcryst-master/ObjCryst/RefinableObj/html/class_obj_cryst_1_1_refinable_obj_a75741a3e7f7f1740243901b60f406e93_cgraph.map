@@ -1,9 +1,0 @@
-<map id="ObjCryst::RefinableObj::SetLimitsProportional" name="ObjCryst::RefinableObj::SetLimitsProportional">
-<area shape="rect" id="node1" title=" " alt="" coords="5,155,163,193"/>
-<area shape="rect" id="node2" href="$class_obj_cryst_1_1_refinable_obj.html#a3a45838e4463a17f1d32a892dc48c1dd" title=" " alt="" coords="235,5,393,44"/>
-<area shape="rect" id="node3" href="$class_obj_cryst_1_1_refinable_obj.html#a20def1b7c2106df61d4a119b3519e4a4" title="Access all parameters in the order they were inputted." alt="" coords="235,68,393,107"/>
-<area shape="rect" id="node4" href="$class_obj_cryst_1_1_ref_par_type.html#ac97be763ec8c07fdcffa0e35744a9371" title="Returns true if the parameter is a descendant of &#39;type&#39;." alt="" coords="211,155,418,193"/>
-<area shape="rect" id="node5" href="$class_obj_cryst_1_1_refinable_par.html#afb15606bb24a5fbb144d07843bb11f97" title=" " alt="" coords="235,217,393,256"/>
-<area shape="rect" id="node7" href="$class_obj_cryst_1_1_refinable_obj.html#a55e54c4b43853cc658f275771645f14a" title="Access to the registry of RefinableObj used by this object." alt="" coords="235,280,393,319"/>
-<area shape="rect" id="node6" href="$class_obj_cryst_1_1_refinable_par.html#a477cf548ff273fa1487b74a2c47af664" title=" " alt="" coords="466,217,623,256"/>
-</map>

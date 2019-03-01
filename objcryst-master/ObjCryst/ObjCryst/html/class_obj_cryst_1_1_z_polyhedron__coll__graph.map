@@ -1,9 +1,0 @@
-<map id="ObjCryst::ZPolyhedron" name="ObjCryst::ZPolyhedron">
-<area shape="rect" id="node1" title=" " alt="" coords="97,403,253,428"/>
-<area shape="rect" id="node2" href="$class_obj_cryst_1_1_z_scatterer.html" title=" " alt="" coords="104,328,247,353"/>
-<area shape="rect" id="node3" href="$class_obj_cryst_1_1_scatterer.html" title="Generic type of scatterer: can be an atom, or a more complex assembly of atoms." alt="" coords="5,241,140,267"/>
-<area shape="rect" id="node4" title=" " alt="" coords="18,5,117,31"/>
-<area shape="rect" id="node6" href="$class_obj_cryst_1_1_unit_cell.html" title="Unit Cell class: Unit cell with spacegroup information." alt="" coords="89,80,216,105"/>
-<area shape="rect" id="node5" href="$class_obj_cryst_1_1_crystal.html" title="Crystal class: Unit cell, spacegroup, scatterers." alt="" coords="90,155,212,180"/>
-<area shape="rect" id="node7" href="$class_obj_cryst_1_1_scattering_component_list.html" title="list of scattering positions in a crystal, associated with the corresponding occupancy and a pointer ..." alt="" coords="164,241,395,267"/>
-</map>

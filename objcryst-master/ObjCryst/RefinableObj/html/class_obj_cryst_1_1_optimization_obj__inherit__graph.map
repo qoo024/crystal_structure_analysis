@@ -1,5 +1,0 @@
-<map id="ObjCryst::OptimizationObj" name="ObjCryst::OptimizationObj">
-<area shape="rect" id="node1" title="Base object for Optimization methods." alt="" coords="95,5,270,31"/>
-<area shape="rect" id="node2" href="$class_obj_cryst_1_1_monte_carlo_obj.html" title="Base object for Monte&#45;Carlo Global Optimization methods." alt="" coords="5,79,176,104"/>
-<area shape="rect" id="node3" href="$class_obj_cryst_1_1_simplex_obj.html" title=" " alt="" coords="200,79,349,104"/>
-</map>

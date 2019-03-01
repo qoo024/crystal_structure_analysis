@@ -1,9 +1,0 @@
-<map id="ObjCryst::RefinableObj::SetLimitsRelative" name="ObjCryst::RefinableObj::SetLimitsRelative">
-<area shape="rect" id="node1" title=" " alt="" coords="5,100,163,139"/>
-<area shape="rect" id="node2" href="$class_obj_cryst_1_1_refinable_obj.html#a3a45838e4463a17f1d32a892dc48c1dd" title=" " alt="" coords="211,5,369,44"/>
-<area shape="rect" id="node3" href="$class_obj_cryst_1_1_refinable_obj.html#a20def1b7c2106df61d4a119b3519e4a4" title="Access all parameters in the order they were inputted." alt="" coords="211,68,369,107"/>
-<area shape="rect" id="node4" href="$class_obj_cryst_1_1_refinable_obj.html#a2d881bf3abcb527cf96142e51226e449" title="Name of the object." alt="" coords="211,131,369,169"/>
-<area shape="rect" id="node5" href="$class_obj_cryst_1_1_refinable_par.html#ad445354c927f8df95443a55174e7bb7d" title=" " alt="" coords="211,193,369,232"/>
-<area shape="rect" id="node6" href="$class_obj_cryst_1_1_refinable_par.html#a1a2acc39d6483283c5361a4b2d0c1fd5" title="Get the parameter&#39;s name." alt="" coords="417,161,574,200"/>
-<area shape="rect" id="node7" href="$class_obj_cryst_1_1_refinable_par.html#a477cf548ff273fa1487b74a2c47af664" title=" " alt="" coords="417,224,574,263"/>
-</map>

@@ -1,9 +1,0 @@
-<map id="ObjCryst::RefinableObj::CreateParamSet" name="ObjCryst::RefinableObj::CreateParamSet">
-<area shape="rect" id="node1" title="Save the current set of refined values in a new set." alt="" coords="5,100,163,139"/>
-<area shape="rect" id="node2" href="$class_obj_cryst_1_1_refinable_obj.html#a515a81780181269eb232278f7511b2bb" title="Save the current set of refined values over a previously&#45;created set of saved values." alt="" coords="211,100,369,139"/>
-<area shape="rect" id="node3" href="$class_obj_cryst_1_1_refinable_obj.html#af2042b90302e42e6eec83ba7024df89a" title="Find a parameter set with a given id (and check if it is there)" alt="" coords="417,5,574,44"/>
-<area shape="rect" id="node5" href="$class_obj_cryst_1_1_refinable_obj.html#a3a45838e4463a17f1d32a892dc48c1dd" title=" " alt="" coords="417,68,574,107"/>
-<area shape="rect" id="node6" href="$class_obj_cryst_1_1_refinable_obj.html#a20def1b7c2106df61d4a119b3519e4a4" title="Access all parameters in the order they were inputted." alt="" coords="417,131,574,169"/>
-<area shape="rect" id="node7" href="$class_obj_cryst_1_1_refinable_par.html#a477cf548ff273fa1487b74a2c47af664" title=" " alt="" coords="417,193,574,232"/>
-<area shape="rect" id="node4" href="$class_obj_cryst_1_1_refinable_obj.html#a2d881bf3abcb527cf96142e51226e449" title="Name of the object." alt="" coords="622,5,780,44"/>
-</map>

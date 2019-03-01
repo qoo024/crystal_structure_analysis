@@ -1,4 +1,0 @@
-<map id="ObjCryst::Crystal::AddScatterer" name="ObjCryst::Crystal::AddScatterer">
-<area shape="rect" id="node1" title="Add a scatterer to the crystal." alt="" coords="5,5,135,44"/>
-<area shape="rect" id="node2" href="$class_obj_cryst_1_1_scatterer.html#ace072c5113b5328a7145d33779582621" title="Set the crystal in which is included this Scatterer." alt="" coords="183,5,318,44"/>
-</map>

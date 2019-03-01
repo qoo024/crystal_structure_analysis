@@ -1,8 +1,0 @@
-<map id="ObjCryst::Molecule::BuildFlipGroup" name="ObjCryst::Molecule::BuildFlipGroup">
-<area shape="rect" id="node1" title=" " alt="" coords="5,124,139,163"/>
-<area shape="rect" id="node2" href="$class_obj_cryst_1_1_molecule.html#a45ed440475011a0ceb933f56751c11da" title=" " alt="" coords="203,5,366,44"/>
-<area shape="rect" id="node3" href="$namespace_obj_cryst.html#a7471f9ecb181bcd28670b4921b5f7cae" title=" " alt="" coords="187,92,381,131"/>
-<area shape="rect" id="node4" href="$class_obj_cryst_1_1_molecule.html#a4c6c144526c55f1497156b369a4362b5" title="Flip a group of atom. See Molecule::FlipGroup." alt="" coords="217,155,351,193"/>
-<area shape="rect" id="node6" href="$class_obj_cryst_1_1_molecule.html#a9b7c80db4e0812b343be30aecd6785ef" title="Print the status of all restraints (bond length, angles...)" alt="" coords="217,217,351,256"/>
-<area shape="rect" id="node5" href="$class_obj_cryst_1_1_molecule.html#a9bd595a0ad88d6832718f3bffb452866" title=" " alt="" coords="429,155,565,193"/>
-</map>

@@ -1,7 +1,0 @@
-<map id="ObjCryst::ScatteringPower" name="ObjCryst::ScatteringPower">
-<area shape="rect" id="node1" title="Abstract Base Class to describe the scattering power of any Scatterer component in a crystal." alt="" coords="152,68,330,93"/>
-<area shape="rect" id="node3" href="$class_obj_cryst_1_1_global_scattering_power.html" title="Global Scattering Power. Used to approximate the scattering power of a multi&#45;atom ZScatterer (polyhed..." alt="" coords="393,5,573,44"/>
-<area shape="rect" id="node4" href="$class_obj_cryst_1_1_scattering_power_atom.html" title="The Scattering Power for an Atom." alt="" coords="378,68,588,93"/>
-<area shape="rect" id="node5" href="$class_obj_cryst_1_1_scattering_power_sphere.html" title=" " alt="" coords="394,117,572,156"/>
-<area shape="rect" id="node2" title=" " alt="" coords="5,68,104,93"/>
-</map>

@@ -1,7 +1,0 @@
-<map id="ObjCryst::PowderPatternDiffraction::SetParentPowderPattern" name="ObjCryst::PowderPatternDiffraction::SetParentPowderPattern">
-<area shape="rect" id="node1" title=" " alt="" coords="5,100,234,139"/>
-<area shape="rect" id="node2" href="$class_obj_cryst_1_1_powder_pattern.html#a30eb704dc31b1cc0b6bc2d746c37997c" title="When were the integration intervals last changed ?" alt="" coords="288,5,504,44"/>
-<area shape="rect" id="node3" href="$class_obj_cryst_1_1_powder_pattern.html#a2c6b24bb1e7ea2f6fd4ac61b9aea3afb" title="When were the pattern parameters (2theta range, step) changed ?" alt="" coords="300,68,492,107"/>
-<area shape="rect" id="node4" href="$class_obj_cryst_1_1_powder_pattern.html#af90dc3f2baa8c13f811ecf119cc49c95" title=" " alt="" coords="293,131,499,169"/>
-<area shape="rect" id="node5" href="$class_obj_cryst_1_1_powder_pattern.html#ae53ee06cec10fd47ee9b94cb9ef19273" title="When were the radiation parameter (radiation type, wavelength) changed ?" alt="" coords="282,193,510,232"/>
-</map>

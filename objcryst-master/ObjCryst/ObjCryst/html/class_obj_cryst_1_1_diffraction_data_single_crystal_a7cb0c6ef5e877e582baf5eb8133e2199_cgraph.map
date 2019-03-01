@@ -1,5 +1,0 @@
-<map id="ObjCryst::DiffractionDataSingleCrystal::ImportShelxHKLF4" name="ObjCryst::DiffractionDataSingleCrystal::ImportShelxHKLF4">
-<area shape="rect" id="node1" title="Import h,k,l,I,Sigma from a file using shelx HKLF 4 format." alt="" coords="5,27,225,65"/>
-<area shape="rect" id="node2" href="$namespace_obj_cryst.html#a5c248549d929fc199e6323d2a1486177" title=" " alt="" coords="318,5,474,31"/>
-<area shape="rect" id="node3" href="$class_obj_cryst_1_1_diffraction_data_single_crystal.html#a76f0f6b9eab4f00b7fa9afc17e951235" title="Set the weight for all observed intensities to 1/sigma^2." alt="" coords="273,55,519,93"/>
-</map>

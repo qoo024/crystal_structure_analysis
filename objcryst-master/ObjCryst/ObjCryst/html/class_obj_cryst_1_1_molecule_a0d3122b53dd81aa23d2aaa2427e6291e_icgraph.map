@@ -1,6 +1,0 @@
-<map id="ObjCryst::Molecule::TranslateAtomGroup" name="ObjCryst::Molecule::TranslateAtomGroup">
-<area shape="rect" id="node1" title=" " alt="" coords="486,37,638,76"/>
-<area shape="rect" id="node2" href="$struct_obj_cryst_1_1_stretch_mode_bond_length.html#afe7d7a7ce74c5ae5a0a662e0d1ecfb75" title="Move the atoms according to this mode." alt="" coords="246,5,433,44"/>
-<area shape="rect" id="node3" href="$class_obj_cryst_1_1_molecule.html#ad7bfddcdf21c1214c5a70c84fc54cdb0" title=" " alt="" coords="241,68,438,107"/>
-<area shape="rect" id="node4" href="$struct_obj_cryst_1_1_stretch_mode_bond_length.html#a22179068aaf70ee72c16ef8794bd738a" title="Move the atoms according to this mode, randomly." alt="" coords="5,68,193,107"/>
-</map>

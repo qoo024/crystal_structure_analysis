@@ -1,5 +1,0 @@
-<map id="ObjCryst::DiffractionDataSingleCrystal::GetBestRFactor" name="ObjCryst::DiffractionDataSingleCrystal::GetBestRFactor">
-<area shape="rect" id="node1" title=" " alt="" coords="5,37,208,76"/>
-<area shape="rect" id="node2" href="$class_obj_cryst_1_1_diffraction_data_single_crystal.html#a64a07606d4f21cc2d6389161bebc8645" title=" " alt="" coords="256,5,479,44"/>
-<area shape="rect" id="node3" href="$class_obj_cryst_1_1_diffraction_data_single_crystal.html#add61e41d60f231d38bcdf9244339ab78" title="Return the Crystal R&#45;factor (unweighted)" alt="" coords="283,68,452,107"/>
-</map>

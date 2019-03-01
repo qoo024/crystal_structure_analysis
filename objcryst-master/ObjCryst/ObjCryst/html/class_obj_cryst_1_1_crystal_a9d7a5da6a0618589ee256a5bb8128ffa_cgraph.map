@@ -1,5 +1,0 @@
-<map id="ObjCryst::Crystal::GetBumpMergeCost" name="ObjCryst::Crystal::GetBumpMergeCost">
-<area shape="rect" id="node1" title=" " alt="" coords="5,37,148,76"/>
-<area shape="rect" id="node2" href="$class_obj_cryst_1_1_unit_cell.html#aa7d18fa157c16e2d084c3e403317d2ab" title="Access to the SpaceGroup object." alt="" coords="210,5,338,44"/>
-<area shape="rect" id="node3" href="$class_obj_cryst_1_1_space_group.html#a3790c6c41b59e2584c48f62ab1766bec" title="Return the number of equivalent positions in the spacegroup, ie the multilicity of the general positi..." alt="" coords="196,68,352,107"/>
-</map>

@@ -1,9 +1,0 @@
-<map id="ObjCryst::RefinableObj::GetLSQDeriv" name="ObjCryst::RefinableObj::GetLSQDeriv">
-<area shape="rect" id="node1" title=" " alt="" coords="5,68,163,107"/>
-<area shape="rect" id="node2" href="$class_obj_cryst_1_1_refinable_par.html#a07035d1189a9bcaa7d694dd0d6f98997" title="Fixed step to use to compute numerical derivative." alt="" coords="211,5,369,44"/>
-<area shape="rect" id="node3" href="$class_obj_cryst_1_1_refinable_par.html#abd6a06bbb5eb59d80515ebdad2612da8" title="Add the given amount to the parameter current value." alt="" coords="211,68,369,107"/>
-<area shape="rect" id="node7" href="$class_obj_cryst_1_1_refinable_obj.html#af25ddee90d0ef056332f9a922e536653" title="Get the current calculated value for the LSQ function." alt="" coords="211,131,369,169"/>
-<area shape="rect" id="node4" href="$class_obj_cryst_1_1_refinable_par.html#a1a2acc39d6483283c5361a4b2d0c1fd5" title="Get the parameter&#39;s name." alt="" coords="417,5,574,44"/>
-<area shape="rect" id="node5" href="$class_obj_cryst_1_1_refinable_par.html#ab29c440d745f91d1c89bf817169e42db" title="Get the maximum value allowed (if limited)" alt="" coords="417,68,574,107"/>
-<area shape="rect" id="node6" href="$class_obj_cryst_1_1_refinable_par.html#a36eec5c431fa6ebcc2adf95454ba3c58" title="Minimum value allowed (if limited or periodic)" alt="" coords="417,131,574,169"/>
-</map>

@@ -1,5 +1,0 @@
-<map id="ObjCryst::PowderPattern" name="ObjCryst::PowderPattern">
-<area shape="rect" id="node1" title="Powder pattern class, with an observed pattern and several calculated components to modelize the patt..." alt="" coords="5,167,174,192"/>
-<area shape="rect" id="node2" title=" " alt="" coords="35,5,134,31"/>
-<area shape="rect" id="node3" href="$class_obj_cryst_1_1_radiation.html" title="Class to define the radiation (type, monochromaticity, wavelength(s)) of an experiment." alt="" coords="105,80,242,105"/>
-</map>

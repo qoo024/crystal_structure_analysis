@@ -1,7 +1,0 @@
-<map id="ObjCryst::Molecule::AsZMatrix" name="ObjCryst::Molecule::AsZMatrix">
-<area shape="rect" id="node1" title=" " alt="" coords="5,123,139,161"/>
-<area shape="rect" id="node2" href="$class_obj_cryst_1_1_molecule.html#a45ed440475011a0ceb933f56751c11da" title=" " alt="" coords="199,5,362,44"/>
-<area shape="rect" id="node3" href="$namespace_obj_cryst.html#a1b8ee4ed3717968278182983f8a8a7b9" title="Get The Bond Length between two atoms." alt="" coords="193,92,367,117"/>
-<area shape="rect" id="node4" href="$namespace_obj_cryst.html#ad378f55096180bcac292460ddc816935" title="Get The Bond Angle of 3 atoms." alt="" coords="197,165,364,191"/>
-<area shape="rect" id="node5" href="$namespace_obj_cryst.html#ad0dfebbddb95d5a57eceb1c7484d223d" title="Get The dihedral angle defined by 4 atoms." alt="" coords="187,239,373,264"/>
-</map>

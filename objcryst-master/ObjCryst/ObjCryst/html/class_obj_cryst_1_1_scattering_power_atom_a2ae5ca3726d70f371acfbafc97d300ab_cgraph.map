@@ -1,9 +1,0 @@
-<map id="ObjCryst::ScatteringPowerAtom::GetScatteringFactor" name="ObjCryst::ScatteringPowerAtom::GetScatteringFactor">
-<area shape="rect" id="node1" title="Get the Scattering factor for all reflections of a given ScatteringData object." alt="" coords="5,100,185,139"/>
-<area shape="rect" id="node2" href="$class_obj_cryst_1_1_scattering_data.html#aec92465bb5615b797a1e17a796235840" title="Return the number of reflections in this experiment." alt="" coords="238,5,407,44"/>
-<area shape="rect" id="node3" href="$class_obj_cryst_1_1_scattering_data.html#a78f6547a44470466f1b48cdfe9f9325d" title="Neutron or x&#45;ray experiment ? Wavelength ?" alt="" coords="238,68,407,107"/>
-<area shape="rect" id="node6" href="$class_obj_cryst_1_1_scattering_data.html#a27cf813d222bbc0b261f794051125219" title=" " alt="" coords="233,131,413,169"/>
-<area shape="rect" id="node7" href="$class_obj_cryst_1_1_scattering_power_atom.html#ad81988ffdb47dd53db07431cbb8264c8" title="Atomic number for this atom." alt="" coords="234,193,412,232"/>
-<area shape="rect" id="node4" href="$class_obj_cryst_1_1_scattering_data.html#a14deaa47d5b79d12369ed5d8d4afbfbe" title="Get the radiation object for this data." alt="" coords="461,37,630,76"/>
-<area shape="rect" id="node5" href="$class_obj_cryst_1_1_radiation.html#ae369d0c6868a6291af6527ada096a768" title="Get the radiation type (X&#45;Rays, Neutron)" alt="" coords="477,100,614,139"/>
-</map>

@@ -1,9 +1,0 @@
-<map id="ObjCryst::ScatteringCorr" name="ObjCryst::ScatteringCorr">
-<area shape="rect" id="node1" title=" " alt="" coords="5,129,172,155"/>
-<area shape="rect" id="node2" href="$class_obj_cryst_1_1_lorentz_corr.html" title=" " alt="" coords="255,5,406,31"/>
-<area shape="rect" id="node3" href="$class_obj_cryst_1_1_polarization_corr.html" title=" " alt="" coords="242,55,419,80"/>
-<area shape="rect" id="node4" href="$class_obj_cryst_1_1_powder_slit_aperture_corr.html" title=" " alt="" coords="220,104,441,129"/>
-<area shape="rect" id="node5" href="$class_obj_cryst_1_1_texture_ellipsoid.html" title=" " alt="" coords="244,153,418,179"/>
-<area shape="rect" id="node6" href="$class_obj_cryst_1_1_texture_march_dollase.html" title=" " alt="" coords="228,203,434,228"/>
-<area shape="rect" id="node7" href="$class_obj_cryst_1_1_t_o_f_corr.html" title=" " alt="" coords="264,252,397,277"/>
-</map>

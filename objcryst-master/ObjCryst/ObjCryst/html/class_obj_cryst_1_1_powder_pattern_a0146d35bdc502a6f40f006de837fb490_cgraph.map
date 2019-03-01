@@ -1,6 +1,0 @@
-<map id="ObjCryst::PowderPattern::X2Pixel" name="ObjCryst::PowderPattern::X2Pixel">
-<area shape="rect" id="node1" title=" " alt="" coords="5,68,174,107"/>
-<area shape="rect" id="node2" href="$class_obj_cryst_1_1_powder_pattern.html#ab53befb0a673360c2cbd1261f4f120c4" title="Get the Minimum 2theta." alt="" coords="225,5,394,44"/>
-<area shape="rect" id="node3" href="$class_obj_cryst_1_1_powder_pattern.html#a6c86d0b0a22155319a212bfb4629c9dd" title=" " alt="" coords="222,68,397,107"/>
-<area shape="rect" id="node4" href="$class_obj_cryst_1_1_powder_pattern.html#a1a71f1c47f625ffeb46bddf34a6a5780" title="Get the maximum 2theta." alt="" coords="223,131,396,169"/>
-</map>

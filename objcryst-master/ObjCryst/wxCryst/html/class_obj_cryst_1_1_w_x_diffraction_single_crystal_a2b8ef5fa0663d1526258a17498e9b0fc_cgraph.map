@@ -1,8 +1,0 @@
-<map id="ObjCryst::WXDiffractionSingleCrystal::UpdateUI" name="ObjCryst::WXDiffractionSingleCrystal::UpdateUI">
-<area shape="rect" id="node1" title=" " alt="" coords="5,37,204,76"/>
-<area shape="rect" id="node2" href="$class_obj_cryst_1_1_w_x_field_choice.html#aae6b6916aaa6881c36aa543a05c68726" title="Used by the owner to change the name of the choice." alt="" coords="256,5,428,44"/>
-<area shape="rect" id="node3" href="$class_obj_cryst_1_1_w_x_refinable_obj.html#acbf70975a79661a73a1ae3c39c9c3045" title=" " alt="" coords="252,68,431,107"/>
-<area shape="rect" id="node4" href="$class_obj_cryst_1_1_w_x_field_name.html#a31c2d4ae66874976d03fb3dc1f61e781" title=" " alt="" coords="479,5,646,44"/>
-<area shape="rect" id="node5" href="$class_obj_cryst_1_1_w_x_field_name.html#a7a11ccb98cf448f4e964ba5bb1082d68" title=" " alt="" coords="479,68,646,107"/>
-<area shape="rect" id="node6" href="$class_obj_cryst_1_1_w_x_cryst_obj.html#a6578681b14426e8a844ac6e4ca7fafea" title=" " alt="" coords="486,131,640,169"/>
-</map>

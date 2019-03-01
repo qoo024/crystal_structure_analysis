@@ -1,9 +1,0 @@
-<map id="ObjCryst::PowderPattern::X2PixelCorr" name="ObjCryst::PowderPattern::X2PixelCorr">
-<area shape="rect" id="node1" title=" " alt="" coords="5,132,174,171"/>
-<area shape="rect" id="node2" href="$class_obj_cryst_1_1_powder_pattern.html#a0146d35bdc502a6f40f006de837fb490" title=" " alt="" coords="222,84,391,123"/>
-<area shape="rect" id="node6" href="$class_obj_cryst_1_1_powder_pattern.html#ad335f35d93beb9b269e003a4474c81f0" title=" " alt="" coords="222,163,391,201"/>
-<area shape="rect" id="node3" href="$class_obj_cryst_1_1_powder_pattern.html#ab53befb0a673360c2cbd1261f4f120c4" title="Get the Minimum 2theta." alt="" coords="442,5,611,44"/>
-<area shape="rect" id="node4" href="$class_obj_cryst_1_1_powder_pattern.html#a6c86d0b0a22155319a212bfb4629c9dd" title=" " alt="" coords="439,68,614,107"/>
-<area shape="rect" id="node5" href="$class_obj_cryst_1_1_powder_pattern.html#a1a71f1c47f625ffeb46bddf34a6a5780" title="Get the maximum 2theta." alt="" coords="440,131,613,169"/>
-<area shape="rect" id="node7" href="$class_obj_cryst_1_1_radiation.html#a57eeae457d44ebb07216e144bbff31b0" title="Get the Wavelength type (monochromatic, Alpha1+Alpha2, Time Of Flight...)" alt="" coords="452,193,601,232"/>
-</map>

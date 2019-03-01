@@ -1,9 +1,0 @@
-<map id="ObjCryst::LorentzianBiasedRandomMove" name="ObjCryst::LorentzianBiasedRandomMove">
-<area shape="rect" id="node1" title=" " alt="" coords="510,68,694,107"/>
-<area shape="rect" id="node2" href="$class_obj_cryst_1_1_molecule.html#ad7bfddcdf21c1214c5a70c84fc54cdb0" title=" " alt="" coords="258,5,456,44"/>
-<area shape="rect" id="node4" href="$class_obj_cryst_1_1_molecule.html#ad6e27c1557962b32355eeadf1bf155d3" title=" " alt="" coords="262,68,453,107"/>
-<area shape="rect" id="node6" href="$class_obj_cryst_1_1_molecule.html#afd88ae76ab528b5dc37f9d2527353904" title=" " alt="" coords="253,131,462,169"/>
-<area shape="rect" id="node3" href="$struct_obj_cryst_1_1_stretch_mode_bond_length.html#a22179068aaf70ee72c16ef8794bd738a" title="Move the atoms according to this mode, randomly." alt="" coords="11,5,199,44"/>
-<area shape="rect" id="node5" href="$struct_obj_cryst_1_1_stretch_mode_bond_angle.html#a367e3643da36e94c1581a5a00065017d" title="Move the atoms according to this mode, randomly." alt="" coords="11,68,199,107"/>
-<area shape="rect" id="node7" href="$struct_obj_cryst_1_1_stretch_mode_torsion.html#a9b8139f80374cd1b0fe8fa1a3621b5f2" title="Move the atoms according to this mode, randomly." alt="" coords="5,131,205,169"/>
-</map>

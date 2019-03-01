@@ -1,8 +1,0 @@
-<map id="ObjCryst::RefinableObj::GetParNotFixed" name="ObjCryst::RefinableObj::GetParNotFixed">
-<area shape="rect" id="node1" title=" " alt="" coords="431,100,588,139"/>
-<area shape="rect" id="node2" href="$class_obj_cryst_1_1_optimization_obj.html#a51b3d3a2ddb01f3499269e7a72581fb4" title="Randomize starting configuration. Only affects limited and periodic parameters." alt="" coords="202,5,383,44"/>
-<area shape="rect" id="node3" href="$class_obj_cryst_1_1_refinable_obj.html#ae0d568b66a8bfe39ebbb648d68a57239" title=" " alt="" coords="205,68,380,107"/>
-<area shape="rect" id="node4" href="$class_obj_cryst_1_1_refinable_obj.html#afcbc5dbf18eca074efa669ba9f51502f" title=" " alt="" coords="207,131,378,169"/>
-<area shape="rect" id="node5" href="$class_obj_cryst_1_1_simplex_obj.html#aa5d987434598f3c6e2045b1446cfb064" title=" " alt="" coords="218,193,367,232"/>
-<area shape="rect" id="node6" href="$class_obj_cryst_1_1_simplex_obj.html#a15315e9e1509d8c1c0235d4b1e03ed92" title=" " alt="" coords="5,193,154,232"/>
-</map>

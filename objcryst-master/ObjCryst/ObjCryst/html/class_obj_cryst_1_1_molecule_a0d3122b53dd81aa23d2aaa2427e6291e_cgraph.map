@@ -1,6 +1,0 @@
-<map id="ObjCryst::Molecule::TranslateAtomGroup" name="ObjCryst::Molecule::TranslateAtomGroup">
-<area shape="rect" id="node1" title=" " alt="" coords="5,68,157,107"/>
-<area shape="rect" id="node2" href="$class_obj_cryst_1_1_molecule.html#a839d362bb9c2e6f0951caf00c8c8e92c" title="Number of components in the scatterer (eg number of point scatterers)" alt="" coords="246,5,383,44"/>
-<area shape="rect" id="node3" href="$class_obj_cryst_1_1_scatterer.html#a733922e9273220375cef87359773dc25" title="In which crystal is this Scatterer included ?" alt="" coords="247,68,382,107"/>
-<area shape="rect" id="node4" href="$class_obj_cryst_1_1_unit_cell.html#a69debaf9dc539baf3c5ccc599ae614cd" title="Get fractional cartesian coordinates for a set of (x,y,z) orthonormal coordinates." alt="" coords="205,131,424,169"/>
-</map>

@@ -1,7 +1,0 @@
-<map id="ObjCryst::UnitCell::InitRefParList" name="ObjCryst::UnitCell::InitRefParList">
-<area shape="rect" id="node1" title="Prepare the refinable parameters list." alt="" coords="553,33,681,72"/>
-<area shape="rect" id="node2" href="$class_obj_cryst_1_1_unit_cell.html#a5c2dd7255f5abe4292c3fd123bf8d005" title="Init all UnitCell parameters." alt="" coords="378,33,505,72"/>
-<area shape="rect" id="node3" href="$class_obj_cryst_1_1_crystal.html#aefcd0d1032e5b93de47b4b93d530ed5b" title="Init all Crystal parameters." alt="" coords="183,12,330,37"/>
-<area shape="rect" id="node5" href="$class_obj_cryst_1_1_unit_cell.html#a51e806f8efcbc6f9f01212ed6ba159c9" title="Default Constructor." alt="" coords="193,61,320,100"/>
-<area shape="rect" id="node4" href="$class_obj_cryst_1_1_crystal.html#a4d9c152db2dfcea3c849d0a7ae547a2e" title="Default Constructor." alt="" coords="5,5,135,44"/>
-</map>

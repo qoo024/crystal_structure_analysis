@@ -1,4 +1,0 @@
-<map id="ObjCryst::GlobalScatteringPower::GetTemperatureFactor" name="ObjCryst::GlobalScatteringPower::GetTemperatureFactor">
-<area shape="rect" id="node1" title="Get the temperature factor for all reflections of a given ScatteringData object." alt="" coords="5,5,206,44"/>
-<area shape="rect" id="node2" href="$class_obj_cryst_1_1_scattering_data.html#aec92465bb5615b797a1e17a796235840" title="Return the number of reflections in this experiment." alt="" coords="254,5,423,44"/>
-</map>

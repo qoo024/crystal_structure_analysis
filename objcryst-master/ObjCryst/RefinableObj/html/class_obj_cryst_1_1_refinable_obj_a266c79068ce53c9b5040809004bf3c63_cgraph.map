@@ -1,5 +1,0 @@
-<map id="ObjCryst::RefinableObj::GetParamSetName" name="ObjCryst::RefinableObj::GetParamSetName">
-<area shape="rect" id="node1" title="Get the name associated to a refpar set." alt="" coords="5,5,163,44"/>
-<area shape="rect" id="node2" href="$class_obj_cryst_1_1_refinable_obj.html#af2042b90302e42e6eec83ba7024df89a" title="Find a parameter set with a given id (and check if it is there)" alt="" coords="211,5,369,44"/>
-<area shape="rect" id="node3" href="$class_obj_cryst_1_1_refinable_obj.html#a2d881bf3abcb527cf96142e51226e449" title="Name of the object." alt="" coords="417,5,574,44"/>
-</map>

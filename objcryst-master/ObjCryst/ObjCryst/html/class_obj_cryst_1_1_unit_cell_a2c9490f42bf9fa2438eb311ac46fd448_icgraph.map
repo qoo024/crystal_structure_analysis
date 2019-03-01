@@ -1,6 +1,0 @@
-<map id="ObjCryst::UnitCell::MillerToOrthonormalCoords" name="ObjCryst::UnitCell::MillerToOrthonormalCoords">
-<area shape="rect" id="node1" title="Get Miller H,K, L indices from orthonormal coordinates in reciprocal space." alt="" coords="518,76,709,115"/>
-<area shape="rect" id="node2" href="$class_obj_cryst_1_1_reflection_profile_double_exponential_pseudo_voigt.html#a4673785fae1ffdcc0a9c2402e8c4af8b" title=" " alt="" coords="261,5,470,57"/>
-<area shape="rect" id="node3" href="$class_obj_cryst_1_1_reflection_profile_double_exponential_pseudo_voigt.html#a92a2e4fd2b10e0edc07b338b79b59418" title=" " alt="" coords="5,37,213,89"/>
-<area shape="rect" id="node4" href="$class_obj_cryst_1_1_texture_march_dollase.html#a4d1b16a4955a3658dc86b0fa64186467" title="Do the computation of corrected intensities." alt="" coords="263,133,468,172"/>
-</map>

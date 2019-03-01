@@ -1,8 +1,0 @@
-<map id="ObjCryst::ScatteringPowerAtom::GetTemperatureFactor" name="ObjCryst::ScatteringPowerAtom::GetTemperatureFactor">
-<area shape="rect" id="node1" title="Get the temperature factor for all reflections of a given ScatteringData object." alt="" coords="5,131,199,169"/>
-<area shape="rect" id="node2" href="$class_obj_cryst_1_1_scattering_data.html#aec92465bb5615b797a1e17a796235840" title="Return the number of reflections in this experiment." alt="" coords="253,5,422,44"/>
-<area shape="rect" id="node3" href="$class_obj_cryst_1_1_scattering_data.html#a27cf813d222bbc0b261f794051125219" title=" " alt="" coords="247,68,428,107"/>
-<area shape="rect" id="node4" href="$class_obj_cryst_1_1_scattering_data.html#a6f112d90257266103774cdcdecd3e31a" title="Return the 1D array of H coordinates for all reflections." alt="" coords="253,131,422,169"/>
-<area shape="rect" id="node5" href="$class_obj_cryst_1_1_scattering_data.html#a364c421b607fcc17d8ff5b2522d87d04" title="Return the 1D array of K coordinates for all reflections." alt="" coords="253,193,422,232"/>
-<area shape="rect" id="node6" href="$class_obj_cryst_1_1_scattering_data.html#aa49d99de3d1475b3b845d459194cc277" title="Return the 1D array of L coordinates for all reflections." alt="" coords="253,256,422,295"/>
-</map>

@@ -1,5 +1,0 @@
-<map id="ObjCryst::ScatteringComponent" name="ObjCryst::ScatteringComponent">
-<area shape="rect" id="node1" title="A scattering position in a crystal, associated with the corresponding occupancy and a pointer to the ..." alt="" coords="5,167,215,192"/>
-<area shape="rect" id="node2" href="$class_obj_cryst_1_1_scattering_power.html" title="Abstract Base Class to describe the scattering power of any Scatterer component in a crystal." alt="" coords="21,80,199,105"/>
-<area shape="rect" id="node3" title=" " alt="" coords="61,5,159,31"/>
-</map>
