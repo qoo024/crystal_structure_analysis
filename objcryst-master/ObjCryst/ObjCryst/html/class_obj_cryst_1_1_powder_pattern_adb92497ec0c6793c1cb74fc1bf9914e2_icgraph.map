@@ -1,0 +1,12 @@
+<map id="ObjCryst::PowderPattern::SetPowderPatternPar" name="ObjCryst::PowderPattern::SetPowderPatternPar">
+<area shape="rect" id="node1" title=" " alt="" coords="289,256,458,295"/>
+<area shape="rect" id="node2" href="$class_obj_cryst_1_1_powder_pattern.html#a4499e38a96db3f3c0abdb6d30f3400e1" title="Import fullprof&#45;style diffraction data." alt="" coords="23,5,223,44"/>
+<area shape="rect" id="node3" href="$class_obj_cryst_1_1_powder_pattern.html#a1ccba50e0df8ec4fb53c262b72ef384f" title="Import powder pattern, format DMC from PSI." alt="" coords="16,68,230,107"/>
+<area shape="rect" id="node4" href="$class_obj_cryst_1_1_powder_pattern.html#a900f73bf552e7e6264638dd6ed6276a1" title="Import powder pattern, format from ILL D1A/D2B (format without counter info)" alt="" coords="16,131,230,169"/>
+<area shape="rect" id="node5" href="$class_obj_cryst_1_1_powder_pattern.html#a4a8e1dc893c04a4451327d3f48f21d0e" title="Import *.xdd diffraction data (Topas,...)." alt="" coords="34,193,212,232"/>
+<area shape="rect" id="node6" href="$class_obj_cryst_1_1_powder_pattern.html#adabe6381d8d1189abcf420f69a41cc81" title="Import *.cpi Sietronics diffraction data." alt="" coords="5,256,241,295"/>
+<area shape="rect" id="node7" href="$class_obj_cryst_1_1_powder_pattern.html#abfc7890a1853583957284fc1a2644855" title="diffraction data in a multi&#45;detector format (fullprof format #6)." alt="" coords="6,319,240,371"/>
+<area shape="rect" id="node8" href="$class_obj_cryst_1_1_powder_pattern.html#a272b9fd71a6925eb9e1a991e488259b4" title="Import diffraction data from a file, with the first line has 2ThetaMin, step, 2thetaMax,..." alt="" coords="20,395,226,433"/>
+<area shape="rect" id="node9" href="$class_obj_cryst_1_1_powder_pattern.html#a78be27d8764377f99e324a7181eac633" title=" " alt="" coords="27,457,219,496"/>
+<area shape="rect" id="node10" href="$namespace_obj_cryst.html#a775b62d07c596365d2f2d021dca408db" title=" " alt="" coords="51,520,195,545"/>
+</map>

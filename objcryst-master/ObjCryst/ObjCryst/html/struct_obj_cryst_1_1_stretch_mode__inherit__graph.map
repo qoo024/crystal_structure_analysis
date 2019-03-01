@@ -1,0 +1,7 @@
+<map id="ObjCryst::StretchMode" name="ObjCryst::StretchMode">
+<area shape="rect" id="node1" title=" " alt="" coords="5,103,162,128"/>
+<area shape="rect" id="node2" href="$struct_obj_cryst_1_1_stretch_mode_bond_angle.html" title=" " alt="" coords="215,5,403,44"/>
+<area shape="rect" id="node3" href="$struct_obj_cryst_1_1_stretch_mode_bond_length.html" title=" " alt="" coords="215,68,403,107"/>
+<area shape="rect" id="node4" href="$struct_obj_cryst_1_1_stretch_mode_torsion.html" title=" " alt="" coords="210,131,409,156"/>
+<area shape="rect" id="node5" href="$struct_obj_cryst_1_1_stretch_mode_twist.html" title=" " alt="" coords="216,180,402,205"/>
+</map>

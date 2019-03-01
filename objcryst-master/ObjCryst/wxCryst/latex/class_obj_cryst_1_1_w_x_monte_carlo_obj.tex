@@ -1,0 +1,68 @@
+\hypertarget{class_obj_cryst_1_1_w_x_monte_carlo_obj}{}\section{Obj\+Cryst\+::W\+X\+Monte\+Carlo\+Obj Class Reference}
+\label{class_obj_cryst_1_1_w_x_monte_carlo_obj}\index{ObjCryst::WXMonteCarloObj@{ObjCryst::WXMonteCarloObj}}
+
+
+{\ttfamily \#include $<$wx\+Global\+Optim\+Obj.\+h$>$}
+
+
+
+Inheritance diagram for Obj\+Cryst\+::W\+X\+Monte\+Carlo\+Obj\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=228pt]{class_obj_cryst_1_1_w_x_monte_carlo_obj__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Obj\+Cryst\+::W\+X\+Monte\+Carlo\+Obj\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_obj_cryst_1_1_w_x_monte_carlo_obj__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_w_x_monte_carlo_obj_a7f065d157d74531110e16c7d8081a95c}\label{class_obj_cryst_1_1_w_x_monte_carlo_obj_a7f065d157d74531110e16c7d8081a95c}} 
+{\bfseries W\+X\+Monte\+Carlo\+Obj} (wx\+Window $\ast$parent, Monte\+Carlo\+Obj $\ast$)
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_w_x_monte_carlo_obj_a30962c3e596117f11fdd3ca44c9594a2}\label{class_obj_cryst_1_1_w_x_monte_carlo_obj_a30962c3e596117f11fdd3ca44c9594a2}} 
+virtual void {\bfseries On\+Run\+Optimization} (wx\+Command\+Event \&event)
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_w_x_monte_carlo_obj_acbceaa3d0ad0a5936d79a4322eca4df3}\label{class_obj_cryst_1_1_w_x_monte_carlo_obj_acbceaa3d0ad0a5936d79a4322eca4df3}} 
+void \mbox{\hyperlink{class_obj_cryst_1_1_w_x_monte_carlo_obj_acbceaa3d0ad0a5936d79a4322eca4df3}{Update\+Display\+Nb\+Trial}} ()
+\begin{DoxyCompactList}\small\item\em Called during optimization, to show the user something\textquotesingle{}s still going on... \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_w_x_monte_carlo_obj_a03d4d281057644da82d973b7f73e4b2a}\label{class_obj_cryst_1_1_w_x_monte_carlo_obj_a03d4d281057644da82d973b7f73e4b2a}} 
+virtual Optimization\+Obj \& {\bfseries Get\+Optimization\+Obj} ()
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_w_x_monte_carlo_obj_a8e660d9b19e90e97ae37abfbbe8344aa}\label{class_obj_cryst_1_1_w_x_monte_carlo_obj_a8e660d9b19e90e97ae37abfbbe8344aa}} 
+virtual const Optimization\+Obj \& {\bfseries Get\+Optimization\+Obj} () const
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_w_x_monte_carlo_obj_aa7c362490aa3761ae1426f2fe111d622}\label{class_obj_cryst_1_1_w_x_monte_carlo_obj_aa7c362490aa3761ae1426f2fe111d622}} 
+void {\bfseries On\+L\+S\+Q\+Refine} (wx\+Command\+Event \&event)
+\end{DoxyCompactItemize}
+\subsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_w_x_monte_carlo_obj_aabf6054ded526d3420f94f15e4041c96}\label{class_obj_cryst_1_1_w_x_monte_carlo_obj_aabf6054ded526d3420f94f15e4041c96}} 
+Monte\+Carlo\+Obj $\ast$ \mbox{\hyperlink{class_obj_cryst_1_1_w_x_monte_carlo_obj_aabf6054ded526d3420f94f15e4041c96}{mp\+Monte\+Carlo\+Obj}}
+\begin{DoxyCompactList}\small\item\em The algorithm object. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_w_x_monte_carlo_obj_a60b17ba417b67f8c621b5b714d68e3b0}\label{class_obj_cryst_1_1_w_x_monte_carlo_obj_a60b17ba417b67f8c621b5b714d68e3b0}} 
+long \mbox{\hyperlink{class_obj_cryst_1_1_w_x_monte_carlo_obj_a60b17ba417b67f8c621b5b714d68e3b0}{m\+Nb\+Run}}
+\begin{DoxyCompactList}\small\item\em The number of cycles. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_w_x_monte_carlo_obj_a33e32f028bdeb510fbd9885eeafab809}\label{class_obj_cryst_1_1_w_x_monte_carlo_obj_a33e32f028bdeb510fbd9885eeafab809}} 
+\mbox{\hyperlink{class_obj_cryst_1_1_w_x_field_par}{W\+X\+Field\+Par}}$<$ long $>$ $\ast$ {\bfseries mp\+W\+X\+Field\+Nb\+Trial}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Class for Graphical interface to Monte-\/\+Carlo objects (Simulated Annealing, Parallel Tempering) 
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+wx\+Global\+Optim\+Obj.\+h\item 
+wx\+Global\+Optim\+Obj.\+cpp\end{DoxyCompactItemize}

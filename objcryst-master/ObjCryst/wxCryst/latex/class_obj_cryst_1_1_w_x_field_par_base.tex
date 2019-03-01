@@ -1,0 +1,109 @@
+\hypertarget{class_obj_cryst_1_1_w_x_field_par_base}{}\section{Obj\+Cryst\+::W\+X\+Field\+Par\+Base Class Reference}
+\label{class_obj_cryst_1_1_w_x_field_par_base}\index{ObjCryst::WXFieldParBase@{ObjCryst::WXFieldParBase}}
+
+
+{\ttfamily \#include $<$wx\+Cryst.\+h$>$}
+
+
+
+Inheritance diagram for Obj\+Cryst\+::W\+X\+Field\+Par\+Base\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=348pt]{class_obj_cryst_1_1_w_x_field_par_base__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Obj\+Cryst\+::W\+X\+Field\+Par\+Base\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=318pt]{class_obj_cryst_1_1_w_x_field_par_base__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_w_x_field_par_base_af26d6a51ca7128eb9ef9bd86120aa681}\label{class_obj_cryst_1_1_w_x_field_par_base_af26d6a51ca7128eb9ef9bd86120aa681}} 
+\mbox{\hyperlink{class_obj_cryst_1_1_w_x_field_par_base_af26d6a51ca7128eb9ef9bd86120aa681}{W\+X\+Field\+Par\+Base}} (wx\+Window $\ast$parent, const string \&label, const int field\+\_\+id, const int hsize=65)
+\begin{DoxyCompactList}\small\item\em Constructor. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_obj_cryst_1_1_w_x_field_par_base_a5c7c59452cada97c926f53b294a06e27}{On\+Enter}} (wx\+Command\+Event \&W\+X\+U\+N\+U\+S\+ED(event))
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_w_x_field_par_base_af3b3b3085791ee0aba673e8ee2636d7e}\label{class_obj_cryst_1_1_w_x_field_par_base_af3b3b3085791ee0aba673e8ee2636d7e}} 
+void \mbox{\hyperlink{class_obj_cryst_1_1_w_x_field_par_base_af3b3b3085791ee0aba673e8ee2636d7e}{On\+Text}} (wx\+Command\+Event \&W\+X\+U\+N\+U\+S\+ED(event))
+\begin{DoxyCompactList}\small\item\em Records when text is entered (either from self-\/updating or user input) \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_w_x_field_par_base_a25b17ac92c4e3c618a6184c1c86a411a}\label{class_obj_cryst_1_1_w_x_field_par_base_a25b17ac92c4e3c618a6184c1c86a411a}} 
+virtual void \mbox{\hyperlink{class_obj_cryst_1_1_w_x_field_par_base_a25b17ac92c4e3c618a6184c1c86a411a}{Cryst\+Update}} (const bool update\+UI=false, const bool mutexlock=false)=0
+\begin{DoxyCompactList}\small\item\em This gets a new value from the parameter. \end{DoxyCompactList}\item 
+virtual void \mbox{\hyperlink{class_obj_cryst_1_1_w_x_field_par_base_a27fd5066d2f6b6e87e213439fd8f7311}{Revert}} ()=0
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_w_x_field_par_base_ae011448b1dfc529fdff60f057726397b}\label{class_obj_cryst_1_1_w_x_field_par_base_ae011448b1dfc529fdff60f057726397b}} 
+virtual void \mbox{\hyperlink{class_obj_cryst_1_1_w_x_field_par_base_ae011448b1dfc529fdff60f057726397b}{Validate\+User\+Input}} ()
+\begin{DoxyCompactList}\small\item\em This function shall be called when a new value has been entered. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_w_x_field_par_base_a8070d62fbc3bbd653a1514632aaf793e}\label{class_obj_cryst_1_1_w_x_field_par_base_a8070d62fbc3bbd653a1514632aaf793e}} 
+virtual void \mbox{\hyperlink{class_obj_cryst_1_1_w_x_field_par_base_a8070d62fbc3bbd653a1514632aaf793e}{Set\+Tool\+Tip}} (const wx\+String \&tip)
+\begin{DoxyCompactList}\small\item\em Set tooltip for this window. It will be activated when going over the entry field. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_w_x_field_par_base_af695c4844533513136249b7568f36183}\label{class_obj_cryst_1_1_w_x_field_par_base_af695c4844533513136249b7568f36183}} 
+void \mbox{\hyperlink{class_obj_cryst_1_1_w_x_field_par_base_af695c4844533513136249b7568f36183}{Set\+Format}} (const wx\+String \&format)
+\begin{DoxyCompactList}\small\item\em Set Format. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_w_x_field_par_base_ae8a24ee708e2a61f42e2cc64566d3537}\label{class_obj_cryst_1_1_w_x_field_par_base_ae8a24ee708e2a61f42e2cc64566d3537}} 
+virtual void \mbox{\hyperlink{class_obj_cryst_1_1_w_x_field_par_base_ae8a24ee708e2a61f42e2cc64566d3537}{Read\+New\+Value}} ()=0
+\begin{DoxyCompactList}\small\item\em Reads the new value when the Enter key is hit. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_w_x_field_par_base_adf1902af28299a952220fa257e7cb296}\label{class_obj_cryst_1_1_w_x_field_par_base_adf1902af28299a952220fa257e7cb296}} 
+wx\+Text\+Ctrl $\ast$ \mbox{\hyperlink{class_obj_cryst_1_1_w_x_field_par_base_adf1902af28299a952220fa257e7cb296}{mp\+Field}}
+\begin{DoxyCompactList}\small\item\em The field in which the value is written. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_obj_cryst_1_1_w_x_field_par_base_a07aea47e860f14581b698ab91c7ac3f0}{m\+Is\+Self\+Updating}}
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_w_x_field_par_base_aa2fad972045faa5c4fa460e6115ff1cc}\label{class_obj_cryst_1_1_w_x_field_par_base_aa2fad972045faa5c4fa460e6115ff1cc}} 
+wx\+String \mbox{\hyperlink{class_obj_cryst_1_1_w_x_field_par_base_aa2fad972045faa5c4fa460e6115ff1cc}{m\+Format}}
+\begin{DoxyCompactList}\small\item\em Format to be used, default = \+\_\+T(\char`\"{}\%8f\char`\"{}) \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+A field for a parameter. This is a an abstract bas class, which can handle events (the real classes to use is the templated \mbox{\hyperlink{class_obj_cryst_1_1_w_x_field_par}{W\+X\+Field\+Par}} class). If the parameter is a Refinable\+Par, use \mbox{\hyperlink{class_obj_cryst_1_1_w_x_field_ref_par}{W\+X\+Field\+Ref\+Par}}. 
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{class_obj_cryst_1_1_w_x_field_par_base_a5c7c59452cada97c926f53b294a06e27}\label{class_obj_cryst_1_1_w_x_field_par_base_a5c7c59452cada97c926f53b294a06e27}} 
+\index{ObjCryst::WXFieldParBase@{ObjCryst::WXFieldParBase}!OnEnter@{OnEnter}}
+\index{OnEnter@{OnEnter}!ObjCryst::WXFieldParBase@{ObjCryst::WXFieldParBase}}
+\subsubsection{\texorpdfstring{OnEnter()}{OnEnter()}}
+{\footnotesize\ttfamily void Obj\+Cryst\+::\+W\+X\+Field\+Par\+Base\+::\+On\+Enter (\begin{DoxyParamCaption}\item[{wx\+Command\+Event \&}]{W\+X\+U\+N\+U\+S\+EDevent }\end{DoxyParamCaption})}
+
+When a new value is entered (must type it and then hit the \textquotesingle{}enter\textquotesingle{} key). The Field reads the new value, and directly changes the Refinable\+Par value (contrary to what happens for \mbox{\hyperlink{class_obj_cryst_1_1_w_x_field_name}{W\+X\+Field\+Name}})by using Refinable\+Par\+::\+Set\+Human\+Value(). \mbox{\Hypertarget{class_obj_cryst_1_1_w_x_field_par_base_a27fd5066d2f6b6e87e213439fd8f7311}\label{class_obj_cryst_1_1_w_x_field_par_base_a27fd5066d2f6b6e87e213439fd8f7311}} 
+\index{ObjCryst::WXFieldParBase@{ObjCryst::WXFieldParBase}!Revert@{Revert}}
+\index{Revert@{Revert}!ObjCryst::WXFieldParBase@{ObjCryst::WXFieldParBase}}
+\subsubsection{\texorpdfstring{Revert()}{Revert()}}
+{\footnotesize\ttfamily virtual void Obj\+Cryst\+::\+W\+X\+Field\+Par\+Base\+::\+Revert (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+After a user entry, this allows to go back to the last value, if for some reason the entry was rejected (because the object is currently busy, ...) 
+
+Implements \mbox{\hyperlink{class_obj_cryst_1_1_w_x_field_a178d6d770d1e3adfa02e27da94b2dffa}{Obj\+Cryst\+::\+W\+X\+Field}}.
+
+
+
+Implemented in \mbox{\hyperlink{class_obj_cryst_1_1_w_x_field_par_a928b1b8c7d47e3e99a29975c4dd51d58}{Obj\+Cryst\+::\+W\+X\+Field\+Par$<$ T $>$}}, and \mbox{\hyperlink{class_obj_cryst_1_1_w_x_field_par_a928b1b8c7d47e3e99a29975c4dd51d58}{Obj\+Cryst\+::\+W\+X\+Field\+Par$<$ long $>$}}.
+
+
+
+\subsection{Member Data Documentation}
+\mbox{\Hypertarget{class_obj_cryst_1_1_w_x_field_par_base_a07aea47e860f14581b698ab91c7ac3f0}\label{class_obj_cryst_1_1_w_x_field_par_base_a07aea47e860f14581b698ab91c7ac3f0}} 
+\index{ObjCryst::WXFieldParBase@{ObjCryst::WXFieldParBase}!mIsSelfUpdating@{mIsSelfUpdating}}
+\index{mIsSelfUpdating@{mIsSelfUpdating}!ObjCryst::WXFieldParBase@{ObjCryst::WXFieldParBase}}
+\subsubsection{\texorpdfstring{mIsSelfUpdating}{mIsSelfUpdating}}
+{\footnotesize\ttfamily bool Obj\+Cryst\+::\+W\+X\+Field\+Par\+Base\+::m\+Is\+Self\+Updating\hspace{0.3cm}{\ttfamily [protected]}}
+
+Set to true if the Field is being updated, so that no \textquotesingle{}E\+V\+T\+\_\+\+T\+E\+XT\textquotesingle{} is understood as user input. 
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+wx\+Cryst.\+h\item 
+wx\+Cryst.\+cpp\end{DoxyCompactItemize}

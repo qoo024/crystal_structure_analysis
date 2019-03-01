@@ -1,0 +1,8 @@
+<map id="ObjCryst::Crystal::PrintMinDistanceTable" name="ObjCryst::Crystal::PrintMinDistanceTable">
+<area shape="rect" id="node1" title="Print the minimum distance table between all scattering centers (atoms) in the crystal." alt="" coords="5,120,159,159"/>
+<area shape="rect" id="node2" href="$class_obj_cryst_1_1_crystal.html#a26c8dfab558f79522c3ab31babd4720e" title="Minimum interatomic distance between all scattering components (atoms) in the crystal." alt="" coords="211,5,359,44"/>
+<area shape="rect" id="node3" href="$class_obj_cryst_1_1_scattering_component_list.html#acda94d3d6f78467a7f56c0cf9aed1973" title="Number of components." alt="" coords="410,35,620,73"/>
+<area shape="rect" id="node4" href="$class_obj_cryst_1_1_crystal.html#ab991f8f3cc005760f939f7d41694cfdf" title="Provides an access to the scatterers." alt="" coords="220,120,349,159"/>
+<area shape="rect" id="node5" href="$class_obj_cryst_1_1_scatterer.html#a18d63b8e79b35942902244c555ea33ef" title="Number of components in the scatterer (eg number of point scatterers)" alt="" coords="217,183,353,221"/>
+<area shape="rect" id="node6" href="$class_obj_cryst_1_1_scatterer.html#a42bdf508da6a90859a5a61e16c27d47e" title=" " alt="" coords="207,245,362,284"/>
+</map>

@@ -1,0 +1,180 @@
+\hypertarget{class_obj_cryst_1_1_obj_registry}{}\section{Obj\+Cryst\+::Obj\+Registry$<$ T $>$ Class Template Reference}
+\label{class_obj_cryst_1_1_obj_registry}\index{ObjCryst::ObjRegistry$<$ T $>$@{ObjCryst::ObjRegistry$<$ T $>$}}
+
+
+{\ttfamily \#include $<$Refinable\+Obj.\+h$>$}
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_obj_registry_a5c31340787c7d1c91c64e201a06a9c4d}\label{class_obj_cryst_1_1_obj_registry_a5c31340787c7d1c91c64e201a06a9c4d}} 
+{\bfseries Obj\+Registry} (const string \&name)
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_obj_registry_aa5f3f9586f5fbbedd804d0e730c66c71}\label{class_obj_cryst_1_1_obj_registry_aa5f3f9586f5fbbedd804d0e730c66c71}} 
+void \mbox{\hyperlink{class_obj_cryst_1_1_obj_registry_aa5f3f9586f5fbbedd804d0e730c66c71}{Register}} (T \&obj)
+\begin{DoxyCompactList}\small\item\em Register a new object. Already registered objects are skipped. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_obj_registry_a31d6f5073615294d6b0f68759f1895c9}\label{class_obj_cryst_1_1_obj_registry_a31d6f5073615294d6b0f68759f1895c9}} 
+void \mbox{\hyperlink{class_obj_cryst_1_1_obj_registry_a31d6f5073615294d6b0f68759f1895c9}{De\+Register}} (T \&obj)
+\begin{DoxyCompactList}\small\item\em De-\/register an object. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_obj_registry_a33fc97d104af353a8a3c82ad82237b65}\label{class_obj_cryst_1_1_obj_registry_a33fc97d104af353a8a3c82ad82237b65}} 
+void \mbox{\hyperlink{class_obj_cryst_1_1_obj_registry_a33fc97d104af353a8a3c82ad82237b65}{De\+Register}} (const string \&obj\+Name)
+\begin{DoxyCompactList}\small\item\em De-\/register an object from its name. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_obj_registry_a2a379536cc636a8a1716720be7485e30}\label{class_obj_cryst_1_1_obj_registry_a2a379536cc636a8a1716720be7485e30}} 
+void \mbox{\hyperlink{class_obj_cryst_1_1_obj_registry_a2a379536cc636a8a1716720be7485e30}{De\+Register\+All}} ()
+\begin{DoxyCompactList}\small\item\em De-\/register {\itshape all} objects from the list. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_obj_registry_adb16bd04fdeecf675d20c765e2b4d99f}\label{class_obj_cryst_1_1_obj_registry_adb16bd04fdeecf675d20c765e2b4d99f}} 
+void \mbox{\hyperlink{class_obj_cryst_1_1_obj_registry_adb16bd04fdeecf675d20c765e2b4d99f}{Delete\+All}} ()
+\begin{DoxyCompactList}\small\item\em Delete all objects in the registry.. Use with caution !! \end{DoxyCompactList}\item 
+T \& \mbox{\hyperlink{class_obj_cryst_1_1_obj_registry_a48ac4ceb55051339b0fbd0dd4ba8d61a}{Get\+Obj}} (const unsigned int i)
+\item 
+const T \& \mbox{\hyperlink{class_obj_cryst_1_1_obj_registry_a9839646b3902eb9d57460bfcbb631d56}{Get\+Obj}} (const unsigned int i) const
+\item 
+T \& \mbox{\hyperlink{class_obj_cryst_1_1_obj_registry_addf46e1c23ead63e175f1168a7bf25c0}{Get\+Obj}} (const string \&obj\+Name)
+\item 
+const T \& \mbox{\hyperlink{class_obj_cryst_1_1_obj_registry_a56ca93ab655b513d91cd9b7829cbea0c}{Get\+Obj}} (const string \&obj\+Name) const
+\item 
+T \& \mbox{\hyperlink{class_obj_cryst_1_1_obj_registry_ad1971c0ea162546bf8322dc61764fd32}{Get\+Obj}} (const string \&obj\+Name, const string \&class\+Name)
+\item 
+const T \& \mbox{\hyperlink{class_obj_cryst_1_1_obj_registry_a1c6961905c0f6009b09dd6d79cabfbfa}{Get\+Obj}} (const string \&obj\+Name, const string \&class\+Name) const
+\item 
+long \mbox{\hyperlink{class_obj_cryst_1_1_obj_registry_a5bd48c843107f24355d42ab857979744}{Get\+Nb}} () const
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_obj_registry_ab4528fb4b04e7c2d3fdacbc0d87e696a}\label{class_obj_cryst_1_1_obj_registry_ab4528fb4b04e7c2d3fdacbc0d87e696a}} 
+void {\bfseries Print} () const
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_obj_registry_a91258ba46872ec4bd6ad61499db42f11}\label{class_obj_cryst_1_1_obj_registry_a91258ba46872ec4bd6ad61499db42f11}} 
+void {\bfseries Set\+Name} (const string \&)
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_obj_registry_a9ca22a958f30fe65c8106c6aa6c5d563}\label{class_obj_cryst_1_1_obj_registry_a9ca22a958f30fe65c8106c6aa6c5d563}} 
+const string \& {\bfseries Get\+Name} () const
+\item 
+long \mbox{\hyperlink{class_obj_cryst_1_1_obj_registry_a712fede2be32673dcd92b7f2fb1779d6}{Find}} (const string \&obj\+Name) const
+\item 
+long \mbox{\hyperlink{class_obj_cryst_1_1_obj_registry_a84c4ae3459936ac2f8f9c87f7bb95923}{Find}} (const string \&obj\+Name, const string \&class\+Name, const bool nothrow=false) const
+\item 
+long \mbox{\hyperlink{class_obj_cryst_1_1_obj_registry_ac6755dd7352567c2da151276f81d346d}{Find}} (const T \&obj) const
+\item 
+long \mbox{\hyperlink{class_obj_cryst_1_1_obj_registry_af50ff94a6fe0ea811d330649914a6d05}{Find}} (const T $\ast$pobj) const
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_obj_registry_afc36eb9d06bdc9df010c3333ebd17ab8}\label{class_obj_cryst_1_1_obj_registry_afc36eb9d06bdc9df010c3333ebd17ab8}} 
+const \mbox{\hyperlink{class_obj_cryst_1_1_refinable_obj_clock}{Refinable\+Obj\+Clock}} \& \mbox{\hyperlink{class_obj_cryst_1_1_obj_registry_afc36eb9d06bdc9df010c3333ebd17ab8}{Get\+Registry\+Clock}} () const
+\begin{DoxyCompactList}\small\item\em Last time an object was added or removed from the registry. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_obj_cryst_1_1_obj_registry_a161b9a23fa38db7748a2202cc691b81c}{Auto\+Update\+UI}} (const bool autoup=true)
+\item 
+void \mbox{\hyperlink{class_obj_cryst_1_1_obj_registry_adac90a90cdee6d27cd5d9af917a86ab6}{Update\+UI}} ()
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+\subsubsection*{template$<$class T$>$\newline
+class Obj\+Cryst\+::\+Obj\+Registry$<$ T $>$}
+
+Object Registry
+
+This class is used to keep a list of all object of a given class at the global level, or inside another object. This is primarily aimed for the derivative of the \mbox{\hyperlink{class_obj_cryst_1_1_refinable_obj}{Refinable\+Obj}} class but it can be used for {\itshape any} class that has Get\+Name() and Get\+Class\+Name() function. This class now uses a vector$<$$>$ approach from the S\+TL.
+
+\begin{DoxyWarning}{Warning}
+the order of the objects in the registry can change (every time an object is de-\/registered).
+\end{DoxyWarning}
+\begin{DoxyRefDesc}{Todo}
+\item[\mbox{\hyperlink{todo__todo000002}{Todo}}](?) create two derived classes with the same interface, one which is a const registry (the \textquotesingle{}client\textquotesingle{} registry for \mbox{\hyperlink{class_obj_cryst_1_1_refinable_obj}{Refinable\+Obj}}), and one which has a non-\/const access to the registered objects (the \textquotesingle{}sub-\/objects\textquotesingle{} in \mbox{\hyperlink{class_obj_cryst_1_1_refinable_obj}{Refinable\+Obj}}). \end{DoxyRefDesc}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{class_obj_cryst_1_1_obj_registry_a161b9a23fa38db7748a2202cc691b81c}\label{class_obj_cryst_1_1_obj_registry_a161b9a23fa38db7748a2202cc691b81c}} 
+\index{ObjCryst::ObjRegistry$<$ T $>$@{ObjCryst::ObjRegistry$<$ T $>$}!AutoUpdateUI@{AutoUpdateUI}}
+\index{AutoUpdateUI@{AutoUpdateUI}!ObjCryst::ObjRegistry$<$ T $>$@{ObjCryst::ObjRegistry$<$ T $>$}}
+\subsubsection{\texorpdfstring{AutoUpdateUI()}{AutoUpdateUI()}}
+{\footnotesize\ttfamily template$<$class T $>$ \\
+void \mbox{\hyperlink{class_obj_cryst_1_1_obj_registry}{Obj\+Cryst\+::\+Obj\+Registry}}$<$ T $>$\+::Auto\+Update\+UI (\begin{DoxyParamCaption}\item[{const bool}]{autoup = {\ttfamily true} }\end{DoxyParamCaption})}
+
+Enable the UI automatic update, so that objects in the registry are automatically added to the UI. \mbox{\Hypertarget{class_obj_cryst_1_1_obj_registry_a712fede2be32673dcd92b7f2fb1779d6}\label{class_obj_cryst_1_1_obj_registry_a712fede2be32673dcd92b7f2fb1779d6}} 
+\index{ObjCryst::ObjRegistry$<$ T $>$@{ObjCryst::ObjRegistry$<$ T $>$}!Find@{Find}}
+\index{Find@{Find}!ObjCryst::ObjRegistry$<$ T $>$@{ObjCryst::ObjRegistry$<$ T $>$}}
+\subsubsection{\texorpdfstring{Find()}{Find()}\hspace{0.1cm}{\footnotesize\ttfamily [1/4]}}
+{\footnotesize\ttfamily template$<$class T $>$ \\
+long \mbox{\hyperlink{class_obj_cryst_1_1_obj_registry}{Obj\+Cryst\+::\+Obj\+Registry}}$<$ T $>$\+::Find (\begin{DoxyParamCaption}\item[{const string \&}]{obj\+Name }\end{DoxyParamCaption}) const}
+
+Find the number of an object in the registry from its name (slow !) The search starts at the {\itshape end} of the registry. \mbox{\Hypertarget{class_obj_cryst_1_1_obj_registry_a84c4ae3459936ac2f8f9c87f7bb95923}\label{class_obj_cryst_1_1_obj_registry_a84c4ae3459936ac2f8f9c87f7bb95923}} 
+\index{ObjCryst::ObjRegistry$<$ T $>$@{ObjCryst::ObjRegistry$<$ T $>$}!Find@{Find}}
+\index{Find@{Find}!ObjCryst::ObjRegistry$<$ T $>$@{ObjCryst::ObjRegistry$<$ T $>$}}
+\subsubsection{\texorpdfstring{Find()}{Find()}\hspace{0.1cm}{\footnotesize\ttfamily [2/4]}}
+{\footnotesize\ttfamily template$<$class T $>$ \\
+long \mbox{\hyperlink{class_obj_cryst_1_1_obj_registry}{Obj\+Cryst\+::\+Obj\+Registry}}$<$ T $>$\+::Find (\begin{DoxyParamCaption}\item[{const string \&}]{obj\+Name,  }\item[{const string \&}]{class\+Name,  }\item[{const bool}]{nothrow = {\ttfamily false} }\end{DoxyParamCaption}) const}
+
+Find the number of an object in the registry from its name (slow !) The search starts at the {\itshape end} of the registry. Also check the class of the object (inheritance...). use nothrow=true to avoid having an exception thrown if no object is found (instead the index returned will be -\/1) \mbox{\Hypertarget{class_obj_cryst_1_1_obj_registry_ac6755dd7352567c2da151276f81d346d}\label{class_obj_cryst_1_1_obj_registry_ac6755dd7352567c2da151276f81d346d}} 
+\index{ObjCryst::ObjRegistry$<$ T $>$@{ObjCryst::ObjRegistry$<$ T $>$}!Find@{Find}}
+\index{Find@{Find}!ObjCryst::ObjRegistry$<$ T $>$@{ObjCryst::ObjRegistry$<$ T $>$}}
+\subsubsection{\texorpdfstring{Find()}{Find()}\hspace{0.1cm}{\footnotesize\ttfamily [3/4]}}
+{\footnotesize\ttfamily template$<$class T$>$ \\
+long \mbox{\hyperlink{class_obj_cryst_1_1_obj_registry}{Obj\+Cryst\+::\+Obj\+Registry}}$<$ T $>$\+::Find (\begin{DoxyParamCaption}\item[{const T \&}]{obj }\end{DoxyParamCaption}) const}
+
+Find the number of an object in the registry The search starts at the {\itshape end} of the registry. \mbox{\Hypertarget{class_obj_cryst_1_1_obj_registry_af50ff94a6fe0ea811d330649914a6d05}\label{class_obj_cryst_1_1_obj_registry_af50ff94a6fe0ea811d330649914a6d05}} 
+\index{ObjCryst::ObjRegistry$<$ T $>$@{ObjCryst::ObjRegistry$<$ T $>$}!Find@{Find}}
+\index{Find@{Find}!ObjCryst::ObjRegistry$<$ T $>$@{ObjCryst::ObjRegistry$<$ T $>$}}
+\subsubsection{\texorpdfstring{Find()}{Find()}\hspace{0.1cm}{\footnotesize\ttfamily [4/4]}}
+{\footnotesize\ttfamily template$<$class T$>$ \\
+long \mbox{\hyperlink{class_obj_cryst_1_1_obj_registry}{Obj\+Cryst\+::\+Obj\+Registry}}$<$ T $>$\+::Find (\begin{DoxyParamCaption}\item[{const T $\ast$}]{pobj }\end{DoxyParamCaption}) const}
+
+Find the number of an object in the registry The search starts at the {\itshape end} of the registry. \mbox{\Hypertarget{class_obj_cryst_1_1_obj_registry_a5bd48c843107f24355d42ab857979744}\label{class_obj_cryst_1_1_obj_registry_a5bd48c843107f24355d42ab857979744}} 
+\index{ObjCryst::ObjRegistry$<$ T $>$@{ObjCryst::ObjRegistry$<$ T $>$}!GetNb@{GetNb}}
+\index{GetNb@{GetNb}!ObjCryst::ObjRegistry$<$ T $>$@{ObjCryst::ObjRegistry$<$ T $>$}}
+\subsubsection{\texorpdfstring{GetNb()}{GetNb()}}
+{\footnotesize\ttfamily template$<$class T $>$ \\
+long \mbox{\hyperlink{class_obj_cryst_1_1_obj_registry}{Obj\+Cryst\+::\+Obj\+Registry}}$<$ T $>$\+::Get\+Nb (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+Get the index of an object in the registry, from its name Warning\+: it can change if an object is removed from the registry \mbox{\Hypertarget{class_obj_cryst_1_1_obj_registry_a48ac4ceb55051339b0fbd0dd4ba8d61a}\label{class_obj_cryst_1_1_obj_registry_a48ac4ceb55051339b0fbd0dd4ba8d61a}} 
+\index{ObjCryst::ObjRegistry$<$ T $>$@{ObjCryst::ObjRegistry$<$ T $>$}!GetObj@{GetObj}}
+\index{GetObj@{GetObj}!ObjCryst::ObjRegistry$<$ T $>$@{ObjCryst::ObjRegistry$<$ T $>$}}
+\subsubsection{\texorpdfstring{GetObj()}{GetObj()}\hspace{0.1cm}{\footnotesize\ttfamily [1/6]}}
+{\footnotesize\ttfamily template$<$class T $>$ \\
+T \& \mbox{\hyperlink{class_obj_cryst_1_1_obj_registry}{Obj\+Cryst\+::\+Obj\+Registry}}$<$ T $>$\+::Get\+Obj (\begin{DoxyParamCaption}\item[{const unsigned int}]{i }\end{DoxyParamCaption})}
+
+Get object \#i in the registry. \mbox{\Hypertarget{class_obj_cryst_1_1_obj_registry_a9839646b3902eb9d57460bfcbb631d56}\label{class_obj_cryst_1_1_obj_registry_a9839646b3902eb9d57460bfcbb631d56}} 
+\index{ObjCryst::ObjRegistry$<$ T $>$@{ObjCryst::ObjRegistry$<$ T $>$}!GetObj@{GetObj}}
+\index{GetObj@{GetObj}!ObjCryst::ObjRegistry$<$ T $>$@{ObjCryst::ObjRegistry$<$ T $>$}}
+\subsubsection{\texorpdfstring{GetObj()}{GetObj()}\hspace{0.1cm}{\footnotesize\ttfamily [2/6]}}
+{\footnotesize\ttfamily template$<$class T $>$ \\
+const T \& \mbox{\hyperlink{class_obj_cryst_1_1_obj_registry}{Obj\+Cryst\+::\+Obj\+Registry}}$<$ T $>$\+::Get\+Obj (\begin{DoxyParamCaption}\item[{const unsigned int}]{i }\end{DoxyParamCaption}) const}
+
+Get object \#i in the registry. \mbox{\Hypertarget{class_obj_cryst_1_1_obj_registry_addf46e1c23ead63e175f1168a7bf25c0}\label{class_obj_cryst_1_1_obj_registry_addf46e1c23ead63e175f1168a7bf25c0}} 
+\index{ObjCryst::ObjRegistry$<$ T $>$@{ObjCryst::ObjRegistry$<$ T $>$}!GetObj@{GetObj}}
+\index{GetObj@{GetObj}!ObjCryst::ObjRegistry$<$ T $>$@{ObjCryst::ObjRegistry$<$ T $>$}}
+\subsubsection{\texorpdfstring{GetObj()}{GetObj()}\hspace{0.1cm}{\footnotesize\ttfamily [3/6]}}
+{\footnotesize\ttfamily template$<$class T $>$ \\
+T \& \mbox{\hyperlink{class_obj_cryst_1_1_obj_registry}{Obj\+Cryst\+::\+Obj\+Registry}}$<$ T $>$\+::Get\+Obj (\begin{DoxyParamCaption}\item[{const string \&}]{obj\+Name }\end{DoxyParamCaption})}
+
+Get an object from its name in the registry. The search starts at the {\itshape end} of the registry. \mbox{\Hypertarget{class_obj_cryst_1_1_obj_registry_a56ca93ab655b513d91cd9b7829cbea0c}\label{class_obj_cryst_1_1_obj_registry_a56ca93ab655b513d91cd9b7829cbea0c}} 
+\index{ObjCryst::ObjRegistry$<$ T $>$@{ObjCryst::ObjRegistry$<$ T $>$}!GetObj@{GetObj}}
+\index{GetObj@{GetObj}!ObjCryst::ObjRegistry$<$ T $>$@{ObjCryst::ObjRegistry$<$ T $>$}}
+\subsubsection{\texorpdfstring{GetObj()}{GetObj()}\hspace{0.1cm}{\footnotesize\ttfamily [4/6]}}
+{\footnotesize\ttfamily template$<$class T $>$ \\
+const T \& \mbox{\hyperlink{class_obj_cryst_1_1_obj_registry}{Obj\+Cryst\+::\+Obj\+Registry}}$<$ T $>$\+::Get\+Obj (\begin{DoxyParamCaption}\item[{const string \&}]{obj\+Name }\end{DoxyParamCaption}) const}
+
+Get an object from its name in the registry. The search starts at the {\itshape end} of the registry. \mbox{\Hypertarget{class_obj_cryst_1_1_obj_registry_ad1971c0ea162546bf8322dc61764fd32}\label{class_obj_cryst_1_1_obj_registry_ad1971c0ea162546bf8322dc61764fd32}} 
+\index{ObjCryst::ObjRegistry$<$ T $>$@{ObjCryst::ObjRegistry$<$ T $>$}!GetObj@{GetObj}}
+\index{GetObj@{GetObj}!ObjCryst::ObjRegistry$<$ T $>$@{ObjCryst::ObjRegistry$<$ T $>$}}
+\subsubsection{\texorpdfstring{GetObj()}{GetObj()}\hspace{0.1cm}{\footnotesize\ttfamily [5/6]}}
+{\footnotesize\ttfamily template$<$class T $>$ \\
+T \& \mbox{\hyperlink{class_obj_cryst_1_1_obj_registry}{Obj\+Cryst\+::\+Obj\+Registry}}$<$ T $>$\+::Get\+Obj (\begin{DoxyParamCaption}\item[{const string \&}]{obj\+Name,  }\item[{const string \&}]{class\+Name }\end{DoxyParamCaption})}
+
+Get an object from its name in the registry. The search starts at the {\itshape end} of the registry. Also check the class of the object. \mbox{\Hypertarget{class_obj_cryst_1_1_obj_registry_a1c6961905c0f6009b09dd6d79cabfbfa}\label{class_obj_cryst_1_1_obj_registry_a1c6961905c0f6009b09dd6d79cabfbfa}} 
+\index{ObjCryst::ObjRegistry$<$ T $>$@{ObjCryst::ObjRegistry$<$ T $>$}!GetObj@{GetObj}}
+\index{GetObj@{GetObj}!ObjCryst::ObjRegistry$<$ T $>$@{ObjCryst::ObjRegistry$<$ T $>$}}
+\subsubsection{\texorpdfstring{GetObj()}{GetObj()}\hspace{0.1cm}{\footnotesize\ttfamily [6/6]}}
+{\footnotesize\ttfamily template$<$class T $>$ \\
+const T \& \mbox{\hyperlink{class_obj_cryst_1_1_obj_registry}{Obj\+Cryst\+::\+Obj\+Registry}}$<$ T $>$\+::Get\+Obj (\begin{DoxyParamCaption}\item[{const string \&}]{obj\+Name,  }\item[{const string \&}]{class\+Name }\end{DoxyParamCaption}) const}
+
+Get an object from its name in the registry. The search starts at the {\itshape end} of the registry. Also check the class of the object. \mbox{\Hypertarget{class_obj_cryst_1_1_obj_registry_adac90a90cdee6d27cd5d9af917a86ab6}\label{class_obj_cryst_1_1_obj_registry_adac90a90cdee6d27cd5d9af917a86ab6}} 
+\index{ObjCryst::ObjRegistry$<$ T $>$@{ObjCryst::ObjRegistry$<$ T $>$}!UpdateUI@{UpdateUI}}
+\index{UpdateUI@{UpdateUI}!ObjCryst::ObjRegistry$<$ T $>$@{ObjCryst::ObjRegistry$<$ T $>$}}
+\subsubsection{\texorpdfstring{UpdateUI()}{UpdateUI()}}
+{\footnotesize\ttfamily template$<$class T $>$ \\
+void \mbox{\hyperlink{class_obj_cryst_1_1_obj_registry}{Obj\+Cryst\+::\+Obj\+Registry}}$<$ T $>$\+::Update\+UI (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Manually update the UI, making sure all objects in the registry are displayed This is useful when the automatic adding of objects has been disabled. 
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+Refinable\+Obj.\+h\item 
+Refinable\+Obj.\+cpp\end{DoxyCompactItemize}

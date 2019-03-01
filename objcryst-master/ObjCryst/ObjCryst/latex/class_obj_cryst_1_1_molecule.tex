@@ -1,0 +1,1490 @@
+\hypertarget{class_obj_cryst_1_1_molecule}{}\section{Obj\+Cryst\+::Molecule Class Reference}
+\label{class_obj_cryst_1_1_molecule}\index{ObjCryst::Molecule@{ObjCryst::Molecule}}
+
+
+{\ttfamily \#include $<$Molecule.\+h$>$}
+
+
+
+Inheritance diagram for Obj\+Cryst\+::Molecule\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=181pt]{class_obj_cryst_1_1_molecule__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Obj\+Cryst\+::Molecule\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_obj_cryst_1_1_molecule__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+struct \mbox{\hyperlink{struct_obj_cryst_1_1_molecule_1_1_flip_group}{Flip\+Group}}
+\item 
+struct \mbox{\hyperlink{struct_obj_cryst_1_1_molecule_1_1_rotor_group}{Rotor\+Group}}
+\item 
+struct \mbox{\hyperlink{struct_obj_cryst_1_1_molecule_1_1_stretch_mode_group}{Stretch\+Mode\+Group}}
+\end{DoxyCompactItemize}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_obj_cryst_1_1_molecule_ad4132a293e7f253c730676ed3720f961}{Molecule}} (\mbox{\hyperlink{class_obj_cryst_1_1_crystal}{Crystal}} \&cryst, const string \&name=\char`\"{}\char`\"{})
+\item 
+\mbox{\hyperlink{class_obj_cryst_1_1_molecule_a896c80a621aa990de3d36e214965cd49}{Molecule}} (const \mbox{\hyperlink{class_obj_cryst_1_1_molecule}{Molecule}} \&old)
+\item 
+\mbox{\hyperlink{class_obj_cryst_1_1_molecule_ae61d3a9a72c73cd087e330b3c4cdf0be}{$\sim$\+Molecule}} ()
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_molecule_a7b3c5ce04a4596c0ae037c41b9f671a9}\label{class_obj_cryst_1_1_molecule_a7b3c5ce04a4596c0ae037c41b9f671a9}} 
+virtual \mbox{\hyperlink{class_obj_cryst_1_1_molecule}{Molecule}} $\ast$ {\bfseries Create\+Copy} () const
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_molecule_af7b416a0110361a81d27b353f7f348ed}\label{class_obj_cryst_1_1_molecule_af7b416a0110361a81d27b353f7f348ed}} 
+virtual const string \& {\bfseries Get\+Class\+Name} () const
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_molecule_a35f2801341bd3ffaa420c55f415f24fa}\label{class_obj_cryst_1_1_molecule_a35f2801341bd3ffaa420c55f415f24fa}} 
+virtual void {\bfseries Set\+Name} (const string \&name)
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_molecule_a9ad28d7c6c9ba8496a4fd876cc1db9d2}\label{class_obj_cryst_1_1_molecule_a9ad28d7c6c9ba8496a4fd876cc1db9d2}} 
+std\+::string \mbox{\hyperlink{class_obj_cryst_1_1_molecule_a9ad28d7c6c9ba8496a4fd876cc1db9d2}{Get\+Formula}} () const
+\begin{DoxyCompactList}\small\item\em Formula with atoms in alphabetic order. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_molecule_aafcf404bd79c82f07ec052cfa0d6b699}\label{class_obj_cryst_1_1_molecule_aafcf404bd79c82f07ec052cfa0d6b699}} 
+virtual void \mbox{\hyperlink{class_obj_cryst_1_1_molecule_aafcf404bd79c82f07ec052cfa0d6b699}{Print}} () const
+\begin{DoxyCompactList}\small\item\em Print some info about the scatterer (ideally this should be one line...). \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_molecule_a7843b891ef80e85ff978783123e88a07}\label{class_obj_cryst_1_1_molecule_a7843b891ef80e85ff978783123e88a07}} 
+virtual void {\bfseries X\+M\+L\+Output} (ostream \&os, int indent=0) const
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_molecule_a6561971de5ad4e3d2c55070d3ed91bb6}\label{class_obj_cryst_1_1_molecule_a6561971de5ad4e3d2c55070d3ed91bb6}} 
+virtual void {\bfseries X\+M\+L\+Input} (istream \&is, const X\+M\+L\+Cryst\+Tag \&tag)
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_molecule_aaa1a3252710052d4f05910e786d42be5}\label{class_obj_cryst_1_1_molecule_aaa1a3252710052d4f05910e786d42be5}} 
+virtual void {\bfseries Update\+Display} () const
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_molecule_a6a924fbe5da33f72648f9c4522d6d717}\label{class_obj_cryst_1_1_molecule_a6a924fbe5da33f72648f9c4522d6d717}} 
+virtual void {\bfseries Begin\+Optimization} (const bool allow\+Approximations=false, const bool enable\+Restraints=false)
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_molecule_a32dd6583494632e5d38fee517808f5be}\label{class_obj_cryst_1_1_molecule_a32dd6583494632e5d38fee517808f5be}} 
+virtual void {\bfseries End\+Optimization} ()
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_molecule_a943dfe6b5fe77f025b16325f62c58aff}\label{class_obj_cryst_1_1_molecule_a943dfe6b5fe77f025b16325f62c58aff}} 
+virtual void {\bfseries Randomize\+Configuration} ()
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_molecule_ae31f39cbb6cb2be6c7428dfc5fceb79e}\label{class_obj_cryst_1_1_molecule_ae31f39cbb6cb2be6c7428dfc5fceb79e}} 
+virtual void {\bfseries Global\+Opt\+Random\+Move} (const R\+E\+AL mutation\+Amplitude, const Ref\+Par\+Type $\ast$type)
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_molecule_a979d3cc91830566a14d23cc77670c5a6}\label{class_obj_cryst_1_1_molecule_a979d3cc91830566a14d23cc77670c5a6}} 
+virtual R\+E\+AL {\bfseries Get\+Log\+Likelihood} () const
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_molecule_a411109a1ba75b57a57ce2f0c59e1419b}\label{class_obj_cryst_1_1_molecule_a411109a1ba75b57a57ce2f0c59e1419b}} 
+virtual unsigned int {\bfseries Get\+Nb\+L\+S\+Q\+Function} () const
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_molecule_af2f711ea4838bc9fbd0a343d599ff203}\label{class_obj_cryst_1_1_molecule_af2f711ea4838bc9fbd0a343d599ff203}} 
+virtual const Cryst\+Vector\+\_\+\+R\+E\+AL \& {\bfseries Get\+L\+S\+Q\+Calc} (const unsigned int) const
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_molecule_a7fe790c889f83f55bd149d6177b6e863}\label{class_obj_cryst_1_1_molecule_a7fe790c889f83f55bd149d6177b6e863}} 
+virtual const Cryst\+Vector\+\_\+\+R\+E\+AL \& {\bfseries Get\+L\+S\+Q\+Obs} (const unsigned int) const
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_molecule_af539b19fa94ac4176394b6f16e892be2}\label{class_obj_cryst_1_1_molecule_af539b19fa94ac4176394b6f16e892be2}} 
+virtual const Cryst\+Vector\+\_\+\+R\+E\+AL \& {\bfseries Get\+L\+S\+Q\+Weight} (const unsigned int) const
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_molecule_acea418c1fcd0e2e9240166f27c86ba6a}\label{class_obj_cryst_1_1_molecule_acea418c1fcd0e2e9240166f27c86ba6a}} 
+virtual const Cryst\+Vector\+\_\+\+R\+E\+AL \& {\bfseries Get\+L\+S\+Q\+Deriv} (const unsigned int n, Refinable\+Par \&par)
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_molecule_a71493c917ba8afbb5f79dc1776ef9b08}\label{class_obj_cryst_1_1_molecule_a71493c917ba8afbb5f79dc1776ef9b08}} 
+virtual void {\bfseries Tag\+New\+Best\+Config} () const
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_molecule_a839d362bb9c2e6f0951caf00c8c8e92c}\label{class_obj_cryst_1_1_molecule_a839d362bb9c2e6f0951caf00c8c8e92c}} 
+virtual int \mbox{\hyperlink{class_obj_cryst_1_1_molecule_a839d362bb9c2e6f0951caf00c8c8e92c}{Get\+Nb\+Component}} () const
+\begin{DoxyCompactList}\small\item\em Number of components in the scatterer (eg number of point scatterers) \end{DoxyCompactList}\item 
+virtual const \mbox{\hyperlink{class_obj_cryst_1_1_scattering_component_list}{Scattering\+Component\+List}} \& \mbox{\hyperlink{class_obj_cryst_1_1_molecule_a03f7f32ade8523f118cab14a21a87843}{Get\+Scattering\+Component\+List}} () const
+\begin{DoxyCompactList}\small\item\em Get the list of all scattering components for this scatterer. \end{DoxyCompactList}\item 
+virtual string \mbox{\hyperlink{class_obj_cryst_1_1_molecule_aa72f797c744577e606fa6976d8c7dcf8}{Get\+Component\+Name}} (const int i) const
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_molecule_a29d8b1a13f7150e0f7531b2f8cfdc6a0}\label{class_obj_cryst_1_1_molecule_a29d8b1a13f7150e0f7531b2f8cfdc6a0}} 
+virtual ostream \& {\bfseries P\+O\+V\+Ray\+Description} (ostream \&os, const \mbox{\hyperlink{struct_obj_cryst_1_1_crystal_p_o_v_ray_options}{Crystal\+P\+O\+V\+Ray\+Options}} \&options) const
+\item 
+void \mbox{\hyperlink{class_obj_cryst_1_1_molecule_a7b193eac062233b758887cba671706f7}{Add\+Atom}} (const R\+E\+AL x, const R\+E\+AL y, const R\+E\+AL z, const \mbox{\hyperlink{class_obj_cryst_1_1_scattering_power}{Scattering\+Power}} $\ast$p\+Pow, const string \&name, const bool update\+Display=true)
+\item 
+vector$<$ \mbox{\hyperlink{class_obj_cryst_1_1_mol_atom}{Mol\+Atom}} $\ast$ $>$\+::iterator \mbox{\hyperlink{class_obj_cryst_1_1_molecule_a66bbf57cc85b1f5930b922edc3286fae}{Remove\+Atom}} (\mbox{\hyperlink{class_obj_cryst_1_1_mol_atom}{Mol\+Atom}} \&, const bool del=true)
+\item 
+void \mbox{\hyperlink{class_obj_cryst_1_1_molecule_aa37feb3abde7ca0ff6453b97d910800f}{Add\+Bond}} (\mbox{\hyperlink{class_obj_cryst_1_1_mol_atom}{Mol\+Atom}} \&atom1, \mbox{\hyperlink{class_obj_cryst_1_1_mol_atom}{Mol\+Atom}} \&atom2, const R\+E\+AL length, const R\+E\+AL sigma, const R\+E\+AL delta, const R\+E\+AL bond\+Order=1., const bool update\+Display=true)
+\item 
+vector$<$ \mbox{\hyperlink{class_obj_cryst_1_1_mol_bond}{Mol\+Bond}} $\ast$ $>$\+::iterator \mbox{\hyperlink{class_obj_cryst_1_1_molecule_aa02f2f7cea34333b5ddbb4a16678b7a4}{Remove\+Bond}} (const \mbox{\hyperlink{class_obj_cryst_1_1_mol_bond}{Mol\+Bond}} \&, const bool del=true)
+\item 
+vector$<$ \mbox{\hyperlink{class_obj_cryst_1_1_mol_bond}{Mol\+Bond}} $\ast$ $>$\+::const\+\_\+iterator \mbox{\hyperlink{class_obj_cryst_1_1_molecule_a78cdfa9c0223f1f45d5aac3b0e0d4989}{Find\+Bond}} (const \mbox{\hyperlink{class_obj_cryst_1_1_mol_atom}{Mol\+Atom}} \&, const \mbox{\hyperlink{class_obj_cryst_1_1_mol_atom}{Mol\+Atom}} \&) const
+\item 
+vector$<$ \mbox{\hyperlink{class_obj_cryst_1_1_mol_bond}{Mol\+Bond}} $\ast$ $>$\+::iterator \mbox{\hyperlink{class_obj_cryst_1_1_molecule_a44ab98d43be98b63297c0059a73e07ad}{Find\+Bond}} (const \mbox{\hyperlink{class_obj_cryst_1_1_mol_atom}{Mol\+Atom}} \&, const \mbox{\hyperlink{class_obj_cryst_1_1_mol_atom}{Mol\+Atom}} \&)
+\item 
+void \mbox{\hyperlink{class_obj_cryst_1_1_molecule_a25132c259da4d0bd739ff0ffc008575e}{Add\+Bond\+Angle}} (\mbox{\hyperlink{class_obj_cryst_1_1_mol_atom}{Mol\+Atom}} \&atom1, \mbox{\hyperlink{class_obj_cryst_1_1_mol_atom}{Mol\+Atom}} \&atom2, \mbox{\hyperlink{class_obj_cryst_1_1_mol_atom}{Mol\+Atom}} \&atom3, const R\+E\+AL angle, const R\+E\+AL sigma, const R\+E\+AL delta, const bool update\+Display=true)
+\item 
+vector$<$ \mbox{\hyperlink{class_obj_cryst_1_1_mol_bond_angle}{Mol\+Bond\+Angle}} $\ast$ $>$\+::iterator \mbox{\hyperlink{class_obj_cryst_1_1_molecule_a07ae7127f13c0527530074756093a653}{Remove\+Bond\+Angle}} (const \mbox{\hyperlink{class_obj_cryst_1_1_mol_bond_angle}{Mol\+Bond\+Angle}} \&, const bool del=true)
+\item 
+vector$<$ \mbox{\hyperlink{class_obj_cryst_1_1_mol_bond_angle}{Mol\+Bond\+Angle}} $\ast$ $>$\+::const\+\_\+iterator \mbox{\hyperlink{class_obj_cryst_1_1_molecule_a5a9a7cfad7693ce55fa20be38f1a92c1}{Find\+Bond\+Angle}} (const \mbox{\hyperlink{class_obj_cryst_1_1_mol_atom}{Mol\+Atom}} \&at1, const \mbox{\hyperlink{class_obj_cryst_1_1_mol_atom}{Mol\+Atom}} \&at0, const \mbox{\hyperlink{class_obj_cryst_1_1_mol_atom}{Mol\+Atom}} \&at2) const
+\item 
+void \mbox{\hyperlink{class_obj_cryst_1_1_molecule_aae30adce9fdd16e42cab4f8e434f01cf}{Add\+Dihedral\+Angle}} (\mbox{\hyperlink{class_obj_cryst_1_1_mol_atom}{Mol\+Atom}} \&atom1, \mbox{\hyperlink{class_obj_cryst_1_1_mol_atom}{Mol\+Atom}} \&atom2, \mbox{\hyperlink{class_obj_cryst_1_1_mol_atom}{Mol\+Atom}} \&atom3, \mbox{\hyperlink{class_obj_cryst_1_1_mol_atom}{Mol\+Atom}} \&atom4, const R\+E\+AL angle, const R\+E\+AL sigma, const R\+E\+AL delta, const bool update\+Display=true)
+\item 
+vector$<$ \mbox{\hyperlink{class_obj_cryst_1_1_mol_dihedral_angle}{Mol\+Dihedral\+Angle}} $\ast$ $>$\+::iterator \mbox{\hyperlink{class_obj_cryst_1_1_molecule_a5603e0f2c58de705284f07903e4f597a}{Remove\+Dihedral\+Angle}} (const \mbox{\hyperlink{class_obj_cryst_1_1_mol_dihedral_angle}{Mol\+Dihedral\+Angle}} \&, const bool del=true)
+\item 
+vector$<$ \mbox{\hyperlink{class_obj_cryst_1_1_mol_dihedral_angle}{Mol\+Dihedral\+Angle}} $\ast$ $>$\+::const\+\_\+iterator \mbox{\hyperlink{class_obj_cryst_1_1_molecule_a6bc7da1865f3fd5adc42323fc44d292c}{Find\+Dihedral\+Angle}} (const \mbox{\hyperlink{class_obj_cryst_1_1_mol_atom}{Mol\+Atom}} \&at1, const \mbox{\hyperlink{class_obj_cryst_1_1_mol_atom}{Mol\+Atom}} \&at2, const \mbox{\hyperlink{class_obj_cryst_1_1_mol_atom}{Mol\+Atom}} \&at3, const \mbox{\hyperlink{class_obj_cryst_1_1_mol_atom}{Mol\+Atom}} \&at4) const
+\item 
+void \mbox{\hyperlink{class_obj_cryst_1_1_molecule_a8c61827ad3303aca5c0db6698a5f9e06}{Add\+Rigid\+Group}} (const \mbox{\hyperlink{class_obj_cryst_1_1_rigid_group}{Rigid\+Group}} \&, const bool update\+Display=true)
+\item 
+std\+::vector$<$ \mbox{\hyperlink{class_obj_cryst_1_1_rigid_group}{Rigid\+Group}} $\ast$ $>$\+::iterator \mbox{\hyperlink{class_obj_cryst_1_1_molecule_ab114397cb6637e26e321fb6f580b2e16}{Remove\+Rigid\+Group}} (const \mbox{\hyperlink{class_obj_cryst_1_1_rigid_group}{Rigid\+Group}} \&group, const bool update\+Display=true, const bool del=true)
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_molecule_ab253a45c66991c09a3016b32ee904024}\label{class_obj_cryst_1_1_molecule_ab253a45c66991c09a3016b32ee904024}} 
+\mbox{\hyperlink{class_obj_cryst_1_1_mol_atom}{Mol\+Atom}} \& {\bfseries Get\+Atom} (unsigned int i)
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_molecule_ae39249cfb3fb8e40ac32a0a28b356fde}\label{class_obj_cryst_1_1_molecule_ae39249cfb3fb8e40ac32a0a28b356fde}} 
+const \mbox{\hyperlink{class_obj_cryst_1_1_mol_atom}{Mol\+Atom}} \& {\bfseries Get\+Atom} (unsigned int i) const
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_molecule_ae1bcdb74c391ae06108cee6c2c73d53b}\label{class_obj_cryst_1_1_molecule_ae1bcdb74c391ae06108cee6c2c73d53b}} 
+\mbox{\hyperlink{class_obj_cryst_1_1_mol_atom}{Mol\+Atom}} \& {\bfseries Get\+Atom} (const string \&name)
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_molecule_a8f6464483fb210e741f9e92cda123040}\label{class_obj_cryst_1_1_molecule_a8f6464483fb210e741f9e92cda123040}} 
+const \mbox{\hyperlink{class_obj_cryst_1_1_mol_atom}{Mol\+Atom}} \& {\bfseries Get\+Atom} (const string \&name) const
+\item 
+vector$<$ \mbox{\hyperlink{class_obj_cryst_1_1_mol_atom}{Mol\+Atom}} $\ast$ $>$\+::reverse\+\_\+iterator \mbox{\hyperlink{class_obj_cryst_1_1_molecule_a7dcd70a612a14005d569322e3030291f}{Find\+Atom}} (const string \&name)
+\item 
+vector$<$ \mbox{\hyperlink{class_obj_cryst_1_1_mol_atom}{Mol\+Atom}} $\ast$ $>$\+::const\+\_\+reverse\+\_\+iterator \mbox{\hyperlink{class_obj_cryst_1_1_molecule_a671b3e6ab0bf2867632db421237807d7}{Find\+Atom}} (const string \&name) const
+\item 
+void \mbox{\hyperlink{class_obj_cryst_1_1_molecule_a8e070563a06e9c375b3b26d2e5828c54}{Optimize\+Conformation}} (const long nb\+Trial=10000, const R\+E\+AL stop\+Cost=0.)
+\item 
+void \mbox{\hyperlink{class_obj_cryst_1_1_molecule_ac275665ed11daea220ef37154b39bf0d}{Optimize\+Conformation\+Steepest\+Descent}} (const R\+E\+AL max\+Step=0.\+1, const unsigned nb\+Step=1)
+\item 
+void \mbox{\hyperlink{class_obj_cryst_1_1_molecule_a9a43c803d62dc4f5f3b7852bbd75c939}{Molecular\+Dynamics\+Evolve}} (std\+::map$<$ \mbox{\hyperlink{class_obj_cryst_1_1_mol_atom}{Mol\+Atom}} $\ast$, \mbox{\hyperlink{struct_obj_cryst_1_1_x_y_z}{X\+YZ}} $>$ \&v0, const unsigned nb\+Step, const R\+E\+AL dt, const std\+::vector$<$ \mbox{\hyperlink{class_obj_cryst_1_1_mol_bond}{Mol\+Bond}} $\ast$ $>$ \&vb, const std\+::vector$<$ \mbox{\hyperlink{class_obj_cryst_1_1_mol_bond_angle}{Mol\+Bond\+Angle}} $\ast$ $>$ \&va, const std\+::vector$<$ \mbox{\hyperlink{class_obj_cryst_1_1_mol_dihedral_angle}{Mol\+Dihedral\+Angle}} $\ast$ $>$ \&vd, std\+::map$<$ \mbox{\hyperlink{class_obj_cryst_1_1_rigid_group}{Rigid\+Group}} $\ast$, std\+::pair$<$ \mbox{\hyperlink{struct_obj_cryst_1_1_x_y_z}{X\+YZ}}, \mbox{\hyperlink{struct_obj_cryst_1_1_x_y_z}{X\+YZ}} $>$ $>$ \&vr, R\+E\+AL nrj0=0)
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_molecule_a5ba1b2f897c4b13e5b555b61dd2daa59}\label{class_obj_cryst_1_1_molecule_a5ba1b2f897c4b13e5b555b61dd2daa59}} 
+const std\+::vector$<$ \mbox{\hyperlink{class_obj_cryst_1_1_mol_atom}{Mol\+Atom}} $\ast$ $>$ \& {\bfseries Get\+Atom\+List} () const
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_molecule_a7d429b461bc0b82705486cbbe7fa79dd}\label{class_obj_cryst_1_1_molecule_a7d429b461bc0b82705486cbbe7fa79dd}} 
+const std\+::vector$<$ \mbox{\hyperlink{class_obj_cryst_1_1_mol_bond}{Mol\+Bond}} $\ast$ $>$ \& {\bfseries Get\+Bond\+List} () const
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_molecule_a3e650647dad75c14d635c9ac42e61142}\label{class_obj_cryst_1_1_molecule_a3e650647dad75c14d635c9ac42e61142}} 
+const std\+::vector$<$ \mbox{\hyperlink{class_obj_cryst_1_1_mol_bond_angle}{Mol\+Bond\+Angle}} $\ast$ $>$ \& {\bfseries Get\+Bond\+Angle\+List} () const
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_molecule_ad4f1aa9f4ac2155e42ed912588022c14}\label{class_obj_cryst_1_1_molecule_ad4f1aa9f4ac2155e42ed912588022c14}} 
+const std\+::vector$<$ \mbox{\hyperlink{class_obj_cryst_1_1_mol_dihedral_angle}{Mol\+Dihedral\+Angle}} $\ast$ $>$ \& {\bfseries Get\+Dihedral\+Angle\+List} () const
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_molecule_ab7984ff2a241a0631e7377a869379051}\label{class_obj_cryst_1_1_molecule_ab7984ff2a241a0631e7377a869379051}} 
+std\+::vector$<$ \mbox{\hyperlink{class_obj_cryst_1_1_mol_atom}{Mol\+Atom}} $\ast$ $>$ \& {\bfseries Get\+Atom\+List} ()
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_molecule_a9b009524cbe6f8e33987b3031dd10f19}\label{class_obj_cryst_1_1_molecule_a9b009524cbe6f8e33987b3031dd10f19}} 
+std\+::vector$<$ \mbox{\hyperlink{class_obj_cryst_1_1_mol_bond}{Mol\+Bond}} $\ast$ $>$ \& {\bfseries Get\+Bond\+List} ()
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_molecule_a7bf589c1aebc5b3403517c9877998980}\label{class_obj_cryst_1_1_molecule_a7bf589c1aebc5b3403517c9877998980}} 
+std\+::vector$<$ \mbox{\hyperlink{class_obj_cryst_1_1_mol_bond_angle}{Mol\+Bond\+Angle}} $\ast$ $>$ \& {\bfseries Get\+Bond\+Angle\+List} ()
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_molecule_a6933d7c4917aafc891d7241047e6d147}\label{class_obj_cryst_1_1_molecule_a6933d7c4917aafc891d7241047e6d147}} 
+std\+::vector$<$ \mbox{\hyperlink{class_obj_cryst_1_1_mol_dihedral_angle}{Mol\+Dihedral\+Angle}} $\ast$ $>$ \& {\bfseries Get\+Dihedral\+Angle\+List} ()
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_molecule_a71b5e72c4b9b2748c507cfc8fce63dc4}\label{class_obj_cryst_1_1_molecule_a71b5e72c4b9b2748c507cfc8fce63dc4}} 
+std\+::list$<$ \mbox{\hyperlink{struct_obj_cryst_1_1_stretch_mode_bond_length}{Stretch\+Mode\+Bond\+Length}} $>$ \& {\bfseries Get\+Stretch\+Mode\+Bond\+Length\+List} ()
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_molecule_a1698daa97b88a1f9337ea446614cf666}\label{class_obj_cryst_1_1_molecule_a1698daa97b88a1f9337ea446614cf666}} 
+std\+::list$<$ \mbox{\hyperlink{struct_obj_cryst_1_1_stretch_mode_bond_angle}{Stretch\+Mode\+Bond\+Angle}} $>$ \& {\bfseries Get\+Stretch\+Mode\+Bond\+Angle\+List} ()
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_molecule_a53ebdb2d11350831e35d369aa9a81261}\label{class_obj_cryst_1_1_molecule_a53ebdb2d11350831e35d369aa9a81261}} 
+std\+::list$<$ \mbox{\hyperlink{struct_obj_cryst_1_1_stretch_mode_torsion}{Stretch\+Mode\+Torsion}} $>$ \& {\bfseries Get\+Stretch\+Mode\+Torsion\+List} ()
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_molecule_af7c27a18e04ffb41a0bb4b36e7293c35}\label{class_obj_cryst_1_1_molecule_af7c27a18e04ffb41a0bb4b36e7293c35}} 
+const std\+::list$<$ \mbox{\hyperlink{struct_obj_cryst_1_1_stretch_mode_bond_length}{Stretch\+Mode\+Bond\+Length}} $>$ \& {\bfseries Get\+Stretch\+Mode\+Bond\+Length\+List} () const
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_molecule_a2f1520393df31f4559725a69c7d3fa4f}\label{class_obj_cryst_1_1_molecule_a2f1520393df31f4559725a69c7d3fa4f}} 
+const std\+::list$<$ \mbox{\hyperlink{struct_obj_cryst_1_1_stretch_mode_bond_angle}{Stretch\+Mode\+Bond\+Angle}} $>$ \& {\bfseries Get\+Stretch\+Mode\+Bond\+Angle\+List} () const
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_molecule_afa3a6dfb12a7b56a0aa42d421719d0c8}\label{class_obj_cryst_1_1_molecule_afa3a6dfb12a7b56a0aa42d421719d0c8}} 
+const std\+::list$<$ \mbox{\hyperlink{struct_obj_cryst_1_1_stretch_mode_torsion}{Stretch\+Mode\+Torsion}} $>$ \& {\bfseries Get\+Stretch\+Mode\+Torsion\+List} () const
+\item 
+const std\+::vector$<$ \mbox{\hyperlink{class_obj_cryst_1_1_rigid_group}{Rigid\+Group}} $\ast$ $>$ \& \mbox{\hyperlink{class_obj_cryst_1_1_molecule_a58771b4ff0139164760b7310ee2e1837}{Get\+Rigid\+Group\+List}} () const
+\item 
+std\+::vector$<$ \mbox{\hyperlink{class_obj_cryst_1_1_rigid_group}{Rigid\+Group}} $\ast$ $>$ \& \mbox{\hyperlink{class_obj_cryst_1_1_molecule_a62718d99f36f75a66b043b78ef4f5dbf}{Get\+Rigid\+Group\+List}} ()
+\item 
+void \mbox{\hyperlink{class_obj_cryst_1_1_molecule_a9bd595a0ad88d6832718f3bffb452866}{Rotate\+Atom\+Group}} (const \mbox{\hyperlink{class_obj_cryst_1_1_mol_atom}{Mol\+Atom}} \&at1, const \mbox{\hyperlink{class_obj_cryst_1_1_mol_atom}{Mol\+Atom}} \&at2, const set$<$ \mbox{\hyperlink{class_obj_cryst_1_1_mol_atom}{Mol\+Atom}} $\ast$ $>$ \&atoms, const R\+E\+AL angle, const bool keep\+Center=true)
+\item 
+void \mbox{\hyperlink{class_obj_cryst_1_1_molecule_a84e93db5b81b90fd5befa22caaf8691c}{Rotate\+Atom\+Group}} (const \mbox{\hyperlink{class_obj_cryst_1_1_mol_atom}{Mol\+Atom}} \&at, const R\+E\+AL vx, const R\+E\+AL vy, const R\+E\+AL vz, const set$<$ \mbox{\hyperlink{class_obj_cryst_1_1_mol_atom}{Mol\+Atom}} $\ast$ $>$ \&atoms, const R\+E\+AL angle, const bool keep\+Center=true)
+\item 
+void \mbox{\hyperlink{class_obj_cryst_1_1_molecule_a0d3122b53dd81aa23d2aaa2427e6291e}{Translate\+Atom\+Group}} (const set$<$ \mbox{\hyperlink{class_obj_cryst_1_1_mol_atom}{Mol\+Atom}} $\ast$ $>$ \&atoms, const R\+E\+AL dx, const R\+E\+AL dy, const R\+E\+AL dz, const bool keep\+Center=true)
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_molecule_a9b7c80db4e0812b343be30aecd6785ef}\label{class_obj_cryst_1_1_molecule_a9b7c80db4e0812b343be30aecd6785ef}} 
+void \mbox{\hyperlink{class_obj_cryst_1_1_molecule_a9b7c80db4e0812b343be30aecd6785ef}{Restraint\+Status}} (ostream \&os) const
+\begin{DoxyCompactList}\small\item\em Print the status of all restraints (bond length, angles...) \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_molecule_a9c52af189100bd858eff7bdb16548c78}\label{class_obj_cryst_1_1_molecule_a9c52af189100bd858eff7bdb16548c78}} 
+void \mbox{\hyperlink{class_obj_cryst_1_1_molecule_a9c52af189100bd858eff7bdb16548c78}{Restraint\+Export}} (ostream \&os) const
+\begin{DoxyCompactList}\small\item\em Print the restraints (bond length, angles...) as whole labels and number in column text format which accessible to other programs. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_molecule_ab8d8da3b17849fb222ff7b1a4078776b}\label{class_obj_cryst_1_1_molecule_ab8d8da3b17849fb222ff7b1a4078776b}} 
+const map$<$ \mbox{\hyperlink{class_obj_cryst_1_1_mol_atom}{Mol\+Atom}} $\ast$, set$<$ \mbox{\hyperlink{class_obj_cryst_1_1_mol_atom}{Mol\+Atom}} $\ast$ $>$ $>$ \& \mbox{\hyperlink{class_obj_cryst_1_1_molecule_ab8d8da3b17849fb222ff7b1a4078776b}{Get\+Connectivity\+Table}} ()
+\begin{DoxyCompactList}\small\item\em Get the connectivity table. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_molecule_adc60f21b9ed68f0d41abb1603214e881}\label{class_obj_cryst_1_1_molecule_adc60f21b9ed68f0d41abb1603214e881}} 
+Refinable\+Obj\+Clock \& \mbox{\hyperlink{class_obj_cryst_1_1_molecule_adc60f21b9ed68f0d41abb1603214e881}{Get\+Bond\+List\+Clock}} ()
+\begin{DoxyCompactList}\small\item\em get the clock associated to the list of bonds \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_molecule_a47e187587392d8d63fc6bde3b2c02dd4}\label{class_obj_cryst_1_1_molecule_a47e187587392d8d63fc6bde3b2c02dd4}} 
+const Refinable\+Obj\+Clock \& \mbox{\hyperlink{class_obj_cryst_1_1_molecule_a47e187587392d8d63fc6bde3b2c02dd4}{Get\+Bond\+List\+Clock}} () const
+\begin{DoxyCompactList}\small\item\em get the clock associated to the list of bonds \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_molecule_ae354857ac578a8b27d67b689772326e5}\label{class_obj_cryst_1_1_molecule_ae354857ac578a8b27d67b689772326e5}} 
+Refinable\+Obj\+Clock \& \mbox{\hyperlink{class_obj_cryst_1_1_molecule_ae354857ac578a8b27d67b689772326e5}{Get\+Atom\+Position\+Clock}} ()
+\begin{DoxyCompactList}\small\item\em Get the clock associated to the atomic positions. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_molecule_aff4bd9780415632f2095e3b8a4cf65b9}\label{class_obj_cryst_1_1_molecule_aff4bd9780415632f2095e3b8a4cf65b9}} 
+const Refinable\+Obj\+Clock \& \mbox{\hyperlink{class_obj_cryst_1_1_molecule_aff4bd9780415632f2095e3b8a4cf65b9}{Get\+Atom\+Position\+Clock}} () const
+\begin{DoxyCompactList}\small\item\em Get the clock associated to the atomic positions. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_molecule_a858808c8f9a4c71fe30d44217bc5971e}\label{class_obj_cryst_1_1_molecule_a858808c8f9a4c71fe30d44217bc5971e}} 
+const Refinable\+Obj\+Clock \& \mbox{\hyperlink{class_obj_cryst_1_1_molecule_a858808c8f9a4c71fe30d44217bc5971e}{Get\+Atom\+Scatt\+Pow\+Clock}} () const
+\begin{DoxyCompactList}\small\item\em Get the clock associated to the scattering powers. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_molecule_a50d861909f252194b946d12bbc0ce1d8}\label{class_obj_cryst_1_1_molecule_a50d861909f252194b946d12bbc0ce1d8}} 
+Refinable\+Obj\+Clock \& \mbox{\hyperlink{class_obj_cryst_1_1_molecule_a50d861909f252194b946d12bbc0ce1d8}{Get\+Atom\+Scatt\+Pow\+Clock}} ()
+\begin{DoxyCompactList}\small\item\em Get the clock associated to the scattering powers. \end{DoxyCompactList}\item 
+Refinable\+Obj\+Clock \& \mbox{\hyperlink{class_obj_cryst_1_1_molecule_a6f7aea0410adabd5e0159d082feefe72}{Get\+Rigid\+Group\+Clock}} ()
+\item 
+const Refinable\+Obj\+Clock \& \mbox{\hyperlink{class_obj_cryst_1_1_molecule_a32b58e8e7ed93cf444f36f72cb6607a3}{Get\+Rigid\+Group\+Clock}} () const
+\item 
+void \mbox{\hyperlink{class_obj_cryst_1_1_molecule_a560c9ffc36d4874b99eb26c198ee485f}{Rigidify\+With\+Dihedral\+Angles}} ()
+\item 
+R\+E\+AL \mbox{\hyperlink{class_obj_cryst_1_1_molecule_ad7bfddcdf21c1214c5a70c84fc54cdb0}{Bond\+Length\+Random\+Change}} (const \mbox{\hyperlink{struct_obj_cryst_1_1_stretch_mode_bond_length}{Stretch\+Mode\+Bond\+Length}} \&mode, const R\+E\+AL amplitude, const bool respect\+Restraint=true)
+\item 
+R\+E\+AL \mbox{\hyperlink{class_obj_cryst_1_1_molecule_ad6e27c1557962b32355eeadf1bf155d3}{Bond\+Angle\+Random\+Change}} (const \mbox{\hyperlink{struct_obj_cryst_1_1_stretch_mode_bond_angle}{Stretch\+Mode\+Bond\+Angle}} \&mode, const R\+E\+AL amplitude, const bool respect\+Restraint=true)
+\item 
+R\+E\+AL \mbox{\hyperlink{class_obj_cryst_1_1_molecule_afd88ae76ab528b5dc37f9d2527353904}{Dihedral\+Angle\+Random\+Change}} (const \mbox{\hyperlink{struct_obj_cryst_1_1_stretch_mode_torsion}{Stretch\+Mode\+Torsion}} \&mode, const R\+E\+AL amplitude, const bool respect\+Restraint=true)
+\item 
+const \mbox{\hyperlink{class_obj_cryst_1_1_mol_atom}{Mol\+Atom}} $\ast$ \mbox{\hyperlink{class_obj_cryst_1_1_molecule_a2743c40de811e9b4ba8d5f037632572b}{Get\+Center\+Atom}} () const
+\item 
+void \mbox{\hyperlink{class_obj_cryst_1_1_molecule_a24043736cd4323a31b7bc0fa6fa166da}{Set\+Center\+Atom}} (const \mbox{\hyperlink{class_obj_cryst_1_1_mol_atom}{Mol\+Atom}} \&at)
+\item 
+const std\+::vector$<$ \mbox{\hyperlink{struct_obj_cryst_1_1_mol_z_atom}{Mol\+Z\+Atom}} $>$ \& \mbox{\hyperlink{class_obj_cryst_1_1_molecule_a8700143ff56fc21bb1262c4d297802ce}{As\+Z\+Matrix}} (const bool keeporder) const
+\item 
+void \mbox{\hyperlink{class_obj_cryst_1_1_molecule_a19afb1f15773fed7a2d9dff35820bafd}{Set\+Delete\+Sub\+Obj\+In\+Destructor}} (const bool b)
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_molecule_a5a8b91eefbc2b7b9f442bce239c4d981}\label{class_obj_cryst_1_1_molecule_a5a8b91eefbc2b7b9f442bce239c4d981}} 
+virtual void {\bfseries Init\+Ref\+Par\+List} ()
+\item 
+void \mbox{\hyperlink{class_obj_cryst_1_1_molecule_a9623bff2259d45c162ed28af73974f5a}{Build\+Ring\+List}} ()
+\item 
+void \mbox{\hyperlink{class_obj_cryst_1_1_molecule_a45ed440475011a0ceb933f56751c11da}{Build\+Connectivity\+Table}} () const
+\item 
+void \mbox{\hyperlink{class_obj_cryst_1_1_molecule_a3642fa8104faa1ce84a977600f9d1aeb}{Build\+Rotor\+Group}} ()
+\item 
+void \mbox{\hyperlink{class_obj_cryst_1_1_molecule_a9cc198b9cb896d28c7bd90a775db4ec2}{Tune\+Global\+Optim\+Rotation\+Amplitude}} ()
+\item 
+void \mbox{\hyperlink{class_obj_cryst_1_1_molecule_aca2ed46d26209807d587722d131c6315}{Build\+Flip\+Group}} ()
+\item 
+void \mbox{\hyperlink{class_obj_cryst_1_1_molecule_abb51819a0eae8b612fb4007ffa16d2b7}{Build\+Stretch\+Mode\+Bond\+Length}} ()
+\item 
+void \mbox{\hyperlink{class_obj_cryst_1_1_molecule_a3d507a4e25612a7412cbcc84b5a831ae}{Build\+Stretch\+Mode\+Bond\+Angle}} ()
+\item 
+void \mbox{\hyperlink{class_obj_cryst_1_1_molecule_a18d44782b4141dfab334250967d202ad}{Build\+Stretch\+Mode\+Torsion}} ()
+\item 
+void \mbox{\hyperlink{class_obj_cryst_1_1_molecule_a7f4c6bf6e5be59780cb7844e53711fb3}{Build\+Stretch\+Mode\+Twist}} ()
+\item 
+void \mbox{\hyperlink{class_obj_cryst_1_1_molecule_a83b7b9bac2ce9fe7b310b5267232b1ca}{Build\+Stretch\+Mode\+Groups}} ()
+\item 
+void \mbox{\hyperlink{class_obj_cryst_1_1_molecule_a0944a68727d85bee4ec0cce453cb451c}{Build\+M\+D\+Atom\+Groups}} ()
+\item 
+void \mbox{\hyperlink{class_obj_cryst_1_1_molecule_a53e8b1249d2f489fd71f06612cde0bd4}{Update\+Scatt\+Comp\+List}} () const
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_molecule_a15f72c789ad6e4cdae3a667d3d81e7eb}\label{class_obj_cryst_1_1_molecule_a15f72c789ad6e4cdae3a667d3d81e7eb}} 
+void \mbox{\hyperlink{class_obj_cryst_1_1_molecule_a15f72c789ad6e4cdae3a667d3d81e7eb}{Init\+Options}} ()
+\begin{DoxyCompactList}\small\item\em Build options for this object. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_obj_cryst_1_1_molecule_aacd7668d81ffb43a889d6da6e07cde9b}{Reset\+Rigid\+Groups\+Par}} () const
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_molecule_a4c6c144526c55f1497156b369a4362b5}\label{class_obj_cryst_1_1_molecule_a4c6c144526c55f1497156b369a4362b5}} 
+void \mbox{\hyperlink{class_obj_cryst_1_1_molecule_a4c6c144526c55f1497156b369a4362b5}{Flip\+Atom\+Group}} (const \mbox{\hyperlink{struct_obj_cryst_1_1_molecule_1_1_flip_group}{Flip\+Group}} \&, const bool keep\+Center=true)
+\begin{DoxyCompactList}\small\item\em Flip a group of atom. See \mbox{\hyperlink{struct_obj_cryst_1_1_molecule_1_1_flip_group}{Molecule\+::\+Flip\+Group}}. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_obj_cryst_1_1_scattering_component_list}{Scattering\+Component\+List}} \mbox{\hyperlink{class_obj_cryst_1_1_molecule_ae681f50b04c32c7139727c675dc04b67}{m\+Scatt\+Comp\+List}}
+\item 
+vector$<$ \mbox{\hyperlink{class_obj_cryst_1_1_mol_atom}{Mol\+Atom}} $\ast$ $>$ \mbox{\hyperlink{class_obj_cryst_1_1_molecule_ad498c51ecf4ee0b4482e5fe41cd52be7}{mvp\+Atom}}
+\item 
+vector$<$ \mbox{\hyperlink{class_obj_cryst_1_1_mol_bond}{Mol\+Bond}} $\ast$ $>$ \mbox{\hyperlink{class_obj_cryst_1_1_molecule_aabf6e0daf6f90f4052a44888f2bc3d7b}{mvp\+Bond}}
+\item 
+vector$<$ \mbox{\hyperlink{class_obj_cryst_1_1_mol_bond_angle}{Mol\+Bond\+Angle}} $\ast$ $>$ \mbox{\hyperlink{class_obj_cryst_1_1_molecule_a9c195054308e17604a24a3127e0cb307}{mvp\+Bond\+Angle}}
+\item 
+vector$<$ \mbox{\hyperlink{class_obj_cryst_1_1_mol_dihedral_angle}{Mol\+Dihedral\+Angle}} $\ast$ $>$ \mbox{\hyperlink{class_obj_cryst_1_1_molecule_a21384a0b8be7bf3fc539c57d90d5c9a2}{mvp\+Dihedral\+Angle}}
+\item 
+map$<$ \mbox{\hyperlink{class_obj_cryst_1_1_mol_atom}{Mol\+Atom}} $\ast$, std\+::vector$<$ \mbox{\hyperlink{class_obj_cryst_1_1_mol_bond}{Mol\+Bond}} $\ast$ $>$ $>$ \mbox{\hyperlink{class_obj_cryst_1_1_molecule_ad67f767fe62aeef49aef1c5760d69294}{mv\+Atom\+Bond}}
+\item 
+std\+::vector$<$ \mbox{\hyperlink{class_obj_cryst_1_1_rigid_group}{Rigid\+Group}} $\ast$ $>$ \mbox{\hyperlink{class_obj_cryst_1_1_molecule_a43939b3e3ad83065cf7ccb6065a53a12}{mv\+Rigid\+Group}}
+\item 
+list$<$ \mbox{\hyperlink{class_obj_cryst_1_1_mol_ring}{Mol\+Ring}} $>$ \mbox{\hyperlink{class_obj_cryst_1_1_molecule_a35cb61305129b6bbda4a0bb014b2c90e}{mv\+Ring}}
+\item 
+\mbox{\hyperlink{class_obj_cryst_1_1_quaternion}{Quaternion}} \mbox{\hyperlink{class_obj_cryst_1_1_molecule_a61b83701b288c4fdbcda97b14608af7d}{m\+Quat}}
+\item 
+bool \mbox{\hyperlink{class_obj_cryst_1_1_molecule_a5b35796cbf31728b39b82c36badaa97b}{m\+Delete\+Sub\+Obj\+In\+Destructor}}
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_molecule_a1c0fdb65e11dc8c46c525b18826e013c}\label{class_obj_cryst_1_1_molecule_a1c0fdb65e11dc8c46c525b18826e013c}} 
+R\+E\+AL {\bfseries m\+Base\+Rotation\+Amplitude}
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_molecule_a813452a36a4706a6590ec8be5e50d691}\label{class_obj_cryst_1_1_molecule_a813452a36a4706a6590ec8be5e50d691}} 
+Refinable\+Obj\+Clock {\bfseries m\+Clock\+Atom\+List}
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_molecule_a4276d3c873b3b0a0c86fbaef9f362403}\label{class_obj_cryst_1_1_molecule_a4276d3c873b3b0a0c86fbaef9f362403}} 
+Refinable\+Obj\+Clock {\bfseries m\+Clock\+Bond\+List}
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_molecule_a89305fe20d24689db9cef6165300cb3c}\label{class_obj_cryst_1_1_molecule_a89305fe20d24689db9cef6165300cb3c}} 
+Refinable\+Obj\+Clock {\bfseries m\+Clock\+Bond\+Angle\+List}
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_molecule_a52cdc04f8a7e0b60f86c1ec6e1dd9c00}\label{class_obj_cryst_1_1_molecule_a52cdc04f8a7e0b60f86c1ec6e1dd9c00}} 
+Refinable\+Obj\+Clock {\bfseries m\+Clock\+Dihedral\+Angle\+List}
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_molecule_a031fb163482a63573aa2c0abb721a40c}\label{class_obj_cryst_1_1_molecule_a031fb163482a63573aa2c0abb721a40c}} 
+Refinable\+Obj\+Clock {\bfseries m\+Clock\+Rigid\+Group}
+\item 
+Refinable\+Obj\+Clock \mbox{\hyperlink{class_obj_cryst_1_1_molecule_a8bbd805ad8444c1470aea55544a9fb7f}{m\+Clock\+Restraint}}
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_molecule_a779328aa75fbd492d25d8f1e78ba3120}\label{class_obj_cryst_1_1_molecule_a779328aa75fbd492d25d8f1e78ba3120}} 
+Refinable\+Obj\+Clock {\bfseries m\+Clock\+Atom\+Position}
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_molecule_aaa968c9d6b66e7f43784b6373333939d}\label{class_obj_cryst_1_1_molecule_aaa968c9d6b66e7f43784b6373333939d}} 
+Refinable\+Obj\+Clock {\bfseries m\+Clock\+Atom\+Scatt\+Pow}
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_molecule_a9bd4e0dabed314962e489a29ed20a33c}\label{class_obj_cryst_1_1_molecule_a9bd4e0dabed314962e489a29ed20a33c}} 
+Refinable\+Obj\+Clock {\bfseries m\+Clock\+Orientation}
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_molecule_a853e81d1fd9916d2a8e6cfee07415f7a}\label{class_obj_cryst_1_1_molecule_a853e81d1fd9916d2a8e6cfee07415f7a}} 
+Refinable\+Obj\+Clock {\bfseries m\+Clock\+Log\+Likelihood}
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_molecule_a5ab45bcd6837946dde8ef134874ae02b}\label{class_obj_cryst_1_1_molecule_a5ab45bcd6837946dde8ef134874ae02b}} 
+Refinable\+Obj\+Clock {\bfseries m\+Clock\+Connectivity\+Table}
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_molecule_ab19b748ec7e4ead2947027b2f38b60e2}\label{class_obj_cryst_1_1_molecule_ab19b748ec7e4ead2947027b2f38b60e2}} 
+Refinable\+Obj\+Clock {\bfseries m\+Clock\+Ring\+List}
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_molecule_abdfb80e948dc91137f5c568c99b1554a}\label{class_obj_cryst_1_1_molecule_abdfb80e948dc91137f5c568c99b1554a}} 
+Refinable\+Obj\+Clock {\bfseries m\+Clock\+Rotor\+Group}
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_molecule_a9654156a7376a5265c6555c23fa7316c}\label{class_obj_cryst_1_1_molecule_a9654156a7376a5265c6555c23fa7316c}} 
+Refinable\+Obj\+Clock {\bfseries m\+Clock\+Flip\+Group}
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_molecule_a0320d6fc63fdd2d3454f6c93e21fb82d}\label{class_obj_cryst_1_1_molecule_a0320d6fc63fdd2d3454f6c93e21fb82d}} 
+Refinable\+Obj\+Clock {\bfseries m\+Clock\+Stretch\+Mode\+Bond\+Length}
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_molecule_ae641b2ae58267ce842c21e9e2c631a7e}\label{class_obj_cryst_1_1_molecule_ae641b2ae58267ce842c21e9e2c631a7e}} 
+Refinable\+Obj\+Clock {\bfseries m\+Clock\+Stretch\+Mode\+Bond\+Angle}
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_molecule_ae932e4a8a69c7fb3422b703854478fc2}\label{class_obj_cryst_1_1_molecule_ae932e4a8a69c7fb3422b703854478fc2}} 
+Refinable\+Obj\+Clock {\bfseries m\+Clock\+Stretch\+Mode\+Torsion}
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_molecule_a83e297fa4cd4f1bebe17b9cf26838b7f}\label{class_obj_cryst_1_1_molecule_a83e297fa4cd4f1bebe17b9cf26838b7f}} 
+Refinable\+Obj\+Clock {\bfseries m\+Clock\+Stretch\+Mode\+Twist}
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_molecule_acaeac88a7cea8c699fecb137337e9f2d}\label{class_obj_cryst_1_1_molecule_acaeac88a7cea8c699fecb137337e9f2d}} 
+Refinable\+Obj\+Clock {\bfseries m\+Clock\+M\+D\+Atom\+Group}
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_molecule_ad176581e146e508869e67776f0e2e3d2}\label{class_obj_cryst_1_1_molecule_ad176581e146e508869e67776f0e2e3d2}} 
+unsigned long {\bfseries m\+Local\+Param\+Set}
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_molecule_a6fe920696fe0d0f811e35fe677c7b664}\label{class_obj_cryst_1_1_molecule_a6fe920696fe0d0f811e35fe677c7b664}} 
+unsigned long {\bfseries m\+Random\+Conform\+Change\+Nb\+Test}
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_molecule_a3a52a7e8ab51acbe58c21e5f2fac2f21}\label{class_obj_cryst_1_1_molecule_a3a52a7e8ab51acbe58c21e5f2fac2f21}} 
+unsigned long {\bfseries m\+Random\+Conform\+Change\+Nb\+Accept}
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_molecule_a78242220a03384972970306eab3c84cc}\label{class_obj_cryst_1_1_molecule_a78242220a03384972970306eab3c84cc}} 
+R\+E\+AL {\bfseries m\+Random\+Conform\+Change\+Temp}
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_molecule_ae424310a32f3ed915c33524e9c325549}\label{class_obj_cryst_1_1_molecule_ae424310a32f3ed915c33524e9c325549}} 
+R\+E\+AL {\bfseries m\+Last\+Log\+Like}
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_molecule_a3a266d6dc8d55ee94717b0f2137f20ad}\label{class_obj_cryst_1_1_molecule_a3a266d6dc8d55ee94717b0f2137f20ad}} 
+bool {\bfseries m\+Is\+Self\+Optimizing}
+\item 
+Ref\+Obj\+Opt \mbox{\hyperlink{class_obj_cryst_1_1_molecule_a35881bfb20092d0dcc424553f5671245}{m\+Flex\+Model}}
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_molecule_a79471cc60e375a7b10d0b7c528600cd7}\label{class_obj_cryst_1_1_molecule_a79471cc60e375a7b10d0b7c528600cd7}} 
+Ref\+Obj\+Opt {\bfseries m\+Flip\+Model}
+\item 
+Ref\+Obj\+Opt \mbox{\hyperlink{class_obj_cryst_1_1_molecule_ae8459b9f767b0d8bc27b05140c604e0c}{m\+Auto\+Optimize\+Conformation}}
+\item 
+Ref\+Obj\+Opt \mbox{\hyperlink{class_obj_cryst_1_1_molecule_a8c82ea548f4c0f29e868776c88c5eab8}{m\+Optimize\+Orientation}}
+\item 
+Ref\+Obj\+Opt \mbox{\hyperlink{class_obj_cryst_1_1_molecule_a4ac986f017f968e59af58297b4a50d7f}{m\+Molecule\+Center}}
+\item 
+const \mbox{\hyperlink{class_obj_cryst_1_1_mol_atom}{Mol\+Atom}} $\ast$ \mbox{\hyperlink{class_obj_cryst_1_1_molecule_a924f7062c1e35790e152a35166121266}{mp\+Center\+Atom}}
+\item 
+map$<$ \mbox{\hyperlink{class_obj_cryst_1_1_mol_atom}{Mol\+Atom}} $\ast$, set$<$ \mbox{\hyperlink{class_obj_cryst_1_1_mol_atom}{Mol\+Atom}} $\ast$ $>$ $>$ \mbox{\hyperlink{class_obj_cryst_1_1_molecule_a13cffa530711a868859cfcfc17bce069}{m\+Connectivity\+Table}}
+\item 
+list$<$ \mbox{\hyperlink{struct_obj_cryst_1_1_molecule_1_1_rotor_group}{Rotor\+Group}} $>$ \mbox{\hyperlink{class_obj_cryst_1_1_molecule_afc51d36109a8d96a626f3c2251345c13}{mv\+Rotor\+Group\+Torsion}}
+\item 
+list$<$ \mbox{\hyperlink{struct_obj_cryst_1_1_molecule_1_1_rotor_group}{Rotor\+Group}} $>$ \mbox{\hyperlink{class_obj_cryst_1_1_molecule_a22a07ddc2dbfeb90238b29bcca1e915d}{mv\+Rotor\+Group\+Torsion\+Single\+Chain}}
+\item 
+list$<$ \mbox{\hyperlink{struct_obj_cryst_1_1_molecule_1_1_rotor_group}{Rotor\+Group}} $>$ \mbox{\hyperlink{class_obj_cryst_1_1_molecule_ac54d8a074549f7710a1823b0ecefcde8}{mv\+Rotor\+Group\+Internal}}
+\item 
+list$<$ \mbox{\hyperlink{struct_obj_cryst_1_1_molecule_1_1_flip_group}{Flip\+Group}} $>$ \mbox{\hyperlink{class_obj_cryst_1_1_molecule_a79ffe8ba3222a5f4a56fd9f2447c8fd7}{mv\+Flip\+Group}}
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_molecule_aa3e38a39a6a392456c03f320e1bdaffa}\label{class_obj_cryst_1_1_molecule_aa3e38a39a6a392456c03f320e1bdaffa}} 
+list$<$ \mbox{\hyperlink{struct_obj_cryst_1_1_stretch_mode_bond_length}{Stretch\+Mode\+Bond\+Length}} $>$ \mbox{\hyperlink{class_obj_cryst_1_1_molecule_aa3e38a39a6a392456c03f320e1bdaffa}{mv\+Stretch\+Mode\+Bond\+Length}}
+\begin{DoxyCompactList}\small\item\em List of \mbox{\hyperlink{struct_obj_cryst_1_1_stretch_mode_bond_length}{Stretch\+Mode\+Bond\+Length}}. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_molecule_a5673efb9ae9ffc238f25c62805825c63}\label{class_obj_cryst_1_1_molecule_a5673efb9ae9ffc238f25c62805825c63}} 
+list$<$ \mbox{\hyperlink{struct_obj_cryst_1_1_stretch_mode_bond_angle}{Stretch\+Mode\+Bond\+Angle}} $>$ \mbox{\hyperlink{class_obj_cryst_1_1_molecule_a5673efb9ae9ffc238f25c62805825c63}{mv\+Stretch\+Mode\+Bond\+Angle}}
+\begin{DoxyCompactList}\small\item\em List of \mbox{\hyperlink{struct_obj_cryst_1_1_stretch_mode_bond_length}{Stretch\+Mode\+Bond\+Length}}. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_molecule_a878336f175d85a68d55804ad43a453dc}\label{class_obj_cryst_1_1_molecule_a878336f175d85a68d55804ad43a453dc}} 
+list$<$ \mbox{\hyperlink{struct_obj_cryst_1_1_stretch_mode_torsion}{Stretch\+Mode\+Torsion}} $>$ \mbox{\hyperlink{class_obj_cryst_1_1_molecule_a878336f175d85a68d55804ad43a453dc}{mv\+Stretch\+Mode\+Torsion}}
+\begin{DoxyCompactList}\small\item\em List of \mbox{\hyperlink{struct_obj_cryst_1_1_stretch_mode_bond_length}{Stretch\+Mode\+Bond\+Length}}. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_molecule_a53def8e47e265fc3dd62af4b07997bd1}\label{class_obj_cryst_1_1_molecule_a53def8e47e265fc3dd62af4b07997bd1}} 
+list$<$ \mbox{\hyperlink{struct_obj_cryst_1_1_stretch_mode_twist}{Stretch\+Mode\+Twist}} $>$ \mbox{\hyperlink{class_obj_cryst_1_1_molecule_a53def8e47e265fc3dd62af4b07997bd1}{mv\+Stretch\+Mode\+Twist}}
+\begin{DoxyCompactList}\small\item\em List of \mbox{\hyperlink{struct_obj_cryst_1_1_stretch_mode_twist}{Stretch\+Mode\+Twist}}. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_molecule_a215591f48317322bb1b9203ebad4a011}\label{class_obj_cryst_1_1_molecule_a215591f48317322bb1b9203ebad4a011}} 
+std\+::list$<$ \mbox{\hyperlink{struct_obj_cryst_1_1_stretch_mode}{Stretch\+Mode}} $\ast$ $>$ \mbox{\hyperlink{class_obj_cryst_1_1_molecule_a215591f48317322bb1b9203ebad4a011}{mvp\+Stretch\+Mode\+Free}}
+\begin{DoxyCompactList}\small\item\em Groups of \mbox{\hyperlink{struct_obj_cryst_1_1_stretch_mode}{Stretch\+Mode}} not breaking any restraint (unless the one they are associated to) \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_molecule_ae87a1cece989dc3d433eb7fad925c5de}\label{class_obj_cryst_1_1_molecule_ae87a1cece989dc3d433eb7fad925c5de}} 
+std\+::list$<$ \mbox{\hyperlink{struct_obj_cryst_1_1_stretch_mode}{Stretch\+Mode}} $\ast$ $>$ \mbox{\hyperlink{class_obj_cryst_1_1_molecule_ae87a1cece989dc3d433eb7fad925c5de}{mvp\+Stretch\+Mode\+Not\+Free}}
+\begin{DoxyCompactList}\small\item\em Groups of \mbox{\hyperlink{struct_obj_cryst_1_1_stretch_mode}{Stretch\+Mode}} breaking restraints (beyond the one they are associated to) \end{DoxyCompactList}\item 
+list$<$ \mbox{\hyperlink{struct_obj_cryst_1_1_m_d_atom_group}{M\+D\+Atom\+Group}} $>$ \mbox{\hyperlink{class_obj_cryst_1_1_molecule_a4a3a91c91753e90de67341701df7e081}{mv\+M\+D\+Atom\+Group}}
+\item 
+std\+::set$<$ \mbox{\hyperlink{class_obj_cryst_1_1_mol_atom}{Mol\+Atom}} $\ast$ $>$ \mbox{\hyperlink{class_obj_cryst_1_1_molecule_af3e1420d9c1c4cc3be0e58c5834130e7}{mv\+M\+D\+Full\+Atom\+Group}}
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_molecule_aee36f14d21f12d10581eaaf689136304}\label{class_obj_cryst_1_1_molecule_aee36f14d21f12d10581eaaf689136304}} 
+R\+E\+AL \mbox{\hyperlink{class_obj_cryst_1_1_molecule_aee36f14d21f12d10581eaaf689136304}{m\+M\+D\+Move\+Freq}}
+\begin{DoxyCompactList}\small\item\em Frequency of using molecular dynamics move during Global\+Opt\+Random\+Move() \end{DoxyCompactList}\item 
+R\+E\+AL \mbox{\hyperlink{class_obj_cryst_1_1_molecule_a600a62199c1e9297d39a53848a155310}{m\+M\+D\+Move\+Energy}}
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_molecule_a45e0d1e1d54f4474158f270571957d4a}\label{class_obj_cryst_1_1_molecule_a45e0d1e1d54f4474158f270571957d4a}} 
+std\+::vector$<$ \mbox{\hyperlink{struct_obj_cryst_1_1_mol_z_atom}{Mol\+Z\+Atom}} $>$ \mbox{\hyperlink{class_obj_cryst_1_1_molecule_a45e0d1e1d54f4474158f270571957d4a}{m\+As\+Z\+Matrix}}
+\begin{DoxyCompactList}\small\item\em The \mbox{\hyperlink{class_obj_cryst_1_1_molecule}{Molecule}}, as a lightweight Z\+Matrix, for export purposes. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_molecule_aca5a25791960a8aa011c1cfa902c589a}\label{class_obj_cryst_1_1_molecule_aca5a25791960a8aa011c1cfa902c589a}} 
+R\+E\+AL \mbox{\hyperlink{class_obj_cryst_1_1_molecule_aca5a25791960a8aa011c1cfa902c589a}{m\+Log\+Likelihood}}
+\begin{DoxyCompactList}\small\item\em The current log(likelihood) \end{DoxyCompactList}\item 
+R\+E\+AL \mbox{\hyperlink{class_obj_cryst_1_1_molecule_a7e69eecc5aa10a9908c3a6450cc2540b}{m\+Log\+Likelihood\+Scale}}
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_molecule_a9e9be5fe3d3037cdf690df16235e370d}\label{class_obj_cryst_1_1_molecule_a9e9be5fe3d3037cdf690df16235e370d}} 
+Cryst\+Vector\+\_\+\+R\+E\+AL \mbox{\hyperlink{class_obj_cryst_1_1_molecule_a9e9be5fe3d3037cdf690df16235e370d}{m\+L\+S\+Q\+Calc}}
+\begin{DoxyCompactList}\small\item\em Current L\+SQ Calc -\/ one value for each restraint (bond distance, angle or dihedral angle) \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_molecule_a6202acc4d02c90999f008c089bf1b21e}\label{class_obj_cryst_1_1_molecule_a6202acc4d02c90999f008c089bf1b21e}} 
+Cryst\+Vector\+\_\+\+R\+E\+AL \mbox{\hyperlink{class_obj_cryst_1_1_molecule_a6202acc4d02c90999f008c089bf1b21e}{m\+L\+S\+Q\+Obs}}
+\begin{DoxyCompactList}\small\item\em Current L\+SQ Calc -\/ one value for each restraint (bond distance, angle or dihedral angle ideal values) \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_molecule_a7305a71a61c7ceedaf09b28a0d1ed64d}\label{class_obj_cryst_1_1_molecule_a7305a71a61c7ceedaf09b28a0d1ed64d}} 
+Cryst\+Vector\+\_\+\+R\+E\+AL \mbox{\hyperlink{class_obj_cryst_1_1_molecule_a7305a71a61c7ceedaf09b28a0d1ed64d}{m\+L\+S\+Q\+Weight}}
+\begin{DoxyCompactList}\small\item\em Current L\+SQ Calc -\/ one value for each restraint(bond distance, angle or dihedral angle sigmas) \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Additional Inherited Members}
+
+
+\subsection{Detailed Description}
+\mbox{\hyperlink{class_obj_cryst_1_1_molecule}{Molecule}} \+: class for complex scatterer descriptions using cartesian coordinates with bond length/angle restraints, and moves either of individual atoms or using torsion bonds.
+
+This can also be used for non-\/organic compounds (polyhedras etc...) \begin{DoxyNote}{Note}
+the parametrization is very different from \mbox{\hyperlink{class_obj_cryst_1_1_z_scatterer}{Z\+Scatterer}}\+: we keep a list of x,y,z which do not use limits (they must not), but the coordinates must be restrained or constrained from the expected bond lengths, angles and dihedral angles. The list of parameters is re-\/created in Begin\+Optimization() (except for the global x y z parameters for the global position of the \mbox{\hyperlink{class_obj_cryst_1_1_molecule}{Molecule}}, in fractionnal coordinates).
+
+\+: all atoms must be somehow connected 
+\end{DoxyNote}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_obj_cryst_1_1_molecule_ad4132a293e7f253c730676ed3720f961}\label{class_obj_cryst_1_1_molecule_ad4132a293e7f253c730676ed3720f961}} 
+\index{ObjCryst::Molecule@{ObjCryst::Molecule}!Molecule@{Molecule}}
+\index{Molecule@{Molecule}!ObjCryst::Molecule@{ObjCryst::Molecule}}
+\subsubsection{\texorpdfstring{Molecule()}{Molecule()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily Obj\+Cryst\+::\+Molecule\+::\+Molecule (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_obj_cryst_1_1_crystal}{Crystal}} \&}]{cryst,  }\item[{const string \&}]{name = {\ttfamily \char`\"{}\char`\"{}} }\end{DoxyParamCaption})}
+
+Constructor Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=317pt]{class_obj_cryst_1_1_molecule_ad4132a293e7f253c730676ed3720f961_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_obj_cryst_1_1_molecule_a896c80a621aa990de3d36e214965cd49}\label{class_obj_cryst_1_1_molecule_a896c80a621aa990de3d36e214965cd49}} 
+\index{ObjCryst::Molecule@{ObjCryst::Molecule}!Molecule@{Molecule}}
+\index{Molecule@{Molecule}!ObjCryst::Molecule@{ObjCryst::Molecule}}
+\subsubsection{\texorpdfstring{Molecule()}{Molecule()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily Obj\+Cryst\+::\+Molecule\+::\+Molecule (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{class_obj_cryst_1_1_molecule}{Molecule}} \&}]{old }\end{DoxyParamCaption})}
+
+Copy constructor Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=317pt]{class_obj_cryst_1_1_molecule_a896c80a621aa990de3d36e214965cd49_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_obj_cryst_1_1_molecule_ae61d3a9a72c73cd087e330b3c4cdf0be}\label{class_obj_cryst_1_1_molecule_ae61d3a9a72c73cd087e330b3c4cdf0be}} 
+\index{ObjCryst::Molecule@{ObjCryst::Molecule}!````~Molecule@{$\sim$Molecule}}
+\index{````~Molecule@{$\sim$Molecule}!ObjCryst::Molecule@{ObjCryst::Molecule}}
+\subsubsection{\texorpdfstring{$\sim$Molecule()}{~Molecule()}}
+{\footnotesize\ttfamily Obj\+Cryst\+::\+Molecule\+::$\sim$\+Molecule (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Destructor 
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{class_obj_cryst_1_1_molecule_a7b193eac062233b758887cba671706f7}\label{class_obj_cryst_1_1_molecule_a7b193eac062233b758887cba671706f7}} 
+\index{ObjCryst::Molecule@{ObjCryst::Molecule}!AddAtom@{AddAtom}}
+\index{AddAtom@{AddAtom}!ObjCryst::Molecule@{ObjCryst::Molecule}}
+\subsubsection{\texorpdfstring{AddAtom()}{AddAtom()}}
+{\footnotesize\ttfamily void Obj\+Cryst\+::\+Molecule\+::\+Add\+Atom (\begin{DoxyParamCaption}\item[{const R\+E\+AL}]{x,  }\item[{const R\+E\+AL}]{y,  }\item[{const R\+E\+AL}]{z,  }\item[{const \mbox{\hyperlink{class_obj_cryst_1_1_scattering_power}{Scattering\+Power}} $\ast$}]{p\+Pow,  }\item[{const string \&}]{name,  }\item[{const bool}]{update\+Display = {\ttfamily true} }\end{DoxyParamCaption})}
+
+Add an atom Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_obj_cryst_1_1_molecule_a7b193eac062233b758887cba671706f7_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=314pt]{class_obj_cryst_1_1_molecule_a7b193eac062233b758887cba671706f7_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_obj_cryst_1_1_molecule_aa37feb3abde7ca0ff6453b97d910800f}\label{class_obj_cryst_1_1_molecule_aa37feb3abde7ca0ff6453b97d910800f}} 
+\index{ObjCryst::Molecule@{ObjCryst::Molecule}!AddBond@{AddBond}}
+\index{AddBond@{AddBond}!ObjCryst::Molecule@{ObjCryst::Molecule}}
+\subsubsection{\texorpdfstring{AddBond()}{AddBond()}}
+{\footnotesize\ttfamily void Obj\+Cryst\+::\+Molecule\+::\+Add\+Bond (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_obj_cryst_1_1_mol_atom}{Mol\+Atom}} \&}]{atom1,  }\item[{\mbox{\hyperlink{class_obj_cryst_1_1_mol_atom}{Mol\+Atom}} \&}]{atom2,  }\item[{const R\+E\+AL}]{length,  }\item[{const R\+E\+AL}]{sigma,  }\item[{const R\+E\+AL}]{delta,  }\item[{const R\+E\+AL}]{bond\+Order = {\ttfamily 1.},  }\item[{const bool}]{update\+Display = {\ttfamily true} }\end{DoxyParamCaption})}
+
+Add a bond Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=314pt]{class_obj_cryst_1_1_molecule_aa37feb3abde7ca0ff6453b97d910800f_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_obj_cryst_1_1_molecule_a25132c259da4d0bd739ff0ffc008575e}\label{class_obj_cryst_1_1_molecule_a25132c259da4d0bd739ff0ffc008575e}} 
+\index{ObjCryst::Molecule@{ObjCryst::Molecule}!AddBondAngle@{AddBondAngle}}
+\index{AddBondAngle@{AddBondAngle}!ObjCryst::Molecule@{ObjCryst::Molecule}}
+\subsubsection{\texorpdfstring{AddBondAngle()}{AddBondAngle()}}
+{\footnotesize\ttfamily void Obj\+Cryst\+::\+Molecule\+::\+Add\+Bond\+Angle (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_obj_cryst_1_1_mol_atom}{Mol\+Atom}} \&}]{atom1,  }\item[{\mbox{\hyperlink{class_obj_cryst_1_1_mol_atom}{Mol\+Atom}} \&}]{atom2,  }\item[{\mbox{\hyperlink{class_obj_cryst_1_1_mol_atom}{Mol\+Atom}} \&}]{atom3,  }\item[{const R\+E\+AL}]{angle,  }\item[{const R\+E\+AL}]{sigma,  }\item[{const R\+E\+AL}]{delta,  }\item[{const bool}]{update\+Display = {\ttfamily true} }\end{DoxyParamCaption})}
+
+Add a bond angle restraint Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=314pt]{class_obj_cryst_1_1_molecule_a25132c259da4d0bd739ff0ffc008575e_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_obj_cryst_1_1_molecule_aae30adce9fdd16e42cab4f8e434f01cf}\label{class_obj_cryst_1_1_molecule_aae30adce9fdd16e42cab4f8e434f01cf}} 
+\index{ObjCryst::Molecule@{ObjCryst::Molecule}!AddDihedralAngle@{AddDihedralAngle}}
+\index{AddDihedralAngle@{AddDihedralAngle}!ObjCryst::Molecule@{ObjCryst::Molecule}}
+\subsubsection{\texorpdfstring{AddDihedralAngle()}{AddDihedralAngle()}}
+{\footnotesize\ttfamily void Obj\+Cryst\+::\+Molecule\+::\+Add\+Dihedral\+Angle (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_obj_cryst_1_1_mol_atom}{Mol\+Atom}} \&}]{atom1,  }\item[{\mbox{\hyperlink{class_obj_cryst_1_1_mol_atom}{Mol\+Atom}} \&}]{atom2,  }\item[{\mbox{\hyperlink{class_obj_cryst_1_1_mol_atom}{Mol\+Atom}} \&}]{atom3,  }\item[{\mbox{\hyperlink{class_obj_cryst_1_1_mol_atom}{Mol\+Atom}} \&}]{atom4,  }\item[{const R\+E\+AL}]{angle,  }\item[{const R\+E\+AL}]{sigma,  }\item[{const R\+E\+AL}]{delta,  }\item[{const bool}]{update\+Display = {\ttfamily true} }\end{DoxyParamCaption})}
+
+Add a dihedral angle restraint Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_obj_cryst_1_1_molecule_aae30adce9fdd16e42cab4f8e434f01cf_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_obj_cryst_1_1_molecule_a8c61827ad3303aca5c0db6698a5f9e06}\label{class_obj_cryst_1_1_molecule_a8c61827ad3303aca5c0db6698a5f9e06}} 
+\index{ObjCryst::Molecule@{ObjCryst::Molecule}!AddRigidGroup@{AddRigidGroup}}
+\index{AddRigidGroup@{AddRigidGroup}!ObjCryst::Molecule@{ObjCryst::Molecule}}
+\subsubsection{\texorpdfstring{AddRigidGroup()}{AddRigidGroup()}}
+{\footnotesize\ttfamily void Obj\+Cryst\+::\+Molecule\+::\+Add\+Rigid\+Group (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{class_obj_cryst_1_1_rigid_group}{Rigid\+Group}} \&}]{group,  }\item[{const bool}]{update\+Display = {\ttfamily true} }\end{DoxyParamCaption})}
+
+Add a rigid group of atoms. See \mbox{\hyperlink{class_obj_cryst_1_1_molecule_a43939b3e3ad83065cf7ccb6065a53a12}{Molecule\+::mv\+Rigid\+Group}} Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=320pt]{class_obj_cryst_1_1_molecule_a8c61827ad3303aca5c0db6698a5f9e06_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_obj_cryst_1_1_molecule_a8700143ff56fc21bb1262c4d297802ce}\label{class_obj_cryst_1_1_molecule_a8700143ff56fc21bb1262c4d297802ce}} 
+\index{ObjCryst::Molecule@{ObjCryst::Molecule}!AsZMatrix@{AsZMatrix}}
+\index{AsZMatrix@{AsZMatrix}!ObjCryst::Molecule@{ObjCryst::Molecule}}
+\subsubsection{\texorpdfstring{AsZMatrix()}{AsZMatrix()}}
+{\footnotesize\ttfamily const vector$<$ \mbox{\hyperlink{struct_obj_cryst_1_1_mol_z_atom}{Mol\+Z\+Atom}} $>$ \& Obj\+Cryst\+::\+Molecule\+::\+As\+Z\+Matrix (\begin{DoxyParamCaption}\item[{const bool}]{keeporder }\end{DoxyParamCaption}) const}
+
+\mbox{\hyperlink{class_obj_cryst_1_1_molecule}{Molecule}} as Z-\/matrix
+
+
+\begin{DoxyParams}{Parameters}
+{\em keeporder} & if true, the order of the atoms is exactly the same as in the \mbox{\hyperlink{class_obj_cryst_1_1_molecule}{Molecule}}. \\
+\hline
+\end{DoxyParams}
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_obj_cryst_1_1_molecule_a8700143ff56fc21bb1262c4d297802ce_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_obj_cryst_1_1_molecule_ad6e27c1557962b32355eeadf1bf155d3}\label{class_obj_cryst_1_1_molecule_ad6e27c1557962b32355eeadf1bf155d3}} 
+\index{ObjCryst::Molecule@{ObjCryst::Molecule}!BondAngleRandomChange@{BondAngleRandomChange}}
+\index{BondAngleRandomChange@{BondAngleRandomChange}!ObjCryst::Molecule@{ObjCryst::Molecule}}
+\subsubsection{\texorpdfstring{BondAngleRandomChange()}{BondAngleRandomChange()}}
+{\footnotesize\ttfamily R\+E\+AL Obj\+Cryst\+::\+Molecule\+::\+Bond\+Angle\+Random\+Change (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{struct_obj_cryst_1_1_stretch_mode_bond_angle}{Stretch\+Mode\+Bond\+Angle}} \&}]{mode,  }\item[{const R\+E\+AL}]{amplitude,  }\item[{const bool}]{respect\+Restraint = {\ttfamily true} }\end{DoxyParamCaption})}
+
+change a bond angle, while respecting the Restraint (if any).
+
+\begin{DoxyReturn}{Returns}
+the {\itshape actual} change in bond angle. 
+\end{DoxyReturn}
+
+\begin{DoxyParams}{Parameters}
+{\em } & the desired angular change. This will be the actual change {\itshape if} there is no restraint {\itshape or} if the restraint is constant in this range. \\
+\hline
+\end{DoxyParams}
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_obj_cryst_1_1_molecule_ad6e27c1557962b32355eeadf1bf155d3_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_obj_cryst_1_1_molecule_ad6e27c1557962b32355eeadf1bf155d3_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_obj_cryst_1_1_molecule_ad7bfddcdf21c1214c5a70c84fc54cdb0}\label{class_obj_cryst_1_1_molecule_ad7bfddcdf21c1214c5a70c84fc54cdb0}} 
+\index{ObjCryst::Molecule@{ObjCryst::Molecule}!BondLengthRandomChange@{BondLengthRandomChange}}
+\index{BondLengthRandomChange@{BondLengthRandomChange}!ObjCryst::Molecule@{ObjCryst::Molecule}}
+\subsubsection{\texorpdfstring{BondLengthRandomChange()}{BondLengthRandomChange()}}
+{\footnotesize\ttfamily R\+E\+AL Obj\+Cryst\+::\+Molecule\+::\+Bond\+Length\+Random\+Change (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{struct_obj_cryst_1_1_stretch_mode_bond_length}{Stretch\+Mode\+Bond\+Length}} \&}]{mode,  }\item[{const R\+E\+AL}]{amplitude,  }\item[{const bool}]{respect\+Restraint = {\ttfamily true} }\end{DoxyParamCaption})}
+
+Stretch a bond, while respecting the Restraint (if any).
+
+\begin{DoxyReturn}{Returns}
+the {\itshape actual} change in bond length. 
+\end{DoxyReturn}
+
+\begin{DoxyParams}{Parameters}
+{\em } & the desired change in bond length. This will be the actual change {\itshape if} there is no restraint {\itshape or} if the restraint is constant in this range. \\
+\hline
+\end{DoxyParams}
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_obj_cryst_1_1_molecule_ad7bfddcdf21c1214c5a70c84fc54cdb0_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_obj_cryst_1_1_molecule_ad7bfddcdf21c1214c5a70c84fc54cdb0_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_obj_cryst_1_1_molecule_a45ed440475011a0ceb933f56751c11da}\label{class_obj_cryst_1_1_molecule_a45ed440475011a0ceb933f56751c11da}} 
+\index{ObjCryst::Molecule@{ObjCryst::Molecule}!BuildConnectivityTable@{BuildConnectivityTable}}
+\index{BuildConnectivityTable@{BuildConnectivityTable}!ObjCryst::Molecule@{ObjCryst::Molecule}}
+\subsubsection{\texorpdfstring{BuildConnectivityTable()}{BuildConnectivityTable()}}
+{\footnotesize\ttfamily void Obj\+Cryst\+::\+Molecule\+::\+Build\+Connectivity\+Table (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+Build the Connectivity table Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_obj_cryst_1_1_molecule_a45ed440475011a0ceb933f56751c11da_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_obj_cryst_1_1_molecule_aca2ed46d26209807d587722d131c6315}\label{class_obj_cryst_1_1_molecule_aca2ed46d26209807d587722d131c6315}} 
+\index{ObjCryst::Molecule@{ObjCryst::Molecule}!BuildFlipGroup@{BuildFlipGroup}}
+\index{BuildFlipGroup@{BuildFlipGroup}!ObjCryst::Molecule@{ObjCryst::Molecule}}
+\subsubsection{\texorpdfstring{BuildFlipGroup()}{BuildFlipGroup()}}
+{\footnotesize\ttfamily void Obj\+Cryst\+::\+Molecule\+::\+Build\+Flip\+Group (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Build the groups of atoms that can be flipped.
+
+This is not const because we temporarily modify the molecule conformation to test which Flip\+Groups are forbidden by restraints (but it should be const). Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_obj_cryst_1_1_molecule_aca2ed46d26209807d587722d131c6315_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_obj_cryst_1_1_molecule_a0944a68727d85bee4ec0cce453cb451c}\label{class_obj_cryst_1_1_molecule_a0944a68727d85bee4ec0cce453cb451c}} 
+\index{ObjCryst::Molecule@{ObjCryst::Molecule}!BuildMDAtomGroups@{BuildMDAtomGroups}}
+\index{BuildMDAtomGroups@{BuildMDAtomGroups}!ObjCryst::Molecule@{ObjCryst::Molecule}}
+\subsubsection{\texorpdfstring{BuildMDAtomGroups()}{BuildMDAtomGroups()}}
+{\footnotesize\ttfamily void Obj\+Cryst\+::\+Molecule\+::\+Build\+M\+D\+Atom\+Groups (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Find groups of atoms that cannot be moved relatively to each other using the free or non-\/free stretch modes. Usually these will correspond to atoms inside a flexible ring.
+
+These atoms (if they are not in a rigid group) are stored in a \mbox{\hyperlink{struct_obj_cryst_1_1_m_d_atom_group}{M\+D\+Atom\+Group}} so that they can still move using molecular dynamics.
+
+{\bfseries{this}} should be called after \mbox{\hyperlink{class_obj_cryst_1_1_molecule_a83b7b9bac2ce9fe7b310b5267232b1ca}{Build\+Stretch\+Mode\+Groups()}}, to make sure the list of free/non-\/free stretch mode has been built. Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=335pt]{class_obj_cryst_1_1_molecule_a0944a68727d85bee4ec0cce453cb451c_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_obj_cryst_1_1_molecule_a9623bff2259d45c162ed28af73974f5a}\label{class_obj_cryst_1_1_molecule_a9623bff2259d45c162ed28af73974f5a}} 
+\index{ObjCryst::Molecule@{ObjCryst::Molecule}!BuildRingList@{BuildRingList}}
+\index{BuildRingList@{BuildRingList}!ObjCryst::Molecule@{ObjCryst::Molecule}}
+\subsubsection{\texorpdfstring{BuildRingList()}{BuildRingList()}}
+{\footnotesize\ttfamily void Obj\+Cryst\+::\+Molecule\+::\+Build\+Ring\+List (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Build the list of rings in the molecule.
+
+The list is {\itshape only} rebuilt if the bond or atom list has changed,so it should be safe to call again this function.
+
+\begin{DoxyNote}{Note}
+So far this is a const method as the ring list just reflects the bond list and therefore is mutable (see \mbox{\hyperlink{class_obj_cryst_1_1_molecule_a35cb61305129b6bbda4a0bb014b2c90e}{Molecule\+::mv\+Ring}})... but maybe this could change... 
+\end{DoxyNote}
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_obj_cryst_1_1_molecule_a9623bff2259d45c162ed28af73974f5a_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_obj_cryst_1_1_molecule_a3642fa8104faa1ce84a977600f9d1aeb}\label{class_obj_cryst_1_1_molecule_a3642fa8104faa1ce84a977600f9d1aeb}} 
+\index{ObjCryst::Molecule@{ObjCryst::Molecule}!BuildRotorGroup@{BuildRotorGroup}}
+\index{BuildRotorGroup@{BuildRotorGroup}!ObjCryst::Molecule@{ObjCryst::Molecule}}
+\subsubsection{\texorpdfstring{BuildRotorGroup()}{BuildRotorGroup()}}
+{\footnotesize\ttfamily void Obj\+Cryst\+::\+Molecule\+::\+Build\+Rotor\+Group (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Build the groups of atoms that will be rotated during global optimization.
+
+This is not const because we temporarily modify the molecule conformation to test which Rotor\+Groups are forbidden by restraints (but it should be const). Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_obj_cryst_1_1_molecule_a3642fa8104faa1ce84a977600f9d1aeb_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_obj_cryst_1_1_molecule_a3d507a4e25612a7412cbcc84b5a831ae}\label{class_obj_cryst_1_1_molecule_a3d507a4e25612a7412cbcc84b5a831ae}} 
+\index{ObjCryst::Molecule@{ObjCryst::Molecule}!BuildStretchModeBondAngle@{BuildStretchModeBondAngle}}
+\index{BuildStretchModeBondAngle@{BuildStretchModeBondAngle}!ObjCryst::Molecule@{ObjCryst::Molecule}}
+\subsubsection{\texorpdfstring{BuildStretchModeBondAngle()}{BuildStretchModeBondAngle()}}
+{\footnotesize\ttfamily void Obj\+Cryst\+::\+Molecule\+::\+Build\+Stretch\+Mode\+Bond\+Angle (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Build the groups of atoms moved when changing a bond angle, while respecting the \mbox{\hyperlink{class_obj_cryst_1_1_molecule}{Molecule}} restraints. Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_obj_cryst_1_1_molecule_a3d507a4e25612a7412cbcc84b5a831ae_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_obj_cryst_1_1_molecule_abb51819a0eae8b612fb4007ffa16d2b7}\label{class_obj_cryst_1_1_molecule_abb51819a0eae8b612fb4007ffa16d2b7}} 
+\index{ObjCryst::Molecule@{ObjCryst::Molecule}!BuildStretchModeBondLength@{BuildStretchModeBondLength}}
+\index{BuildStretchModeBondLength@{BuildStretchModeBondLength}!ObjCryst::Molecule@{ObjCryst::Molecule}}
+\subsubsection{\texorpdfstring{BuildStretchModeBondLength()}{BuildStretchModeBondLength()}}
+{\footnotesize\ttfamily void Obj\+Cryst\+::\+Molecule\+::\+Build\+Stretch\+Mode\+Bond\+Length (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Build the groups of atoms moved when stretching a bond length, while respecting the \mbox{\hyperlink{class_obj_cryst_1_1_molecule}{Molecule}} restraints. Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_obj_cryst_1_1_molecule_abb51819a0eae8b612fb4007ffa16d2b7_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_obj_cryst_1_1_molecule_a83b7b9bac2ce9fe7b310b5267232b1ca}\label{class_obj_cryst_1_1_molecule_a83b7b9bac2ce9fe7b310b5267232b1ca}} 
+\index{ObjCryst::Molecule@{ObjCryst::Molecule}!BuildStretchModeGroups@{BuildStretchModeGroups}}
+\index{BuildStretchModeGroups@{BuildStretchModeGroups}!ObjCryst::Molecule@{ObjCryst::Molecule}}
+\subsubsection{\texorpdfstring{BuildStretchModeGroups()}{BuildStretchModeGroups()}}
+{\footnotesize\ttfamily void Obj\+Cryst\+::\+Molecule\+::\+Build\+Stretch\+Mode\+Groups (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Separate \mbox{\hyperlink{struct_obj_cryst_1_1_stretch_mode}{Stretch\+Mode}} that break more than their assigned restraint from others. See \mbox{\hyperlink{class_obj_cryst_1_1_molecule_a215591f48317322bb1b9203ebad4a011}{Molecule\+::mvp\+Stretch\+Mode\+Free}} and \mbox{\hyperlink{class_obj_cryst_1_1_molecule_ae87a1cece989dc3d433eb7fad925c5de}{Molecule\+::mvp\+Stretch\+Mode\+Not\+Free}} \mbox{\Hypertarget{class_obj_cryst_1_1_molecule_a18d44782b4141dfab334250967d202ad}\label{class_obj_cryst_1_1_molecule_a18d44782b4141dfab334250967d202ad}} 
+\index{ObjCryst::Molecule@{ObjCryst::Molecule}!BuildStretchModeTorsion@{BuildStretchModeTorsion}}
+\index{BuildStretchModeTorsion@{BuildStretchModeTorsion}!ObjCryst::Molecule@{ObjCryst::Molecule}}
+\subsubsection{\texorpdfstring{BuildStretchModeTorsion()}{BuildStretchModeTorsion()}}
+{\footnotesize\ttfamily void Obj\+Cryst\+::\+Molecule\+::\+Build\+Stretch\+Mode\+Torsion (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Build the groups of atoms moved when changing a dihedral angle, while respecting the \mbox{\hyperlink{class_obj_cryst_1_1_molecule}{Molecule}} restraints. Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_obj_cryst_1_1_molecule_a18d44782b4141dfab334250967d202ad_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_obj_cryst_1_1_molecule_a7f4c6bf6e5be59780cb7844e53711fb3}\label{class_obj_cryst_1_1_molecule_a7f4c6bf6e5be59780cb7844e53711fb3}} 
+\index{ObjCryst::Molecule@{ObjCryst::Molecule}!BuildStretchModeTwist@{BuildStretchModeTwist}}
+\index{BuildStretchModeTwist@{BuildStretchModeTwist}!ObjCryst::Molecule@{ObjCryst::Molecule}}
+\subsubsection{\texorpdfstring{BuildStretchModeTwist()}{BuildStretchModeTwist()}}
+{\footnotesize\ttfamily void Obj\+Cryst\+::\+Molecule\+::\+Build\+Stretch\+Mode\+Twist (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Build the groups of atoms used to twist internally the \mbox{\hyperlink{class_obj_cryst_1_1_molecule}{Molecule}}, e.\+g. by rotating one chain of atoms between 2 given atoms. Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_obj_cryst_1_1_molecule_a7f4c6bf6e5be59780cb7844e53711fb3_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_obj_cryst_1_1_molecule_afd88ae76ab528b5dc37f9d2527353904}\label{class_obj_cryst_1_1_molecule_afd88ae76ab528b5dc37f9d2527353904}} 
+\index{ObjCryst::Molecule@{ObjCryst::Molecule}!DihedralAngleRandomChange@{DihedralAngleRandomChange}}
+\index{DihedralAngleRandomChange@{DihedralAngleRandomChange}!ObjCryst::Molecule@{ObjCryst::Molecule}}
+\subsubsection{\texorpdfstring{DihedralAngleRandomChange()}{DihedralAngleRandomChange()}}
+{\footnotesize\ttfamily R\+E\+AL Obj\+Cryst\+::\+Molecule\+::\+Dihedral\+Angle\+Random\+Change (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{struct_obj_cryst_1_1_stretch_mode_torsion}{Stretch\+Mode\+Torsion}} \&}]{mode,  }\item[{const R\+E\+AL}]{amplitude,  }\item[{const bool}]{respect\+Restraint = {\ttfamily true} }\end{DoxyParamCaption})}
+
+Change a dihedral angle, while respecting the Restraint (if any).
+
+\begin{DoxyReturn}{Returns}
+the {\itshape actual} change in bond angle. 
+\end{DoxyReturn}
+
+\begin{DoxyParams}{Parameters}
+{\em } & the desired angular change. This will be the actual change {\itshape if} there is no restraint {\itshape or} if the restraint is constant in this range. \\
+\hline
+\end{DoxyParams}
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_obj_cryst_1_1_molecule_afd88ae76ab528b5dc37f9d2527353904_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_obj_cryst_1_1_molecule_afd88ae76ab528b5dc37f9d2527353904_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_obj_cryst_1_1_molecule_a7dcd70a612a14005d569322e3030291f}\label{class_obj_cryst_1_1_molecule_a7dcd70a612a14005d569322e3030291f}} 
+\index{ObjCryst::Molecule@{ObjCryst::Molecule}!FindAtom@{FindAtom}}
+\index{FindAtom@{FindAtom}!ObjCryst::Molecule@{ObjCryst::Molecule}}
+\subsubsection{\texorpdfstring{FindAtom()}{FindAtom()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily vector$<$ \mbox{\hyperlink{class_obj_cryst_1_1_mol_atom}{Mol\+Atom}} $\ast$ $>$\+::reverse\+\_\+iterator Obj\+Cryst\+::\+Molecule\+::\+Find\+Atom (\begin{DoxyParamCaption}\item[{const string \&}]{name }\end{DoxyParamCaption})}
+
+Search a \mbox{\hyperlink{class_obj_cryst_1_1_mol_atom}{Mol\+Atom}} from its name. Search begins at the end, and the first match is returned. returns mv\+Atom.\+rend() if no atom matches \mbox{\Hypertarget{class_obj_cryst_1_1_molecule_a671b3e6ab0bf2867632db421237807d7}\label{class_obj_cryst_1_1_molecule_a671b3e6ab0bf2867632db421237807d7}} 
+\index{ObjCryst::Molecule@{ObjCryst::Molecule}!FindAtom@{FindAtom}}
+\index{FindAtom@{FindAtom}!ObjCryst::Molecule@{ObjCryst::Molecule}}
+\subsubsection{\texorpdfstring{FindAtom()}{FindAtom()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily vector$<$ \mbox{\hyperlink{class_obj_cryst_1_1_mol_atom}{Mol\+Atom}} $\ast$ $>$\+::const\+\_\+reverse\+\_\+iterator Obj\+Cryst\+::\+Molecule\+::\+Find\+Atom (\begin{DoxyParamCaption}\item[{const string \&}]{name }\end{DoxyParamCaption}) const}
+
+Search a \mbox{\hyperlink{class_obj_cryst_1_1_mol_atom}{Mol\+Atom}} from its name. Search begins at the end, and the first match is returned. returns mv\+Atom.\+rend() if no atom matches \mbox{\Hypertarget{class_obj_cryst_1_1_molecule_a78cdfa9c0223f1f45d5aac3b0e0d4989}\label{class_obj_cryst_1_1_molecule_a78cdfa9c0223f1f45d5aac3b0e0d4989}} 
+\index{ObjCryst::Molecule@{ObjCryst::Molecule}!FindBond@{FindBond}}
+\index{FindBond@{FindBond}!ObjCryst::Molecule@{ObjCryst::Molecule}}
+\subsubsection{\texorpdfstring{FindBond()}{FindBond()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily vector$<$ \mbox{\hyperlink{class_obj_cryst_1_1_mol_bond}{Mol\+Bond}} $\ast$ $>$\+::const\+\_\+iterator Obj\+Cryst\+::\+Molecule\+::\+Find\+Bond (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{class_obj_cryst_1_1_mol_atom}{Mol\+Atom}} \&}]{at1,  }\item[{const \mbox{\hyperlink{class_obj_cryst_1_1_mol_atom}{Mol\+Atom}} \&}]{at2 }\end{DoxyParamCaption}) const}
+
+Searches whether a bond between two atoms already exists.
+
+If no bond is found, returns Molecule\+::mvp\+Atom.\+end(). Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=317pt]{class_obj_cryst_1_1_molecule_a78cdfa9c0223f1f45d5aac3b0e0d4989_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_obj_cryst_1_1_molecule_a44ab98d43be98b63297c0059a73e07ad}\label{class_obj_cryst_1_1_molecule_a44ab98d43be98b63297c0059a73e07ad}} 
+\index{ObjCryst::Molecule@{ObjCryst::Molecule}!FindBond@{FindBond}}
+\index{FindBond@{FindBond}!ObjCryst::Molecule@{ObjCryst::Molecule}}
+\subsubsection{\texorpdfstring{FindBond()}{FindBond()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily vector$<$ \mbox{\hyperlink{class_obj_cryst_1_1_mol_bond}{Mol\+Bond}} $\ast$ $>$\+::iterator Obj\+Cryst\+::\+Molecule\+::\+Find\+Bond (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{class_obj_cryst_1_1_mol_atom}{Mol\+Atom}} \&}]{at1,  }\item[{const \mbox{\hyperlink{class_obj_cryst_1_1_mol_atom}{Mol\+Atom}} \&}]{at2 }\end{DoxyParamCaption})}
+
+Searches whether a bond between two atoms already exists.
+
+If no bond is found, returns Molecule\+::mvp\+Atom.\+end(). \mbox{\Hypertarget{class_obj_cryst_1_1_molecule_a5a9a7cfad7693ce55fa20be38f1a92c1}\label{class_obj_cryst_1_1_molecule_a5a9a7cfad7693ce55fa20be38f1a92c1}} 
+\index{ObjCryst::Molecule@{ObjCryst::Molecule}!FindBondAngle@{FindBondAngle}}
+\index{FindBondAngle@{FindBondAngle}!ObjCryst::Molecule@{ObjCryst::Molecule}}
+\subsubsection{\texorpdfstring{FindBondAngle()}{FindBondAngle()}}
+{\footnotesize\ttfamily vector$<$ \mbox{\hyperlink{class_obj_cryst_1_1_mol_bond_angle}{Mol\+Bond\+Angle}} $\ast$ $>$\+::const\+\_\+iterator Obj\+Cryst\+::\+Molecule\+::\+Find\+Bond\+Angle (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{class_obj_cryst_1_1_mol_atom}{Mol\+Atom}} \&}]{at1,  }\item[{const \mbox{\hyperlink{class_obj_cryst_1_1_mol_atom}{Mol\+Atom}} \&}]{at0,  }\item[{const \mbox{\hyperlink{class_obj_cryst_1_1_mol_atom}{Mol\+Atom}} \&}]{at2 }\end{DoxyParamCaption}) const}
+
+Searches whether a bond between three atoms already exists, searching for either (at1,at2,at3) and (at3,at2,at1), as these are equivalent.
+
+If no bond angle is found, returns Molecule\+::mvp\+Bond\+Angle.\+end(). Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=314pt]{class_obj_cryst_1_1_molecule_a5a9a7cfad7693ce55fa20be38f1a92c1_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_obj_cryst_1_1_molecule_a6bc7da1865f3fd5adc42323fc44d292c}\label{class_obj_cryst_1_1_molecule_a6bc7da1865f3fd5adc42323fc44d292c}} 
+\index{ObjCryst::Molecule@{ObjCryst::Molecule}!FindDihedralAngle@{FindDihedralAngle}}
+\index{FindDihedralAngle@{FindDihedralAngle}!ObjCryst::Molecule@{ObjCryst::Molecule}}
+\subsubsection{\texorpdfstring{FindDihedralAngle()}{FindDihedralAngle()}}
+{\footnotesize\ttfamily vector$<$ \mbox{\hyperlink{class_obj_cryst_1_1_mol_dihedral_angle}{Mol\+Dihedral\+Angle}} $\ast$ $>$\+::const\+\_\+iterator Obj\+Cryst\+::\+Molecule\+::\+Find\+Dihedral\+Angle (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{class_obj_cryst_1_1_mol_atom}{Mol\+Atom}} \&}]{at1,  }\item[{const \mbox{\hyperlink{class_obj_cryst_1_1_mol_atom}{Mol\+Atom}} \&}]{at2,  }\item[{const \mbox{\hyperlink{class_obj_cryst_1_1_mol_atom}{Mol\+Atom}} \&}]{at3,  }\item[{const \mbox{\hyperlink{class_obj_cryst_1_1_mol_atom}{Mol\+Atom}} \&}]{at4 }\end{DoxyParamCaption}) const}
+
+Searches whether a dihedral between four atoms already exists, searching for either (at1,at2,at3,at4) and (at4,at3,at2,at1), as these are equivalent.
+
+If no dihedral angle is found, returns Molecule\+::mvp\+Dihedral\+Angle.\+end(). Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_obj_cryst_1_1_molecule_a6bc7da1865f3fd5adc42323fc44d292c_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_obj_cryst_1_1_molecule_a2743c40de811e9b4ba8d5f037632572b}\label{class_obj_cryst_1_1_molecule_a2743c40de811e9b4ba8d5f037632572b}} 
+\index{ObjCryst::Molecule@{ObjCryst::Molecule}!GetCenterAtom@{GetCenterAtom}}
+\index{GetCenterAtom@{GetCenterAtom}!ObjCryst::Molecule@{ObjCryst::Molecule}}
+\subsubsection{\texorpdfstring{GetCenterAtom()}{GetCenterAtom()}}
+{\footnotesize\ttfamily const \mbox{\hyperlink{class_obj_cryst_1_1_mol_atom}{Mol\+Atom}} $\ast$ Obj\+Cryst\+::\+Molecule\+::\+Get\+Center\+Atom (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+Get the atom defining the origin of the \mbox{\hyperlink{class_obj_cryst_1_1_molecule}{Molecule}} Equal to 0 if no atom as been set. \mbox{\Hypertarget{class_obj_cryst_1_1_molecule_aa72f797c744577e606fa6976d8c7dcf8}\label{class_obj_cryst_1_1_molecule_aa72f797c744577e606fa6976d8c7dcf8}} 
+\index{ObjCryst::Molecule@{ObjCryst::Molecule}!GetComponentName@{GetComponentName}}
+\index{GetComponentName@{GetComponentName}!ObjCryst::Molecule@{ObjCryst::Molecule}}
+\subsubsection{\texorpdfstring{GetComponentName()}{GetComponentName()}}
+{\footnotesize\ttfamily string Obj\+Cryst\+::\+Molecule\+::\+Get\+Component\+Name (\begin{DoxyParamCaption}\item[{const int}]{i }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [virtual]}}
+
+Name for the i-\/th component of this scatterer. If the component is an \mbox{\hyperlink{class_obj_cryst_1_1_atom}{Atom}}, Then the name is that of the atom. Else, it is the name of the scatterer plus the component number in the scatterer plus the name of the \mbox{\hyperlink{class_obj_cryst_1_1_scattering_power}{Scattering\+Power}}. \begin{DoxyNote}{Note}
+It would be better to return a reference, but we don\textquotesingle{}t want to keep a name for all components... Weeelll, needs some more thinking... see what performance hit results (if any).
+\end{DoxyNote}
+\begin{DoxyRefDesc}{Bug}
+\item[\mbox{\hyperlink{bug__bug000001}{Bug}}]does not take into account dummy atoms !! \end{DoxyRefDesc}
+
+
+Implements \mbox{\hyperlink{class_obj_cryst_1_1_scatterer_a42bdf508da6a90859a5a61e16c27d47e}{Obj\+Cryst\+::\+Scatterer}}.
+
+\mbox{\Hypertarget{class_obj_cryst_1_1_molecule_a6f7aea0410adabd5e0159d082feefe72}\label{class_obj_cryst_1_1_molecule_a6f7aea0410adabd5e0159d082feefe72}} 
+\index{ObjCryst::Molecule@{ObjCryst::Molecule}!GetRigidGroupClock@{GetRigidGroupClock}}
+\index{GetRigidGroupClock@{GetRigidGroupClock}!ObjCryst::Molecule@{ObjCryst::Molecule}}
+\subsubsection{\texorpdfstring{GetRigidGroupClock()}{GetRigidGroupClock()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily Refinable\+Obj\+Clock \& Obj\+Cryst\+::\+Molecule\+::\+Get\+Rigid\+Group\+Clock (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Get the clock associated to the list of rigid groups (clicked also whenever a rigid group is modified) Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=335pt]{class_obj_cryst_1_1_molecule_a6f7aea0410adabd5e0159d082feefe72_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_obj_cryst_1_1_molecule_a32b58e8e7ed93cf444f36f72cb6607a3}\label{class_obj_cryst_1_1_molecule_a32b58e8e7ed93cf444f36f72cb6607a3}} 
+\index{ObjCryst::Molecule@{ObjCryst::Molecule}!GetRigidGroupClock@{GetRigidGroupClock}}
+\index{GetRigidGroupClock@{GetRigidGroupClock}!ObjCryst::Molecule@{ObjCryst::Molecule}}
+\subsubsection{\texorpdfstring{GetRigidGroupClock()}{GetRigidGroupClock()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily const Refinable\+Obj\+Clock \& Obj\+Cryst\+::\+Molecule\+::\+Get\+Rigid\+Group\+Clock (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+Get the clock associated to the list of rigid groups (clicked also whenever a rigid group is modified) \mbox{\Hypertarget{class_obj_cryst_1_1_molecule_a58771b4ff0139164760b7310ee2e1837}\label{class_obj_cryst_1_1_molecule_a58771b4ff0139164760b7310ee2e1837}} 
+\index{ObjCryst::Molecule@{ObjCryst::Molecule}!GetRigidGroupList@{GetRigidGroupList}}
+\index{GetRigidGroupList@{GetRigidGroupList}!ObjCryst::Molecule@{ObjCryst::Molecule}}
+\subsubsection{\texorpdfstring{GetRigidGroupList()}{GetRigidGroupList()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily const std\+::vector$<$ \mbox{\hyperlink{class_obj_cryst_1_1_rigid_group}{Rigid\+Group}} $\ast$ $>$ \& Obj\+Cryst\+::\+Molecule\+::\+Get\+Rigid\+Group\+List (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+List of rigid group of atoms. See \mbox{\hyperlink{class_obj_cryst_1_1_molecule_a43939b3e3ad83065cf7ccb6065a53a12}{Molecule\+::mv\+Rigid\+Group}} Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_obj_cryst_1_1_molecule_a58771b4ff0139164760b7310ee2e1837_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_obj_cryst_1_1_molecule_a62718d99f36f75a66b043b78ef4f5dbf}\label{class_obj_cryst_1_1_molecule_a62718d99f36f75a66b043b78ef4f5dbf}} 
+\index{ObjCryst::Molecule@{ObjCryst::Molecule}!GetRigidGroupList@{GetRigidGroupList}}
+\index{GetRigidGroupList@{GetRigidGroupList}!ObjCryst::Molecule@{ObjCryst::Molecule}}
+\subsubsection{\texorpdfstring{GetRigidGroupList()}{GetRigidGroupList()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily std\+::vector$<$ \mbox{\hyperlink{class_obj_cryst_1_1_rigid_group}{Rigid\+Group}} $\ast$ $>$ \& Obj\+Cryst\+::\+Molecule\+::\+Get\+Rigid\+Group\+List (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+List of rigid group of atoms. See \mbox{\hyperlink{class_obj_cryst_1_1_molecule_a43939b3e3ad83065cf7ccb6065a53a12}{Molecule\+::mv\+Rigid\+Group}} \mbox{\Hypertarget{class_obj_cryst_1_1_molecule_a03f7f32ade8523f118cab14a21a87843}\label{class_obj_cryst_1_1_molecule_a03f7f32ade8523f118cab14a21a87843}} 
+\index{ObjCryst::Molecule@{ObjCryst::Molecule}!GetScatteringComponentList@{GetScatteringComponentList}}
+\index{GetScatteringComponentList@{GetScatteringComponentList}!ObjCryst::Molecule@{ObjCryst::Molecule}}
+\subsubsection{\texorpdfstring{GetScatteringComponentList()}{GetScatteringComponentList()}}
+{\footnotesize\ttfamily const \mbox{\hyperlink{class_obj_cryst_1_1_scattering_component_list}{Scattering\+Component\+List}} \& Obj\+Cryst\+::\+Molecule\+::\+Get\+Scattering\+Component\+List (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Get the list of all scattering components for this scatterer. 
+
+This is the most important function of this class, giving the list of scattering positions along with the associated \mbox{\hyperlink{class_obj_cryst_1_1_scattering_power}{Scattering\+Power}}. 
+
+Implements \mbox{\hyperlink{class_obj_cryst_1_1_scatterer_aca0e08e3793cc69d31fce53e481c2a67}{Obj\+Cryst\+::\+Scatterer}}.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_obj_cryst_1_1_molecule_a03f7f32ade8523f118cab14a21a87843_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_obj_cryst_1_1_molecule_a9a43c803d62dc4f5f3b7852bbd75c939}\label{class_obj_cryst_1_1_molecule_a9a43c803d62dc4f5f3b7852bbd75c939}} 
+\index{ObjCryst::Molecule@{ObjCryst::Molecule}!MolecularDynamicsEvolve@{MolecularDynamicsEvolve}}
+\index{MolecularDynamicsEvolve@{MolecularDynamicsEvolve}!ObjCryst::Molecule@{ObjCryst::Molecule}}
+\subsubsection{\texorpdfstring{MolecularDynamicsEvolve()}{MolecularDynamicsEvolve()}}
+{\footnotesize\ttfamily void Obj\+Cryst\+::\+Molecule\+::\+Molecular\+Dynamics\+Evolve (\begin{DoxyParamCaption}\item[{std\+::map$<$ \mbox{\hyperlink{class_obj_cryst_1_1_mol_atom}{Mol\+Atom}} $\ast$, \mbox{\hyperlink{struct_obj_cryst_1_1_x_y_z}{X\+YZ}} $>$ \&}]{v0,  }\item[{const unsigned}]{nb\+Step,  }\item[{const R\+E\+AL}]{dt,  }\item[{const std\+::vector$<$ \mbox{\hyperlink{class_obj_cryst_1_1_mol_bond}{Mol\+Bond}} $\ast$ $>$ \&}]{vb,  }\item[{const std\+::vector$<$ \mbox{\hyperlink{class_obj_cryst_1_1_mol_bond_angle}{Mol\+Bond\+Angle}} $\ast$ $>$ \&}]{va,  }\item[{const std\+::vector$<$ \mbox{\hyperlink{class_obj_cryst_1_1_mol_dihedral_angle}{Mol\+Dihedral\+Angle}} $\ast$ $>$ \&}]{vd,  }\item[{std\+::map$<$ \mbox{\hyperlink{class_obj_cryst_1_1_rigid_group}{Rigid\+Group}} $\ast$, std\+::pair$<$ \mbox{\hyperlink{struct_obj_cryst_1_1_x_y_z}{X\+YZ}}, \mbox{\hyperlink{struct_obj_cryst_1_1_x_y_z}{X\+YZ}} $>$ $>$ \&}]{vr,  }\item[{R\+E\+AL}]{nrj0 = {\ttfamily 0} }\end{DoxyParamCaption})}
+
+Change the conformation of the molecule using molecular dynamics principles. Optionnally, move only a subgroup of atoms and only take into account some restraints.
+
+The atoms actually moved are those included as keys in v0, and those part of the rigid bodies in vr.
+
+
+\begin{DoxyParams}{Parameters}
+{\em v0} & initial speed of all atoms. On return, includes the new speed coordinates. Only the atoms used as keys in v0 will be moved, so this should be used to work only on a subgroup of atoms. \\
+\hline
+{\em nb\+Step} & number of steps to perform. \\
+\hline
+{\em dt} & time step. Recommended value are such that v0\mbox{[}\mbox{]}.xyz $\ast$ dt = 0.\+001 \\
+\hline
+{\em vb,va,vd} & vector of bond, bond angle and dihedral angle restraints to be taken into account. If these are empty, the full list of restraints of the \mbox{\hyperlink{class_obj_cryst_1_1_molecule}{Molecule}} are taken into account, including rigid groups. If they are not empty, then it is assumed that no atom moved belongs to a rigid group. \\
+\hline
+{\em vr} & initial speed for the angular and translation parameters of rigid groups included in the evolution. For each entry of the map the first \mbox{\hyperlink{struct_obj_cryst_1_1_x_y_z}{X\+YZ}} coordinates are the speed for \mbox{\hyperlink{class_obj_cryst_1_1_rigid_group_abda5125459a21cc5534c90d9516312e9}{Rigid\+Group\+::mX}},mY,mZ, and the second are the speed for the angular coordinates of the quaternion Q1,Q2,Q3 \\
+\hline
+{\em nrj0} & the total energy the system should try to maintain. If equal to 0, the initial energy will be used. The speed will be de/increased to compensate any energy change. \\
+\hline
+\end{DoxyParams}
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_obj_cryst_1_1_molecule_a9a43c803d62dc4f5f3b7852bbd75c939_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_obj_cryst_1_1_molecule_a8e070563a06e9c375b3b26d2e5828c54}\label{class_obj_cryst_1_1_molecule_a8e070563a06e9c375b3b26d2e5828c54}} 
+\index{ObjCryst::Molecule@{ObjCryst::Molecule}!OptimizeConformation@{OptimizeConformation}}
+\index{OptimizeConformation@{OptimizeConformation}!ObjCryst::Molecule@{ObjCryst::Molecule}}
+\subsubsection{\texorpdfstring{OptimizeConformation()}{OptimizeConformation()}}
+{\footnotesize\ttfamily void Obj\+Cryst\+::\+Molecule\+::\+Optimize\+Conformation (\begin{DoxyParamCaption}\item[{const long}]{nb\+Trial = {\ttfamily 10000},  }\item[{const R\+E\+AL}]{stop\+Cost = {\ttfamily 0.} }\end{DoxyParamCaption})}
+
+Minimize configuration from internal restraints (bond lengths, angles and dihedral angles). Useful when adding manually atoms to get an initial reasonable configuration. \mbox{\Hypertarget{class_obj_cryst_1_1_molecule_ac275665ed11daea220ef37154b39bf0d}\label{class_obj_cryst_1_1_molecule_ac275665ed11daea220ef37154b39bf0d}} 
+\index{ObjCryst::Molecule@{ObjCryst::Molecule}!OptimizeConformationSteepestDescent@{OptimizeConformationSteepestDescent}}
+\index{OptimizeConformationSteepestDescent@{OptimizeConformationSteepestDescent}!ObjCryst::Molecule@{ObjCryst::Molecule}}
+\subsubsection{\texorpdfstring{OptimizeConformationSteepestDescent()}{OptimizeConformationSteepestDescent()}}
+{\footnotesize\ttfamily void Obj\+Cryst\+::\+Molecule\+::\+Optimize\+Conformation\+Steepest\+Descent (\begin{DoxyParamCaption}\item[{const R\+E\+AL}]{max\+Step = {\ttfamily 0.1},  }\item[{const unsigned}]{nb\+Step = {\ttfamily 1} }\end{DoxyParamCaption})}
+
+Optimize the conformation from internal restraints (bond lengths, angles and dihedral angles), using a steepest descent algorithm.
+
+
+\begin{DoxyParams}{Parameters}
+{\em max\+Step} & maximum displacement allowed along any coordinate for all atoms. \\
+\hline
+{\em nb\+Step} & number of steps -\/ the gradient is re-\/calculated after each step. \\
+\hline
+\end{DoxyParams}
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_obj_cryst_1_1_molecule_ac275665ed11daea220ef37154b39bf0d_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_obj_cryst_1_1_molecule_a66bbf57cc85b1f5930b922edc3286fae}\label{class_obj_cryst_1_1_molecule_a66bbf57cc85b1f5930b922edc3286fae}} 
+\index{ObjCryst::Molecule@{ObjCryst::Molecule}!RemoveAtom@{RemoveAtom}}
+\index{RemoveAtom@{RemoveAtom}!ObjCryst::Molecule@{ObjCryst::Molecule}}
+\subsubsection{\texorpdfstring{RemoveAtom()}{RemoveAtom()}}
+{\footnotesize\ttfamily vector$<$ \mbox{\hyperlink{class_obj_cryst_1_1_mol_atom}{Mol\+Atom}} $\ast$ $>$\+::iterator Obj\+Cryst\+::\+Molecule\+::\+Remove\+Atom (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_obj_cryst_1_1_mol_atom}{Mol\+Atom}} \&}]{atom,  }\item[{const bool}]{del = {\ttfamily true} }\end{DoxyParamCaption})}
+
+Remove an atom. Returns the iterator to the next atom in the list.
+
+This also removes all corresponding bonds, bond angles, etc... If del is true (default), then the \mbox{\hyperlink{class_obj_cryst_1_1_mol_atom}{Mol\+Atom}} object is deleted. The del flag gets sent to the Remove\+X\+XX functions for the corresponding objects. Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_obj_cryst_1_1_molecule_a66bbf57cc85b1f5930b922edc3286fae_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=314pt]{class_obj_cryst_1_1_molecule_a66bbf57cc85b1f5930b922edc3286fae_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_obj_cryst_1_1_molecule_aa02f2f7cea34333b5ddbb4a16678b7a4}\label{class_obj_cryst_1_1_molecule_aa02f2f7cea34333b5ddbb4a16678b7a4}} 
+\index{ObjCryst::Molecule@{ObjCryst::Molecule}!RemoveBond@{RemoveBond}}
+\index{RemoveBond@{RemoveBond}!ObjCryst::Molecule@{ObjCryst::Molecule}}
+\subsubsection{\texorpdfstring{RemoveBond()}{RemoveBond()}}
+{\footnotesize\ttfamily vector$<$ \mbox{\hyperlink{class_obj_cryst_1_1_mol_bond}{Mol\+Bond}} $\ast$ $>$\+::iterator Obj\+Cryst\+::\+Molecule\+::\+Remove\+Bond (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{class_obj_cryst_1_1_mol_bond}{Mol\+Bond}} \&}]{bond,  }\item[{const bool}]{del = {\ttfamily true} }\end{DoxyParamCaption})}
+
+Remove a bond. Returns the iterator to the next bond in the list.
+
+If del is true (default), then the \mbox{\hyperlink{class_obj_cryst_1_1_mol_bond}{Mol\+Bond}} object is deleted. Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=322pt]{class_obj_cryst_1_1_molecule_aa02f2f7cea34333b5ddbb4a16678b7a4_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_obj_cryst_1_1_molecule_aa02f2f7cea34333b5ddbb4a16678b7a4_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_obj_cryst_1_1_molecule_a07ae7127f13c0527530074756093a653}\label{class_obj_cryst_1_1_molecule_a07ae7127f13c0527530074756093a653}} 
+\index{ObjCryst::Molecule@{ObjCryst::Molecule}!RemoveBondAngle@{RemoveBondAngle}}
+\index{RemoveBondAngle@{RemoveBondAngle}!ObjCryst::Molecule@{ObjCryst::Molecule}}
+\subsubsection{\texorpdfstring{RemoveBondAngle()}{RemoveBondAngle()}}
+{\footnotesize\ttfamily vector$<$ \mbox{\hyperlink{class_obj_cryst_1_1_mol_bond_angle}{Mol\+Bond\+Angle}} $\ast$ $>$\+::iterator Obj\+Cryst\+::\+Molecule\+::\+Remove\+Bond\+Angle (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{class_obj_cryst_1_1_mol_bond_angle}{Mol\+Bond\+Angle}} \&}]{angle,  }\item[{const bool}]{del = {\ttfamily true} }\end{DoxyParamCaption})}
+
+Remove a Bond\+Angle
+
+If del is true (default), then the \mbox{\hyperlink{class_obj_cryst_1_1_mol_bond_angle}{Mol\+Bond\+Angle}} object is deleted. Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_obj_cryst_1_1_molecule_a07ae7127f13c0527530074756093a653_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_obj_cryst_1_1_molecule_a5603e0f2c58de705284f07903e4f597a}\label{class_obj_cryst_1_1_molecule_a5603e0f2c58de705284f07903e4f597a}} 
+\index{ObjCryst::Molecule@{ObjCryst::Molecule}!RemoveDihedralAngle@{RemoveDihedralAngle}}
+\index{RemoveDihedralAngle@{RemoveDihedralAngle}!ObjCryst::Molecule@{ObjCryst::Molecule}}
+\subsubsection{\texorpdfstring{RemoveDihedralAngle()}{RemoveDihedralAngle()}}
+{\footnotesize\ttfamily vector$<$ \mbox{\hyperlink{class_obj_cryst_1_1_mol_dihedral_angle}{Mol\+Dihedral\+Angle}} $\ast$ $>$\+::iterator Obj\+Cryst\+::\+Molecule\+::\+Remove\+Dihedral\+Angle (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{class_obj_cryst_1_1_mol_dihedral_angle}{Mol\+Dihedral\+Angle}} \&}]{angle,  }\item[{const bool}]{del = {\ttfamily true} }\end{DoxyParamCaption})}
+
+Remove a dihedral angle
+
+If del is true (default), then the \mbox{\hyperlink{class_obj_cryst_1_1_mol_dihedral_angle}{Mol\+Dihedral\+Angle}} object is deleted. Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_obj_cryst_1_1_molecule_a5603e0f2c58de705284f07903e4f597a_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_obj_cryst_1_1_molecule_ab114397cb6637e26e321fb6f580b2e16}\label{class_obj_cryst_1_1_molecule_ab114397cb6637e26e321fb6f580b2e16}} 
+\index{ObjCryst::Molecule@{ObjCryst::Molecule}!RemoveRigidGroup@{RemoveRigidGroup}}
+\index{RemoveRigidGroup@{RemoveRigidGroup}!ObjCryst::Molecule@{ObjCryst::Molecule}}
+\subsubsection{\texorpdfstring{RemoveRigidGroup()}{RemoveRigidGroup()}}
+{\footnotesize\ttfamily vector$<$ \mbox{\hyperlink{class_obj_cryst_1_1_rigid_group}{Rigid\+Group}} $\ast$ $>$\+::iterator Obj\+Cryst\+::\+Molecule\+::\+Remove\+Rigid\+Group (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{class_obj_cryst_1_1_rigid_group}{Rigid\+Group}} \&}]{group,  }\item[{const bool}]{update\+Display = {\ttfamily true},  }\item[{const bool}]{del = {\ttfamily true} }\end{DoxyParamCaption})}
+
+Remove a rigid group of atoms. See \mbox{\hyperlink{class_obj_cryst_1_1_molecule_a43939b3e3ad83065cf7ccb6065a53a12}{Molecule\+::mv\+Rigid\+Group}}
+
+If del is true (default), then the \mbox{\hyperlink{class_obj_cryst_1_1_rigid_group}{Rigid\+Group}} object is deleted. \mbox{\Hypertarget{class_obj_cryst_1_1_molecule_aacd7668d81ffb43a889d6da6e07cde9b}\label{class_obj_cryst_1_1_molecule_aacd7668d81ffb43a889d6da6e07cde9b}} 
+\index{ObjCryst::Molecule@{ObjCryst::Molecule}!ResetRigidGroupsPar@{ResetRigidGroupsPar}}
+\index{ResetRigidGroupsPar@{ResetRigidGroupsPar}!ObjCryst::Molecule@{ObjCryst::Molecule}}
+\subsubsection{\texorpdfstring{ResetRigidGroupsPar()}{ResetRigidGroupsPar()}}
+{\footnotesize\ttfamily void Obj\+Cryst\+::\+Molecule\+::\+Reset\+Rigid\+Groups\+Par (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+Set the orientation \& translation parameters of all rigid groups to 0, after correcting the atomic positions. This is {\bfseries{required}} before saving the structure, as these parameters are not saved. Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=339pt]{class_obj_cryst_1_1_molecule_aacd7668d81ffb43a889d6da6e07cde9b_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_obj_cryst_1_1_molecule_a560c9ffc36d4874b99eb26c198ee485f}\label{class_obj_cryst_1_1_molecule_a560c9ffc36d4874b99eb26c198ee485f}} 
+\index{ObjCryst::Molecule@{ObjCryst::Molecule}!RigidifyWithDihedralAngles@{RigidifyWithDihedralAngles}}
+\index{RigidifyWithDihedralAngles@{RigidifyWithDihedralAngles}!ObjCryst::Molecule@{ObjCryst::Molecule}}
+\subsubsection{\texorpdfstring{RigidifyWithDihedralAngles()}{RigidifyWithDihedralAngles()}}
+{\footnotesize\ttfamily void Obj\+Cryst\+::\+Molecule\+::\+Rigidify\+With\+Dihedral\+Angles (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Add dihedral angles so as to rigidify the \mbox{\hyperlink{class_obj_cryst_1_1_molecule}{Molecule}}.
+
+In practice, for every sequence of atoms A-\/\+B-\/\+C-\/D, add the dihedral angle defined by these 4 atoms, unless either A\+BC or B\+CD are aligned (angle below 10{\ucr}).
+
+No duplicate dihedral angle is generated. Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_obj_cryst_1_1_molecule_a560c9ffc36d4874b99eb26c198ee485f_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_obj_cryst_1_1_molecule_a9bd595a0ad88d6832718f3bffb452866}\label{class_obj_cryst_1_1_molecule_a9bd595a0ad88d6832718f3bffb452866}} 
+\index{ObjCryst::Molecule@{ObjCryst::Molecule}!RotateAtomGroup@{RotateAtomGroup}}
+\index{RotateAtomGroup@{RotateAtomGroup}!ObjCryst::Molecule@{ObjCryst::Molecule}}
+\subsubsection{\texorpdfstring{RotateAtomGroup()}{RotateAtomGroup()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily void Obj\+Cryst\+::\+Molecule\+::\+Rotate\+Atom\+Group (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{class_obj_cryst_1_1_mol_atom}{Mol\+Atom}} \&}]{at1,  }\item[{const \mbox{\hyperlink{class_obj_cryst_1_1_mol_atom}{Mol\+Atom}} \&}]{at2,  }\item[{const set$<$ \mbox{\hyperlink{class_obj_cryst_1_1_mol_atom}{Mol\+Atom}} $\ast$ $>$ \&}]{atoms,  }\item[{const R\+E\+AL}]{angle,  }\item[{const bool}]{keep\+Center = {\ttfamily true} }\end{DoxyParamCaption})}
+
+Rotate a group of atoms around an axis defined by two atoms
+
+
+\begin{DoxyParams}{Parameters}
+{\em keep\+Center} & if true, the coordinates of the molecule are modified so that only the rotated atoms are moved. \\
+\hline
+\end{DoxyParams}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_obj_cryst_1_1_molecule_a9bd595a0ad88d6832718f3bffb452866_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_obj_cryst_1_1_molecule_a84e93db5b81b90fd5befa22caaf8691c}\label{class_obj_cryst_1_1_molecule_a84e93db5b81b90fd5befa22caaf8691c}} 
+\index{ObjCryst::Molecule@{ObjCryst::Molecule}!RotateAtomGroup@{RotateAtomGroup}}
+\index{RotateAtomGroup@{RotateAtomGroup}!ObjCryst::Molecule@{ObjCryst::Molecule}}
+\subsubsection{\texorpdfstring{RotateAtomGroup()}{RotateAtomGroup()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily void Obj\+Cryst\+::\+Molecule\+::\+Rotate\+Atom\+Group (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{class_obj_cryst_1_1_mol_atom}{Mol\+Atom}} \&}]{at,  }\item[{const R\+E\+AL}]{vx,  }\item[{const R\+E\+AL}]{vy,  }\item[{const R\+E\+AL}]{vz,  }\item[{const set$<$ \mbox{\hyperlink{class_obj_cryst_1_1_mol_atom}{Mol\+Atom}} $\ast$ $>$ \&}]{atoms,  }\item[{const R\+E\+AL}]{angle,  }\item[{const bool}]{keep\+Center = {\ttfamily true} }\end{DoxyParamCaption})}
+
+Rotate a group of atoms around an axis defined by one atom and a vector
+
+
+\begin{DoxyParams}{Parameters}
+{\em keep\+Center} & if true, the coordinates of the molecule are modified so that only the rotated atoms are moved. \\
+\hline
+\end{DoxyParams}
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_obj_cryst_1_1_molecule_a84e93db5b81b90fd5befa22caaf8691c_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_obj_cryst_1_1_molecule_a24043736cd4323a31b7bc0fa6fa166da}\label{class_obj_cryst_1_1_molecule_a24043736cd4323a31b7bc0fa6fa166da}} 
+\index{ObjCryst::Molecule@{ObjCryst::Molecule}!SetCenterAtom@{SetCenterAtom}}
+\index{SetCenterAtom@{SetCenterAtom}!ObjCryst::Molecule@{ObjCryst::Molecule}}
+\subsubsection{\texorpdfstring{SetCenterAtom()}{SetCenterAtom()}}
+{\footnotesize\ttfamily void Obj\+Cryst\+::\+Molecule\+::\+Set\+Center\+Atom (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{class_obj_cryst_1_1_mol_atom}{Mol\+Atom}} \&}]{at }\end{DoxyParamCaption})}
+
+Get the atom defining the origin of the \mbox{\hyperlink{class_obj_cryst_1_1_molecule}{Molecule}} Equal to 0 if no atom as been set. \mbox{\Hypertarget{class_obj_cryst_1_1_molecule_a19afb1f15773fed7a2d9dff35820bafd}\label{class_obj_cryst_1_1_molecule_a19afb1f15773fed7a2d9dff35820bafd}} 
+\index{ObjCryst::Molecule@{ObjCryst::Molecule}!SetDeleteSubObjInDestructor@{SetDeleteSubObjInDestructor}}
+\index{SetDeleteSubObjInDestructor@{SetDeleteSubObjInDestructor}!ObjCryst::Molecule@{ObjCryst::Molecule}}
+\subsubsection{\texorpdfstring{SetDeleteSubObjInDestructor()}{SetDeleteSubObjInDestructor()}}
+{\footnotesize\ttfamily void Obj\+Cryst\+::\+Molecule\+::\+Set\+Delete\+Sub\+Obj\+In\+Destructor (\begin{DoxyParamCaption}\item[{const bool}]{b }\end{DoxyParamCaption})}
+
+Set whether to delete the Mol\+Atoms, Mol\+Bonds, Mol\+Bond\+Angles and Mol\+Dihedral\+Angles in the destructor. By default these sub-\/objects are deleted. \mbox{\Hypertarget{class_obj_cryst_1_1_molecule_a0d3122b53dd81aa23d2aaa2427e6291e}\label{class_obj_cryst_1_1_molecule_a0d3122b53dd81aa23d2aaa2427e6291e}} 
+\index{ObjCryst::Molecule@{ObjCryst::Molecule}!TranslateAtomGroup@{TranslateAtomGroup}}
+\index{TranslateAtomGroup@{TranslateAtomGroup}!ObjCryst::Molecule@{ObjCryst::Molecule}}
+\subsubsection{\texorpdfstring{TranslateAtomGroup()}{TranslateAtomGroup()}}
+{\footnotesize\ttfamily void Obj\+Cryst\+::\+Molecule\+::\+Translate\+Atom\+Group (\begin{DoxyParamCaption}\item[{const set$<$ \mbox{\hyperlink{class_obj_cryst_1_1_mol_atom}{Mol\+Atom}} $\ast$ $>$ \&}]{atoms,  }\item[{const R\+E\+AL}]{dx,  }\item[{const R\+E\+AL}]{dy,  }\item[{const R\+E\+AL}]{dz,  }\item[{const bool}]{keep\+Center = {\ttfamily true} }\end{DoxyParamCaption})}
+
+Translate a group of atoms in a given direction
+
+
+\begin{DoxyParams}{Parameters}
+{\em keep\+Center} & if true, the coordinates of the molecule are modified so that only the translated atoms are moved. \\
+\hline
+\end{DoxyParams}
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_obj_cryst_1_1_molecule_a0d3122b53dd81aa23d2aaa2427e6291e_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_obj_cryst_1_1_molecule_a0d3122b53dd81aa23d2aaa2427e6291e_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_obj_cryst_1_1_molecule_a9cc198b9cb896d28c7bd90a775db4ec2}\label{class_obj_cryst_1_1_molecule_a9cc198b9cb896d28c7bd90a775db4ec2}} 
+\index{ObjCryst::Molecule@{ObjCryst::Molecule}!TuneGlobalOptimRotationAmplitude@{TuneGlobalOptimRotationAmplitude}}
+\index{TuneGlobalOptimRotationAmplitude@{TuneGlobalOptimRotationAmplitude}!ObjCryst::Molecule@{ObjCryst::Molecule}}
+\subsubsection{\texorpdfstring{TuneGlobalOptimRotationAmplitude()}{TuneGlobalOptimRotationAmplitude()}}
+{\footnotesize\ttfamily void Obj\+Cryst\+::\+Molecule\+::\+Tune\+Global\+Optim\+Rotation\+Amplitude (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Tune the rotation amplitude for free torsions and for the overall \mbox{\hyperlink{class_obj_cryst_1_1_molecule}{Molecule}} Rotation.
+
+This should be done after \mbox{\hyperlink{class_obj_cryst_1_1_molecule_a3642fa8104faa1ce84a977600f9d1aeb}{Molecule\+::\+Build\+Rotor\+Group()}}; Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_obj_cryst_1_1_molecule_a9cc198b9cb896d28c7bd90a775db4ec2_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_obj_cryst_1_1_molecule_a53e8b1249d2f489fd71f06612cde0bd4}\label{class_obj_cryst_1_1_molecule_a53e8b1249d2f489fd71f06612cde0bd4}} 
+\index{ObjCryst::Molecule@{ObjCryst::Molecule}!UpdateScattCompList@{UpdateScattCompList}}
+\index{UpdateScattCompList@{UpdateScattCompList}!ObjCryst::Molecule@{ObjCryst::Molecule}}
+\subsubsection{\texorpdfstring{UpdateScattCompList()}{UpdateScattCompList()}}
+{\footnotesize\ttfamily void Obj\+Cryst\+::\+Molecule\+::\+Update\+Scatt\+Comp\+List (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+Update the \mbox{\hyperlink{class_obj_cryst_1_1_molecule_ae681f50b04c32c7139727c675dc04b67}{Molecule\+::m\+Scatt\+Comp\+List}} from the cartesian coordinates of all atoms, and the orientation parameters. Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_obj_cryst_1_1_molecule_a53e8b1249d2f489fd71f06612cde0bd4_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_obj_cryst_1_1_molecule_a53e8b1249d2f489fd71f06612cde0bd4_icgraph}
+\end{center}
+\end{figure}
+
+
+\subsection{Member Data Documentation}
+\mbox{\Hypertarget{class_obj_cryst_1_1_molecule_ae8459b9f767b0d8bc27b05140c604e0c}\label{class_obj_cryst_1_1_molecule_ae8459b9f767b0d8bc27b05140c604e0c}} 
+\index{ObjCryst::Molecule@{ObjCryst::Molecule}!mAutoOptimizeConformation@{mAutoOptimizeConformation}}
+\index{mAutoOptimizeConformation@{mAutoOptimizeConformation}!ObjCryst::Molecule@{ObjCryst::Molecule}}
+\subsubsection{\texorpdfstring{mAutoOptimizeConformation}{mAutoOptimizeConformation}}
+{\footnotesize\ttfamily Ref\+Obj\+Opt Obj\+Cryst\+::\+Molecule\+::m\+Auto\+Optimize\+Conformation}
+
+Option to automatically optimize the starting conformation, if the total restraint cost is too high. This is done in Begin\+Optimization().
+
+This is enabled by default, and should be disabled by people who already supply a good starting conformation for their molecule. \mbox{\Hypertarget{class_obj_cryst_1_1_molecule_a8bbd805ad8444c1470aea55544a9fb7f}\label{class_obj_cryst_1_1_molecule_a8bbd805ad8444c1470aea55544a9fb7f}} 
+\index{ObjCryst::Molecule@{ObjCryst::Molecule}!mClockRestraint@{mClockRestraint}}
+\index{mClockRestraint@{mClockRestraint}!ObjCryst::Molecule@{ObjCryst::Molecule}}
+\subsubsection{\texorpdfstring{mClockRestraint}{mClockRestraint}}
+{\footnotesize\ttfamily Refinable\+Obj\+Clock Obj\+Cryst\+::\+Molecule\+::m\+Clock\+Restraint}
+
+This clock is the parent of m\+Clock\+Atom\+List, m\+Clock\+Bond\+List, m\+Clock\+Bond\+Angle\+List, m\+Clock\+Dihedral\+Angle\+List and m\+Clock\+Rigid\+Group. It can be used to determine if either the list of atoms or restraints have changed. \mbox{\Hypertarget{class_obj_cryst_1_1_molecule_a13cffa530711a868859cfcfc17bce069}\label{class_obj_cryst_1_1_molecule_a13cffa530711a868859cfcfc17bce069}} 
+\index{ObjCryst::Molecule@{ObjCryst::Molecule}!mConnectivityTable@{mConnectivityTable}}
+\index{mConnectivityTable@{mConnectivityTable}!ObjCryst::Molecule@{ObjCryst::Molecule}}
+\subsubsection{\texorpdfstring{mConnectivityTable}{mConnectivityTable}}
+{\footnotesize\ttfamily map$<$\mbox{\hyperlink{class_obj_cryst_1_1_mol_atom}{Mol\+Atom}} $\ast$,set$<$\mbox{\hyperlink{class_obj_cryst_1_1_mol_atom}{Mol\+Atom}} $\ast$$>$ $>$ Obj\+Cryst\+::\+Molecule\+::m\+Connectivity\+Table\hspace{0.3cm}{\ttfamily [mutable]}}
+
+Connectivity table\+: for each atom, keep the list of atoms bonded to it. All atoms are referenced from their index. \mbox{\Hypertarget{class_obj_cryst_1_1_molecule_a5b35796cbf31728b39b82c36badaa97b}\label{class_obj_cryst_1_1_molecule_a5b35796cbf31728b39b82c36badaa97b}} 
+\index{ObjCryst::Molecule@{ObjCryst::Molecule}!mDeleteSubObjInDestructor@{mDeleteSubObjInDestructor}}
+\index{mDeleteSubObjInDestructor@{mDeleteSubObjInDestructor}!ObjCryst::Molecule@{ObjCryst::Molecule}}
+\subsubsection{\texorpdfstring{mDeleteSubObjInDestructor}{mDeleteSubObjInDestructor}}
+{\footnotesize\ttfamily bool Obj\+Cryst\+::\+Molecule\+::m\+Delete\+Sub\+Obj\+In\+Destructor}
+
+Base Rotation amplitude (in radians) for the \mbox{\hyperlink{class_obj_cryst_1_1_molecule}{Molecule}}, so that the average atomic displacement is equal to 0.\+1 A
+
+Default=0.\+02$\ast$pi \mbox{\Hypertarget{class_obj_cryst_1_1_molecule_a35881bfb20092d0dcc424553f5671245}\label{class_obj_cryst_1_1_molecule_a35881bfb20092d0dcc424553f5671245}} 
+\index{ObjCryst::Molecule@{ObjCryst::Molecule}!mFlexModel@{mFlexModel}}
+\index{mFlexModel@{mFlexModel}!ObjCryst::Molecule@{ObjCryst::Molecule}}
+\subsubsection{\texorpdfstring{mFlexModel}{mFlexModel}}
+{\footnotesize\ttfamily Ref\+Obj\+Opt Obj\+Cryst\+::\+Molecule\+::m\+Flex\+Model}
+
+O\+Ption for the different types of flexibility possible for this molecule\+: rigid body, free atoms + restraints, torsion angles... \begin{DoxyWarning}{Warning}
+still E\+X\+P\+E\+R\+I\+M\+E\+N\+T\+AL ! 
+\end{DoxyWarning}
+\mbox{\Hypertarget{class_obj_cryst_1_1_molecule_a7e69eecc5aa10a9908c3a6450cc2540b}\label{class_obj_cryst_1_1_molecule_a7e69eecc5aa10a9908c3a6450cc2540b}} 
+\index{ObjCryst::Molecule@{ObjCryst::Molecule}!mLogLikelihoodScale@{mLogLikelihoodScale}}
+\index{mLogLikelihoodScale@{mLogLikelihoodScale}!ObjCryst::Molecule@{ObjCryst::Molecule}}
+\subsubsection{\texorpdfstring{mLogLikelihoodScale}{mLogLikelihoodScale}}
+{\footnotesize\ttfamily R\+E\+AL Obj\+Cryst\+::\+Molecule\+::m\+Log\+Likelihood\+Scale}
+
+Scale (multiplier) for the log(likelihood)
+
+Changing this scale is equivalent to changing the sigma values of all bonds, bond angles and dihedral angles -\/ but it allows a simple global scaling for the user. \mbox{\Hypertarget{class_obj_cryst_1_1_molecule_a600a62199c1e9297d39a53848a155310}\label{class_obj_cryst_1_1_molecule_a600a62199c1e9297d39a53848a155310}} 
+\index{ObjCryst::Molecule@{ObjCryst::Molecule}!mMDMoveEnergy@{mMDMoveEnergy}}
+\index{mMDMoveEnergy@{mMDMoveEnergy}!ObjCryst::Molecule@{ObjCryst::Molecule}}
+\subsubsection{\texorpdfstring{mMDMoveEnergy}{mMDMoveEnergy}}
+{\footnotesize\ttfamily R\+E\+AL Obj\+Cryst\+::\+Molecule\+::m\+M\+D\+Move\+Energy}
+
+Relative energy of molecule during molecular dynamics move Default\+: 40, 10 (slow conformation change), 200 (large changes) \mbox{\Hypertarget{class_obj_cryst_1_1_molecule_a4ac986f017f968e59af58297b4a50d7f}\label{class_obj_cryst_1_1_molecule_a4ac986f017f968e59af58297b4a50d7f}} 
+\index{ObjCryst::Molecule@{ObjCryst::Molecule}!mMoleculeCenter@{mMoleculeCenter}}
+\index{mMoleculeCenter@{mMoleculeCenter}!ObjCryst::Molecule@{ObjCryst::Molecule}}
+\subsubsection{\texorpdfstring{mMoleculeCenter}{mMoleculeCenter}}
+{\footnotesize\ttfamily Ref\+Obj\+Opt Obj\+Cryst\+::\+Molecule\+::m\+Molecule\+Center}
+
+Option to choose the center of rotation of the \mbox{\hyperlink{class_obj_cryst_1_1_molecule}{Molecule}} for the global orientation either as the geometrical center, or as a given atom. \mbox{\Hypertarget{class_obj_cryst_1_1_molecule_a8c82ea548f4c0f29e868776c88c5eab8}\label{class_obj_cryst_1_1_molecule_a8c82ea548f4c0f29e868776c88c5eab8}} 
+\index{ObjCryst::Molecule@{ObjCryst::Molecule}!mOptimizeOrientation@{mOptimizeOrientation}}
+\index{mOptimizeOrientation@{mOptimizeOrientation}!ObjCryst::Molecule@{ObjCryst::Molecule}}
+\subsubsection{\texorpdfstring{mOptimizeOrientation}{mOptimizeOrientation}}
+{\footnotesize\ttfamily Ref\+Obj\+Opt Obj\+Cryst\+::\+Molecule\+::m\+Optimize\+Orientation}
+
+Option to optimize the \mbox{\hyperlink{class_obj_cryst_1_1_molecule}{Molecule}}\textquotesingle{}s orientation. Useful to completely fix the \mbox{\hyperlink{class_obj_cryst_1_1_molecule}{Molecule}}. \mbox{\Hypertarget{class_obj_cryst_1_1_molecule_a924f7062c1e35790e152a35166121266}\label{class_obj_cryst_1_1_molecule_a924f7062c1e35790e152a35166121266}} 
+\index{ObjCryst::Molecule@{ObjCryst::Molecule}!mpCenterAtom@{mpCenterAtom}}
+\index{mpCenterAtom@{mpCenterAtom}!ObjCryst::Molecule@{ObjCryst::Molecule}}
+\subsubsection{\texorpdfstring{mpCenterAtom}{mpCenterAtom}}
+{\footnotesize\ttfamily const \mbox{\hyperlink{class_obj_cryst_1_1_mol_atom}{Mol\+Atom}}$\ast$ Obj\+Cryst\+::\+Molecule\+::mp\+Center\+Atom}
+
+\mbox{\hyperlink{class_obj_cryst_1_1_atom}{Atom}} chosen as center of rotation, if m\+Rotation\+Center is set to use an atom rather than the geometrical center. \mbox{\Hypertarget{class_obj_cryst_1_1_molecule_a61b83701b288c4fdbcda97b14608af7d}\label{class_obj_cryst_1_1_molecule_a61b83701b288c4fdbcda97b14608af7d}} 
+\index{ObjCryst::Molecule@{ObjCryst::Molecule}!mQuat@{mQuat}}
+\index{mQuat@{mQuat}!ObjCryst::Molecule@{ObjCryst::Molecule}}
+\subsubsection{\texorpdfstring{mQuat}{mQuat}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_obj_cryst_1_1_quaternion}{Quaternion}} Obj\+Cryst\+::\+Molecule\+::m\+Quat}
+
+The unit quaternion defining the orientation \mbox{\Hypertarget{class_obj_cryst_1_1_molecule_ae681f50b04c32c7139727c675dc04b67}\label{class_obj_cryst_1_1_molecule_ae681f50b04c32c7139727c675dc04b67}} 
+\index{ObjCryst::Molecule@{ObjCryst::Molecule}!mScattCompList@{mScattCompList}}
+\index{mScattCompList@{mScattCompList}!ObjCryst::Molecule@{ObjCryst::Molecule}}
+\subsubsection{\texorpdfstring{mScattCompList}{mScattCompList}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_obj_cryst_1_1_scattering_component_list}{Scattering\+Component\+List}} Obj\+Cryst\+::\+Molecule\+::m\+Scatt\+Comp\+List\hspace{0.3cm}{\ttfamily [mutable]}}
+
+The list of scattering components
+
+this is mutable since it only reflects the list of atoms. \mbox{\Hypertarget{class_obj_cryst_1_1_molecule_ad67f767fe62aeef49aef1c5760d69294}\label{class_obj_cryst_1_1_molecule_ad67f767fe62aeef49aef1c5760d69294}} 
+\index{ObjCryst::Molecule@{ObjCryst::Molecule}!mvAtomBond@{mvAtomBond}}
+\index{mvAtomBond@{mvAtomBond}!ObjCryst::Molecule@{ObjCryst::Molecule}}
+\subsubsection{\texorpdfstring{mvAtomBond}{mvAtomBond}}
+{\footnotesize\ttfamily map$<$\mbox{\hyperlink{class_obj_cryst_1_1_mol_atom}{Mol\+Atom}}$\ast$ , std\+::vector$<$\mbox{\hyperlink{class_obj_cryst_1_1_mol_bond}{Mol\+Bond}}$\ast$$>$ $>$ Obj\+Cryst\+::\+Molecule\+::mv\+Atom\+Bond}
+
+List of Bonds for each atom.
+
+This duplicates the information in Molecule\+::mv\+Bond \mbox{\Hypertarget{class_obj_cryst_1_1_molecule_a79ffe8ba3222a5f4a56fd9f2447c8fd7}\label{class_obj_cryst_1_1_molecule_a79ffe8ba3222a5f4a56fd9f2447c8fd7}} 
+\index{ObjCryst::Molecule@{ObjCryst::Molecule}!mvFlipGroup@{mvFlipGroup}}
+\index{mvFlipGroup@{mvFlipGroup}!ObjCryst::Molecule@{ObjCryst::Molecule}}
+\subsubsection{\texorpdfstring{mvFlipGroup}{mvFlipGroup}}
+{\footnotesize\ttfamily list$<$\mbox{\hyperlink{struct_obj_cryst_1_1_molecule_1_1_flip_group}{Flip\+Group}}$>$ Obj\+Cryst\+::\+Molecule\+::mv\+Flip\+Group\hspace{0.3cm}{\ttfamily [mutable]}}
+
+The list of Flip\+Groups. \mbox{\Hypertarget{class_obj_cryst_1_1_molecule_a4a3a91c91753e90de67341701df7e081}\label{class_obj_cryst_1_1_molecule_a4a3a91c91753e90de67341701df7e081}} 
+\index{ObjCryst::Molecule@{ObjCryst::Molecule}!mvMDAtomGroup@{mvMDAtomGroup}}
+\index{mvMDAtomGroup@{mvMDAtomGroup}!ObjCryst::Molecule@{ObjCryst::Molecule}}
+\subsubsection{\texorpdfstring{mvMDAtomGroup}{mvMDAtomGroup}}
+{\footnotesize\ttfamily list$<$\mbox{\hyperlink{struct_obj_cryst_1_1_m_d_atom_group}{M\+D\+Atom\+Group}}$>$ Obj\+Cryst\+::\+Molecule\+::mv\+M\+D\+Atom\+Group\hspace{0.3cm}{\ttfamily [mutable]}}
+
+Groups of atoms that should be moved according to molecular dynamics principles. \mbox{\Hypertarget{class_obj_cryst_1_1_molecule_af3e1420d9c1c4cc3be0e58c5834130e7}\label{class_obj_cryst_1_1_molecule_af3e1420d9c1c4cc3be0e58c5834130e7}} 
+\index{ObjCryst::Molecule@{ObjCryst::Molecule}!mvMDFullAtomGroup@{mvMDFullAtomGroup}}
+\index{mvMDFullAtomGroup@{mvMDFullAtomGroup}!ObjCryst::Molecule@{ObjCryst::Molecule}}
+\subsubsection{\texorpdfstring{mvMDFullAtomGroup}{mvMDFullAtomGroup}}
+{\footnotesize\ttfamily std\+::set$<$\mbox{\hyperlink{class_obj_cryst_1_1_mol_atom}{Mol\+Atom}}$\ast$$>$ Obj\+Cryst\+::\+Molecule\+::mv\+M\+D\+Full\+Atom\+Group\hspace{0.3cm}{\ttfamily [mutable]}}
+
+Full list of atoms that can be moved using molecular dynamics This excludes any atom part of a rigid group \mbox{\Hypertarget{class_obj_cryst_1_1_molecule_ad498c51ecf4ee0b4482e5fe41cd52be7}\label{class_obj_cryst_1_1_molecule_ad498c51ecf4ee0b4482e5fe41cd52be7}} 
+\index{ObjCryst::Molecule@{ObjCryst::Molecule}!mvpAtom@{mvpAtom}}
+\index{mvpAtom@{mvpAtom}!ObjCryst::Molecule@{ObjCryst::Molecule}}
+\subsubsection{\texorpdfstring{mvpAtom}{mvpAtom}}
+{\footnotesize\ttfamily vector$<$\mbox{\hyperlink{class_obj_cryst_1_1_mol_atom}{Mol\+Atom}}$\ast$$>$ Obj\+Cryst\+::\+Molecule\+::mvp\+Atom}
+
+The list of atoms \mbox{\Hypertarget{class_obj_cryst_1_1_molecule_aabf6e0daf6f90f4052a44888f2bc3d7b}\label{class_obj_cryst_1_1_molecule_aabf6e0daf6f90f4052a44888f2bc3d7b}} 
+\index{ObjCryst::Molecule@{ObjCryst::Molecule}!mvpBond@{mvpBond}}
+\index{mvpBond@{mvpBond}!ObjCryst::Molecule@{ObjCryst::Molecule}}
+\subsubsection{\texorpdfstring{mvpBond}{mvpBond}}
+{\footnotesize\ttfamily vector$<$\mbox{\hyperlink{class_obj_cryst_1_1_mol_bond}{Mol\+Bond}}$\ast$$>$ Obj\+Cryst\+::\+Molecule\+::mvp\+Bond}
+
+The list of bonds \mbox{\Hypertarget{class_obj_cryst_1_1_molecule_a9c195054308e17604a24a3127e0cb307}\label{class_obj_cryst_1_1_molecule_a9c195054308e17604a24a3127e0cb307}} 
+\index{ObjCryst::Molecule@{ObjCryst::Molecule}!mvpBondAngle@{mvpBondAngle}}
+\index{mvpBondAngle@{mvpBondAngle}!ObjCryst::Molecule@{ObjCryst::Molecule}}
+\subsubsection{\texorpdfstring{mvpBondAngle}{mvpBondAngle}}
+{\footnotesize\ttfamily vector$<$\mbox{\hyperlink{class_obj_cryst_1_1_mol_bond_angle}{Mol\+Bond\+Angle}}$\ast$$>$ Obj\+Cryst\+::\+Molecule\+::mvp\+Bond\+Angle}
+
+The list of bond angles \mbox{\Hypertarget{class_obj_cryst_1_1_molecule_a21384a0b8be7bf3fc539c57d90d5c9a2}\label{class_obj_cryst_1_1_molecule_a21384a0b8be7bf3fc539c57d90d5c9a2}} 
+\index{ObjCryst::Molecule@{ObjCryst::Molecule}!mvpDihedralAngle@{mvpDihedralAngle}}
+\index{mvpDihedralAngle@{mvpDihedralAngle}!ObjCryst::Molecule@{ObjCryst::Molecule}}
+\subsubsection{\texorpdfstring{mvpDihedralAngle}{mvpDihedralAngle}}
+{\footnotesize\ttfamily vector$<$\mbox{\hyperlink{class_obj_cryst_1_1_mol_dihedral_angle}{Mol\+Dihedral\+Angle}}$\ast$$>$ Obj\+Cryst\+::\+Molecule\+::mvp\+Dihedral\+Angle}
+
+The list of dihedral angles \mbox{\Hypertarget{class_obj_cryst_1_1_molecule_a43939b3e3ad83065cf7ccb6065a53a12}\label{class_obj_cryst_1_1_molecule_a43939b3e3ad83065cf7ccb6065a53a12}} 
+\index{ObjCryst::Molecule@{ObjCryst::Molecule}!mvRigidGroup@{mvRigidGroup}}
+\index{mvRigidGroup@{mvRigidGroup}!ObjCryst::Molecule@{ObjCryst::Molecule}}
+\subsubsection{\texorpdfstring{mvRigidGroup}{mvRigidGroup}}
+{\footnotesize\ttfamily std\+::vector$<$\mbox{\hyperlink{class_obj_cryst_1_1_rigid_group}{Rigid\+Group}}$\ast$$>$ Obj\+Cryst\+::\+Molecule\+::mv\+Rigid\+Group}
+
+Rigid groups of atoms. This group will be kept {\itshape strictly} rigid, preventing the use of any stretch mode altering their relative position. The entire group of atoms can however be rotated or translated. \mbox{\Hypertarget{class_obj_cryst_1_1_molecule_a35cb61305129b6bbda4a0bb014b2c90e}\label{class_obj_cryst_1_1_molecule_a35cb61305129b6bbda4a0bb014b2c90e}} 
+\index{ObjCryst::Molecule@{ObjCryst::Molecule}!mvRing@{mvRing}}
+\index{mvRing@{mvRing}!ObjCryst::Molecule@{ObjCryst::Molecule}}
+\subsubsection{\texorpdfstring{mvRing}{mvRing}}
+{\footnotesize\ttfamily list$<$\mbox{\hyperlink{class_obj_cryst_1_1_mol_ring}{Mol\+Ring}}$>$ Obj\+Cryst\+::\+Molecule\+::mv\+Ring\hspace{0.3cm}{\ttfamily [mutable]}}
+
+The list of rings
+
+\begin{DoxyNote}{Note}
+this only reflects the bond list, so it is mutable. 
+\end{DoxyNote}
+\mbox{\Hypertarget{class_obj_cryst_1_1_molecule_ac54d8a074549f7710a1823b0ecefcde8}\label{class_obj_cryst_1_1_molecule_ac54d8a074549f7710a1823b0ecefcde8}} 
+\index{ObjCryst::Molecule@{ObjCryst::Molecule}!mvRotorGroupInternal@{mvRotorGroupInternal}}
+\index{mvRotorGroupInternal@{mvRotorGroupInternal}!ObjCryst::Molecule@{ObjCryst::Molecule}}
+\subsubsection{\texorpdfstring{mvRotorGroupInternal}{mvRotorGroupInternal}}
+{\footnotesize\ttfamily list$<$\mbox{\hyperlink{struct_obj_cryst_1_1_molecule_1_1_rotor_group}{Rotor\+Group}}$>$ Obj\+Cryst\+::\+Molecule\+::mv\+Rotor\+Group\+Internal\hspace{0.3cm}{\ttfamily [mutable]}}
+
+List of Rotor\+Groups for internal rotations. This lists groups of atoms that can be rotated {\itshape between} two given atoms. This is useful to alter the conformation of large rings, where no free torsion bonds exists, and also for long flexible chains. \mbox{\Hypertarget{class_obj_cryst_1_1_molecule_afc51d36109a8d96a626f3c2251345c13}\label{class_obj_cryst_1_1_molecule_afc51d36109a8d96a626f3c2251345c13}} 
+\index{ObjCryst::Molecule@{ObjCryst::Molecule}!mvRotorGroupTorsion@{mvRotorGroupTorsion}}
+\index{mvRotorGroupTorsion@{mvRotorGroupTorsion}!ObjCryst::Molecule@{ObjCryst::Molecule}}
+\subsubsection{\texorpdfstring{mvRotorGroupTorsion}{mvRotorGroupTorsion}}
+{\footnotesize\ttfamily list$<$\mbox{\hyperlink{struct_obj_cryst_1_1_molecule_1_1_rotor_group}{Rotor\+Group}}$>$ Obj\+Cryst\+::\+Molecule\+::mv\+Rotor\+Group\+Torsion\hspace{0.3cm}{\ttfamily [mutable]}}
+
+List of Rotor\+Groups corresponding to free torsion bonds.
+
+In this list are list of atoms on one side of a bond, that can be rotated freely around this bond. Each bond is listed only once, with the side which has the smallest number of atoms. \mbox{\Hypertarget{class_obj_cryst_1_1_molecule_a22a07ddc2dbfeb90238b29bcca1e915d}\label{class_obj_cryst_1_1_molecule_a22a07ddc2dbfeb90238b29bcca1e915d}} 
+\index{ObjCryst::Molecule@{ObjCryst::Molecule}!mvRotorGroupTorsionSingleChain@{mvRotorGroupTorsionSingleChain}}
+\index{mvRotorGroupTorsionSingleChain@{mvRotorGroupTorsionSingleChain}!ObjCryst::Molecule@{ObjCryst::Molecule}}
+\subsubsection{\texorpdfstring{mvRotorGroupTorsionSingleChain}{mvRotorGroupTorsionSingleChain}}
+{\footnotesize\ttfamily list$<$\mbox{\hyperlink{struct_obj_cryst_1_1_molecule_1_1_rotor_group}{Rotor\+Group}}$>$ Obj\+Cryst\+::\+Molecule\+::mv\+Rotor\+Group\+Torsion\+Single\+Chain\hspace{0.3cm}{\ttfamily [mutable]}}
+
+List of Rotor\+Groups corresponding to free torsion bonds, but with only one chain of atoms listed.
+
+The difference with Molecule\+::m\+Rotor\+Group\+Torsion is that if the bond is A-\/B, with atom A linked with atoms A1,A2,A3, in this list only one chain (starting either from A1, A2 or A3) will be rotated, instead of the 3 chains. This is useful when searching for the absolute configuration of atoms. 
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+Molecule.\+h\item 
+Molecule.\+cpp\end{DoxyCompactItemize}

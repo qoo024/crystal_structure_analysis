@@ -1,0 +1,5 @@
+<map id="ObjCryst::Crystal::POVRayDescription" name="ObjCryst::Crystal::POVRayDescription">
+<area shape="rect" id="node1" title="XMLOutput POV&#45;Ray Description for this Crystal." alt="" coords="5,37,145,76"/>
+<area shape="rect" id="node2" href="$class_obj_cryst_1_1_unit_cell.html#ae450547d6d700cd21accfb3a05d8192f" title="Get orthonormal cartesian coordinates for a set of (x,y,z) fractional coordinates." alt="" coords="193,5,412,44"/>
+<area shape="rect" id="node3" href="$class_obj_cryst_1_1_crystal.html#ab991f8f3cc005760f939f7d41694cfdf" title="Provides an access to the scatterers." alt="" coords="238,68,367,107"/>
+</map>

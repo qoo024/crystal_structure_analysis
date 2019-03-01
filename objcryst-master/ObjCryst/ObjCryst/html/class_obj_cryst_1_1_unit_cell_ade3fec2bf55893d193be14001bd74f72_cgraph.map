@@ -1,0 +1,10 @@
+<map id="ObjCryst::UnitCell::UnitCell" name="ObjCryst::UnitCell::UnitCell">
+<area shape="rect" id="node1" title="UnitCell Constructor (orthorombic)" alt="" coords="5,68,133,107"/>
+<area shape="rect" id="node2" href="$class_obj_cryst_1_1_unit_cell.html#a5c2dd7255f5abe4292c3fd123bf8d005" title="Init all UnitCell parameters." alt="" coords="181,36,308,75"/>
+<area shape="rect" id="node8" href="$class_obj_cryst_1_1_unit_cell.html#aa7d18fa157c16e2d084c3e403317d2ab" title="Access to the SpaceGroup object." alt="" coords="181,99,308,137"/>
+<area shape="rect" id="node3" href="$class_obj_cryst_1_1_space_group.html#af592aa42f04d02e4caecbf2b93031be8" title="Change the Spacegroup." alt="" coords="356,5,511,44"/>
+<area shape="rect" id="node4" href="$class_obj_cryst_1_1_unit_cell.html#a50170ade8b76500a86b99cd6caa06808" title="Prepare the refinable parameters list." alt="" coords="370,68,497,107"/>
+<area shape="rect" id="node5" href="$class_obj_cryst_1_1_space_group.html#a914c50cfe2b9efbab98b7940bfff995a" title="Id number of the spacegroup." alt="" coords="559,5,732,44"/>
+<area shape="rect" id="node6" href="$class_obj_cryst_1_1_space_group.html#a62966718407e7b2c666ffe376832ce31" title="Which is the unique axis (for monoclinic space groups )" alt="" coords="568,68,723,107"/>
+<area shape="rect" id="node7" href="$class_obj_cryst_1_1_space_group.html#a1c0dbd14dc315655333acedbc4289a94" title="Extension to space group symbol (&#39;1&#39;,&#39;2&#39;:origin choice ; &#39;R&#39;,&#39;H&#39;=rhomboedral/hexagonal)" alt="" coords="568,131,723,169"/>
+</map>

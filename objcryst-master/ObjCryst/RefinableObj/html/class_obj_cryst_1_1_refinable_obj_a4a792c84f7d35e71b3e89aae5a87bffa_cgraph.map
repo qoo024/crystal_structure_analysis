@@ -1,0 +1,9 @@
+<map id="ObjCryst::RefinableObj::AddPar" name="ObjCryst::RefinableObj::AddPar">
+<area shape="rect" id="node1" title=" " alt="" coords="5,68,163,107"/>
+<area shape="rect" id="node2" href="$class_obj_cryst_1_1_refinable_par.html#a1a2acc39d6483283c5361a4b2d0c1fd5" title="Get the parameter&#39;s name." alt="" coords="228,5,385,44"/>
+<area shape="rect" id="node3" href="$class_obj_cryst_1_1_refinable_obj.html#a46caa32fb18f6728ecf42bacca789041" title="Find a refinable parameter with a given name." alt="" coords="228,68,385,107"/>
+<area shape="rect" id="node7" href="$class_obj_cryst_1_1_refinable_obj_clock.html#a980b7dc70decc75c58eba0a55d73fc6d" title=" " alt="" coords="211,131,402,169"/>
+<area shape="rect" id="node4" href="$class_obj_cryst_1_1_refinable_obj.html#a3a45838e4463a17f1d32a892dc48c1dd" title=" " alt="" coords="450,5,608,44"/>
+<area shape="rect" id="node5" href="$class_obj_cryst_1_1_refinable_obj.html#a20def1b7c2106df61d4a119b3519e4a4" title="Access all parameters in the order they were inputted." alt="" coords="450,68,608,107"/>
+<area shape="rect" id="node6" href="$class_obj_cryst_1_1_refinable_obj.html#a2d881bf3abcb527cf96142e51226e449" title="Name of the object." alt="" coords="450,131,608,169"/>
+</map>

@@ -1,0 +1,14 @@
+<map id="ObjCryst::ScatteringData::GenHKLFullSpace" name="ObjCryst::ScatteringData::GenHKLFullSpace">
+<area shape="rect" id="node1" title="Generate a list of h,k,l to describe a full reciprocal space, up to a given maximum theta value." alt="" coords="5,67,174,105"/>
+<area shape="rect" id="node2" href="$class_obj_cryst_1_1_scattering_data.html#a14deaa47d5b79d12369ed5d8d4afbfbe" title="Get the radiation object for this data." alt="" coords="441,5,610,44"/>
+<area shape="rect" id="node3" href="$class_obj_cryst_1_1_scattering_data.html#a406028377b84d874a68b31489d876760" title="wavelength of the experiment (in Angstroems)" alt="" coords="222,67,391,105"/>
+<area shape="rect" id="node5" href="$class_obj_cryst_1_1_scattering_data.html#a63f682dfda2e03f2ab00826c5e116033" title="Generate a list of h,k,l to describe a full reciprocal space, up to a given maximum theta value." alt="" coords="222,193,391,232"/>
+<area shape="rect" id="node4" href="$class_obj_cryst_1_1_radiation.html#a692ac2a7e9e4462e85479476f0485810" title=" " alt="" coords="457,68,594,107"/>
+<area shape="rect" id="node6" href="$class_obj_cryst_1_1_unit_cell.html#a176768bac4762fa188a0e30c255c19fb" title=" " alt="" coords="462,131,589,169"/>
+<area shape="rect" id="node10" href="$class_obj_cryst_1_1_scattering_data.html#af36fabc6841d45d4be8a3c3e7fd4d1ff" title="Const access to the data&#39;s crystal." alt="" coords="441,193,610,232"/>
+<area shape="rect" id="node11" href="$class_obj_cryst_1_1_scattering_data.html#a441dc936d43ef67428a69c0090448bf1" title=" " alt="" coords="439,256,612,295"/>
+<area shape="rect" id="node12" href="$class_obj_cryst_1_1_scattering_data.html#a0520a10b24b0e4f05ba5cee4f3e29c92" title="input H,K,L" alt="" coords="441,319,610,357"/>
+<area shape="rect" id="node7" href="$class_obj_cryst_1_1_space_group.html#a914c50cfe2b9efbab98b7940bfff995a" title="Id number of the spacegroup." alt="" coords="660,68,833,107"/>
+<area shape="rect" id="node8" href="$class_obj_cryst_1_1_space_group.html#a62966718407e7b2c666ffe376832ce31" title="Which is the unique axis (for monoclinic space groups )" alt="" coords="669,131,824,169"/>
+<area shape="rect" id="node9" href="$class_obj_cryst_1_1_space_group.html#a1c0dbd14dc315655333acedbc4289a94" title="Extension to space group symbol (&#39;1&#39;,&#39;2&#39;:origin choice ; &#39;R&#39;,&#39;H&#39;=rhomboedral/hexagonal)" alt="" coords="669,193,824,232"/>
+</map>

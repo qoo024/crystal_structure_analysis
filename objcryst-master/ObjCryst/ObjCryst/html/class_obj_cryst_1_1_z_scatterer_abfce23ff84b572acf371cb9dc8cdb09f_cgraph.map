@@ -1,0 +1,20 @@
+<map id="ObjCryst::ZScatterer::POVRayDescription" name="ObjCryst::ZScatterer::POVRayDescription">
+<area shape="rect" id="node1" title=" " alt="" coords="5,532,153,571"/>
+<area shape="rect" id="node2" href="$class_obj_cryst_1_1_z_scatterer.html#acec423f3f42ba0b1c173d8bc9fe96279" title=" " alt="" coords="201,301,359,340"/>
+<area shape="rect" id="node10" href="$class_obj_cryst_1_1_scatterer.html#aa46e022b2ea81079b4d02da07b6bec4a" title=" " alt="" coords="715,5,850,44"/>
+<area shape="rect" id="node11" href="$class_obj_cryst_1_1_scatterer.html#aeebaad938c35a825e78cf49a5fba5d3c" title=" " alt="" coords="715,507,850,545"/>
+<area shape="rect" id="node12" href="$class_obj_cryst_1_1_scatterer.html#ac1d8f78fc091087c13664b6186923616" title=" " alt="" coords="715,569,850,608"/>
+<area shape="rect" id="node13" href="$class_obj_cryst_1_1_unit_cell.html#ae450547d6d700cd21accfb3a05d8192f" title="Get orthonormal cartesian coordinates for a set of (x,y,z) fractional coordinates." alt="" coords="674,632,892,671"/>
+<area shape="rect" id="node18" href="$class_obj_cryst_1_1_scatterer.html#a733922e9273220375cef87359773dc25" title="In which crystal is this Scatterer included ?" alt="" coords="213,665,347,704"/>
+<area shape="rect" id="node3" href="$class_obj_cryst_1_1_z_scatterer.html#ab6afaab6104211bbca7722033e17a128" title=" " alt="" coords="444,364,588,403"/>
+<area shape="rect" id="node14" href="$class_obj_cryst_1_1_unit_cell.html#ad774324f564621a3e7bcd0cfcafae9cc" title="last time the Lattice parameters were changed" alt="" coords="444,239,588,277"/>
+<area shape="rect" id="node15" href="$class_obj_cryst_1_1_unit_cell.html#a69debaf9dc539baf3c5ccc599ae614cd" title="Get fractional cartesian coordinates for a set of (x,y,z) orthonormal coordinates." alt="" coords="407,301,626,340"/>
+<area shape="rect" id="node16" href="$class_obj_cryst_1_1_scattering_component_list.html#af16db467893abc60b718dcc675d2ec66" title="Print the list of Scattering components. For debugging." alt="" coords="412,113,621,152"/>
+<area shape="rect" id="node4" href="$class_obj_cryst_1_1_z_scatterer.html#ae3bc8fd7255fea2bd8c5e5595ba2369a" title="Const access to bondlength parameter, for the i&#45;th row in the Z&#45;Matrix." alt="" coords="711,193,854,232"/>
+<area shape="rect" id="node5" href="$class_obj_cryst_1_1_z_scatterer.html#a43c9a89c1b3523e0f321bb587342a9af" title=" " alt="" coords="711,256,854,295"/>
+<area shape="rect" id="node6" href="$class_obj_cryst_1_1_z_scatterer.html#a95b97eb1b92c41784a4f652fea59eb93" title="Const access to the angle parameter, for the i&#45;th row in the Z&#45;Matrix." alt="" coords="711,319,854,357"/>
+<area shape="rect" id="node7" href="$class_obj_cryst_1_1_z_scatterer.html#af6ffcf6d863d090c6e72c2749f6c7768" title=" " alt="" coords="711,381,854,420"/>
+<area shape="rect" id="node8" href="$class_obj_cryst_1_1_z_scatterer.html#a8ab9425588c99c32c4c8c68ebe641723" title=" " alt="" coords="696,444,869,483"/>
+<area shape="rect" id="node9" href="$class_obj_cryst_1_1_z_scatterer.html#ad3660563f646c8dc1ffd939f507223ef" title="Const access to the dihedral angle parameter, for the i&#45;th row in the Z&#45;Matrix." alt="" coords="711,131,854,169"/>
+<area shape="rect" id="node17" href="$class_obj_cryst_1_1_scattering_component_list.html#acda94d3d6f78467a7f56c0cf9aed1973" title="Number of components." alt="" coords="678,68,888,107"/>
+</map>

@@ -1,0 +1,13 @@
+<map id="ObjCryst::PowderPatternDiffraction::GetProfileFitNetNbObs" name="ObjCryst::PowderPatternDiffraction::GetProfileFitNetNbObs">
+<area shape="rect" id="node1" title=" " alt="" coords="5,132,234,171"/>
+<area shape="rect" id="node2" href="$class_obj_cryst_1_1_powder_pattern_component.html#a7428c062c1cb6d5f21d1e4131a917199" title=" " alt="" coords="282,100,520,139"/>
+<area shape="rect" id="node3" href="$class_obj_cryst_1_1_powder_pattern.html#ab479aca62d7dd2742442229474423a02" title=" " alt="" coords="316,163,485,201"/>
+<area shape="rect" id="node4" href="$class_obj_cryst_1_1_powder_pattern.html#a0146d35bdc502a6f40f006de837fb490" title=" " alt="" coords="568,100,736,139"/>
+<area shape="rect" id="node8" href="$class_obj_cryst_1_1_powder_pattern.html#a05a4b659555b91a3996b016358168ae0" title=" " alt="" coords="568,193,736,232"/>
+<area shape="rect" id="node5" href="$class_obj_cryst_1_1_powder_pattern.html#ab53befb0a673360c2cbd1261f4f120c4" title="Get the Minimum 2theta." alt="" coords="787,5,956,44"/>
+<area shape="rect" id="node6" href="$class_obj_cryst_1_1_powder_pattern.html#a6c86d0b0a22155319a212bfb4629c9dd" title=" " alt="" coords="784,68,959,107"/>
+<area shape="rect" id="node7" href="$class_obj_cryst_1_1_powder_pattern.html#a1a71f1c47f625ffeb46bddf34a6a5780" title="Get the maximum 2theta." alt="" coords="786,131,958,169"/>
+<area shape="rect" id="node9" href="$class_obj_cryst_1_1_powder_pattern.html#a8c545d3b5f5e9671a719040af2c229e3" title="Neutron or x&#45;ray experiment ?" alt="" coords="787,193,956,232"/>
+<area shape="rect" id="node10" href="$class_obj_cryst_1_1_powder_pattern.html#a135e6cb36ade4ad2dafef04f91d53b96" title="wavelength of the experiment (in Angstroems)" alt="" coords="787,256,956,295"/>
+<area shape="rect" id="node11" href="$class_obj_cryst_1_1_radiation.html#a692ac2a7e9e4462e85479476f0485810" title=" " alt="" coords="1007,256,1144,295"/>
+</map>

@@ -1,0 +1,9 @@
+<map id="ObjCryst::TexturePhaseMarchDollase" name="ObjCryst::TexturePhaseMarchDollase">
+<area shape="rect" id="node1" title=" " alt="" coords="9,489,208,528"/>
+<area shape="rect" id="node2" href="$class_obj_cryst_1_1_texture_march_dollase.html" title=" " alt="" coords="5,403,211,428"/>
+<area shape="rect" id="node3" href="$class_obj_cryst_1_1_scattering_corr.html" title=" " alt="" coords="108,328,274,353"/>
+<area shape="rect" id="node4" href="$class_obj_cryst_1_1_scattering_data.html" title="Class to compute structure factors for a set of reflections and a Crystal." alt="" coords="108,241,277,267"/>
+<area shape="rect" id="node5" title=" " alt="" coords="72,5,171,31"/>
+<area shape="rect" id="node7" href="$class_obj_cryst_1_1_unit_cell.html" title="Unit Cell class: Unit cell with spacegroup information." alt="" coords="159,80,287,105"/>
+<area shape="rect" id="node6" href="$class_obj_cryst_1_1_crystal.html" title="Crystal class: Unit cell, spacegroup, scatterers." alt="" coords="161,155,283,180"/>
+</map>

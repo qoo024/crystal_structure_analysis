@@ -1,0 +1,7 @@
+<map id="ObjCryst::Atom::IsDummy" name="ObjCryst::Atom::IsDummy">
+<area shape="rect" id="node1" title=" " alt="" coords="291,80,466,105"/>
+<area shape="rect" id="node2" href="$class_obj_cryst_1_1_atom.html#a8cf5b61d0df0bf2e55d6c44f67c06da0" title="Print some info about the scatterer (ideally this should be one line...)." alt="" coords="51,5,197,31"/>
+<area shape="rect" id="node3" href="$class_obj_cryst_1_1_atom.html#a9fb77dee90fcd6bbcd199e6efa8e8c3c" title="Returns the molar mass of the atom." alt="" coords="38,55,210,80"/>
+<area shape="rect" id="node4" href="$class_obj_cryst_1_1_atom.html#a5a985d3220fb8754f0db01ecde408bb9" title="Returns the radius (in Angstroems) of the atom." alt="" coords="33,104,215,129"/>
+<area shape="rect" id="node5" href="$class_obj_cryst_1_1_atom.html#aaf6475195502fff91903f30b5c6c3345" title="XMLOutput a description of the scatterer for POVRay." alt="" coords="5,153,243,179"/>
+</map>

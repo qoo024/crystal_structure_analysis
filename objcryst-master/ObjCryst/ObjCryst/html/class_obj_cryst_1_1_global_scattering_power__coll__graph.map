@@ -1,0 +1,10 @@
+<map id="ObjCryst::GlobalScatteringPower" name="ObjCryst::GlobalScatteringPower">
+<area shape="rect" id="node1" title="Global Scattering Power. Used to approximate the scattering power of a multi&#45;atom ZScatterer (polyhed..." alt="" coords="26,439,205,477"/>
+<area shape="rect" id="node2" href="$class_obj_cryst_1_1_scattering_power.html" title="Abstract Base Class to describe the scattering power of any Scatterer component in a crystal." alt="" coords="5,129,184,155"/>
+<area shape="rect" id="node3" title=" " alt="" coords="155,5,253,31"/>
+<area shape="rect" id="node5" href="$class_obj_cryst_1_1_scatterer.html" title="Generic type of scatterer: can be an atom, or a more complex assembly of atoms." alt="" coords="137,265,271,291"/>
+<area shape="rect" id="node7" href="$class_obj_cryst_1_1_unit_cell.html" title="Unit Cell class: Unit cell with spacegroup information." alt="" coords="242,80,369,105"/>
+<area shape="rect" id="node4" href="$class_obj_cryst_1_1_z_scatterer.html" title=" " alt="" coords="132,352,275,377"/>
+<area shape="rect" id="node6" href="$class_obj_cryst_1_1_crystal.html" title="Crystal class: Unit cell, spacegroup, scatterers." alt="" coords="243,179,365,204"/>
+<area shape="rect" id="node8" href="$class_obj_cryst_1_1_scattering_component_list.html" title="list of scattering positions in a crystal, associated with the corresponding occupancy and a pointer ..." alt="" coords="295,265,526,291"/>
+</map>

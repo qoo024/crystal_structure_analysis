@@ -1,0 +1,82 @@
+\hypertarget{class_obj_cryst_1_1_rigid_group}{}\section{Obj\+Cryst\+::Rigid\+Group Class Reference}
+\label{class_obj_cryst_1_1_rigid_group}\index{ObjCryst::RigidGroup@{ObjCryst::RigidGroup}}
+
+
+{\ttfamily \#include $<$Molecule.\+h$>$}
+
+
+
+Inheritance diagram for Obj\+Cryst\+::Rigid\+Group\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=192pt]{class_obj_cryst_1_1_rigid_group__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Obj\+Cryst\+::Rigid\+Group\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=320pt]{class_obj_cryst_1_1_rigid_group__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_rigid_group_ac96a957055b449c68b6fe75b33ef315f}\label{class_obj_cryst_1_1_rigid_group_ac96a957055b449c68b6fe75b33ef315f}} 
+std\+::string {\bfseries Get\+Name} () const
+\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_obj_cryst_1_1_quaternion}{Quaternion}} \mbox{\hyperlink{class_obj_cryst_1_1_rigid_group_a65b5f08946d861618286787ac67ec2fb}{m\+Quat}}
+\item 
+R\+E\+AL \mbox{\hyperlink{class_obj_cryst_1_1_rigid_group_abda5125459a21cc5534c90d9516312e9}{mX}}
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_rigid_group_a941525a36f26bb426fbbde9c1752c930}\label{class_obj_cryst_1_1_rigid_group_a941525a36f26bb426fbbde9c1752c930}} 
+R\+E\+AL {\bfseries mY}
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_rigid_group_ac0d6341c324838a1868a6bf34e25d64d}\label{class_obj_cryst_1_1_rigid_group_ac0d6341c324838a1868a6bf34e25d64d}} 
+R\+E\+AL {\bfseries mZ}
+\item 
+std\+::set$<$ unsigned int $>$ \mbox{\hyperlink{class_obj_cryst_1_1_rigid_group_a5c24037c1724aa2e0060c9432f0ec907}{mv\+Idx}}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Rigid groups of atoms inside a molecule.
+
+These atoms can be moved as a group using one rotation and one translation. \begin{DoxyWarning}{Warning}
+\+: the rotation (quaternion) and translation parameters are not saved or displayed, so any time this must be done \mbox{\hyperlink{class_obj_cryst_1_1_molecule_aacd7668d81ffb43a889d6da6e07cde9b}{Molecule\+::\+Reset\+Rigid\+Groups\+Par()}} {\bfseries{must}} be called beforehand -\/ this will use the rotation and translation parameters to generate the final atomic coordinates, and reset m\+Quat,mX,mY and mZ. 
+\end{DoxyWarning}
+
+
+\subsection{Member Data Documentation}
+\mbox{\Hypertarget{class_obj_cryst_1_1_rigid_group_a65b5f08946d861618286787ac67ec2fb}\label{class_obj_cryst_1_1_rigid_group_a65b5f08946d861618286787ac67ec2fb}} 
+\index{ObjCryst::RigidGroup@{ObjCryst::RigidGroup}!mQuat@{mQuat}}
+\index{mQuat@{mQuat}!ObjCryst::RigidGroup@{ObjCryst::RigidGroup}}
+\subsubsection{\texorpdfstring{mQuat}{mQuat}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_obj_cryst_1_1_quaternion}{Quaternion}} Obj\+Cryst\+::\+Rigid\+Group\+::m\+Quat\hspace{0.3cm}{\ttfamily [mutable]}}
+
+The unit quaternion defining the orientation -\/ this is used during optimizations to rotate all atoms as a group. The quaternion does not give an absolute position -\/ its value will be resetted whenever entering or leaving an optimization. \mbox{\Hypertarget{class_obj_cryst_1_1_rigid_group_a5c24037c1724aa2e0060c9432f0ec907}\label{class_obj_cryst_1_1_rigid_group_a5c24037c1724aa2e0060c9432f0ec907}} 
+\index{ObjCryst::RigidGroup@{ObjCryst::RigidGroup}!mvIdx@{mvIdx}}
+\index{mvIdx@{mvIdx}!ObjCryst::RigidGroup@{ObjCryst::RigidGroup}}
+\subsubsection{\texorpdfstring{mvIdx}{mvIdx}}
+{\footnotesize\ttfamily std\+::set$<$unsigned int$>$ Obj\+Cryst\+::\+Rigid\+Group\+::mv\+Idx\hspace{0.3cm}{\ttfamily [mutable]}}
+
+Temporary list of the atoms indices in the molecule, used during optimization This is created in Molecule\+::\+Begin\+Optimization() \mbox{\Hypertarget{class_obj_cryst_1_1_rigid_group_abda5125459a21cc5534c90d9516312e9}\label{class_obj_cryst_1_1_rigid_group_abda5125459a21cc5534c90d9516312e9}} 
+\index{ObjCryst::RigidGroup@{ObjCryst::RigidGroup}!mX@{mX}}
+\index{mX@{mX}!ObjCryst::RigidGroup@{ObjCryst::RigidGroup}}
+\subsubsection{\texorpdfstring{mX}{mX}}
+{\footnotesize\ttfamily R\+E\+AL Obj\+Cryst\+::\+Rigid\+Group\+::mX\hspace{0.3cm}{\ttfamily [mutable]}}
+
+The translation of all the atoms as a group The values will be resetted whenever entering or leaving an optimization. 
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+Molecule.\+h\item 
+Molecule.\+cpp\end{DoxyCompactItemize}

@@ -1,0 +1,32 @@
+
+\begin{DoxyRefList}
+\item[Class \mbox{\hyperlink{class_obj_cryst_1_1_obj_registry}{Obj\+Cryst::Obj\+Registry$<$ T $>$}} ]\label{todo__todo000002}%
+\Hypertarget{todo__todo000002}%
+(?) create two derived classes with the same interface, one which is a const registry (the \textquotesingle{}client\textquotesingle{} registry for \mbox{\hyperlink{class_obj_cryst_1_1_refinable_obj}{Refinable\+Obj}}), and one which has a non-\/const access to the registered objects (the \textquotesingle{}sub-\/objects\textquotesingle{} in \mbox{\hyperlink{class_obj_cryst_1_1_refinable_obj}{Refinable\+Obj}}).  
+\item[Class \mbox{\hyperlink{class_obj_cryst_1_1_refinable_obj}{Obj\+Cryst::Refinable\+Obj}} ]\label{todo__todo000003}%
+\Hypertarget{todo__todo000003}%
+Define more clearly which operations are recursive (ie also modify sub-\/objects).  
+\item[Member \mbox{\hyperlink{class_obj_cryst_1_1_refinable_obj_a83c6f2679b8dadd780e77b1f71d4cd02}{Obj\+Cryst::Refinable\+Obj::Get\+L\+S\+Q\+\_\+\+Full\+Deriv}} (const unsigned int, std\+::set$<$ Refinable\+Par $\ast$ $>$ \&v\+Par)]\label{todo__todo000006}%
+\Hypertarget{todo__todo000006}%
+  
+\item[Member \mbox{\hyperlink{class_obj_cryst_1_1_refinable_obj_a1946baf8a64267d50ffe6a79b96f4add}{Obj\+Cryst::Refinable\+Obj::Get\+L\+S\+Q\+Deriv}} (const unsigned int, \mbox{\hyperlink{class_obj_cryst_1_1_refinable_par}{Refinable\+Par}} \&)]\label{todo__todo000005}%
+\Hypertarget{todo__todo000005}%
+This should be a const method, and the given Ref\+Par should be const too...  
+\item[Member \mbox{\hyperlink{class_obj_cryst_1_1_refinable_obj_a7fded30f5419980ea110a651d6617cc0}{Obj\+Cryst::Refinable\+Obj::m\+L\+S\+Q\+\_\+\+Full\+Deriv}} ]\label{todo__todo000009}%
+\Hypertarget{todo__todo000009}%
+In development  
+\item[Member \mbox{\hyperlink{class_obj_cryst_1_1_refinable_obj_a19bf35f9dd14319f8ae79828ce67bd70}{Obj\+Cryst::Refinable\+Obj::Register\+Client}} (\mbox{\hyperlink{class_obj_cryst_1_1_refinable_obj}{Refinable\+Obj}} \&) const]\label{todo__todo000004}%
+\Hypertarget{todo__todo000004}%
+\+: the clients should be const, but are not... This need to be fixed...  
+\item[Member \mbox{\hyperlink{class_obj_cryst_1_1_refinable_obj_a3e3466a6945fec22d5f371a1a1478b62}{Obj\+Cryst::Refinable\+Obj::X\+M\+L\+Input}} (istream \&is, const \mbox{\hyperlink{class_obj_cryst_1_1_x_m_l_cryst_tag}{X\+M\+L\+Cryst\+Tag}} \&tag)]\label{todo__todo000008}%
+\Hypertarget{todo__todo000008}%
+Add an bool X\+M\+L\+Input\+Tag(is,tag) function to recognize all the tags from the stream. So that each inherited class can use the X\+M\+L\+Input\+Tag function from its parent (ie take advantage of inheritance). The children class would first try to interpret the tag, then if unsuccessful would pass it to its parent (thus allowing overloading), etc...  
+\item[Member \mbox{\hyperlink{class_obj_cryst_1_1_refinable_obj_a1e57fe5e669121f04f98a2518df1e99f}{Obj\+Cryst::Refinable\+Obj::X\+M\+L\+Output}} (ostream \&os, int indent=0) const]\label{todo__todo000007}%
+\Hypertarget{todo__todo000007}%
+Use inheritance.. as for X\+M\+L\+Input\+Tag()...  
+\item[Class \mbox{\hyperlink{class_obj_cryst_1_1_refinable_par}{Obj\+Cryst::Refinable\+Par}} ]\label{todo__todo000001}%
+\Hypertarget{todo__todo000001}%
+\+: define parameters using equations between parameters. 
+
+\+: for complex objects with lots of parameters, give the possibility to define vectors of parameters, all with the same properties, to reduce memory usage. 
+\end{DoxyRefList}

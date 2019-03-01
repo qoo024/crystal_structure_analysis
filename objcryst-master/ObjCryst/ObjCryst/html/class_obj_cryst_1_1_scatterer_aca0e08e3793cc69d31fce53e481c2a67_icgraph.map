@@ -1,0 +1,18 @@
+<map id="ObjCryst::Scatterer::GetScatteringComponentList" name="ObjCryst::Scatterer::GetScatteringComponentList">
+<area shape="rect" id="node1" title="Get the list of all scattering components for this scatterer." alt="" coords="1199,103,1399,141"/>
+<area shape="rect" id="node2" href="$class_obj_cryst_1_1_crystal.html#a5ff33da1575572684743281c92f6596a" title="Get the list of all scattering components." alt="" coords="958,131,1151,169"/>
+<area shape="rect" id="node3" href="$class_obj_cryst_1_1_crystal.html#a086f39272ca94c23ff7819151a9edf37" title=" " alt="" coords="761,5,891,44"/>
+<area shape="rect" id="node4" href="$class_obj_cryst_1_1_crystal.html#a9328fa012a60adf6b2b17dcfba9f6906" title=" " alt="" coords="761,68,891,107"/>
+<area shape="rect" id="node6" href="$class_obj_cryst_1_1_crystal.html#a12969ab06ecb5293c57fb305e146cc72" title="output Crystal structure as a cif file (EXPERIMENTAL !)" alt="" coords="761,319,891,357"/>
+<area shape="rect" id="node7" href="$class_obj_cryst_1_1_crystal.html#a6e7bc69bcb5331e8faf60ef13db1255c" title=" " alt="" coords="761,131,891,169"/>
+<area shape="rect" id="node8" href="$class_obj_cryst_1_1_scattering_data.html#a1b0237b27cf0e5a3fef7dba65113504e" title="Compute the &#39;Geometrical Structure Factor&#39; for each ScatteringPower of the Crystal." alt="" coords="742,193,910,232"/>
+<area shape="rect" id="node16" href="$class_obj_cryst_1_1_scattering_data.html#a5e2175dbe3023c1f498091006b01a596" title=" " alt="" coords="742,256,910,295"/>
+<area shape="rect" id="node5" href="$class_obj_cryst_1_1_atom.html#aaf6475195502fff91903f30b5c6c3345" title="XMLOutput a description of the scatterer for POVRay." alt="" coords="456,75,694,100"/>
+<area shape="rect" id="node9" href="$class_obj_cryst_1_1_scattering_data.html#aaf82b283529262aa6b0ec547e23c6b6d" title="Compute the overall structure factor (real and imaginary part). This function is optimized for speed ..." alt="" coords="490,224,659,263"/>
+<area shape="rect" id="node10" href="$class_obj_cryst_1_1_scattering_data.html#a76b2f6c60a87bc63895985eac57b8f0b" title="Returns the Array of calculated |F(hkl)|^2 for all reflections." alt="" coords="239,161,408,200"/>
+<area shape="rect" id="node13" href="$class_obj_cryst_1_1_scattering_data.html#af95450724f3e42f50cd0fc04cb8e1d2a" title="Access to real part of F(hkl)calc." alt="" coords="239,287,408,325"/>
+<area shape="rect" id="node15" href="$class_obj_cryst_1_1_scattering_data.html#abaa9d939602278b94f19c9b592fb87c4" title="Access to imaginary part of F(hkl)calc." alt="" coords="239,224,408,263"/>
+<area shape="rect" id="node11" href="$class_obj_cryst_1_1_scattering_data.html#a19b6958c0420a7e8dca0664c19f5f2f4" title="Print H, K, L F^2 Re(F) Im(F) theta sin(theta)/lambda for all reflections." alt="" coords="14,193,183,232"/>
+<area shape="rect" id="node12" href="$class_obj_cryst_1_1_scattering_data.html#ad5c9d2184e77b393317bd055a8116cc7" title="Print H, K, L sin(theta)/lambda theta F^2 Re(F) Im(F) [Re(F) Im(F)]_i, where [Re(F) Im(F)]_i are the ..." alt="" coords="14,131,183,169"/>
+<area shape="rect" id="node14" href="$class_obj_cryst_1_1_global_scattering_power.html#af81844742d8cfdca7dec979a08e4abf0" title="Get the Scattering factor for all reflections of a given ScatteringData object." alt="" coords="5,256,191,295"/>
+</map>

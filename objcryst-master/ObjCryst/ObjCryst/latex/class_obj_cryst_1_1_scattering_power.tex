@@ -1,0 +1,576 @@
+\hypertarget{class_obj_cryst_1_1_scattering_power}{}\section{Obj\+Cryst\+::Scattering\+Power Class Reference}
+\label{class_obj_cryst_1_1_scattering_power}\index{ObjCryst::ScatteringPower@{ObjCryst::ScatteringPower}}
+
+
+Abstract Base Class to describe the scattering power of any \mbox{\hyperlink{class_obj_cryst_1_1_scatterer}{Scatterer}} component in a crystal.  
+
+
+
+
+{\ttfamily \#include $<$Scattering\+Power.\+h$>$}
+
+
+
+Inheritance diagram for Obj\+Cryst\+::Scattering\+Power\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_obj_cryst_1_1_scattering_power__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Obj\+Cryst\+::Scattering\+Power\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=214pt]{class_obj_cryst_1_1_scattering_power__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_scattering_power_a40d392b01f277a90affc2825ffa2e28d}\label{class_obj_cryst_1_1_scattering_power_a40d392b01f277a90affc2825ffa2e28d}} 
+{\bfseries Scattering\+Power} (const \mbox{\hyperlink{class_obj_cryst_1_1_scattering_power}{Scattering\+Power}} \&old)
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_scattering_power_a6e9d2a537aafdf4d7334ce85e31d3a92}\label{class_obj_cryst_1_1_scattering_power_a6e9d2a537aafdf4d7334ce85e31d3a92}} 
+virtual const string \& {\bfseries Get\+Class\+Name} () const
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_scattering_power_aa107d40627bd275f8f3841f77cd10179}\label{class_obj_cryst_1_1_scattering_power_aa107d40627bd275f8f3841f77cd10179}} 
+virtual void {\bfseries operator=} (const \mbox{\hyperlink{class_obj_cryst_1_1_scattering_power}{Scattering\+Power}} \&rhs)
+\item 
+virtual bool \mbox{\hyperlink{class_obj_cryst_1_1_scattering_power_a62eb0d6d4518cef7c28c377bd3ac9fe4}{operator==}} (const \mbox{\hyperlink{class_obj_cryst_1_1_scattering_power}{Scattering\+Power}} \&rhs) const
+\item 
+virtual bool \mbox{\hyperlink{class_obj_cryst_1_1_scattering_power_af898f48dfd85caf200be1e30263145cb}{operator!=}} (const \mbox{\hyperlink{class_obj_cryst_1_1_scattering_power}{Scattering\+Power}} \&rhs) const
+\item 
+virtual Cryst\+Vector\+\_\+\+R\+E\+AL \mbox{\hyperlink{class_obj_cryst_1_1_scattering_power_af18f3eaaf45af87bc3a2a0ff21bc34b6}{Get\+Scattering\+Factor}} (const \mbox{\hyperlink{class_obj_cryst_1_1_scattering_data}{Scattering\+Data}} \&data, const int spg\+Sym\+Pos\+Index=-\/1) const =0
+\begin{DoxyCompactList}\small\item\em Get the Scattering factor for all reflections of a given \mbox{\hyperlink{class_obj_cryst_1_1_scattering_data}{Scattering\+Data}} object. \end{DoxyCompactList}\item 
+virtual R\+E\+AL \mbox{\hyperlink{class_obj_cryst_1_1_scattering_power_a854b51b9b08e96af0fe7986fe372c50c}{Get\+Forward\+Scattering\+Factor}} (const \mbox{\hyperlink{namespace_obj_cryst_a48fe50a094c607f8897378934d3d73ef}{Radiation\+Type}}) const =0
+\item 
+virtual Cryst\+Vector\+\_\+\+R\+E\+AL \mbox{\hyperlink{class_obj_cryst_1_1_scattering_power_a3df723db77380c82ecff5f7050490255}{Get\+Temperature\+Factor}} (const \mbox{\hyperlink{class_obj_cryst_1_1_scattering_data}{Scattering\+Data}} \&data, const int spg\+Sym\+Pos\+Index=-\/1) const =0
+\begin{DoxyCompactList}\small\item\em Get the temperature factor for all reflections of a given \mbox{\hyperlink{class_obj_cryst_1_1_scattering_data}{Scattering\+Data}} object. \end{DoxyCompactList}\item 
+virtual Cryst\+Matrix\+\_\+\+R\+E\+AL \mbox{\hyperlink{class_obj_cryst_1_1_scattering_power_a42c1302254787d13b9e0f2210315291a}{Get\+Resonant\+Scatt\+Fact\+Real}} (const \mbox{\hyperlink{class_obj_cryst_1_1_scattering_data}{Scattering\+Data}} \&data, const int spg\+Sym\+Pos\+Index=-\/1) const =0
+\begin{DoxyCompactList}\small\item\em Get the real part of the resonant scattering factor. \end{DoxyCompactList}\item 
+virtual Cryst\+Matrix\+\_\+\+R\+E\+AL \mbox{\hyperlink{class_obj_cryst_1_1_scattering_power_a9bc5d86bf76116f645b43d46f2a9771c}{Get\+Resonant\+Scatt\+Fact\+Imag}} (const \mbox{\hyperlink{class_obj_cryst_1_1_scattering_data}{Scattering\+Data}} \&data, const int spg\+Sym\+Pos\+Index=-\/1) const =0
+\begin{DoxyCompactList}\small\item\em Get the imaginary part of the resonant scattering factor. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_scattering_power_a58255ba0241bbc8cfb42666d5d757ea3}\label{class_obj_cryst_1_1_scattering_power_a58255ba0241bbc8cfb42666d5d757ea3}} 
+virtual bool \mbox{\hyperlink{class_obj_cryst_1_1_scattering_power_a58255ba0241bbc8cfb42666d5d757ea3}{Is\+Scattering\+Factor\+Anisotropic}} () const
+\begin{DoxyCompactList}\small\item\em Is the scattering factor anisotropic ? \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_scattering_power_aee21e7bd77b1098948b7612ada357317}\label{class_obj_cryst_1_1_scattering_power_aee21e7bd77b1098948b7612ada357317}} 
+virtual bool \mbox{\hyperlink{class_obj_cryst_1_1_scattering_power_aee21e7bd77b1098948b7612ada357317}{Is\+Temperature\+Factor\+Anisotropic}} () const
+\begin{DoxyCompactList}\small\item\em Is the thermic factor anisotropic ? \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_scattering_power_ac4ed188348198aadc70f3c9b5faba4e6}\label{class_obj_cryst_1_1_scattering_power_ac4ed188348198aadc70f3c9b5faba4e6}} 
+virtual bool \mbox{\hyperlink{class_obj_cryst_1_1_scattering_power_ac4ed188348198aadc70f3c9b5faba4e6}{Is\+Resonant\+Scattering\+Anisotropic}} () const
+\begin{DoxyCompactList}\small\item\em Are the resonant scattering terms anisotropic ? \end{DoxyCompactList}\item 
+virtual const string \& \mbox{\hyperlink{class_obj_cryst_1_1_scattering_power_afc2a98469a75c58259d4f81cd30510b9}{Get\+Symbol}} () const
+\begin{DoxyCompactList}\small\item\em Symbol for this Scattering power (the atom name for atoms) \end{DoxyCompactList}\item 
+R\+E\+AL \mbox{\hyperlink{class_obj_cryst_1_1_scattering_power_a410cbc9c760375aff093a901fd8ad0dd}{Get\+Biso}} () const
+\begin{DoxyCompactList}\small\item\em Returns the isotropic temperature B factor. \end{DoxyCompactList}\item 
+R\+E\+AL \& \mbox{\hyperlink{class_obj_cryst_1_1_scattering_power_a5f76422be4dc1879b9c7a64f9b2127d5}{Get\+Biso}} ()
+\begin{DoxyCompactList}\small\item\em Returns the isotropic temperature B factor. \end{DoxyCompactList}\item 
+virtual void \mbox{\hyperlink{class_obj_cryst_1_1_scattering_power_a497e942601480325ef6f8f345f0e1517}{Set\+Biso}} (const R\+E\+AL newB)
+\begin{DoxyCompactList}\small\item\em Sets the isotropic temperature B factor. \end{DoxyCompactList}\item 
+R\+E\+AL \mbox{\hyperlink{class_obj_cryst_1_1_scattering_power_a659eaed09da7c108c2f1182b8d1ce0e8}{Get\+Bij}} (const size\+\_\+t \&i, const size\+\_\+t \&j) const
+\begin{DoxyCompactList}\small\item\em Returns the anisotropic temperature B factor for (i, j) pair. \end{DoxyCompactList}\item 
+R\+E\+AL \mbox{\hyperlink{class_obj_cryst_1_1_scattering_power_a781089695f7e8595313b5a0acfba65c1}{Get\+Bij}} (const size\+\_\+t \&idx) const
+\begin{DoxyCompactList}\small\item\em Returns the anisotropic temperature B factor for given index. \end{DoxyCompactList}\item 
+virtual void \mbox{\hyperlink{class_obj_cryst_1_1_scattering_power_aee5ad2e8325feea42430bd1ed54eabfc}{Set\+Bij}} (const size\+\_\+t \&i, const size\+\_\+t \&j, const R\+E\+AL newB)
+\begin{DoxyCompactList}\small\item\em Sets the anisotropic temperature B factor for (i, j) pair. \end{DoxyCompactList}\item 
+virtual void \mbox{\hyperlink{class_obj_cryst_1_1_scattering_power_a7f5d987bea1be793bf8e9d6951357c3e}{Set\+Bij}} (const size\+\_\+t \&idx, const R\+E\+AL newB)
+\begin{DoxyCompactList}\small\item\em Sets the anisotropic temperature B factor for given index. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_obj_cryst_1_1_scattering_power_a377a16510c3fac75c84bb8b100cc3a2d}{Is\+Isotropic}} () const
+\begin{DoxyCompactList}\small\item\em Returns true if the scattering power is isotropic, else false. \end{DoxyCompactList}\item 
+long \mbox{\hyperlink{class_obj_cryst_1_1_scattering_power_a7cdd8e3a157936fe5bf2af136e7b1f2e}{Get\+Dyn\+Pop\+Corr\+Index}} () const
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_scattering_power_a6570ede3ba1728d3b0513cbc6a68acb8}\label{class_obj_cryst_1_1_scattering_power_a6570ede3ba1728d3b0513cbc6a68acb8}} 
+long \mbox{\hyperlink{class_obj_cryst_1_1_scattering_power_a6570ede3ba1728d3b0513cbc6a68acb8}{Get\+Nb\+Scattering\+Power}} () const
+\begin{DoxyCompactList}\small\item\em Total number of \mbox{\hyperlink{class_obj_cryst_1_1_scattering_power}{Scattering\+Power}} object. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_scattering_power_a5467cc5ed85cfc6829e3d94c669849de}\label{class_obj_cryst_1_1_scattering_power_a5467cc5ed85cfc6829e3d94c669849de}} 
+const Refinable\+Obj\+Clock \& \mbox{\hyperlink{class_obj_cryst_1_1_scattering_power_a5467cc5ed85cfc6829e3d94c669849de}{Get\+Last\+Change\+Clock}} () const
+\begin{DoxyCompactList}\small\item\em Obj\+Cryst\+Clock time when the last modification was made to the object. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_scattering_power_a6870902b64ba978d515dadec09d9c178}\label{class_obj_cryst_1_1_scattering_power_a6870902b64ba978d515dadec09d9c178}} 
+const string \& \mbox{\hyperlink{class_obj_cryst_1_1_scattering_power_a6870902b64ba978d515dadec09d9c178}{Get\+Colour\+Name}} () const
+\begin{DoxyCompactList}\small\item\em Get the (P\+O\+V-\/\+Ray) name associated to the color (if any) \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_scattering_power_a394219949f4e26130d3a6c06725d3bba}\label{class_obj_cryst_1_1_scattering_power_a394219949f4e26130d3a6c06725d3bba}} 
+const float $\ast$ \mbox{\hyperlink{class_obj_cryst_1_1_scattering_power_a394219949f4e26130d3a6c06725d3bba}{Get\+Colour\+R\+GB}} () const
+\begin{DoxyCompactList}\small\item\em Get the float\mbox{[}3\mbox{]} array of R\+GB components defining the colour of this scattering power. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_scattering_power_ac48cb91ee4361a14d829227023479514}\label{class_obj_cryst_1_1_scattering_power_ac48cb91ee4361a14d829227023479514}} 
+void \mbox{\hyperlink{class_obj_cryst_1_1_scattering_power_ac48cb91ee4361a14d829227023479514}{Set\+Colour}} (const string \&color\+Name)
+\begin{DoxyCompactList}\small\item\em Set the colour from the associated P\+O\+V-\/\+Ray name. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_scattering_power_a312da0ad4d8229baf7d6ab7ff9c45a3c}\label{class_obj_cryst_1_1_scattering_power_a312da0ad4d8229baf7d6ab7ff9c45a3c}} 
+void \mbox{\hyperlink{class_obj_cryst_1_1_scattering_power_a312da0ad4d8229baf7d6ab7ff9c45a3c}{Set\+Colour}} (const float r, const float g, const float b)
+\begin{DoxyCompactList}\small\item\em Set the colour from R\+GB components (all between 0 and 1.) \end{DoxyCompactList}\item 
+virtual R\+E\+AL \mbox{\hyperlink{class_obj_cryst_1_1_scattering_power_ac44860aca21734844379ddec87622f7b}{Get\+Radius}} () const =0
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_scattering_power_ab855a12e700cc0dec0ea5810b141301c}\label{class_obj_cryst_1_1_scattering_power_ab855a12e700cc0dec0ea5810b141301c}} 
+virtual void {\bfseries Get\+Gene\+Group} (const Refinable\+Obj \&obj, Cryst\+Vector\+\_\+uint \&group\+Index, unsigned int \&first\+Group) const
+\item 
+R\+E\+AL \mbox{\hyperlink{class_obj_cryst_1_1_scattering_power_ae5d793cc7bb07b5aae0a8dc3c322ba6d}{Get\+Maximum\+Likelihood\+Position\+Error}} () const
+\item 
+void \mbox{\hyperlink{class_obj_cryst_1_1_scattering_power_aeba30efe61155572ffdada1121578bc9}{Set\+Maximum\+Likelihood\+Position\+Error}} (const R\+E\+AL mle)
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_scattering_power_a724900d7f7714f47ca62a715e26dd5ca}\label{class_obj_cryst_1_1_scattering_power_a724900d7f7714f47ca62a715e26dd5ca}} 
+R\+E\+AL \mbox{\hyperlink{class_obj_cryst_1_1_scattering_power_a724900d7f7714f47ca62a715e26dd5ca}{Get\+Maximum\+Likelihood\+Nb\+Ghost\+Atom}} () const
+\begin{DoxyCompactList}\small\item\em Maximum Likelihood\+: get the number of ghost elements per asymmetric unit. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_scattering_power_aa3343885c4b3b9d41c386f7d8aaacd63}\label{class_obj_cryst_1_1_scattering_power_aa3343885c4b3b9d41c386f7d8aaacd63}} 
+void \mbox{\hyperlink{class_obj_cryst_1_1_scattering_power_aa3343885c4b3b9d41c386f7d8aaacd63}{Set\+Maximum\+Likelihood\+Nb\+Ghost\+Atom}} (const R\+E\+AL nb)
+\begin{DoxyCompactList}\small\item\em Maximum Likelihood\+: set the number of ghost elements per asymmetric unit. \end{DoxyCompactList}\item 
+const Refinable\+Obj\+Clock \& \mbox{\hyperlink{class_obj_cryst_1_1_scattering_power_a831505bd54282ec723e694f38e934ada}{Get\+Maximum\+Likelihood\+Par\+Clock}} () const
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_scattering_power_a9638cbe4b7fcf11c80629553ffd36e51}\label{class_obj_cryst_1_1_scattering_power_a9638cbe4b7fcf11c80629553ffd36e51}} 
+virtual R\+E\+AL {\bfseries Get\+Formal\+Charge} () const
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_scattering_power_a9033543d24a34b0a2dbb77fab74f96dd}\label{class_obj_cryst_1_1_scattering_power_a9033543d24a34b0a2dbb77fab74f96dd}} 
+virtual void {\bfseries Set\+Formal\+Charge} (const R\+E\+AL charge)
+\end{DoxyCompactItemize}
+\subsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_scattering_power_a963cfe56b67286007bb93c7962e72b5c}\label{class_obj_cryst_1_1_scattering_power_a963cfe56b67286007bb93c7962e72b5c}} 
+virtual void {\bfseries Init\+Ref\+Par\+List} ()=0
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_scattering_power_a3122dbedd94e3eb524da80999994ec14}\label{class_obj_cryst_1_1_scattering_power_a3122dbedd94e3eb524da80999994ec14}} 
+virtual void \mbox{\hyperlink{class_obj_cryst_1_1_scattering_power_a3122dbedd94e3eb524da80999994ec14}{Init}} ()
+\begin{DoxyCompactList}\small\item\em Initialization of the object, used by all constructors, and operator=. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_scattering_power_acc4a65b084b5fdd15e5063fea62f5cf0}\label{class_obj_cryst_1_1_scattering_power_acc4a65b084b5fdd15e5063fea62f5cf0}} 
+virtual void \mbox{\hyperlink{class_obj_cryst_1_1_scattering_power_acc4a65b084b5fdd15e5063fea62f5cf0}{Init\+R\+G\+B\+Colour}} ()
+\begin{DoxyCompactList}\small\item\em Get R\+GB Colour coordinates from Colour Name. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+long \mbox{\hyperlink{class_obj_cryst_1_1_scattering_power_a0266da1d92ec3d14989a2d4047710c4b}{m\+Dyn\+Pop\+Corr\+Index}}
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_scattering_power_aad32a210a13475061a2cda7525e05501}\label{class_obj_cryst_1_1_scattering_power_aad32a210a13475061a2cda7525e05501}} 
+R\+E\+AL \mbox{\hyperlink{class_obj_cryst_1_1_scattering_power_aad32a210a13475061a2cda7525e05501}{m\+Biso}}
+\begin{DoxyCompactList}\small\item\em Temperature isotropic B factor. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_scattering_power_a312928a0ead2f2bff84156e772752fe1}\label{class_obj_cryst_1_1_scattering_power_a312928a0ead2f2bff84156e772752fe1}} 
+bool \mbox{\hyperlink{class_obj_cryst_1_1_scattering_power_a312928a0ead2f2bff84156e772752fe1}{m\+Is\+Isotropic}}
+\begin{DoxyCompactList}\small\item\em Is the scattering isotropic ? \end{DoxyCompactList}\item 
+Cryst\+Vector\+\_\+\+R\+E\+AL \mbox{\hyperlink{class_obj_cryst_1_1_scattering_power_a02a4524640e2d23805df26b114be680f}{m\+Beta}}
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_scattering_power_a6bac2c1456eee155b805ffa149e1166b}\label{class_obj_cryst_1_1_scattering_power_a6bac2c1456eee155b805ffa149e1166b}} 
+Cryst\+Vector\+\_\+\+R\+E\+AL \mbox{\hyperlink{class_obj_cryst_1_1_scattering_power_a6bac2c1456eee155b805ffa149e1166b}{mB}}
+\begin{DoxyCompactList}\small\item\em Anisotropic B(ij) \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_scattering_power_a7b2e1854b0799312da38819cebf13672}\label{class_obj_cryst_1_1_scattering_power_a7b2e1854b0799312da38819cebf13672}} 
+Refinable\+Obj\+Clock \mbox{\hyperlink{class_obj_cryst_1_1_scattering_power_a7b2e1854b0799312da38819cebf13672}{m\+Clock}}
+\begin{DoxyCompactList}\small\item\em Clock. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_scattering_power_a0726f45b1f31f338326a28345b57738e}\label{class_obj_cryst_1_1_scattering_power_a0726f45b1f31f338326a28345b57738e}} 
+string \mbox{\hyperlink{class_obj_cryst_1_1_scattering_power_a0726f45b1f31f338326a28345b57738e}{m\+Colour\+Name}}
+\begin{DoxyCompactList}\small\item\em Colour for this \mbox{\hyperlink{class_obj_cryst_1_1_scattering_power}{Scattering\+Power}} (from P\+O\+V\+Ray) \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_scattering_power_a00cf7e1fbe362a96be4a22c8b454fd29}\label{class_obj_cryst_1_1_scattering_power_a00cf7e1fbe362a96be4a22c8b454fd29}} 
+float \mbox{\hyperlink{class_obj_cryst_1_1_scattering_power_a00cf7e1fbe362a96be4a22c8b454fd29}{m\+Colour\+R\+GB}} \mbox{[}3\mbox{]}
+\begin{DoxyCompactList}\small\item\em Colour for this \mbox{\hyperlink{class_obj_cryst_1_1_scattering_power}{Scattering\+Power}} using R\+GB. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_scattering_power_a20aa001aad26734367838792eff09682}\label{class_obj_cryst_1_1_scattering_power_a20aa001aad26734367838792eff09682}} 
+R\+E\+AL \mbox{\hyperlink{class_obj_cryst_1_1_scattering_power_a20aa001aad26734367838792eff09682}{m\+Maximum\+Likelihood\+Position\+Error}}
+\begin{DoxyCompactList}\small\item\em estimated error (sigma) on the positions for this type of element. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_scattering_power_a727c82cdb03968dba28c5f7549860093}\label{class_obj_cryst_1_1_scattering_power_a727c82cdb03968dba28c5f7549860093}} 
+Refinable\+Obj\+Clock {\bfseries m\+Maximum\+Likelihood\+Par\+Clock}
+\item 
+R\+E\+AL \mbox{\hyperlink{class_obj_cryst_1_1_scattering_power_a53eeb0a26003df0bcf604817e2fbadf7}{m\+Maximum\+Likelihood\+Nb\+Ghost}}
+\item 
+R\+E\+AL \mbox{\hyperlink{class_obj_cryst_1_1_scattering_power_a030be52e5ba5540bf068e6be4ccb190e}{m\+Formal\+Charge}}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Abstract Base Class to describe the scattering power of any \mbox{\hyperlink{class_obj_cryst_1_1_scatterer}{Scatterer}} component in a crystal. 
+
+This includes\+:
+\begin{DoxyItemize}
+\item the scattering factor,
+\item the temperature factor
+\item real and imaginary parts of the resonant scattering factor.
+\end{DoxyItemize}
+
+The interface is independent of the radiation type.
+
+This base class is designed to handle both isotropic and anisotropic versions of scattering, temperature and anomalous factors.
+
+\begin{DoxyRefDesc}{Todo}
+\item[\mbox{\hyperlink{todo__todo000012}{Todo}}]Anisotropic scattering (temperature factor especially) code, using derived classes 
+
+Clarify organization by removing any \textquotesingle{}real\textquotesingle{} data from the top, abstract base class (eg remove Biso and Betaij), and by creating derived classes. Optionnaly 3 classes (used as members of \mbox{\hyperlink{class_obj_cryst_1_1_scattering_power}{Scattering\+Power}}) could be created, Temperature\+Factor, Scattering\+Factor, and Resonant\+Scattering\+Factor. In any way the design of this class should not evolve, so that code using the \mbox{\hyperlink{class_obj_cryst_1_1_scattering_power}{Scattering\+Power}} interface will remain compatible whatever modifications are made. \end{DoxyRefDesc}
+\begin{DoxyWarning}{Warning}
+\+: there is currently a storage for Anisotropic Displacement Parameters, but Debye-\/\+Waller calculation is {\itshape only} isotropic. 
+\end{DoxyWarning}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{class_obj_cryst_1_1_scattering_power_a659eaed09da7c108c2f1182b8d1ce0e8}\label{class_obj_cryst_1_1_scattering_power_a659eaed09da7c108c2f1182b8d1ce0e8}} 
+\index{ObjCryst::ScatteringPower@{ObjCryst::ScatteringPower}!GetBij@{GetBij}}
+\index{GetBij@{GetBij}!ObjCryst::ScatteringPower@{ObjCryst::ScatteringPower}}
+\subsubsection{\texorpdfstring{GetBij()}{GetBij()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily R\+E\+AL Obj\+Cryst\+::\+Scattering\+Power\+::\+Get\+Bij (\begin{DoxyParamCaption}\item[{const size\+\_\+t \&}]{i,  }\item[{const size\+\_\+t \&}]{j }\end{DoxyParamCaption}) const}
+
+
+
+Returns the anisotropic temperature B factor for (i, j) pair. 
+
+\begin{DoxyWarning}{Warning}
+\+: this is ambiguous, as it is Beta\+\_\+ij which are stored, and not Bij... 
+\end{DoxyWarning}
+\mbox{\Hypertarget{class_obj_cryst_1_1_scattering_power_a781089695f7e8595313b5a0acfba65c1}\label{class_obj_cryst_1_1_scattering_power_a781089695f7e8595313b5a0acfba65c1}} 
+\index{ObjCryst::ScatteringPower@{ObjCryst::ScatteringPower}!GetBij@{GetBij}}
+\index{GetBij@{GetBij}!ObjCryst::ScatteringPower@{ObjCryst::ScatteringPower}}
+\subsubsection{\texorpdfstring{GetBij()}{GetBij()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily R\+E\+AL Obj\+Cryst\+::\+Scattering\+Power\+::\+Get\+Bij (\begin{DoxyParamCaption}\item[{const size\+\_\+t \&}]{idx }\end{DoxyParamCaption}) const}
+
+
+
+Returns the anisotropic temperature B factor for given index. 
+
+0 -\/$>$ (1, 1) 1 -\/$>$ (2, 2) 2 -\/$>$ (3, 3) 3 -\/$>$ (1, 2) 4 -\/$>$ (1, 3) 5 -\/$>$ (2, 3)
+
+\begin{DoxyWarning}{Warning}
+\+: this is ambiguous, as it is Beta\+\_\+ij which are stored, and not Bij... 
+\end{DoxyWarning}
+\mbox{\Hypertarget{class_obj_cryst_1_1_scattering_power_a410cbc9c760375aff093a901fd8ad0dd}\label{class_obj_cryst_1_1_scattering_power_a410cbc9c760375aff093a901fd8ad0dd}} 
+\index{ObjCryst::ScatteringPower@{ObjCryst::ScatteringPower}!GetBiso@{GetBiso}}
+\index{GetBiso@{GetBiso}!ObjCryst::ScatteringPower@{ObjCryst::ScatteringPower}}
+\subsubsection{\texorpdfstring{GetBiso()}{GetBiso()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily R\+E\+AL Obj\+Cryst\+::\+Scattering\+Power\+::\+Get\+Biso (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Returns the isotropic temperature B factor. 
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_obj_cryst_1_1_scattering_power_a410cbc9c760375aff093a901fd8ad0dd_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_obj_cryst_1_1_scattering_power_a5f76422be4dc1879b9c7a64f9b2127d5}\label{class_obj_cryst_1_1_scattering_power_a5f76422be4dc1879b9c7a64f9b2127d5}} 
+\index{ObjCryst::ScatteringPower@{ObjCryst::ScatteringPower}!GetBiso@{GetBiso}}
+\index{GetBiso@{GetBiso}!ObjCryst::ScatteringPower@{ObjCryst::ScatteringPower}}
+\subsubsection{\texorpdfstring{GetBiso()}{GetBiso()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily R\+E\+AL \& Obj\+Cryst\+::\+Scattering\+Power\+::\+Get\+Biso (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Returns the isotropic temperature B factor. 
+
+\mbox{\Hypertarget{class_obj_cryst_1_1_scattering_power_a7cdd8e3a157936fe5bf2af136e7b1f2e}\label{class_obj_cryst_1_1_scattering_power_a7cdd8e3a157936fe5bf2af136e7b1f2e}} 
+\index{ObjCryst::ScatteringPower@{ObjCryst::ScatteringPower}!GetDynPopCorrIndex@{GetDynPopCorrIndex}}
+\index{GetDynPopCorrIndex@{GetDynPopCorrIndex}!ObjCryst::ScatteringPower@{ObjCryst::ScatteringPower}}
+\subsubsection{\texorpdfstring{GetDynPopCorrIndex()}{GetDynPopCorrIndex()}}
+{\footnotesize\ttfamily long Obj\+Cryst\+::\+Scattering\+Power\+::\+Get\+Dyn\+Pop\+Corr\+Index (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+Get the number identifying this kind of scatterer, used to decide whether two scatterers are equivalent, for the dynamical occupancy correction. \mbox{\Hypertarget{class_obj_cryst_1_1_scattering_power_a854b51b9b08e96af0fe7986fe372c50c}\label{class_obj_cryst_1_1_scattering_power_a854b51b9b08e96af0fe7986fe372c50c}} 
+\index{ObjCryst::ScatteringPower@{ObjCryst::ScatteringPower}!GetForwardScatteringFactor@{GetForwardScatteringFactor}}
+\index{GetForwardScatteringFactor@{GetForwardScatteringFactor}!ObjCryst::ScatteringPower@{ObjCryst::ScatteringPower}}
+\subsubsection{\texorpdfstring{GetForwardScatteringFactor()}{GetForwardScatteringFactor()}}
+{\footnotesize\ttfamily virtual R\+E\+AL Obj\+Cryst\+::\+Scattering\+Power\+::\+Get\+Forward\+Scattering\+Factor (\begin{DoxyParamCaption}\item[{const}]{Radiation\+Type }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+Get the scattering factor at (0,0,0). Used for scatterer (electron, nucleus) density generation. 
+
+Implemented in \mbox{\hyperlink{class_obj_cryst_1_1_scattering_power_atom_abe4d6e3b47759d143b5686abf490744f}{Obj\+Cryst\+::\+Scattering\+Power\+Atom}}, \mbox{\hyperlink{class_obj_cryst_1_1_scattering_power_sphere_acb5f0ee9cefb940656dea42f7542c0ad}{Obj\+Cryst\+::\+Scattering\+Power\+Sphere}}, and \mbox{\hyperlink{class_obj_cryst_1_1_global_scattering_power_a76cf0e6d0bb30b0f7036cb6b65b45410}{Obj\+Cryst\+::\+Global\+Scattering\+Power}}.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_obj_cryst_1_1_scattering_power_a854b51b9b08e96af0fe7986fe372c50c_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_obj_cryst_1_1_scattering_power_a831505bd54282ec723e694f38e934ada}\label{class_obj_cryst_1_1_scattering_power_a831505bd54282ec723e694f38e934ada}} 
+\index{ObjCryst::ScatteringPower@{ObjCryst::ScatteringPower}!GetMaximumLikelihoodParClock@{GetMaximumLikelihoodParClock}}
+\index{GetMaximumLikelihoodParClock@{GetMaximumLikelihoodParClock}!ObjCryst::ScatteringPower@{ObjCryst::ScatteringPower}}
+\subsubsection{\texorpdfstring{GetMaximumLikelihoodParClock()}{GetMaximumLikelihoodParClock()}}
+{\footnotesize\ttfamily const Refinable\+Obj\+Clock \& Obj\+Cryst\+::\+Scattering\+Power\+::\+Get\+Maximum\+Likelihood\+Par\+Clock (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+Get the clock value for the last change on the maximum likelihood parameters (positionnal error, number of ghost atoms). Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_obj_cryst_1_1_scattering_power_a831505bd54282ec723e694f38e934ada_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_obj_cryst_1_1_scattering_power_ae5d793cc7bb07b5aae0a8dc3c322ba6d}\label{class_obj_cryst_1_1_scattering_power_ae5d793cc7bb07b5aae0a8dc3c322ba6d}} 
+\index{ObjCryst::ScatteringPower@{ObjCryst::ScatteringPower}!GetMaximumLikelihoodPositionError@{GetMaximumLikelihoodPositionError}}
+\index{GetMaximumLikelihoodPositionError@{GetMaximumLikelihoodPositionError}!ObjCryst::ScatteringPower@{ObjCryst::ScatteringPower}}
+\subsubsection{\texorpdfstring{GetMaximumLikelihoodPositionError()}{GetMaximumLikelihoodPositionError()}}
+{\footnotesize\ttfamily R\+E\+AL Obj\+Cryst\+::\+Scattering\+Power\+::\+Get\+Maximum\+Likelihood\+Position\+Error (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+Maximum Likelihood\+: get the estimated error (sigma) on the positions for this kind of element. Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_obj_cryst_1_1_scattering_power_ae5d793cc7bb07b5aae0a8dc3c322ba6d_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_obj_cryst_1_1_scattering_power_ac44860aca21734844379ddec87622f7b}\label{class_obj_cryst_1_1_scattering_power_ac44860aca21734844379ddec87622f7b}} 
+\index{ObjCryst::ScatteringPower@{ObjCryst::ScatteringPower}!GetRadius@{GetRadius}}
+\index{GetRadius@{GetRadius}!ObjCryst::ScatteringPower@{ObjCryst::ScatteringPower}}
+\subsubsection{\texorpdfstring{GetRadius()}{GetRadius()}}
+{\footnotesize\ttfamily virtual R\+E\+AL Obj\+Cryst\+::\+Scattering\+Power\+::\+Get\+Radius (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+Return the physical radius of this type of scatterer (for 3D display purposes). \begin{DoxyWarning}{Warning}
+this may be removed later. 
+\end{DoxyWarning}
+
+
+Implemented in \mbox{\hyperlink{class_obj_cryst_1_1_scattering_power_atom_aa69db51f5b3cf24a42306bc1b4f45d4c}{Obj\+Cryst\+::\+Scattering\+Power\+Atom}}, \mbox{\hyperlink{class_obj_cryst_1_1_scattering_power_sphere_a0e4cb0c9f333c38f9b6436c54d52a580}{Obj\+Cryst\+::\+Scattering\+Power\+Sphere}}, and \mbox{\hyperlink{class_obj_cryst_1_1_global_scattering_power_af70a0e97e094efd9b45e75122b43d2ea}{Obj\+Cryst\+::\+Global\+Scattering\+Power}}.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_obj_cryst_1_1_scattering_power_ac44860aca21734844379ddec87622f7b_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_obj_cryst_1_1_scattering_power_a9bc5d86bf76116f645b43d46f2a9771c}\label{class_obj_cryst_1_1_scattering_power_a9bc5d86bf76116f645b43d46f2a9771c}} 
+\index{ObjCryst::ScatteringPower@{ObjCryst::ScatteringPower}!GetResonantScattFactImag@{GetResonantScattFactImag}}
+\index{GetResonantScattFactImag@{GetResonantScattFactImag}!ObjCryst::ScatteringPower@{ObjCryst::ScatteringPower}}
+\subsubsection{\texorpdfstring{GetResonantScattFactImag()}{GetResonantScattFactImag()}}
+{\footnotesize\ttfamily virtual Cryst\+Matrix\+\_\+\+R\+E\+AL Obj\+Cryst\+::\+Scattering\+Power\+::\+Get\+Resonant\+Scatt\+Fact\+Imag (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{class_obj_cryst_1_1_scattering_data}{Scattering\+Data}} \&}]{data,  }\item[{const int}]{spg\+Sym\+Pos\+Index = {\ttfamily -\/1} }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+
+
+Get the imaginary part of the resonant scattering factor. 
+
+\begin{DoxyReturn}{Returns}
+a matrix where each row corresponds to each wavelength (currently only monochromatic experiments are made so there is only one row), and each column corresponds to each reflection {\itshape only} if the scattering term is anisotropic, which is not the case so far... 
+\end{DoxyReturn}
+
+\begin{DoxyParams}{Parameters}
+{\em data} & the \mbox{\hyperlink{class_obj_cryst_1_1_scattering_data}{Scattering\+Data}} object, giving access to all the reflections, and a list of wavelengths. \\
+\hline
+{\em spg\+Sym\+Pos\+Index} & if the \mbox{\hyperlink{class_obj_cryst_1_1_scattering_power}{Scattering\+Power}} is anisotropic, then the different symmetrics will not have the same scattering power for all reflections. This parameter is the index of the symmetric position in the Spacegroup. If spg\+Sym\+Pos\+Index=-\/1, the isotropic values are returned. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyWarning}{Warning}
+There is no anisotropic code yet, so spg\+Sym\+Pos\+Index is simply ignored so far , but the design of this function is general for any anisotropic scattering. 
+\end{DoxyWarning}
+
+
+Implemented in \mbox{\hyperlink{class_obj_cryst_1_1_scattering_power_atom_a42db6378fdd8e3fbfae31b3f4dd5bb17}{Obj\+Cryst\+::\+Scattering\+Power\+Atom}}, \mbox{\hyperlink{class_obj_cryst_1_1_scattering_power_sphere_a66b0eb24b24b92e6bbdf677c53853aad}{Obj\+Cryst\+::\+Scattering\+Power\+Sphere}}, and \mbox{\hyperlink{class_obj_cryst_1_1_global_scattering_power_af570597de2c717e60b63507745e32e32}{Obj\+Cryst\+::\+Global\+Scattering\+Power}}.
+
+\mbox{\Hypertarget{class_obj_cryst_1_1_scattering_power_a42c1302254787d13b9e0f2210315291a}\label{class_obj_cryst_1_1_scattering_power_a42c1302254787d13b9e0f2210315291a}} 
+\index{ObjCryst::ScatteringPower@{ObjCryst::ScatteringPower}!GetResonantScattFactReal@{GetResonantScattFactReal}}
+\index{GetResonantScattFactReal@{GetResonantScattFactReal}!ObjCryst::ScatteringPower@{ObjCryst::ScatteringPower}}
+\subsubsection{\texorpdfstring{GetResonantScattFactReal()}{GetResonantScattFactReal()}}
+{\footnotesize\ttfamily virtual Cryst\+Matrix\+\_\+\+R\+E\+AL Obj\+Cryst\+::\+Scattering\+Power\+::\+Get\+Resonant\+Scatt\+Fact\+Real (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{class_obj_cryst_1_1_scattering_data}{Scattering\+Data}} \&}]{data,  }\item[{const int}]{spg\+Sym\+Pos\+Index = {\ttfamily -\/1} }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+
+
+Get the real part of the resonant scattering factor. 
+
+\begin{DoxyReturn}{Returns}
+a matrix where each row corresponds to each wavelength (currently only monochromatic experiments are made so there is only one row), and each column corresponds to each reflection {\itshape only} if the scattering term is anisotropic, which is not the case so far... 
+\end{DoxyReturn}
+
+\begin{DoxyParams}{Parameters}
+{\em data} & the \mbox{\hyperlink{class_obj_cryst_1_1_scattering_data}{Scattering\+Data}} object, giving access to all the reflections and a list of wavelengths). \\
+\hline
+{\em spg\+Sym\+Pos\+Index} & if the \mbox{\hyperlink{class_obj_cryst_1_1_scattering_power}{Scattering\+Power}} is anisotropic, then the different symmetrics will not have the same scattering power for all reflections. This parameter is the index of the symmetric position in the Spacegroup. If spg\+Sym\+Pos\+Index=-\/1, the isotropic values are returned. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyWarning}{Warning}
+There is no anisotropic code yet, so spg\+Sym\+Pos\+Index is simply ignored so far , but the design of this function is general for any anisotropic scattering. 
+\end{DoxyWarning}
+
+
+Implemented in \mbox{\hyperlink{class_obj_cryst_1_1_scattering_power_atom_a38d48cd95ad51e9d83bfeb59988492c1}{Obj\+Cryst\+::\+Scattering\+Power\+Atom}}, \mbox{\hyperlink{class_obj_cryst_1_1_scattering_power_sphere_ae4bfc8319aa74f69eca021050f8d445d}{Obj\+Cryst\+::\+Scattering\+Power\+Sphere}}, and \mbox{\hyperlink{class_obj_cryst_1_1_global_scattering_power_a9dd42d2bf3990261d0ba88a8478dd45a}{Obj\+Cryst\+::\+Global\+Scattering\+Power}}.
+
+\mbox{\Hypertarget{class_obj_cryst_1_1_scattering_power_af18f3eaaf45af87bc3a2a0ff21bc34b6}\label{class_obj_cryst_1_1_scattering_power_af18f3eaaf45af87bc3a2a0ff21bc34b6}} 
+\index{ObjCryst::ScatteringPower@{ObjCryst::ScatteringPower}!GetScatteringFactor@{GetScatteringFactor}}
+\index{GetScatteringFactor@{GetScatteringFactor}!ObjCryst::ScatteringPower@{ObjCryst::ScatteringPower}}
+\subsubsection{\texorpdfstring{GetScatteringFactor()}{GetScatteringFactor()}}
+{\footnotesize\ttfamily virtual Cryst\+Vector\+\_\+\+R\+E\+AL Obj\+Cryst\+::\+Scattering\+Power\+::\+Get\+Scattering\+Factor (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{class_obj_cryst_1_1_scattering_data}{Scattering\+Data}} \&}]{data,  }\item[{const int}]{spg\+Sym\+Pos\+Index = {\ttfamily -\/1} }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+
+
+Get the Scattering factor for all reflections of a given \mbox{\hyperlink{class_obj_cryst_1_1_scattering_data}{Scattering\+Data}} object. 
+
+\begin{DoxyReturn}{Returns}
+a vector with the scattering factor for all reflections, in the same order as in the \mbox{\hyperlink{class_obj_cryst_1_1_scattering_data}{Scattering\+Data}} object. This format is independent of the radiation type (X-\/\+Ray, neutron..). 
+\end{DoxyReturn}
+
+\begin{DoxyParams}{Parameters}
+{\em data} & the \mbox{\hyperlink{class_obj_cryst_1_1_scattering_data}{Scattering\+Data}} object, giving access to all the reflections. \\
+\hline
+{\em spg\+Sym\+Pos\+Index} & if the \mbox{\hyperlink{class_obj_cryst_1_1_scattering_power}{Scattering\+Power}} is anisotropic, then the different symmetrics will not have the same scattering power for all reflections. This parameter is the index of the symmetric position in the Spacegroup. If spg\+Sym\+Pos\+Index=-\/1, the isotropic values are returned. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyWarning}{Warning}
+There is no anisotropic code yet, so spg\+Sym\+Pos\+Index is simply ignored so far , but the design of this function is general for any anisotropic scattering. 
+\end{DoxyWarning}
+
+
+Implemented in \mbox{\hyperlink{class_obj_cryst_1_1_scattering_power_atom_a2ae5ca3726d70f371acfbafc97d300ab}{Obj\+Cryst\+::\+Scattering\+Power\+Atom}}, \mbox{\hyperlink{class_obj_cryst_1_1_scattering_power_sphere_aad2a92da56fe7e50e585a0ad24da5c83}{Obj\+Cryst\+::\+Scattering\+Power\+Sphere}}, and \mbox{\hyperlink{class_obj_cryst_1_1_global_scattering_power_af81844742d8cfdca7dec979a08e4abf0}{Obj\+Cryst\+::\+Global\+Scattering\+Power}}.
+
+\mbox{\Hypertarget{class_obj_cryst_1_1_scattering_power_afc2a98469a75c58259d4f81cd30510b9}\label{class_obj_cryst_1_1_scattering_power_afc2a98469a75c58259d4f81cd30510b9}} 
+\index{ObjCryst::ScatteringPower@{ObjCryst::ScatteringPower}!GetSymbol@{GetSymbol}}
+\index{GetSymbol@{GetSymbol}!ObjCryst::ScatteringPower@{ObjCryst::ScatteringPower}}
+\subsubsection{\texorpdfstring{GetSymbol()}{GetSymbol()}}
+{\footnotesize\ttfamily const string \& Obj\+Cryst\+::\+Scattering\+Power\+::\+Get\+Symbol (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Symbol for this Scattering power (the atom name for atoms) 
+
+
+
+Reimplemented in \mbox{\hyperlink{class_obj_cryst_1_1_scattering_power_atom_a203ad8709ec6b88b43317a5d295e20c2}{Obj\+Cryst\+::\+Scattering\+Power\+Atom}}.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_obj_cryst_1_1_scattering_power_afc2a98469a75c58259d4f81cd30510b9_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_obj_cryst_1_1_scattering_power_a3df723db77380c82ecff5f7050490255}\label{class_obj_cryst_1_1_scattering_power_a3df723db77380c82ecff5f7050490255}} 
+\index{ObjCryst::ScatteringPower@{ObjCryst::ScatteringPower}!GetTemperatureFactor@{GetTemperatureFactor}}
+\index{GetTemperatureFactor@{GetTemperatureFactor}!ObjCryst::ScatteringPower@{ObjCryst::ScatteringPower}}
+\subsubsection{\texorpdfstring{GetTemperatureFactor()}{GetTemperatureFactor()}}
+{\footnotesize\ttfamily virtual Cryst\+Vector\+\_\+\+R\+E\+AL Obj\+Cryst\+::\+Scattering\+Power\+::\+Get\+Temperature\+Factor (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{class_obj_cryst_1_1_scattering_data}{Scattering\+Data}} \&}]{data,  }\item[{const int}]{spg\+Sym\+Pos\+Index = {\ttfamily -\/1} }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+
+
+Get the temperature factor for all reflections of a given \mbox{\hyperlink{class_obj_cryst_1_1_scattering_data}{Scattering\+Data}} object. 
+
+\begin{DoxyReturn}{Returns}
+a vector with the temperature factor for all reflections, in the same order as in the \mbox{\hyperlink{class_obj_cryst_1_1_scattering_data}{Scattering\+Data}} object. 
+\end{DoxyReturn}
+
+\begin{DoxyParams}{Parameters}
+{\em data} & the \mbox{\hyperlink{class_obj_cryst_1_1_scattering_data}{Scattering\+Data}} object, giving access to all the reflections. \\
+\hline
+{\em spg\+Sym\+Pos\+Index} & if the \mbox{\hyperlink{class_obj_cryst_1_1_scattering_power}{Scattering\+Power}} is anisotropic, then the different symmetrics will not have the same scattering power for all reflections. This parameter is the index of the symmetric position in the Spacegroup. If spg\+Sym\+Pos\+Index=-\/1, the isotropic values are returned. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyWarning}{Warning}
+There is no anisotropic code yet, so spg\+Sym\+Pos\+Index is simply ignored so far , but the design of this function is general for any anisotropic scattering. 
+\end{DoxyWarning}
+
+
+Implemented in \mbox{\hyperlink{class_obj_cryst_1_1_scattering_power_atom_adc30331f57e8d79f362b4f2bccb9d4dd}{Obj\+Cryst\+::\+Scattering\+Power\+Atom}}, \mbox{\hyperlink{class_obj_cryst_1_1_scattering_power_sphere_a279d60a417e6378ad001be222385cced}{Obj\+Cryst\+::\+Scattering\+Power\+Sphere}}, and \mbox{\hyperlink{class_obj_cryst_1_1_global_scattering_power_a52a96c9df409e14e5209fa0d1c16781c}{Obj\+Cryst\+::\+Global\+Scattering\+Power}}.
+
+\mbox{\Hypertarget{class_obj_cryst_1_1_scattering_power_a377a16510c3fac75c84bb8b100cc3a2d}\label{class_obj_cryst_1_1_scattering_power_a377a16510c3fac75c84bb8b100cc3a2d}} 
+\index{ObjCryst::ScatteringPower@{ObjCryst::ScatteringPower}!IsIsotropic@{IsIsotropic}}
+\index{IsIsotropic@{IsIsotropic}!ObjCryst::ScatteringPower@{ObjCryst::ScatteringPower}}
+\subsubsection{\texorpdfstring{IsIsotropic()}{IsIsotropic()}}
+{\footnotesize\ttfamily bool Obj\+Cryst\+::\+Scattering\+Power\+::\+Is\+Isotropic (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Returns true if the scattering power is isotropic, else false. 
+
+\mbox{\Hypertarget{class_obj_cryst_1_1_scattering_power_af898f48dfd85caf200be1e30263145cb}\label{class_obj_cryst_1_1_scattering_power_af898f48dfd85caf200be1e30263145cb}} 
+\index{ObjCryst::ScatteringPower@{ObjCryst::ScatteringPower}!operator"!=@{operator"!=}}
+\index{operator"!=@{operator"!=}!ObjCryst::ScatteringPower@{ObjCryst::ScatteringPower}}
+\subsubsection{\texorpdfstring{operator"!=()}{operator!=()}}
+{\footnotesize\ttfamily bool Obj\+Cryst\+::\+Scattering\+Power\+::operator!= (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{class_obj_cryst_1_1_scattering_power}{Scattering\+Power}} \&}]{rhs }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [virtual]}}
+
+Comparison operator. Two scattering powers are equal if they have the same displacement parameter, correspond to same element, and are of the same class. \mbox{\Hypertarget{class_obj_cryst_1_1_scattering_power_a62eb0d6d4518cef7c28c377bd3ac9fe4}\label{class_obj_cryst_1_1_scattering_power_a62eb0d6d4518cef7c28c377bd3ac9fe4}} 
+\index{ObjCryst::ScatteringPower@{ObjCryst::ScatteringPower}!operator==@{operator==}}
+\index{operator==@{operator==}!ObjCryst::ScatteringPower@{ObjCryst::ScatteringPower}}
+\subsubsection{\texorpdfstring{operator==()}{operator==()}}
+{\footnotesize\ttfamily bool Obj\+Cryst\+::\+Scattering\+Power\+::operator== (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{class_obj_cryst_1_1_scattering_power}{Scattering\+Power}} \&}]{rhs }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [virtual]}}
+
+Comparison operator. Two scattering powers are equal if they have the same displacement parameter, correspond to same element, and are of the same class. \mbox{\Hypertarget{class_obj_cryst_1_1_scattering_power_aee5ad2e8325feea42430bd1ed54eabfc}\label{class_obj_cryst_1_1_scattering_power_aee5ad2e8325feea42430bd1ed54eabfc}} 
+\index{ObjCryst::ScatteringPower@{ObjCryst::ScatteringPower}!SetBij@{SetBij}}
+\index{SetBij@{SetBij}!ObjCryst::ScatteringPower@{ObjCryst::ScatteringPower}}
+\subsubsection{\texorpdfstring{SetBij()}{SetBij()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily void Obj\+Cryst\+::\+Scattering\+Power\+::\+Set\+Bij (\begin{DoxyParamCaption}\item[{const size\+\_\+t \&}]{i,  }\item[{const size\+\_\+t \&}]{j,  }\item[{const R\+E\+AL}]{newB }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Sets the anisotropic temperature B factor for (i, j) pair. 
+
+\begin{DoxyWarning}{Warning}
+\+: this is ambiguous, as it is Beta\+\_\+ij which are stored, and not Bij... 
+\end{DoxyWarning}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_obj_cryst_1_1_scattering_power_aee5ad2e8325feea42430bd1ed54eabfc_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_obj_cryst_1_1_scattering_power_a7f5d987bea1be793bf8e9d6951357c3e}\label{class_obj_cryst_1_1_scattering_power_a7f5d987bea1be793bf8e9d6951357c3e}} 
+\index{ObjCryst::ScatteringPower@{ObjCryst::ScatteringPower}!SetBij@{SetBij}}
+\index{SetBij@{SetBij}!ObjCryst::ScatteringPower@{ObjCryst::ScatteringPower}}
+\subsubsection{\texorpdfstring{SetBij()}{SetBij()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily void Obj\+Cryst\+::\+Scattering\+Power\+::\+Set\+Bij (\begin{DoxyParamCaption}\item[{const size\+\_\+t \&}]{idx,  }\item[{const R\+E\+AL}]{newB }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Sets the anisotropic temperature B factor for given index. 
+
+0 -\/$>$ (1, 1) 1 -\/$>$ (2, 2) 2 -\/$>$ (3, 3) 3 -\/$>$ (1, 2) 4 -\/$>$ (1, 3) 5 -\/$>$ (2, 3)
+
+\begin{DoxyWarning}{Warning}
+\+: this is ambiguous, as it is Beta\+\_\+ij which are stored, and not Bij... 
+\end{DoxyWarning}
+\mbox{\Hypertarget{class_obj_cryst_1_1_scattering_power_a497e942601480325ef6f8f345f0e1517}\label{class_obj_cryst_1_1_scattering_power_a497e942601480325ef6f8f345f0e1517}} 
+\index{ObjCryst::ScatteringPower@{ObjCryst::ScatteringPower}!SetBiso@{SetBiso}}
+\index{SetBiso@{SetBiso}!ObjCryst::ScatteringPower@{ObjCryst::ScatteringPower}}
+\subsubsection{\texorpdfstring{SetBiso()}{SetBiso()}}
+{\footnotesize\ttfamily void Obj\+Cryst\+::\+Scattering\+Power\+::\+Set\+Biso (\begin{DoxyParamCaption}\item[{const R\+E\+AL}]{newB }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Sets the isotropic temperature B factor. 
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_obj_cryst_1_1_scattering_power_a497e942601480325ef6f8f345f0e1517_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_obj_cryst_1_1_scattering_power_aeba30efe61155572ffdada1121578bc9}\label{class_obj_cryst_1_1_scattering_power_aeba30efe61155572ffdada1121578bc9}} 
+\index{ObjCryst::ScatteringPower@{ObjCryst::ScatteringPower}!SetMaximumLikelihoodPositionError@{SetMaximumLikelihoodPositionError}}
+\index{SetMaximumLikelihoodPositionError@{SetMaximumLikelihoodPositionError}!ObjCryst::ScatteringPower@{ObjCryst::ScatteringPower}}
+\subsubsection{\texorpdfstring{SetMaximumLikelihoodPositionError()}{SetMaximumLikelihoodPositionError()}}
+{\footnotesize\ttfamily void Obj\+Cryst\+::\+Scattering\+Power\+::\+Set\+Maximum\+Likelihood\+Position\+Error (\begin{DoxyParamCaption}\item[{const R\+E\+AL}]{mle }\end{DoxyParamCaption})}
+
+Maximum Likelihood\+: set the estimated error (sigma) on the positions for this kind of element. 
+
+\subsection{Member Data Documentation}
+\mbox{\Hypertarget{class_obj_cryst_1_1_scattering_power_a02a4524640e2d23805df26b114be680f}\label{class_obj_cryst_1_1_scattering_power_a02a4524640e2d23805df26b114be680f}} 
+\index{ObjCryst::ScatteringPower@{ObjCryst::ScatteringPower}!mBeta@{mBeta}}
+\index{mBeta@{mBeta}!ObjCryst::ScatteringPower@{ObjCryst::ScatteringPower}}
+\subsubsection{\texorpdfstring{mBeta}{mBeta}}
+{\footnotesize\ttfamily Cryst\+Vector\+\_\+\+R\+E\+AL Obj\+Cryst\+::\+Scattering\+Power\+::m\+Beta\hspace{0.3cm}{\ttfamily [mutable]}, {\ttfamily [protected]}}
+
+Anisotropic Beta(ij) \mbox{\Hypertarget{class_obj_cryst_1_1_scattering_power_a0266da1d92ec3d14989a2d4047710c4b}\label{class_obj_cryst_1_1_scattering_power_a0266da1d92ec3d14989a2d4047710c4b}} 
+\index{ObjCryst::ScatteringPower@{ObjCryst::ScatteringPower}!mDynPopCorrIndex@{mDynPopCorrIndex}}
+\index{mDynPopCorrIndex@{mDynPopCorrIndex}!ObjCryst::ScatteringPower@{ObjCryst::ScatteringPower}}
+\subsubsection{\texorpdfstring{mDynPopCorrIndex}{mDynPopCorrIndex}}
+{\footnotesize\ttfamily long Obj\+Cryst\+::\+Scattering\+Power\+::m\+Dyn\+Pop\+Corr\+Index\hspace{0.3cm}{\ttfamily [protected]}}
+
+number identifying this kind of scatterer, for the dynamical occupancy correction. Right now it is the atomic number. \mbox{\Hypertarget{class_obj_cryst_1_1_scattering_power_a030be52e5ba5540bf068e6be4ccb190e}\label{class_obj_cryst_1_1_scattering_power_a030be52e5ba5540bf068e6be4ccb190e}} 
+\index{ObjCryst::ScatteringPower@{ObjCryst::ScatteringPower}!mFormalCharge@{mFormalCharge}}
+\index{mFormalCharge@{mFormalCharge}!ObjCryst::ScatteringPower@{ObjCryst::ScatteringPower}}
+\subsubsection{\texorpdfstring{mFormalCharge}{mFormalCharge}}
+{\footnotesize\ttfamily R\+E\+AL Obj\+Cryst\+::\+Scattering\+Power\+::m\+Formal\+Charge\hspace{0.3cm}{\ttfamily [protected]}}
+
+Formal Charge. This can be used for bond valence analysis, or energy calculations.
+
+Default value is 0. \mbox{\Hypertarget{class_obj_cryst_1_1_scattering_power_a53eeb0a26003df0bcf604817e2fbadf7}\label{class_obj_cryst_1_1_scattering_power_a53eeb0a26003df0bcf604817e2fbadf7}} 
+\index{ObjCryst::ScatteringPower@{ObjCryst::ScatteringPower}!mMaximumLikelihoodNbGhost@{mMaximumLikelihoodNbGhost}}
+\index{mMaximumLikelihoodNbGhost@{mMaximumLikelihoodNbGhost}!ObjCryst::ScatteringPower@{ObjCryst::ScatteringPower}}
+\subsubsection{\texorpdfstring{mMaximumLikelihoodNbGhost}{mMaximumLikelihoodNbGhost}}
+{\footnotesize\ttfamily R\+E\+AL Obj\+Cryst\+::\+Scattering\+Power\+::m\+Maximum\+Likelihood\+Nb\+Ghost\hspace{0.3cm}{\ttfamily [protected]}}
+
+Number of ghost atoms in the asymmetric unit. These contribute to the variance of the structure factor, but not to the structure factor as the uncertainty on their position is infinite. 
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+Scattering\+Power.\+h\item 
+Scattering\+Power.\+cpp\end{DoxyCompactItemize}

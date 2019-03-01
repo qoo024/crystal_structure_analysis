@@ -1,0 +1,92 @@
+\hypertarget{struct_obj_cryst_1_1_stretch_mode_twist}{}\section{Obj\+Cryst\+::Stretch\+Mode\+Twist Struct Reference}
+\label{struct_obj_cryst_1_1_stretch_mode_twist}\index{ObjCryst::StretchModeTwist@{ObjCryst::StretchModeTwist}}
+
+
+{\ttfamily \#include $<$Molecule.\+h$>$}
+
+
+
+Inheritance diagram for Obj\+Cryst\+::Stretch\+Mode\+Twist\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=220pt]{struct_obj_cryst_1_1_stretch_mode_twist__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Obj\+Cryst\+::Stretch\+Mode\+Twist\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{struct_obj_cryst_1_1_stretch_mode_twist__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{struct_obj_cryst_1_1_stretch_mode_twist_a6ed224b06c93f630ccb7bf7920f054a9}{Stretch\+Mode\+Twist}} (\mbox{\hyperlink{class_obj_cryst_1_1_mol_atom}{Mol\+Atom}} \&at1, \mbox{\hyperlink{class_obj_cryst_1_1_mol_atom}{Mol\+Atom}} \&at2)
+\item 
+virtual void \mbox{\hyperlink{struct_obj_cryst_1_1_stretch_mode_twist_afbc57b887f9c886b3642d0b7368fd4ad}{Calc\+Deriv}} (const bool derivllk=true) const
+\item 
+\mbox{\Hypertarget{struct_obj_cryst_1_1_stretch_mode_twist_a4d9ddf5caed88f32e013d1d286e979f2}\label{struct_obj_cryst_1_1_stretch_mode_twist_a4d9ddf5caed88f32e013d1d286e979f2}} 
+virtual void \mbox{\hyperlink{struct_obj_cryst_1_1_stretch_mode_twist_a4d9ddf5caed88f32e013d1d286e979f2}{Print}} (ostream \&os, bool full=true) const
+\begin{DoxyCompactList}\small\item\em Print one-\/line list of atoms moved. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{struct_obj_cryst_1_1_stretch_mode_twist_a89b177c567b0b61162b88205a0009583}\label{struct_obj_cryst_1_1_stretch_mode_twist_a89b177c567b0b61162b88205a0009583}} 
+virtual void \mbox{\hyperlink{struct_obj_cryst_1_1_stretch_mode_twist_a89b177c567b0b61162b88205a0009583}{Stretch}} (const R\+E\+AL change, const bool keep\+Center=true)
+\begin{DoxyCompactList}\small\item\em Move the atoms according to this mode. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{struct_obj_cryst_1_1_stretch_mode_twist_adb8145423cd1e43d6ced7ef73f1815d4}\label{struct_obj_cryst_1_1_stretch_mode_twist_adb8145423cd1e43d6ced7ef73f1815d4}} 
+virtual void \mbox{\hyperlink{struct_obj_cryst_1_1_stretch_mode_twist_adb8145423cd1e43d6ced7ef73f1815d4}{Random\+Stretch}} (const R\+E\+AL amplitude, const bool keep\+Center=true)
+\begin{DoxyCompactList}\small\item\em Move the atoms according to this mode, randomly. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{struct_obj_cryst_1_1_stretch_mode_twist_ad744e9f68b07367752ed7c03d381a30c}\label{struct_obj_cryst_1_1_stretch_mode_twist_ad744e9f68b07367752ed7c03d381a30c}} 
+\mbox{\hyperlink{class_obj_cryst_1_1_mol_atom}{Mol\+Atom}} $\ast$ \mbox{\hyperlink{struct_obj_cryst_1_1_stretch_mode_twist_ad744e9f68b07367752ed7c03d381a30c}{mp\+Atom1}}
+\begin{DoxyCompactList}\small\item\em The first atom. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{struct_obj_cryst_1_1_stretch_mode_twist_a36180a825c130a18a59c6cfe1a44398c}\label{struct_obj_cryst_1_1_stretch_mode_twist_a36180a825c130a18a59c6cfe1a44398c}} 
+\mbox{\hyperlink{class_obj_cryst_1_1_mol_atom}{Mol\+Atom}} $\ast$ \mbox{\hyperlink{struct_obj_cryst_1_1_stretch_mode_twist_a36180a825c130a18a59c6cfe1a44398c}{mp\+Atom2}}
+\begin{DoxyCompactList}\small\item\em The second atom. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{struct_obj_cryst_1_1_stretch_mode_twist_a5b3c7f8a0bf81c04ca39fcc88e596f22}\label{struct_obj_cryst_1_1_stretch_mode_twist_a5b3c7f8a0bf81c04ca39fcc88e596f22}} 
+set$<$ \mbox{\hyperlink{class_obj_cryst_1_1_mol_atom}{Mol\+Atom}} $\ast$ $>$ \mbox{\hyperlink{struct_obj_cryst_1_1_stretch_mode_twist_a5b3c7f8a0bf81c04ca39fcc88e596f22}{mv\+Rotated\+Atom\+List}}
+\begin{DoxyCompactList}\small\item\em The set of atoms that are to be rotated around at1-\/at2. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Atoms moved {\itshape between} two other atoms, using a \char`\"{}twist\char`\"{} of their positions -\/ only small twists of their positions are allowed to avoid breaking restraints too much. Also, the atoms in the middle between the two reference atoms are more displaced than the one closer, to help avoid breaking restraints. 
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{struct_obj_cryst_1_1_stretch_mode_twist_a6ed224b06c93f630ccb7bf7920f054a9}\label{struct_obj_cryst_1_1_stretch_mode_twist_a6ed224b06c93f630ccb7bf7920f054a9}} 
+\index{ObjCryst::StretchModeTwist@{ObjCryst::StretchModeTwist}!StretchModeTwist@{StretchModeTwist}}
+\index{StretchModeTwist@{StretchModeTwist}!ObjCryst::StretchModeTwist@{ObjCryst::StretchModeTwist}}
+\subsubsection{\texorpdfstring{StretchModeTwist()}{StretchModeTwist()}}
+{\footnotesize\ttfamily Obj\+Cryst\+::\+Stretch\+Mode\+Twist\+::\+Stretch\+Mode\+Twist (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_obj_cryst_1_1_mol_atom}{Mol\+Atom}} \&}]{at1,  }\item[{\mbox{\hyperlink{class_obj_cryst_1_1_mol_atom}{Mol\+Atom}} \&}]{at2 }\end{DoxyParamCaption})}
+
+Constructor If p\+Dihedral\+Angle!=0, the dihedral angle length restraint is respected. 
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{struct_obj_cryst_1_1_stretch_mode_twist_afbc57b887f9c886b3642d0b7368fd4ad}\label{struct_obj_cryst_1_1_stretch_mode_twist_afbc57b887f9c886b3642d0b7368fd4ad}} 
+\index{ObjCryst::StretchModeTwist@{ObjCryst::StretchModeTwist}!CalcDeriv@{CalcDeriv}}
+\index{CalcDeriv@{CalcDeriv}!ObjCryst::StretchModeTwist@{ObjCryst::StretchModeTwist}}
+\subsubsection{\texorpdfstring{CalcDeriv()}{CalcDeriv()}}
+{\footnotesize\ttfamily void Obj\+Cryst\+::\+Stretch\+Mode\+Twist\+::\+Calc\+Deriv (\begin{DoxyParamCaption}\item[{const bool}]{derivllk = {\ttfamily true} }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [virtual]}}
+
+Calculate the derivative of the \mbox{\hyperlink{class_obj_cryst_1_1_molecule}{Molecule}}\textquotesingle{}s Log(likelihood) and atomic positions versus a change of the bond length. The result is stored in m\+L\+L\+K\+Deriv and m\+L\+L\+K\+Deriv\+X\+YZ, as well as in the various lists of restraints broken by this mode.
+
+
+\begin{DoxyParams}{Parameters}
+{\em derivllk} & if false, the derivative of the overall llk will not be computed, only the derivative of the atomic positions. \\
+\hline
+\end{DoxyParams}
+
+
+Implements \mbox{\hyperlink{struct_obj_cryst_1_1_stretch_mode_a5b5ab5f9819c047a49719a330722d419}{Obj\+Cryst\+::\+Stretch\+Mode}}.
+
+
+
+The documentation for this struct was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+Molecule.\+h\item 
+Molecule.\+cpp\end{DoxyCompactItemize}

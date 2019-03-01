@@ -1,0 +1,364 @@
+\hypertarget{class_obj_cryst_1_1_scatterer}{}\section{Obj\+Cryst\+::Scatterer Class Reference}
+\label{class_obj_cryst_1_1_scatterer}\index{ObjCryst::Scatterer@{ObjCryst::Scatterer}}
+
+
+Generic type of scatterer\+: can be an atom, or a more complex assembly of atoms.  
+
+
+
+
+{\ttfamily \#include $<$Scatterer.\+h$>$}
+
+
+
+Inheritance diagram for Obj\+Cryst\+::Scatterer\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_obj_cryst_1_1_scatterer__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Obj\+Cryst\+::Scatterer\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=238pt]{class_obj_cryst_1_1_scatterer__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_scatterer_a5367833f94dd2daeed41ffe3836c1c64}\label{class_obj_cryst_1_1_scatterer_a5367833f94dd2daeed41ffe3836c1c64}} 
+\mbox{\hyperlink{class_obj_cryst_1_1_scatterer_a5367833f94dd2daeed41ffe3836c1c64}{Scatterer}} ()
+\begin{DoxyCompactList}\small\item\em Constructor. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_scatterer_a0d568f50de46100c0faff213dde8544f}\label{class_obj_cryst_1_1_scatterer_a0d568f50de46100c0faff213dde8544f}} 
+\mbox{\hyperlink{class_obj_cryst_1_1_scatterer_a0d568f50de46100c0faff213dde8544f}{Scatterer}} (const \mbox{\hyperlink{class_obj_cryst_1_1_scatterer}{Scatterer}} \&old)
+\begin{DoxyCompactList}\small\item\em Copy Constructor. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_scatterer_a4078a38ee27cc98cb4487810a3f803fc}\label{class_obj_cryst_1_1_scatterer_a4078a38ee27cc98cb4487810a3f803fc}} 
+virtual \mbox{\hyperlink{class_obj_cryst_1_1_scatterer_a4078a38ee27cc98cb4487810a3f803fc}{$\sim$\+Scatterer}} ()
+\begin{DoxyCompactList}\small\item\em Destructor. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_scatterer_a4d374adcff97163a24492d362f6def73}\label{class_obj_cryst_1_1_scatterer_a4d374adcff97163a24492d362f6def73}} 
+virtual \mbox{\hyperlink{class_obj_cryst_1_1_scatterer}{Scatterer}} $\ast$ {\bfseries Create\+Copy} () const =0
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_scatterer_a01245f0d81730db769ebaf33fbb87942}\label{class_obj_cryst_1_1_scatterer_a01245f0d81730db769ebaf33fbb87942}} 
+virtual const string \& {\bfseries Get\+Class\+Name} () const
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_scatterer_a18d63b8e79b35942902244c555ea33ef}\label{class_obj_cryst_1_1_scatterer_a18d63b8e79b35942902244c555ea33ef}} 
+virtual int \mbox{\hyperlink{class_obj_cryst_1_1_scatterer_a18d63b8e79b35942902244c555ea33ef}{Get\+Nb\+Component}} () const =0
+\begin{DoxyCompactList}\small\item\em Number of components in the scatterer (eg number of point scatterers) \end{DoxyCompactList}\item 
+virtual const \mbox{\hyperlink{class_obj_cryst_1_1_scattering_component_list}{Scattering\+Component\+List}} \& \mbox{\hyperlink{class_obj_cryst_1_1_scatterer_aca0e08e3793cc69d31fce53e481c2a67}{Get\+Scattering\+Component\+List}} () const =0
+\begin{DoxyCompactList}\small\item\em Get the list of all scattering components for this scatterer. \end{DoxyCompactList}\item 
+virtual string \mbox{\hyperlink{class_obj_cryst_1_1_scatterer_a42bdf508da6a90859a5a61e16c27d47e}{Get\+Component\+Name}} (const int i) const =0
+\item 
+R\+E\+AL \mbox{\hyperlink{class_obj_cryst_1_1_scatterer_aa46e022b2ea81079b4d02da07b6bec4a}{GetX}} () const
+\item 
+R\+E\+AL \mbox{\hyperlink{class_obj_cryst_1_1_scatterer_aeebaad938c35a825e78cf49a5fba5d3c}{GetY}} () const
+\item 
+R\+E\+AL \mbox{\hyperlink{class_obj_cryst_1_1_scatterer_ac1d8f78fc091087c13664b6186923616}{GetZ}} () const
+\item 
+R\+E\+AL \mbox{\hyperlink{class_obj_cryst_1_1_scatterer_a6c063b27354d3885006a118de9816d69}{Get\+Occupancy}} () const
+\begin{DoxyCompactList}\small\item\em Get the occupancy of the scatterer (0. -\/$>$ 1.\+0) \end{DoxyCompactList}\item 
+virtual void \mbox{\hyperlink{class_obj_cryst_1_1_scatterer_aff5316d7c3bdfe1122c7182a5fa74c55}{SetX}} (const R\+E\+AL x)
+\item 
+virtual void \mbox{\hyperlink{class_obj_cryst_1_1_scatterer_a4be726a73ee8c60ed3d2efbcdbddec0b}{SetY}} (const R\+E\+AL y)
+\item 
+virtual void \mbox{\hyperlink{class_obj_cryst_1_1_scatterer_a4b37d00a337253b810700e068046c6ec}{SetZ}} (const R\+E\+AL z)
+\item 
+virtual void \mbox{\hyperlink{class_obj_cryst_1_1_scatterer_af861980515d2f0c1f2f4164e7a30359a}{Set\+Occupancy}} (const R\+E\+AL occupancy)
+\begin{DoxyCompactList}\small\item\em Change the occupancy of the scatterer (0. -\/$>$ 1.\+0) \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_obj_cryst_1_1_scatterer_a08809f1466046daf570fc5342b975f40}{operator string}} () const
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_scatterer_a0d865e9598c10ce4db5ff8885ecbc0a9}\label{class_obj_cryst_1_1_scatterer_a0d865e9598c10ce4db5ff8885ecbc0a9}} 
+virtual void \mbox{\hyperlink{class_obj_cryst_1_1_scatterer_a0d865e9598c10ce4db5ff8885ecbc0a9}{Print}} () const =0
+\begin{DoxyCompactList}\small\item\em Print some info about the scatterer (ideally this should be one line...). \end{DoxyCompactList}\item 
+virtual const string \& \mbox{\hyperlink{class_obj_cryst_1_1_scatterer_ac0d7457431eacb14d31bee72c6f0af7a}{Get\+Colour}} () const
+\begin{DoxyCompactList}\small\item\em Colour associated to this scatterer (using P\+O\+V\+Ray names) \end{DoxyCompactList}\item 
+virtual const float $\ast$ \mbox{\hyperlink{class_obj_cryst_1_1_scatterer_a4e7e5107e4557084f8cf7efb6489fee2}{Get\+Colour\+R\+GB}} () const
+\begin{DoxyCompactList}\small\item\em Colour associated to this scatterer, 3 R\+GB Coordinates. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_scatterer_a708cc857f82c9af4cbdf4d9334449d0f}\label{class_obj_cryst_1_1_scatterer_a708cc857f82c9af4cbdf4d9334449d0f}} 
+virtual ostream \& {\bfseries P\+O\+V\+Ray\+Description} (ostream \&os, const \mbox{\hyperlink{struct_obj_cryst_1_1_crystal_p_o_v_ray_options}{Crystal\+P\+O\+V\+Ray\+Options}} \&options) const =0
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_scatterer_aa80ea62ee58a9c6e12cb2863d641b3d3}\label{class_obj_cryst_1_1_scatterer_aa80ea62ee58a9c6e12cb2863d641b3d3}} 
+const Refinable\+Obj\+Clock \& \mbox{\hyperlink{class_obj_cryst_1_1_scatterer_aa80ea62ee58a9c6e12cb2863d641b3d3}{Get\+Clock\+Scatterer}} () const
+\begin{DoxyCompactList}\small\item\em Last time anything in the scatterer was changed (atoms, positions, scattering power) \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_scatterer_af8ad08284c802eb8d025d6c2f5ed211c}\label{class_obj_cryst_1_1_scatterer_af8ad08284c802eb8d025d6c2f5ed211c}} 
+Refinable\+Obj\+Clock \& \mbox{\hyperlink{class_obj_cryst_1_1_scatterer_af8ad08284c802eb8d025d6c2f5ed211c}{Get\+Clock\+Scatterer}} ()
+\begin{DoxyCompactList}\small\item\em Last time anything in the scatterer was changed (atoms, positions, scattering power) \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_scatterer_ace072c5113b5328a7145d33779582621}\label{class_obj_cryst_1_1_scatterer_ace072c5113b5328a7145d33779582621}} 
+void \mbox{\hyperlink{class_obj_cryst_1_1_scatterer_ace072c5113b5328a7145d33779582621}{Set\+Crystal}} (\mbox{\hyperlink{class_obj_cryst_1_1_crystal}{Crystal}} \&)
+\begin{DoxyCompactList}\small\item\em Set the crystal in which is included this \mbox{\hyperlink{class_obj_cryst_1_1_scatterer}{Scatterer}}. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_scatterer_a733922e9273220375cef87359773dc25}\label{class_obj_cryst_1_1_scatterer_a733922e9273220375cef87359773dc25}} 
+const \mbox{\hyperlink{class_obj_cryst_1_1_crystal}{Crystal}} \& \mbox{\hyperlink{class_obj_cryst_1_1_scatterer_a733922e9273220375cef87359773dc25}{Get\+Crystal}} () const
+\begin{DoxyCompactList}\small\item\em In which crystal is this \mbox{\hyperlink{class_obj_cryst_1_1_scatterer}{Scatterer}} included ? \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_scatterer_a7f6162168e96c40a041294b730c99618}\label{class_obj_cryst_1_1_scatterer_a7f6162168e96c40a041294b730c99618}} 
+\mbox{\hyperlink{class_obj_cryst_1_1_crystal}{Crystal}} \& \mbox{\hyperlink{class_obj_cryst_1_1_scatterer_a7f6162168e96c40a041294b730c99618}{Get\+Crystal}} ()
+\begin{DoxyCompactList}\small\item\em In which crystal is this \mbox{\hyperlink{class_obj_cryst_1_1_scatterer}{Scatterer}} included ? \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_scatterer_a45ef328b68a0a68c0228beefc25cda7f}\label{class_obj_cryst_1_1_scatterer_a45ef328b68a0a68c0228beefc25cda7f}} 
+virtual void {\bfseries Init\+Ref\+Par\+List} ()=0
+\item 
+virtual void \mbox{\hyperlink{class_obj_cryst_1_1_scatterer_a3edeffbf1cf3223663d9a7aa4bd321b1}{Init\+R\+G\+B\+Colour}} ()
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_scatterer_a238c21a4d2a4dfde6a8c0027a7cb8963}\label{class_obj_cryst_1_1_scatterer_a238c21a4d2a4dfde6a8c0027a7cb8963}} 
+const Refinable\+Obj\+Clock \& \mbox{\hyperlink{class_obj_cryst_1_1_scatterer_a238c21a4d2a4dfde6a8c0027a7cb8963}{Get\+Clock\+Scatt\+Comp\+List}} () const
+\begin{DoxyCompactList}\small\item\em Last time the \mbox{\hyperlink{class_obj_cryst_1_1_scattering_component_list}{Scattering\+Component\+List}} was generated. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_scatterer_a9cc523b07c82846bf0ddc3ce0e74bcc6}\label{class_obj_cryst_1_1_scatterer_a9cc523b07c82846bf0ddc3ce0e74bcc6}} 
+Cryst\+Vector\+\_\+\+R\+E\+AL \mbox{\hyperlink{class_obj_cryst_1_1_scatterer_a9cc523b07c82846bf0ddc3ce0e74bcc6}{m\+X\+YZ}}
+\begin{DoxyCompactList}\small\item\em coordinates of the scatterer (or of its center..) \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_scatterer_ae51b357e1cf9f523994f0e08c70bb489}\label{class_obj_cryst_1_1_scatterer_ae51b357e1cf9f523994f0e08c70bb489}} 
+R\+E\+AL \mbox{\hyperlink{class_obj_cryst_1_1_scatterer_ae51b357e1cf9f523994f0e08c70bb489}{m\+Occupancy}}
+\begin{DoxyCompactList}\small\item\em Occupancy \+: 0 $<$= occ $<$= 1 For a multi-\/atom scatterer (polyhedron,..), this is the {\bfseries{overall}} occupancy of the scatterer (affects all components of the scatterer). \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_scatterer_a1d1166aabc3a811ca70e37d2ad03ba05}\label{class_obj_cryst_1_1_scatterer_a1d1166aabc3a811ca70e37d2ad03ba05}} 
+string \mbox{\hyperlink{class_obj_cryst_1_1_scatterer_a1d1166aabc3a811ca70e37d2ad03ba05}{m\+Colour\+Name}}
+\begin{DoxyCompactList}\small\item\em Colour for this scatterer (from P\+O\+V\+Ray) \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_scatterer_ab62464d3d132a8e70f283648ae9ea020}\label{class_obj_cryst_1_1_scatterer_ab62464d3d132a8e70f283648ae9ea020}} 
+float \mbox{\hyperlink{class_obj_cryst_1_1_scatterer_ab62464d3d132a8e70f283648ae9ea020}{m\+Colour\+R\+GB}} \mbox{[}3\mbox{]}
+\begin{DoxyCompactList}\small\item\em Colour for this scatterer using R\+GB. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_scatterer_ace0238cbbd28dd0adb9e6102bc2b8cae}\label{class_obj_cryst_1_1_scatterer_ace0238cbbd28dd0adb9e6102bc2b8cae}} 
+Refinable\+Obj\+Clock \mbox{\hyperlink{class_obj_cryst_1_1_scatterer_ace0238cbbd28dd0adb9e6102bc2b8cae}{m\+Clock\+Scatterer}}
+\begin{DoxyCompactList}\small\item\em Last time anything (number of atoms, positions, scattering power) was changed. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_scatterer_a807f373561fbd1c460b0dfc40924e542}\label{class_obj_cryst_1_1_scatterer_a807f373561fbd1c460b0dfc40924e542}} 
+Refinable\+Obj\+Clock {\bfseries m\+Clock\+Scatt\+Comp\+List}
+\item 
+\mbox{\hyperlink{class_obj_cryst_1_1_crystal}{Crystal}} $\ast$ \mbox{\hyperlink{class_obj_cryst_1_1_scatterer_a359e6115a710c44bf340f439a17cb073}{mp\+Cryst}}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Generic type of scatterer\+: can be an atom, or a more complex assembly of atoms. 
+
+A \mbox{\hyperlink{class_obj_cryst_1_1_scatterer}{Scatterer}} is able to give its position (in fractionnal coordinates) in the unit cell, and more generally the position of all point scattering centers (\mbox{\hyperlink{struct_obj_cryst_1_1_scattering_component}{Scattering\+Component}}), along with the \mbox{\hyperlink{class_obj_cryst_1_1_scattering_power}{Scattering\+Power}} associated with each position.
+
+For simple atoms, there is only one scattering position with the associated scattering power (scattering factor, anomalous, thermic). For complex scatterers (molecules\+: \mbox{\hyperlink{class_obj_cryst_1_1_z_scatterer}{Z\+Scatterer}}) there are as many positions as atoms.
+
+A scatterer also has a few functions to display itself in 3D
+
+This is an abstract base class. 
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{class_obj_cryst_1_1_scatterer_ac0d7457431eacb14d31bee72c6f0af7a}\label{class_obj_cryst_1_1_scatterer_ac0d7457431eacb14d31bee72c6f0af7a}} 
+\index{ObjCryst::Scatterer@{ObjCryst::Scatterer}!GetColour@{GetColour}}
+\index{GetColour@{GetColour}!ObjCryst::Scatterer@{ObjCryst::Scatterer}}
+\subsubsection{\texorpdfstring{GetColour()}{GetColour()}}
+{\footnotesize\ttfamily const string \& Obj\+Cryst\+::\+Scatterer\+::\+Get\+Colour (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Colour associated to this scatterer (using P\+O\+V\+Ray names) 
+
+\mbox{\Hypertarget{class_obj_cryst_1_1_scatterer_a4e7e5107e4557084f8cf7efb6489fee2}\label{class_obj_cryst_1_1_scatterer_a4e7e5107e4557084f8cf7efb6489fee2}} 
+\index{ObjCryst::Scatterer@{ObjCryst::Scatterer}!GetColourRGB@{GetColourRGB}}
+\index{GetColourRGB@{GetColourRGB}!ObjCryst::Scatterer@{ObjCryst::Scatterer}}
+\subsubsection{\texorpdfstring{GetColourRGB()}{GetColourRGB()}}
+{\footnotesize\ttfamily const float $\ast$ Obj\+Cryst\+::\+Scatterer\+::\+Get\+Colour\+R\+GB (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Colour associated to this scatterer, 3 R\+GB Coordinates. 
+
+\mbox{\Hypertarget{class_obj_cryst_1_1_scatterer_a42bdf508da6a90859a5a61e16c27d47e}\label{class_obj_cryst_1_1_scatterer_a42bdf508da6a90859a5a61e16c27d47e}} 
+\index{ObjCryst::Scatterer@{ObjCryst::Scatterer}!GetComponentName@{GetComponentName}}
+\index{GetComponentName@{GetComponentName}!ObjCryst::Scatterer@{ObjCryst::Scatterer}}
+\subsubsection{\texorpdfstring{GetComponentName()}{GetComponentName()}}
+{\footnotesize\ttfamily virtual string Obj\+Cryst\+::\+Scatterer\+::\+Get\+Component\+Name (\begin{DoxyParamCaption}\item[{const int}]{i }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+Name for the i-\/th component of this scatterer. If the component is an \mbox{\hyperlink{class_obj_cryst_1_1_atom}{Atom}}, Then the name is that of the atom. Else, it is the name of the scatterer plus the component number in the scatterer plus the name of the \mbox{\hyperlink{class_obj_cryst_1_1_scattering_power}{Scattering\+Power}}. \begin{DoxyNote}{Note}
+It would be better to return a reference, but we don\textquotesingle{}t want to keep a name for all components... Weeelll, needs some more thinking... see what performance hit results (if any).
+\end{DoxyNote}
+\begin{DoxyRefDesc}{Bug}
+\item[\mbox{\hyperlink{bug__bug000001}{Bug}}]does not take into account dummy atoms !! \end{DoxyRefDesc}
+
+
+Implemented in \mbox{\hyperlink{class_obj_cryst_1_1_molecule_aa72f797c744577e606fa6976d8c7dcf8}{Obj\+Cryst\+::\+Molecule}}, \mbox{\hyperlink{class_obj_cryst_1_1_z_scatterer_a8202be8515c4f9117b666a22724df13c}{Obj\+Cryst\+::\+Z\+Scatterer}}, and \mbox{\hyperlink{class_obj_cryst_1_1_atom_ab6a32c77f67ab2682e00cef7969a59fd}{Obj\+Cryst\+::\+Atom}}.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=348pt]{class_obj_cryst_1_1_scatterer_a42bdf508da6a90859a5a61e16c27d47e_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_obj_cryst_1_1_scatterer_a6c063b27354d3885006a118de9816d69}\label{class_obj_cryst_1_1_scatterer_a6c063b27354d3885006a118de9816d69}} 
+\index{ObjCryst::Scatterer@{ObjCryst::Scatterer}!GetOccupancy@{GetOccupancy}}
+\index{GetOccupancy@{GetOccupancy}!ObjCryst::Scatterer@{ObjCryst::Scatterer}}
+\subsubsection{\texorpdfstring{GetOccupancy()}{GetOccupancy()}}
+{\footnotesize\ttfamily R\+E\+AL Obj\+Cryst\+::\+Scatterer\+::\+Get\+Occupancy (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Get the occupancy of the scatterer (0. -\/$>$ 1.\+0) 
+
+The occupancy is given in \%, and must take into account the \textquotesingle{}special position\textquotesingle{} character of atoms (ie an atom on a 2fold axis should have at most a .5 population, etc...). For a multi-\/atom scatterer (polyhedra), this is the {\bfseries{overall}} occupancy of the scatterer, affecting all atoms. Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_obj_cryst_1_1_scatterer_a6c063b27354d3885006a118de9816d69_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_obj_cryst_1_1_scatterer_aca0e08e3793cc69d31fce53e481c2a67}\label{class_obj_cryst_1_1_scatterer_aca0e08e3793cc69d31fce53e481c2a67}} 
+\index{ObjCryst::Scatterer@{ObjCryst::Scatterer}!GetScatteringComponentList@{GetScatteringComponentList}}
+\index{GetScatteringComponentList@{GetScatteringComponentList}!ObjCryst::Scatterer@{ObjCryst::Scatterer}}
+\subsubsection{\texorpdfstring{GetScatteringComponentList()}{GetScatteringComponentList()}}
+{\footnotesize\ttfamily virtual const \mbox{\hyperlink{class_obj_cryst_1_1_scattering_component_list}{Scattering\+Component\+List}}\& Obj\+Cryst\+::\+Scatterer\+::\+Get\+Scattering\+Component\+List (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+
+
+Get the list of all scattering components for this scatterer. 
+
+This is the most important function of this class, giving the list of scattering positions along with the associated \mbox{\hyperlink{class_obj_cryst_1_1_scattering_power}{Scattering\+Power}}. 
+
+Implemented in \mbox{\hyperlink{class_obj_cryst_1_1_molecule_a03f7f32ade8523f118cab14a21a87843}{Obj\+Cryst\+::\+Molecule}}, \mbox{\hyperlink{class_obj_cryst_1_1_z_scatterer_afebe0638df5f8f8cd3db05f69ed41a21}{Obj\+Cryst\+::\+Z\+Scatterer}}, and \mbox{\hyperlink{class_obj_cryst_1_1_atom_a91b7898458e7d14431ceaa380b8a2121}{Obj\+Cryst\+::\+Atom}}.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_obj_cryst_1_1_scatterer_aca0e08e3793cc69d31fce53e481c2a67_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_obj_cryst_1_1_scatterer_aa46e022b2ea81079b4d02da07b6bec4a}\label{class_obj_cryst_1_1_scatterer_aa46e022b2ea81079b4d02da07b6bec4a}} 
+\index{ObjCryst::Scatterer@{ObjCryst::Scatterer}!GetX@{GetX}}
+\index{GetX@{GetX}!ObjCryst::Scatterer@{ObjCryst::Scatterer}}
+\subsubsection{\texorpdfstring{GetX()}{GetX()}}
+{\footnotesize\ttfamily R\+E\+AL Obj\+Cryst\+::\+Scatterer\+::\+GetX (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+X coordinate (fractionnal) of the scatterer (for complex scatterers, this corresponds to the position of one atom of the \mbox{\hyperlink{class_obj_cryst_1_1_scatterer}{Scatterer}}, ideally it should be near the center of the \mbox{\hyperlink{class_obj_cryst_1_1_scatterer}{Scatterer}}. Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_obj_cryst_1_1_scatterer_aa46e022b2ea81079b4d02da07b6bec4a_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_obj_cryst_1_1_scatterer_aeebaad938c35a825e78cf49a5fba5d3c}\label{class_obj_cryst_1_1_scatterer_aeebaad938c35a825e78cf49a5fba5d3c}} 
+\index{ObjCryst::Scatterer@{ObjCryst::Scatterer}!GetY@{GetY}}
+\index{GetY@{GetY}!ObjCryst::Scatterer@{ObjCryst::Scatterer}}
+\subsubsection{\texorpdfstring{GetY()}{GetY()}}
+{\footnotesize\ttfamily R\+E\+AL Obj\+Cryst\+::\+Scatterer\+::\+GetY (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+Y coordinate (fractionnal) of the scatterer (for complex scatterers, this corresponds to the position of one atom of the \mbox{\hyperlink{class_obj_cryst_1_1_scatterer}{Scatterer}}, ideally it should be near the center of the \mbox{\hyperlink{class_obj_cryst_1_1_scatterer}{Scatterer}}. Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_obj_cryst_1_1_scatterer_aeebaad938c35a825e78cf49a5fba5d3c_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_obj_cryst_1_1_scatterer_ac1d8f78fc091087c13664b6186923616}\label{class_obj_cryst_1_1_scatterer_ac1d8f78fc091087c13664b6186923616}} 
+\index{ObjCryst::Scatterer@{ObjCryst::Scatterer}!GetZ@{GetZ}}
+\index{GetZ@{GetZ}!ObjCryst::Scatterer@{ObjCryst::Scatterer}}
+\subsubsection{\texorpdfstring{GetZ()}{GetZ()}}
+{\footnotesize\ttfamily R\+E\+AL Obj\+Cryst\+::\+Scatterer\+::\+GetZ (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+Z coordinate (fractionnal) of the scatterer (for complex scatterers, this corresponds to the position of one atom of the \mbox{\hyperlink{class_obj_cryst_1_1_scatterer}{Scatterer}}, ideally it should be near the center of the \mbox{\hyperlink{class_obj_cryst_1_1_scatterer}{Scatterer}}. Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_obj_cryst_1_1_scatterer_ac1d8f78fc091087c13664b6186923616_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_obj_cryst_1_1_scatterer_a3edeffbf1cf3223663d9a7aa4bd321b1}\label{class_obj_cryst_1_1_scatterer_a3edeffbf1cf3223663d9a7aa4bd321b1}} 
+\index{ObjCryst::Scatterer@{ObjCryst::Scatterer}!InitRGBColour@{InitRGBColour}}
+\index{InitRGBColour@{InitRGBColour}!ObjCryst::Scatterer@{ObjCryst::Scatterer}}
+\subsubsection{\texorpdfstring{InitRGBColour()}{InitRGBColour()}}
+{\footnotesize\ttfamily void Obj\+Cryst\+::\+Scatterer\+::\+Init\+R\+G\+B\+Colour (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}, {\ttfamily [virtual]}}
+
+Get R\+GB Colour coordinates from Colour Name. Note that the colour used for display is usually that of the \mbox{\hyperlink{class_obj_cryst_1_1_scattering_power}{Scattering\+Power}}, not that of the \mbox{\hyperlink{class_obj_cryst_1_1_scatterer}{Scatterer}} Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=318pt]{class_obj_cryst_1_1_scatterer_a3edeffbf1cf3223663d9a7aa4bd321b1_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_obj_cryst_1_1_scatterer_a08809f1466046daf570fc5342b975f40}\label{class_obj_cryst_1_1_scatterer_a08809f1466046daf570fc5342b975f40}} 
+\index{ObjCryst::Scatterer@{ObjCryst::Scatterer}!operator string@{operator string}}
+\index{operator string@{operator string}!ObjCryst::Scatterer@{ObjCryst::Scatterer}}
+\subsubsection{\texorpdfstring{operator string()}{operator string()}}
+{\footnotesize\ttfamily Obj\+Cryst\+::\+Scatterer\+::operator string (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+Conversion function.-\/$>$ returns the scatt name
+
+\begin{DoxyWarning}{Warning}
+E\+X\+P\+E\+R\+I\+M\+E\+N\+T\+AL. DO N\+OT U\+SE, as this may be removed. 
+\end{DoxyWarning}
+\mbox{\Hypertarget{class_obj_cryst_1_1_scatterer_af861980515d2f0c1f2f4164e7a30359a}\label{class_obj_cryst_1_1_scatterer_af861980515d2f0c1f2f4164e7a30359a}} 
+\index{ObjCryst::Scatterer@{ObjCryst::Scatterer}!SetOccupancy@{SetOccupancy}}
+\index{SetOccupancy@{SetOccupancy}!ObjCryst::Scatterer@{ObjCryst::Scatterer}}
+\subsubsection{\texorpdfstring{SetOccupancy()}{SetOccupancy()}}
+{\footnotesize\ttfamily void Obj\+Cryst\+::\+Scatterer\+::\+Set\+Occupancy (\begin{DoxyParamCaption}\item[{const R\+E\+AL}]{occupancy }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Change the occupancy of the scatterer (0. -\/$>$ 1.\+0) 
+
+The occupancy is given in \%, and must take into account the \textquotesingle{}special position\textquotesingle{} character of atoms (ie an atom on a 2fold axis should have at most a .5 population, etc...). For a multi-\/atom scatterer (polyhedra), this is the {\bfseries{overall}} occupancy of the scatterer, affecting all atoms. \mbox{\Hypertarget{class_obj_cryst_1_1_scatterer_aff5316d7c3bdfe1122c7182a5fa74c55}\label{class_obj_cryst_1_1_scatterer_aff5316d7c3bdfe1122c7182a5fa74c55}} 
+\index{ObjCryst::Scatterer@{ObjCryst::Scatterer}!SetX@{SetX}}
+\index{SetX@{SetX}!ObjCryst::Scatterer@{ObjCryst::Scatterer}}
+\subsubsection{\texorpdfstring{SetX()}{SetX()}}
+{\footnotesize\ttfamily void Obj\+Cryst\+::\+Scatterer\+::\+SetX (\begin{DoxyParamCaption}\item[{const R\+E\+AL}]{x }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+X coordinate (fractionnal) of the scatterer (for complex scatterers, this corresponds to the position of one atom of the \mbox{\hyperlink{class_obj_cryst_1_1_scatterer}{Scatterer}}, ideally it should be near the center of the \mbox{\hyperlink{class_obj_cryst_1_1_scatterer}{Scatterer}}. Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=314pt]{class_obj_cryst_1_1_scatterer_aff5316d7c3bdfe1122c7182a5fa74c55_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_obj_cryst_1_1_scatterer_a4be726a73ee8c60ed3d2efbcdbddec0b}\label{class_obj_cryst_1_1_scatterer_a4be726a73ee8c60ed3d2efbcdbddec0b}} 
+\index{ObjCryst::Scatterer@{ObjCryst::Scatterer}!SetY@{SetY}}
+\index{SetY@{SetY}!ObjCryst::Scatterer@{ObjCryst::Scatterer}}
+\subsubsection{\texorpdfstring{SetY()}{SetY()}}
+{\footnotesize\ttfamily void Obj\+Cryst\+::\+Scatterer\+::\+SetY (\begin{DoxyParamCaption}\item[{const R\+E\+AL}]{y }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+Y coordinate (fractionnal) of the scatterer (for complex scatterers, this corresponds to the position of one atom of the \mbox{\hyperlink{class_obj_cryst_1_1_scatterer}{Scatterer}}, ideally it should be near the center of the \mbox{\hyperlink{class_obj_cryst_1_1_scatterer}{Scatterer}}. Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=314pt]{class_obj_cryst_1_1_scatterer_a4be726a73ee8c60ed3d2efbcdbddec0b_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_obj_cryst_1_1_scatterer_a4b37d00a337253b810700e068046c6ec}\label{class_obj_cryst_1_1_scatterer_a4b37d00a337253b810700e068046c6ec}} 
+\index{ObjCryst::Scatterer@{ObjCryst::Scatterer}!SetZ@{SetZ}}
+\index{SetZ@{SetZ}!ObjCryst::Scatterer@{ObjCryst::Scatterer}}
+\subsubsection{\texorpdfstring{SetZ()}{SetZ()}}
+{\footnotesize\ttfamily void Obj\+Cryst\+::\+Scatterer\+::\+SetZ (\begin{DoxyParamCaption}\item[{const R\+E\+AL}]{z }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+Z coordinate (fractionnal) of the scatterer (for complex scatterers, this corresponds to the position of one atom of the \mbox{\hyperlink{class_obj_cryst_1_1_scatterer}{Scatterer}}, ideally it should be near the center of the \mbox{\hyperlink{class_obj_cryst_1_1_scatterer}{Scatterer}}. Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=314pt]{class_obj_cryst_1_1_scatterer_a4b37d00a337253b810700e068046c6ec_icgraph}
+\end{center}
+\end{figure}
+
+
+\subsection{Member Data Documentation}
+\mbox{\Hypertarget{class_obj_cryst_1_1_scatterer_a359e6115a710c44bf340f439a17cb073}\label{class_obj_cryst_1_1_scatterer_a359e6115a710c44bf340f439a17cb073}} 
+\index{ObjCryst::Scatterer@{ObjCryst::Scatterer}!mpCryst@{mpCryst}}
+\index{mpCryst@{mpCryst}!ObjCryst::Scatterer@{ObjCryst::Scatterer}}
+\subsubsection{\texorpdfstring{mpCryst}{mpCryst}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_obj_cryst_1_1_crystal}{Crystal}}$\ast$ Obj\+Cryst\+::\+Scatterer\+::mp\+Cryst\hspace{0.3cm}{\ttfamily [protected]}}
+
+The crystal in which the \mbox{\hyperlink{class_obj_cryst_1_1_scatterer}{Scatterer}} is This is needed so that we can know which scattering powers are available in the crystal, and also to convert fractionnal to orthonormal coordinates (for some scatterers only). It cannot be const since some scatterers may want to modify the list of scattering powers of the crystal... 
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+Scatterer.\+h\item 
+Scatterer.\+cpp\end{DoxyCompactItemize}

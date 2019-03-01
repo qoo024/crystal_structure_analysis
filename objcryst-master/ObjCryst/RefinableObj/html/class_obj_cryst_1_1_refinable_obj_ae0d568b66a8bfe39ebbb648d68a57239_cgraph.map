@@ -1,0 +1,13 @@
+<map id="ObjCryst::RefinableObj::RandomizeConfiguration" name="ObjCryst::RefinableObj::RandomizeConfiguration">
+<area shape="rect" id="node1" title=" " alt="" coords="5,251,181,289"/>
+<area shape="rect" id="node2" href="$class_obj_cryst_1_1_refinable_obj.html#a6710a75c0477b6ad7e42400cdc6f1c32" title=" " alt="" coords="229,68,393,107"/>
+<area shape="rect" id="node6" href="$class_obj_cryst_1_1_refinable_obj.html#aec578948ddf1786b64df6e83df57f0c5" title="Total number of non&#45;fixed parameters. Is initialized by PrepareForRefinement()" alt="" coords="232,131,390,169"/>
+<area shape="rect" id="node7" href="$class_obj_cryst_1_1_refinable_obj.html#a77a4f8d1b3b1184ac92b1a4b55a7f77a" title=" " alt="" coords="232,193,390,232"/>
+<area shape="rect" id="node8" href="$class_obj_cryst_1_1_refinable_par.html#a36eec5c431fa6ebcc2adf95454ba3c58" title="Minimum value allowed (if limited or periodic)" alt="" coords="441,264,599,303"/>
+<area shape="rect" id="node9" href="$class_obj_cryst_1_1_refinable_par.html#ab29c440d745f91d1c89bf817169e42db" title="Get the maximum value allowed (if limited)" alt="" coords="441,352,599,391"/>
+<area shape="rect" id="node10" href="$class_obj_cryst_1_1_refinable_par.html#a696f87a0a129cfd270144532d664d093" title=" " alt="" coords="232,308,390,347"/>
+<area shape="rect" id="node11" href="$class_obj_cryst_1_1_refinable_obj.html#a55e54c4b43853cc658f275771645f14a" title="Access to the registry of RefinableObj used by this object." alt="" coords="232,423,390,461"/>
+<area shape="rect" id="node3" href="$class_obj_cryst_1_1_refinable_obj.html#a3a45838e4463a17f1d32a892dc48c1dd" title=" " alt="" coords="441,5,599,44"/>
+<area shape="rect" id="node4" href="$class_obj_cryst_1_1_refinable_obj.html#a20def1b7c2106df61d4a119b3519e4a4" title="Access all parameters in the order they were inputted." alt="" coords="441,68,599,107"/>
+<area shape="rect" id="node5" href="$class_obj_cryst_1_1_refinable_par.html#aadb7b77e5214d742a2ee21c33a8190c2" title="Is the parameter used (if not, it is simply irrelevant in the model) ?" alt="" coords="441,131,599,169"/>
+</map>

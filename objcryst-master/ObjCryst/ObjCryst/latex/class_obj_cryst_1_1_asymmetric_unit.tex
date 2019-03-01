@@ -1,0 +1,59 @@
+\hypertarget{class_obj_cryst_1_1_asymmetric_unit}{}\section{Obj\+Cryst\+::Asymmetric\+Unit Class Reference}
+\label{class_obj_cryst_1_1_asymmetric_unit}\index{ObjCryst::AsymmetricUnit@{ObjCryst::AsymmetricUnit}}
+
+
+The basic description of spacegroup asymmetric unit.  
+
+
+
+
+{\ttfamily \#include $<$Space\+Group.\+h$>$}
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_asymmetric_unit_a747085c4da803b7653cc94d5f80a08e9}\label{class_obj_cryst_1_1_asymmetric_unit_a747085c4da803b7653cc94d5f80a08e9}} 
+\mbox{\hyperlink{class_obj_cryst_1_1_asymmetric_unit_a747085c4da803b7653cc94d5f80a08e9}{Asymmetric\+Unit}} ()
+\begin{DoxyCompactList}\small\item\em Default Constructor. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_asymmetric_unit_a382cdbb29b31cb1069cedfda111a7b52}\label{class_obj_cryst_1_1_asymmetric_unit_a382cdbb29b31cb1069cedfda111a7b52}} 
+\mbox{\hyperlink{class_obj_cryst_1_1_asymmetric_unit_a382cdbb29b31cb1069cedfda111a7b52}{Asymmetric\+Unit}} (const \mbox{\hyperlink{class_obj_cryst_1_1_space_group}{Space\+Group}} \&spg)
+\begin{DoxyCompactList}\small\item\em Constructor, for a given spacegroup. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_asymmetric_unit_a74250a6135b809e1e5d4263babf7b78f}\label{class_obj_cryst_1_1_asymmetric_unit_a74250a6135b809e1e5d4263babf7b78f}} 
+void \mbox{\hyperlink{class_obj_cryst_1_1_asymmetric_unit_a74250a6135b809e1e5d4263babf7b78f}{Set\+Space\+Group}} (const \mbox{\hyperlink{class_obj_cryst_1_1_space_group}{Space\+Group}} \&spg)
+\begin{DoxyCompactList}\small\item\em Assign a \mbox{\hyperlink{class_obj_cryst_1_1_space_group}{Space\+Group}} and generate the corrsponding Xmax, Ymax, Z\+Max. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_asymmetric_unit_a9381b72c139d8d0399b4c191bf108cf9}\label{class_obj_cryst_1_1_asymmetric_unit_a9381b72c139d8d0399b4c191bf108cf9}} 
+bool \mbox{\hyperlink{class_obj_cryst_1_1_asymmetric_unit_a9381b72c139d8d0399b4c191bf108cf9}{Is\+In\+Asymmetric\+Unit}} (const R\+E\+AL x, const R\+E\+AL y, const R\+E\+AL z) const
+\begin{DoxyCompactList}\small\item\em Test if (x,y,z) is in the asymmetric unit. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_asymmetric_unit_a68cf506823f4ab583dde36733b26b730}\label{class_obj_cryst_1_1_asymmetric_unit_a68cf506823f4ab583dde36733b26b730}} 
+R\+E\+AL {\bfseries Xmin} () const
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_asymmetric_unit_ad7c5c84ad1a1bd6da8fad62fea9ede20}\label{class_obj_cryst_1_1_asymmetric_unit_ad7c5c84ad1a1bd6da8fad62fea9ede20}} 
+R\+E\+AL {\bfseries Xmax} () const
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_asymmetric_unit_a63a6421bf5836994bcef5aa00e907157}\label{class_obj_cryst_1_1_asymmetric_unit_a63a6421bf5836994bcef5aa00e907157}} 
+R\+E\+AL {\bfseries Ymin} () const
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_asymmetric_unit_a283765baee75c7b0e7f88c9b14813f9e}\label{class_obj_cryst_1_1_asymmetric_unit_a283765baee75c7b0e7f88c9b14813f9e}} 
+R\+E\+AL {\bfseries Ymax} () const
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_asymmetric_unit_af56f28ae6036908de82772aa59e30998}\label{class_obj_cryst_1_1_asymmetric_unit_af56f28ae6036908de82772aa59e30998}} 
+R\+E\+AL {\bfseries Zmin} () const
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_asymmetric_unit_a9068f8ca8be1bdfac6211898dd0d29eb}\label{class_obj_cryst_1_1_asymmetric_unit_a9068f8ca8be1bdfac6211898dd0d29eb}} 
+R\+E\+AL {\bfseries Zmax} () const
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+The basic description of spacegroup asymmetric unit. 
+
+Only xmin,xmax,ymin,ymax and zmin,zmax are recorded, thus resulting in a parallelepipedic unit with one (0,0,0) corner. It is not really \textquotesingle{}asymmetric\textquotesingle{} since more than the crystallographic asymmetric unit can be included in it.
+
+\begin{DoxyRefDesc}{Todo}
+\item[\mbox{\hyperlink{todo__todo000013}{Todo}}]Currently the initialization of the asymmetric unit is done numerically, slowly. A faster algorithm should be used (using dichotomy), or we could switch to using a table of asymmetric units. \end{DoxyRefDesc}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+Space\+Group.\+h\item 
+Space\+Group.\+cpp\end{DoxyCompactItemize}

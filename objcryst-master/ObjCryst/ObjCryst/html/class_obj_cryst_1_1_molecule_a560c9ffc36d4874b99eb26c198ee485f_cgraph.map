@@ -1,0 +1,8 @@
+<map id="ObjCryst::Molecule::RigidifyWithDihedralAngles" name="ObjCryst::Molecule::RigidifyWithDihedralAngles">
+<area shape="rect" id="node1" title=" " alt="" coords="5,141,195,180"/>
+<area shape="rect" id="node2" href="$class_obj_cryst_1_1_molecule.html#a45ed440475011a0ceb933f56751c11da" title=" " alt="" coords="254,5,417,44"/>
+<area shape="rect" id="node3" href="$namespace_obj_cryst.html#ad378f55096180bcac292460ddc816935" title="Get The Bond Angle of 3 atoms." alt="" coords="252,92,419,117"/>
+<area shape="rect" id="node4" href="$class_obj_cryst_1_1_molecule.html#a6bc7da1865f3fd5adc42323fc44d292c" title=" " alt="" coords="267,141,405,180"/>
+<area shape="rect" id="node5" href="$namespace_obj_cryst.html#ad0dfebbddb95d5a57eceb1c7484d223d" title="Get The dihedral angle defined by 4 atoms." alt="" coords="243,228,429,253"/>
+<area shape="rect" id="node6" href="$class_obj_cryst_1_1_molecule.html#aae30adce9fdd16e42cab4f8e434f01cf" title=" " alt="" coords="268,277,404,316"/>
+</map>

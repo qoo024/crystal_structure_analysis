@@ -1,0 +1,6 @@
+<map id="ObjCryst::ScatteringPower::GetBiso" name="ObjCryst::ScatteringPower::GetBiso">
+<area shape="rect" id="node1" title="Returns the isotropic temperature B factor." alt="" coords="232,48,410,87"/>
+<area shape="rect" id="node2" href="$class_obj_cryst_1_1_atom.html#a8cf5b61d0df0bf2e55d6c44f67c06da0" title="Print some info about the scatterer (ideally this should be one line...)." alt="" coords="21,5,168,31"/>
+<area shape="rect" id="node3" href="$class_obj_cryst_1_1_atom.html#a9fb77dee90fcd6bbcd199e6efa8e8c3c" title="Returns the molar mass of the atom." alt="" coords="8,55,181,80"/>
+<area shape="rect" id="node4" href="$class_obj_cryst_1_1_scattering_power_atom.html#a549de97e18838d040c1aa473122f762e" title="Set the symbol for this atom." alt="" coords="5,104,184,143"/>
+</map>

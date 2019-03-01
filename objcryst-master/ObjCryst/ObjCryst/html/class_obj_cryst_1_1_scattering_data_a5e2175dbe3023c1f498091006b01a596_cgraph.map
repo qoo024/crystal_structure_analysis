@@ -1,0 +1,18 @@
+<map id="ObjCryst::ScatteringData::CalcStructFactVariance" name="ObjCryst::ScatteringData::CalcStructFactVariance">
+<area shape="rect" id="node1" title=" " alt="" coords="5,468,174,507"/>
+<area shape="rect" id="node2" href="$class_obj_cryst_1_1_crystal.html#afe78d3190beb21efe9c4d524ead73813" title="Get the clock which reports all changes in ScatteringPowers." alt="" coords="241,163,455,201"/>
+<area shape="rect" id="node3" href="$class_obj_cryst_1_1_scattering_data.html#af36fabc6841d45d4be8a3c3e7fd4d1ff" title="Const access to the data&#39;s crystal." alt="" coords="264,225,432,264"/>
+<area shape="rect" id="node4" href="$class_obj_cryst_1_1_crystal.html#a5ff33da1575572684743281c92f6596a" title="Get the list of all scattering components." alt="" coords="252,288,444,327"/>
+<area shape="rect" id="node11" href="$class_obj_cryst_1_1_scattering_component_list.html#acda94d3d6f78467a7f56c0cf9aed1973" title="Number of components." alt="" coords="779,381,989,420"/>
+<area shape="rect" id="node13" href="$class_obj_cryst_1_1_crystal.html#a98b594908ebbdf25249965eaf61eccdc" title="Get the registry of ScatteringPower included in this Crystal." alt="" coords="253,496,443,535"/>
+<area shape="rect" id="node14" href="$class_obj_cryst_1_1_unit_cell.html#aa7d18fa157c16e2d084c3e403317d2ab" title="Access to the SpaceGroup object." alt="" coords="284,559,412,597"/>
+<area shape="rect" id="node15" href="$class_obj_cryst_1_1_space_group.html#a3790c6c41b59e2584c48f62ab1766bec" title="Return the number of equivalent positions in the spacegroup, ie the multilicity of the general positi..." alt="" coords="270,621,426,660"/>
+<area shape="rect" id="node16" href="$class_obj_cryst_1_1_scattering_power.html#a724900d7f7714f47ca62a715e26dd5ca" title="Maximum Likelihood: get the number of ghost elements per asymmetric unit." alt="" coords="222,684,474,723"/>
+<area shape="rect" id="node5" href="$class_obj_cryst_1_1_unit_cell.html#ad774324f564621a3e7bcd0cfcafae9cc" title="last time the Lattice parameters were changed" alt="" coords="555,5,699,44"/>
+<area shape="rect" id="node6" href="$class_obj_cryst_1_1_crystal.html#ab991f8f3cc005760f939f7d41694cfdf" title="Provides an access to the scatterers." alt="" coords="562,68,691,107"/>
+<area shape="rect" id="node7" href="$class_obj_cryst_1_1_scatterer.html#aa80ea62ee58a9c6e12cb2863d641b3d3" title="Last time anything in the scatterer was changed (atoms, positions, scattering power)" alt="" coords="558,131,696,169"/>
+<area shape="rect" id="node8" href="$class_obj_cryst_1_1_scattering_component_list.html#a512dcd4870c53b3f98ad6e7b04be9801" title=" " alt="" coords="522,193,731,232"/>
+<area shape="rect" id="node9" href="$class_obj_cryst_1_1_scatterer.html#aca0e08e3793cc69d31fce53e481c2a67" title="Get the list of all scattering components for this scatterer." alt="" coords="527,256,727,295"/>
+<area shape="rect" id="node10" href="$class_obj_cryst_1_1_crystal.html#a003ff86924120b77365f8e129fde87f2" title="Reset Dynamical Population Correction factors (ie set it to 1)" alt="" coords="562,319,691,357"/>
+<area shape="rect" id="node12" href="$class_obj_cryst_1_1_scattering_component_list.html#af16db467893abc60b718dcc675d2ec66" title="Print the list of Scattering components. For debugging." alt="" coords="522,381,731,420"/>
+</map>

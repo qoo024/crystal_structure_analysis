@@ -1,0 +1,138 @@
+\hypertarget{class_obj_cryst_1_1_reflection_profile_pseudo_voigt}{}\section{Obj\+Cryst\+::Reflection\+Profile\+Pseudo\+Voigt Class Reference}
+\label{class_obj_cryst_1_1_reflection_profile_pseudo_voigt}\index{ObjCryst::ReflectionProfilePseudoVoigt@{ObjCryst::ReflectionProfilePseudoVoigt}}
+
+
+{\ttfamily \#include $<$Reflection\+Profile.\+h$>$}
+
+
+
+Inheritance diagram for Obj\+Cryst\+::Reflection\+Profile\+Pseudo\+Voigt\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=213pt]{class_obj_cryst_1_1_reflection_profile_pseudo_voigt__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Obj\+Cryst\+::Reflection\+Profile\+Pseudo\+Voigt\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=213pt]{class_obj_cryst_1_1_reflection_profile_pseudo_voigt__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_reflection_profile_pseudo_voigt_a00e4ab294a17b1cf082567eccad9807f}\label{class_obj_cryst_1_1_reflection_profile_pseudo_voigt_a00e4ab294a17b1cf082567eccad9807f}} 
+{\bfseries Reflection\+Profile\+Pseudo\+Voigt} (const \mbox{\hyperlink{class_obj_cryst_1_1_reflection_profile_pseudo_voigt}{Reflection\+Profile\+Pseudo\+Voigt}} \&old)
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_reflection_profile_pseudo_voigt_aa8479276d168db5d052f1a6ad80ffdb8}\label{class_obj_cryst_1_1_reflection_profile_pseudo_voigt_aa8479276d168db5d052f1a6ad80ffdb8}} 
+virtual \mbox{\hyperlink{class_obj_cryst_1_1_reflection_profile_pseudo_voigt}{Reflection\+Profile\+Pseudo\+Voigt}} $\ast$ {\bfseries Create\+Copy} () const
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_reflection_profile_pseudo_voigt_a25a7d114337210841706f733698ab539}\label{class_obj_cryst_1_1_reflection_profile_pseudo_voigt_a25a7d114337210841706f733698ab539}} 
+virtual const string \& {\bfseries Get\+Class\+Name} () const
+\item 
+Cryst\+Vector\+\_\+\+R\+E\+AL \mbox{\hyperlink{class_obj_cryst_1_1_reflection_profile_pseudo_voigt_aa8a7489c58c10252c977de54e0aa6292}{Get\+Profile}} (const Cryst\+Vector\+\_\+\+R\+E\+AL \&x, const R\+E\+AL xcenter, const R\+E\+AL h, const R\+E\+AL k, const R\+E\+AL l) const
+\item 
+void \mbox{\hyperlink{class_obj_cryst_1_1_reflection_profile_pseudo_voigt_a41d53cb9c852d564d06c5ccb3ddfbcca}{Set\+Profile\+Par}} (const R\+E\+AL fwhm\+CagliotiW, const R\+E\+AL fwhm\+CagliotiU=0, const R\+E\+AL fwhm\+CagliotiV=0, const R\+E\+AL eta0=0.\+5, const R\+E\+AL eta1=0.)
+\item 
+virtual R\+E\+AL \mbox{\hyperlink{class_obj_cryst_1_1_reflection_profile_pseudo_voigt_aab311ae897daf5e738eb7727e57fd0c7}{Get\+Full\+Profile\+Width}} (const R\+E\+AL relative\+Intensity, const R\+E\+AL xcenter, const R\+E\+AL h, const R\+E\+AL k, const R\+E\+AL l)
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_reflection_profile_pseudo_voigt_acc84f44528014542fa395352edad6079}\label{class_obj_cryst_1_1_reflection_profile_pseudo_voigt_acc84f44528014542fa395352edad6079}} 
+bool \mbox{\hyperlink{class_obj_cryst_1_1_reflection_profile_pseudo_voigt_acc84f44528014542fa395352edad6079}{Is\+Anisotropic}} () const
+\begin{DoxyCompactList}\small\item\em Is the profile anisotropic ? \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_reflection_profile_pseudo_voigt_a1c93a0c50f14366362b531baa65332d9}\label{class_obj_cryst_1_1_reflection_profile_pseudo_voigt_a1c93a0c50f14366362b531baa65332d9}} 
+virtual void {\bfseries X\+M\+L\+Output} (ostream \&os, int indent=0) const
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_reflection_profile_pseudo_voigt_adc59b6a42dbf81ecf2fe23b178eb607e}\label{class_obj_cryst_1_1_reflection_profile_pseudo_voigt_adc59b6a42dbf81ecf2fe23b178eb607e}} 
+virtual void {\bfseries X\+M\+L\+Input} (istream \&is, const X\+M\+L\+Cryst\+Tag \&tag)
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Pseudo-\/\+Voigt reflection profile. 
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{class_obj_cryst_1_1_reflection_profile_pseudo_voigt_aab311ae897daf5e738eb7727e57fd0c7}\label{class_obj_cryst_1_1_reflection_profile_pseudo_voigt_aab311ae897daf5e738eb7727e57fd0c7}} 
+\index{ObjCryst::ReflectionProfilePseudoVoigt@{ObjCryst::ReflectionProfilePseudoVoigt}!GetFullProfileWidth@{GetFullProfileWidth}}
+\index{GetFullProfileWidth@{GetFullProfileWidth}!ObjCryst::ReflectionProfilePseudoVoigt@{ObjCryst::ReflectionProfilePseudoVoigt}}
+\subsubsection{\texorpdfstring{GetFullProfileWidth()}{GetFullProfileWidth()}}
+{\footnotesize\ttfamily R\+E\+AL Obj\+Cryst\+::\+Reflection\+Profile\+Pseudo\+Voigt\+::\+Get\+Full\+Profile\+Width (\begin{DoxyParamCaption}\item[{const R\+E\+AL}]{relative\+Intensity,  }\item[{const R\+E\+AL}]{xcenter,  }\item[{const R\+E\+AL}]{h,  }\item[{const R\+E\+AL}]{k,  }\item[{const R\+E\+AL}]{l }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+Get the (approximate) full profile width at a given percentage of the profile maximum (e.\+g. F\+W\+HM=Get\+Full\+Profile\+Width(0.\+5)). 
+
+Implements \mbox{\hyperlink{class_obj_cryst_1_1_reflection_profile_ac6d2a69e63c3efd06f30ab134062bbc0}{Obj\+Cryst\+::\+Reflection\+Profile}}.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_obj_cryst_1_1_reflection_profile_pseudo_voigt_aab311ae897daf5e738eb7727e57fd0c7_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_obj_cryst_1_1_reflection_profile_pseudo_voigt_aa8a7489c58c10252c977de54e0aa6292}\label{class_obj_cryst_1_1_reflection_profile_pseudo_voigt_aa8a7489c58c10252c977de54e0aa6292}} 
+\index{ObjCryst::ReflectionProfilePseudoVoigt@{ObjCryst::ReflectionProfilePseudoVoigt}!GetProfile@{GetProfile}}
+\index{GetProfile@{GetProfile}!ObjCryst::ReflectionProfilePseudoVoigt@{ObjCryst::ReflectionProfilePseudoVoigt}}
+\subsubsection{\texorpdfstring{GetProfile()}{GetProfile()}}
+{\footnotesize\ttfamily Cryst\+Vector\+\_\+\+R\+E\+AL Obj\+Cryst\+::\+Reflection\+Profile\+Pseudo\+Voigt\+::\+Get\+Profile (\begin{DoxyParamCaption}\item[{const Cryst\+Vector\+\_\+\+R\+E\+AL \&}]{x,  }\item[{const R\+E\+AL}]{xcenter,  }\item[{const R\+E\+AL}]{h,  }\item[{const R\+E\+AL}]{k,  }\item[{const R\+E\+AL}]{l }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [virtual]}}
+
+Get the reflection profile
+
+
+\begin{DoxyParams}{Parameters}
+{\em x} & the vector of x coordinates (i.\+e. either 2theta or time-\/of-\/flight) \\
+\hline
+{\em xcenter} & coordinate (2theta, tof) of the center of the peak \\
+\hline
+{\em h,k,l} & reflection Miller indices \\
+\hline
+\end{DoxyParams}
+\begin{DoxyNote}{Note}
+\+: derived classes who need either d\+\_\+hkl or the orthonormal coordinates of the scattering vector should be passed a \mbox{\hyperlink{class_obj_cryst_1_1_unit_cell}{Obj\+Cryst\+::\+Unit\+Cell}} object in the constructor so that they can use \mbox{\hyperlink{class_obj_cryst_1_1_unit_cell_a2c9490f42bf9fa2438eb311ac46fd448}{Obj\+Cryst\+::\+Unit\+Cell\+::\+Miller\+To\+Orthonormal\+Coords()}} 
+\end{DoxyNote}
+
+
+Implements \mbox{\hyperlink{class_obj_cryst_1_1_reflection_profile_a0c71ddbfb976e320ccedf907b741b4d5}{Obj\+Cryst\+::\+Reflection\+Profile}}.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_obj_cryst_1_1_reflection_profile_pseudo_voigt_aa8a7489c58c10252c977de54e0aa6292_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_obj_cryst_1_1_reflection_profile_pseudo_voigt_a41d53cb9c852d564d06c5ccb3ddfbcca}\label{class_obj_cryst_1_1_reflection_profile_pseudo_voigt_a41d53cb9c852d564d06c5ccb3ddfbcca}} 
+\index{ObjCryst::ReflectionProfilePseudoVoigt@{ObjCryst::ReflectionProfilePseudoVoigt}!SetProfilePar@{SetProfilePar}}
+\index{SetProfilePar@{SetProfilePar}!ObjCryst::ReflectionProfilePseudoVoigt@{ObjCryst::ReflectionProfilePseudoVoigt}}
+\subsubsection{\texorpdfstring{SetProfilePar()}{SetProfilePar()}}
+{\footnotesize\ttfamily void Obj\+Cryst\+::\+Reflection\+Profile\+Pseudo\+Voigt\+::\+Set\+Profile\+Par (\begin{DoxyParamCaption}\item[{const R\+E\+AL}]{fwhm\+CagliotiW,  }\item[{const R\+E\+AL}]{fwhm\+CagliotiU = {\ttfamily 0},  }\item[{const R\+E\+AL}]{fwhm\+CagliotiV = {\ttfamily 0},  }\item[{const R\+E\+AL}]{eta0 = {\ttfamily 0.5},  }\item[{const R\+E\+AL}]{eta1 = {\ttfamily 0.} }\end{DoxyParamCaption})}
+
+Set reflection profile parameters
+
+
+\begin{DoxyParams}{Parameters}
+{\em fwhm\+CagliotiW,fwhm\+CagliotiU,fwhm\+CagliotiV} & \+: these are the U,V and W parameters in the Caglioti\textquotesingle{}s law \+: $ fwhm^2= U \tan^2(\theta) + V \tan(\theta) +W $ if only W is given, the width is constant \\
+\hline
+{\em eta0,eta1} & these are the mixing parameters. \\
+\hline
+\end{DoxyParams}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_obj_cryst_1_1_reflection_profile_pseudo_voigt_a41d53cb9c852d564d06c5ccb3ddfbcca_icgraph}
+\end{center}
+\end{figure}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+Reflection\+Profile.\+h\item 
+Reflection\+Profile.\+cpp\end{DoxyCompactItemize}

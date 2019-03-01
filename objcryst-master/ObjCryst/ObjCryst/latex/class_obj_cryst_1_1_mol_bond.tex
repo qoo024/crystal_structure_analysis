@@ -1,0 +1,195 @@
+\hypertarget{class_obj_cryst_1_1_mol_bond}{}\section{Obj\+Cryst\+::Mol\+Bond Class Reference}
+\label{class_obj_cryst_1_1_mol_bond}\index{ObjCryst::MolBond@{ObjCryst::MolBond}}
+
+
+{\ttfamily \#include $<$Molecule.\+h$>$}
+
+
+
+Inheritance diagram for Obj\+Cryst\+::Mol\+Bond\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=180pt]{class_obj_cryst_1_1_mol_bond__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Obj\+Cryst\+::Mol\+Bond\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=180pt]{class_obj_cryst_1_1_mol_bond__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_obj_cryst_1_1_mol_bond_aa5eb1a8ba4e34da2516bfc24af4fabec}{Mol\+Bond}} (\mbox{\hyperlink{class_obj_cryst_1_1_mol_atom}{Mol\+Atom}} \&atom1, \mbox{\hyperlink{class_obj_cryst_1_1_mol_atom}{Mol\+Atom}} \&atom2, const R\+E\+AL length, const R\+E\+AL sigma, const R\+E\+AL delta, \mbox{\hyperlink{class_obj_cryst_1_1_molecule}{Molecule}} \&parent, const R\+E\+AL bond\+Order=1.)
+\item 
+virtual \mbox{\hyperlink{class_obj_cryst_1_1_mol_bond_a2cf7c1c4da8cb4e802fbc9a2bed2eba7}{$\sim$\+Mol\+Bond}} ()
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_mol_bond_a7b9849d66e696f84f695de39d1d0e8dc}\label{class_obj_cryst_1_1_mol_bond_a7b9849d66e696f84f695de39d1d0e8dc}} 
+const \mbox{\hyperlink{class_obj_cryst_1_1_molecule}{Molecule}} \& {\bfseries Get\+Molecule} () const
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_mol_bond_aa1ff21e762b0c46cd28d717619bc0e1e}\label{class_obj_cryst_1_1_mol_bond_aa1ff21e762b0c46cd28d717619bc0e1e}} 
+\mbox{\hyperlink{class_obj_cryst_1_1_molecule}{Molecule}} \& {\bfseries Get\+Molecule} ()
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_mol_bond_aa2e55e0744234ef375f2b1e596270a03}\label{class_obj_cryst_1_1_mol_bond_aa2e55e0744234ef375f2b1e596270a03}} 
+string \mbox{\hyperlink{class_obj_cryst_1_1_mol_bond_aa2e55e0744234ef375f2b1e596270a03}{Get\+Name}} () const
+\begin{DoxyCompactList}\small\item\em Name of the bond, e.\+g. \char`\"{}\+C3-\/\+O4\char`\"{}. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_mol_bond_aa78e51825d075d53fa6a4104a63f51eb}\label{class_obj_cryst_1_1_mol_bond_aa78e51825d075d53fa6a4104a63f51eb}} 
+virtual void {\bfseries X\+M\+L\+Output} (ostream \&os, int indent=0) const
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_mol_bond_a890b0c90de24f4ac97f6ce4f7a9cd643}\label{class_obj_cryst_1_1_mol_bond_a890b0c90de24f4ac97f6ce4f7a9cd643}} 
+virtual void {\bfseries X\+M\+L\+Input} (istream \&is, const X\+M\+L\+Cryst\+Tag \&tag)
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_mol_bond_a64b6e8a6cb02eeee4d6b6b5f12af8da7}\label{class_obj_cryst_1_1_mol_bond_a64b6e8a6cb02eeee4d6b6b5f12af8da7}} 
+virtual R\+E\+AL {\bfseries Get\+Log\+Likelihood} () const
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_mol_bond_a0bfc05d216bbc164d356a56c5ba87eeb}\label{class_obj_cryst_1_1_mol_bond_a0bfc05d216bbc164d356a56c5ba87eeb}} 
+R\+E\+AL {\bfseries Get\+Log\+Likelihood} (const bool calc\+Deriv, const bool recalc) const
+\item 
+R\+E\+AL \mbox{\hyperlink{class_obj_cryst_1_1_mol_bond_a532cca2653bed88fe6fe82896abef6ee}{Get\+Deriv}} (const std\+::map$<$ const \mbox{\hyperlink{class_obj_cryst_1_1_mol_atom}{Mol\+Atom}} $\ast$, \mbox{\hyperlink{struct_obj_cryst_1_1_x_y_z}{X\+YZ}} $>$ \&m, const bool llk=false) const
+\item 
+void \mbox{\hyperlink{class_obj_cryst_1_1_mol_bond_ab246b6300512a83e2edacd3a8bb99e94}{Calc\+Gradient}} (std\+::map$<$ \mbox{\hyperlink{class_obj_cryst_1_1_mol_atom}{Mol\+Atom}} $\ast$, \mbox{\hyperlink{struct_obj_cryst_1_1_x_y_z}{X\+YZ}} $>$ \&m) const
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_mol_bond_a2b53869db0042aad0f4651f38f0aaef3}\label{class_obj_cryst_1_1_mol_bond_a2b53869db0042aad0f4651f38f0aaef3}} 
+const \mbox{\hyperlink{class_obj_cryst_1_1_mol_atom}{Mol\+Atom}} \& {\bfseries Get\+Atom1} () const
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_mol_bond_aef74a750029c20a0d05921ac302d8a0d}\label{class_obj_cryst_1_1_mol_bond_aef74a750029c20a0d05921ac302d8a0d}} 
+const \mbox{\hyperlink{class_obj_cryst_1_1_mol_atom}{Mol\+Atom}} \& {\bfseries Get\+Atom2} () const
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_mol_bond_a30444453034b4bef92b40578550cef89}\label{class_obj_cryst_1_1_mol_bond_a30444453034b4bef92b40578550cef89}} 
+\mbox{\hyperlink{class_obj_cryst_1_1_mol_atom}{Mol\+Atom}} \& {\bfseries Get\+Atom1} ()
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_mol_bond_a38471ebc522e71cf732bf9643edc61fd}\label{class_obj_cryst_1_1_mol_bond_a38471ebc522e71cf732bf9643edc61fd}} 
+\mbox{\hyperlink{class_obj_cryst_1_1_mol_atom}{Mol\+Atom}} \& {\bfseries Get\+Atom2} ()
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_mol_bond_a134d996eddce994d967b4b3f4358a3dd}\label{class_obj_cryst_1_1_mol_bond_a134d996eddce994d967b4b3f4358a3dd}} 
+void {\bfseries Set\+Atom1} (\mbox{\hyperlink{class_obj_cryst_1_1_mol_atom}{Mol\+Atom}} \&at1)
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_mol_bond_a6d91f26445b8a4e0ca2c8a4e5af90490}\label{class_obj_cryst_1_1_mol_bond_a6d91f26445b8a4e0ca2c8a4e5af90490}} 
+void {\bfseries Set\+Atom2} (\mbox{\hyperlink{class_obj_cryst_1_1_mol_atom}{Mol\+Atom}} \&at2)
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_mol_bond_a52ae53381b6662fac850fd93bef8da08}\label{class_obj_cryst_1_1_mol_bond_a52ae53381b6662fac850fd93bef8da08}} 
+R\+E\+AL {\bfseries Get\+Length} () const
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_mol_bond_a7297c6b3a4103c9370324926b0032cf8}\label{class_obj_cryst_1_1_mol_bond_a7297c6b3a4103c9370324926b0032cf8}} 
+R\+E\+AL {\bfseries Get\+Length0} () const
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_mol_bond_a8488ab9145be9fae67dd29b48045fd11}\label{class_obj_cryst_1_1_mol_bond_a8488ab9145be9fae67dd29b48045fd11}} 
+R\+E\+AL {\bfseries Get\+Length\+Delta} () const
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_mol_bond_ab02ef8e03d9291bebabb6b44bdc7447b}\label{class_obj_cryst_1_1_mol_bond_ab02ef8e03d9291bebabb6b44bdc7447b}} 
+R\+E\+AL {\bfseries Get\+Length\+Sigma} () const
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_mol_bond_a185ccdf5109f002c874f4c46ee558efe}\label{class_obj_cryst_1_1_mol_bond_a185ccdf5109f002c874f4c46ee558efe}} 
+R\+E\+AL {\bfseries Get\+Bond\+Order} () const
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_mol_bond_a9a3d05a12acc55b2696ebd1fb3f1cb8a}\label{class_obj_cryst_1_1_mol_bond_a9a3d05a12acc55b2696ebd1fb3f1cb8a}} 
+R\+E\+AL \& {\bfseries Length0} ()
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_mol_bond_ad5db35812adc0fce6179604e872bb9f1}\label{class_obj_cryst_1_1_mol_bond_ad5db35812adc0fce6179604e872bb9f1}} 
+R\+E\+AL \& {\bfseries Length\+Delta} ()
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_mol_bond_ad99687fa73e2560be520fce976311c29}\label{class_obj_cryst_1_1_mol_bond_ad99687fa73e2560be520fce976311c29}} 
+R\+E\+AL \& {\bfseries Length\+Sigma} ()
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_mol_bond_abb038f6abc648900710fcee5e6dfd023}\label{class_obj_cryst_1_1_mol_bond_abb038f6abc648900710fcee5e6dfd023}} 
+R\+E\+AL \& {\bfseries Bond\+Order} ()
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_mol_bond_a347971edc80f025dca4f7253fea78eb8}\label{class_obj_cryst_1_1_mol_bond_a347971edc80f025dca4f7253fea78eb8}} 
+void {\bfseries Set\+Length0} (const R\+E\+AL length)
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_mol_bond_a42e9a07e2383dcfdcb5b7f0728be726f}\label{class_obj_cryst_1_1_mol_bond_a42e9a07e2383dcfdcb5b7f0728be726f}} 
+void {\bfseries Set\+Length\+Delta} (const R\+E\+AL length)
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_mol_bond_ab96f037ddc070774b0cb9665e4e1b751}\label{class_obj_cryst_1_1_mol_bond_ab96f037ddc070774b0cb9665e4e1b751}} 
+void {\bfseries Set\+Length\+Sigma} (const R\+E\+AL length)
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_mol_bond_a1050f7fc227c9a925d8f98c01e2e1cc9}\label{class_obj_cryst_1_1_mol_bond_a1050f7fc227c9a925d8f98c01e2e1cc9}} 
+void {\bfseries Set\+Bond\+Order} (const R\+E\+AL length)
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_mol_bond_ac6744cb100d117d8065bf798741a7ce4}\label{class_obj_cryst_1_1_mol_bond_ac6744cb100d117d8065bf798741a7ce4}} 
+bool {\bfseries Is\+Free\+Torsion} () const
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_mol_bond_aab0b94a8e27c34d748f4cf7cd0060431}\label{class_obj_cryst_1_1_mol_bond_aab0b94a8e27c34d748f4cf7cd0060431}} 
+void {\bfseries Set\+Free\+Torsion} (const bool is\+In\+Ring)
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Bond between two atoms, also a restraint on the associated bond length. 
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_obj_cryst_1_1_mol_bond_aa5eb1a8ba4e34da2516bfc24af4fabec}\label{class_obj_cryst_1_1_mol_bond_aa5eb1a8ba4e34da2516bfc24af4fabec}} 
+\index{ObjCryst::MolBond@{ObjCryst::MolBond}!MolBond@{MolBond}}
+\index{MolBond@{MolBond}!ObjCryst::MolBond@{ObjCryst::MolBond}}
+\subsubsection{\texorpdfstring{MolBond()}{MolBond()}}
+{\footnotesize\ttfamily Obj\+Cryst\+::\+Mol\+Bond\+::\+Mol\+Bond (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_obj_cryst_1_1_mol_atom}{Mol\+Atom}} \&}]{atom1,  }\item[{\mbox{\hyperlink{class_obj_cryst_1_1_mol_atom}{Mol\+Atom}} \&}]{atom2,  }\item[{const R\+E\+AL}]{length,  }\item[{const R\+E\+AL}]{sigma,  }\item[{const R\+E\+AL}]{delta,  }\item[{\mbox{\hyperlink{class_obj_cryst_1_1_molecule}{Molecule}} \&}]{parent,  }\item[{const R\+E\+AL}]{bond\+Order = {\ttfamily 1.} }\end{DoxyParamCaption})}
+
+Constructor
+
+Both atoms of the bond are told of the creation of the bond, so that they can keep a list of bonds they are involved in.
+
+
+\begin{DoxyParams}{Parameters}
+{\em atom1,atom2} & the atoms of the bond \\
+\hline
+{\em length} & the expected bond length \\
+\hline
+{\em sigma,delta} & depending on the calculated length, the log(likelihood) is equal to\+:
+\begin{DoxyItemize}
+\item within $[length_{0}-\delta;length_{0}+\delta]$\+: $ -\log(likelihood)= \log\left(2\delta+\sqrt{2\pi\sigma^2}\right)$
+\item if $length > length_{0}+\delta$\+: $ -\log(likelihood)= \log\left(2\delta+\sqrt{2\pi\sigma^2}\right) + \left(\frac{(length-\delta)-length_{0}}{\sigma} \right)^2$
+\item if $length < length_{0}-\delta$\+: $ -\log(likelihood)= \log\left(2\delta+\sqrt{2\pi\sigma^2}\right) + \left(\frac{(length+\delta)-length_{0}}{\sigma} \right)^2$ 
+\end{DoxyItemize}\\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_obj_cryst_1_1_mol_bond_a2cf7c1c4da8cb4e802fbc9a2bed2eba7}\label{class_obj_cryst_1_1_mol_bond_a2cf7c1c4da8cb4e802fbc9a2bed2eba7}} 
+\index{ObjCryst::MolBond@{ObjCryst::MolBond}!````~MolBond@{$\sim$MolBond}}
+\index{````~MolBond@{$\sim$MolBond}!ObjCryst::MolBond@{ObjCryst::MolBond}}
+\subsubsection{\texorpdfstring{$\sim$MolBond()}{~MolBond()}}
+{\footnotesize\ttfamily Obj\+Cryst\+::\+Mol\+Bond\+::$\sim$\+Mol\+Bond (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+Destructor
+
+Notifies the atoms that the bond has disappeared. 
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{class_obj_cryst_1_1_mol_bond_ab246b6300512a83e2edacd3a8bb99e94}\label{class_obj_cryst_1_1_mol_bond_ab246b6300512a83e2edacd3a8bb99e94}} 
+\index{ObjCryst::MolBond@{ObjCryst::MolBond}!CalcGradient@{CalcGradient}}
+\index{CalcGradient@{CalcGradient}!ObjCryst::MolBond@{ObjCryst::MolBond}}
+\subsubsection{\texorpdfstring{CalcGradient()}{CalcGradient()}}
+{\footnotesize\ttfamily void Obj\+Cryst\+::\+Mol\+Bond\+::\+Calc\+Gradient (\begin{DoxyParamCaption}\item[{std\+::map$<$ \mbox{\hyperlink{class_obj_cryst_1_1_mol_atom}{Mol\+Atom}} $\ast$, \mbox{\hyperlink{struct_obj_cryst_1_1_x_y_z}{X\+YZ}} $>$ \&}]{m }\end{DoxyParamCaption}) const}
+
+Calc log(likelihood) gradient -\/ versus all atomic coordinates
+
+
+\begin{DoxyParams}{Parameters}
+{\em m} & this map should have been initialized by adding all possible atom pointers as keys, with all \mbox{\hyperlink{struct_obj_cryst_1_1_x_y_z}{X\+YZ}} values equal to zeros. On return, the derivative of the log(likelihood) vs each atomic coordinates will {\bfseries{added}} to each coordinate of the corresponding atoms. \\
+\hline
+\end{DoxyParams}
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=327pt]{class_obj_cryst_1_1_mol_bond_ab246b6300512a83e2edacd3a8bb99e94_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_obj_cryst_1_1_mol_bond_a532cca2653bed88fe6fe82896abef6ee}\label{class_obj_cryst_1_1_mol_bond_a532cca2653bed88fe6fe82896abef6ee}} 
+\index{ObjCryst::MolBond@{ObjCryst::MolBond}!GetDeriv@{GetDeriv}}
+\index{GetDeriv@{GetDeriv}!ObjCryst::MolBond@{ObjCryst::MolBond}}
+\subsubsection{\texorpdfstring{GetDeriv()}{GetDeriv()}}
+{\footnotesize\ttfamily R\+E\+AL Obj\+Cryst\+::\+Mol\+Bond\+::\+Get\+Deriv (\begin{DoxyParamCaption}\item[{const std\+::map$<$ const \mbox{\hyperlink{class_obj_cryst_1_1_mol_atom}{Mol\+Atom}} $\ast$, \mbox{\hyperlink{struct_obj_cryst_1_1_x_y_z}{X\+YZ}} $>$ \&}]{m,  }\item[{const bool}]{llk = {\ttfamily false} }\end{DoxyParamCaption}) const}
+
+Get the derivative of the bond length, given the derivatives of the atom positions This requires that Get\+Log\+Likelihood(calc\+Deriv=true) be called first. If llk=true, this will return the derivative of the llk rather than the derivative of the length or angle 
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+Molecule.\+h\item 
+Molecule.\+cpp\end{DoxyCompactItemize}

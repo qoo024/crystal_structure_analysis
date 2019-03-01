@@ -1,0 +1,57 @@
+\hypertarget{struct_obj_cryst_1_1_m_d_atom_group}{}\section{Obj\+Cryst\+::M\+D\+Atom\+Group Struct Reference}
+\label{struct_obj_cryst_1_1_m_d_atom_group}\index{ObjCryst::MDAtomGroup@{ObjCryst::MDAtomGroup}}
+
+
+{\ttfamily \#include $<$Molecule.\+h$>$}
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{struct_obj_cryst_1_1_m_d_atom_group_a078c9456f28fc82789a4d98e91ef0599}\label{struct_obj_cryst_1_1_m_d_atom_group_a078c9456f28fc82789a4d98e91ef0599}} 
+\mbox{\hyperlink{struct_obj_cryst_1_1_m_d_atom_group_a078c9456f28fc82789a4d98e91ef0599}{M\+D\+Atom\+Group}} ()
+\begin{DoxyCompactList}\small\item\em Default constructor. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{struct_obj_cryst_1_1_m_d_atom_group_a86dd6c6277666fa607685736bdffbedc}{M\+D\+Atom\+Group}} (std\+::set$<$ \mbox{\hyperlink{class_obj_cryst_1_1_mol_atom}{Mol\+Atom}} $\ast$ $>$ \&vat, std\+::set$<$ \mbox{\hyperlink{class_obj_cryst_1_1_mol_bond}{Mol\+Bond}} $\ast$ $>$ \&vb, std\+::set$<$ \mbox{\hyperlink{class_obj_cryst_1_1_mol_bond_angle}{Mol\+Bond\+Angle}} $\ast$ $>$ \&va, std\+::set$<$ \mbox{\hyperlink{class_obj_cryst_1_1_mol_dihedral_angle}{Mol\+Dihedral\+Angle}} $\ast$ $>$ \&vd)
+\item 
+\mbox{\Hypertarget{struct_obj_cryst_1_1_m_d_atom_group_a8cba5365ac73ba2bd8b2e7d5587790c9}\label{struct_obj_cryst_1_1_m_d_atom_group_a8cba5365ac73ba2bd8b2e7d5587790c9}} 
+void \mbox{\hyperlink{struct_obj_cryst_1_1_m_d_atom_group_a8cba5365ac73ba2bd8b2e7d5587790c9}{Print}} (ostream \&os, bool full=true) const
+\begin{DoxyCompactList}\small\item\em Print one-\/line list of atoms moved. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{struct_obj_cryst_1_1_m_d_atom_group_a300e382447655a3533cb830bb3c4cee3}\label{struct_obj_cryst_1_1_m_d_atom_group_a300e382447655a3533cb830bb3c4cee3}} 
+std\+::set$<$ \mbox{\hyperlink{class_obj_cryst_1_1_mol_atom}{Mol\+Atom}} $\ast$ $>$ {\bfseries mvp\+Atom}
+\item 
+\mbox{\Hypertarget{struct_obj_cryst_1_1_m_d_atom_group_a6d16a774b6b57b964e37f890a89edac0}\label{struct_obj_cryst_1_1_m_d_atom_group_a6d16a774b6b57b964e37f890a89edac0}} 
+std\+::vector$<$ \mbox{\hyperlink{class_obj_cryst_1_1_mol_bond}{Mol\+Bond}} $\ast$ $>$ {\bfseries mvp\+Bond}
+\item 
+\mbox{\Hypertarget{struct_obj_cryst_1_1_m_d_atom_group_a68f73aaab1156d32bc79f368e237eaac}\label{struct_obj_cryst_1_1_m_d_atom_group_a68f73aaab1156d32bc79f368e237eaac}} 
+std\+::vector$<$ \mbox{\hyperlink{class_obj_cryst_1_1_mol_bond_angle}{Mol\+Bond\+Angle}} $\ast$ $>$ {\bfseries mvp\+Bond\+Angle}
+\item 
+\mbox{\Hypertarget{struct_obj_cryst_1_1_m_d_atom_group_a274d11d65f45f72eb38d83d589852bf9}\label{struct_obj_cryst_1_1_m_d_atom_group_a274d11d65f45f72eb38d83d589852bf9}} 
+std\+::vector$<$ \mbox{\hyperlink{class_obj_cryst_1_1_mol_dihedral_angle}{Mol\+Dihedral\+Angle}} $\ast$ $>$ {\bfseries mvp\+Dihedral\+Angle}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Groups of atoms that can be moved using molecular dynamics principles, taking a list of restraints as ptential. This is used to move group of atoms for which no adequate stretch mode can be used, such as inside flexible rings. 
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{struct_obj_cryst_1_1_m_d_atom_group_a86dd6c6277666fa607685736bdffbedc}\label{struct_obj_cryst_1_1_m_d_atom_group_a86dd6c6277666fa607685736bdffbedc}} 
+\index{ObjCryst::MDAtomGroup@{ObjCryst::MDAtomGroup}!MDAtomGroup@{MDAtomGroup}}
+\index{MDAtomGroup@{MDAtomGroup}!ObjCryst::MDAtomGroup@{ObjCryst::MDAtomGroup}}
+\subsubsection{\texorpdfstring{MDAtomGroup()}{MDAtomGroup()}}
+{\footnotesize\ttfamily Obj\+Cryst\+::\+M\+D\+Atom\+Group\+::\+M\+D\+Atom\+Group (\begin{DoxyParamCaption}\item[{std\+::set$<$ \mbox{\hyperlink{class_obj_cryst_1_1_mol_atom}{Mol\+Atom}} $\ast$ $>$ \&}]{vat,  }\item[{std\+::set$<$ \mbox{\hyperlink{class_obj_cryst_1_1_mol_bond}{Mol\+Bond}} $\ast$ $>$ \&}]{vb,  }\item[{std\+::set$<$ \mbox{\hyperlink{class_obj_cryst_1_1_mol_bond_angle}{Mol\+Bond\+Angle}} $\ast$ $>$ \&}]{va,  }\item[{std\+::set$<$ \mbox{\hyperlink{class_obj_cryst_1_1_mol_dihedral_angle}{Mol\+Dihedral\+Angle}} $\ast$ $>$ \&}]{vd }\end{DoxyParamCaption})}
+
+Constructor. 
+\begin{DoxyParams}{Parameters}
+{\em vat} & list of atoms inside the group \\
+\hline
+{\em vb,va,vd} & list of bond, bond angle and dihedral angle restraints \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this struct was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+Molecule.\+h\item 
+Molecule.\+cpp\end{DoxyCompactItemize}

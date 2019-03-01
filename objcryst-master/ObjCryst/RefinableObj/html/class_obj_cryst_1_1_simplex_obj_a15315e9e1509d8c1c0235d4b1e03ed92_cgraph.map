@@ -1,0 +1,22 @@
+<map id="ObjCryst::SimplexObj::MultiRunOptimize" name="ObjCryst::SimplexObj::MultiRunOptimize">
+<area shape="rect" id="node1" title=" " alt="" coords="5,207,154,245"/>
+<area shape="rect" id="node2" href="$class_obj_cryst_1_1_simplex_obj.html#aa5d987434598f3c6e2045b1446cfb064" title=" " alt="" coords="202,207,351,245"/>
+<area shape="rect" id="node3" href="$class_obj_cryst_1_1_refinable_obj.html#aec578948ddf1786b64df6e83df57f0c5" title="Total number of non&#45;fixed parameters. Is initialized by PrepareForRefinement()" alt="" coords="408,5,565,44"/>
+<area shape="rect" id="node4" href="$class_obj_cryst_1_1_refinable_obj.html#abb7ba59ef7cad325753587b484e60bfe" title="Save the current set of refined values in a new set." alt="" coords="408,120,565,159"/>
+<area shape="rect" id="node11" href="$class_obj_cryst_1_1_optimization_obj.html#a3850c776ec9ede5102caf7c0aa04e558" title="The optimized (minimized, actually) function." alt="" coords="399,235,574,273"/>
+<area shape="rect" id="node12" href="$class_obj_cryst_1_1_refinable_obj.html#a77a4f8d1b3b1184ac92b1a4b55a7f77a" title=" " alt="" coords="408,297,565,336"/>
+<area shape="rect" id="node13" href="$class_obj_cryst_1_1_refinable_par.html#ae8357ccc8a0826cb6b02288c39f9a62a" title="Maximum step to use during Global Optimization algorithms." alt="" coords="408,360,565,399"/>
+<area shape="rect" id="node14" href="$class_obj_cryst_1_1_refinable_obj.html#a057437fe6759b589906d8a16f9732e22" title="Restore a saved set of values." alt="" coords="622,183,780,221"/>
+<area shape="rect" id="node19" href="$class_obj_cryst_1_1_refinable_obj.html#a8c542c9935105d88c38cc83b7b4dc506" title="Access one save refpar set." alt="" coords="622,27,780,65"/>
+<area shape="rect" id="node20" href="$class_obj_cryst_1_1_refinable_obj.html#ac269ad4ad4ca8b4e9f13f5466475d959" title="Erase all saved refpar sets." alt="" coords="408,423,565,461"/>
+<area shape="rect" id="node5" href="$class_obj_cryst_1_1_refinable_obj.html#a515a81780181269eb232278f7511b2bb" title="Save the current set of refined values over a previously&#45;created set of saved values." alt="" coords="622,120,780,159"/>
+<area shape="rect" id="node6" href="$class_obj_cryst_1_1_refinable_obj.html#af2042b90302e42e6eec83ba7024df89a" title="Find a parameter set with a given id (and check if it is there)" alt="" coords="828,11,986,49"/>
+<area shape="rect" id="node8" href="$class_obj_cryst_1_1_refinable_obj.html#a3a45838e4463a17f1d32a892dc48c1dd" title=" " alt="" coords="828,136,986,175"/>
+<area shape="rect" id="node9" href="$class_obj_cryst_1_1_refinable_obj.html#a20def1b7c2106df61d4a119b3519e4a4" title="Access all parameters in the order they were inputted." alt="" coords="828,199,986,237"/>
+<area shape="rect" id="node10" href="$class_obj_cryst_1_1_refinable_par.html#a477cf548ff273fa1487b74a2c47af664" title=" " alt="" coords="828,73,986,112"/>
+<area shape="rect" id="node7" href="$class_obj_cryst_1_1_refinable_obj.html#a2d881bf3abcb527cf96142e51226e449" title="Name of the object." alt="" coords="1034,11,1191,49"/>
+<area shape="rect" id="node15" href="$class_obj_cryst_1_1_refinable_par.html#aadb7b77e5214d742a2ee21c33a8190c2" title="Is the parameter used (if not, it is simply irrelevant in the model) ?" alt="" coords="828,261,986,300"/>
+<area shape="rect" id="node16" href="$class_obj_cryst_1_1_refinable_par.html#a55a87d842fc046b2f4b3c03c92e53052" title=" " alt="" coords="828,324,986,363"/>
+<area shape="rect" id="node17" href="$class_obj_cryst_1_1_refinable_par.html#ab29c440d745f91d1c89bf817169e42db" title="Get the maximum value allowed (if limited)" alt="" coords="1034,355,1191,393"/>
+<area shape="rect" id="node18" href="$class_obj_cryst_1_1_refinable_par.html#a36eec5c431fa6ebcc2adf95454ba3c58" title="Minimum value allowed (if limited or periodic)" alt="" coords="1034,292,1191,331"/>
+</map>

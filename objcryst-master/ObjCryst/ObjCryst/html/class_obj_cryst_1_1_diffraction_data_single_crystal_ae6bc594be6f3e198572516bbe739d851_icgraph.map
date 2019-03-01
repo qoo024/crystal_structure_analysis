@@ -1,0 +1,5 @@
+<map id="ObjCryst::DiffractionDataSingleCrystal::GetIcalc" name="ObjCryst::DiffractionDataSingleCrystal::GetIcalc">
+<area shape="rect" id="node1" title="returns the calculated diffracted intensity." alt="" coords="270,37,438,76"/>
+<area shape="rect" id="node2" href="$class_obj_cryst_1_1_diffraction_data_single_crystal.html#aa741c9f638e305ca800cf4ce0e31a615" title="Set Iobs to current values of Icalc. Mostly used for tests." alt="" coords="16,5,210,44"/>
+<area shape="rect" id="node3" href="$class_obj_cryst_1_1_diffraction_data_single_crystal.html#af220156c564b8d602b0c05ba222fba03" title=" " alt="" coords="5,68,222,107"/>
+</map>

@@ -1,0 +1,8 @@
+<map id="ObjCryst::PowderPattern::ImportPowderPattern2ThetaObs" name="ObjCryst::PowderPattern::ImportPowderPattern2ThetaObs">
+<area shape="rect" id="node1" title="Import file with 2 columns 2Theta Iobs." alt="" coords="5,131,226,169"/>
+<area shape="rect" id="node2" href="$class_obj_cryst_1_1_powder_pattern.html#a1f2397ca48de524cb3916103eb83a267" title="Set sigma=sqrt(Iobs)" alt="" coords="278,5,446,44"/>
+<area shape="rect" id="node3" href="$class_obj_cryst_1_1_powder_pattern.html#add7d97cdb7610f7553b95c2eeefcd172" title=" " alt="" coords="274,68,450,107"/>
+<area shape="rect" id="node4" href="$class_obj_cryst_1_1_powder_pattern.html#ab53befb0a673360c2cbd1261f4f120c4" title="Get the Minimum 2theta." alt="" coords="278,131,446,169"/>
+<area shape="rect" id="node5" href="$class_obj_cryst_1_1_powder_pattern.html#a1a71f1c47f625ffeb46bddf34a6a5780" title="Get the maximum 2theta." alt="" coords="276,193,448,232"/>
+<area shape="rect" id="node6" href="$class_obj_cryst_1_1_powder_pattern.html#a6c86d0b0a22155319a212bfb4629c9dd" title=" " alt="" coords="275,256,449,295"/>
+</map>

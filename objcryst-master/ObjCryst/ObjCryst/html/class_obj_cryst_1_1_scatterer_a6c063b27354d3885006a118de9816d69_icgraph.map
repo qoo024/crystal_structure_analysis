@@ -1,0 +1,5 @@
+<map id="ObjCryst::Scatterer::GetOccupancy" name="ObjCryst::Scatterer::GetOccupancy">
+<area shape="rect" id="node1" title="Get the occupancy of the scatterer (0. &#45;&gt; 1.0)" alt="" coords="291,24,426,63"/>
+<area shape="rect" id="node2" href="$class_obj_cryst_1_1_atom.html#a8cf5b61d0df0bf2e55d6c44f67c06da0" title="Print some info about the scatterer (ideally this should be one line...)." alt="" coords="51,5,197,31"/>
+<area shape="rect" id="node3" href="$class_obj_cryst_1_1_atom.html#aaf6475195502fff91903f30b5c6c3345" title="XMLOutput a description of the scatterer for POVRay." alt="" coords="5,55,243,80"/>
+</map>

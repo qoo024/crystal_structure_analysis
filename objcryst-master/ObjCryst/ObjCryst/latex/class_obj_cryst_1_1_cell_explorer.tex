@@ -1,0 +1,143 @@
+\hypertarget{class_obj_cryst_1_1_cell_explorer}{}\section{Obj\+Cryst\+::Cell\+Explorer Class Reference}
+\label{class_obj_cryst_1_1_cell_explorer}\index{ObjCryst::CellExplorer@{ObjCryst::CellExplorer}}
+
+
+{\ttfamily \#include $<$Indexing.\+h$>$}
+
+
+
+Inheritance diagram for Obj\+Cryst\+::Cell\+Explorer\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=195pt]{class_obj_cryst_1_1_cell_explorer__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Obj\+Cryst\+::Cell\+Explorer\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=195pt]{class_obj_cryst_1_1_cell_explorer__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_cell_explorer_ab5812858db181b2da7793d50a0adf257}\label{class_obj_cryst_1_1_cell_explorer_ab5812858db181b2da7793d50a0adf257}} 
+{\bfseries Cell\+Explorer} (const \mbox{\hyperlink{class_obj_cryst_1_1_peak_list}{Peak\+List}} \&dhkl, const \mbox{\hyperlink{namespace_obj_cryst_a9cd1d00f4ec9f0e75564ee151f47dd83}{Crystal\+System}} lattice, const unsigned int nb\+Spurious)
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_cell_explorer_acef356378502e9c69fe03f92b02c0f36}\label{class_obj_cryst_1_1_cell_explorer_acef356378502e9c69fe03f92b02c0f36}} 
+void {\bfseries Evolution} (unsigned int ng, const bool randomize=true, const float f=0.\+7, const float cr=0.\+5, unsigned int np=100)
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_cell_explorer_a637ca3e27ed5991e56e31c34e675bda3}\label{class_obj_cryst_1_1_cell_explorer_a637ca3e27ed5991e56e31c34e675bda3}} 
+void {\bfseries Set\+Length\+Min\+Max} (const float min, const float max)
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_cell_explorer_a25a18c19322a421c3161b48330260e42}\label{class_obj_cryst_1_1_cell_explorer_a25a18c19322a421c3161b48330260e42}} 
+void {\bfseries Set\+Angle\+Min\+Max} (const float min, const float max)
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_cell_explorer_a6c729ec9156a394c54880470076e45b5}\label{class_obj_cryst_1_1_cell_explorer_a6c729ec9156a394c54880470076e45b5}} 
+void {\bfseries Set\+Volume\+Min\+Max} (const float min, const float max)
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_cell_explorer_a58cb7aaf7195b6263e4f950a810c0800}\label{class_obj_cryst_1_1_cell_explorer_a58cb7aaf7195b6263e4f950a810c0800}} 
+void {\bfseries Set\+Nb\+Spurious} (const unsigned int nb)
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_cell_explorer_a9f700330603affae619486c0b0a052d5}\label{class_obj_cryst_1_1_cell_explorer_a9f700330603affae619486c0b0a052d5}} 
+void \mbox{\hyperlink{class_obj_cryst_1_1_cell_explorer_a9f700330603affae619486c0b0a052d5}{Set\+D2\+Error}} (const float err)
+\begin{DoxyCompactList}\small\item\em Allowed error on 1/d (squared!), used for dicvol. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_cell_explorer_a91d0eedc650c3b4c2f062011b101fbd1}\label{class_obj_cryst_1_1_cell_explorer_a91d0eedc650c3b4c2f062011b101fbd1}} 
+void {\bfseries Set\+Min\+Max\+Zero\+Shift} (const float min, const float max)
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_cell_explorer_a7b1dbaf22380e1ac581be1827930c9ba}\label{class_obj_cryst_1_1_cell_explorer_a7b1dbaf22380e1ac581be1827930c9ba}} 
+void {\bfseries Set\+Crystal\+System} (const \mbox{\hyperlink{namespace_obj_cryst_a9cd1d00f4ec9f0e75564ee151f47dd83}{Crystal\+System}} system)
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_cell_explorer_a37548d6bf7f5ff9b6908e097a830dc2c}\label{class_obj_cryst_1_1_cell_explorer_a37548d6bf7f5ff9b6908e097a830dc2c}} 
+void {\bfseries Set\+Crystal\+Centering} (const Crystal\+Centering cent)
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_cell_explorer_a6796f5292d5a245377dd5ac2bc5b6558}\label{class_obj_cryst_1_1_cell_explorer_a6796f5292d5a245377dd5ac2bc5b6558}} 
+virtual const string \& {\bfseries Get\+Class\+Name} () const
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_cell_explorer_a6fb51109080587447be61b83a8290895}\label{class_obj_cryst_1_1_cell_explorer_a6fb51109080587447be61b83a8290895}} 
+virtual const string \& {\bfseries Get\+Name} () const
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_cell_explorer_aec37a9cc938b896e54de1c4d12e7fb5e}\label{class_obj_cryst_1_1_cell_explorer_aec37a9cc938b896e54de1c4d12e7fb5e}} 
+virtual void {\bfseries Print} () const
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_cell_explorer_ab81b9cf487e1bfaf7326e67672eb7bc8}\label{class_obj_cryst_1_1_cell_explorer_ab81b9cf487e1bfaf7326e67672eb7bc8}} 
+virtual unsigned int {\bfseries Get\+Nb\+L\+S\+Q\+Function} () const
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_cell_explorer_aa6ea6f8448112b467cf8c9445aebc5ae}\label{class_obj_cryst_1_1_cell_explorer_aa6ea6f8448112b467cf8c9445aebc5ae}} 
+virtual const Cryst\+Vector\+\_\+\+R\+E\+AL \& {\bfseries Get\+L\+S\+Q\+Calc} (const unsigned int) const
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_cell_explorer_a177228ea44e6c15d7641494ad0f70b24}\label{class_obj_cryst_1_1_cell_explorer_a177228ea44e6c15d7641494ad0f70b24}} 
+virtual const Cryst\+Vector\+\_\+\+R\+E\+AL \& {\bfseries Get\+L\+S\+Q\+Obs} (const unsigned int) const
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_cell_explorer_abbcb86b67e2ddb49be2729a01fc3801c}\label{class_obj_cryst_1_1_cell_explorer_abbcb86b67e2ddb49be2729a01fc3801c}} 
+virtual const Cryst\+Vector\+\_\+\+R\+E\+AL \& {\bfseries Get\+L\+S\+Q\+Weight} (const unsigned int) const
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_cell_explorer_aeae6adadf0eebf4c062397274433bcb2}\label{class_obj_cryst_1_1_cell_explorer_aeae6adadf0eebf4c062397274433bcb2}} 
+virtual const Cryst\+Vector\+\_\+\+R\+E\+AL \& {\bfseries Get\+L\+S\+Q\+Deriv} (const unsigned int, Refinable\+Par \&)
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_cell_explorer_a21ef1a644e6b0a54a902f5ab70056725}\label{class_obj_cryst_1_1_cell_explorer_a21ef1a644e6b0a54a902f5ab70056725}} 
+virtual void {\bfseries Begin\+Optimization} (const bool allow\+Approximations=false, const bool enable\+Restraints=false)
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_cell_explorer_a08259c076c61fef7e81fb69f7fc046dc}\label{class_obj_cryst_1_1_cell_explorer_a08259c076c61fef7e81fb69f7fc046dc}} 
+void {\bfseries L\+S\+Q\+Refine} (int nb\+Cycle=1, bool use\+Levenberg\+Marquardt=true, const bool silent=false)
+\item 
+void \mbox{\hyperlink{class_obj_cryst_1_1_cell_explorer_adba0983c3b1dc6846ccf0d9ee7dbfa98}{Dic\+Vol}} (const float min\+Score=10, const unsigned int min\+Depth=3, const float stop\+On\+Score=50.\+0, const unsigned int stop\+On\+Depth=6)
+\item 
+void \mbox{\hyperlink{class_obj_cryst_1_1_cell_explorer_ae32d743e1e6df33e09243cd7bb9a8c52}{Reduce\+Solutions}} (const bool update\+Report\+Threshold=false)
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_cell_explorer_a0ffc0ffdb7074b1c85cfac9aa22ce5bd}\label{class_obj_cryst_1_1_cell_explorer_a0ffc0ffdb7074b1c85cfac9aa22ce5bd}} 
+float {\bfseries Get\+Best\+Score} () const
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_cell_explorer_acadf5ea26f0b13bcac554e3ee7e8adda}\label{class_obj_cryst_1_1_cell_explorer_acadf5ea26f0b13bcac554e3ee7e8adda}} 
+const std\+::list$<$ std\+::pair$<$ \mbox{\hyperlink{class_obj_cryst_1_1_rec_unit_cell}{Rec\+Unit\+Cell}}, float $>$ $>$ \& {\bfseries Get\+Solutions} () const
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_cell_explorer_a777a911fce32fc12e1ff3e19c2250ac6}\label{class_obj_cryst_1_1_cell_explorer_a777a911fce32fc12e1ff3e19c2250ac6}} 
+std\+::list$<$ std\+::pair$<$ \mbox{\hyperlink{class_obj_cryst_1_1_rec_unit_cell}{Rec\+Unit\+Cell}}, float $>$ $>$ \& {\bfseries Get\+Solutions} ()
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Algorithm class to find the correct indexing from observed peak positions. 
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{class_obj_cryst_1_1_cell_explorer_adba0983c3b1dc6846ccf0d9ee7dbfa98}\label{class_obj_cryst_1_1_cell_explorer_adba0983c3b1dc6846ccf0d9ee7dbfa98}} 
+\index{ObjCryst::CellExplorer@{ObjCryst::CellExplorer}!DicVol@{DicVol}}
+\index{DicVol@{DicVol}!ObjCryst::CellExplorer@{ObjCryst::CellExplorer}}
+\subsubsection{\texorpdfstring{DicVol()}{DicVol()}}
+{\footnotesize\ttfamily void Obj\+Cryst\+::\+Cell\+Explorer\+::\+Dic\+Vol (\begin{DoxyParamCaption}\item[{const float}]{min\+Score = {\ttfamily 10},  }\item[{const unsigned int}]{min\+Depth = {\ttfamily 3},  }\item[{const float}]{stop\+On\+Score = {\ttfamily 50.0},  }\item[{const unsigned int}]{stop\+On\+Depth = {\ttfamily 6} }\end{DoxyParamCaption})}
+
+Run Dic\+V\+Ol algorithm, store only solutions with score $>$min\+Score or depth$>$=min\+Depth, stop at the end of one volume interval ($\sim$400 A$^\wedge$3) if best score$>$stop\+On\+Score, or if one solution was found at depth$>$=stop\+On\+Depth
+
+If stop\+On\+Depth==0, do not stop for any depth Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_obj_cryst_1_1_cell_explorer_adba0983c3b1dc6846ccf0d9ee7dbfa98_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_obj_cryst_1_1_cell_explorer_ae32d743e1e6df33e09243cd7bb9a8c52}\label{class_obj_cryst_1_1_cell_explorer_ae32d743e1e6df33e09243cd7bb9a8c52}} 
+\index{ObjCryst::CellExplorer@{ObjCryst::CellExplorer}!ReduceSolutions@{ReduceSolutions}}
+\index{ReduceSolutions@{ReduceSolutions}!ObjCryst::CellExplorer@{ObjCryst::CellExplorer}}
+\subsubsection{\texorpdfstring{ReduceSolutions()}{ReduceSolutions()}}
+{\footnotesize\ttfamily void Obj\+Cryst\+::\+Cell\+Explorer\+::\+Reduce\+Solutions (\begin{DoxyParamCaption}\item[{const bool}]{update\+Report\+Threshold = {\ttfamily false} }\end{DoxyParamCaption})}
+
+Sort all solutions by score, remove duplicates
+
+
+\begin{DoxyParams}{Parameters}
+{\em update\+Report\+Threshold} & if true, when too many solutions are produced, the threshold above which solutions are reported will be updated to get less solutions. \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+Indexing.\+h\item 
+Indexing.\+cpp\end{DoxyCompactItemize}

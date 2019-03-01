@@ -1,0 +1,368 @@
+\hypertarget{class_obj_cryst_1_1_powder_pattern_component}{}\section{Obj\+Cryst\+::Powder\+Pattern\+Component Class Reference}
+\label{class_obj_cryst_1_1_powder_pattern_component}\index{ObjCryst::PowderPatternComponent@{ObjCryst::PowderPatternComponent}}
+
+
+Generic class to compute components (eg the contribution of a given phase, or background) of a powder pattern. This is an abstract base class.  
+
+
+
+
+{\ttfamily \#include $<$Powder\+Pattern.\+h$>$}
+
+
+
+Inheritance diagram for Obj\+Cryst\+::Powder\+Pattern\+Component\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_obj_cryst_1_1_powder_pattern_component__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Obj\+Cryst\+::Powder\+Pattern\+Component\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=322pt]{class_obj_cryst_1_1_powder_pattern_component__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_powder_pattern_component_a10afd347f725df06fa8fabf94ee9c90f}\label{class_obj_cryst_1_1_powder_pattern_component_a10afd347f725df06fa8fabf94ee9c90f}} 
+{\bfseries Powder\+Pattern\+Component} (const \mbox{\hyperlink{class_obj_cryst_1_1_powder_pattern_component}{Powder\+Pattern\+Component}} \&)
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_powder_pattern_component_a270a93cc584d7a1be9db943d57513cff}\label{class_obj_cryst_1_1_powder_pattern_component_a270a93cc584d7a1be9db943d57513cff}} 
+virtual const string \& {\bfseries Get\+Class\+Name} () const
+\item 
+const \mbox{\hyperlink{class_obj_cryst_1_1_powder_pattern}{Powder\+Pattern}} \& \mbox{\hyperlink{class_obj_cryst_1_1_powder_pattern_component_a7428c062c1cb6d5f21d1e4131a917199}{Get\+Parent\+Powder\+Pattern}} () const
+\item 
+\mbox{\hyperlink{class_obj_cryst_1_1_powder_pattern}{Powder\+Pattern}} \& \mbox{\hyperlink{class_obj_cryst_1_1_powder_pattern_component_af381cfddfcb2a21563c4e1c10fd9cf33}{Get\+Parent\+Powder\+Pattern}} ()
+\item 
+virtual void \mbox{\hyperlink{class_obj_cryst_1_1_powder_pattern_component_a6b3dc911118c280dbbdcb7fb97acf980}{Set\+Parent\+Powder\+Pattern}} (\mbox{\hyperlink{class_obj_cryst_1_1_powder_pattern}{Powder\+Pattern}} \&)=0
+\item 
+virtual const Cryst\+Vector\+\_\+\+R\+E\+AL \& \mbox{\hyperlink{class_obj_cryst_1_1_powder_pattern_component_a45258e9f9b44ff019bf53aa3dfb1a305}{Get\+Powder\+Pattern\+Calc}} () const =0
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_powder_pattern_component_a49944e75282a231127768b224df795b9}\label{class_obj_cryst_1_1_powder_pattern_component_a49944e75282a231127768b224df795b9}} 
+virtual std\+::map$<$ Refinable\+Par $\ast$, Cryst\+Vector\+\_\+\+R\+E\+AL $>$ \& {\bfseries Get\+Powder\+Pattern\+\_\+\+Full\+Deriv} (std\+::set$<$ Refinable\+Par $\ast$ $>$ \&v\+Par)
+\item 
+virtual pair$<$ const Cryst\+Vector\+\_\+\+R\+E\+AL $\ast$, const Refinable\+Obj\+Clock $\ast$ $>$ \mbox{\hyperlink{class_obj_cryst_1_1_powder_pattern_component_ac54b7ae5a177492de681afc2cbed72eb}{Get\+Powder\+Pattern\+Integrated\+Calc}} () const =0
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_powder_pattern_component_aad1d993918186ced0a9437048051f3c5}\label{class_obj_cryst_1_1_powder_pattern_component_aad1d993918186ced0a9437048051f3c5}} 
+virtual std\+::map$<$ Refinable\+Par $\ast$, Cryst\+Vector\+\_\+\+R\+E\+AL $>$ \& {\bfseries Get\+Powder\+Pattern\+Integrated\+\_\+\+Full\+Deriv} (std\+::set$<$ Refinable\+Par $\ast$ $>$ \&v\+Par)
+\item 
+bool \mbox{\hyperlink{class_obj_cryst_1_1_powder_pattern_component_a28b3e3cbbd4bc064893e8407b922bc6c}{Is\+Scalable}} () const
+\begin{DoxyCompactList}\small\item\em Is this component scalable ? \end{DoxyCompactList}\item 
+virtual const Cryst\+Vector\+\_\+\+R\+E\+AL \& \mbox{\hyperlink{class_obj_cryst_1_1_powder_pattern_component_ad67b39669fd0d336b01937ee81a59ddc}{Get\+Powder\+Pattern\+Calc\+Variance}} () const =0
+\item 
+virtual pair$<$ const Cryst\+Vector\+\_\+\+R\+E\+AL $\ast$, const Refinable\+Obj\+Clock $\ast$ $>$ \mbox{\hyperlink{class_obj_cryst_1_1_powder_pattern_component_ae721bd290b50aa9503bac419616a21c6}{Get\+Powder\+Pattern\+Integrated\+Calc\+Variance}} () const =0
+\item 
+virtual bool \mbox{\hyperlink{class_obj_cryst_1_1_powder_pattern_component_a773d077df9d066f3d15631ec84ca15fd}{Has\+Powder\+Pattern\+Calc\+Variance}} () const =0
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_powder_pattern_component_ad246675cb640b58f1b790e26039ab507}\label{class_obj_cryst_1_1_powder_pattern_component_ad246675cb640b58f1b790e26039ab507}} 
+const Refinable\+Obj\+Clock \& \mbox{\hyperlink{class_obj_cryst_1_1_powder_pattern_component_ad246675cb640b58f1b790e26039ab507}{Get\+Clock\+Powder\+Pattern\+Calc}} () const
+\begin{DoxyCompactList}\small\item\em Last time the powder pattern was calculated. \end{DoxyCompactList}\item 
+const list$<$ pair$<$ const R\+E\+AL,const string $>$ $>$ \& \mbox{\hyperlink{class_obj_cryst_1_1_powder_pattern_component_af96a48a4f92609072bd42d6c53549c45}{Get\+Pattern\+Label\+List}} () const
+\end{DoxyCompactItemize}
+\subsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_powder_pattern_component_ab38cfcfb77ef9a451973341ff26ecaa4}\label{class_obj_cryst_1_1_powder_pattern_component_ab38cfcfb77ef9a451973341ff26ecaa4}} 
+const Refinable\+Obj\+Clock \& \mbox{\hyperlink{class_obj_cryst_1_1_powder_pattern_component_ab38cfcfb77ef9a451973341ff26ecaa4}{Get\+Clock\+Powder\+Pattern\+Calc\+Variance}} () const
+\begin{DoxyCompactList}\small\item\em Last time the variance on the pattern was actually calculated. \end{DoxyCompactList}\item 
+virtual void \mbox{\hyperlink{class_obj_cryst_1_1_powder_pattern_component_a8417ecb93009a9b7b9fccf074a9438d9}{Calc\+Powder\+Pattern}} () const =0
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_powder_pattern_component_a1b96bb72b7d85443956ffd4317833860}\label{class_obj_cryst_1_1_powder_pattern_component_a1b96bb72b7d85443956ffd4317833860}} 
+virtual void {\bfseries Calc\+Powder\+Pattern\+\_\+\+Full\+Deriv} (std\+::set$<$ Refinable\+Par $\ast$ $>$ \&v\+Par)
+\item 
+virtual void \mbox{\hyperlink{class_obj_cryst_1_1_powder_pattern_component_a7825422fec4a6ee5f1a00bc4063104ef}{Calc\+Powder\+Pattern\+Integrated\+\_\+\+Full\+Deriv}} (std\+::set$<$ Refinable\+Par $\ast$ $>$ \&v\+Par)
+\item 
+virtual const Cryst\+Vector\+\_\+long \& \mbox{\hyperlink{class_obj_cryst_1_1_powder_pattern_component_a727488f859528b0a9b5da47973804e01}{Get\+Bragg\+Limits}} () const =0
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_powder_pattern_component_af922fda14bfdd904fb2b3a9fc8d794d1}\label{class_obj_cryst_1_1_powder_pattern_component_af922fda14bfdd904fb2b3a9fc8d794d1}} 
+const Refinable\+Obj\+Clock \& \mbox{\hyperlink{class_obj_cryst_1_1_powder_pattern_component_af922fda14bfdd904fb2b3a9fc8d794d1}{Get\+Clock\+Bragg\+Limits}} () const
+\begin{DoxyCompactList}\small\item\em Get last time the Bragg Limits were changed. \end{DoxyCompactList}\item 
+virtual void \mbox{\hyperlink{class_obj_cryst_1_1_powder_pattern_component_a4731b5a64ee9aab6779e2ef323242fe5}{Set\+Max\+Sin\+Theta\+Ov\+Lambda}} (const R\+E\+AL max)=0
+\begin{DoxyCompactList}\small\item\em exist but are ignored for all calculations. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_powder_pattern_component_a6a99877f0f9dec09fd5f596a7ddeb6f6}\label{class_obj_cryst_1_1_powder_pattern_component_a6a99877f0f9dec09fd5f596a7ddeb6f6}} 
+virtual void {\bfseries Prepare} ()=0
+\end{DoxyCompactItemize}
+\subsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+Cryst\+Vector\+\_\+\+R\+E\+AL \mbox{\hyperlink{class_obj_cryst_1_1_powder_pattern_component_ae6e41d0a85e00cdf0a7d52f74dc20d4a}{m\+Powder\+Pattern\+Calc}}
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_powder_pattern_component_a86c152ac7f6fca46572986ea99686ae0}\label{class_obj_cryst_1_1_powder_pattern_component_a86c152ac7f6fca46572986ea99686ae0}} 
+Cryst\+Vector\+\_\+\+R\+E\+AL \mbox{\hyperlink{class_obj_cryst_1_1_powder_pattern_component_a86c152ac7f6fca46572986ea99686ae0}{m\+Powder\+Pattern\+Integrated\+Calc}}
+\begin{DoxyCompactList}\small\item\em The calculated powder pattern, integrated. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_powder_pattern_component_a01a50aa4e4114acc999676cd8069d426}\label{class_obj_cryst_1_1_powder_pattern_component_a01a50aa4e4114acc999676cd8069d426}} 
+Cryst\+Vector\+\_\+\+R\+E\+AL \mbox{\hyperlink{class_obj_cryst_1_1_powder_pattern_component_a01a50aa4e4114acc999676cd8069d426}{m\+Powder\+Pattern\+Calc\+Variance}}
+\begin{DoxyCompactList}\small\item\em The variance associated to each point of the calculated powder pattern. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_powder_pattern_component_aeaeac00300d33fa5d9ebae323143c6e2}\label{class_obj_cryst_1_1_powder_pattern_component_aeaeac00300d33fa5d9ebae323143c6e2}} 
+Cryst\+Vector\+\_\+\+R\+E\+AL \mbox{\hyperlink{class_obj_cryst_1_1_powder_pattern_component_aeaeac00300d33fa5d9ebae323143c6e2}{m\+Powder\+Pattern\+Integrated\+Calc\+Variance}}
+\begin{DoxyCompactList}\small\item\em The variance associated to each point of the calculated powder pattern, integrated. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_powder_pattern_component_ad0441f62b3b16e18f7cbdda6d89432cb}\label{class_obj_cryst_1_1_powder_pattern_component_ad0441f62b3b16e18f7cbdda6d89432cb}} 
+Cryst\+Vector\+\_\+long \mbox{\hyperlink{class_obj_cryst_1_1_powder_pattern_component_ad0441f62b3b16e18f7cbdda6d89432cb}{m\+Integrated\+Refl\+Limits}}
+\begin{DoxyCompactList}\small\item\em Interval limits around each reflection, for integrated R-\/factors. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_powder_pattern_component_aa1729b95ee7b6fbdc3e6aa7a9ca94aad}\label{class_obj_cryst_1_1_powder_pattern_component_aa1729b95ee7b6fbdc3e6aa7a9ca94aad}} 
+bool \mbox{\hyperlink{class_obj_cryst_1_1_powder_pattern_component_aa1729b95ee7b6fbdc3e6aa7a9ca94aad}{m\+Is\+Scalable}}
+\begin{DoxyCompactList}\small\item\em Scalable ? (crystal phase = scalable, background= not scalable) \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_powder_pattern_component_aa64deb96cf54c504d9a24cdf209e9e0e}\label{class_obj_cryst_1_1_powder_pattern_component_aa64deb96cf54c504d9a24cdf209e9e0e}} 
+Refinable\+Obj\+Clock \mbox{\hyperlink{class_obj_cryst_1_1_powder_pattern_component_aa64deb96cf54c504d9a24cdf209e9e0e}{m\+Clock\+Powder\+Pattern\+Calc}}
+\begin{DoxyCompactList}\small\item\em When was the powder pattern last computed ? \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_powder_pattern_component_adc8435a9476962ad2876a8cfbee5cde5}\label{class_obj_cryst_1_1_powder_pattern_component_adc8435a9476962ad2876a8cfbee5cde5}} 
+Refinable\+Obj\+Clock \mbox{\hyperlink{class_obj_cryst_1_1_powder_pattern_component_adc8435a9476962ad2876a8cfbee5cde5}{m\+Clock\+Powder\+Pattern\+Integrated\+Calc}}
+\begin{DoxyCompactList}\small\item\em When was the \textquotesingle{}integrated\textquotesingle{} powder pattern last computed ? \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_powder_pattern_component_a503f89c2087ebd815e5df69961efb148}\label{class_obj_cryst_1_1_powder_pattern_component_a503f89c2087ebd815e5df69961efb148}} 
+Refinable\+Obj\+Clock \mbox{\hyperlink{class_obj_cryst_1_1_powder_pattern_component_a503f89c2087ebd815e5df69961efb148}{m\+Clock\+Powder\+Pattern\+Variance\+Calc}}
+\begin{DoxyCompactList}\small\item\em When was the powder pattern variance last computed ? \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_powder_pattern_component_a4f1cc991dadf2cecfbd758c91b9cbd78}\label{class_obj_cryst_1_1_powder_pattern_component_a4f1cc991dadf2cecfbd758c91b9cbd78}} 
+Refinable\+Obj\+Clock \mbox{\hyperlink{class_obj_cryst_1_1_powder_pattern_component_a4f1cc991dadf2cecfbd758c91b9cbd78}{m\+Clock\+Powder\+Pattern\+Integrated\+Variance\+Calc}}
+\begin{DoxyCompactList}\small\item\em When was the \textquotesingle{}integrated\textquotesingle{} powder pattern variance last computed ? \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_powder_pattern_component_ad565327e0f1e6af053d0766c39ced8a0}\label{class_obj_cryst_1_1_powder_pattern_component_ad565327e0f1e6af053d0766c39ced8a0}} 
+\mbox{\hyperlink{class_obj_cryst_1_1_powder_pattern}{Powder\+Pattern}} $\ast$ \mbox{\hyperlink{class_obj_cryst_1_1_powder_pattern_component_ad565327e0f1e6af053d0766c39ced8a0}{mp\+Parent\+Powder\+Pattern}}
+\begin{DoxyCompactList}\small\item\em The \mbox{\hyperlink{class_obj_cryst_1_1_powder_pattern}{Powder\+Pattern}} object in which this component is included. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_powder_pattern_component_a7320d473c830fda04684c01a9cd1f5cb}\label{class_obj_cryst_1_1_powder_pattern_component_a7320d473c830fda04684c01a9cd1f5cb}} 
+Refinable\+Obj\+Clock \mbox{\hyperlink{class_obj_cryst_1_1_powder_pattern_component_a7320d473c830fda04684c01a9cd1f5cb}{m\+Clock\+Bragg\+Limits}}
+\begin{DoxyCompactList}\small\item\em Get last time the Bragg Limits were changed. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_powder_pattern_component_abe173118c67113339887a9831ad3a10f}\label{class_obj_cryst_1_1_powder_pattern_component_abe173118c67113339887a9831ad3a10f}} 
+list$<$ pair$<$ const R\+E\+AL,const string $>$ $>$ \mbox{\hyperlink{class_obj_cryst_1_1_powder_pattern_component_abe173118c67113339887a9831ad3a10f}{mv\+Label}}
+\begin{DoxyCompactList}\small\item\em The labels associated to different points of the pattern. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_powder_pattern_component_aa3d845e894c0aa662428be3073425c76}\label{class_obj_cryst_1_1_powder_pattern_component_aa3d845e894c0aa662428be3073425c76}} 
+std\+::map$<$ Refinable\+Par $\ast$, Cryst\+Vector\+\_\+\+R\+E\+AL $>$ {\bfseries m\+Powder\+Pattern\+\_\+\+Full\+Deriv}
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_powder_pattern_component_aad606ec47f4cb4661f664bb19d6bf56c}\label{class_obj_cryst_1_1_powder_pattern_component_aad606ec47f4cb4661f664bb19d6bf56c}} 
+std\+::map$<$ Refinable\+Par $\ast$, Cryst\+Vector\+\_\+\+R\+E\+AL $>$ {\bfseries m\+Powder\+Pattern\+Integrated\+\_\+\+Full\+Deriv}
+\end{DoxyCompactItemize}
+\subsection*{Friends}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_powder_pattern_component_a7b7565a5c419f2d4753446ff094a44cb}\label{class_obj_cryst_1_1_powder_pattern_component_a7b7565a5c419f2d4753446ff094a44cb}} 
+class {\bfseries Powder\+Pattern}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Generic class to compute components (eg the contribution of a given phase, or background) of a powder pattern. This is an abstract base class. 
+
+Most functions are protected, only to be accessed, internally or from the friend class \mbox{\hyperlink{class_obj_cryst_1_1_powder_pattern}{Powder\+Pattern}}. 
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{class_obj_cryst_1_1_powder_pattern_component_a8417ecb93009a9b7b9fccf074a9438d9}\label{class_obj_cryst_1_1_powder_pattern_component_a8417ecb93009a9b7b9fccf074a9438d9}} 
+\index{ObjCryst::PowderPatternComponent@{ObjCryst::PowderPatternComponent}!CalcPowderPattern@{CalcPowderPattern}}
+\index{CalcPowderPattern@{CalcPowderPattern}!ObjCryst::PowderPatternComponent@{ObjCryst::PowderPatternComponent}}
+\subsubsection{\texorpdfstring{CalcPowderPattern()}{CalcPowderPattern()}}
+{\footnotesize\ttfamily virtual void Obj\+Cryst\+::\+Powder\+Pattern\+Component\+::\+Calc\+Powder\+Pattern (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [protected]}, {\ttfamily [pure virtual]}}
+
+Calc the powder pattern. As always, recomputation is only done if necessary (ie if a parameter has changed since the last computation) 
+
+Implemented in \mbox{\hyperlink{class_obj_cryst_1_1_powder_pattern_diffraction_a4c7d61b5c105ee235629a4dfdbdf9949}{Obj\+Cryst\+::\+Powder\+Pattern\+Diffraction}}, and \mbox{\hyperlink{class_obj_cryst_1_1_powder_pattern_background_a6e564159536442870bfb17be8e5b51e8}{Obj\+Cryst\+::\+Powder\+Pattern\+Background}}.
+
+\mbox{\Hypertarget{class_obj_cryst_1_1_powder_pattern_component_a7825422fec4a6ee5f1a00bc4063104ef}\label{class_obj_cryst_1_1_powder_pattern_component_a7825422fec4a6ee5f1a00bc4063104ef}} 
+\index{ObjCryst::PowderPatternComponent@{ObjCryst::PowderPatternComponent}!CalcPowderPatternIntegrated\_FullDeriv@{CalcPowderPatternIntegrated\_FullDeriv}}
+\index{CalcPowderPatternIntegrated\_FullDeriv@{CalcPowderPatternIntegrated\_FullDeriv}!ObjCryst::PowderPatternComponent@{ObjCryst::PowderPatternComponent}}
+\subsubsection{\texorpdfstring{CalcPowderPatternIntegrated\_FullDeriv()}{CalcPowderPatternIntegrated\_FullDeriv()}}
+{\footnotesize\ttfamily void Obj\+Cryst\+::\+Powder\+Pattern\+Component\+::\+Calc\+Powder\+Pattern\+Integrated\+\_\+\+Full\+Deriv (\begin{DoxyParamCaption}\item[{std\+::set$<$ Refinable\+Par $\ast$ $>$ \&}]{v\+Par }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}, {\ttfamily [virtual]}}
+
+Calc the integrated powder pattern. This should be optimized so that the full powder pattern is not explicitely computed. 
+
+Reimplemented in \mbox{\hyperlink{class_obj_cryst_1_1_powder_pattern_diffraction_a47a3a1e09d0ab4c4f092384650db3efd}{Obj\+Cryst\+::\+Powder\+Pattern\+Diffraction}}, and \mbox{\hyperlink{class_obj_cryst_1_1_powder_pattern_background_a044838d76b1878a029d587480636e80e}{Obj\+Cryst\+::\+Powder\+Pattern\+Background}}.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_obj_cryst_1_1_powder_pattern_component_a7825422fec4a6ee5f1a00bc4063104ef_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_obj_cryst_1_1_powder_pattern_component_a7825422fec4a6ee5f1a00bc4063104ef_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_obj_cryst_1_1_powder_pattern_component_a727488f859528b0a9b5da47973804e01}\label{class_obj_cryst_1_1_powder_pattern_component_a727488f859528b0a9b5da47973804e01}} 
+\index{ObjCryst::PowderPatternComponent@{ObjCryst::PowderPatternComponent}!GetBraggLimits@{GetBraggLimits}}
+\index{GetBraggLimits@{GetBraggLimits}!ObjCryst::PowderPatternComponent@{ObjCryst::PowderPatternComponent}}
+\subsubsection{\texorpdfstring{GetBraggLimits()}{GetBraggLimits()}}
+{\footnotesize\ttfamily virtual const Cryst\+Vector\+\_\+long\& Obj\+Cryst\+::\+Powder\+Pattern\+Component\+::\+Get\+Bragg\+Limits (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [protected]}, {\ttfamily [pure virtual]}}
+
+Get the pixel positions separating the integration intervals around reflections.
+
+\begin{DoxyReturn}{Returns}
+\+: an array with the pixel positions, empty if this component has no peaks. The positions should be in increasing order, but could go beyond the pattern limits. 
+\end{DoxyReturn}
+
+
+Implemented in \mbox{\hyperlink{class_obj_cryst_1_1_powder_pattern_diffraction_a9d2ea6f73a2a65a3d5eec0bc892a976f}{Obj\+Cryst\+::\+Powder\+Pattern\+Diffraction}}, and \mbox{\hyperlink{class_obj_cryst_1_1_powder_pattern_background_ae75d135c8faa3aa4e0d7e145d848e8a1}{Obj\+Cryst\+::\+Powder\+Pattern\+Background}}.
+
+\mbox{\Hypertarget{class_obj_cryst_1_1_powder_pattern_component_a7428c062c1cb6d5f21d1e4131a917199}\label{class_obj_cryst_1_1_powder_pattern_component_a7428c062c1cb6d5f21d1e4131a917199}} 
+\index{ObjCryst::PowderPatternComponent@{ObjCryst::PowderPatternComponent}!GetParentPowderPattern@{GetParentPowderPattern}}
+\index{GetParentPowderPattern@{GetParentPowderPattern}!ObjCryst::PowderPatternComponent@{ObjCryst::PowderPatternComponent}}
+\subsubsection{\texorpdfstring{GetParentPowderPattern()}{GetParentPowderPattern()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily const \mbox{\hyperlink{class_obj_cryst_1_1_powder_pattern}{Powder\+Pattern}} \& Obj\+Cryst\+::\+Powder\+Pattern\+Component\+::\+Get\+Parent\+Powder\+Pattern (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+Get the \mbox{\hyperlink{class_obj_cryst_1_1_powder_pattern}{Powder\+Pattern}} object which uses this component. This allows to know the observed powder pattern to evaluate the background. Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_obj_cryst_1_1_powder_pattern_component_a7428c062c1cb6d5f21d1e4131a917199_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_obj_cryst_1_1_powder_pattern_component_af381cfddfcb2a21563c4e1c10fd9cf33}\label{class_obj_cryst_1_1_powder_pattern_component_af381cfddfcb2a21563c4e1c10fd9cf33}} 
+\index{ObjCryst::PowderPatternComponent@{ObjCryst::PowderPatternComponent}!GetParentPowderPattern@{GetParentPowderPattern}}
+\index{GetParentPowderPattern@{GetParentPowderPattern}!ObjCryst::PowderPatternComponent@{ObjCryst::PowderPatternComponent}}
+\subsubsection{\texorpdfstring{GetParentPowderPattern()}{GetParentPowderPattern()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_obj_cryst_1_1_powder_pattern}{Powder\+Pattern}} \& Obj\+Cryst\+::\+Powder\+Pattern\+Component\+::\+Get\+Parent\+Powder\+Pattern (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Get the \mbox{\hyperlink{class_obj_cryst_1_1_powder_pattern}{Powder\+Pattern}} object which uses this component. This allows to know the observed powder pattern to evaluate the background. \mbox{\Hypertarget{class_obj_cryst_1_1_powder_pattern_component_af96a48a4f92609072bd42d6c53549c45}\label{class_obj_cryst_1_1_powder_pattern_component_af96a48a4f92609072bd42d6c53549c45}} 
+\index{ObjCryst::PowderPatternComponent@{ObjCryst::PowderPatternComponent}!GetPatternLabelList@{GetPatternLabelList}}
+\index{GetPatternLabelList@{GetPatternLabelList}!ObjCryst::PowderPatternComponent@{ObjCryst::PowderPatternComponent}}
+\subsubsection{\texorpdfstring{GetPatternLabelList()}{GetPatternLabelList()}}
+{\footnotesize\ttfamily const list$<$ pair$<$ const R\+E\+AL, const string $>$ $>$ \& Obj\+Cryst\+::\+Powder\+Pattern\+Component\+::\+Get\+Pattern\+Label\+List (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+Get a list of labels for the pattern (usually reflection indexes). This returns the list generated during the last computation of the powder pattern. \mbox{\Hypertarget{class_obj_cryst_1_1_powder_pattern_component_a45258e9f9b44ff019bf53aa3dfb1a305}\label{class_obj_cryst_1_1_powder_pattern_component_a45258e9f9b44ff019bf53aa3dfb1a305}} 
+\index{ObjCryst::PowderPatternComponent@{ObjCryst::PowderPatternComponent}!GetPowderPatternCalc@{GetPowderPatternCalc}}
+\index{GetPowderPatternCalc@{GetPowderPatternCalc}!ObjCryst::PowderPatternComponent@{ObjCryst::PowderPatternComponent}}
+\subsubsection{\texorpdfstring{GetPowderPatternCalc()}{GetPowderPatternCalc()}}
+{\footnotesize\ttfamily virtual const Cryst\+Vector\+\_\+\+R\+E\+AL\& Obj\+Cryst\+::\+Powder\+Pattern\+Component\+::\+Get\+Powder\+Pattern\+Calc (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+Get the calculated powder pattern for this component. Note that the pattern is {\itshape not} scaled. 
+
+Implemented in \mbox{\hyperlink{class_obj_cryst_1_1_powder_pattern_diffraction_a29b64d9d3d36eff816bd6dd2ce61a3c7}{Obj\+Cryst\+::\+Powder\+Pattern\+Diffraction}}, and \mbox{\hyperlink{class_obj_cryst_1_1_powder_pattern_background_aeff3379aae4bd4ff3d6ff353ce8f7f96}{Obj\+Cryst\+::\+Powder\+Pattern\+Background}}.
+
+\mbox{\Hypertarget{class_obj_cryst_1_1_powder_pattern_component_ad67b39669fd0d336b01937ee81a59ddc}\label{class_obj_cryst_1_1_powder_pattern_component_ad67b39669fd0d336b01937ee81a59ddc}} 
+\index{ObjCryst::PowderPatternComponent@{ObjCryst::PowderPatternComponent}!GetPowderPatternCalcVariance@{GetPowderPatternCalcVariance}}
+\index{GetPowderPatternCalcVariance@{GetPowderPatternCalcVariance}!ObjCryst::PowderPatternComponent@{ObjCryst::PowderPatternComponent}}
+\subsubsection{\texorpdfstring{GetPowderPatternCalcVariance()}{GetPowderPatternCalcVariance()}}
+{\footnotesize\ttfamily virtual const Cryst\+Vector\+\_\+\+R\+E\+AL\& Obj\+Cryst\+::\+Powder\+Pattern\+Component\+::\+Get\+Powder\+Pattern\+Calc\+Variance (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+Get the variance associated to each point of the calculated powder pattern, for this component.
+
+\begin{DoxyWarning}{Warning}
+\+: this is experimental, with the aim of using Maximum Likelihood to improve structure determination. 
+\end{DoxyWarning}
+
+
+Implemented in \mbox{\hyperlink{class_obj_cryst_1_1_powder_pattern_diffraction_a779d369f39ab01390caf28eb539bfc9e}{Obj\+Cryst\+::\+Powder\+Pattern\+Diffraction}}, and \mbox{\hyperlink{class_obj_cryst_1_1_powder_pattern_background_a75c931bd3e0370e7434f75d70ba51295}{Obj\+Cryst\+::\+Powder\+Pattern\+Background}}.
+
+\mbox{\Hypertarget{class_obj_cryst_1_1_powder_pattern_component_ac54b7ae5a177492de681afc2cbed72eb}\label{class_obj_cryst_1_1_powder_pattern_component_ac54b7ae5a177492de681afc2cbed72eb}} 
+\index{ObjCryst::PowderPatternComponent@{ObjCryst::PowderPatternComponent}!GetPowderPatternIntegratedCalc@{GetPowderPatternIntegratedCalc}}
+\index{GetPowderPatternIntegratedCalc@{GetPowderPatternIntegratedCalc}!ObjCryst::PowderPatternComponent@{ObjCryst::PowderPatternComponent}}
+\subsubsection{\texorpdfstring{GetPowderPatternIntegratedCalc()}{GetPowderPatternIntegratedCalc()}}
+{\footnotesize\ttfamily virtual pair$<$const Cryst\+Vector\+\_\+\+R\+E\+AL$\ast$,const Refinable\+Obj\+Clock$\ast$$>$ Obj\+Cryst\+::\+Powder\+Pattern\+Component\+::\+Get\+Powder\+Pattern\+Integrated\+Calc (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+Get the integrated values of the powder pattern
+
+\begin{DoxyNote}{Note}
+\+: the integration intervals are those given by the parent \mbox{\hyperlink{class_obj_cryst_1_1_powder_pattern}{Powder\+Pattern}}, so that all \mbox{\hyperlink{class_obj_cryst_1_1_powder_pattern_component}{Powder\+Pattern\+Component}}\textquotesingle{}s intervals are taken into account
+\end{DoxyNote}
+This avoids explicitely calculating the full profile powder pattern. 
+
+Implemented in \mbox{\hyperlink{class_obj_cryst_1_1_powder_pattern_diffraction_a2c6ee9bfa4ac1518bd0fcd70cbb5cb72}{Obj\+Cryst\+::\+Powder\+Pattern\+Diffraction}}, and \mbox{\hyperlink{class_obj_cryst_1_1_powder_pattern_background_add12004ddfd2cc22d4fe0c52304da709}{Obj\+Cryst\+::\+Powder\+Pattern\+Background}}.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_obj_cryst_1_1_powder_pattern_component_ac54b7ae5a177492de681afc2cbed72eb_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_obj_cryst_1_1_powder_pattern_component_ae721bd290b50aa9503bac419616a21c6}\label{class_obj_cryst_1_1_powder_pattern_component_ae721bd290b50aa9503bac419616a21c6}} 
+\index{ObjCryst::PowderPatternComponent@{ObjCryst::PowderPatternComponent}!GetPowderPatternIntegratedCalcVariance@{GetPowderPatternIntegratedCalcVariance}}
+\index{GetPowderPatternIntegratedCalcVariance@{GetPowderPatternIntegratedCalcVariance}!ObjCryst::PowderPatternComponent@{ObjCryst::PowderPatternComponent}}
+\subsubsection{\texorpdfstring{GetPowderPatternIntegratedCalcVariance()}{GetPowderPatternIntegratedCalcVariance()}}
+{\footnotesize\ttfamily virtual pair$<$const Cryst\+Vector\+\_\+\+R\+E\+AL$\ast$,const Refinable\+Obj\+Clock$\ast$$>$ Obj\+Cryst\+::\+Powder\+Pattern\+Component\+::\+Get\+Powder\+Pattern\+Integrated\+Calc\+Variance (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+Get the variance associated to each point of the calculated powder pattern, for this component (integrated version).
+
+\begin{DoxyWarning}{Warning}
+\+: this is experimental, with the aim of using Maximum Likelihood to improve structure determination. 
+\end{DoxyWarning}
+
+
+Implemented in \mbox{\hyperlink{class_obj_cryst_1_1_powder_pattern_diffraction_a0af11c8ffb08972bcc13b71fd531071a}{Obj\+Cryst\+::\+Powder\+Pattern\+Diffraction}}, and \mbox{\hyperlink{class_obj_cryst_1_1_powder_pattern_background_a8ccebd7f0a71a7994c60b6efb2b8ebc7}{Obj\+Cryst\+::\+Powder\+Pattern\+Background}}.
+
+\mbox{\Hypertarget{class_obj_cryst_1_1_powder_pattern_component_a773d077df9d066f3d15631ec84ca15fd}\label{class_obj_cryst_1_1_powder_pattern_component_a773d077df9d066f3d15631ec84ca15fd}} 
+\index{ObjCryst::PowderPatternComponent@{ObjCryst::PowderPatternComponent}!HasPowderPatternCalcVariance@{HasPowderPatternCalcVariance}}
+\index{HasPowderPatternCalcVariance@{HasPowderPatternCalcVariance}!ObjCryst::PowderPatternComponent@{ObjCryst::PowderPatternComponent}}
+\subsubsection{\texorpdfstring{HasPowderPatternCalcVariance()}{HasPowderPatternCalcVariance()}}
+{\footnotesize\ttfamily virtual bool Obj\+Cryst\+::\+Powder\+Pattern\+Component\+::\+Has\+Powder\+Pattern\+Calc\+Variance (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+Does this component have a variance associated with each calculated point ? i.\+e., do we use maximum likelihood to take into account incomplete models ? 
+
+Implemented in \mbox{\hyperlink{class_obj_cryst_1_1_powder_pattern_diffraction_a70c5f1b70bbe4ace8ee26120d5f85fd1}{Obj\+Cryst\+::\+Powder\+Pattern\+Diffraction}}, and \mbox{\hyperlink{class_obj_cryst_1_1_powder_pattern_background_a126f036fe66797c52c7e362663925ad9}{Obj\+Cryst\+::\+Powder\+Pattern\+Background}}.
+
+\mbox{\Hypertarget{class_obj_cryst_1_1_powder_pattern_component_a28b3e3cbbd4bc064893e8407b922bc6c}\label{class_obj_cryst_1_1_powder_pattern_component_a28b3e3cbbd4bc064893e8407b922bc6c}} 
+\index{ObjCryst::PowderPatternComponent@{ObjCryst::PowderPatternComponent}!IsScalable@{IsScalable}}
+\index{IsScalable@{IsScalable}!ObjCryst::PowderPatternComponent@{ObjCryst::PowderPatternComponent}}
+\subsubsection{\texorpdfstring{IsScalable()}{IsScalable()}}
+{\footnotesize\ttfamily bool Obj\+Cryst\+::\+Powder\+Pattern\+Component\+::\+Is\+Scalable (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Is this component scalable ? 
+
+This is used by the \mbox{\hyperlink{class_obj_cryst_1_1_powder_pattern}{Powder\+Pattern}} class, which fits all pattern components using scale factors. Some components may not need to be scaled\+: background components, which are assumed to be absolute. Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_obj_cryst_1_1_powder_pattern_component_a28b3e3cbbd4bc064893e8407b922bc6c_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_obj_cryst_1_1_powder_pattern_component_a4731b5a64ee9aab6779e2ef323242fe5}\label{class_obj_cryst_1_1_powder_pattern_component_a4731b5a64ee9aab6779e2ef323242fe5}} 
+\index{ObjCryst::PowderPatternComponent@{ObjCryst::PowderPatternComponent}!SetMaxSinThetaOvLambda@{SetMaxSinThetaOvLambda}}
+\index{SetMaxSinThetaOvLambda@{SetMaxSinThetaOvLambda}!ObjCryst::PowderPatternComponent@{ObjCryst::PowderPatternComponent}}
+\subsubsection{\texorpdfstring{SetMaxSinThetaOvLambda()}{SetMaxSinThetaOvLambda()}}
+{\footnotesize\ttfamily virtual void Obj\+Cryst\+::\+Powder\+Pattern\+Component\+::\+Set\+Max\+Sin\+Theta\+Ov\+Lambda (\begin{DoxyParamCaption}\item[{const R\+E\+AL}]{max }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}, {\ttfamily [pure virtual]}}
+
+
+
+exist but are ignored for all calculations. 
+
+Set the maximum value for sin(theta)/lambda. All data above still 
+
+Implemented in \mbox{\hyperlink{class_obj_cryst_1_1_powder_pattern_diffraction_a6eabf890d810833b58a903f70dad5885}{Obj\+Cryst\+::\+Powder\+Pattern\+Diffraction}}, and \mbox{\hyperlink{class_obj_cryst_1_1_powder_pattern_background_a3d1c345df8269ff883bd3b6f82b57d57}{Obj\+Cryst\+::\+Powder\+Pattern\+Background}}.
+
+\mbox{\Hypertarget{class_obj_cryst_1_1_powder_pattern_component_a6b3dc911118c280dbbdcb7fb97acf980}\label{class_obj_cryst_1_1_powder_pattern_component_a6b3dc911118c280dbbdcb7fb97acf980}} 
+\index{ObjCryst::PowderPatternComponent@{ObjCryst::PowderPatternComponent}!SetParentPowderPattern@{SetParentPowderPattern}}
+\index{SetParentPowderPattern@{SetParentPowderPattern}!ObjCryst::PowderPatternComponent@{ObjCryst::PowderPatternComponent}}
+\subsubsection{\texorpdfstring{SetParentPowderPattern()}{SetParentPowderPattern()}}
+{\footnotesize\ttfamily virtual void Obj\+Cryst\+::\+Powder\+Pattern\+Component\+::\+Set\+Parent\+Powder\+Pattern (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_obj_cryst_1_1_powder_pattern}{Powder\+Pattern}} \&}]{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+Set the \mbox{\hyperlink{class_obj_cryst_1_1_powder_pattern}{Powder\+Pattern}} object which uses this component. This sets all necessary pattern parameters (2theta/tof range, wavelength, radiation type...) accordingly. 
+
+Implemented in \mbox{\hyperlink{class_obj_cryst_1_1_powder_pattern_diffraction_ab72aa94beafb9f7081c0cc5e9adc7050}{Obj\+Cryst\+::\+Powder\+Pattern\+Diffraction}}, and \mbox{\hyperlink{class_obj_cryst_1_1_powder_pattern_background_a74b0128b9f2c6be0302f67e132ed4aed}{Obj\+Cryst\+::\+Powder\+Pattern\+Background}}.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_obj_cryst_1_1_powder_pattern_component_a6b3dc911118c280dbbdcb7fb97acf980_icgraph}
+\end{center}
+\end{figure}
+
+
+\subsection{Member Data Documentation}
+\mbox{\Hypertarget{class_obj_cryst_1_1_powder_pattern_component_ae6e41d0a85e00cdf0a7d52f74dc20d4a}\label{class_obj_cryst_1_1_powder_pattern_component_ae6e41d0a85e00cdf0a7d52f74dc20d4a}} 
+\index{ObjCryst::PowderPatternComponent@{ObjCryst::PowderPatternComponent}!mPowderPatternCalc@{mPowderPatternCalc}}
+\index{mPowderPatternCalc@{mPowderPatternCalc}!ObjCryst::PowderPatternComponent@{ObjCryst::PowderPatternComponent}}
+\subsubsection{\texorpdfstring{mPowderPatternCalc}{mPowderPatternCalc}}
+{\footnotesize\ttfamily Cryst\+Vector\+\_\+\+R\+E\+AL Obj\+Cryst\+::\+Powder\+Pattern\+Component\+::m\+Powder\+Pattern\+Calc\hspace{0.3cm}{\ttfamily [mutable]}, {\ttfamily [protected]}}
+
+The calculated component of a powder pattern. It is mutable since it is completely defined by other parameters (eg it is not an \textquotesingle{}independent parameter\textquotesingle{}) 
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+Powder\+Pattern.\+h\item 
+Powder\+Pattern.\+cpp\end{DoxyCompactItemize}

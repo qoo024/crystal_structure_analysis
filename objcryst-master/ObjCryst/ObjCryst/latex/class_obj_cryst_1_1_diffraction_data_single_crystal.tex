@@ -1,0 +1,596 @@
+\hypertarget{class_obj_cryst_1_1_diffraction_data_single_crystal}{}\section{Obj\+Cryst\+::Diffraction\+Data\+Single\+Crystal Class Reference}
+\label{class_obj_cryst_1_1_diffraction_data_single_crystal}\index{ObjCryst::DiffractionDataSingleCrystal@{ObjCryst::DiffractionDataSingleCrystal}}
+
+
+Diffraction\+Data object for Single \mbox{\hyperlink{class_obj_cryst_1_1_crystal}{Crystal}} analysis.  
+
+
+
+
+{\ttfamily \#include $<$Diffraction\+Data\+Single\+Crystal.\+h$>$}
+
+
+
+Inheritance diagram for Obj\+Cryst\+::Diffraction\+Data\+Single\+Crystal\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=207pt]{class_obj_cryst_1_1_diffraction_data_single_crystal__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Obj\+Cryst\+::Diffraction\+Data\+Single\+Crystal\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=251pt]{class_obj_cryst_1_1_diffraction_data_single_crystal__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_obj_cryst_1_1_diffraction_data_single_crystal_ab182bcffdd5cded6e7bd536bc71a3241}{Diffraction\+Data\+Single\+Crystal}} (const bool regist=true)
+\item 
+\mbox{\hyperlink{class_obj_cryst_1_1_diffraction_data_single_crystal_a3fcfa9d8f263043025d4167001c2243f}{Diffraction\+Data\+Single\+Crystal}} (\mbox{\hyperlink{class_obj_cryst_1_1_crystal}{Crystal}} \&cryst, const bool regist=true)
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_diffraction_data_single_crystal_a2fbe3262e7146a0c1057da102d0a9046}\label{class_obj_cryst_1_1_diffraction_data_single_crystal_a2fbe3262e7146a0c1057da102d0a9046}} 
+\mbox{\hyperlink{class_obj_cryst_1_1_diffraction_data_single_crystal_a2fbe3262e7146a0c1057da102d0a9046}{Diffraction\+Data\+Single\+Crystal}} (const \mbox{\hyperlink{class_obj_cryst_1_1_diffraction_data_single_crystal}{Diffraction\+Data\+Single\+Crystal}} \&old)
+\begin{DoxyCompactList}\small\item\em Copy constructor. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_diffraction_data_single_crystal_a9d1a6d1503ae27642e2d12a9fa9e1062}\label{class_obj_cryst_1_1_diffraction_data_single_crystal_a9d1a6d1503ae27642e2d12a9fa9e1062}} 
+virtual \mbox{\hyperlink{class_obj_cryst_1_1_diffraction_data_single_crystal}{Diffraction\+Data\+Single\+Crystal}} $\ast$ \mbox{\hyperlink{class_obj_cryst_1_1_diffraction_data_single_crystal_a9d1a6d1503ae27642e2d12a9fa9e1062}{Create\+Copy}} () const
+\begin{DoxyCompactList}\small\item\em So-\/called virtual copy constructor. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_diffraction_data_single_crystal_a9c0c8fc1d91f6c6df1811af935644d6c}\label{class_obj_cryst_1_1_diffraction_data_single_crystal_a9c0c8fc1d91f6c6df1811af935644d6c}} 
+virtual const string \& {\bfseries Get\+Class\+Name} () const
+\item 
+const Cryst\+Vector\+\_\+\+R\+E\+AL \& \mbox{\hyperlink{class_obj_cryst_1_1_diffraction_data_single_crystal_ae6bc594be6f3e198572516bbe739d851}{Get\+Icalc}} () const
+\begin{DoxyCompactList}\small\item\em returns the calculated diffracted intensity. \end{DoxyCompactList}\item 
+std\+::map$<$ Refinable\+Par $\ast$, Cryst\+Vector\+\_\+\+R\+E\+AL $>$ \& \mbox{\hyperlink{class_obj_cryst_1_1_diffraction_data_single_crystal_a4de874f4ad2ab26bec50a30eef048f01}{Get\+Icalc\+\_\+\+Full\+Deriv}} (std\+::set$<$ Refinable\+Par $\ast$ $>$ \&v\+Par)
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_diffraction_data_single_crystal_ae3b0b255b143746347818aa096b1562c}\label{class_obj_cryst_1_1_diffraction_data_single_crystal_ae3b0b255b143746347818aa096b1562c}} 
+const Cryst\+Vector\+\_\+\+R\+E\+AL \& \mbox{\hyperlink{class_obj_cryst_1_1_diffraction_data_single_crystal_ae3b0b255b143746347818aa096b1562c}{Get\+Iobs}} () const
+\begin{DoxyCompactList}\small\item\em Return the array of observed intensities for all peaks. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_diffraction_data_single_crystal_aaa8dd9fa1a0f7b3b050c96540992cea1}\label{class_obj_cryst_1_1_diffraction_data_single_crystal_aaa8dd9fa1a0f7b3b050c96540992cea1}} 
+void \mbox{\hyperlink{class_obj_cryst_1_1_diffraction_data_single_crystal_aaa8dd9fa1a0f7b3b050c96540992cea1}{Set\+Iobs}} (const Cryst\+Vector\+\_\+\+R\+E\+AL \&)
+\begin{DoxyCompactList}\small\item\em Return the array of observed intensities for all peaks. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_diffraction_data_single_crystal_a489e9bf30e0b36b5a3fc6f5cae301cbd}\label{class_obj_cryst_1_1_diffraction_data_single_crystal_a489e9bf30e0b36b5a3fc6f5cae301cbd}} 
+const Cryst\+Vector\+\_\+\+R\+E\+AL \& \mbox{\hyperlink{class_obj_cryst_1_1_diffraction_data_single_crystal_a489e9bf30e0b36b5a3fc6f5cae301cbd}{Get\+Sigma}} () const
+\begin{DoxyCompactList}\small\item\em Return the array of sigmas for observed intensities, for all peaks. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_diffraction_data_single_crystal_afec714c8df5dc6a7cf68858dbf70742b}\label{class_obj_cryst_1_1_diffraction_data_single_crystal_afec714c8df5dc6a7cf68858dbf70742b}} 
+void \mbox{\hyperlink{class_obj_cryst_1_1_diffraction_data_single_crystal_afec714c8df5dc6a7cf68858dbf70742b}{Set\+Sigma}} (const Cryst\+Vector\+\_\+\+R\+E\+AL \&)
+\begin{DoxyCompactList}\small\item\em Return the array of sigmas for observed intensities, for all peaks. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_diffraction_data_single_crystal_aa741c9f638e305ca800cf4ce0e31a615}\label{class_obj_cryst_1_1_diffraction_data_single_crystal_aa741c9f638e305ca800cf4ce0e31a615}} 
+void \mbox{\hyperlink{class_obj_cryst_1_1_diffraction_data_single_crystal_aa741c9f638e305ca800cf4ce0e31a615}{Set\+Iobs\+To\+Icalc}} ()
+\begin{DoxyCompactList}\small\item\em Set Iobs to current values of Icalc. Mostly used for tests. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_diffraction_data_single_crystal_af3f73a3dc330c2a0c1829f2ecab1a20f}\label{class_obj_cryst_1_1_diffraction_data_single_crystal_af3f73a3dc330c2a0c1829f2ecab1a20f}} 
+const Cryst\+Vector\+\_\+\+R\+E\+AL \& \mbox{\hyperlink{class_obj_cryst_1_1_diffraction_data_single_crystal_af3f73a3dc330c2a0c1829f2ecab1a20f}{Get\+Weight}} () const
+\begin{DoxyCompactList}\small\item\em Return the weights (for each reflection) used for computing Rw. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_diffraction_data_single_crystal_ad30750b0b14e9b01427c311af560705c}\label{class_obj_cryst_1_1_diffraction_data_single_crystal_ad30750b0b14e9b01427c311af560705c}} 
+void \mbox{\hyperlink{class_obj_cryst_1_1_diffraction_data_single_crystal_ad30750b0b14e9b01427c311af560705c}{Set\+Weight}} (const Cryst\+Vector\+\_\+\+R\+E\+AL \&)
+\begin{DoxyCompactList}\small\item\em Change the weights (for each reflection) used for computing Rw. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_obj_cryst_1_1_diffraction_data_single_crystal_a0d13ab934c60c9bd0aebbb285a92c5cb}{Set\+Hkl\+Iobs}} (const Cryst\+Vector\+\_\+long \&h, const Cryst\+Vector\+\_\+long \&k, const Cryst\+Vector\+\_\+long \&l, const Cryst\+Vector\+\_\+\+R\+E\+AL \&i\+Obs, const Cryst\+Vector\+\_\+\+R\+E\+AL \&sigma)
+\begin{DoxyCompactList}\small\item\em input H,K,L, Iobs and Sigma \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_obj_cryst_1_1_diffraction_data_single_crystal_ac306439389c8eab225dd8dd87aa8f189}{Import\+Hkl\+Iobs}} (const string \&file\+Name, const long nb\+Refl, const int skip\+Lines=0)
+\begin{DoxyCompactList}\small\item\em Import h,k,l,I from a file. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_obj_cryst_1_1_diffraction_data_single_crystal_a041f22715b9b4d1f2beb2b7e387fa682}{Import\+Hkl\+Iobs\+Sigma}} (const string \&file\+Name, const long nb\+Refl, const int skip\+Lines=0)
+\begin{DoxyCompactList}\small\item\em Import h,k,l,I,Sigma from a file. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_obj_cryst_1_1_diffraction_data_single_crystal_a7cb0c6ef5e877e582baf5eb8133e2199}{Import\+Shelx\+H\+K\+L\+F4}} (const string \&file\+Name)
+\begin{DoxyCompactList}\small\item\em Import h,k,l,I,Sigma from a file using shelx H\+K\+LF 4 format. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_obj_cryst_1_1_diffraction_data_single_crystal_ad3528e9815e774d0a442fe231434ed05}{Import\+C\+IF}} (const string \&file\+Name)
+\begin{DoxyCompactList}\small\item\em Import diffraction data from a \mbox{\hyperlink{class_obj_cryst_1_1_c_i_f}{C\+IF}} file. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_obj_cryst_1_1_diffraction_data_single_crystal_a5721769a1b4a8e33664c3b0867c05086}{Import\+Hkl\+Iobs\+Sigma\+Jana\+M91}} (const string \&file\+Name)
+\begin{DoxyCompactList}\small\item\em Import h,k,l,I,Sigma from a Jana98 \textquotesingle{}$\ast$.m91\textquotesingle{} file. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_obj_cryst_1_1_diffraction_data_single_crystal_af590310eb70814be523947dc7ddc695c}{Import\+Hkl\+Iobs\+Group}} (const string \&file\+Name, const unsigned int skip\+Lines=0)
+\begin{DoxyCompactList}\small\item\em Import h,k,l and grouped intensities from a file. \end{DoxyCompactList}\item 
+virtual R\+E\+AL \mbox{\hyperlink{class_obj_cryst_1_1_diffraction_data_single_crystal_a7eb4bb7f2c42ba1be86010c666d11b97}{Get\+Rw}} () const
+\begin{DoxyCompactList}\small\item\em Return the \mbox{\hyperlink{class_obj_cryst_1_1_crystal}{Crystal}} R-\/factor (weighted) \end{DoxyCompactList}\item 
+virtual R\+E\+AL \mbox{\hyperlink{class_obj_cryst_1_1_diffraction_data_single_crystal_add61e41d60f231d38bcdf9244339ab78}{GetR}} () const
+\begin{DoxyCompactList}\small\item\em Return the \mbox{\hyperlink{class_obj_cryst_1_1_crystal}{Crystal}} R-\/factor (unweighted) \end{DoxyCompactList}\item 
+virtual R\+E\+AL \mbox{\hyperlink{class_obj_cryst_1_1_diffraction_data_single_crystal_a6525600072e31324bdcb1219f33198cb}{Get\+Chi2}} () const
+\begin{DoxyCompactList}\small\item\em Return conventionnal Chi$^\wedge$2. \end{DoxyCompactList}\item 
+virtual void \mbox{\hyperlink{class_obj_cryst_1_1_diffraction_data_single_crystal_a435fc2d77a7ec7c948214eacb8ce8f3b}{Fit\+Scale\+Factor\+For\+Rw}} () const
+\item 
+virtual void \mbox{\hyperlink{class_obj_cryst_1_1_diffraction_data_single_crystal_a64a07606d4f21cc2d6389161bebc8645}{Fit\+Scale\+Factor\+ForR}} () const
+\item 
+virtual R\+E\+AL \mbox{\hyperlink{class_obj_cryst_1_1_diffraction_data_single_crystal_a48bf1e9a133db940e2de70a446765914}{Get\+Best\+R\+Factor}} () const
+\item 
+virtual void \mbox{\hyperlink{class_obj_cryst_1_1_diffraction_data_single_crystal_a68395af92ab6a91a6ecc6e7633495b75}{Set\+Sigma\+To\+Sqrt\+Iobs}} ()
+\begin{DoxyCompactList}\small\item\em Set sigma for all observed intensities to sqrt(obs) \end{DoxyCompactList}\item 
+virtual void \mbox{\hyperlink{class_obj_cryst_1_1_diffraction_data_single_crystal_a76f0f6b9eab4f00b7fa9afc17e951235}{Set\+Weight\+To\+Inv\+Sigma2}} (const R\+E\+AL min\+Relat\+Sigma=1e-\/4, const R\+E\+A\+L min\+Iobs\+Sigma\+Ratio=0)
+\begin{DoxyCompactList}\small\item\em Set the weight for all observed intensities to 1/sigma$^\wedge$2. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_diffraction_data_single_crystal_aa8b0b219298771db3e50c05c8d2a3e61}\label{class_obj_cryst_1_1_diffraction_data_single_crystal_aa8b0b219298771db3e50c05c8d2a3e61}} 
+R\+E\+AL \mbox{\hyperlink{class_obj_cryst_1_1_diffraction_data_single_crystal_aa8b0b219298771db3e50c05c8d2a3e61}{Get\+Scale\+Factor}} () const
+\begin{DoxyCompactList}\small\item\em Scale factor (applied to Icalc to match Iobs) \end{DoxyCompactList}\item 
+virtual void \mbox{\hyperlink{class_obj_cryst_1_1_diffraction_data_single_crystal_abad3dcb258e1779a6c14cdc51b92f8c1}{Print\+Obs\+Data}} () const
+\begin{DoxyCompactList}\small\item\em Print H, K, L Iobs sigma for all reflections. \end{DoxyCompactList}\item 
+virtual void \mbox{\hyperlink{class_obj_cryst_1_1_diffraction_data_single_crystal_ab11d02b972bd40e6fc024d0e8ed4f1a1}{Print\+Obs\+Calc\+Data}} () const
+\begin{DoxyCompactList}\small\item\em Print H, K, L Iobs sigma Icalc for all reflections Iobs and sigma (if given) are scaled to Icalc (if available). \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_diffraction_data_single_crystal_a8da638cff14677fc130e4e0f71705409}\label{class_obj_cryst_1_1_diffraction_data_single_crystal_a8da638cff14677fc130e4e0f71705409}} 
+virtual void {\bfseries Set\+Use\+Only\+Low\+Angle\+Data} (const bool use\+Only\+Low\+Angle, const R\+E\+AL angle=0.)
+\item 
+void \mbox{\hyperlink{class_obj_cryst_1_1_diffraction_data_single_crystal_af220156c564b8d602b0c05ba222fba03}{Save\+H\+K\+L\+Iobs\+Icalc}} (const string \&filename=\char`\"{}hkl\+Iobs\+Icalc.\+out\char`\"{})
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_diffraction_data_single_crystal_a896f54524e60ee1d1606ee3bfe06c1d8}\label{class_obj_cryst_1_1_diffraction_data_single_crystal_a896f54524e60ee1d1606ee3bfe06c1d8}} 
+virtual void {\bfseries Global\+Opt\+Random\+Move} (const R\+E\+AL mutation\+Amplitude, const Ref\+Par\+Type $\ast$type=gp\+Ref\+Par\+Type\+Obj\+Cryst)
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_diffraction_data_single_crystal_a7fd5a263195e9f6ea7629d4f8cebae4f}\label{class_obj_cryst_1_1_diffraction_data_single_crystal_a7fd5a263195e9f6ea7629d4f8cebae4f}} 
+virtual R\+E\+AL {\bfseries Get\+Log\+Likelihood} () const
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_diffraction_data_single_crystal_a98d2bca605b66f84f72c9b24c59f5688}\label{class_obj_cryst_1_1_diffraction_data_single_crystal_a98d2bca605b66f84f72c9b24c59f5688}} 
+virtual unsigned int {\bfseries Get\+Nb\+L\+S\+Q\+Function} () const
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_diffraction_data_single_crystal_acbc4825ffac223797b60f3760eb25a36}\label{class_obj_cryst_1_1_diffraction_data_single_crystal_acbc4825ffac223797b60f3760eb25a36}} 
+virtual const Cryst\+Vector\+\_\+\+R\+E\+AL \& {\bfseries Get\+L\+S\+Q\+Calc} (const unsigned int) const
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_diffraction_data_single_crystal_a449fba25b0d43ae4708a951600a3fb36}\label{class_obj_cryst_1_1_diffraction_data_single_crystal_a449fba25b0d43ae4708a951600a3fb36}} 
+virtual const Cryst\+Vector\+\_\+\+R\+E\+AL \& {\bfseries Get\+L\+S\+Q\+Obs} (const unsigned int) const
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_diffraction_data_single_crystal_a43fd37c07965893b2679c223fda233f9}\label{class_obj_cryst_1_1_diffraction_data_single_crystal_a43fd37c07965893b2679c223fda233f9}} 
+virtual const Cryst\+Vector\+\_\+\+R\+E\+AL \& {\bfseries Get\+L\+S\+Q\+Weight} (const unsigned int) const
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_diffraction_data_single_crystal_a5e542f0fcbf6e8cf44c31e61960a50a6}\label{class_obj_cryst_1_1_diffraction_data_single_crystal_a5e542f0fcbf6e8cf44c31e61960a50a6}} 
+virtual std\+::map$<$ Refinable\+Par $\ast$, Cryst\+Vector\+\_\+\+R\+E\+AL $>$ \& {\bfseries Get\+L\+S\+Q\+\_\+\+Full\+Deriv} (const unsigned int, std\+::set$<$ Refinable\+Par $\ast$ $>$ \&v\+Par)
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_diffraction_data_single_crystal_a8d9ff363dbd0bdf00c4e60f8d9f9cd84}\label{class_obj_cryst_1_1_diffraction_data_single_crystal_a8d9ff363dbd0bdf00c4e60f8d9f9cd84}} 
+virtual void {\bfseries X\+M\+L\+Output} (ostream \&os, int indent=0) const
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_diffraction_data_single_crystal_ab0e7acf60b2cbeac219dc33aa1ce37b2}\label{class_obj_cryst_1_1_diffraction_data_single_crystal_ab0e7acf60b2cbeac219dc33aa1ce37b2}} 
+virtual void {\bfseries X\+M\+L\+Input} (istream \&is, const X\+M\+L\+Cryst\+Tag \&tag)
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_diffraction_data_single_crystal_a86c0187981a9471bd463691f1de6f867}\label{class_obj_cryst_1_1_diffraction_data_single_crystal_a86c0187981a9471bd463691f1de6f867}} 
+virtual const \mbox{\hyperlink{class_obj_cryst_1_1_radiation}{Radiation}} \& \mbox{\hyperlink{class_obj_cryst_1_1_diffraction_data_single_crystal_a86c0187981a9471bd463691f1de6f867}{Get\+Radiation}} () const
+\begin{DoxyCompactList}\small\item\em Get the radiation object for this data. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_diffraction_data_single_crystal_a1009e2bf09eef039df76bcdc64807401}\label{class_obj_cryst_1_1_diffraction_data_single_crystal_a1009e2bf09eef039df76bcdc64807401}} 
+\mbox{\hyperlink{class_obj_cryst_1_1_radiation}{Radiation}} \& {\bfseries Get\+Radiation} ()
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_diffraction_data_single_crystal_a75578ebb65ee810da7bfb4282c70373b}\label{class_obj_cryst_1_1_diffraction_data_single_crystal_a75578ebb65ee810da7bfb4282c70373b}} 
+virtual void \mbox{\hyperlink{class_obj_cryst_1_1_diffraction_data_single_crystal_a75578ebb65ee810da7bfb4282c70373b}{Set\+Radiation\+Type}} (const \mbox{\hyperlink{namespace_obj_cryst_a48fe50a094c607f8897378934d3d73ef}{Radiation\+Type}} radiation)
+\begin{DoxyCompactList}\small\item\em Set \+: neutron or x-\/ray experiment ? Wavelength ? \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_diffraction_data_single_crystal_a19d588f3fd7ca539d89d87e7420438e1}\label{class_obj_cryst_1_1_diffraction_data_single_crystal_a19d588f3fd7ca539d89d87e7420438e1}} 
+void \mbox{\hyperlink{class_obj_cryst_1_1_diffraction_data_single_crystal_a19d588f3fd7ca539d89d87e7420438e1}{Set\+Wavelength}} (const R\+E\+AL)
+\begin{DoxyCompactList}\small\item\em Set the (monochromatic) wavelength of the beam. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_obj_cryst_1_1_diffraction_data_single_crystal_a231437207dca7389aa593b1fd4fd9f1b}{Set\+Wavelength}} (const string \&X\+Ray\+Tube\+Element\+Name, const R\+E\+AL alpha2\+Alpha2ratio=0.\+5)
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_diffraction_data_single_crystal_a4fa3e393b4b643bd02d184c043954def}\label{class_obj_cryst_1_1_diffraction_data_single_crystal_a4fa3e393b4b643bd02d184c043954def}} 
+void \mbox{\hyperlink{class_obj_cryst_1_1_diffraction_data_single_crystal_a4fa3e393b4b643bd02d184c043954def}{Set\+Energy}} (const R\+E\+AL)
+\begin{DoxyCompactList}\small\item\em Set the (monochromatic) energy of the beam. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Additional Inherited Members}
+
+
+\subsection{Detailed Description}
+Diffraction\+Data object for Single \mbox{\hyperlink{class_obj_cryst_1_1_crystal}{Crystal}} analysis. 
+
+Currently this handles only in the simplest way single crystal dat\+: ie only data which has been completely corrected for Lorentz/\+Polarization and absorption.
+
+What needs to be developped\+: define the geometry of the experiment (incident and emerging angles), the polarization of the beam, etc... 
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_obj_cryst_1_1_diffraction_data_single_crystal_ab182bcffdd5cded6e7bd536bc71a3241}\label{class_obj_cryst_1_1_diffraction_data_single_crystal_ab182bcffdd5cded6e7bd536bc71a3241}} 
+\index{ObjCryst::DiffractionDataSingleCrystal@{ObjCryst::DiffractionDataSingleCrystal}!DiffractionDataSingleCrystal@{DiffractionDataSingleCrystal}}
+\index{DiffractionDataSingleCrystal@{DiffractionDataSingleCrystal}!ObjCryst::DiffractionDataSingleCrystal@{ObjCryst::DiffractionDataSingleCrystal}}
+\subsubsection{\texorpdfstring{DiffractionDataSingleCrystal()}{DiffractionDataSingleCrystal()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily Obj\+Cryst\+::\+Diffraction\+Data\+Single\+Crystal\+::\+Diffraction\+Data\+Single\+Crystal (\begin{DoxyParamCaption}\item[{const bool}]{regist = {\ttfamily true} }\end{DoxyParamCaption})}
+
+Default constructor
+
+
+\begin{DoxyParams}{Parameters}
+{\em regist} & if false, do not add to the global registry of single crystal data or refinable objects -\/ this is only useful for data to be used internally only.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyRefDesc}{Deprecated}
+\item[\mbox{\hyperlink{deprecated__deprecated000001}{Deprecated}}]Use the constructor passing a crystal structure instead. \end{DoxyRefDesc}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_obj_cryst_1_1_diffraction_data_single_crystal_ab182bcffdd5cded6e7bd536bc71a3241_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_obj_cryst_1_1_diffraction_data_single_crystal_a3fcfa9d8f263043025d4167001c2243f}\label{class_obj_cryst_1_1_diffraction_data_single_crystal_a3fcfa9d8f263043025d4167001c2243f}} 
+\index{ObjCryst::DiffractionDataSingleCrystal@{ObjCryst::DiffractionDataSingleCrystal}!DiffractionDataSingleCrystal@{DiffractionDataSingleCrystal}}
+\index{DiffractionDataSingleCrystal@{DiffractionDataSingleCrystal}!ObjCryst::DiffractionDataSingleCrystal@{ObjCryst::DiffractionDataSingleCrystal}}
+\subsubsection{\texorpdfstring{DiffractionDataSingleCrystal()}{DiffractionDataSingleCrystal()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily Obj\+Cryst\+::\+Diffraction\+Data\+Single\+Crystal\+::\+Diffraction\+Data\+Single\+Crystal (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_obj_cryst_1_1_crystal}{Crystal}} \&}]{cryst,  }\item[{const bool}]{regist = {\ttfamily true} }\end{DoxyParamCaption})}
+
+Constructor, with an assigned crystal structure.
+
+
+\begin{DoxyParams}{Parameters}
+{\em regist} & if false, do not add to the global registry of single crystal data or refinable objects -\/ this is only useful for data to be used internally only. \\
+\hline
+\end{DoxyParams}
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_obj_cryst_1_1_diffraction_data_single_crystal_a3fcfa9d8f263043025d4167001c2243f_cgraph}
+\end{center}
+\end{figure}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{class_obj_cryst_1_1_diffraction_data_single_crystal_a64a07606d4f21cc2d6389161bebc8645}\label{class_obj_cryst_1_1_diffraction_data_single_crystal_a64a07606d4f21cc2d6389161bebc8645}} 
+\index{ObjCryst::DiffractionDataSingleCrystal@{ObjCryst::DiffractionDataSingleCrystal}!FitScaleFactorForR@{FitScaleFactorForR}}
+\index{FitScaleFactorForR@{FitScaleFactorForR}!ObjCryst::DiffractionDataSingleCrystal@{ObjCryst::DiffractionDataSingleCrystal}}
+\subsubsection{\texorpdfstring{FitScaleFactorForR()}{FitScaleFactorForR()}}
+{\footnotesize\ttfamily void Obj\+Cryst\+::\+Diffraction\+Data\+Single\+Crystal\+::\+Fit\+Scale\+Factor\+ForR (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [virtual]}}
+
+Compute the best scale factor minimising R.
+
+The computed scale factor is {\itshape immediatly} applied to Icalc Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_obj_cryst_1_1_diffraction_data_single_crystal_a64a07606d4f21cc2d6389161bebc8645_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_obj_cryst_1_1_diffraction_data_single_crystal_a435fc2d77a7ec7c948214eacb8ce8f3b}\label{class_obj_cryst_1_1_diffraction_data_single_crystal_a435fc2d77a7ec7c948214eacb8ce8f3b}} 
+\index{ObjCryst::DiffractionDataSingleCrystal@{ObjCryst::DiffractionDataSingleCrystal}!FitScaleFactorForRw@{FitScaleFactorForRw}}
+\index{FitScaleFactorForRw@{FitScaleFactorForRw}!ObjCryst::DiffractionDataSingleCrystal@{ObjCryst::DiffractionDataSingleCrystal}}
+\subsubsection{\texorpdfstring{FitScaleFactorForRw()}{FitScaleFactorForRw()}}
+{\footnotesize\ttfamily void Obj\+Cryst\+::\+Diffraction\+Data\+Single\+Crystal\+::\+Fit\+Scale\+Factor\+For\+Rw (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [virtual]}}
+
+Compute the best scale factor minimising Rw.
+
+The computed scale factor is {\itshape immediatly} applied to Icalc Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_obj_cryst_1_1_diffraction_data_single_crystal_a435fc2d77a7ec7c948214eacb8ce8f3b_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_obj_cryst_1_1_diffraction_data_single_crystal_a48bf1e9a133db940e2de70a446765914}\label{class_obj_cryst_1_1_diffraction_data_single_crystal_a48bf1e9a133db940e2de70a446765914}} 
+\index{ObjCryst::DiffractionDataSingleCrystal@{ObjCryst::DiffractionDataSingleCrystal}!GetBestRFactor@{GetBestRFactor}}
+\index{GetBestRFactor@{GetBestRFactor}!ObjCryst::DiffractionDataSingleCrystal@{ObjCryst::DiffractionDataSingleCrystal}}
+\subsubsection{\texorpdfstring{GetBestRFactor()}{GetBestRFactor()}}
+{\footnotesize\ttfamily R\+E\+AL Obj\+Cryst\+::\+Diffraction\+Data\+Single\+Crystal\+::\+Get\+Best\+R\+Factor (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [virtual]}}
+
+Compute the best scale factor to minimize R, apply this scale factor and return the R value obtained. Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_obj_cryst_1_1_diffraction_data_single_crystal_a48bf1e9a133db940e2de70a446765914_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_obj_cryst_1_1_diffraction_data_single_crystal_a6525600072e31324bdcb1219f33198cb}\label{class_obj_cryst_1_1_diffraction_data_single_crystal_a6525600072e31324bdcb1219f33198cb}} 
+\index{ObjCryst::DiffractionDataSingleCrystal@{ObjCryst::DiffractionDataSingleCrystal}!GetChi2@{GetChi2}}
+\index{GetChi2@{GetChi2}!ObjCryst::DiffractionDataSingleCrystal@{ObjCryst::DiffractionDataSingleCrystal}}
+\subsubsection{\texorpdfstring{GetChi2()}{GetChi2()}}
+{\footnotesize\ttfamily R\+E\+AL Obj\+Cryst\+::\+Diffraction\+Data\+Single\+Crystal\+::\+Get\+Chi2 (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Return conventionnal Chi$^\wedge$2. 
+
+\begin{DoxyReturn}{Returns}
+$ \chi^2 = \sum_i w_i \left(I_i^{obs}-I_i^{calc} \right)^2 $ 
+\end{DoxyReturn}
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_obj_cryst_1_1_diffraction_data_single_crystal_a6525600072e31324bdcb1219f33198cb_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_obj_cryst_1_1_diffraction_data_single_crystal_ae6bc594be6f3e198572516bbe739d851}\label{class_obj_cryst_1_1_diffraction_data_single_crystal_ae6bc594be6f3e198572516bbe739d851}} 
+\index{ObjCryst::DiffractionDataSingleCrystal@{ObjCryst::DiffractionDataSingleCrystal}!GetIcalc@{GetIcalc}}
+\index{GetIcalc@{GetIcalc}!ObjCryst::DiffractionDataSingleCrystal@{ObjCryst::DiffractionDataSingleCrystal}}
+\subsubsection{\texorpdfstring{GetIcalc()}{GetIcalc()}}
+{\footnotesize\ttfamily const Cryst\+Vector\+\_\+\+R\+E\+AL \& Obj\+Cryst\+::\+Diffraction\+Data\+Single\+Crystal\+::\+Get\+Icalc (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+returns the calculated diffracted intensity. 
+
+This is an array of calculated intensities for each reflections in the single crystal case, and the array with the full powder powder profile for powder diffraction. Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_obj_cryst_1_1_diffraction_data_single_crystal_ae6bc594be6f3e198572516bbe739d851_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_obj_cryst_1_1_diffraction_data_single_crystal_a4de874f4ad2ab26bec50a30eef048f01}\label{class_obj_cryst_1_1_diffraction_data_single_crystal_a4de874f4ad2ab26bec50a30eef048f01}} 
+\index{ObjCryst::DiffractionDataSingleCrystal@{ObjCryst::DiffractionDataSingleCrystal}!GetIcalc\_FullDeriv@{GetIcalc\_FullDeriv}}
+\index{GetIcalc\_FullDeriv@{GetIcalc\_FullDeriv}!ObjCryst::DiffractionDataSingleCrystal@{ObjCryst::DiffractionDataSingleCrystal}}
+\subsubsection{\texorpdfstring{GetIcalc\_FullDeriv()}{GetIcalc\_FullDeriv()}}
+{\footnotesize\ttfamily std\+::map$<$ Refinable\+Par $\ast$, Cryst\+Vector\+\_\+\+R\+E\+AL $>$ \& Obj\+Cryst\+::\+Diffraction\+Data\+Single\+Crystal\+::\+Get\+Icalc\+\_\+\+Full\+Deriv (\begin{DoxyParamCaption}\item[{std\+::set$<$ Refinable\+Par $\ast$ $>$ \&}]{v\+Par }\end{DoxyParamCaption})}
+
+\begin{DoxyRefDesc}{Todo}
+\item[\mbox{\hyperlink{todo__todo000003}{Todo}}]\end{DoxyRefDesc}
+\mbox{\Hypertarget{class_obj_cryst_1_1_diffraction_data_single_crystal_add61e41d60f231d38bcdf9244339ab78}\label{class_obj_cryst_1_1_diffraction_data_single_crystal_add61e41d60f231d38bcdf9244339ab78}} 
+\index{ObjCryst::DiffractionDataSingleCrystal@{ObjCryst::DiffractionDataSingleCrystal}!GetR@{GetR}}
+\index{GetR@{GetR}!ObjCryst::DiffractionDataSingleCrystal@{ObjCryst::DiffractionDataSingleCrystal}}
+\subsubsection{\texorpdfstring{GetR()}{GetR()}}
+{\footnotesize\ttfamily R\+E\+AL Obj\+Cryst\+::\+Diffraction\+Data\+Single\+Crystal\+::\+GetR (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Return the \mbox{\hyperlink{class_obj_cryst_1_1_crystal}{Crystal}} R-\/factor (unweighted) 
+
+\begin{DoxyReturn}{Returns}
+$ R= \sqrt {\frac{\sum_i \left( I_i^{obs}-I_i^{calc} \right)^2} {\sum_i (I_i^{obs})^2} }$ 
+\end{DoxyReturn}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_obj_cryst_1_1_diffraction_data_single_crystal_add61e41d60f231d38bcdf9244339ab78_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_obj_cryst_1_1_diffraction_data_single_crystal_a7eb4bb7f2c42ba1be86010c666d11b97}\label{class_obj_cryst_1_1_diffraction_data_single_crystal_a7eb4bb7f2c42ba1be86010c666d11b97}} 
+\index{ObjCryst::DiffractionDataSingleCrystal@{ObjCryst::DiffractionDataSingleCrystal}!GetRw@{GetRw}}
+\index{GetRw@{GetRw}!ObjCryst::DiffractionDataSingleCrystal@{ObjCryst::DiffractionDataSingleCrystal}}
+\subsubsection{\texorpdfstring{GetRw()}{GetRw()}}
+{\footnotesize\ttfamily R\+E\+AL Obj\+Cryst\+::\+Diffraction\+Data\+Single\+Crystal\+::\+Get\+Rw (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Return the \mbox{\hyperlink{class_obj_cryst_1_1_crystal}{Crystal}} R-\/factor (weighted) 
+
+\begin{DoxyReturn}{Returns}
+$ R_{w}= \sqrt {\frac{\sum_i w_i\left( I_i^{obs}-I_i^{calc} \right)^2} {\sum_i w_i (I_i^{obs})^2} }$ 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_obj_cryst_1_1_diffraction_data_single_crystal_ad3528e9815e774d0a442fe231434ed05}\label{class_obj_cryst_1_1_diffraction_data_single_crystal_ad3528e9815e774d0a442fe231434ed05}} 
+\index{ObjCryst::DiffractionDataSingleCrystal@{ObjCryst::DiffractionDataSingleCrystal}!ImportCIF@{ImportCIF}}
+\index{ImportCIF@{ImportCIF}!ObjCryst::DiffractionDataSingleCrystal@{ObjCryst::DiffractionDataSingleCrystal}}
+\subsubsection{\texorpdfstring{ImportCIF()}{ImportCIF()}}
+{\footnotesize\ttfamily void Obj\+Cryst\+::\+Diffraction\+Data\+Single\+Crystal\+::\+Import\+C\+IF (\begin{DoxyParamCaption}\item[{const string \&}]{file\+Name }\end{DoxyParamCaption})}
+
+
+
+Import diffraction data from a \mbox{\hyperlink{class_obj_cryst_1_1_c_i_f}{C\+IF}} file. 
+
+The file is assumed to correspond to a single crystal diffraction file. 
+\begin{DoxyParams}{Parameters}
+{\em file\+Name} & The name of the data file. \\
+\hline
+\end{DoxyParams}
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_obj_cryst_1_1_diffraction_data_single_crystal_ad3528e9815e774d0a442fe231434ed05_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_obj_cryst_1_1_diffraction_data_single_crystal_ac306439389c8eab225dd8dd87aa8f189}\label{class_obj_cryst_1_1_diffraction_data_single_crystal_ac306439389c8eab225dd8dd87aa8f189}} 
+\index{ObjCryst::DiffractionDataSingleCrystal@{ObjCryst::DiffractionDataSingleCrystal}!ImportHklIobs@{ImportHklIobs}}
+\index{ImportHklIobs@{ImportHklIobs}!ObjCryst::DiffractionDataSingleCrystal@{ObjCryst::DiffractionDataSingleCrystal}}
+\subsubsection{\texorpdfstring{ImportHklIobs()}{ImportHklIobs()}}
+{\footnotesize\ttfamily void Obj\+Cryst\+::\+Diffraction\+Data\+Single\+Crystal\+::\+Import\+Hkl\+Iobs (\begin{DoxyParamCaption}\item[{const string \&}]{file\+Name,  }\item[{const long}]{nb\+Refl,  }\item[{const int}]{skip\+Lines = {\ttfamily 0} }\end{DoxyParamCaption})}
+
+
+
+Import h,k,l,I from a file. 
+
+The file is assumed to correspond to a single crystal diffraction file. 
+\begin{DoxyParams}{Parameters}
+{\em file\+Name} & The name of the data file. This file should be formatted with H,k,l, Iobs separated by spaces. \\
+\hline
+{\em nb\+Refl} & The number of reflections to extract. \\
+\hline
+{\em skip\+Lines} & The number of lines to skip at the beginning of the file. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_obj_cryst_1_1_diffraction_data_single_crystal_af590310eb70814be523947dc7ddc695c}\label{class_obj_cryst_1_1_diffraction_data_single_crystal_af590310eb70814be523947dc7ddc695c}} 
+\index{ObjCryst::DiffractionDataSingleCrystal@{ObjCryst::DiffractionDataSingleCrystal}!ImportHklIobsGroup@{ImportHklIobsGroup}}
+\index{ImportHklIobsGroup@{ImportHklIobsGroup}!ObjCryst::DiffractionDataSingleCrystal@{ObjCryst::DiffractionDataSingleCrystal}}
+\subsubsection{\texorpdfstring{ImportHklIobsGroup()}{ImportHklIobsGroup()}}
+{\footnotesize\ttfamily void Obj\+Cryst\+::\+Diffraction\+Data\+Single\+Crystal\+::\+Import\+Hkl\+Iobs\+Group (\begin{DoxyParamCaption}\item[{const string \&}]{file\+Name,  }\item[{const unsigned int}]{skip\+Lines = {\ttfamily 0} }\end{DoxyParamCaption})}
+
+
+
+Import h,k,l and grouped intensities from a file. 
+
+The file is assumed to correspond to a single crystal diffraction file. 
+\begin{DoxyParams}{Parameters}
+{\em file\+Name} & The name of the data file. This file should be formatted with H,k,l, Iobs separated by spaces. \\
+\hline
+{\em skip\+Lines} & The number of lines to skip at the beginning of the file.\\
+\hline
+\end{DoxyParams}
+File format (the reflection which has an intensity entry marks the end of the group) h k l Igroup -\/2 4 2 -\/2 -\/4 2 100.\+4 2 -\/4 1 2 4 1 193.\+2 ... \mbox{\Hypertarget{class_obj_cryst_1_1_diffraction_data_single_crystal_a041f22715b9b4d1f2beb2b7e387fa682}\label{class_obj_cryst_1_1_diffraction_data_single_crystal_a041f22715b9b4d1f2beb2b7e387fa682}} 
+\index{ObjCryst::DiffractionDataSingleCrystal@{ObjCryst::DiffractionDataSingleCrystal}!ImportHklIobsSigma@{ImportHklIobsSigma}}
+\index{ImportHklIobsSigma@{ImportHklIobsSigma}!ObjCryst::DiffractionDataSingleCrystal@{ObjCryst::DiffractionDataSingleCrystal}}
+\subsubsection{\texorpdfstring{ImportHklIobsSigma()}{ImportHklIobsSigma()}}
+{\footnotesize\ttfamily void Obj\+Cryst\+::\+Diffraction\+Data\+Single\+Crystal\+::\+Import\+Hkl\+Iobs\+Sigma (\begin{DoxyParamCaption}\item[{const string \&}]{file\+Name,  }\item[{const long}]{nb\+Refl,  }\item[{const int}]{skip\+Lines = {\ttfamily 0} }\end{DoxyParamCaption})}
+
+
+
+Import h,k,l,I,Sigma from a file. 
+
+The file is assumed to correspond to a single crystal diffraction file. 
+\begin{DoxyParams}{Parameters}
+{\em file\+Name} & The name of the data file. This file should be formatted with H,k,l, Iobs and Sigma separated by spaces. \\
+\hline
+{\em nb\+Refl} & The number of reflections to extract. \\
+\hline
+{\em skip\+Lines} & The number of lines to skip at the beginning of the file. \\
+\hline
+\end{DoxyParams}
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_obj_cryst_1_1_diffraction_data_single_crystal_a041f22715b9b4d1f2beb2b7e387fa682_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_obj_cryst_1_1_diffraction_data_single_crystal_a5721769a1b4a8e33664c3b0867c05086}\label{class_obj_cryst_1_1_diffraction_data_single_crystal_a5721769a1b4a8e33664c3b0867c05086}} 
+\index{ObjCryst::DiffractionDataSingleCrystal@{ObjCryst::DiffractionDataSingleCrystal}!ImportHklIobsSigmaJanaM91@{ImportHklIobsSigmaJanaM91}}
+\index{ImportHklIobsSigmaJanaM91@{ImportHklIobsSigmaJanaM91}!ObjCryst::DiffractionDataSingleCrystal@{ObjCryst::DiffractionDataSingleCrystal}}
+\subsubsection{\texorpdfstring{ImportHklIobsSigmaJanaM91()}{ImportHklIobsSigmaJanaM91()}}
+{\footnotesize\ttfamily void Obj\+Cryst\+::\+Diffraction\+Data\+Single\+Crystal\+::\+Import\+Hkl\+Iobs\+Sigma\+Jana\+M91 (\begin{DoxyParamCaption}\item[{const string \&}]{file\+Name }\end{DoxyParamCaption})}
+
+
+
+Import h,k,l,I,Sigma from a Jana98 \textquotesingle{}$\ast$.m91\textquotesingle{} file. 
+
+The file is assumed to correspond to a single crystal diffraction file. 
+\begin{DoxyParams}{Parameters}
+{\em file\+Name} & The name of the data file. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_obj_cryst_1_1_diffraction_data_single_crystal_a7cb0c6ef5e877e582baf5eb8133e2199}\label{class_obj_cryst_1_1_diffraction_data_single_crystal_a7cb0c6ef5e877e582baf5eb8133e2199}} 
+\index{ObjCryst::DiffractionDataSingleCrystal@{ObjCryst::DiffractionDataSingleCrystal}!ImportShelxHKLF4@{ImportShelxHKLF4}}
+\index{ImportShelxHKLF4@{ImportShelxHKLF4}!ObjCryst::DiffractionDataSingleCrystal@{ObjCryst::DiffractionDataSingleCrystal}}
+\subsubsection{\texorpdfstring{ImportShelxHKLF4()}{ImportShelxHKLF4()}}
+{\footnotesize\ttfamily void Obj\+Cryst\+::\+Diffraction\+Data\+Single\+Crystal\+::\+Import\+Shelx\+H\+K\+L\+F4 (\begin{DoxyParamCaption}\item[{const string \&}]{file\+Name }\end{DoxyParamCaption})}
+
+
+
+Import h,k,l,I,Sigma from a file using shelx H\+K\+LF 4 format. 
+
+The file is assumed to correspond to a single crystal diffraction file.\+This file should be formatted with H,k,l, Iobs and Sigma using a strict formatting 3I4+2\+F8, and the last line should contain 0 0 0 for hkl values. 
+\begin{DoxyParams}{Parameters}
+{\em file\+Name} & The name of the data file. \\
+\hline
+\end{DoxyParams}
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_obj_cryst_1_1_diffraction_data_single_crystal_a7cb0c6ef5e877e582baf5eb8133e2199_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_obj_cryst_1_1_diffraction_data_single_crystal_ab11d02b972bd40e6fc024d0e8ed4f1a1}\label{class_obj_cryst_1_1_diffraction_data_single_crystal_ab11d02b972bd40e6fc024d0e8ed4f1a1}} 
+\index{ObjCryst::DiffractionDataSingleCrystal@{ObjCryst::DiffractionDataSingleCrystal}!PrintObsCalcData@{PrintObsCalcData}}
+\index{PrintObsCalcData@{PrintObsCalcData}!ObjCryst::DiffractionDataSingleCrystal@{ObjCryst::DiffractionDataSingleCrystal}}
+\subsubsection{\texorpdfstring{PrintObsCalcData()}{PrintObsCalcData()}}
+{\footnotesize\ttfamily void Obj\+Cryst\+::\+Diffraction\+Data\+Single\+Crystal\+::\+Print\+Obs\+Calc\+Data (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Print H, K, L Iobs sigma Icalc for all reflections Iobs and sigma (if given) are scaled to Icalc (if available). 
+
+\mbox{\Hypertarget{class_obj_cryst_1_1_diffraction_data_single_crystal_abad3dcb258e1779a6c14cdc51b92f8c1}\label{class_obj_cryst_1_1_diffraction_data_single_crystal_abad3dcb258e1779a6c14cdc51b92f8c1}} 
+\index{ObjCryst::DiffractionDataSingleCrystal@{ObjCryst::DiffractionDataSingleCrystal}!PrintObsData@{PrintObsData}}
+\index{PrintObsData@{PrintObsData}!ObjCryst::DiffractionDataSingleCrystal@{ObjCryst::DiffractionDataSingleCrystal}}
+\subsubsection{\texorpdfstring{PrintObsData()}{PrintObsData()}}
+{\footnotesize\ttfamily void Obj\+Cryst\+::\+Diffraction\+Data\+Single\+Crystal\+::\+Print\+Obs\+Data (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Print H, K, L Iobs sigma for all reflections. 
+
+\mbox{\Hypertarget{class_obj_cryst_1_1_diffraction_data_single_crystal_af220156c564b8d602b0c05ba222fba03}\label{class_obj_cryst_1_1_diffraction_data_single_crystal_af220156c564b8d602b0c05ba222fba03}} 
+\index{ObjCryst::DiffractionDataSingleCrystal@{ObjCryst::DiffractionDataSingleCrystal}!SaveHKLIobsIcalc@{SaveHKLIobsIcalc}}
+\index{SaveHKLIobsIcalc@{SaveHKLIobsIcalc}!ObjCryst::DiffractionDataSingleCrystal@{ObjCryst::DiffractionDataSingleCrystal}}
+\subsubsection{\texorpdfstring{SaveHKLIobsIcalc()}{SaveHKLIobsIcalc()}}
+{\footnotesize\ttfamily void Obj\+Cryst\+::\+Diffraction\+Data\+Single\+Crystal\+::\+Save\+H\+K\+L\+Iobs\+Icalc (\begin{DoxyParamCaption}\item[{const string \&}]{filename = {\ttfamily \char`\"{}hklIobsIcalc.out\char`\"{}} }\end{DoxyParamCaption})}
+
+Save H,K,L Iobs Icalc to a file, text format, 3 columns theta Iobs Icalc. If Iobs is missing, the column is omitted. Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_obj_cryst_1_1_diffraction_data_single_crystal_af220156c564b8d602b0c05ba222fba03_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_obj_cryst_1_1_diffraction_data_single_crystal_a0d13ab934c60c9bd0aebbb285a92c5cb}\label{class_obj_cryst_1_1_diffraction_data_single_crystal_a0d13ab934c60c9bd0aebbb285a92c5cb}} 
+\index{ObjCryst::DiffractionDataSingleCrystal@{ObjCryst::DiffractionDataSingleCrystal}!SetHklIobs@{SetHklIobs}}
+\index{SetHklIobs@{SetHklIobs}!ObjCryst::DiffractionDataSingleCrystal@{ObjCryst::DiffractionDataSingleCrystal}}
+\subsubsection{\texorpdfstring{SetHklIobs()}{SetHklIobs()}}
+{\footnotesize\ttfamily void Obj\+Cryst\+::\+Diffraction\+Data\+Single\+Crystal\+::\+Set\+Hkl\+Iobs (\begin{DoxyParamCaption}\item[{const Cryst\+Vector\+\_\+long \&}]{h,  }\item[{const Cryst\+Vector\+\_\+long \&}]{k,  }\item[{const Cryst\+Vector\+\_\+long \&}]{l,  }\item[{const Cryst\+Vector\+\_\+\+R\+E\+AL \&}]{i\+Obs,  }\item[{const Cryst\+Vector\+\_\+\+R\+E\+AL \&}]{sigma }\end{DoxyParamCaption})}
+
+
+
+input H,K,L, Iobs and Sigma 
+
+
+\begin{DoxyParams}{Parameters}
+{\em h,k,l} & R\+E\+AL arrays (vectors with Nb\+Refl elements -\/same size) with the h, k and l coordinates of all reflections. \\
+\hline
+{\em iobs,sigma} & R\+E\+AL arrays (vectors with Nb\+Refl elements -\/same size) with the Observed intensity and sigma for all reflections. \\
+\hline
+\end{DoxyParams}
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_obj_cryst_1_1_diffraction_data_single_crystal_a0d13ab934c60c9bd0aebbb285a92c5cb_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_obj_cryst_1_1_diffraction_data_single_crystal_a0d13ab934c60c9bd0aebbb285a92c5cb_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_obj_cryst_1_1_diffraction_data_single_crystal_a68395af92ab6a91a6ecc6e7633495b75}\label{class_obj_cryst_1_1_diffraction_data_single_crystal_a68395af92ab6a91a6ecc6e7633495b75}} 
+\index{ObjCryst::DiffractionDataSingleCrystal@{ObjCryst::DiffractionDataSingleCrystal}!SetSigmaToSqrtIobs@{SetSigmaToSqrtIobs}}
+\index{SetSigmaToSqrtIobs@{SetSigmaToSqrtIobs}!ObjCryst::DiffractionDataSingleCrystal@{ObjCryst::DiffractionDataSingleCrystal}}
+\subsubsection{\texorpdfstring{SetSigmaToSqrtIobs()}{SetSigmaToSqrtIobs()}}
+{\footnotesize\ttfamily void Obj\+Cryst\+::\+Diffraction\+Data\+Single\+Crystal\+::\+Set\+Sigma\+To\+Sqrt\+Iobs (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Set sigma for all observed intensities to sqrt(obs) 
+
+\mbox{\Hypertarget{class_obj_cryst_1_1_diffraction_data_single_crystal_a231437207dca7389aa593b1fd4fd9f1b}\label{class_obj_cryst_1_1_diffraction_data_single_crystal_a231437207dca7389aa593b1fd4fd9f1b}} 
+\index{ObjCryst::DiffractionDataSingleCrystal@{ObjCryst::DiffractionDataSingleCrystal}!SetWavelength@{SetWavelength}}
+\index{SetWavelength@{SetWavelength}!ObjCryst::DiffractionDataSingleCrystal@{ObjCryst::DiffractionDataSingleCrystal}}
+\subsubsection{\texorpdfstring{SetWavelength()}{SetWavelength()}}
+{\footnotesize\ttfamily void Obj\+Cryst\+::\+Diffraction\+Data\+Single\+Crystal\+::\+Set\+Wavelength (\begin{DoxyParamCaption}\item[{const string \&}]{X\+Ray\+Tube\+Element\+Name,  }\item[{const R\+E\+AL}]{alpha2\+Alpha2ratio = {\ttfamily 0.5} }\end{DoxyParamCaption})}
+
+\textbackslash{} brief Set X-\/\+Ray tube radiation.
+
+
+\begin{DoxyParams}{Parameters}
+{\em X\+Ray\+Tube\+Element\+Name} & \+: name of the anticathode element name. Known ones are Cr, Fe, Cu, Mo, Ag. \\
+\hline
+{\em alpha2\+Alpha2ratio} & Kalpha2/\+Kalpha1 ratio (0.\+5 by default)\\
+\hline
+\end{DoxyParams}
+the average wavelength is calculated using the alpha2/alpha1 weight. All structure factors computation are made using the average wavelength, and for powder diffraction, profiles are output at the alpha1 and alpha2 ratio for the calculated pattern.
+
+N\+O\+TE \+: if the name of the wavelength is generic (eg\char`\"{}\+Cu\char`\"{}), then the program considers that there are both Alpha1 and Alpha2, and thus automatically changes the Wavelength\+Type to W\+A\+V\+E\+L\+E\+N\+G\+T\+H\+\_\+\+A\+L\+P\+H\+A12. If instead either alpha1 or alpha2 (eg \char`\"{}\+Cu\+A1\char`\"{}) is asked for, the Wavelength\+Type is set to W\+A\+V\+E\+L\+E\+N\+G\+T\+H\+\_\+\+M\+O\+N\+O\+C\+H\+R\+O\+M\+A\+T\+IC. In both cases, the radiation type is set to X-\/\+Ray. Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_obj_cryst_1_1_diffraction_data_single_crystal_a231437207dca7389aa593b1fd4fd9f1b_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_obj_cryst_1_1_diffraction_data_single_crystal_a76f0f6b9eab4f00b7fa9afc17e951235}\label{class_obj_cryst_1_1_diffraction_data_single_crystal_a76f0f6b9eab4f00b7fa9afc17e951235}} 
+\index{ObjCryst::DiffractionDataSingleCrystal@{ObjCryst::DiffractionDataSingleCrystal}!SetWeightToInvSigma2@{SetWeightToInvSigma2}}
+\index{SetWeightToInvSigma2@{SetWeightToInvSigma2}!ObjCryst::DiffractionDataSingleCrystal@{ObjCryst::DiffractionDataSingleCrystal}}
+\subsubsection{\texorpdfstring{SetWeightToInvSigma2()}{SetWeightToInvSigma2()}}
+{\footnotesize\ttfamily void Obj\+Cryst\+::\+Diffraction\+Data\+Single\+Crystal\+::\+Set\+Weight\+To\+Inv\+Sigma2 (\begin{DoxyParamCaption}\item[{const R\+E\+AL}]{min\+Relat\+Sigma = {\ttfamily 1e-\/4},  }\item[{const R\+E\+AL}]{min\+Iobs\+Sigma\+Ratio = {\ttfamily 0} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Set the weight for all observed intensities to 1/sigma$^\wedge$2. 
+
+For sigmas which are smaller than min\+Relat\+Sigma times the max value of sigma, the output weight is set to 0.
+
+For reflections where the intensity is below min\+Iobs\+Sigma\+Ratio$\ast$sigma, the weight is set to zero so that this reflection is ignored. Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_obj_cryst_1_1_diffraction_data_single_crystal_a76f0f6b9eab4f00b7fa9afc17e951235_icgraph}
+\end{center}
+\end{figure}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+Diffraction\+Data\+Single\+Crystal.\+h\item 
+Diffraction\+Data\+Single\+Crystal.\+cpp\item 
+I\+O.\+cpp\end{DoxyCompactItemize}
