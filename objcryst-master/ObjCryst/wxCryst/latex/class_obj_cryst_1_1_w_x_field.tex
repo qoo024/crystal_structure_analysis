@@ -1,0 +1,95 @@
+\hypertarget{class_obj_cryst_1_1_w_x_field}{}\section{Obj\+Cryst\+::W\+X\+Field Class Reference}
+\label{class_obj_cryst_1_1_w_x_field}\index{ObjCryst::WXField@{ObjCryst::WXField}}
+
+
+{\ttfamily \#include $<$wx\+Cryst.\+h$>$}
+
+
+
+Inheritance diagram for Obj\+Cryst\+::W\+X\+Field\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_obj_cryst_1_1_w_x_field__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Obj\+Cryst\+::W\+X\+Field\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=318pt]{class_obj_cryst_1_1_w_x_field__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_obj_cryst_1_1_w_x_field_a750b0a756fd49172806fd5af020a1e07}{W\+X\+Field}} (wx\+Window $\ast$parent, const string \&label, const int field\+\_\+id)
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_w_x_field_a0092c7a134e627a4c9b975c339f6d54e}\label{class_obj_cryst_1_1_w_x_field_a0092c7a134e627a4c9b975c339f6d54e}} 
+void \mbox{\hyperlink{class_obj_cryst_1_1_w_x_field_a0092c7a134e627a4c9b975c339f6d54e}{Set\+Label}} (const string \&)
+\begin{DoxyCompactList}\small\item\em Change the field\textquotesingle{}s label. \end{DoxyCompactList}\item 
+virtual void \mbox{\hyperlink{class_obj_cryst_1_1_w_x_field_a178d6d770d1e3adfa02e27da94b2dffa}{Revert}} ()=0
+\item 
+virtual bool \mbox{\hyperlink{class_obj_cryst_1_1_w_x_field_a66cd13618de16d95beeb21e293678c87}{Set\+Foreground\+Colour}} (const wx\+Colour \&colour)
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_w_x_field_aa0a7701e04c91832e8fda19b5b2c147a}\label{class_obj_cryst_1_1_w_x_field_aa0a7701e04c91832e8fda19b5b2c147a}} 
+virtual void \mbox{\hyperlink{class_obj_cryst_1_1_w_x_field_aa0a7701e04c91832e8fda19b5b2c147a}{Validate\+User\+Input}} ()=0
+\begin{DoxyCompactList}\small\item\em This function shall be called when a new value has been entered. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_w_x_field_a98e5e9791b6fb89a699e68499540d5d6}\label{class_obj_cryst_1_1_w_x_field_a98e5e9791b6fb89a699e68499540d5d6}} 
+virtual void \mbox{\hyperlink{class_obj_cryst_1_1_w_x_field_a98e5e9791b6fb89a699e68499540d5d6}{Set\+Size}} (int width, int height)
+\begin{DoxyCompactList}\small\item\em Change the size of the field (excluding the title) \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_w_x_field_a7853a2d4f8b99e97c9959c01e8cce686}\label{class_obj_cryst_1_1_w_x_field_a7853a2d4f8b99e97c9959c01e8cce686}} 
+wx\+Box\+Sizer $\ast$ \mbox{\hyperlink{class_obj_cryst_1_1_w_x_field_a7853a2d4f8b99e97c9959c01e8cce686}{mp\+Sizer}}
+\begin{DoxyCompactList}\small\item\em The horizontal sizer in which the title, button, fields, are put. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_w_x_field_a0823abc300be21229f94eb44fc8acfc3}\label{class_obj_cryst_1_1_w_x_field_a0823abc300be21229f94eb44fc8acfc3}} 
+wx\+Static\+Text $\ast$ \mbox{\hyperlink{class_obj_cryst_1_1_w_x_field_a0823abc300be21229f94eb44fc8acfc3}{mp\+Label}}
+\begin{DoxyCompactList}\small\item\em The label. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_w_x_field_aa34f4178c0b17434cbdf757d7997afa9}\label{class_obj_cryst_1_1_w_x_field_aa34f4178c0b17434cbdf757d7997afa9}} 
+const int \mbox{\hyperlink{class_obj_cryst_1_1_w_x_field_aa34f4178c0b17434cbdf757d7997afa9}{m\+Id}}
+\begin{DoxyCompactList}\small\item\em The Id of this field. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+This is the abstract base class for all fields, wether they contain a floating-\/point parameter, or a string,... All \mbox{\hyperlink{class_obj_cryst_1_1_w_x_field}{W\+X\+Field}} have a title and an entry field.
+
+Note that \mbox{\hyperlink{class_obj_cryst_1_1_w_x_cryst_obj_basic_a7ac00ae2ae28f1a6fa26e6fa571186b6}{W\+X\+Field\+::\+Cryst\+Update()}} and \mbox{\hyperlink{class_obj_cryst_1_1_w_x_cryst_obj_basic_a3818940b7031ff7e45cf2178c4a99c90}{W\+X\+Field\+::\+Update\+U\+I()}} should be done from the parent object. Notably using \mbox{\hyperlink{class_obj_cryst_1_1_w_x_cryst_obj_basic_a7ac00ae2ae28f1a6fa26e6fa571186b6}{W\+X\+Field\+::\+Cryst\+Update}}(updateui=true) will not trigger an update of the UI. 
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_obj_cryst_1_1_w_x_field_a750b0a756fd49172806fd5af020a1e07}\label{class_obj_cryst_1_1_w_x_field_a750b0a756fd49172806fd5af020a1e07}} 
+\index{ObjCryst::WXField@{ObjCryst::WXField}!WXField@{WXField}}
+\index{WXField@{WXField}!ObjCryst::WXField@{ObjCryst::WXField}}
+\subsubsection{\texorpdfstring{WXField()}{WXField()}}
+{\footnotesize\ttfamily Obj\+Cryst\+::\+W\+X\+Field\+::\+W\+X\+Field (\begin{DoxyParamCaption}\item[{wx\+Window $\ast$}]{parent,  }\item[{const string \&}]{label,  }\item[{const int}]{field\+\_\+id }\end{DoxyParamCaption})}
+
+Constructor, specifying the label of the field. 
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{class_obj_cryst_1_1_w_x_field_a178d6d770d1e3adfa02e27da94b2dffa}\label{class_obj_cryst_1_1_w_x_field_a178d6d770d1e3adfa02e27da94b2dffa}} 
+\index{ObjCryst::WXField@{ObjCryst::WXField}!Revert@{Revert}}
+\index{Revert@{Revert}!ObjCryst::WXField@{ObjCryst::WXField}}
+\subsubsection{\texorpdfstring{Revert()}{Revert()}}
+{\footnotesize\ttfamily virtual void Obj\+Cryst\+::\+W\+X\+Field\+::\+Revert (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+After a user entry, this allows to go back to the last value, if for some reason the entry was rejected (because the object is currently busy, ...) 
+
+Implemented in \mbox{\hyperlink{class_obj_cryst_1_1_w_x_field_choice_a3b923575bb9d616bd9c80a7929d0a388}{Obj\+Cryst\+::\+W\+X\+Field\+Choice}}, \mbox{\hyperlink{class_obj_cryst_1_1_w_x_field_par_a928b1b8c7d47e3e99a29975c4dd51d58}{Obj\+Cryst\+::\+W\+X\+Field\+Par$<$ T $>$}}, \mbox{\hyperlink{class_obj_cryst_1_1_w_x_field_par_a928b1b8c7d47e3e99a29975c4dd51d58}{Obj\+Cryst\+::\+W\+X\+Field\+Par$<$ long $>$}}, \mbox{\hyperlink{class_obj_cryst_1_1_w_x_field_par_base_a27fd5066d2f6b6e87e213439fd8f7311}{Obj\+Cryst\+::\+W\+X\+Field\+Par\+Base}}, \mbox{\hyperlink{class_obj_cryst_1_1_w_x_field_name_a59ce32e9b9860b6cc6a0833f9d96b753}{Obj\+Cryst\+::\+W\+X\+Field\+Name}}, \mbox{\hyperlink{class_obj_cryst_1_1_w_x_field_string_a0372d3d98cad5236fc2ebb628c881600}{Obj\+Cryst\+::\+W\+X\+Field\+String}}, \mbox{\hyperlink{class_obj_cryst_1_1_w_x_field_option_a8caf4ac439d8c702583ceda0612618ab}{Obj\+Cryst\+::\+W\+X\+Field\+Option}}, and \mbox{\hyperlink{class_obj_cryst_1_1_w_x_field_ref_par_acc2b6724451be954f41a64e09d6cf082}{Obj\+Cryst\+::\+W\+X\+Field\+Ref\+Par}}.
+
+\mbox{\Hypertarget{class_obj_cryst_1_1_w_x_field_a66cd13618de16d95beeb21e293678c87}\label{class_obj_cryst_1_1_w_x_field_a66cd13618de16d95beeb21e293678c87}} 
+\index{ObjCryst::WXField@{ObjCryst::WXField}!SetForegroundColour@{SetForegroundColour}}
+\index{SetForegroundColour@{SetForegroundColour}!ObjCryst::WXField@{ObjCryst::WXField}}
+\subsubsection{\texorpdfstring{SetForegroundColour()}{SetForegroundColour()}}
+{\footnotesize\ttfamily bool Obj\+Cryst\+::\+W\+X\+Field\+::\+Set\+Foreground\+Colour (\begin{DoxyParamCaption}\item[{const wx\+Colour \&}]{colour }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+Change the colour of the field\textquotesingle{}s title. Can be used (with parcimony) to clarify the interface. 
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+wx\+Cryst.\+h\item 
+wx\+Cryst.\+cpp\end{DoxyCompactItemize}

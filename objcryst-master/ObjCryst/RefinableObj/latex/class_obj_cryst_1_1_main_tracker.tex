@@ -1,0 +1,63 @@
+\hypertarget{class_obj_cryst_1_1_main_tracker}{}\section{Obj\+Cryst\+::Main\+Tracker Class Reference}
+\label{class_obj_cryst_1_1_main_tracker}\index{ObjCryst::MainTracker@{ObjCryst::MainTracker}}
+
+
+{\ttfamily \#include $<$Tracker.\+h$>$}
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_main_tracker_a57cc485e6071733b882ff451d0e4b0c2}\label{class_obj_cryst_1_1_main_tracker_a57cc485e6071733b882ff451d0e4b0c2}} 
+void {\bfseries Add\+Tracker} (\mbox{\hyperlink{class_obj_cryst_1_1_tracker}{Tracker}} $\ast$t)
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_main_tracker_a364936085e098d0db6241e1ea618e8ad}\label{class_obj_cryst_1_1_main_tracker_a364936085e098d0db6241e1ea618e8ad}} 
+void {\bfseries Append\+Values} (const long trial)
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_main_tracker_a90300f3395141e9245483f0fef1bba33}\label{class_obj_cryst_1_1_main_tracker_a90300f3395141e9245483f0fef1bba33}} 
+void \mbox{\hyperlink{class_obj_cryst_1_1_main_tracker_a90300f3395141e9245483f0fef1bba33}{Clear\+Trackers}} ()
+\begin{DoxyCompactList}\small\item\em Removes all Trackers. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_main_tracker_aa641363dfd39e038e091979911d001a8}\label{class_obj_cryst_1_1_main_tracker_aa641363dfd39e038e091979911d001a8}} 
+void \mbox{\hyperlink{class_obj_cryst_1_1_main_tracker_aa641363dfd39e038e091979911d001a8}{Clear\+Values}} ()
+\begin{DoxyCompactList}\small\item\em Removes all stored values. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_obj_cryst_1_1_main_tracker_a1bbb24cd3ff9eb57aca89f8b2c64b68b}{Save\+All}} (std\+::ostream \&out) const
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_main_tracker_aa12b3027a09b8cb29fb43ba94c884f81}\label{class_obj_cryst_1_1_main_tracker_aa12b3027a09b8cb29fb43ba94c884f81}} 
+const std\+::set$<$ \mbox{\hyperlink{class_obj_cryst_1_1_tracker}{Tracker}} $\ast$ $>$ \& {\bfseries Get\+Tracker\+List} () const
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_main_tracker_ac2c20936fb61dccaf6853c188b49c965}\label{class_obj_cryst_1_1_main_tracker_ac2c20936fb61dccaf6853c188b49c965}} 
+void \mbox{\hyperlink{class_obj_cryst_1_1_main_tracker_ac2c20936fb61dccaf6853c188b49c965}{Update\+Display}} () const
+\begin{DoxyCompactList}\small\item\em Update display, if any. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_main_tracker_afc13f9397829981e3c24977754531a2e}\label{class_obj_cryst_1_1_main_tracker_afc13f9397829981e3c24977754531a2e}} 
+const \mbox{\hyperlink{class_obj_cryst_1_1_refinable_obj_clock}{Refinable\+Obj\+Clock}} \& \mbox{\hyperlink{class_obj_cryst_1_1_main_tracker_afc13f9397829981e3c24977754531a2e}{Get\+Clock\+Tracker\+List}} () const
+\begin{DoxyCompactList}\small\item\em Get last time a tracker was added. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_main_tracker_adb16f9b392262c74f1855e78a9a731bd}\label{class_obj_cryst_1_1_main_tracker_adb16f9b392262c74f1855e78a9a731bd}} 
+const \mbox{\hyperlink{class_obj_cryst_1_1_refinable_obj_clock}{Refinable\+Obj\+Clock}} \& \mbox{\hyperlink{class_obj_cryst_1_1_main_tracker_adb16f9b392262c74f1855e78a9a731bd}{Get\+Clock\+Values}} () const
+\begin{DoxyCompactList}\small\item\em Get last time values were whanged. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+A class to hold all trackers
+
+All trackers need not have the same 
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{class_obj_cryst_1_1_main_tracker_a1bbb24cd3ff9eb57aca89f8b2c64b68b}\label{class_obj_cryst_1_1_main_tracker_a1bbb24cd3ff9eb57aca89f8b2c64b68b}} 
+\index{ObjCryst::MainTracker@{ObjCryst::MainTracker}!SaveAll@{SaveAll}}
+\index{SaveAll@{SaveAll}!ObjCryst::MainTracker@{ObjCryst::MainTracker}}
+\subsubsection{\texorpdfstring{SaveAll()}{SaveAll()}}
+{\footnotesize\ttfamily void Obj\+Cryst\+::\+Main\+Tracker\+::\+Save\+All (\begin{DoxyParamCaption}\item[{std\+::ostream \&}]{out }\end{DoxyParamCaption}) const}
+
+Will save to a single file if all recorded trial numbers are the same Otherwise ? Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_obj_cryst_1_1_main_tracker_a1bbb24cd3ff9eb57aca89f8b2c64b68b_icgraph}
+\end{center}
+\end{figure}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+Tracker.\+h\item 
+Tracker.\+cpp\end{DoxyCompactItemize}

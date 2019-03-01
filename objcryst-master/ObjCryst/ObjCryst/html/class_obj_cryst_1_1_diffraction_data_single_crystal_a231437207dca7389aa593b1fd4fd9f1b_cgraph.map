@@ -1,0 +1,5 @@
+<map id="ObjCryst::DiffractionDataSingleCrystal::SetWavelength" name="ObjCryst::DiffractionDataSingleCrystal::SetWavelength">
+<area shape="rect" id="node1" title=" " alt="" coords="5,37,203,76"/>
+<area shape="rect" id="node2" href="$class_obj_cryst_1_1_diffraction_data_single_crystal.html#a86c0187981a9471bd463691f1de6f867" title="Get the radiation object for this data." alt="" coords="251,5,436,44"/>
+<area shape="rect" id="node3" href="$class_obj_cryst_1_1_radiation.html#ac40cb0879be00b232a6c3e78c069823d" title="Set the (monochromatic) wavelength of the beam." alt="" coords="275,68,412,107"/>
+</map>

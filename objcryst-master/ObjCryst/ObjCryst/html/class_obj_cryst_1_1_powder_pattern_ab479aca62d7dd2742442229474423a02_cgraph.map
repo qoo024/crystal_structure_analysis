@@ -1,0 +1,11 @@
+<map id="ObjCryst::PowderPattern::STOL2Pixel" name="ObjCryst::PowderPattern::STOL2Pixel">
+<area shape="rect" id="node1" title=" " alt="" coords="5,163,174,201"/>
+<area shape="rect" id="node2" href="$class_obj_cryst_1_1_powder_pattern.html#a0146d35bdc502a6f40f006de837fb490" title=" " alt="" coords="222,100,391,139"/>
+<area shape="rect" id="node6" href="$class_obj_cryst_1_1_powder_pattern.html#a05a4b659555b91a3996b016358168ae0" title=" " alt="" coords="222,193,391,232"/>
+<area shape="rect" id="node3" href="$class_obj_cryst_1_1_powder_pattern.html#ab53befb0a673360c2cbd1261f4f120c4" title="Get the Minimum 2theta." alt="" coords="442,5,611,44"/>
+<area shape="rect" id="node4" href="$class_obj_cryst_1_1_powder_pattern.html#a6c86d0b0a22155319a212bfb4629c9dd" title=" " alt="" coords="439,68,614,107"/>
+<area shape="rect" id="node5" href="$class_obj_cryst_1_1_powder_pattern.html#a1a71f1c47f625ffeb46bddf34a6a5780" title="Get the maximum 2theta." alt="" coords="440,131,613,169"/>
+<area shape="rect" id="node7" href="$class_obj_cryst_1_1_powder_pattern.html#a8c545d3b5f5e9671a719040af2c229e3" title="Neutron or x&#45;ray experiment ?" alt="" coords="442,193,611,232"/>
+<area shape="rect" id="node8" href="$class_obj_cryst_1_1_powder_pattern.html#a135e6cb36ade4ad2dafef04f91d53b96" title="wavelength of the experiment (in Angstroems)" alt="" coords="442,256,611,295"/>
+<area shape="rect" id="node9" href="$class_obj_cryst_1_1_radiation.html#a692ac2a7e9e4462e85479476f0485810" title=" " alt="" coords="662,256,799,295"/>
+</map>

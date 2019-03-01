@@ -1,0 +1,12 @@
+<map id="ObjCryst::MonteCarloObj::XMLInput" name="ObjCryst::MonteCarloObj::XMLInput">
+<area shape="rect" id="node1" title="Input in XML format from a stream, restoring the set of refined objects and the associated cost funct..." alt="" coords="5,163,176,201"/>
+<area shape="rect" id="node2" href="$class_obj_cryst_1_1_optimization_obj.html#ad9ecef3dfab776689e20fec12e6cbe38" title="Get the name for this object." alt="" coords="224,5,399,44"/>
+<area shape="rect" id="node3" href="$class_obj_cryst_1_1_optimization_obj.html#a076dc80d878fc4ab5e5491f54642382e" title="Set the name for this object." alt="" coords="224,68,399,107"/>
+<area shape="rect" id="node4" href="$class_obj_cryst_1_1_optimization_obj.html#abce28f5f2b98dce089aad6933a3f3c3c" title="Number of trial per run." alt="" coords="224,131,399,169"/>
+<area shape="rect" id="node5" href="$class_obj_cryst_1_1_optimization_obj.html#a6c353da1d31c049c2ad08a5503d5380b" title=" " alt="" coords="224,193,399,232"/>
+<area shape="rect" id="node7" href="$class_obj_cryst_1_1_ref_obj_opt.html#a9562e469ee61a710e535594fe58f0744" title="XMLInput From stream." alt="" coords="240,256,383,295"/>
+<area shape="rect" id="node8" href="$class_obj_cryst_1_1_optimization_obj.html#a05e7019188763202126f9f83a31e1673" title="Add a refined object. All sub&#45;objects are also added." alt="" coords="224,319,399,357"/>
+<area shape="rect" id="node6" href="$class_obj_cryst_1_1_main_tracker.html#ac2c20936fb61dccaf6853c188b49c965" title="Update display, if any." alt="" coords="460,193,614,232"/>
+<area shape="rect" id="node9" href="$class_obj_cryst_1_1_refinable_obj.html#a2d881bf3abcb527cf96142e51226e449" title="Name of the object." alt="" coords="458,287,616,325"/>
+<area shape="rect" id="node10" href="$class_obj_cryst_1_1_optimization_obj.html#a7c819c5f8fc52caafd97ea9d468da2be" title=" " alt="" coords="447,349,627,388"/>
+</map>

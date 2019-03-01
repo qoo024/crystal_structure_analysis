@@ -1,0 +1,7 @@
+<map id="ObjCryst::Atom" name="ObjCryst::Atom">
+<area shape="rect" id="node1" title=" " alt="" coords="17,316,129,341"/>
+<area shape="rect" id="node2" href="$class_obj_cryst_1_1_scatterer.html" title="Generic type of scatterer: can be an atom, or a more complex assembly of atoms." alt="" coords="5,241,140,267"/>
+<area shape="rect" id="node3" title=" " alt="" coords="18,5,117,31"/>
+<area shape="rect" id="node5" href="$class_obj_cryst_1_1_unit_cell.html" title="Unit Cell class: Unit cell with spacegroup information." alt="" coords="89,80,216,105"/>
+<area shape="rect" id="node4" href="$class_obj_cryst_1_1_crystal.html" title="Crystal class: Unit cell, spacegroup, scatterers." alt="" coords="90,155,212,180"/>
+</map>

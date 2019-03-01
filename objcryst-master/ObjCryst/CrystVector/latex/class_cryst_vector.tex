@@ -1,0 +1,133 @@
+\hypertarget{class_cryst_vector}{}\section{Cryst\+Vector$<$ T $>$ Class Template Reference}
+\label{class_cryst_vector}\index{CrystVector$<$ T $>$@{CrystVector$<$ T $>$}}
+
+
+Vector library (Blitz++ mimic) for Obj\+Cryst++.  
+
+
+
+
+{\ttfamily \#include $<$Cryst\+Vector.\+h$>$}
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_cryst_vector_acc1f58f22cbc277dd3ed69583abad959}\label{class_cryst_vector_acc1f58f22cbc277dd3ed69583abad959}} 
+{\bfseries Cryst\+Vector} (const long nb\+Elements)
+\item 
+\mbox{\Hypertarget{class_cryst_vector_a3c796d63fafeee6a9d214536957cf3c9}\label{class_cryst_vector_a3c796d63fafeee6a9d214536957cf3c9}} 
+{\bfseries Cryst\+Vector} (const \mbox{\hyperlink{class_cryst_vector}{Cryst\+Vector}} \&old)
+\item 
+\mbox{\Hypertarget{class_cryst_vector_a89708875b6c53d500c19c99b84d02f8a}\label{class_cryst_vector_a89708875b6c53d500c19c99b84d02f8a}} 
+void {\bfseries operator=} (const \mbox{\hyperlink{class_cryst_vector}{Cryst\+Vector}} \&old)
+\item 
+\mbox{\Hypertarget{class_cryst_vector_a8eb89869790a21467967129944248fbd}\label{class_cryst_vector_a8eb89869790a21467967129944248fbd}} 
+{\footnotesize template$<$class U $>$ }\\void {\bfseries operator=} (const \mbox{\hyperlink{class_cryst_vector}{Cryst\+Vector}}$<$ U $>$ \&old)
+\item 
+\mbox{\Hypertarget{class_cryst_vector_aa02f31054267a62b0f73bcb1173be524}\label{class_cryst_vector_aa02f31054267a62b0f73bcb1173be524}} 
+{\footnotesize template$<$class U $>$ }\\{\bfseries operator Cryst\+Vector$<$ U $>$} () const
+\item 
+void \mbox{\hyperlink{class_cryst_vector_a9f939ab8555eaa1ef838ad5b25dde2d8}{reference}} (\mbox{\hyperlink{class_cryst_vector}{Cryst\+Vector}} \&old, const long \mbox{\hyperlink{class_cryst_vector_a8d5e6eef9202504b306ca7b691162baf}{imin}}=0, const long \mbox{\hyperlink{class_cryst_vector_a5a30304d5f29ab47d499e59003a05a11}{imax}}=0)
+\item 
+\mbox{\Hypertarget{class_cryst_vector_a0269e971daefef3d3f63129c17089b38}\label{class_cryst_vector_a0269e971daefef3d3f63129c17089b38}} 
+long {\bfseries num\+Elements} () const
+\item 
+\mbox{\Hypertarget{class_cryst_vector_a106551b06a3ce47949611683d94981ab}\label{class_cryst_vector_a106551b06a3ce47949611683d94981ab}} 
+long {\bfseries size} () const
+\item 
+\mbox{\Hypertarget{class_cryst_vector_a6c648fc831631be72c1bee74dc79639c}\label{class_cryst_vector_a6c648fc831631be72c1bee74dc79639c}} 
+T {\bfseries sum} () const
+\item 
+\mbox{\Hypertarget{class_cryst_vector_a5623edf7706665fc067a6cb00bf6cc24}\label{class_cryst_vector_a5623edf7706665fc067a6cb00bf6cc24}} 
+T {\bfseries min} () const
+\item 
+\mbox{\Hypertarget{class_cryst_vector_ac2918765398b102d68c0446fdf3c1bea}\label{class_cryst_vector_ac2918765398b102d68c0446fdf3c1bea}} 
+T {\bfseries max} () const
+\item 
+\mbox{\Hypertarget{class_cryst_vector_a8d5e6eef9202504b306ca7b691162baf}\label{class_cryst_vector_a8d5e6eef9202504b306ca7b691162baf}} 
+unsigned long \mbox{\hyperlink{class_cryst_vector_a8d5e6eef9202504b306ca7b691162baf}{imin}} (const unsigned long start=0, const unsigned long finish=0) const
+\begin{DoxyCompactList}\small\item\em Find index of minimum, between start and end (if start==end, use full vector) \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_cryst_vector_a5a30304d5f29ab47d499e59003a05a11}\label{class_cryst_vector_a5a30304d5f29ab47d499e59003a05a11}} 
+unsigned long \mbox{\hyperlink{class_cryst_vector_a5a30304d5f29ab47d499e59003a05a11}{imax}} (const unsigned long start=0, const unsigned long finish=0) const
+\begin{DoxyCompactList}\small\item\em Find index of maximum, between start and end (if start==end, use full vector) \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_cryst_vector_a076edfa99371c4c9cae3d400f7547f30}\label{class_cryst_vector_a076edfa99371c4c9cae3d400f7547f30}} 
+T $\ast$ {\bfseries data} ()
+\item 
+\mbox{\Hypertarget{class_cryst_vector_a5fd0fe70250d6b3b31d4b2d2e41f61f7}\label{class_cryst_vector_a5fd0fe70250d6b3b31d4b2d2e41f61f7}} 
+const T $\ast$ {\bfseries data} () const
+\item 
+\mbox{\Hypertarget{class_cryst_vector_ab1765dd06bec2086b6f51540f023cd09}\label{class_cryst_vector_ab1765dd06bec2086b6f51540f023cd09}} 
+void {\bfseries resize} (const long new\+Nb\+Elements)
+\item 
+\mbox{\Hypertarget{class_cryst_vector_a9270bfb8548cde6f525906919058c816}\label{class_cryst_vector_a9270bfb8548cde6f525906919058c816}} 
+void {\bfseries resize\+And\+Preserve} (const long new\+Nb\+Elements)
+\item 
+\mbox{\Hypertarget{class_cryst_vector_aa81091f6140b4f668321f580c308a222}\label{class_cryst_vector_aa81091f6140b4f668321f580c308a222}} 
+void {\bfseries operator $\ast$=} (const T num)
+\item 
+\mbox{\Hypertarget{class_cryst_vector_ad63d48db069e0a609edc312c9a3ad14d}\label{class_cryst_vector_ad63d48db069e0a609edc312c9a3ad14d}} 
+void {\bfseries operator $\ast$=} (const \mbox{\hyperlink{class_cryst_vector}{Cryst\+Vector}} \&vect)
+\item 
+\mbox{\Hypertarget{class_cryst_vector_a40b9ab22eae2b5503315ba8df2eb66b7}\label{class_cryst_vector_a40b9ab22eae2b5503315ba8df2eb66b7}} 
+void {\bfseries operator/=} (const T num)
+\item 
+\mbox{\Hypertarget{class_cryst_vector_a1d03e858d034cdcdc5017c935f2abf21}\label{class_cryst_vector_a1d03e858d034cdcdc5017c935f2abf21}} 
+void {\bfseries operator/=} (const \mbox{\hyperlink{class_cryst_vector}{Cryst\+Vector}} \&vect)
+\item 
+\mbox{\Hypertarget{class_cryst_vector_a555db5dc4586f16776a7c7f85ab1c55a}\label{class_cryst_vector_a555db5dc4586f16776a7c7f85ab1c55a}} 
+void {\bfseries operator+=} (const T num)
+\item 
+\mbox{\Hypertarget{class_cryst_vector_a48d593976114ca7a7324c32777f6609d}\label{class_cryst_vector_a48d593976114ca7a7324c32777f6609d}} 
+void {\bfseries operator+=} (const \mbox{\hyperlink{class_cryst_vector}{Cryst\+Vector}} \&vect)
+\item 
+\mbox{\Hypertarget{class_cryst_vector_a7e0b418e32820b39046aa6b24f29ebc3}\label{class_cryst_vector_a7e0b418e32820b39046aa6b24f29ebc3}} 
+void {\bfseries operator-\/=} (const \mbox{\hyperlink{class_cryst_vector}{Cryst\+Vector}} \&vect)
+\item 
+\mbox{\Hypertarget{class_cryst_vector_ab0ccd3c73e6306422842b3f25d475025}\label{class_cryst_vector_ab0ccd3c73e6306422842b3f25d475025}} 
+void {\bfseries operator=} (const T num)
+\item 
+\mbox{\Hypertarget{class_cryst_vector_a930858e0299ff347602370c095fa8295}\label{class_cryst_vector_a930858e0299ff347602370c095fa8295}} 
+T {\bfseries operator()} (const long i) const
+\item 
+\mbox{\Hypertarget{class_cryst_vector_a298542b4d39d57db8af50c0975c77790}\label{class_cryst_vector_a298542b4d39d57db8af50c0975c77790}} 
+T \& {\bfseries operator()} (const long i)
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+\subsubsection*{template$<$class T$>$\newline
+class Cryst\+Vector$<$ T $>$}
+
+Vector library (Blitz++ mimic) for Obj\+Cryst++. 
+
+The \mbox{\hyperlink{class_cryst_vector}{Cryst\+Vector}} library is not a new array computation library, despite the appearances. Obj\+Cryst++ should used the \href{http://www.oonumerics.org/blitz/}{\texttt{ Blitz++ array library}} , which yields excellent performance {\itshape and} simple array expressions. Unfortunately, the memory required to {\itshape compile} the library using gcc is far too high to be reasonable when using complex expressions and optimizing code. So until this has changed, The \mbox{\hyperlink{class_cryst_vector}{Cryst\+Vector}} and \mbox{\hyperlink{class_cryst_matrix}{Cryst\+Matrix}} library have been created, and these emulate (supposedly exactly) the Blitz++ interface (but not the smart handling of mathematical expressions, so pointers must be used). For documentation about these two libraries you should read the \href{http://www.oonumerics.org/blitz/manual/}{\texttt{ Blitz++ documentation}}. \mbox{\hyperlink{class_cryst_vector}{Cryst\+Vector}} and \mbox{\hyperlink{class_cryst_matrix}{Cryst\+Matrix}} use the same kind of storage in memory.
+
+You can use Cryst\+Vector\+\_\+\+R\+E\+AL, Cryst\+Vector\+\_\+long,etc... to declare 1D vectors. Macros ensure (well, should) ensure compatibility with Blitz++. (as of april 2001 support of blitz++ is broken).
+
+\begin{DoxyRefDesc}{Todo}
+\item[\mbox{\hyperlink{todo__todo000001}{Todo}}]check again Blitz++ support in newer gcc versions. \end{DoxyRefDesc}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{class_cryst_vector_a9f939ab8555eaa1ef838ad5b25dde2d8}\label{class_cryst_vector_a9f939ab8555eaa1ef838ad5b25dde2d8}} 
+\index{CrystVector$<$ T $>$@{CrystVector$<$ T $>$}!reference@{reference}}
+\index{reference@{reference}!CrystVector$<$ T $>$@{CrystVector$<$ T $>$}}
+\subsubsection{\texorpdfstring{reference()}{reference()}}
+{\footnotesize\ttfamily template$<$class T $>$ \\
+void \mbox{\hyperlink{class_cryst_vector}{Cryst\+Vector}}$<$ T $>$\+::reference (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_cryst_vector}{Cryst\+Vector}}$<$ T $>$ \&}]{old,  }\item[{const long}]{imin = {\ttfamily 0},  }\item[{const long}]{imax = {\ttfamily 0} }\end{DoxyParamCaption})}
+
+Define this vector as a reference to another vector, or part of another vector
+
+
+\begin{DoxyParams}{Parameters}
+{\em old} & the vector this one should point to \\
+\hline
+{\em imin,imax} & imax$>$imin, this vector will point to a part of the other vector, from old(i) to old(imax-\/1) \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+Cryst\+Vector.\+h\item 
+Cryst\+Vector.\+cpp\end{DoxyCompactItemize}

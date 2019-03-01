@@ -1,0 +1,1382 @@
+\hypertarget{class_obj_cryst_1_1_powder_pattern}{}\section{Obj\+Cryst\+::Powder\+Pattern Class Reference}
+\label{class_obj_cryst_1_1_powder_pattern}\index{ObjCryst::PowderPattern@{ObjCryst::PowderPattern}}
+
+
+Powder pattern class, with an observed pattern and several calculated components to modelize the pattern.  
+
+
+
+
+{\ttfamily \#include $<$Powder\+Pattern.\+h$>$}
+
+
+
+Inheritance diagram for Obj\+Cryst\+::Powder\+Pattern\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=207pt]{class_obj_cryst_1_1_powder_pattern__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Obj\+Cryst\+::Powder\+Pattern\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=258pt]{class_obj_cryst_1_1_powder_pattern__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_powder_pattern_a6815f5a573037f29f5d7c5975c7d2360}\label{class_obj_cryst_1_1_powder_pattern_a6815f5a573037f29f5d7c5975c7d2360}} 
+{\bfseries Powder\+Pattern} (const \mbox{\hyperlink{class_obj_cryst_1_1_powder_pattern}{Powder\+Pattern}} \&)
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_powder_pattern_af149ed118f3a3afb50aed3d7521395d3}\label{class_obj_cryst_1_1_powder_pattern_af149ed118f3a3afb50aed3d7521395d3}} 
+virtual const string \& {\bfseries Get\+Class\+Name} () const
+\item 
+void \mbox{\hyperlink{class_obj_cryst_1_1_powder_pattern_a0190046adad7091ca0d7818b1ced7bb2}{Add\+Powder\+Pattern\+Component}} (\mbox{\hyperlink{class_obj_cryst_1_1_powder_pattern_component}{Powder\+Pattern\+Component}} \&)
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_powder_pattern_ac8b0ef9648e6e53878a38c1c8aceeb49}\label{class_obj_cryst_1_1_powder_pattern_ac8b0ef9648e6e53878a38c1c8aceeb49}} 
+unsigned int \mbox{\hyperlink{class_obj_cryst_1_1_powder_pattern_ac8b0ef9648e6e53878a38c1c8aceeb49}{Get\+Nb\+Powder\+Pattern\+Component}} () const
+\begin{DoxyCompactList}\small\item\em Number of components. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_powder_pattern_a3ffdfff8984f78248439c1fd6b5e9816}\label{class_obj_cryst_1_1_powder_pattern_a3ffdfff8984f78248439c1fd6b5e9816}} 
+const \mbox{\hyperlink{class_obj_cryst_1_1_powder_pattern_component}{Powder\+Pattern\+Component}} \& \mbox{\hyperlink{class_obj_cryst_1_1_powder_pattern_a3ffdfff8984f78248439c1fd6b5e9816}{Get\+Powder\+Pattern\+Component}} (const string \&name) const
+\begin{DoxyCompactList}\small\item\em Access to a component of the powder pattern. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_powder_pattern_a47f2a7217b4e1b8c3561260912757e74}\label{class_obj_cryst_1_1_powder_pattern_a47f2a7217b4e1b8c3561260912757e74}} 
+const \mbox{\hyperlink{class_obj_cryst_1_1_powder_pattern_component}{Powder\+Pattern\+Component}} \& \mbox{\hyperlink{class_obj_cryst_1_1_powder_pattern_a47f2a7217b4e1b8c3561260912757e74}{Get\+Powder\+Pattern\+Component}} (const int) const
+\begin{DoxyCompactList}\small\item\em Access to a component of the powder pattern. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_powder_pattern_a44a54b8333f338ac3029826f5e3a7b68}\label{class_obj_cryst_1_1_powder_pattern_a44a54b8333f338ac3029826f5e3a7b68}} 
+\mbox{\hyperlink{class_obj_cryst_1_1_powder_pattern_component}{Powder\+Pattern\+Component}} \& \mbox{\hyperlink{class_obj_cryst_1_1_powder_pattern_a44a54b8333f338ac3029826f5e3a7b68}{Get\+Powder\+Pattern\+Component}} (const string \&name)
+\begin{DoxyCompactList}\small\item\em Access to a component of the powder pattern. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_powder_pattern_a43e3610b833d31fdceb672887495636a}\label{class_obj_cryst_1_1_powder_pattern_a43e3610b833d31fdceb672887495636a}} 
+\mbox{\hyperlink{class_obj_cryst_1_1_powder_pattern_component}{Powder\+Pattern\+Component}} \& \mbox{\hyperlink{class_obj_cryst_1_1_powder_pattern_a43e3610b833d31fdceb672887495636a}{Get\+Powder\+Pattern\+Component}} (const int)
+\begin{DoxyCompactList}\small\item\em Access to a component of the powder pattern. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_powder_pattern_af7ecf858b786986eb8731679615b7a27}\label{class_obj_cryst_1_1_powder_pattern_af7ecf858b786986eb8731679615b7a27}} 
+R\+E\+AL \mbox{\hyperlink{class_obj_cryst_1_1_powder_pattern_af7ecf858b786986eb8731679615b7a27}{Get\+Scale\+Factor}} (const int i) const
+\begin{DoxyCompactList}\small\item\em Access to the scale factor of components (will be 1 for background components) \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_powder_pattern_ab84a278c497811b1b1b7c5118cc923da}\label{class_obj_cryst_1_1_powder_pattern_ab84a278c497811b1b1b7c5118cc923da}} 
+R\+E\+AL \mbox{\hyperlink{class_obj_cryst_1_1_powder_pattern_ab84a278c497811b1b1b7c5118cc923da}{Get\+Scale\+Factor}} (const \mbox{\hyperlink{class_obj_cryst_1_1_powder_pattern_component}{Powder\+Pattern\+Component}} \&comp) const
+\begin{DoxyCompactList}\small\item\em Access to the scale factor of components (will be 1 for background components) \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_powder_pattern_a62f0bbe83a48154e23e8698e86545bb2}\label{class_obj_cryst_1_1_powder_pattern_a62f0bbe83a48154e23e8698e86545bb2}} 
+void \mbox{\hyperlink{class_obj_cryst_1_1_powder_pattern_a62f0bbe83a48154e23e8698e86545bb2}{Set\+Scale\+Factor}} (const int i, R\+E\+AL s)
+\begin{DoxyCompactList}\small\item\em Access to the scale factor of components (will be 1 for background components) \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_powder_pattern_a23c3b15a62b104c8d3d5253d9975467f}\label{class_obj_cryst_1_1_powder_pattern_a23c3b15a62b104c8d3d5253d9975467f}} 
+void \mbox{\hyperlink{class_obj_cryst_1_1_powder_pattern_a23c3b15a62b104c8d3d5253d9975467f}{Set\+Scale\+Factor}} (const \mbox{\hyperlink{class_obj_cryst_1_1_powder_pattern_component}{Powder\+Pattern\+Component}} \&comp, R\+E\+AL s)
+\begin{DoxyCompactList}\small\item\em Access to the scale factor of components (will be 1 for background components) \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_obj_cryst_1_1_powder_pattern_adb92497ec0c6793c1cb74fc1bf9914e2}{Set\+Powder\+Pattern\+Par}} (const R\+E\+AL min, const R\+E\+AL step, unsigned long nb\+Point)
+\item 
+void \mbox{\hyperlink{class_obj_cryst_1_1_powder_pattern_a64170b8ead948e9b8569e1613d849583}{Set\+Powder\+PatternX}} (const Cryst\+Vector\+\_\+\+R\+E\+AL \&x)
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_powder_pattern_a6bd7666d4c7aedfadc59bc567474540e}\label{class_obj_cryst_1_1_powder_pattern_a6bd7666d4c7aedfadc59bc567474540e}} 
+unsigned long \mbox{\hyperlink{class_obj_cryst_1_1_powder_pattern_a6bd7666d4c7aedfadc59bc567474540e}{Get\+Nb\+Point}} () const
+\begin{DoxyCompactList}\small\item\em Number of points ? \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_powder_pattern_a9267c87c1e23978733d709827a6d6fc3}\label{class_obj_cryst_1_1_powder_pattern_a9267c87c1e23978733d709827a6d6fc3}} 
+unsigned long \mbox{\hyperlink{class_obj_cryst_1_1_powder_pattern_a9267c87c1e23978733d709827a6d6fc3}{Get\+Nb\+Point\+Used}} () const
+\begin{DoxyCompactList}\small\item\em Number of points actually calculated (below the chosen max(sin(theta)/lambda)) ? \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_powder_pattern_a0cb804df8c97e4c5247fb5a166791a6e}\label{class_obj_cryst_1_1_powder_pattern_a0cb804df8c97e4c5247fb5a166791a6e}} 
+const Refinable\+Obj\+Clock \& \mbox{\hyperlink{class_obj_cryst_1_1_powder_pattern_a0cb804df8c97e4c5247fb5a166791a6e}{Get\+Clock\+Nb\+Point\+Used}} () const
+\begin{DoxyCompactList}\small\item\em Clock corresponding to the last time the number of points used was changed. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_powder_pattern_a78eed04935e86eded8ee11470fcb9232}\label{class_obj_cryst_1_1_powder_pattern_a78eed04935e86eded8ee11470fcb9232}} 
+void \mbox{\hyperlink{class_obj_cryst_1_1_powder_pattern_a78eed04935e86eded8ee11470fcb9232}{Set\+Radiation}} (const \mbox{\hyperlink{class_obj_cryst_1_1_radiation}{Radiation}} \&radiation)
+\begin{DoxyCompactList}\small\item\em Set the radiation. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_powder_pattern_a8c545d3b5f5e9671a719040af2c229e3}\label{class_obj_cryst_1_1_powder_pattern_a8c545d3b5f5e9671a719040af2c229e3}} 
+const \mbox{\hyperlink{class_obj_cryst_1_1_radiation}{Radiation}} \& \mbox{\hyperlink{class_obj_cryst_1_1_powder_pattern_a8c545d3b5f5e9671a719040af2c229e3}{Get\+Radiation}} () const
+\begin{DoxyCompactList}\small\item\em Neutron or x-\/ray experiment ? \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_powder_pattern_a0ff01cebb572e7faade31604d3d22949}\label{class_obj_cryst_1_1_powder_pattern_a0ff01cebb572e7faade31604d3d22949}} 
+\mbox{\hyperlink{class_obj_cryst_1_1_radiation}{Radiation}} \& \mbox{\hyperlink{class_obj_cryst_1_1_powder_pattern_a0ff01cebb572e7faade31604d3d22949}{Get\+Radiation}} ()
+\begin{DoxyCompactList}\small\item\em Neutron or x-\/ray experiment ? \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_powder_pattern_ad3def5314d887649c311a6519d3f6e28}\label{class_obj_cryst_1_1_powder_pattern_ad3def5314d887649c311a6519d3f6e28}} 
+void \mbox{\hyperlink{class_obj_cryst_1_1_powder_pattern_ad3def5314d887649c311a6519d3f6e28}{Set\+Radiation\+Type}} (const \mbox{\hyperlink{namespace_obj_cryst_a48fe50a094c607f8897378934d3d73ef}{Radiation\+Type}} radiation)
+\begin{DoxyCompactList}\small\item\em Set the radiation type. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_powder_pattern_a7dab9ad22f88bd542b0b127aa7dc6cf8}\label{class_obj_cryst_1_1_powder_pattern_a7dab9ad22f88bd542b0b127aa7dc6cf8}} 
+\mbox{\hyperlink{namespace_obj_cryst_a48fe50a094c607f8897378934d3d73ef}{Radiation\+Type}} \mbox{\hyperlink{class_obj_cryst_1_1_powder_pattern_a7dab9ad22f88bd542b0b127aa7dc6cf8}{Get\+Radiation\+Type}} () const
+\begin{DoxyCompactList}\small\item\em Neutron or x-\/ray experiment ? \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_obj_cryst_1_1_powder_pattern_aea1c5351f710f2a91844b0f29b7b04aa}{Set\+Wavelength}} (const R\+E\+AL lambda)
+\item 
+void \mbox{\hyperlink{class_obj_cryst_1_1_powder_pattern_a9638b42f38dd82522593e1e01b6629c6}{Set\+Wavelength}} (const string \&X\+Ray\+Tube\+Element\+Name, const R\+E\+AL alpha12ratio=0.\+5)
+\begin{DoxyCompactList}\small\item\em Set the wavelength of the experiment to that of an X-\/\+Ray tube. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_powder_pattern_a09820e4b8d5a7b7f0e68963cb62a20d9}\label{class_obj_cryst_1_1_powder_pattern_a09820e4b8d5a7b7f0e68963cb62a20d9}} 
+void \mbox{\hyperlink{class_obj_cryst_1_1_powder_pattern_a09820e4b8d5a7b7f0e68963cb62a20d9}{Set\+Energy}} (const R\+E\+AL energy)
+\begin{DoxyCompactList}\small\item\em Set the energy of the experiment \mbox{[}in keV, lambda(\+A)=12398/E(keV)\mbox{]}. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_powder_pattern_a135e6cb36ade4ad2dafef04f91d53b96}\label{class_obj_cryst_1_1_powder_pattern_a135e6cb36ade4ad2dafef04f91d53b96}} 
+R\+E\+AL \mbox{\hyperlink{class_obj_cryst_1_1_powder_pattern_a135e6cb36ade4ad2dafef04f91d53b96}{Get\+Wavelength}} () const
+\begin{DoxyCompactList}\small\item\em wavelength of the experiment (in Angstroems) \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_powder_pattern_ae0ebde9b0093bc3572a0d29c73aa346b}\label{class_obj_cryst_1_1_powder_pattern_ae0ebde9b0093bc3572a0d29c73aa346b}} 
+const Cryst\+Vector\+\_\+\+R\+E\+AL \& \mbox{\hyperlink{class_obj_cryst_1_1_powder_pattern_ae0ebde9b0093bc3572a0d29c73aa346b}{Get\+Powder\+Pattern\+Calc}} () const
+\begin{DoxyCompactList}\small\item\em Get the calculated powder pattern. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_powder_pattern_a21865d0353c7c7ddeca2704020ba9784}\label{class_obj_cryst_1_1_powder_pattern_a21865d0353c7c7ddeca2704020ba9784}} 
+std\+::map$<$ Refinable\+Par $\ast$, Cryst\+Vector\+\_\+\+R\+E\+AL $>$ \& {\bfseries Get\+Powder\+Pattern\+\_\+\+Full\+Deriv} (std\+::set$<$ Refinable\+Par $\ast$ $>$ \&v\+Par)
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_powder_pattern_ac698a4b812f7fc1f8083369a2a8bec2d}\label{class_obj_cryst_1_1_powder_pattern_ac698a4b812f7fc1f8083369a2a8bec2d}} 
+const Cryst\+Vector\+\_\+\+R\+E\+AL \& \mbox{\hyperlink{class_obj_cryst_1_1_powder_pattern_ac698a4b812f7fc1f8083369a2a8bec2d}{Get\+Powder\+Pattern\+Obs}} () const
+\begin{DoxyCompactList}\small\item\em Get the observed powder pattern. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_powder_pattern_afde5ea72083e432e3aa83e43fdfebb16}\label{class_obj_cryst_1_1_powder_pattern_afde5ea72083e432e3aa83e43fdfebb16}} 
+const Cryst\+Vector\+\_\+\+R\+E\+AL \& \mbox{\hyperlink{class_obj_cryst_1_1_powder_pattern_afde5ea72083e432e3aa83e43fdfebb16}{Get\+Powder\+Pattern\+Obs\+Sigma}} () const
+\begin{DoxyCompactList}\small\item\em Get the sigma for each point of the observed powder pattern. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_powder_pattern_a4d6afe803ededcfece841845f7cdf0e5}\label{class_obj_cryst_1_1_powder_pattern_a4d6afe803ededcfece841845f7cdf0e5}} 
+const Cryst\+Vector\+\_\+\+R\+E\+AL \& \mbox{\hyperlink{class_obj_cryst_1_1_powder_pattern_a4d6afe803ededcfece841845f7cdf0e5}{Get\+Powder\+Pattern\+Variance}} () const
+\begin{DoxyCompactList}\small\item\em Get the variance (obs+model) for each point of the powder pattern. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_powder_pattern_a40085e7cb2b02fae9cd48e374db9db5f}\label{class_obj_cryst_1_1_powder_pattern_a40085e7cb2b02fae9cd48e374db9db5f}} 
+const Cryst\+Vector\+\_\+\+R\+E\+AL \& \mbox{\hyperlink{class_obj_cryst_1_1_powder_pattern_a40085e7cb2b02fae9cd48e374db9db5f}{Get\+Powder\+Pattern\+Weight}} () const
+\begin{DoxyCompactList}\small\item\em Get the weight for each point of the powder pattern. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_powder_pattern_ab53befb0a673360c2cbd1261f4f120c4}\label{class_obj_cryst_1_1_powder_pattern_ab53befb0a673360c2cbd1261f4f120c4}} 
+R\+E\+AL \mbox{\hyperlink{class_obj_cryst_1_1_powder_pattern_ab53befb0a673360c2cbd1261f4f120c4}{Get\+Powder\+Pattern\+X\+Min}} () const
+\begin{DoxyCompactList}\small\item\em Get the Minimum 2theta. \end{DoxyCompactList}\item 
+R\+E\+AL \mbox{\hyperlink{class_obj_cryst_1_1_powder_pattern_a6c86d0b0a22155319a212bfb4629c9dd}{Get\+Powder\+Pattern\+X\+Step}} () const
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_powder_pattern_a1a71f1c47f625ffeb46bddf34a6a5780}\label{class_obj_cryst_1_1_powder_pattern_a1a71f1c47f625ffeb46bddf34a6a5780}} 
+R\+E\+AL \mbox{\hyperlink{class_obj_cryst_1_1_powder_pattern_a1a71f1c47f625ffeb46bddf34a6a5780}{Get\+Powder\+Pattern\+X\+Max}} () const
+\begin{DoxyCompactList}\small\item\em Get the maximum 2theta. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_powder_pattern_a912aabc3b801566a93ca2caab2cc1c9c}\label{class_obj_cryst_1_1_powder_pattern_a912aabc3b801566a93ca2caab2cc1c9c}} 
+const Cryst\+Vector\+\_\+\+R\+E\+AL \& \mbox{\hyperlink{class_obj_cryst_1_1_powder_pattern_a912aabc3b801566a93ca2caab2cc1c9c}{Get\+Powder\+PatternX}} () const
+\begin{DoxyCompactList}\small\item\em Get the vector of X (2theta or time-\/of-\/flight) coordinates. \end{DoxyCompactList}\item 
+const Cryst\+Vector\+\_\+\+R\+E\+AL \& \mbox{\hyperlink{class_obj_cryst_1_1_powder_pattern_a9da47365d83b105f22c006bd7145ed23}{Get\+Chi2\+Cumul}} (const int mode=-\/1) const
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_powder_pattern_acdbd4327d06a21b48dfaa9ce794d6db8}\label{class_obj_cryst_1_1_powder_pattern_acdbd4327d06a21b48dfaa9ce794d6db8}} 
+const Refinable\+Obj\+Clock \& \mbox{\hyperlink{class_obj_cryst_1_1_powder_pattern_acdbd4327d06a21b48dfaa9ce794d6db8}{Get\+Clock\+Powder\+Pattern\+Calc}} () const
+\begin{DoxyCompactList}\small\item\em Last time the pattern was calculated. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_powder_pattern_a2c6b24bb1e7ea2f6fd4ac61b9aea3afb}\label{class_obj_cryst_1_1_powder_pattern_a2c6b24bb1e7ea2f6fd4ac61b9aea3afb}} 
+const Refinable\+Obj\+Clock \& \mbox{\hyperlink{class_obj_cryst_1_1_powder_pattern_a2c6b24bb1e7ea2f6fd4ac61b9aea3afb}{Get\+Clock\+Powder\+Pattern\+Par}} () const
+\begin{DoxyCompactList}\small\item\em When were the pattern parameters (2theta range, step) changed ? \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_powder_pattern_ae53ee06cec10fd47ee9b94cb9ef19273}\label{class_obj_cryst_1_1_powder_pattern_ae53ee06cec10fd47ee9b94cb9ef19273}} 
+const Refinable\+Obj\+Clock \& \mbox{\hyperlink{class_obj_cryst_1_1_powder_pattern_ae53ee06cec10fd47ee9b94cb9ef19273}{Get\+Clock\+Powder\+Pattern\+Radiation}} () const
+\begin{DoxyCompactList}\small\item\em When were the radiation parameter (radiation type, wavelength) changed ? \end{DoxyCompactList}\item 
+const Refinable\+Obj\+Clock \& \mbox{\hyperlink{class_obj_cryst_1_1_powder_pattern_af90dc3f2baa8c13f811ecf119cc49c95}{Get\+Clock\+Powder\+Pattern\+X\+Corr}} () const
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_powder_pattern_a5f0a77781549a546e5e2b9dc76f14622}\label{class_obj_cryst_1_1_powder_pattern_a5f0a77781549a546e5e2b9dc76f14622}} 
+void \mbox{\hyperlink{class_obj_cryst_1_1_powder_pattern_a5f0a77781549a546e5e2b9dc76f14622}{Set\+X\+Zero}} (const R\+E\+AL new\+Zero)
+\begin{DoxyCompactList}\small\item\em Change Zero in x (2theta,tof) \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_obj_cryst_1_1_powder_pattern_aee018af94fbc876762ccd98b0c8cb982}{Set2\+Theta\+Displacement}} (const R\+E\+AL displacement)
+\item 
+void \mbox{\hyperlink{class_obj_cryst_1_1_powder_pattern_a7520df007f0e2058201c81f6bf6122ff}{Set2\+Theta\+Transparency}} (const R\+E\+AL transparency)
+\item 
+void \mbox{\hyperlink{class_obj_cryst_1_1_powder_pattern_a4499e38a96db3f3c0abdb6d30f3400e1}{Import\+Powder\+Pattern\+Fullprof}} (const string \&fullprof\+File\+Name)
+\begin{DoxyCompactList}\small\item\em Import fullprof-\/style diffraction data. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_powder_pattern_a1ccba50e0df8ec4fb53c262b72ef384f}\label{class_obj_cryst_1_1_powder_pattern_a1ccba50e0df8ec4fb53c262b72ef384f}} 
+void \mbox{\hyperlink{class_obj_cryst_1_1_powder_pattern_a1ccba50e0df8ec4fb53c262b72ef384f}{Import\+Powder\+Pattern\+P\+S\+I\+\_\+\+D\+MC}} (const string \&filename)
+\begin{DoxyCompactList}\small\item\em Import powder pattern, format D\+MC from P\+SI. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_powder_pattern_a900f73bf552e7e6264638dd6ed6276a1}\label{class_obj_cryst_1_1_powder_pattern_a900f73bf552e7e6264638dd6ed6276a1}} 
+void \mbox{\hyperlink{class_obj_cryst_1_1_powder_pattern_a900f73bf552e7e6264638dd6ed6276a1}{Import\+Powder\+Pattern\+I\+L\+L\+\_\+\+D1\+A5}} (const string \&filename)
+\begin{DoxyCompactList}\small\item\em Import powder pattern, format from I\+LL D1\+A/\+D2B (format without counter info) \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_obj_cryst_1_1_powder_pattern_a4a8e1dc893c04a4451327d3f48f21d0e}{Import\+Powder\+Pattern\+Xdd}} (const string \&file\+Name)
+\begin{DoxyCompactList}\small\item\em Import $\ast$.xdd diffraction data (Topas,...). \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_obj_cryst_1_1_powder_pattern_adabe6381d8d1189abcf420f69a41cc81}{Import\+Powder\+Pattern\+Sietronics\+C\+PI}} (const string \&file\+Name)
+\begin{DoxyCompactList}\small\item\em Import $\ast$.cpi Sietronics diffraction data. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_obj_cryst_1_1_powder_pattern_aee56a2f23b8af5c855ceae82c246f242}{Import\+Powder\+Pattern2\+Theta\+Obs\+Sigma}} (const string \&file\+Name, const int nb\+Skip=0)
+\begin{DoxyCompactList}\small\item\em Import file with 3 columns 2Theta Iobs Sigma. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_obj_cryst_1_1_powder_pattern_a272b9fd71a6925eb9e1a991e488259b4}{Import\+Powder\+Pattern\+Fullprof4}} (const string \&file\+Name)
+\begin{DoxyCompactList}\small\item\em Import diffraction data from a file, with the first line has 2Theta\+Min, step, 2theta\+Max, and the following lines alternate 10 Iobs and 10 sigma. Ends with null entries (to fill last Iobs line to reach last sigme line). \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_obj_cryst_1_1_powder_pattern_abfc7890a1853583957284fc1a2644855}{Import\+Powder\+Pattern\+Multi\+Detector\+L\+L\+B\+G42}} (const string \&file\+Name)
+\begin{DoxyCompactList}\small\item\em diffraction data in a multi-\/detector format (fullprof format \#6). \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_obj_cryst_1_1_powder_pattern_a1c817b8e20b03b216323933e01e6fb00}{Import\+Powder\+Pattern2\+Theta\+Obs}} (const string \&file\+Name, const int nb\+Skip=0)
+\begin{DoxyCompactList}\small\item\em Import file with 2 columns 2Theta Iobs. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_obj_cryst_1_1_powder_pattern_a9d7209065acb5a992129cf6a2b14b526}{Import\+Powder\+Pattern\+T\+O\+F\+\_\+\+I\+S\+I\+S\+\_\+\+X\+Y\+Sigma}} (const string \&file\+Name)
+\begin{DoxyCompactList}\small\item\em Import T\+OF file (I\+S\+IS type, 3 columns t, Iobs, sigma(\+Iobs)) \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_obj_cryst_1_1_powder_pattern_a78be27d8764377f99e324a7181eac633}{Import\+Powder\+Pattern\+G\+S\+AS}} (const string \&file\+Name)
+\item 
+void \mbox{\hyperlink{class_obj_cryst_1_1_powder_pattern_a50348c3084e39c0c8f46a3ddccc03e1f}{Import\+Powder\+Pattern\+C\+IF}} (const \mbox{\hyperlink{class_obj_cryst_1_1_c_i_f}{C\+IF}} \&cif)
+\item 
+void \mbox{\hyperlink{class_obj_cryst_1_1_powder_pattern_a8562e190d277379e6e18d43f3d616976}{Set\+Powder\+Pattern\+Obs}} (const Cryst\+Vector\+\_\+\+R\+E\+AL \&obs)
+\begin{DoxyCompactList}\small\item\em Set observed powder pattern from vector array. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_obj_cryst_1_1_powder_pattern_ae9646ceed205b350e0dfa8f1bc5c3e17}{Save\+Powder\+Pattern}} (const string \&filename=\char`\"{}powder\+Pattern.\+out\char`\"{}) const
+\item 
+void \mbox{\hyperlink{class_obj_cryst_1_1_powder_pattern_ac08650463b3ecba84111c105726f2420}{Print\+Obs\+Calc\+Data}} (ostream \&os=cout) const
+\item 
+R\+E\+AL \mbox{\hyperlink{class_obj_cryst_1_1_powder_pattern_a2ab62a5d2d1de517a01252875dc905ab}{GetR}} () const
+\begin{DoxyCompactList}\small\item\em Unweighted R-\/factor. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_powder_pattern_ad709308efe102ea9c71a73c48cef72af}\label{class_obj_cryst_1_1_powder_pattern_ad709308efe102ea9c71a73c48cef72af}} 
+R\+E\+AL {\bfseries Get\+IntegratedR} () const
+\item 
+R\+E\+AL \mbox{\hyperlink{class_obj_cryst_1_1_powder_pattern_a6fce06a67de15dcba330517d461152f5}{Get\+Rw}} () const
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_powder_pattern_aa40fe82546589b4a23c25756a0ee0b7e}\label{class_obj_cryst_1_1_powder_pattern_aa40fe82546589b4a23c25756a0ee0b7e}} 
+R\+E\+AL {\bfseries Get\+Integrated\+Rw} () const
+\item 
+R\+E\+AL \mbox{\hyperlink{class_obj_cryst_1_1_powder_pattern_ab9fae16effd2ca4b59bf40e0706b86f2}{Get\+Chi2}} () const
+\begin{DoxyCompactList}\small\item\em Return conventionnal Chi$^\wedge$2. \end{DoxyCompactList}\item 
+R\+E\+AL \mbox{\hyperlink{class_obj_cryst_1_1_powder_pattern_a12ffd532da8462d03b56cc8e2be210ba}{Get\+Integrated\+Chi2}} () const
+\begin{DoxyCompactList}\small\item\em Return integrated Chi$^\wedge$2. \end{DoxyCompactList}\item 
+R\+E\+AL \mbox{\hyperlink{class_obj_cryst_1_1_powder_pattern_ae76721ca73e29a776de4b20fc23514a6}{Get\+Chi2\+\_\+\+Option}} () const
+\item 
+void \mbox{\hyperlink{class_obj_cryst_1_1_powder_pattern_add7e991dc93dcd85df4fc41fc2e7fc37}{Fit\+Scale\+Factor\+ForR}} () const
+\begin{DoxyCompactList}\small\item\em Fit the scale(s) factor of each component to minimize R. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_powder_pattern_a5f2bcf98d3b6f26628f3af439ebb27f3}\label{class_obj_cryst_1_1_powder_pattern_a5f2bcf98d3b6f26628f3af439ebb27f3}} 
+void {\bfseries Fit\+Scale\+Factor\+For\+IntegratedR} () const
+\item 
+void \mbox{\hyperlink{class_obj_cryst_1_1_powder_pattern_ab9b4d9f2af1885625fb27c6b1ab7519d}{Fit\+Scale\+Factor\+For\+Rw}} () const
+\begin{DoxyCompactList}\small\item\em Fit the scale(s) factor of each component to minimize Rw. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_powder_pattern_af45d09d44fb987434b0854ce614c3e56}\label{class_obj_cryst_1_1_powder_pattern_af45d09d44fb987434b0854ce614c3e56}} 
+void {\bfseries Fit\+Scale\+Factor\+For\+Integrated\+Rw} () const
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_powder_pattern_a1f2397ca48de524cb3916103eb83a267}\label{class_obj_cryst_1_1_powder_pattern_a1f2397ca48de524cb3916103eb83a267}} 
+void \mbox{\hyperlink{class_obj_cryst_1_1_powder_pattern_a1f2397ca48de524cb3916103eb83a267}{Set\+Sigma\+To\+Sqrt\+Iobs}} ()
+\begin{DoxyCompactList}\small\item\em Set sigma=sqrt(\+Iobs) \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_obj_cryst_1_1_powder_pattern_add7d97cdb7610f7553b95c2eeefcd172}{Set\+Weight\+To\+Inv\+Sigma\+Sq}} (const R\+E\+AL min\+Relat\+Sigma=1e-\/3)
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_powder_pattern_a57bbc965281ecca08c5f6bc0d0076e00}\label{class_obj_cryst_1_1_powder_pattern_a57bbc965281ecca08c5f6bc0d0076e00}} 
+void \mbox{\hyperlink{class_obj_cryst_1_1_powder_pattern_a57bbc965281ecca08c5f6bc0d0076e00}{Set\+Weight\+To\+Unit}} ()
+\begin{DoxyCompactList}\small\item\em Set w = 1. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_obj_cryst_1_1_powder_pattern_a3648701bed1a9ba0b576241226e06032}{Set\+Weight\+Polynomial}} (const R\+E\+AL a, const R\+E\+AL b, const R\+E\+AL c, const R\+E\+AL min\+Relat\+Iobs=1e-\/3)
+\item 
+void \mbox{\hyperlink{class_obj_cryst_1_1_powder_pattern_a964850cf74baa499f823e85447959790}{Add\+Excluded\+Region}} (const R\+E\+AL min2\+Theta, const R\+E\+AL max2theta)
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_powder_pattern_ae1dfeb27cc50785a5ee280ec8ead19f2}\label{class_obj_cryst_1_1_powder_pattern_ae1dfeb27cc50785a5ee280ec8ead19f2}} 
+virtual void {\bfseries Begin\+Optimization} (const bool allow\+Approximations=false, const bool enable\+Restraints=false)
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_powder_pattern_a9c9758a1121f31376ca7cb8147f93e16}\label{class_obj_cryst_1_1_powder_pattern_a9c9758a1121f31376ca7cb8147f93e16}} 
+virtual void {\bfseries Global\+Opt\+Random\+Move} (const R\+E\+AL mutation\+Amplitude, const Ref\+Par\+Type $\ast$type=gp\+Ref\+Par\+Type\+Obj\+Cryst)
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_powder_pattern_ab1879f34ea9b5d48122c44f730ba3242}\label{class_obj_cryst_1_1_powder_pattern_ab1879f34ea9b5d48122c44f730ba3242}} 
+virtual R\+E\+AL {\bfseries Get\+Log\+Likelihood} () const
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_powder_pattern_a4ac815895f0bfbe54a86c8c035974429}\label{class_obj_cryst_1_1_powder_pattern_a4ac815895f0bfbe54a86c8c035974429}} 
+virtual unsigned int {\bfseries Get\+Nb\+L\+S\+Q\+Function} () const
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_powder_pattern_a75516c89d11ab872499ccabd17b05a47}\label{class_obj_cryst_1_1_powder_pattern_a75516c89d11ab872499ccabd17b05a47}} 
+virtual const Cryst\+Vector\+\_\+\+R\+E\+AL \& {\bfseries Get\+L\+S\+Q\+Calc} (const unsigned int) const
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_powder_pattern_a0a0fbc01b86b718323f55fcf721a849b}\label{class_obj_cryst_1_1_powder_pattern_a0a0fbc01b86b718323f55fcf721a849b}} 
+virtual const Cryst\+Vector\+\_\+\+R\+E\+AL \& {\bfseries Get\+L\+S\+Q\+Obs} (const unsigned int) const
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_powder_pattern_a2c1adddb9292458e6b93fd3862985622}\label{class_obj_cryst_1_1_powder_pattern_a2c1adddb9292458e6b93fd3862985622}} 
+virtual const Cryst\+Vector\+\_\+\+R\+E\+AL \& {\bfseries Get\+L\+S\+Q\+Weight} (const unsigned int) const
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_powder_pattern_a450df47c32994fafb3b6cc8d82f68d3e}\label{class_obj_cryst_1_1_powder_pattern_a450df47c32994fafb3b6cc8d82f68d3e}} 
+virtual std\+::map$<$ Refinable\+Par $\ast$, Cryst\+Vector\+\_\+\+R\+E\+AL $>$ \& {\bfseries Get\+L\+S\+Q\+\_\+\+Full\+Deriv} (const unsigned int, std\+::set$<$ Refinable\+Par $\ast$ $>$ \&v\+Par)
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_powder_pattern_a640034a22ae65c6fc44159e12913ee09}\label{class_obj_cryst_1_1_powder_pattern_a640034a22ae65c6fc44159e12913ee09}} 
+virtual void {\bfseries X\+M\+L\+Output} (ostream \&os, int indent=0) const
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_powder_pattern_aa3f4ffe229e1727f7a922eaf18e5e7da}\label{class_obj_cryst_1_1_powder_pattern_aa3f4ffe229e1727f7a922eaf18e5e7da}} 
+virtual void {\bfseries X\+M\+L\+Input} (istream \&is, const X\+M\+L\+Cryst\+Tag \&tag)
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_powder_pattern_ae03f4d2f08e749e4f494eb78050dbffe}\label{class_obj_cryst_1_1_powder_pattern_ae03f4d2f08e749e4f494eb78050dbffe}} 
+void {\bfseries Prepare} ()
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_powder_pattern_aa9ad90bce792ecd69e97525ab7d93c1d}\label{class_obj_cryst_1_1_powder_pattern_aa9ad90bce792ecd69e97525ab7d93c1d}} 
+virtual void {\bfseries Get\+Gene\+Group} (const Refinable\+Obj \&obj, Cryst\+Vector\+\_\+uint \&group\+Index, unsigned int \&first\+Group) const
+\item 
+virtual void \mbox{\hyperlink{class_obj_cryst_1_1_powder_pattern_a465b2fc0d398e7090142694a7d2a8976}{Set\+Max\+Sin\+Theta\+Ov\+Lambda}} (const R\+E\+AL max)
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_powder_pattern_abbac889b7cf0eb63fb7dd44b6ab314ce}\label{class_obj_cryst_1_1_powder_pattern_abbac889b7cf0eb63fb7dd44b6ab314ce}} 
+R\+E\+AL \mbox{\hyperlink{class_obj_cryst_1_1_powder_pattern_abbac889b7cf0eb63fb7dd44b6ab314ce}{Get\+Max\+Sin\+Theta\+Ov\+Lambda}} () const
+\begin{DoxyCompactList}\small\item\em Get the maximum value for sin(theta)/lambda. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_powder_pattern_a1de0c8b818319dc1570826538665879c}\label{class_obj_cryst_1_1_powder_pattern_a1de0c8b818319dc1570826538665879c}} 
+const Cryst\+Vector\+\_\+long \& \mbox{\hyperlink{class_obj_cryst_1_1_powder_pattern_a1de0c8b818319dc1570826538665879c}{Get\+Integrated\+Profile\+Min}} () const
+\begin{DoxyCompactList}\small\item\em Get the list of first pixels for the integration intervals. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_powder_pattern_add507c79436f8087a1cea721ee602d84}\label{class_obj_cryst_1_1_powder_pattern_add507c79436f8087a1cea721ee602d84}} 
+const Cryst\+Vector\+\_\+long \& \mbox{\hyperlink{class_obj_cryst_1_1_powder_pattern_add507c79436f8087a1cea721ee602d84}{Get\+Integrated\+Profile\+Max}} () const
+\begin{DoxyCompactList}\small\item\em Get the list of last pixels for the integration intervals. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_powder_pattern_a30eb704dc31b1cc0b6bc2d746c37997c}\label{class_obj_cryst_1_1_powder_pattern_a30eb704dc31b1cc0b6bc2d746c37997c}} 
+const Refinable\+Obj\+Clock \& \mbox{\hyperlink{class_obj_cryst_1_1_powder_pattern_a30eb704dc31b1cc0b6bc2d746c37997c}{Get\+Integrated\+Profile\+Limits\+Clock}} () const
+\begin{DoxyCompactList}\small\item\em When were the integration intervals last changed ? \end{DoxyCompactList}\item 
+R\+E\+AL \mbox{\hyperlink{class_obj_cryst_1_1_powder_pattern_ad335f35d93beb9b269e003a4474c81f0}{X2\+X\+Corr}} (const R\+E\+AL x) const
+\item 
+R\+E\+AL \mbox{\hyperlink{class_obj_cryst_1_1_powder_pattern_a863415fc0586da70ea29600ffe01d954}{X2\+Pixel\+Corr}} (const R\+E\+AL x) const
+\item 
+R\+E\+AL \mbox{\hyperlink{class_obj_cryst_1_1_powder_pattern_a0146d35bdc502a6f40f006de837fb490}{X2\+Pixel}} (const R\+E\+AL x) const
+\item 
+R\+E\+AL \mbox{\hyperlink{class_obj_cryst_1_1_powder_pattern_a05a4b659555b91a3996b016358168ae0}{S\+T\+O\+L2X}} (const R\+E\+AL stol) const
+\item 
+R\+E\+AL \mbox{\hyperlink{class_obj_cryst_1_1_powder_pattern_a01aefd92417913f4b3514b6c08afbaf7}{X2\+S\+T\+OL}} (const R\+E\+AL x) const
+\item 
+R\+E\+AL \mbox{\hyperlink{class_obj_cryst_1_1_powder_pattern_ab479aca62d7dd2742442229474423a02}{S\+T\+O\+L2\+Pixel}} (const R\+E\+AL stol) const
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_powder_pattern_ad9de9c25681448972d968ec992534a2f}\label{class_obj_cryst_1_1_powder_pattern_ad9de9c25681448972d968ec992534a2f}} 
+\mbox{\hyperlink{class_obj_cryst_1_1_peak_list}{Peak\+List}} \mbox{\hyperlink{class_obj_cryst_1_1_powder_pattern_ad9de9c25681448972d968ec992534a2f}{Find\+Peaks}} (const float dmin=2.\+0, const float maxratio=0.\+01, const unsigned int maxpeak=100)
+\begin{DoxyCompactList}\small\item\em Find peaks in the pattern. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_powder_pattern_af158ea73e0f14e180c7cdab0fc3727a2}\label{class_obj_cryst_1_1_powder_pattern_af158ea73e0f14e180c7cdab0fc3727a2}} 
+const Cryst\+Vector\+\_\+\+R\+E\+AL \& \mbox{\hyperlink{class_obj_cryst_1_1_powder_pattern_af158ea73e0f14e180c7cdab0fc3727a2}{Get\+Scale\+Factor}} () const
+\begin{DoxyCompactList}\small\item\em Access the scale factors (see Powder\+Pattern\+::m\+Scale\+Factor) \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_powder_pattern_a0925b8fc5429dda656ff45c2e37a4610}\label{class_obj_cryst_1_1_powder_pattern_a0925b8fc5429dda656ff45c2e37a4610}} 
+Cryst\+Vector\+\_\+\+R\+E\+AL \& \mbox{\hyperlink{class_obj_cryst_1_1_powder_pattern_a0925b8fc5429dda656ff45c2e37a4610}{Get\+Scale\+Factor}} ()
+\begin{DoxyCompactList}\small\item\em Access the scale factors (see Powder\+Pattern\+::m\+Scale\+Factor) \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_obj_cryst_1_1_powder_pattern_a5fbc48a5536415de925a4afbb4e6122b}{Export\+Fullprof}} (const std\+::string \&prefix) const
+\end{DoxyCompactItemize}
+\subsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_powder_pattern_a9105959799a653a93a6d04429e71c68a}\label{class_obj_cryst_1_1_powder_pattern_a9105959799a653a93a6d04429e71c68a}} 
+void \mbox{\hyperlink{class_obj_cryst_1_1_powder_pattern_a9105959799a653a93a6d04429e71c68a}{Calc\+Powder\+Pattern}} () const
+\begin{DoxyCompactList}\small\item\em Calc the powder pattern. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_powder_pattern_ad75ff7078aba6c7bce14b6e618f0c3ea}\label{class_obj_cryst_1_1_powder_pattern_ad75ff7078aba6c7bce14b6e618f0c3ea}} 
+void {\bfseries Calc\+Powder\+Pattern\+\_\+\+Full\+Deriv} (std\+::set$<$ Refinable\+Par $\ast$ $>$ \&v\+Par)
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_powder_pattern_a208c61a267d7b5dc7810b78f51b2aa93}\label{class_obj_cryst_1_1_powder_pattern_a208c61a267d7b5dc7810b78f51b2aa93}} 
+void \mbox{\hyperlink{class_obj_cryst_1_1_powder_pattern_a208c61a267d7b5dc7810b78f51b2aa93}{Calc\+Powder\+Pattern\+Integrated}} () const
+\begin{DoxyCompactList}\small\item\em Calc the integrated powder pattern. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_powder_pattern_a860f30434d3fcea2144818d6b25e3d5f}\label{class_obj_cryst_1_1_powder_pattern_a860f30434d3fcea2144818d6b25e3d5f}} 
+void {\bfseries Calc\+Powder\+Pattern\+Integrated\+\_\+\+Full\+Deriv} (std\+::set$<$ Refinable\+Par $\ast$ $>$ \&v\+Par)
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_powder_pattern_ab8abbc7c9edea701411468c5fbdcae23}\label{class_obj_cryst_1_1_powder_pattern_ab8abbc7c9edea701411468c5fbdcae23}} 
+virtual void \mbox{\hyperlink{class_obj_cryst_1_1_powder_pattern_ab8abbc7c9edea701411468c5fbdcae23}{Init}} ()
+\begin{DoxyCompactList}\small\item\em Init parameters and options. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_powder_pattern_a11b29e7bf114a6b400bf8a7e6d8535f1}\label{class_obj_cryst_1_1_powder_pattern_a11b29e7bf114a6b400bf8a7e6d8535f1}} 
+void \mbox{\hyperlink{class_obj_cryst_1_1_powder_pattern_a11b29e7bf114a6b400bf8a7e6d8535f1}{Prepare\+Integrated\+Rfactor}} () const
+\begin{DoxyCompactList}\small\item\em Prepare the calculation of the integrated R-\/factors. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_obj_cryst_1_1_powder_pattern_a41398431ff5bc35f99d47224c3d4a6ec}{Calc\+Nb\+Point\+Used}} () const
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_powder_pattern_ab61ff252df08374529a87e8b2d090f9f}\label{class_obj_cryst_1_1_powder_pattern_ab61ff252df08374529a87e8b2d090f9f}} 
+virtual void \mbox{\hyperlink{class_obj_cryst_1_1_powder_pattern_ab61ff252df08374529a87e8b2d090f9f}{Init\+Options}} ()
+\begin{DoxyCompactList}\small\item\em Initialize options. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_powder_pattern_aedb4fbac375e7a10db65b132475b5cdd}\label{class_obj_cryst_1_1_powder_pattern_aedb4fbac375e7a10db65b132475b5cdd}} 
+Number of points actually due to the maximum value of {\bfseries sin} (theta)/lambda. mutable unsigned long m\+Nb\+Point\+Used
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_powder_pattern_a18d1f983eb0af5777bd457c2e2e24ab1}\label{class_obj_cryst_1_1_powder_pattern_a18d1f983eb0af5777bd457c2e2e24ab1}} 
+Number of integration intervals actually due to the maximum value of {\bfseries sin} (theta)/lambda. mutable unsigned long m\+Nb\+Integration\+Used
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_powder_pattern_a12a0d5ac50069f760e7de43b41e5384a}\label{class_obj_cryst_1_1_powder_pattern_a12a0d5ac50069f760e7de43b41e5384a}} 
+Clock recording the last time the number of points {\bfseries used} (Powder\+Pattern\+::m\+Nb\+Point\+Used) was changed. mutable Refinable\+Obj\+Clock m\+Clock\+Nb\+Point\+Used
+\end{DoxyCompactItemize}
+\subsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+Cryst\+Vector\+\_\+\+R\+E\+AL \mbox{\hyperlink{class_obj_cryst_1_1_powder_pattern_a039c845ac70b5118f5090077a5ef7f70}{m\+Powder\+Pattern\+Calc}}
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_powder_pattern_afa0be271569177203cde206fa2dac27b}\label{class_obj_cryst_1_1_powder_pattern_afa0be271569177203cde206fa2dac27b}} 
+std\+::map$<$ Refinable\+Par $\ast$, Cryst\+Vector\+\_\+\+R\+E\+AL $>$ {\bfseries m\+Powder\+Pattern\+\_\+\+Full\+Deriv}
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_powder_pattern_abf4b59b588e54dd6504722a4e8700c43}\label{class_obj_cryst_1_1_powder_pattern_abf4b59b588e54dd6504722a4e8700c43}} 
+Cryst\+Vector\+\_\+\+R\+E\+AL \mbox{\hyperlink{class_obj_cryst_1_1_powder_pattern_abf4b59b588e54dd6504722a4e8700c43}{m\+Powder\+Pattern\+Integrated\+Calc}}
+\begin{DoxyCompactList}\small\item\em The calculated powder pattern, integrated. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_powder_pattern_a77c062fa0db18e116f92f9ef55154616}\label{class_obj_cryst_1_1_powder_pattern_a77c062fa0db18e116f92f9ef55154616}} 
+std\+::map$<$ Refinable\+Par $\ast$, Cryst\+Vector\+\_\+\+R\+E\+AL $>$ {\bfseries m\+Powder\+Pattern\+Integrated\+\_\+\+Full\+Deriv}
+\item 
+Cryst\+Vector\+\_\+\+R\+E\+AL \mbox{\hyperlink{class_obj_cryst_1_1_powder_pattern_aa38c508b5516a2b4e357b7116e0b11da}{m\+Powder\+Pattern\+Background\+Calc}}
+\item 
+Cryst\+Vector\+\_\+\+R\+E\+AL \mbox{\hyperlink{class_obj_cryst_1_1_powder_pattern_a18da34aac86b27d5511268113b5f9260}{m\+Powder\+Pattern\+Background\+Integrated\+Calc}}
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_powder_pattern_aa7de3fc187edf28b3688569866b00700}\label{class_obj_cryst_1_1_powder_pattern_aa7de3fc187edf28b3688569866b00700}} 
+Cryst\+Vector\+\_\+\+R\+E\+AL \mbox{\hyperlink{class_obj_cryst_1_1_powder_pattern_aa7de3fc187edf28b3688569866b00700}{m\+Powder\+Pattern\+Obs}}
+\begin{DoxyCompactList}\small\item\em The observed powder pattern. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_powder_pattern_ab0468caae908a520555da3b104714129}\label{class_obj_cryst_1_1_powder_pattern_ab0468caae908a520555da3b104714129}} 
+Cryst\+Vector\+\_\+\+R\+E\+AL \mbox{\hyperlink{class_obj_cryst_1_1_powder_pattern_ab0468caae908a520555da3b104714129}{m\+Powder\+Pattern\+Obs\+Sigma}}
+\begin{DoxyCompactList}\small\item\em The sigma of the observed pattern. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_powder_pattern_a65da6b3a338951905cf52aa4b22f9324}\label{class_obj_cryst_1_1_powder_pattern_a65da6b3a338951905cf52aa4b22f9324}} 
+Cryst\+Vector\+\_\+\+R\+E\+AL \mbox{\hyperlink{class_obj_cryst_1_1_powder_pattern_a65da6b3a338951905cf52aa4b22f9324}{m\+Powder\+Pattern\+Weight}}
+\begin{DoxyCompactList}\small\item\em The weight for each point of the pattern. \end{DoxyCompactList}\item 
+Cryst\+Vector\+\_\+\+R\+E\+AL \mbox{\hyperlink{class_obj_cryst_1_1_powder_pattern_ac962c591539d06c65ce32e56580029c2}{m\+Powder\+Pattern\+Variance}}
+\item 
+Cryst\+Vector\+\_\+\+R\+E\+AL \mbox{\hyperlink{class_obj_cryst_1_1_powder_pattern_a7c7192cf095beca2d515a15f4c57d227}{m\+Powder\+Pattern\+Variance\+Integrated}}
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_powder_pattern_a0ed58eb5c5c33166838c1d57aa26ddae}\label{class_obj_cryst_1_1_powder_pattern_a0ed58eb5c5c33166838c1d57aa26ddae}} 
+Cryst\+Vector\+\_\+\+R\+E\+AL \mbox{\hyperlink{class_obj_cryst_1_1_powder_pattern_a0ed58eb5c5c33166838c1d57aa26ddae}{m\+Chi2\+Cumul}}
+\begin{DoxyCompactList}\small\item\em The cumulative Chi$^\wedge$2 (integrated or not, depending on the option) \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_powder_pattern_a4857b149efae6be6014648718d1cf62c}\label{class_obj_cryst_1_1_powder_pattern_a4857b149efae6be6014648718d1cf62c}} 
+Cryst\+Vector\+\_\+\+R\+E\+AL \mbox{\hyperlink{class_obj_cryst_1_1_powder_pattern_a4857b149efae6be6014648718d1cf62c}{m\+Powder\+Pattern\+Used\+Calc}}
+\begin{DoxyCompactList}\small\item\em The calculated powder pattern. Cropped to the maximum sin(theta)/lambda for L\+SQ. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_powder_pattern_adf0c88e32cbe606f45b6ca91f816f24d}\label{class_obj_cryst_1_1_powder_pattern_adf0c88e32cbe606f45b6ca91f816f24d}} 
+std\+::map$<$ Refinable\+Par $\ast$, Cryst\+Vector\+\_\+\+R\+E\+AL $>$ {\bfseries m\+Powder\+Pattern\+Used\+\_\+\+Full\+Deriv}
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_powder_pattern_a5390f7b642a104f692b459ad50de14e1}\label{class_obj_cryst_1_1_powder_pattern_a5390f7b642a104f692b459ad50de14e1}} 
+Cryst\+Vector\+\_\+\+R\+E\+AL \mbox{\hyperlink{class_obj_cryst_1_1_powder_pattern_a5390f7b642a104f692b459ad50de14e1}{m\+Powder\+Pattern\+Used\+Obs}}
+\begin{DoxyCompactList}\small\item\em The calculated powder pattern. Cropped to the maximum sin(theta)/lambda for L\+SQ. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_powder_pattern_ab1afb9ea500e8ba4d91178033ad7d18c}\label{class_obj_cryst_1_1_powder_pattern_ab1afb9ea500e8ba4d91178033ad7d18c}} 
+Cryst\+Vector\+\_\+\+R\+E\+AL \mbox{\hyperlink{class_obj_cryst_1_1_powder_pattern_ab1afb9ea500e8ba4d91178033ad7d18c}{m\+Powder\+Pattern\+Used\+Weight}}
+\begin{DoxyCompactList}\small\item\em The weight for each point of the pattern. Cropped to the maximum sin(theta)/lambda for L\+SQ. \end{DoxyCompactList}\item 
+Cryst\+Vector\+\_\+\+R\+E\+AL \mbox{\hyperlink{class_obj_cryst_1_1_powder_pattern_ac71a81d157387c2bdb7791cfa6d18e64}{mX}}
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_powder_pattern_ae28448d544d8d581ec9ee1ff357790b0}\label{class_obj_cryst_1_1_powder_pattern_ae28448d544d8d581ec9ee1ff357790b0}} 
+bool \mbox{\hyperlink{class_obj_cryst_1_1_powder_pattern_ae28448d544d8d581ec9ee1ff357790b0}{m\+Is\+X\+Ascending}}
+\begin{DoxyCompactList}\small\item\em Is the mX vector sorted in ascending order ? (true for 2theta, false for T\+OF) \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_powder_pattern_a19b60b359851708470a639767f98931e}\label{class_obj_cryst_1_1_powder_pattern_a19b60b359851708470a639767f98931e}} 
+unsigned long \mbox{\hyperlink{class_obj_cryst_1_1_powder_pattern_a19b60b359851708470a639767f98931e}{m\+Nb\+Point}}
+\begin{DoxyCompactList}\small\item\em Number of points in the pattern. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_powder_pattern_a05765f5848b8f408c98061501d576da1}\label{class_obj_cryst_1_1_powder_pattern_a05765f5848b8f408c98061501d576da1}} 
+\mbox{\hyperlink{class_obj_cryst_1_1_radiation}{Radiation}} \mbox{\hyperlink{class_obj_cryst_1_1_powder_pattern_a05765f5848b8f408c98061501d576da1}{m\+Radiation}}
+\begin{DoxyCompactList}\small\item\em The \mbox{\hyperlink{class_obj_cryst_1_1_radiation}{Radiation}} corresponding to this experiment. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_powder_pattern_ae346e0d2354a37cbaad34c2d053f52be}\label{class_obj_cryst_1_1_powder_pattern_ae346e0d2354a37cbaad34c2d053f52be}} 
+Refinable\+Obj\+Clock \mbox{\hyperlink{class_obj_cryst_1_1_powder_pattern_ae346e0d2354a37cbaad34c2d053f52be}{m\+Clock\+Powder\+Pattern\+Par}}
+\begin{DoxyCompactList}\small\item\em When were the pattern parameters (2theta or time-\/of-\/flight range) changed ? \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_powder_pattern_afb844ef286aa8109960c1de1fa7f1972}\label{class_obj_cryst_1_1_powder_pattern_afb844ef286aa8109960c1de1fa7f1972}} 
+Refinable\+Obj\+Clock \mbox{\hyperlink{class_obj_cryst_1_1_powder_pattern_afb844ef286aa8109960c1de1fa7f1972}{m\+Clock\+Powder\+Pattern\+Radiation}}
+\begin{DoxyCompactList}\small\item\em When were the radiation parameter (radiation type, wavelength) changed ? \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_powder_pattern_aafa1a93644c2c7b5e30dcf6c2d0c7b94}\label{class_obj_cryst_1_1_powder_pattern_aafa1a93644c2c7b5e30dcf6c2d0c7b94}} 
+Refinable\+Obj\+Clock \mbox{\hyperlink{class_obj_cryst_1_1_powder_pattern_aafa1a93644c2c7b5e30dcf6c2d0c7b94}{m\+Clock\+Powder\+Pattern\+Calc}}
+\begin{DoxyCompactList}\small\item\em When was the powder pattern last computed ? \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_powder_pattern_a8eae5432b9c084a5416ecc46330faaf7}\label{class_obj_cryst_1_1_powder_pattern_a8eae5432b9c084a5416ecc46330faaf7}} 
+Refinable\+Obj\+Clock \mbox{\hyperlink{class_obj_cryst_1_1_powder_pattern_a8eae5432b9c084a5416ecc46330faaf7}{m\+Clock\+Powder\+Pattern\+Integrated\+Calc}}
+\begin{DoxyCompactList}\small\item\em When was the powder pattern (integrated) last computed ? \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_powder_pattern_ae1e38d5d59428ee4658f7bf8e49416a3}\label{class_obj_cryst_1_1_powder_pattern_ae1e38d5d59428ee4658f7bf8e49416a3}} 
+Refinable\+Obj\+Clock \mbox{\hyperlink{class_obj_cryst_1_1_powder_pattern_ae1e38d5d59428ee4658f7bf8e49416a3}{m\+Clock\+Powder\+Pattern\+X\+Corr}}
+\begin{DoxyCompactList}\small\item\em Corrections to 2Theta. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_powder_pattern_abcd57fa3c97fd3434daa137a619b65e2}\label{class_obj_cryst_1_1_powder_pattern_abcd57fa3c97fd3434daa137a619b65e2}} 
+Refinable\+Obj\+Clock \mbox{\hyperlink{class_obj_cryst_1_1_powder_pattern_abcd57fa3c97fd3434daa137a619b65e2}{m\+Clock\+Scale\+Factor}}
+\begin{DoxyCompactList}\small\item\em Last modification of the scale factor. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_powder_pattern_a65c938b76b08552e2147135aa269dd8e}\label{class_obj_cryst_1_1_powder_pattern_a65c938b76b08552e2147135aa269dd8e}} 
+Cryst\+Vector\+\_\+\+R\+E\+AL \mbox{\hyperlink{class_obj_cryst_1_1_powder_pattern_a65c938b76b08552e2147135aa269dd8e}{m\+Excluded\+Region\+MinX}}
+\begin{DoxyCompactList}\small\item\em Min coordinate for for all excluded regions. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_powder_pattern_a77a9cb2e80edd777eac9b56fe68e95ef}\label{class_obj_cryst_1_1_powder_pattern_a77a9cb2e80edd777eac9b56fe68e95ef}} 
+Cryst\+Vector\+\_\+\+R\+E\+AL \mbox{\hyperlink{class_obj_cryst_1_1_powder_pattern_a77a9cb2e80edd777eac9b56fe68e95ef}{m\+Excluded\+Region\+MaxX}}
+\begin{DoxyCompactList}\small\item\em Max coordinate for 2theta for all excluded regions. \end{DoxyCompactList}\item 
+R\+E\+AL \mbox{\hyperlink{class_obj_cryst_1_1_powder_pattern_ae4722ceea4440d27a7de6115f70705ab}{m\+X\+Zero}}
+\item 
+R\+E\+AL \mbox{\hyperlink{class_obj_cryst_1_1_powder_pattern_a5af69d404bd80c279935990a24edec0b}{m\+Max\+Sin\+Theta\+Ov\+Lambda}}
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_powder_pattern_ad709ac89cea3bf5eb5d29f7beb429794}\label{class_obj_cryst_1_1_powder_pattern_ad709ac89cea3bf5eb5d29f7beb429794}} 
+Number of points actually {\bfseries used}
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_powder_pattern_ae6d9f72cbed814c222921f274db95280}\label{class_obj_cryst_1_1_powder_pattern_ae6d9f72cbed814c222921f274db95280}} 
+Number of integration intervals actually {\bfseries used}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Powder pattern class, with an observed pattern and several calculated components to modelize the pattern. 
+
+This can also be used for simulation, using a fake Iobs. Supports multiple phases. 
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{class_obj_cryst_1_1_powder_pattern_a964850cf74baa499f823e85447959790}\label{class_obj_cryst_1_1_powder_pattern_a964850cf74baa499f823e85447959790}} 
+\index{ObjCryst::PowderPattern@{ObjCryst::PowderPattern}!AddExcludedRegion@{AddExcludedRegion}}
+\index{AddExcludedRegion@{AddExcludedRegion}!ObjCryst::PowderPattern@{ObjCryst::PowderPattern}}
+\subsubsection{\texorpdfstring{AddExcludedRegion()}{AddExcludedRegion()}}
+{\footnotesize\ttfamily void Obj\+Cryst\+::\+Powder\+Pattern\+::\+Add\+Excluded\+Region (\begin{DoxyParamCaption}\item[{const R\+E\+AL}]{min2\+Theta,  }\item[{const R\+E\+AL}]{max2theta }\end{DoxyParamCaption})}
+
+Add an Exclusion region, in 2theta, which will be ignored when computing R\textquotesingle{}s X\+M\+L\+Input values must be, as always, in radians. Does not work yet with integrated R factors. Note that the pattern is still computed in these regions. They are only ignored by statistics functions (R, Rws). \mbox{\Hypertarget{class_obj_cryst_1_1_powder_pattern_a0190046adad7091ca0d7818b1ced7bb2}\label{class_obj_cryst_1_1_powder_pattern_a0190046adad7091ca0d7818b1ced7bb2}} 
+\index{ObjCryst::PowderPattern@{ObjCryst::PowderPattern}!AddPowderPatternComponent@{AddPowderPatternComponent}}
+\index{AddPowderPatternComponent@{AddPowderPatternComponent}!ObjCryst::PowderPattern@{ObjCryst::PowderPattern}}
+\subsubsection{\texorpdfstring{AddPowderPatternComponent()}{AddPowderPatternComponent()}}
+{\footnotesize\ttfamily void Obj\+Cryst\+::\+Powder\+Pattern\+::\+Add\+Powder\+Pattern\+Component (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_obj_cryst_1_1_powder_pattern_component}{Powder\+Pattern\+Component}} \&}]{comp }\end{DoxyParamCaption})}
+
+Add a component (phase, backround) to this pattern.
+
+It must have been allocated in the heap. The pattern parameters (2theta min, step, nbpoints, wavelength, radiation type) of the component are automatically changed to that of the \mbox{\hyperlink{class_obj_cryst_1_1_powder_pattern}{Powder\+Pattern}} object. Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_obj_cryst_1_1_powder_pattern_a0190046adad7091ca0d7818b1ced7bb2_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_obj_cryst_1_1_powder_pattern_a0190046adad7091ca0d7818b1ced7bb2_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_obj_cryst_1_1_powder_pattern_a41398431ff5bc35f99d47224c3d4a6ec}\label{class_obj_cryst_1_1_powder_pattern_a41398431ff5bc35f99d47224c3d4a6ec}} 
+\index{ObjCryst::PowderPattern@{ObjCryst::PowderPattern}!CalcNbPointUsed@{CalcNbPointUsed}}
+\index{CalcNbPointUsed@{CalcNbPointUsed}!ObjCryst::PowderPattern@{ObjCryst::PowderPattern}}
+\subsubsection{\texorpdfstring{CalcNbPointUsed()}{CalcNbPointUsed()}}
+{\footnotesize\ttfamily void Obj\+Cryst\+::\+Powder\+Pattern\+::\+Calc\+Nb\+Point\+Used (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [protected]}}
+
+Calculate the number of points of the pattern actually used, from the maximum value of sin(theta)/lambda Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_obj_cryst_1_1_powder_pattern_a41398431ff5bc35f99d47224c3d4a6ec_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_obj_cryst_1_1_powder_pattern_a41398431ff5bc35f99d47224c3d4a6ec_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_obj_cryst_1_1_powder_pattern_a5fbc48a5536415de925a4afbb4e6122b}\label{class_obj_cryst_1_1_powder_pattern_a5fbc48a5536415de925a4afbb4e6122b}} 
+\index{ObjCryst::PowderPattern@{ObjCryst::PowderPattern}!ExportFullprof@{ExportFullprof}}
+\index{ExportFullprof@{ExportFullprof}!ObjCryst::PowderPattern@{ObjCryst::PowderPattern}}
+\subsubsection{\texorpdfstring{ExportFullprof()}{ExportFullprof()}}
+{\footnotesize\ttfamily void Obj\+Cryst\+::\+Powder\+Pattern\+::\+Export\+Fullprof (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{prefix }\end{DoxyParamCaption}) const}
+
+Export powder pattern \& crystal structure in Fullprof format.
+
+This will create two files -\/ the .pcr file (including the crystal structure and all pattern parameters), and the .dat file with the powder pattern, written using the \char`\"{}\+Ins=10\char`\"{} file format. 
+\begin{DoxyParams}{Parameters}
+{\em prefix} & the prefix used to output the two files, \textquotesingle{}prefix\textquotesingle{}.pcr and \textquotesingle{}prefix\textquotesingle{}.dat\\
+\hline
+\end{DoxyParams}
+\begin{DoxyNote}{Note}
+\+: in development. Only supports constant wavelength neutron \& X-\/ray patterns. 
+\end{DoxyNote}
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_obj_cryst_1_1_powder_pattern_a5fbc48a5536415de925a4afbb4e6122b_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_obj_cryst_1_1_powder_pattern_add7e991dc93dcd85df4fc41fc2e7fc37}\label{class_obj_cryst_1_1_powder_pattern_add7e991dc93dcd85df4fc41fc2e7fc37}} 
+\index{ObjCryst::PowderPattern@{ObjCryst::PowderPattern}!FitScaleFactorForR@{FitScaleFactorForR}}
+\index{FitScaleFactorForR@{FitScaleFactorForR}!ObjCryst::PowderPattern@{ObjCryst::PowderPattern}}
+\subsubsection{\texorpdfstring{FitScaleFactorForR()}{FitScaleFactorForR()}}
+{\footnotesize\ttfamily void Obj\+Cryst\+::\+Powder\+Pattern\+::\+Fit\+Scale\+Factor\+ForR (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Fit the scale(s) factor of each component to minimize R. 
+
+min is the {\itshape beginning} of the excluded region
+
+min is the {\itshape beginning} of the excluded region
+
+min is the {\itshape beginning} of the excluded region Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_obj_cryst_1_1_powder_pattern_add7e991dc93dcd85df4fc41fc2e7fc37_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_obj_cryst_1_1_powder_pattern_ab9b4d9f2af1885625fb27c6b1ab7519d}\label{class_obj_cryst_1_1_powder_pattern_ab9b4d9f2af1885625fb27c6b1ab7519d}} 
+\index{ObjCryst::PowderPattern@{ObjCryst::PowderPattern}!FitScaleFactorForRw@{FitScaleFactorForRw}}
+\index{FitScaleFactorForRw@{FitScaleFactorForRw}!ObjCryst::PowderPattern@{ObjCryst::PowderPattern}}
+\subsubsection{\texorpdfstring{FitScaleFactorForRw()}{FitScaleFactorForRw()}}
+{\footnotesize\ttfamily void Obj\+Cryst\+::\+Powder\+Pattern\+::\+Fit\+Scale\+Factor\+For\+Rw (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Fit the scale(s) factor of each component to minimize Rw. 
+
+min is the {\itshape beginning} of the excluded region
+
+min is the {\itshape beginning} of the excluded region
+
+min is the {\itshape beginning} of the excluded region Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_obj_cryst_1_1_powder_pattern_ab9b4d9f2af1885625fb27c6b1ab7519d_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_obj_cryst_1_1_powder_pattern_ab9b4d9f2af1885625fb27c6b1ab7519d_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_obj_cryst_1_1_powder_pattern_ab9fae16effd2ca4b59bf40e0706b86f2}\label{class_obj_cryst_1_1_powder_pattern_ab9fae16effd2ca4b59bf40e0706b86f2}} 
+\index{ObjCryst::PowderPattern@{ObjCryst::PowderPattern}!GetChi2@{GetChi2}}
+\index{GetChi2@{GetChi2}!ObjCryst::PowderPattern@{ObjCryst::PowderPattern}}
+\subsubsection{\texorpdfstring{GetChi2()}{GetChi2()}}
+{\footnotesize\ttfamily R\+E\+AL Obj\+Cryst\+::\+Powder\+Pattern\+::\+Get\+Chi2 (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Return conventionnal Chi$^\wedge$2. 
+
+\begin{DoxyReturn}{Returns}
+$ \chi^2 = \sum_i w_i \left(I_i^{obs}-I_i^{calc} \right)^2 $ 
+\end{DoxyReturn}
+min is the {\itshape beginning} of the excluded region ! Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_obj_cryst_1_1_powder_pattern_ab9fae16effd2ca4b59bf40e0706b86f2_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_obj_cryst_1_1_powder_pattern_ab9fae16effd2ca4b59bf40e0706b86f2_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_obj_cryst_1_1_powder_pattern_ae76721ca73e29a776de4b20fc23514a6}\label{class_obj_cryst_1_1_powder_pattern_ae76721ca73e29a776de4b20fc23514a6}} 
+\index{ObjCryst::PowderPattern@{ObjCryst::PowderPattern}!GetChi2\_Option@{GetChi2\_Option}}
+\index{GetChi2\_Option@{GetChi2\_Option}!ObjCryst::PowderPattern@{ObjCryst::PowderPattern}}
+\subsubsection{\texorpdfstring{GetChi2\_Option()}{GetChi2\_Option()}}
+{\footnotesize\ttfamily R\+E\+AL Obj\+Cryst\+::\+Powder\+Pattern\+::\+Get\+Chi2\+\_\+\+Option (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+Return the conventionnal or integrated Chi$^\wedge$2, depending on the option. Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_obj_cryst_1_1_powder_pattern_ae76721ca73e29a776de4b20fc23514a6_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_obj_cryst_1_1_powder_pattern_a9da47365d83b105f22c006bd7145ed23}\label{class_obj_cryst_1_1_powder_pattern_a9da47365d83b105f22c006bd7145ed23}} 
+\index{ObjCryst::PowderPattern@{ObjCryst::PowderPattern}!GetChi2Cumul@{GetChi2Cumul}}
+\index{GetChi2Cumul@{GetChi2Cumul}!ObjCryst::PowderPattern@{ObjCryst::PowderPattern}}
+\subsubsection{\texorpdfstring{GetChi2Cumul()}{GetChi2Cumul()}}
+{\footnotesize\ttfamily const Cryst\+Vector\+\_\+\+R\+E\+AL \& Obj\+Cryst\+::\+Powder\+Pattern\+::\+Get\+Chi2\+Cumul (\begin{DoxyParamCaption}\item[{const int}]{mode = {\ttfamily -\/1} }\end{DoxyParamCaption}) const}
+
+Get the powder pattern cumulative Chi$^\wedge$2. Depending on the chosen option, it will be calculated in an integrated manner or not.
+
+The vector is recomputed on every call, so this is {\itshape slow}. 
+\begin{DoxyParams}{Parameters}
+{\em mode} & if -\/1 (the default), the calculation mode uses the value of m\+Opt\+Profile\+Integration. if 0, the integrated mode is used. If 1, the full powder pattern mode is used. \\
+\hline
+\end{DoxyParams}
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_obj_cryst_1_1_powder_pattern_a9da47365d83b105f22c006bd7145ed23_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_obj_cryst_1_1_powder_pattern_af90dc3f2baa8c13f811ecf119cc49c95}\label{class_obj_cryst_1_1_powder_pattern_af90dc3f2baa8c13f811ecf119cc49c95}} 
+\index{ObjCryst::PowderPattern@{ObjCryst::PowderPattern}!GetClockPowderPatternXCorr@{GetClockPowderPatternXCorr}}
+\index{GetClockPowderPatternXCorr@{GetClockPowderPatternXCorr}!ObjCryst::PowderPattern@{ObjCryst::PowderPattern}}
+\subsubsection{\texorpdfstring{GetClockPowderPatternXCorr()}{GetClockPowderPatternXCorr()}}
+{\footnotesize\ttfamily const Refinable\+Obj\+Clock \& Obj\+Cryst\+::\+Powder\+Pattern\+::\+Get\+Clock\+Powder\+Pattern\+X\+Corr (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+When were the parameters for 2theta/\+T\+OF correction (zero, transparency, displacement) last changed ? Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_obj_cryst_1_1_powder_pattern_af90dc3f2baa8c13f811ecf119cc49c95_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_obj_cryst_1_1_powder_pattern_a12ffd532da8462d03b56cc8e2be210ba}\label{class_obj_cryst_1_1_powder_pattern_a12ffd532da8462d03b56cc8e2be210ba}} 
+\index{ObjCryst::PowderPattern@{ObjCryst::PowderPattern}!GetIntegratedChi2@{GetIntegratedChi2}}
+\index{GetIntegratedChi2@{GetIntegratedChi2}!ObjCryst::PowderPattern@{ObjCryst::PowderPattern}}
+\subsubsection{\texorpdfstring{GetIntegratedChi2()}{GetIntegratedChi2()}}
+{\footnotesize\ttfamily R\+E\+AL Obj\+Cryst\+::\+Powder\+Pattern\+::\+Get\+Integrated\+Chi2 (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Return integrated Chi$^\wedge$2. 
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_obj_cryst_1_1_powder_pattern_a12ffd532da8462d03b56cc8e2be210ba_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_obj_cryst_1_1_powder_pattern_a12ffd532da8462d03b56cc8e2be210ba_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_obj_cryst_1_1_powder_pattern_a6c86d0b0a22155319a212bfb4629c9dd}\label{class_obj_cryst_1_1_powder_pattern_a6c86d0b0a22155319a212bfb4629c9dd}} 
+\index{ObjCryst::PowderPattern@{ObjCryst::PowderPattern}!GetPowderPatternXStep@{GetPowderPatternXStep}}
+\index{GetPowderPatternXStep@{GetPowderPatternXStep}!ObjCryst::PowderPattern@{ObjCryst::PowderPattern}}
+\subsubsection{\texorpdfstring{GetPowderPatternXStep()}{GetPowderPatternXStep()}}
+{\footnotesize\ttfamily R\+E\+AL Obj\+Cryst\+::\+Powder\+Pattern\+::\+Get\+Powder\+Pattern\+X\+Step (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+Get the average step in 2theta
+
+\begin{DoxyWarning}{Warning}
+\+: this will only return (2Theta\+Max-\/2\+Theta\+Min)/(nb\+Points-\/1), so this is the 2theta step only if the step is fixed.
+\end{DoxyWarning}
+\begin{DoxyRefDesc}{Deprecated}
+\item[\mbox{\hyperlink{deprecated__deprecated000025}{Deprecated}}]\end{DoxyRefDesc}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_obj_cryst_1_1_powder_pattern_a6c86d0b0a22155319a212bfb4629c9dd_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_obj_cryst_1_1_powder_pattern_a2ab62a5d2d1de517a01252875dc905ab}\label{class_obj_cryst_1_1_powder_pattern_a2ab62a5d2d1de517a01252875dc905ab}} 
+\index{ObjCryst::PowderPattern@{ObjCryst::PowderPattern}!GetR@{GetR}}
+\index{GetR@{GetR}!ObjCryst::PowderPattern@{ObjCryst::PowderPattern}}
+\subsubsection{\texorpdfstring{GetR()}{GetR()}}
+{\footnotesize\ttfamily R\+E\+AL Obj\+Cryst\+::\+Powder\+Pattern\+::\+GetR (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Unweighted R-\/factor. 
+
+\begin{DoxyReturn}{Returns}
+$ R= \sqrt {\frac{\sum_i \left( I_i^{obs}-I_i^{calc} \right)^2} {\sum_i (I_i^{obs})^2} }$ 
+\end{DoxyReturn}
+min is the {\itshape beginning} of the excluded region !
+
+min is the {\itshape beginning} of the excluded region ! Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_obj_cryst_1_1_powder_pattern_a2ab62a5d2d1de517a01252875dc905ab_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_obj_cryst_1_1_powder_pattern_a6fce06a67de15dcba330517d461152f5}\label{class_obj_cryst_1_1_powder_pattern_a6fce06a67de15dcba330517d461152f5}} 
+\index{ObjCryst::PowderPattern@{ObjCryst::PowderPattern}!GetRw@{GetRw}}
+\index{GetRw@{GetRw}!ObjCryst::PowderPattern@{ObjCryst::PowderPattern}}
+\subsubsection{\texorpdfstring{GetRw()}{GetRw()}}
+{\footnotesize\ttfamily R\+E\+AL Obj\+Cryst\+::\+Powder\+Pattern\+::\+Get\+Rw (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+Get the weighted R-\/factor \begin{DoxyReturn}{Returns}
+$ R_{w}= \sqrt {\frac{\sum_i w_i\left( I_i^{obs}-I_i^{calc} \right)^2} {\sum_i w_i (I_i^{obs})^2} }$ 
+\end{DoxyReturn}
+min is the {\itshape beginning} of the excluded region !
+
+min is the {\itshape beginning} of the excluded region ! Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_obj_cryst_1_1_powder_pattern_a6fce06a67de15dcba330517d461152f5_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_obj_cryst_1_1_powder_pattern_a1c817b8e20b03b216323933e01e6fb00}\label{class_obj_cryst_1_1_powder_pattern_a1c817b8e20b03b216323933e01e6fb00}} 
+\index{ObjCryst::PowderPattern@{ObjCryst::PowderPattern}!ImportPowderPattern2ThetaObs@{ImportPowderPattern2ThetaObs}}
+\index{ImportPowderPattern2ThetaObs@{ImportPowderPattern2ThetaObs}!ObjCryst::PowderPattern@{ObjCryst::PowderPattern}}
+\subsubsection{\texorpdfstring{ImportPowderPattern2ThetaObs()}{ImportPowderPattern2ThetaObs()}}
+{\footnotesize\ttfamily void Obj\+Cryst\+::\+Powder\+Pattern\+::\+Import\+Powder\+Pattern2\+Theta\+Obs (\begin{DoxyParamCaption}\item[{const string \&}]{file\+Name,  }\item[{const int}]{nb\+Skip = {\ttfamily 0} }\end{DoxyParamCaption})}
+
+
+
+Import file with 2 columns 2Theta Iobs. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em file\+Name} & the filename (surprise!) \\
+\hline
+{\em nb\+Skip} & the number of lines to skip at the beginning of the file (default=0) \\
+\hline
+\end{DoxyParams}
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_obj_cryst_1_1_powder_pattern_a1c817b8e20b03b216323933e01e6fb00_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_obj_cryst_1_1_powder_pattern_aee56a2f23b8af5c855ceae82c246f242}\label{class_obj_cryst_1_1_powder_pattern_aee56a2f23b8af5c855ceae82c246f242}} 
+\index{ObjCryst::PowderPattern@{ObjCryst::PowderPattern}!ImportPowderPattern2ThetaObsSigma@{ImportPowderPattern2ThetaObsSigma}}
+\index{ImportPowderPattern2ThetaObsSigma@{ImportPowderPattern2ThetaObsSigma}!ObjCryst::PowderPattern@{ObjCryst::PowderPattern}}
+\subsubsection{\texorpdfstring{ImportPowderPattern2ThetaObsSigma()}{ImportPowderPattern2ThetaObsSigma()}}
+{\footnotesize\ttfamily void Obj\+Cryst\+::\+Powder\+Pattern\+::\+Import\+Powder\+Pattern2\+Theta\+Obs\+Sigma (\begin{DoxyParamCaption}\item[{const string \&}]{file\+Name,  }\item[{const int}]{nb\+Skip = {\ttfamily 0} }\end{DoxyParamCaption})}
+
+
+
+Import file with 3 columns 2Theta Iobs Sigma. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em file\+Name} & the filename (surprise!) \\
+\hline
+{\em nb\+Skip} & the number of lines to skip at the beginning of the file (default=0) \\
+\hline
+\end{DoxyParams}
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_obj_cryst_1_1_powder_pattern_aee56a2f23b8af5c855ceae82c246f242_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_obj_cryst_1_1_powder_pattern_a50348c3084e39c0c8f46a3ddccc03e1f}\label{class_obj_cryst_1_1_powder_pattern_a50348c3084e39c0c8f46a3ddccc03e1f}} 
+\index{ObjCryst::PowderPattern@{ObjCryst::PowderPattern}!ImportPowderPatternCIF@{ImportPowderPatternCIF}}
+\index{ImportPowderPatternCIF@{ImportPowderPatternCIF}!ObjCryst::PowderPattern@{ObjCryst::PowderPattern}}
+\subsubsection{\texorpdfstring{ImportPowderPatternCIF()}{ImportPowderPatternCIF()}}
+{\footnotesize\ttfamily void Obj\+Cryst\+::\+Powder\+Pattern\+::\+Import\+Powder\+Pattern\+C\+IF (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{class_obj_cryst_1_1_c_i_f}{C\+IF}} \&}]{cif }\end{DoxyParamCaption})}
+
+Import \mbox{\hyperlink{class_obj_cryst_1_1_c_i_f}{C\+IF}} powder pattern data. Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_obj_cryst_1_1_powder_pattern_a50348c3084e39c0c8f46a3ddccc03e1f_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_obj_cryst_1_1_powder_pattern_a50348c3084e39c0c8f46a3ddccc03e1f_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_obj_cryst_1_1_powder_pattern_a4499e38a96db3f3c0abdb6d30f3400e1}\label{class_obj_cryst_1_1_powder_pattern_a4499e38a96db3f3c0abdb6d30f3400e1}} 
+\index{ObjCryst::PowderPattern@{ObjCryst::PowderPattern}!ImportPowderPatternFullprof@{ImportPowderPatternFullprof}}
+\index{ImportPowderPatternFullprof@{ImportPowderPatternFullprof}!ObjCryst::PowderPattern@{ObjCryst::PowderPattern}}
+\subsubsection{\texorpdfstring{ImportPowderPatternFullprof()}{ImportPowderPatternFullprof()}}
+{\footnotesize\ttfamily void Obj\+Cryst\+::\+Powder\+Pattern\+::\+Import\+Powder\+Pattern\+Fullprof (\begin{DoxyParamCaption}\item[{const string \&}]{fullprof\+File\+Name }\end{DoxyParamCaption})}
+
+
+
+Import fullprof-\/style diffraction data. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em fullprof\+File\+Name} & filename \\
+\hline
+\end{DoxyParams}
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_obj_cryst_1_1_powder_pattern_a4499e38a96db3f3c0abdb6d30f3400e1_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_obj_cryst_1_1_powder_pattern_a272b9fd71a6925eb9e1a991e488259b4}\label{class_obj_cryst_1_1_powder_pattern_a272b9fd71a6925eb9e1a991e488259b4}} 
+\index{ObjCryst::PowderPattern@{ObjCryst::PowderPattern}!ImportPowderPatternFullprof4@{ImportPowderPatternFullprof4}}
+\index{ImportPowderPatternFullprof4@{ImportPowderPatternFullprof4}!ObjCryst::PowderPattern@{ObjCryst::PowderPattern}}
+\subsubsection{\texorpdfstring{ImportPowderPatternFullprof4()}{ImportPowderPatternFullprof4()}}
+{\footnotesize\ttfamily void Obj\+Cryst\+::\+Powder\+Pattern\+::\+Import\+Powder\+Pattern\+Fullprof4 (\begin{DoxyParamCaption}\item[{const string \&}]{file\+Name }\end{DoxyParamCaption})}
+
+
+
+Import diffraction data from a file, with the first line has 2Theta\+Min, step, 2theta\+Max, and the following lines alternate 10 Iobs and 10 sigma. Ends with null entries (to fill last Iobs line to reach last sigme line). 
+
+That\textquotesingle{}s fullprof format \#4. 
+\begin{DoxyParams}{Parameters}
+{\em file\+Name} & filename \\
+\hline
+\end{DoxyParams}
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_obj_cryst_1_1_powder_pattern_a272b9fd71a6925eb9e1a991e488259b4_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_obj_cryst_1_1_powder_pattern_a78be27d8764377f99e324a7181eac633}\label{class_obj_cryst_1_1_powder_pattern_a78be27d8764377f99e324a7181eac633}} 
+\index{ObjCryst::PowderPattern@{ObjCryst::PowderPattern}!ImportPowderPatternGSAS@{ImportPowderPatternGSAS}}
+\index{ImportPowderPatternGSAS@{ImportPowderPatternGSAS}!ObjCryst::PowderPattern@{ObjCryst::PowderPattern}}
+\subsubsection{\texorpdfstring{ImportPowderPatternGSAS()}{ImportPowderPatternGSAS()}}
+{\footnotesize\ttfamily void Obj\+Cryst\+::\+Powder\+Pattern\+::\+Import\+Powder\+Pattern\+G\+S\+AS (\begin{DoxyParamCaption}\item[{const string \&}]{file\+Name }\end{DoxyParamCaption})}
+
+Import G\+S\+AS standard powder pattern data (see G\+S\+AS manual). \begin{DoxyWarning}{Warning}
+\+: partial support (only C\+O\+N\+S\+T-\/constant wavelength-\/ data so far) 
+\end{DoxyWarning}
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_obj_cryst_1_1_powder_pattern_a78be27d8764377f99e324a7181eac633_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_obj_cryst_1_1_powder_pattern_abfc7890a1853583957284fc1a2644855}\label{class_obj_cryst_1_1_powder_pattern_abfc7890a1853583957284fc1a2644855}} 
+\index{ObjCryst::PowderPattern@{ObjCryst::PowderPattern}!ImportPowderPatternMultiDetectorLLBG42@{ImportPowderPatternMultiDetectorLLBG42}}
+\index{ImportPowderPatternMultiDetectorLLBG42@{ImportPowderPatternMultiDetectorLLBG42}!ObjCryst::PowderPattern@{ObjCryst::PowderPattern}}
+\subsubsection{\texorpdfstring{ImportPowderPatternMultiDetectorLLBG42()}{ImportPowderPatternMultiDetectorLLBG42()}}
+{\footnotesize\ttfamily void Obj\+Cryst\+::\+Powder\+Pattern\+::\+Import\+Powder\+Pattern\+Multi\+Detector\+L\+L\+B\+G42 (\begin{DoxyParamCaption}\item[{const string \&}]{file\+Name }\end{DoxyParamCaption})}
+
+
+
+diffraction data in a multi-\/detector format (fullprof format \#6). 
+
+First line is text. Third entry of second line is the 2theta step. Third line has the 2thetamin, fourth line has monitors and temperatures. Then each line has ten pairs (I2,I8)of Nb\+Counters,intensity. Ends with negative entries. 
+\begin{DoxyParams}{Parameters}
+{\em file\+Name} & filename \\
+\hline
+\end{DoxyParams}
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_obj_cryst_1_1_powder_pattern_abfc7890a1853583957284fc1a2644855_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_obj_cryst_1_1_powder_pattern_adabe6381d8d1189abcf420f69a41cc81}\label{class_obj_cryst_1_1_powder_pattern_adabe6381d8d1189abcf420f69a41cc81}} 
+\index{ObjCryst::PowderPattern@{ObjCryst::PowderPattern}!ImportPowderPatternSietronicsCPI@{ImportPowderPatternSietronicsCPI}}
+\index{ImportPowderPatternSietronicsCPI@{ImportPowderPatternSietronicsCPI}!ObjCryst::PowderPattern@{ObjCryst::PowderPattern}}
+\subsubsection{\texorpdfstring{ImportPowderPatternSietronicsCPI()}{ImportPowderPatternSietronicsCPI()}}
+{\footnotesize\ttfamily void Obj\+Cryst\+::\+Powder\+Pattern\+::\+Import\+Powder\+Pattern\+Sietronics\+C\+PI (\begin{DoxyParamCaption}\item[{const string \&}]{file\+Name }\end{DoxyParamCaption})}
+
+
+
+Import $\ast$.cpi Sietronics diffraction data. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em file\+Name} & filename \\
+\hline
+\end{DoxyParams}
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_obj_cryst_1_1_powder_pattern_adabe6381d8d1189abcf420f69a41cc81_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_obj_cryst_1_1_powder_pattern_a9d7209065acb5a992129cf6a2b14b526}\label{class_obj_cryst_1_1_powder_pattern_a9d7209065acb5a992129cf6a2b14b526}} 
+\index{ObjCryst::PowderPattern@{ObjCryst::PowderPattern}!ImportPowderPatternTOF\_ISIS\_XYSigma@{ImportPowderPatternTOF\_ISIS\_XYSigma}}
+\index{ImportPowderPatternTOF\_ISIS\_XYSigma@{ImportPowderPatternTOF\_ISIS\_XYSigma}!ObjCryst::PowderPattern@{ObjCryst::PowderPattern}}
+\subsubsection{\texorpdfstring{ImportPowderPatternTOF\_ISIS\_XYSigma()}{ImportPowderPatternTOF\_ISIS\_XYSigma()}}
+{\footnotesize\ttfamily void Obj\+Cryst\+::\+Powder\+Pattern\+::\+Import\+Powder\+Pattern\+T\+O\+F\+\_\+\+I\+S\+I\+S\+\_\+\+X\+Y\+Sigma (\begin{DoxyParamCaption}\item[{const string \&}]{file\+Name }\end{DoxyParamCaption})}
+
+
+
+Import T\+OF file (I\+S\+IS type, 3 columns t, Iobs, sigma(\+Iobs)) 
+
+
+\begin{DoxyParams}{Parameters}
+{\em file\+Name} & the filename \\
+\hline
+\end{DoxyParams}
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_obj_cryst_1_1_powder_pattern_a9d7209065acb5a992129cf6a2b14b526_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_obj_cryst_1_1_powder_pattern_a4a8e1dc893c04a4451327d3f48f21d0e}\label{class_obj_cryst_1_1_powder_pattern_a4a8e1dc893c04a4451327d3f48f21d0e}} 
+\index{ObjCryst::PowderPattern@{ObjCryst::PowderPattern}!ImportPowderPatternXdd@{ImportPowderPatternXdd}}
+\index{ImportPowderPatternXdd@{ImportPowderPatternXdd}!ObjCryst::PowderPattern@{ObjCryst::PowderPattern}}
+\subsubsection{\texorpdfstring{ImportPowderPatternXdd()}{ImportPowderPatternXdd()}}
+{\footnotesize\ttfamily void Obj\+Cryst\+::\+Powder\+Pattern\+::\+Import\+Powder\+Pattern\+Xdd (\begin{DoxyParamCaption}\item[{const string \&}]{file\+Name }\end{DoxyParamCaption})}
+
+
+
+Import $\ast$.xdd diffraction data (Topas,...). 
+
+
+\begin{DoxyParams}{Parameters}
+{\em file\+Name} & filename \\
+\hline
+\end{DoxyParams}
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_obj_cryst_1_1_powder_pattern_a4a8e1dc893c04a4451327d3f48f21d0e_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_obj_cryst_1_1_powder_pattern_ac08650463b3ecba84111c105726f2420}\label{class_obj_cryst_1_1_powder_pattern_ac08650463b3ecba84111c105726f2420}} 
+\index{ObjCryst::PowderPattern@{ObjCryst::PowderPattern}!PrintObsCalcData@{PrintObsCalcData}}
+\index{PrintObsCalcData@{PrintObsCalcData}!ObjCryst::PowderPattern@{ObjCryst::PowderPattern}}
+\subsubsection{\texorpdfstring{PrintObsCalcData()}{PrintObsCalcData()}}
+{\footnotesize\ttfamily void Obj\+Cryst\+::\+Powder\+Pattern\+::\+Print\+Obs\+Calc\+Data (\begin{DoxyParamCaption}\item[{ostream \&}]{os = {\ttfamily cout} }\end{DoxyParamCaption}) const}
+
+Print to thee screen/console the observed and calculated pattern (long, mostly useful for debugging) Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_obj_cryst_1_1_powder_pattern_ac08650463b3ecba84111c105726f2420_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_obj_cryst_1_1_powder_pattern_ae9646ceed205b350e0dfa8f1bc5c3e17}\label{class_obj_cryst_1_1_powder_pattern_ae9646ceed205b350e0dfa8f1bc5c3e17}} 
+\index{ObjCryst::PowderPattern@{ObjCryst::PowderPattern}!SavePowderPattern@{SavePowderPattern}}
+\index{SavePowderPattern@{SavePowderPattern}!ObjCryst::PowderPattern@{ObjCryst::PowderPattern}}
+\subsubsection{\texorpdfstring{SavePowderPattern()}{SavePowderPattern()}}
+{\footnotesize\ttfamily void Obj\+Cryst\+::\+Powder\+Pattern\+::\+Save\+Powder\+Pattern (\begin{DoxyParamCaption}\item[{const string \&}]{filename = {\ttfamily \char`\"{}powderPattern.out\char`\"{}} }\end{DoxyParamCaption}) const}
+
+Save powder pattern to one file, text format, 3 columns theta Iobs Icalc. If Iobs is missing, the column is omitted.
+
+\begin{DoxyRefDesc}{Todo}
+\item[\mbox{\hyperlink{todo__todo000006}{Todo}}]export in other formats (.prf,...), with a list of reflection position for all phases... \end{DoxyRefDesc}
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_obj_cryst_1_1_powder_pattern_ae9646ceed205b350e0dfa8f1bc5c3e17_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_obj_cryst_1_1_powder_pattern_aee018af94fbc876762ccd98b0c8cb982}\label{class_obj_cryst_1_1_powder_pattern_aee018af94fbc876762ccd98b0c8cb982}} 
+\index{ObjCryst::PowderPattern@{ObjCryst::PowderPattern}!Set2ThetaDisplacement@{Set2ThetaDisplacement}}
+\index{Set2ThetaDisplacement@{Set2ThetaDisplacement}!ObjCryst::PowderPattern@{ObjCryst::PowderPattern}}
+\subsubsection{\texorpdfstring{Set2ThetaDisplacement()}{Set2ThetaDisplacement()}}
+{\footnotesize\ttfamily void Obj\+Cryst\+::\+Powder\+Pattern\+::\+Set2\+Theta\+Displacement (\begin{DoxyParamCaption}\item[{const R\+E\+AL}]{displacement }\end{DoxyParamCaption})}
+
+Change displacement correction $ (2\theta)_{obs} = (2\theta)_{real} + a\cos(\theta) $ \mbox{\Hypertarget{class_obj_cryst_1_1_powder_pattern_a7520df007f0e2058201c81f6bf6122ff}\label{class_obj_cryst_1_1_powder_pattern_a7520df007f0e2058201c81f6bf6122ff}} 
+\index{ObjCryst::PowderPattern@{ObjCryst::PowderPattern}!Set2ThetaTransparency@{Set2ThetaTransparency}}
+\index{Set2ThetaTransparency@{Set2ThetaTransparency}!ObjCryst::PowderPattern@{ObjCryst::PowderPattern}}
+\subsubsection{\texorpdfstring{Set2ThetaTransparency()}{Set2ThetaTransparency()}}
+{\footnotesize\ttfamily void Obj\+Cryst\+::\+Powder\+Pattern\+::\+Set2\+Theta\+Transparency (\begin{DoxyParamCaption}\item[{const R\+E\+AL}]{transparency }\end{DoxyParamCaption})}
+
+Change transparency correction $ (2\theta)_{obs} = (2\theta)_{real} + b\sin(2\theta) $ \mbox{\Hypertarget{class_obj_cryst_1_1_powder_pattern_a465b2fc0d398e7090142694a7d2a8976}\label{class_obj_cryst_1_1_powder_pattern_a465b2fc0d398e7090142694a7d2a8976}} 
+\index{ObjCryst::PowderPattern@{ObjCryst::PowderPattern}!SetMaxSinThetaOvLambda@{SetMaxSinThetaOvLambda}}
+\index{SetMaxSinThetaOvLambda@{SetMaxSinThetaOvLambda}!ObjCryst::PowderPattern@{ObjCryst::PowderPattern}}
+\subsubsection{\texorpdfstring{SetMaxSinThetaOvLambda()}{SetMaxSinThetaOvLambda()}}
+{\footnotesize\ttfamily void Obj\+Cryst\+::\+Powder\+Pattern\+::\+Set\+Max\+Sin\+Theta\+Ov\+Lambda (\begin{DoxyParamCaption}\item[{const R\+E\+AL}]{max }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+Set the maximum value for sin(theta)/lambda. All data (reflections,..) still exist but are ignored for all calculations. Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_obj_cryst_1_1_powder_pattern_a465b2fc0d398e7090142694a7d2a8976_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_obj_cryst_1_1_powder_pattern_a8562e190d277379e6e18d43f3d616976}\label{class_obj_cryst_1_1_powder_pattern_a8562e190d277379e6e18d43f3d616976}} 
+\index{ObjCryst::PowderPattern@{ObjCryst::PowderPattern}!SetPowderPatternObs@{SetPowderPatternObs}}
+\index{SetPowderPatternObs@{SetPowderPatternObs}!ObjCryst::PowderPattern@{ObjCryst::PowderPattern}}
+\subsubsection{\texorpdfstring{SetPowderPatternObs()}{SetPowderPatternObs()}}
+{\footnotesize\ttfamily void Obj\+Cryst\+::\+Powder\+Pattern\+::\+Set\+Powder\+Pattern\+Obs (\begin{DoxyParamCaption}\item[{const Cryst\+Vector\+\_\+\+R\+E\+AL \&}]{obs }\end{DoxyParamCaption})}
+
+
+
+Set observed powder pattern from vector array. 
+
+Note\+: powder pattern parameters must have been set before calling this function, for example by calling Diffraction\+Data\+Powder\+::\+Init\+Powder\+Pattern\+Par(). Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_obj_cryst_1_1_powder_pattern_a8562e190d277379e6e18d43f3d616976_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_obj_cryst_1_1_powder_pattern_a8562e190d277379e6e18d43f3d616976_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_obj_cryst_1_1_powder_pattern_adb92497ec0c6793c1cb74fc1bf9914e2}\label{class_obj_cryst_1_1_powder_pattern_adb92497ec0c6793c1cb74fc1bf9914e2}} 
+\index{ObjCryst::PowderPattern@{ObjCryst::PowderPattern}!SetPowderPatternPar@{SetPowderPatternPar}}
+\index{SetPowderPatternPar@{SetPowderPatternPar}!ObjCryst::PowderPattern@{ObjCryst::PowderPattern}}
+\subsubsection{\texorpdfstring{SetPowderPatternPar()}{SetPowderPatternPar()}}
+{\footnotesize\ttfamily void Obj\+Cryst\+::\+Powder\+Pattern\+::\+Set\+Powder\+Pattern\+Par (\begin{DoxyParamCaption}\item[{const R\+E\+AL}]{min,  }\item[{const R\+E\+AL}]{step,  }\item[{unsigned long}]{nb\+Point }\end{DoxyParamCaption})}
+
+\textbackslash{}brief\+Set the powder pattern angular range \& resolution parameter. this will affect all components (phases) of the pattern.
+
+Use this with caution, as the number of points must be correct with respect to the observed data (Iobs).
+
+
+\begin{DoxyParams}{Parameters}
+{\em min} & min 2theta (in radians) or time-\/of-\/flight (in microseconds) value, \\
+\hline
+{\em step} & step (assumed constant) in 2theta or time-\/of-\/flight (in microseconds). \\
+\hline
+{\em nb\+Points} & number of points in the pattern.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyWarning}{Warning}
+\+: use only this for constant-\/step patterns. Otherwise, use \mbox{\hyperlink{class_obj_cryst_1_1_powder_pattern_a64170b8ead948e9b8569e1613d849583}{Powder\+Pattern\+::\+Set\+Powder\+Pattern\+X()}} 
+\end{DoxyWarning}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_obj_cryst_1_1_powder_pattern_adb92497ec0c6793c1cb74fc1bf9914e2_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_obj_cryst_1_1_powder_pattern_a64170b8ead948e9b8569e1613d849583}\label{class_obj_cryst_1_1_powder_pattern_a64170b8ead948e9b8569e1613d849583}} 
+\index{ObjCryst::PowderPattern@{ObjCryst::PowderPattern}!SetPowderPatternX@{SetPowderPatternX}}
+\index{SetPowderPatternX@{SetPowderPatternX}!ObjCryst::PowderPattern@{ObjCryst::PowderPattern}}
+\subsubsection{\texorpdfstring{SetPowderPatternX()}{SetPowderPatternX()}}
+{\footnotesize\ttfamily void Obj\+Cryst\+::\+Powder\+Pattern\+::\+Set\+Powder\+PatternX (\begin{DoxyParamCaption}\item[{const Cryst\+Vector\+\_\+\+R\+E\+AL \&}]{x }\end{DoxyParamCaption})}
+
+Set the x coordinate of the powder pattern \+: either the 2theta or time-\/of-\/flight values for each recorded point. The step need not be constant, but the variation must be strictly monotonous.
+
+2theta must be in radians and time-\/of-\/flight in microseconds Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_obj_cryst_1_1_powder_pattern_a64170b8ead948e9b8569e1613d849583_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_obj_cryst_1_1_powder_pattern_aea1c5351f710f2a91844b0f29b7b04aa}\label{class_obj_cryst_1_1_powder_pattern_aea1c5351f710f2a91844b0f29b7b04aa}} 
+\index{ObjCryst::PowderPattern@{ObjCryst::PowderPattern}!SetWavelength@{SetWavelength}}
+\index{SetWavelength@{SetWavelength}!ObjCryst::PowderPattern@{ObjCryst::PowderPattern}}
+\subsubsection{\texorpdfstring{SetWavelength()}{SetWavelength()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily void Obj\+Cryst\+::\+Powder\+Pattern\+::\+Set\+Wavelength (\begin{DoxyParamCaption}\item[{const R\+E\+AL}]{lambda }\end{DoxyParamCaption})}
+
+Set the wavelength of the experiment (in Angstroems).
+
+\begin{DoxyNote}{Note}
+\+: this is only useful for a monochromatic (X-\/\+Ray or neutron) powder pattern. 
+\end{DoxyNote}
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=345pt]{class_obj_cryst_1_1_powder_pattern_aea1c5351f710f2a91844b0f29b7b04aa_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_obj_cryst_1_1_powder_pattern_aea1c5351f710f2a91844b0f29b7b04aa_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_obj_cryst_1_1_powder_pattern_a9638b42f38dd82522593e1e01b6629c6}\label{class_obj_cryst_1_1_powder_pattern_a9638b42f38dd82522593e1e01b6629c6}} 
+\index{ObjCryst::PowderPattern@{ObjCryst::PowderPattern}!SetWavelength@{SetWavelength}}
+\index{SetWavelength@{SetWavelength}!ObjCryst::PowderPattern@{ObjCryst::PowderPattern}}
+\subsubsection{\texorpdfstring{SetWavelength()}{SetWavelength()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily void Obj\+Cryst\+::\+Powder\+Pattern\+::\+Set\+Wavelength (\begin{DoxyParamCaption}\item[{const string \&}]{X\+Ray\+Tube\+Element\+Name,  }\item[{const R\+E\+AL}]{alpha12ratio = {\ttfamily 0.5} }\end{DoxyParamCaption})}
+
+
+
+Set the wavelength of the experiment to that of an X-\/\+Ray tube. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em X\+Ray\+Tube\+Element\+Name} & \+: name of the anticathode element name. Known ones are Cr, Fe, Cu, Mo, Ag. \\
+\hline
+{\em alpha2\+Alpha2ratio} & Kalpha2/\+Kalpha1 ratio (0.\+5 by default)\\
+\hline
+\end{DoxyParams}
+Alpha1 and alpha2 wavelength are taken from R. Grosse-\/\+Kunstleve package, and the average wavelength is calculated using the alpha2/alpha1 weight. All structure factors computation are made using the average wavelength, and for powder diffraction, profiles are output at the alpha1 and alpha2 ratio for the calculated pattern.
+
+N\+O\+TE \+: if the name of the wavelength is generic (eg\char`\"{}\+Cu\char`\"{}), then the program considers that there are both Alpha1 and Alpha2, and thus automatically changes the Wavelength\+Type to W\+A\+V\+E\+L\+E\+N\+G\+T\+H\+\_\+\+A\+L\+P\+H\+A12. If instead either alpha1 or alpha2 (eg \char`\"{}\+Cu\+A1\char`\"{}) is asked for, the Wavelength\+Type is set to W\+A\+V\+E\+L\+E\+N\+G\+T\+H\+\_\+\+M\+O\+N\+O\+C\+H\+R\+O\+M\+A\+T\+IC. In both cases, the radiation type is set to X-\/\+Ray. Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=345pt]{class_obj_cryst_1_1_powder_pattern_a9638b42f38dd82522593e1e01b6629c6_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_obj_cryst_1_1_powder_pattern_a3648701bed1a9ba0b576241226e06032}\label{class_obj_cryst_1_1_powder_pattern_a3648701bed1a9ba0b576241226e06032}} 
+\index{ObjCryst::PowderPattern@{ObjCryst::PowderPattern}!SetWeightPolynomial@{SetWeightPolynomial}}
+\index{SetWeightPolynomial@{SetWeightPolynomial}!ObjCryst::PowderPattern@{ObjCryst::PowderPattern}}
+\subsubsection{\texorpdfstring{SetWeightPolynomial()}{SetWeightPolynomial()}}
+{\footnotesize\ttfamily void Obj\+Cryst\+::\+Powder\+Pattern\+::\+Set\+Weight\+Polynomial (\begin{DoxyParamCaption}\item[{const R\+E\+AL}]{a,  }\item[{const R\+E\+AL}]{b,  }\item[{const R\+E\+AL}]{c,  }\item[{const R\+E\+AL}]{min\+Relat\+Iobs = {\ttfamily 1e-\/3} }\end{DoxyParamCaption})}
+
+Set w = 1/(a+ Iobs + b$\ast$\+Iobs$^\wedge$2+c$\ast$\+Iobs$^\wedge$3)
+
+To filter too small or null intensities\+: if Iobs $<$ \mbox{[}min\+Relat\+Iobs $\ast$ max(\+Iobs)\mbox{]}, then use Iobs=min\+Relat\+Iobs $\ast$ max(\+Iobs) to compute the weight.
+
+Typical values\+: a=2$\ast$min(Iobs) b=2/max(Iobs) c=0 \mbox{\Hypertarget{class_obj_cryst_1_1_powder_pattern_add7d97cdb7610f7553b95c2eeefcd172}\label{class_obj_cryst_1_1_powder_pattern_add7d97cdb7610f7553b95c2eeefcd172}} 
+\index{ObjCryst::PowderPattern@{ObjCryst::PowderPattern}!SetWeightToInvSigmaSq@{SetWeightToInvSigmaSq}}
+\index{SetWeightToInvSigmaSq@{SetWeightToInvSigmaSq}!ObjCryst::PowderPattern@{ObjCryst::PowderPattern}}
+\subsubsection{\texorpdfstring{SetWeightToInvSigmaSq()}{SetWeightToInvSigmaSq()}}
+{\footnotesize\ttfamily void Obj\+Cryst\+::\+Powder\+Pattern\+::\+Set\+Weight\+To\+Inv\+Sigma\+Sq (\begin{DoxyParamCaption}\item[{const R\+E\+AL}]{min\+Relat\+Sigma = {\ttfamily 1e-\/3} }\end{DoxyParamCaption})}
+
+Set w = 1/sigma$^\wedge$2.
+
+To filter too small or null intensities \+:If sigma$<$ min\+Relat\+Sigma$\ast$ max(sigma), then w=1/(min\+Relat\+Sigma$\ast$ max(sigma))$^\wedge$2 Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_obj_cryst_1_1_powder_pattern_add7d97cdb7610f7553b95c2eeefcd172_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_obj_cryst_1_1_powder_pattern_ab479aca62d7dd2742442229474423a02}\label{class_obj_cryst_1_1_powder_pattern_ab479aca62d7dd2742442229474423a02}} 
+\index{ObjCryst::PowderPattern@{ObjCryst::PowderPattern}!STOL2Pixel@{STOL2Pixel}}
+\index{STOL2Pixel@{STOL2Pixel}!ObjCryst::PowderPattern@{ObjCryst::PowderPattern}}
+\subsubsection{\texorpdfstring{STOL2Pixel()}{STOL2Pixel()}}
+{\footnotesize\ttfamily R\+E\+AL Obj\+Cryst\+::\+Powder\+Pattern\+::\+S\+T\+O\+L2\+Pixel (\begin{DoxyParamCaption}\item[{const R\+E\+AL}]{stol }\end{DoxyParamCaption}) const}
+
+Convert sin(theta)/lambda to pixel, depending on the type of radiation.
+
+This does not take into account any zero/transparency, etc... correction Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_obj_cryst_1_1_powder_pattern_ab479aca62d7dd2742442229474423a02_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_obj_cryst_1_1_powder_pattern_ab479aca62d7dd2742442229474423a02_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_obj_cryst_1_1_powder_pattern_a05a4b659555b91a3996b016358168ae0}\label{class_obj_cryst_1_1_powder_pattern_a05a4b659555b91a3996b016358168ae0}} 
+\index{ObjCryst::PowderPattern@{ObjCryst::PowderPattern}!STOL2X@{STOL2X}}
+\index{STOL2X@{STOL2X}!ObjCryst::PowderPattern@{ObjCryst::PowderPattern}}
+\subsubsection{\texorpdfstring{STOL2X()}{STOL2X()}}
+{\footnotesize\ttfamily R\+E\+AL Obj\+Cryst\+::\+Powder\+Pattern\+::\+S\+T\+O\+L2X (\begin{DoxyParamCaption}\item[{const R\+E\+AL}]{stol }\end{DoxyParamCaption}) const}
+
+Convert sin(theta)/lambda to X (i.\+e. either to 2theta or to T\+OF), depending on the type of radiation.
+
+This does not take into account any zero/transparency, etc... correction Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_obj_cryst_1_1_powder_pattern_a05a4b659555b91a3996b016358168ae0_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_obj_cryst_1_1_powder_pattern_a05a4b659555b91a3996b016358168ae0_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_obj_cryst_1_1_powder_pattern_a0146d35bdc502a6f40f006de837fb490}\label{class_obj_cryst_1_1_powder_pattern_a0146d35bdc502a6f40f006de837fb490}} 
+\index{ObjCryst::PowderPattern@{ObjCryst::PowderPattern}!X2Pixel@{X2Pixel}}
+\index{X2Pixel@{X2Pixel}!ObjCryst::PowderPattern@{ObjCryst::PowderPattern}}
+\subsubsection{\texorpdfstring{X2Pixel()}{X2Pixel()}}
+{\footnotesize\ttfamily R\+E\+AL Obj\+Cryst\+::\+Powder\+Pattern\+::\+X2\+Pixel (\begin{DoxyParamCaption}\item[{const R\+E\+AL}]{x }\end{DoxyParamCaption}) const}
+
+Get the pixel number on the experimental pattern, corresponding to a given (experimental) x coordinate 
+\begin{DoxyParams}{Parameters}
+{\em x} & the x (2theta, tof) value. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+the x (2theta, tof) value as it appears on the pattern.
+\end{DoxyReturn}
+\begin{DoxyWarning}{Warning}
+\+: this can be real slow, especially for non-\/fixed steps.
+
+\+: this returns the exact pixel coordinate, as a floating-\/point value, and {\itshape not} the closest pixel coordinate. 
+\end{DoxyWarning}
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_obj_cryst_1_1_powder_pattern_a0146d35bdc502a6f40f006de837fb490_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_obj_cryst_1_1_powder_pattern_a0146d35bdc502a6f40f006de837fb490_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_obj_cryst_1_1_powder_pattern_a863415fc0586da70ea29600ffe01d954}\label{class_obj_cryst_1_1_powder_pattern_a863415fc0586da70ea29600ffe01d954}} 
+\index{ObjCryst::PowderPattern@{ObjCryst::PowderPattern}!X2PixelCorr@{X2PixelCorr}}
+\index{X2PixelCorr@{X2PixelCorr}!ObjCryst::PowderPattern@{ObjCryst::PowderPattern}}
+\subsubsection{\texorpdfstring{X2PixelCorr()}{X2PixelCorr()}}
+{\footnotesize\ttfamily R\+E\+AL Obj\+Cryst\+::\+Powder\+Pattern\+::\+X2\+Pixel\+Corr (\begin{DoxyParamCaption}\item[{const R\+E\+AL}]{x }\end{DoxyParamCaption}) const}
+
+Get the pixel number on the experimental pattern, from the theoretical (uncorrected) x coordinate, taking into account all corrections. (zero, transparency,..). Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_obj_cryst_1_1_powder_pattern_a863415fc0586da70ea29600ffe01d954_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_obj_cryst_1_1_powder_pattern_a863415fc0586da70ea29600ffe01d954_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_obj_cryst_1_1_powder_pattern_a01aefd92417913f4b3514b6c08afbaf7}\label{class_obj_cryst_1_1_powder_pattern_a01aefd92417913f4b3514b6c08afbaf7}} 
+\index{ObjCryst::PowderPattern@{ObjCryst::PowderPattern}!X2STOL@{X2STOL}}
+\index{X2STOL@{X2STOL}!ObjCryst::PowderPattern@{ObjCryst::PowderPattern}}
+\subsubsection{\texorpdfstring{X2STOL()}{X2STOL()}}
+{\footnotesize\ttfamily R\+E\+AL Obj\+Cryst\+::\+Powder\+Pattern\+::\+X2\+S\+T\+OL (\begin{DoxyParamCaption}\item[{const R\+E\+AL}]{x }\end{DoxyParamCaption}) const}
+
+Convert X (either 2theta or T\+OF) to sin(theta)/lambda, depending on the type of radiation.
+
+This does not take into account any zero/transparency, etc... correction Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_obj_cryst_1_1_powder_pattern_a01aefd92417913f4b3514b6c08afbaf7_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_obj_cryst_1_1_powder_pattern_a01aefd92417913f4b3514b6c08afbaf7_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_obj_cryst_1_1_powder_pattern_ad335f35d93beb9b269e003a4474c81f0}\label{class_obj_cryst_1_1_powder_pattern_ad335f35d93beb9b269e003a4474c81f0}} 
+\index{ObjCryst::PowderPattern@{ObjCryst::PowderPattern}!X2XCorr@{X2XCorr}}
+\index{X2XCorr@{X2XCorr}!ObjCryst::PowderPattern@{ObjCryst::PowderPattern}}
+\subsubsection{\texorpdfstring{X2XCorr()}{X2XCorr()}}
+{\footnotesize\ttfamily R\+E\+AL Obj\+Cryst\+::\+Powder\+Pattern\+::\+X2\+X\+Corr (\begin{DoxyParamCaption}\item[{const R\+E\+AL}]{x }\end{DoxyParamCaption}) const}
+
+Get the experimental x (2theta, tof) from the theoretical value, taking into account all corrections (zero, transparency,..). Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_obj_cryst_1_1_powder_pattern_ad335f35d93beb9b269e003a4474c81f0_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_obj_cryst_1_1_powder_pattern_ad335f35d93beb9b269e003a4474c81f0_icgraph}
+\end{center}
+\end{figure}
+
+
+\subsection{Member Data Documentation}
+\mbox{\Hypertarget{class_obj_cryst_1_1_powder_pattern_a5af69d404bd80c279935990a24edec0b}\label{class_obj_cryst_1_1_powder_pattern_a5af69d404bd80c279935990a24edec0b}} 
+\index{ObjCryst::PowderPattern@{ObjCryst::PowderPattern}!mMaxSinThetaOvLambda@{mMaxSinThetaOvLambda}}
+\index{mMaxSinThetaOvLambda@{mMaxSinThetaOvLambda}!ObjCryst::PowderPattern@{ObjCryst::PowderPattern}}
+\subsubsection{\texorpdfstring{mMaxSinThetaOvLambda}{mMaxSinThetaOvLambda}}
+{\footnotesize\ttfamily R\+E\+AL Obj\+Cryst\+::\+Powder\+Pattern\+::m\+Max\+Sin\+Theta\+Ov\+Lambda\hspace{0.3cm}{\ttfamily [protected]}}
+
+Displacement correction \+: $ (2\theta)_{obs} = (2\theta)_{real} + \frac{a}{\cos(\theta)} $ R\+E\+AL m2\+Theta\+Displacement; Transparency correction \+: $ (2\theta)_{obs} = (2\theta)_{real} + b\sin(2\theta) $ R\+E\+AL m2\+Theta\+Transparency; Time Of Flight (T\+OF) parameters \+: $ t = DIFC*\frac{\sin(\theta)}{\lambda} + DIFA*\left(\frac{\sin(\theta)}{\lambda}\right)^2 + mXZero$ R\+E\+AL m\+D\+I\+FC,m\+D\+I\+FA; Components of the powder pattern The components (crystalline phases, background,...) of the powder pattern Obj\+Registry$<$\+Powder\+Pattern\+Component$>$ m\+Powder\+Pattern\+Component\+Registry; The scale factors for each component. For unscalable phases, this is set to 1 (constant).
+
+This is mutable because generally we use the \textquotesingle{}best\textquotesingle{} scale factor, but it should not be... mutable Cryst\+Vector\+\_\+\+R\+E\+AL m\+Scale\+Factor;
+
+Use faster, less precise functions ? bool m\+Use\+Fast\+Less\+Precise\+Func;
+
+For statistics Should Statistics (R, Rw,..) exclude the background ? bool m\+Statistics\+Exclude\+Background; \mbox{\Hypertarget{class_obj_cryst_1_1_powder_pattern_aa38c508b5516a2b4e357b7116e0b11da}\label{class_obj_cryst_1_1_powder_pattern_aa38c508b5516a2b4e357b7116e0b11da}} 
+\index{ObjCryst::PowderPattern@{ObjCryst::PowderPattern}!mPowderPatternBackgroundCalc@{mPowderPatternBackgroundCalc}}
+\index{mPowderPatternBackgroundCalc@{mPowderPatternBackgroundCalc}!ObjCryst::PowderPattern@{ObjCryst::PowderPattern}}
+\subsubsection{\texorpdfstring{mPowderPatternBackgroundCalc}{mPowderPatternBackgroundCalc}}
+{\footnotesize\ttfamily Cryst\+Vector\+\_\+\+R\+E\+AL Obj\+Cryst\+::\+Powder\+Pattern\+::m\+Powder\+Pattern\+Background\+Calc\hspace{0.3cm}{\ttfamily [mutable]}, {\ttfamily [protected]}}
+
+The calculated powder pattern part which corresponds to \textquotesingle{}background\textquotesingle{} (eg non-\/scalable components). It is already included in m\+Powder\+Pattern\+Calc \mbox{\Hypertarget{class_obj_cryst_1_1_powder_pattern_a18da34aac86b27d5511268113b5f9260}\label{class_obj_cryst_1_1_powder_pattern_a18da34aac86b27d5511268113b5f9260}} 
+\index{ObjCryst::PowderPattern@{ObjCryst::PowderPattern}!mPowderPatternBackgroundIntegratedCalc@{mPowderPatternBackgroundIntegratedCalc}}
+\index{mPowderPatternBackgroundIntegratedCalc@{mPowderPatternBackgroundIntegratedCalc}!ObjCryst::PowderPattern@{ObjCryst::PowderPattern}}
+\subsubsection{\texorpdfstring{mPowderPatternBackgroundIntegratedCalc}{mPowderPatternBackgroundIntegratedCalc}}
+{\footnotesize\ttfamily Cryst\+Vector\+\_\+\+R\+E\+AL Obj\+Cryst\+::\+Powder\+Pattern\+::m\+Powder\+Pattern\+Background\+Integrated\+Calc\hspace{0.3cm}{\ttfamily [mutable]}, {\ttfamily [protected]}}
+
+The calculated powder pattern part which corresponds to \textquotesingle{}background\textquotesingle{} (eg non-\/scalable components), integrated \mbox{\Hypertarget{class_obj_cryst_1_1_powder_pattern_a039c845ac70b5118f5090077a5ef7f70}\label{class_obj_cryst_1_1_powder_pattern_a039c845ac70b5118f5090077a5ef7f70}} 
+\index{ObjCryst::PowderPattern@{ObjCryst::PowderPattern}!mPowderPatternCalc@{mPowderPatternCalc}}
+\index{mPowderPatternCalc@{mPowderPatternCalc}!ObjCryst::PowderPattern@{ObjCryst::PowderPattern}}
+\subsubsection{\texorpdfstring{mPowderPatternCalc}{mPowderPatternCalc}}
+{\footnotesize\ttfamily Cryst\+Vector\+\_\+\+R\+E\+AL Obj\+Cryst\+::\+Powder\+Pattern\+::m\+Powder\+Pattern\+Calc\hspace{0.3cm}{\ttfamily [mutable]}, {\ttfamily [protected]}}
+
+The calculated powder pattern. It is mutable since it is completely defined by other parameters (eg it is not an \textquotesingle{}independent parameter\textquotesingle{}) \mbox{\Hypertarget{class_obj_cryst_1_1_powder_pattern_ac962c591539d06c65ce32e56580029c2}\label{class_obj_cryst_1_1_powder_pattern_ac962c591539d06c65ce32e56580029c2}} 
+\index{ObjCryst::PowderPattern@{ObjCryst::PowderPattern}!mPowderPatternVariance@{mPowderPatternVariance}}
+\index{mPowderPatternVariance@{mPowderPatternVariance}!ObjCryst::PowderPattern@{ObjCryst::PowderPattern}}
+\subsubsection{\texorpdfstring{mPowderPatternVariance}{mPowderPatternVariance}}
+{\footnotesize\ttfamily Cryst\+Vector\+\_\+\+R\+E\+AL Obj\+Cryst\+::\+Powder\+Pattern\+::m\+Powder\+Pattern\+Variance\hspace{0.3cm}{\ttfamily [mutable]}, {\ttfamily [protected]}}
+
+The complete variance associated to each point of the powder pattern, taking into account observation and model errors. \mbox{\Hypertarget{class_obj_cryst_1_1_powder_pattern_a7c7192cf095beca2d515a15f4c57d227}\label{class_obj_cryst_1_1_powder_pattern_a7c7192cf095beca2d515a15f4c57d227}} 
+\index{ObjCryst::PowderPattern@{ObjCryst::PowderPattern}!mPowderPatternVarianceIntegrated@{mPowderPatternVarianceIntegrated}}
+\index{mPowderPatternVarianceIntegrated@{mPowderPatternVarianceIntegrated}!ObjCryst::PowderPattern@{ObjCryst::PowderPattern}}
+\subsubsection{\texorpdfstring{mPowderPatternVarianceIntegrated}{mPowderPatternVarianceIntegrated}}
+{\footnotesize\ttfamily Cryst\+Vector\+\_\+\+R\+E\+AL Obj\+Cryst\+::\+Powder\+Pattern\+::m\+Powder\+Pattern\+Variance\+Integrated\hspace{0.3cm}{\ttfamily [mutable]}, {\ttfamily [protected]}}
+
+The complete variance associated to each point of the powder pattern, taking into account observation and model errors. Integrated. \mbox{\Hypertarget{class_obj_cryst_1_1_powder_pattern_ac71a81d157387c2bdb7791cfa6d18e64}\label{class_obj_cryst_1_1_powder_pattern_ac71a81d157387c2bdb7791cfa6d18e64}} 
+\index{ObjCryst::PowderPattern@{ObjCryst::PowderPattern}!mX@{mX}}
+\index{mX@{mX}!ObjCryst::PowderPattern@{ObjCryst::PowderPattern}}
+\subsubsection{\texorpdfstring{mX}{mX}}
+{\footnotesize\ttfamily Cryst\+Vector\+\_\+\+R\+E\+AL Obj\+Cryst\+::\+Powder\+Pattern\+::mX\hspace{0.3cm}{\ttfamily [protected]}}
+
+Vector of x coordinates (either 2theta or time-\/of-\/flight) for the pattern
+
+Stored in ascending order for 2theta, and descending for T\+OF, i.\+e. always in ascending order for the corresponding sin(theta)/lambda. \mbox{\Hypertarget{class_obj_cryst_1_1_powder_pattern_ae4722ceea4440d27a7de6115f70705ab}\label{class_obj_cryst_1_1_powder_pattern_ae4722ceea4440d27a7de6115f70705ab}} 
+\index{ObjCryst::PowderPattern@{ObjCryst::PowderPattern}!mXZero@{mXZero}}
+\index{mXZero@{mXZero}!ObjCryst::PowderPattern@{ObjCryst::PowderPattern}}
+\subsubsection{\texorpdfstring{mXZero}{mXZero}}
+{\footnotesize\ttfamily R\+E\+AL Obj\+Cryst\+::\+Powder\+Pattern\+::m\+X\+Zero\hspace{0.3cm}{\ttfamily [protected]}}
+
+Zero correction \+: $ (2\theta)_{obs} = (2\theta)_{real} +(2\theta)_{0}$ Thus m\+Powder\+Pattern2\+Theta\+Min=(m\+Powder\+Pattern2\+Theta\+Min-\/m2\+Theta\+Zero) 
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+Powder\+Pattern.\+h\item 
+I\+O.\+cpp\item 
+Powder\+Pattern.\+cpp\end{DoxyCompactItemize}

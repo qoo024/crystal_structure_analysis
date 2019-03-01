@@ -1,0 +1,4 @@
+<map id="ObjCryst::Crystal::GetMinDistanceTable" name="ObjCryst::Crystal::GetMinDistanceTable">
+<area shape="rect" id="node1" title="Minimum interatomic distance between all scattering components (atoms) in the crystal." alt="" coords="5,5,153,44"/>
+<area shape="rect" id="node2" href="$class_obj_cryst_1_1_scattering_component_list.html#acda94d3d6f78467a7f56c0cf9aed1973" title="Number of components." alt="" coords="201,5,411,44"/>
+</map>

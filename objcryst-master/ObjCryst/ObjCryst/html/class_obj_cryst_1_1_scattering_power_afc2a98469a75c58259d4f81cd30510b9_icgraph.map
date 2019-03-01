@@ -1,0 +1,5 @@
+<map id="ObjCryst::ScatteringPower::GetSymbol" name="ObjCryst::ScatteringPower::GetSymbol">
+<area shape="rect" id="node1" title="Symbol for this Scattering power (the atom name for atoms)" alt="" coords="251,27,429,65"/>
+<area shape="rect" id="node2" href="$class_obj_cryst_1_1_atom.html#a8cf5b61d0df0bf2e55d6c44f67c06da0" title="Print some info about the scatterer (ideally this should be one line...)." alt="" coords="31,5,177,31"/>
+<area shape="rect" id="node3" href="$class_obj_cryst_1_1_crystal.html#a8cf8ddfad602c6662dd57c8680ad6a67" title=" " alt="" coords="5,55,203,93"/>
+</map>

@@ -1,0 +1,11 @@
+<map id="ObjCryst::Crystal::MergeEqualScatteringPowers" name="ObjCryst::Crystal::MergeEqualScatteringPowers">
+<area shape="rect" id="node1" title=" " alt="" coords="5,193,203,232"/>
+<area shape="rect" id="node2" href="$class_obj_cryst_1_1_crystal.html#a98b594908ebbdf25249965eaf61eccdc" title="Get the registry of ScatteringPower included in this Crystal." alt="" coords="257,5,446,44"/>
+<area shape="rect" id="node3" href="$class_obj_cryst_1_1_scattering_power.html#afc2a98469a75c58259d4f81cd30510b9" title="Symbol for this Scattering power (the atom name for atoms)" alt="" coords="262,68,441,107"/>
+<area shape="rect" id="node4" href="$class_obj_cryst_1_1_crystal.html#aced7120968bec9027897ee8a3c56bd50" title="Number of scatterers in the crystal." alt="" coords="287,131,416,169"/>
+<area shape="rect" id="node5" href="$class_obj_cryst_1_1_crystal.html#ab991f8f3cc005760f939f7d41694cfdf" title="Provides an access to the scatterers." alt="" coords="287,193,416,232"/>
+<area shape="rect" id="node6" href="$class_obj_cryst_1_1_atom.html#ab4a0388c75cb7a51878199f1f86f6dac" title="Get the ScatteringPowerAtom corresponding to this atom." alt="" coords="251,256,452,295"/>
+<area shape="rect" id="node7" href="$class_obj_cryst_1_1_atom.html#a111b96d82473e6386d18fec662d65c91" title="Change the ScatteringPower for this atom." alt="" coords="252,319,451,357"/>
+<area shape="rect" id="node8" href="$class_obj_cryst_1_1_crystal.html#aba839003a614634d7d6d9217379ae692" title=" " alt="" coords="267,381,436,420"/>
+<area shape="rect" id="node9" href="$class_obj_cryst_1_1_scattering_power.html#a831505bd54282ec723e694f38e934ada" title=" " alt="" coords="500,381,722,420"/>
+</map>

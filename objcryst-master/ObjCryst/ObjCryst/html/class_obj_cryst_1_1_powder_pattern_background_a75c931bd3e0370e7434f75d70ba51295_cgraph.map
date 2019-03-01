@@ -1,0 +1,11 @@
+<map id="ObjCryst::PowderPatternBackground::GetPowderPatternCalcVariance" name="ObjCryst::PowderPatternBackground::GetPowderPatternCalcVariance">
+<area shape="rect" id="node1" title=" " alt="" coords="5,100,245,139"/>
+<area shape="rect" id="node2" href="$class_obj_cryst_1_1_powder_pattern_background.html#a6e564159536442870bfb17be8e5b51e8" title=" " alt="" coords="293,100,533,139"/>
+<area shape="rect" id="node3" href="$class_obj_cryst_1_1_powder_pattern.html#a2c6b24bb1e7ea2f6fd4ac61b9aea3afb" title="When were the pattern parameters (2theta range, step) changed ?" alt="" coords="604,5,796,44"/>
+<area shape="rect" id="node4" href="$class_obj_cryst_1_1_powder_pattern.html#a6bd7666d4c7aedfadc59bc567474540e" title="Number of points ?" alt="" coords="616,68,785,107"/>
+<area shape="rect" id="node5" href="$class_obj_cryst_1_1_powder_pattern_component.html#a7428c062c1cb6d5f21d1e4131a917199" title=" " alt="" coords="581,131,819,169"/>
+<area shape="rect" id="node6" href="$class_obj_cryst_1_1_powder_pattern.html#a0146d35bdc502a6f40f006de837fb490" title=" " alt="" coords="616,193,785,232"/>
+<area shape="rect" id="node7" href="$class_obj_cryst_1_1_powder_pattern.html#ab53befb0a673360c2cbd1261f4f120c4" title="Get the Minimum 2theta." alt="" coords="870,131,1039,169"/>
+<area shape="rect" id="node8" href="$class_obj_cryst_1_1_powder_pattern.html#a6c86d0b0a22155319a212bfb4629c9dd" title=" " alt="" coords="867,193,1042,232"/>
+<area shape="rect" id="node9" href="$class_obj_cryst_1_1_powder_pattern.html#a1a71f1c47f625ffeb46bddf34a6a5780" title="Get the maximum 2theta." alt="" coords="868,256,1041,295"/>
+</map>

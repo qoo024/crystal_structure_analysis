@@ -1,0 +1,97 @@
+\hypertarget{class_obj_cryst_1_1_w_x_z_atom}{}\section{Obj\+Cryst\+::W\+X\+Z\+Atom Class Reference}
+\label{class_obj_cryst_1_1_w_x_z_atom}\index{ObjCryst::WXZAtom@{ObjCryst::WXZAtom}}
+
+
+Inheritance diagram for Obj\+Cryst\+::W\+X\+Z\+Atom\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=220pt]{class_obj_cryst_1_1_w_x_z_atom__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Obj\+Cryst\+::W\+X\+Z\+Atom\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=318pt]{class_obj_cryst_1_1_w_x_z_atom__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_w_x_z_atom_a040ca5188cd44e509fb1f6d226906696}\label{class_obj_cryst_1_1_w_x_z_atom_a040ca5188cd44e509fb1f6d226906696}} 
+{\bfseries W\+X\+Z\+Atom} (wx\+Window $\ast$parent, Z\+Atom $\ast$)
+\item 
+virtual void \mbox{\hyperlink{class_obj_cryst_1_1_w_x_z_atom_af5872f558b7828759bbcd07a3a5aa53b}{Cryst\+Update}} (const bool update\+UI=false, const bool mutexlock=false)
+\item 
+virtual void \mbox{\hyperlink{class_obj_cryst_1_1_w_x_z_atom_ad98ce4a82eb861cb2fafbddb7ab9bfbe}{Update\+UI}} (const bool mutexlock=false)
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_w_x_z_atom_a60299987b5a652ab1c3e27636f017e99}\label{class_obj_cryst_1_1_w_x_z_atom_a60299987b5a652ab1c3e27636f017e99}} 
+void {\bfseries On\+Change\+Scatt\+Pow} (wx\+Command\+Event \&W\+X\+U\+N\+U\+S\+ED(event))
+\end{DoxyCompactItemize}
+\subsection*{Additional Inherited Members}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{class_obj_cryst_1_1_w_x_z_atom_af5872f558b7828759bbcd07a3a5aa53b}\label{class_obj_cryst_1_1_w_x_z_atom_af5872f558b7828759bbcd07a3a5aa53b}} 
+\index{ObjCryst::WXZAtom@{ObjCryst::WXZAtom}!CrystUpdate@{CrystUpdate}}
+\index{CrystUpdate@{CrystUpdate}!ObjCryst::WXZAtom@{ObjCryst::WXZAtom}}
+\subsubsection{\texorpdfstring{CrystUpdate()}{CrystUpdate()}}
+{\footnotesize\ttfamily void Obj\+Cryst\+::\+W\+X\+Z\+Atom\+::\+Cryst\+Update (\begin{DoxyParamCaption}\item[{const bool}]{update\+UI = {\ttfamily false},  }\item[{const bool}]{mutexlock = {\ttfamily false} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+Get new values to be displayed from the underlying object, and raise flag if an UI update is necessary. The actual G\+UI update is not made here. \mbox{\hyperlink{class_obj_cryst_1_1_w_x_z_atom_ad98ce4a82eb861cb2fafbddb7ab9bfbe}{Update\+U\+I()}} should be called separately, from the main thread.
+
+
+\begin{DoxyParams}{Parameters}
+{\em update\+UI} & if true, this will call Update\+UI, either directly (if in the main thread), or by sending a message. \\
+\hline
+{\em mutexlock} & if true, a Mutex will be used to lock the data shared between main and background thread. The idea is to only use a few Mutexes to lock data from the top objects (wx\+Refinable\+Obj,...), when calling \mbox{\hyperlink{class_obj_cryst_1_1_w_x_z_atom_af5872f558b7828759bbcd07a3a5aa53b}{Cryst\+Update()}} and \mbox{\hyperlink{class_obj_cryst_1_1_w_x_z_atom_ad98ce4a82eb861cb2fafbddb7ab9bfbe}{Update\+U\+I()}}. As sub-\/objects (\mbox{\hyperlink{class_obj_cryst_1_1_w_x_field}{W\+X\+Field}},...) are only updated from within a top object, the mutex lock in the top object will also lock the data in the sub-\/objects. \\
+\hline
+\end{DoxyParams}
+
+
+Implements \mbox{\hyperlink{class_obj_cryst_1_1_w_x_cryst_obj_basic_a7ac00ae2ae28f1a6fa26e6fa571186b6}{Obj\+Cryst\+::\+W\+X\+Cryst\+Obj\+Basic}}.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_obj_cryst_1_1_w_x_z_atom_af5872f558b7828759bbcd07a3a5aa53b_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_obj_cryst_1_1_w_x_z_atom_ad98ce4a82eb861cb2fafbddb7ab9bfbe}\label{class_obj_cryst_1_1_w_x_z_atom_ad98ce4a82eb861cb2fafbddb7ab9bfbe}} 
+\index{ObjCryst::WXZAtom@{ObjCryst::WXZAtom}!UpdateUI@{UpdateUI}}
+\index{UpdateUI@{UpdateUI}!ObjCryst::WXZAtom@{ObjCryst::WXZAtom}}
+\subsubsection{\texorpdfstring{UpdateUI()}{UpdateUI()}}
+{\footnotesize\ttfamily void Obj\+Cryst\+::\+W\+X\+Z\+Atom\+::\+Update\+UI (\begin{DoxyParamCaption}\item[{const bool}]{mutexlock = {\ttfamily false} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+Update the User Interface, if necessary
+
+
+\begin{DoxyParams}{Parameters}
+{\em mutexlock} & if true, a Mutex will be used to lock the data shared between main and background thread.\\
+\hline
+\end{DoxyParams}
+The idea is to only use a few Mutexes to lock data from the top objects (wx\+Refinable\+Obj,...), when calling \mbox{\hyperlink{class_obj_cryst_1_1_w_x_z_atom_af5872f558b7828759bbcd07a3a5aa53b}{Cryst\+Update()}} and \mbox{\hyperlink{class_obj_cryst_1_1_w_x_z_atom_ad98ce4a82eb861cb2fafbddb7ab9bfbe}{Update\+U\+I()}}. As sub-\/objects (\mbox{\hyperlink{class_obj_cryst_1_1_w_x_field}{W\+X\+Field}},...) are only updated from within a top object, the mutex lock in the top object will also lock the data in the sub-\/objects. 
+
+Implements \mbox{\hyperlink{class_obj_cryst_1_1_w_x_cryst_obj_basic_a3818940b7031ff7e45cf2178c4a99c90}{Obj\+Cryst\+::\+W\+X\+Cryst\+Obj\+Basic}}.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_obj_cryst_1_1_w_x_z_atom_ad98ce4a82eb861cb2fafbddb7ab9bfbe_cgraph}
+\end{center}
+\end{figure}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+wx\+Z\+Scatterer.\+h\item 
+wx\+Z\+Scatterer.\+cpp\end{DoxyCompactItemize}

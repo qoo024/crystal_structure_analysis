@@ -1,0 +1,11 @@
+<map id="ObjCryst::UnitCell::GetLatticePar" name="ObjCryst::UnitCell::GetLatticePar">
+<area shape="rect" id="node1" title=" " alt="" coords="699,141,827,180"/>
+<area shape="rect" id="node2" href="$class_obj_cryst_1_1_atom.html#aaf6475195502fff91903f30b5c6c3345" title="XMLOutput a description of the scatterer for POVRay." alt="" coords="414,5,651,31"/>
+<area shape="rect" id="node3" href="$class_obj_cryst_1_1_crystal.html#a12969ab06ecb5293c57fb305e146cc72" title="output Crystal structure as a cif file (EXPERIMENTAL !)" alt="" coords="217,175,346,213"/>
+<area shape="rect" id="node4" href="$class_obj_cryst_1_1_scattering_data.html#a63f682dfda2e03f2ab00826c5e116033" title="Generate a list of h,k,l to describe a full reciprocal space, up to a given maximum theta value." alt="" coords="448,55,617,93"/>
+<area shape="rect" id="node7" href="$class_obj_cryst_1_1_unit_cell.html#a19ef2e012dfd628935a22b40a9c85957" title=" " alt="" coords="469,169,596,208"/>
+<area shape="rect" id="node8" href="$class_obj_cryst_1_1_unit_cell.html#a4d66d2f06b1472cb2e9e77e4d2c0ee75" title="Volume of Unit Cell (in Angstroems)" alt="" coords="469,232,596,271"/>
+<area shape="rect" id="node9" href="$class_obj_cryst_1_1_global_scattering_power.html#af81844742d8cfdca7dec979a08e4abf0" title="Get the Scattering factor for all reflections of a given ScatteringData object." alt="" coords="440,295,625,333"/>
+<area shape="rect" id="node5" href="$class_obj_cryst_1_1_scattering_data.html#a3d15ed5e447e6b2ff6fd8fdaad43a37d" title="Generate a list of h,k,l to describe a full reciprocal space, up to a given maximum theta value." alt="" coords="197,55,366,93"/>
+<area shape="rect" id="node6" href="$namespace_obj_cryst.html#a775b62d07c596365d2f2d021dca408db" title=" " alt="" coords="5,61,149,87"/>
+</map>

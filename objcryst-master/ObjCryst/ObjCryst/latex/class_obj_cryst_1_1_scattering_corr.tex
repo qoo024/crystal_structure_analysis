@@ -1,0 +1,96 @@
+\hypertarget{class_obj_cryst_1_1_scattering_corr}{}\section{Obj\+Cryst\+::Scattering\+Corr Class Reference}
+\label{class_obj_cryst_1_1_scattering_corr}\index{ObjCryst::ScatteringCorr@{ObjCryst::ScatteringCorr}}
+
+
+{\ttfamily \#include $<$Scattering\+Corr.\+h$>$}
+
+
+
+Inheritance diagram for Obj\+Cryst\+::Scattering\+Corr\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_obj_cryst_1_1_scattering_corr__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Obj\+Cryst\+::Scattering\+Corr\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=251pt]{class_obj_cryst_1_1_scattering_corr__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_scattering_corr_ac1e37a73b0a107f66d1b1d75b9db9c47}\label{class_obj_cryst_1_1_scattering_corr_ac1e37a73b0a107f66d1b1d75b9db9c47}} 
+\mbox{\hyperlink{class_obj_cryst_1_1_scattering_corr_ac1e37a73b0a107f66d1b1d75b9db9c47}{Scattering\+Corr}} (const \mbox{\hyperlink{class_obj_cryst_1_1_scattering_data}{Scattering\+Data}} \&data)
+\begin{DoxyCompactList}\small\item\em Constructor, with the associated \mbox{\hyperlink{class_obj_cryst_1_1_scattering_data}{Scattering\+Data}} object. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_scattering_corr_adb2782d4e32cbcb89e2e69b3c8ad66fb}\label{class_obj_cryst_1_1_scattering_corr_adb2782d4e32cbcb89e2e69b3c8ad66fb}} 
+virtual const string \& \mbox{\hyperlink{class_obj_cryst_1_1_scattering_corr_adb2782d4e32cbcb89e2e69b3c8ad66fb}{Get\+Name}} () const =0
+\begin{DoxyCompactList}\small\item\em Get the name of this object. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_scattering_corr_a6d72e7a6ffff0c16d86930d9e72c6673}\label{class_obj_cryst_1_1_scattering_corr_a6d72e7a6ffff0c16d86930d9e72c6673}} 
+virtual const string \& \mbox{\hyperlink{class_obj_cryst_1_1_scattering_corr_a6d72e7a6ffff0c16d86930d9e72c6673}{Get\+Class\+Name}} () const =0
+\begin{DoxyCompactList}\small\item\em Get the name of the class. \end{DoxyCompactList}\item 
+const Cryst\+Vector\+\_\+\+R\+E\+AL \& \mbox{\hyperlink{class_obj_cryst_1_1_scattering_corr_a984d75f2c772be383be38cb393183281}{Get\+Corr}} () const
+\item 
+const Refinable\+Obj\+Clock \& \mbox{\hyperlink{class_obj_cryst_1_1_scattering_corr_abc7dc22888637bc062f2124694005404}{Get\+Clock\+Corr}} () const
+\end{DoxyCompactItemize}
+\subsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_scattering_corr_a437a916156f6d88c76cb01ca4c748c89}\label{class_obj_cryst_1_1_scattering_corr_a437a916156f6d88c76cb01ca4c748c89}} 
+virtual void \mbox{\hyperlink{class_obj_cryst_1_1_scattering_corr_a437a916156f6d88c76cb01ca4c748c89}{Calc\+Corr}} () const =0
+\begin{DoxyCompactList}\small\item\em Do the computation of corrected intensities. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_scattering_corr_a0fa066328104835ff72ddf98687c8513}\label{class_obj_cryst_1_1_scattering_corr_a0fa066328104835ff72ddf98687c8513}} 
+const \mbox{\hyperlink{class_obj_cryst_1_1_scattering_data}{Scattering\+Data}} $\ast$ \mbox{\hyperlink{class_obj_cryst_1_1_scattering_corr_a0fa066328104835ff72ddf98687c8513}{mp\+Data}}
+\begin{DoxyCompactList}\small\item\em The associated \mbox{\hyperlink{class_obj_cryst_1_1_scattering_data}{Scattering\+Data}} object. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_scattering_corr_a7669922ac4bbdfb826748148d4016088}\label{class_obj_cryst_1_1_scattering_corr_a7669922ac4bbdfb826748148d4016088}} 
+Cryst\+Vector\+\_\+\+R\+E\+AL \mbox{\hyperlink{class_obj_cryst_1_1_scattering_corr_a7669922ac4bbdfb826748148d4016088}{m\+Corr}}
+\begin{DoxyCompactList}\small\item\em The vector of correction to intensities. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_scattering_corr_aa969418138a9d1867797857318d6f303}\label{class_obj_cryst_1_1_scattering_corr_aa969418138a9d1867797857318d6f303}} 
+Refinable\+Obj\+Clock \mbox{\hyperlink{class_obj_cryst_1_1_scattering_corr_aa969418138a9d1867797857318d6f303}{m\+Clock\+Corr\+Calc}}
+\begin{DoxyCompactList}\small\item\em The clock marking the last time the correction was calculated. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Base class to compute all kind of corrections to intensities\+: Lorentz, Polar, absorption, texcture, extinction, etc...
+
+The computed intensities are to be multiplied by all the \mbox{\hyperlink{class_obj_cryst_1_1_scattering_corr}{Scattering\+Corr}} calculated.
+
+This is an abstract base class. 
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{class_obj_cryst_1_1_scattering_corr_abc7dc22888637bc062f2124694005404}\label{class_obj_cryst_1_1_scattering_corr_abc7dc22888637bc062f2124694005404}} 
+\index{ObjCryst::ScatteringCorr@{ObjCryst::ScatteringCorr}!GetClockCorr@{GetClockCorr}}
+\index{GetClockCorr@{GetClockCorr}!ObjCryst::ScatteringCorr@{ObjCryst::ScatteringCorr}}
+\subsubsection{\texorpdfstring{GetClockCorr()}{GetClockCorr()}}
+{\footnotesize\ttfamily const Refinable\+Obj\+Clock \& Obj\+Cryst\+::\+Scattering\+Corr\+::\+Get\+Clock\+Corr (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+Get the value of the clock corresponding to the last time the correction was actually computed \mbox{\Hypertarget{class_obj_cryst_1_1_scattering_corr_a984d75f2c772be383be38cb393183281}\label{class_obj_cryst_1_1_scattering_corr_a984d75f2c772be383be38cb393183281}} 
+\index{ObjCryst::ScatteringCorr@{ObjCryst::ScatteringCorr}!GetCorr@{GetCorr}}
+\index{GetCorr@{GetCorr}!ObjCryst::ScatteringCorr@{ObjCryst::ScatteringCorr}}
+\subsubsection{\texorpdfstring{GetCorr()}{GetCorr()}}
+{\footnotesize\ttfamily const Cryst\+Vector\+\_\+\+R\+E\+AL \& Obj\+Cryst\+::\+Scattering\+Corr\+::\+Get\+Corr (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+Get the vector of corrections for all reflections. Calculated values must be multiplied by these values. If the vector is empty (size==0), then no correction should be applied Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_obj_cryst_1_1_scattering_corr_a984d75f2c772be383be38cb393183281_cgraph}
+\end{center}
+\end{figure}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+Scattering\+Corr.\+h\item 
+Scattering\+Corr.\+cpp\end{DoxyCompactItemize}

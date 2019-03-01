@@ -1,0 +1,101 @@
+\hypertarget{class_obj_cryst_1_1_w_x_texture_phase_march_dollase}{}\section{Obj\+Cryst\+::W\+X\+Texture\+Phase\+March\+Dollase Class Reference}
+\label{class_obj_cryst_1_1_w_x_texture_phase_march_dollase}\index{ObjCryst::WXTexturePhaseMarchDollase@{ObjCryst::WXTexturePhaseMarchDollase}}
+
+
+{\ttfamily \#include $<$wx\+Powder\+Pattern.\+h$>$}
+
+
+
+Inheritance diagram for Obj\+Cryst\+::W\+X\+Texture\+Phase\+March\+Dollase\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=220pt]{class_obj_cryst_1_1_w_x_texture_phase_march_dollase__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Obj\+Cryst\+::W\+X\+Texture\+Phase\+March\+Dollase\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=318pt]{class_obj_cryst_1_1_w_x_texture_phase_march_dollase__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_w_x_texture_phase_march_dollase_abcee0093325198b3c432468579b46dc2}\label{class_obj_cryst_1_1_w_x_texture_phase_march_dollase_abcee0093325198b3c432468579b46dc2}} 
+{\bfseries W\+X\+Texture\+Phase\+March\+Dollase} (wx\+Window $\ast$parent, Texture\+Phase\+March\+Dollase $\ast$, Texture\+March\+Dollase $\ast$)
+\item 
+virtual void \mbox{\hyperlink{class_obj_cryst_1_1_w_x_texture_phase_march_dollase_a9f7baf1967a22db565f84f354d0eaa88}{Cryst\+Update}} (const bool update\+UI=false, const bool mutexlock=false)
+\item 
+virtual void \mbox{\hyperlink{class_obj_cryst_1_1_w_x_texture_phase_march_dollase_ab9dffa65029bbd9d9c07e07e5b2ccf99}{Update\+UI}} (const bool mutexlock=false)
+\end{DoxyCompactItemize}
+\subsection*{Additional Inherited Members}
+
+
+\subsection{Detailed Description}
+Class to display one Preferred Orientation phase using the March-\/\+Dollase parametrization 
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{class_obj_cryst_1_1_w_x_texture_phase_march_dollase_a9f7baf1967a22db565f84f354d0eaa88}\label{class_obj_cryst_1_1_w_x_texture_phase_march_dollase_a9f7baf1967a22db565f84f354d0eaa88}} 
+\index{ObjCryst::WXTexturePhaseMarchDollase@{ObjCryst::WXTexturePhaseMarchDollase}!CrystUpdate@{CrystUpdate}}
+\index{CrystUpdate@{CrystUpdate}!ObjCryst::WXTexturePhaseMarchDollase@{ObjCryst::WXTexturePhaseMarchDollase}}
+\subsubsection{\texorpdfstring{CrystUpdate()}{CrystUpdate()}}
+{\footnotesize\ttfamily void Obj\+Cryst\+::\+W\+X\+Texture\+Phase\+March\+Dollase\+::\+Cryst\+Update (\begin{DoxyParamCaption}\item[{const bool}]{update\+UI = {\ttfamily false},  }\item[{const bool}]{mutexlock = {\ttfamily false} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+Get new values to be displayed from the underlying object, and raise flag if an UI update is necessary. The actual G\+UI update is not made here. \mbox{\hyperlink{class_obj_cryst_1_1_w_x_texture_phase_march_dollase_ab9dffa65029bbd9d9c07e07e5b2ccf99}{Update\+U\+I()}} should be called separately, from the main thread.
+
+
+\begin{DoxyParams}{Parameters}
+{\em update\+UI} & if true, this will call Update\+UI, either directly (if in the main thread), or by sending a message. \\
+\hline
+{\em mutexlock} & if true, a Mutex will be used to lock the data shared between main and background thread. The idea is to only use a few Mutexes to lock data from the top objects (wx\+Refinable\+Obj,...), when calling \mbox{\hyperlink{class_obj_cryst_1_1_w_x_texture_phase_march_dollase_a9f7baf1967a22db565f84f354d0eaa88}{Cryst\+Update()}} and \mbox{\hyperlink{class_obj_cryst_1_1_w_x_texture_phase_march_dollase_ab9dffa65029bbd9d9c07e07e5b2ccf99}{Update\+U\+I()}}. As sub-\/objects (\mbox{\hyperlink{class_obj_cryst_1_1_w_x_field}{W\+X\+Field}},...) are only updated from within a top object, the mutex lock in the top object will also lock the data in the sub-\/objects. \\
+\hline
+\end{DoxyParams}
+
+
+Implements \mbox{\hyperlink{class_obj_cryst_1_1_w_x_cryst_obj_basic_a7ac00ae2ae28f1a6fa26e6fa571186b6}{Obj\+Cryst\+::\+W\+X\+Cryst\+Obj\+Basic}}.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_obj_cryst_1_1_w_x_texture_phase_march_dollase_a9f7baf1967a22db565f84f354d0eaa88_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_obj_cryst_1_1_w_x_texture_phase_march_dollase_ab9dffa65029bbd9d9c07e07e5b2ccf99}\label{class_obj_cryst_1_1_w_x_texture_phase_march_dollase_ab9dffa65029bbd9d9c07e07e5b2ccf99}} 
+\index{ObjCryst::WXTexturePhaseMarchDollase@{ObjCryst::WXTexturePhaseMarchDollase}!UpdateUI@{UpdateUI}}
+\index{UpdateUI@{UpdateUI}!ObjCryst::WXTexturePhaseMarchDollase@{ObjCryst::WXTexturePhaseMarchDollase}}
+\subsubsection{\texorpdfstring{UpdateUI()}{UpdateUI()}}
+{\footnotesize\ttfamily void Obj\+Cryst\+::\+W\+X\+Texture\+Phase\+March\+Dollase\+::\+Update\+UI (\begin{DoxyParamCaption}\item[{const bool}]{mutexlock = {\ttfamily false} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+Update the User Interface, if necessary
+
+
+\begin{DoxyParams}{Parameters}
+{\em mutexlock} & if true, a Mutex will be used to lock the data shared between main and background thread.\\
+\hline
+\end{DoxyParams}
+The idea is to only use a few Mutexes to lock data from the top objects (wx\+Refinable\+Obj,...), when calling \mbox{\hyperlink{class_obj_cryst_1_1_w_x_texture_phase_march_dollase_a9f7baf1967a22db565f84f354d0eaa88}{Cryst\+Update()}} and \mbox{\hyperlink{class_obj_cryst_1_1_w_x_texture_phase_march_dollase_ab9dffa65029bbd9d9c07e07e5b2ccf99}{Update\+U\+I()}}. As sub-\/objects (\mbox{\hyperlink{class_obj_cryst_1_1_w_x_field}{W\+X\+Field}},...) are only updated from within a top object, the mutex lock in the top object will also lock the data in the sub-\/objects. 
+
+Implements \mbox{\hyperlink{class_obj_cryst_1_1_w_x_cryst_obj_basic_a3818940b7031ff7e45cf2178c4a99c90}{Obj\+Cryst\+::\+W\+X\+Cryst\+Obj\+Basic}}.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_obj_cryst_1_1_w_x_texture_phase_march_dollase_ab9dffa65029bbd9d9c07e07e5b2ccf99_cgraph}
+\end{center}
+\end{figure}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+wx\+Powder\+Pattern.\+h\item 
+wx\+Powder\+Pattern.\+cpp\end{DoxyCompactItemize}

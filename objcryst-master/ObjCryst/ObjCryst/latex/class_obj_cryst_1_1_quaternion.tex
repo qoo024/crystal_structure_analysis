@@ -1,0 +1,96 @@
+\hypertarget{class_obj_cryst_1_1_quaternion}{}\section{Obj\+Cryst\+::Quaternion Class Reference}
+\label{class_obj_cryst_1_1_quaternion}\index{ObjCryst::Quaternion@{ObjCryst::Quaternion}}
+
+
+{\ttfamily \#include $<$Molecule.\+h$>$}
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_quaternion_af5260414dcf9aaeb479370b55542ad58}\label{class_obj_cryst_1_1_quaternion_af5260414dcf9aaeb479370b55542ad58}} 
+\mbox{\hyperlink{class_obj_cryst_1_1_quaternion_af5260414dcf9aaeb479370b55542ad58}{Quaternion}} ()
+\begin{DoxyCompactList}\small\item\em Default constructor, yields q=(1,0,0,0) \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_quaternion_a7adfabaa48d3f0a8aa056977f8a40492}\label{class_obj_cryst_1_1_quaternion_a7adfabaa48d3f0a8aa056977f8a40492}} 
+\mbox{\hyperlink{class_obj_cryst_1_1_quaternion_a7adfabaa48d3f0a8aa056977f8a40492}{Quaternion}} (const R\+E\+AL q0, const R\+E\+AL q1, const R\+E\+AL q2, const R\+E\+AL q3, bool unit=true)
+\begin{DoxyCompactList}\small\item\em Creates a unit quaternion from its components (normalized automatically) \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_quaternion_a0d0d7b809d9447a70e2d91902ca0afcd}\label{class_obj_cryst_1_1_quaternion_a0d0d7b809d9447a70e2d91902ca0afcd}} 
+\mbox{\hyperlink{class_obj_cryst_1_1_quaternion}{Quaternion}} \mbox{\hyperlink{class_obj_cryst_1_1_quaternion_a0d0d7b809d9447a70e2d91902ca0afcd}{Get\+Conjugate}} () const
+\begin{DoxyCompactList}\small\item\em Get the conjugate of this quaternion (== the inverse if unit quaternion) \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_quaternion_a1180ded333fb5c84481bb0b92fbdcc03}\label{class_obj_cryst_1_1_quaternion_a1180ded333fb5c84481bb0b92fbdcc03}} 
+\mbox{\hyperlink{class_obj_cryst_1_1_quaternion}{Quaternion}} \mbox{\hyperlink{class_obj_cryst_1_1_quaternion_a1180ded333fb5c84481bb0b92fbdcc03}{operator $\ast$}} (const \mbox{\hyperlink{class_obj_cryst_1_1_quaternion}{Quaternion}} \&q) const
+\begin{DoxyCompactList}\small\item\em \mbox{\hyperlink{class_obj_cryst_1_1_quaternion}{Quaternion}} multiplication. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_quaternion_ae2e0eaec1e0f9ef358092ba800670b23}\label{class_obj_cryst_1_1_quaternion_ae2e0eaec1e0f9ef358092ba800670b23}} 
+void {\bfseries operator $\ast$=} (const \mbox{\hyperlink{class_obj_cryst_1_1_quaternion}{Quaternion}} \&q)
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_quaternion_a4e802ce8287b8f5cabafda4d8c00e4f9}\label{class_obj_cryst_1_1_quaternion_a4e802ce8287b8f5cabafda4d8c00e4f9}} 
+void {\bfseries X\+M\+L\+Output} (ostream \&os, int indent=0) const
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_quaternion_afea1afc8fed0f18668374b7e7bd11dce}\label{class_obj_cryst_1_1_quaternion_afea1afc8fed0f18668374b7e7bd11dce}} 
+void {\bfseries X\+M\+L\+Input} (istream \&is, const X\+M\+L\+Cryst\+Tag \&tag)
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_quaternion_af8c6c41e1af3f0f0f1031dc3fe936254}\label{class_obj_cryst_1_1_quaternion_af8c6c41e1af3f0f0f1031dc3fe936254}} 
+void \mbox{\hyperlink{class_obj_cryst_1_1_quaternion_af8c6c41e1af3f0f0f1031dc3fe936254}{Rotate\+Vector}} (R\+E\+AL \&v1, R\+E\+AL \&v2, R\+E\+AL \&v3) const
+\begin{DoxyCompactList}\small\item\em Rotate vector v=(v1,v2,v3). The rotated components are directly written. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_obj_cryst_1_1_quaternion_ac5a0461b9a89ce473a4d2c0dac73840d}{Normalize}} () const
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_quaternion_a8248f6e693549825402c31f4be0018df}\label{class_obj_cryst_1_1_quaternion_a8248f6e693549825402c31f4be0018df}} 
+R\+E\+AL {\bfseries Get\+Norm} () const
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_quaternion_a0aa7cc81ffacd7e90d80592a24002659}\label{class_obj_cryst_1_1_quaternion_a0aa7cc81ffacd7e90d80592a24002659}} 
+const R\+E\+AL \& {\bfseries Q0} () const
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_quaternion_a51ac63b5c094d911dc1d3452f48d2bda}\label{class_obj_cryst_1_1_quaternion_a51ac63b5c094d911dc1d3452f48d2bda}} 
+const R\+E\+AL \& {\bfseries Q1} () const
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_quaternion_ad41716e665081b87c4015216eb83b60d}\label{class_obj_cryst_1_1_quaternion_ad41716e665081b87c4015216eb83b60d}} 
+const R\+E\+AL \& {\bfseries Q2} () const
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_quaternion_ad7f5f525eb0d759893251eff4ff77922}\label{class_obj_cryst_1_1_quaternion_ad7f5f525eb0d759893251eff4ff77922}} 
+const R\+E\+AL \& {\bfseries Q3} () const
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_quaternion_a55fcaea158c078037e490698b65928a5}\label{class_obj_cryst_1_1_quaternion_a55fcaea158c078037e490698b65928a5}} 
+R\+E\+AL \& {\bfseries Q0} ()
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_quaternion_af2d6ad820f768f36e4d27a1d8fe625d7}\label{class_obj_cryst_1_1_quaternion_af2d6ad820f768f36e4d27a1d8fe625d7}} 
+R\+E\+AL \& {\bfseries Q1} ()
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_quaternion_a3f9ee4f684da0981d5c746a4b2a4d473}\label{class_obj_cryst_1_1_quaternion_a3f9ee4f684da0981d5c746a4b2a4d473}} 
+R\+E\+AL \& {\bfseries Q2} ()
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_quaternion_ab17a674537eada0d4591fc99daa98e7e}\label{class_obj_cryst_1_1_quaternion_ab17a674537eada0d4591fc99daa98e7e}} 
+R\+E\+AL \& {\bfseries Q3} ()
+\end{DoxyCompactItemize}
+\subsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_quaternion_a530f0de9cea9dc7ac595722a0a636e2a}\label{class_obj_cryst_1_1_quaternion_a530f0de9cea9dc7ac595722a0a636e2a}} 
+static \mbox{\hyperlink{class_obj_cryst_1_1_quaternion}{Quaternion}} \mbox{\hyperlink{class_obj_cryst_1_1_quaternion_a530f0de9cea9dc7ac595722a0a636e2a}{Rotation\+Quaternion}} (const R\+E\+AL ang, const R\+E\+AL v1, const R\+E\+AL v2, const R\+E\+AL v3)
+\begin{DoxyCompactList}\small\item\em Create a rotation quaternion around a given vector for a given angle. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+A quaternion class, used to represent the orientation of the molecule. It may or may not be a unit quaternion. 
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{class_obj_cryst_1_1_quaternion_ac5a0461b9a89ce473a4d2c0dac73840d}\label{class_obj_cryst_1_1_quaternion_ac5a0461b9a89ce473a4d2c0dac73840d}} 
+\index{ObjCryst::Quaternion@{ObjCryst::Quaternion}!Normalize@{Normalize}}
+\index{Normalize@{Normalize}!ObjCryst::Quaternion@{ObjCryst::Quaternion}}
+\subsubsection{\texorpdfstring{Normalize()}{Normalize()}}
+{\footnotesize\ttfamily void Obj\+Cryst\+::\+Quaternion\+::\+Normalize (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+Re-\/normalize the quaternion to unity. This should not be useful, except on individual component input, or after long calculations. And even if wrong, the rotation is independent of the norm of the quaternion.
+
+This is markerd const because we use only unit quaternions Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_obj_cryst_1_1_quaternion_ac5a0461b9a89ce473a4d2c0dac73840d_icgraph}
+\end{center}
+\end{figure}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+Molecule.\+h\item 
+Molecule.\+cpp\end{DoxyCompactItemize}

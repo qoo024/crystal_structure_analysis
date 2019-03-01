@@ -1,0 +1,13 @@
+<map id="ObjCryst::PowderPattern::ImportPowderPatternGSAS" name="ObjCryst::PowderPattern::ImportPowderPatternGSAS">
+<area shape="rect" id="node1" title=" " alt="" coords="5,245,197,284"/>
+<area shape="rect" id="node2" href="$class_obj_cryst_1_1_powder_pattern.html#adb92497ec0c6793c1cb74fc1bf9914e2" title=" " alt="" coords="249,5,418,44"/>
+<area shape="rect" id="node3" href="$class_obj_cryst_1_1_powder_pattern.html#ad3def5314d887649c311a6519d3f6e28" title="Set the radiation type." alt="" coords="249,68,418,107"/>
+<area shape="rect" id="node5" href="$class_obj_cryst_1_1_radiation.html#adc4fac12bb11e01e515365e5d7a46ddc" title="Set the Wavelength type (monochromatic, Alpha1+Alpha2, Time Of Flight...)" alt="" coords="654,68,802,107"/>
+<area shape="rect" id="node6" href="$class_obj_cryst_1_1_powder_pattern.html#a8c545d3b5f5e9671a719040af2c229e3" title="Neutron or x&#45;ray experiment ?" alt="" coords="249,183,418,221"/>
+<area shape="rect" id="node7" href="$class_obj_cryst_1_1_powder_pattern.html#a64170b8ead948e9b8569e1613d849583" title=" " alt="" coords="249,245,418,284"/>
+<area shape="rect" id="node8" href="$class_obj_cryst_1_1_powder_pattern.html#add7d97cdb7610f7553b95c2eeefcd172" title=" " alt="" coords="245,308,421,347"/>
+<area shape="rect" id="node9" href="$class_obj_cryst_1_1_powder_pattern.html#ab53befb0a673360c2cbd1261f4f120c4" title="Get the Minimum 2theta." alt="" coords="249,371,418,409"/>
+<area shape="rect" id="node10" href="$class_obj_cryst_1_1_powder_pattern.html#a1a71f1c47f625ffeb46bddf34a6a5780" title="Get the maximum 2theta." alt="" coords="247,433,419,472"/>
+<area shape="rect" id="node11" href="$class_obj_cryst_1_1_powder_pattern.html#a6c86d0b0a22155319a212bfb4629c9dd" title=" " alt="" coords="246,496,420,535"/>
+<area shape="rect" id="node4" href="$class_obj_cryst_1_1_radiation.html#a8fd969b9f546fc48f5bfd7b38ff9c995" title="Set the radiation type (X&#45;Rays, Neutron)" alt="" coords="469,68,606,107"/>
+</map>

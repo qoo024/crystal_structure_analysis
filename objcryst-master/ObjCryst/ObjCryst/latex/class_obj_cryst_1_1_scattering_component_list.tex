@@ -1,0 +1,86 @@
+\hypertarget{class_obj_cryst_1_1_scattering_component_list}{}\section{Obj\+Cryst\+::Scattering\+Component\+List Class Reference}
+\label{class_obj_cryst_1_1_scattering_component_list}\index{ObjCryst::ScatteringComponentList@{ObjCryst::ScatteringComponentList}}
+
+
+list of scattering positions in a crystal, associated with the corresponding occupancy and a pointer to the \mbox{\hyperlink{class_obj_cryst_1_1_scattering_power}{Scattering\+Power}}.  
+
+
+
+
+{\ttfamily \#include $<$Scattering\+Power.\+h$>$}
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_scattering_component_list_a5d75cfe634f123de9c84c928dfea1eaa}\label{class_obj_cryst_1_1_scattering_component_list_a5d75cfe634f123de9c84c928dfea1eaa}} 
+{\bfseries Scattering\+Component\+List} (const long nb\+Component)
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_scattering_component_list_ac1b58052220493fab0712ebc9d8bc481}\label{class_obj_cryst_1_1_scattering_component_list_ac1b58052220493fab0712ebc9d8bc481}} 
+{\bfseries Scattering\+Component\+List} (const \mbox{\hyperlink{class_obj_cryst_1_1_scattering_component_list}{Scattering\+Component\+List}} \&old)
+\item 
+void \mbox{\hyperlink{class_obj_cryst_1_1_scattering_component_list_a512dcd4870c53b3f98ad6e7b04be9801}{Reset}} ()
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_scattering_component_list_a3dcdc8d9d21369c3405261386aa76e33}\label{class_obj_cryst_1_1_scattering_component_list_a3dcdc8d9d21369c3405261386aa76e33}} 
+const \mbox{\hyperlink{struct_obj_cryst_1_1_scattering_component}{Scattering\+Component}} \& \mbox{\hyperlink{class_obj_cryst_1_1_scattering_component_list_a3dcdc8d9d21369c3405261386aa76e33}{operator()}} (const long i) const
+\begin{DoxyCompactList}\small\item\em Access to a component. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_scattering_component_list_a9f7bc047fb617508f2415dde0430febc}\label{class_obj_cryst_1_1_scattering_component_list_a9f7bc047fb617508f2415dde0430febc}} 
+\mbox{\hyperlink{struct_obj_cryst_1_1_scattering_component}{Scattering\+Component}} \& {\bfseries operator()} (const long i)
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_scattering_component_list_acda94d3d6f78467a7f56c0cf9aed1973}\label{class_obj_cryst_1_1_scattering_component_list_acda94d3d6f78467a7f56c0cf9aed1973}} 
+long \mbox{\hyperlink{class_obj_cryst_1_1_scattering_component_list_acda94d3d6f78467a7f56c0cf9aed1973}{Get\+Nb\+Component}} () const
+\begin{DoxyCompactList}\small\item\em Number of components. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_scattering_component_list_a93c5514484bd8d32a346e1c4a155a4a3}\label{class_obj_cryst_1_1_scattering_component_list_a93c5514484bd8d32a346e1c4a155a4a3}} 
+void \mbox{\hyperlink{class_obj_cryst_1_1_scattering_component_list_a93c5514484bd8d32a346e1c4a155a4a3}{operator=}} (const \mbox{\hyperlink{class_obj_cryst_1_1_scattering_component_list}{Scattering\+Component\+List}} \&rhs)
+\begin{DoxyCompactList}\small\item\em Assignement operator. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_scattering_component_list_a1081a126cf9fdead628e8ccb3e797272}\label{class_obj_cryst_1_1_scattering_component_list_a1081a126cf9fdead628e8ccb3e797272}} 
+bool \mbox{\hyperlink{class_obj_cryst_1_1_scattering_component_list_a1081a126cf9fdead628e8ccb3e797272}{operator==}} (const \mbox{\hyperlink{class_obj_cryst_1_1_scattering_component_list}{Scattering\+Component\+List}} \&rhs) const
+\begin{DoxyCompactList}\small\item\em Compare two lists. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_scattering_component_list_a423df65157ec66cda8f5542116bc63f8}\label{class_obj_cryst_1_1_scattering_component_list_a423df65157ec66cda8f5542116bc63f8}} 
+void \mbox{\hyperlink{class_obj_cryst_1_1_scattering_component_list_a423df65157ec66cda8f5542116bc63f8}{operator+=}} (const \mbox{\hyperlink{class_obj_cryst_1_1_scattering_component_list}{Scattering\+Component\+List}} \&rhs)
+\begin{DoxyCompactList}\small\item\em Add another list of components. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_scattering_component_list_a36ea90b4b48c473af0bee85402479f82}\label{class_obj_cryst_1_1_scattering_component_list_a36ea90b4b48c473af0bee85402479f82}} 
+void \mbox{\hyperlink{class_obj_cryst_1_1_scattering_component_list_a36ea90b4b48c473af0bee85402479f82}{operator+=}} (const \mbox{\hyperlink{struct_obj_cryst_1_1_scattering_component}{Scattering\+Component}} \&rhs)
+\begin{DoxyCompactList}\small\item\em Add component. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_scattering_component_list_a8524c2bc3633441b2a808b2908ce99ec}\label{class_obj_cryst_1_1_scattering_component_list_a8524c2bc3633441b2a808b2908ce99ec}} 
+void \mbox{\hyperlink{class_obj_cryst_1_1_scattering_component_list_a8524c2bc3633441b2a808b2908ce99ec}{operator++}} ()
+\begin{DoxyCompactList}\small\item\em Add component (the whole list should be updated after that) \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_scattering_component_list_afb399786cc9031db1cbf95df2868831b}\label{class_obj_cryst_1_1_scattering_component_list_afb399786cc9031db1cbf95df2868831b}} 
+void \mbox{\hyperlink{class_obj_cryst_1_1_scattering_component_list_afb399786cc9031db1cbf95df2868831b}{operator-\/-\/}} ()
+\begin{DoxyCompactList}\small\item\em Remove component (the whole list should be updated after that) \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_scattering_component_list_af16db467893abc60b718dcc675d2ec66}\label{class_obj_cryst_1_1_scattering_component_list_af16db467893abc60b718dcc675d2ec66}} 
+void \mbox{\hyperlink{class_obj_cryst_1_1_scattering_component_list_af16db467893abc60b718dcc675d2ec66}{Print}} () const
+\begin{DoxyCompactList}\small\item\em Print the list of Scattering components. For debugging. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_scattering_component_list_a191cb4df412bb4294a4e300313e35c3f}\label{class_obj_cryst_1_1_scattering_component_list_a191cb4df412bb4294a4e300313e35c3f}} 
+vector$<$ \mbox{\hyperlink{struct_obj_cryst_1_1_scattering_component}{Scattering\+Component}} $>$ \mbox{\hyperlink{class_obj_cryst_1_1_scattering_component_list_a191cb4df412bb4294a4e300313e35c3f}{mv\+Scatt\+Comp}}
+\begin{DoxyCompactList}\small\item\em The vector of components. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+list of scattering positions in a crystal, associated with the corresponding occupancy and a pointer to the \mbox{\hyperlink{class_obj_cryst_1_1_scattering_power}{Scattering\+Power}}. 
+
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{class_obj_cryst_1_1_scattering_component_list_a512dcd4870c53b3f98ad6e7b04be9801}\label{class_obj_cryst_1_1_scattering_component_list_a512dcd4870c53b3f98ad6e7b04be9801}} 
+\index{ObjCryst::ScatteringComponentList@{ObjCryst::ScatteringComponentList}!Reset@{Reset}}
+\index{Reset@{Reset}!ObjCryst::ScatteringComponentList@{ObjCryst::ScatteringComponentList}}
+\subsubsection{\texorpdfstring{Reset()}{Reset()}}
+{\footnotesize\ttfamily void Obj\+Cryst\+::\+Scattering\+Component\+List\+::\+Reset (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Reset the list. This does {\bfseries{not}} free the memory, but simply forgets that there already are some entries. Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_obj_cryst_1_1_scattering_component_list_a512dcd4870c53b3f98ad6e7b04be9801_icgraph}
+\end{center}
+\end{figure}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+Scattering\+Power.\+h\item 
+Scattering\+Power.\+cpp\end{DoxyCompactItemize}

@@ -1,0 +1,335 @@
+\hypertarget{class_obj_cryst_1_1_c_i_f_data}{}\section{Obj\+Cryst\+::C\+I\+F\+Data Class Reference}
+\label{class_obj_cryst_1_1_c_i_f_data}\index{ObjCryst::CIFData@{ObjCryst::CIFData}}
+
+
+{\ttfamily \#include $<$C\+I\+F.\+h$>$}
+
+\subsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+struct \mbox{\hyperlink{struct_obj_cryst_1_1_c_i_f_data_1_1_c_i_f_atom}{C\+I\+F\+Atom}}
+\begin{DoxyCompactList}\small\item\em \mbox{\hyperlink{class_obj_cryst_1_1_atom}{Atom}} record. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_obj_cryst_1_1_c_i_f_data_a406e1448ca864b4d679edde83c6351ab}{Extract\+All}} (const bool verbose=false)
+\item 
+void \mbox{\hyperlink{class_obj_cryst_1_1_c_i_f_data_a57e9ec3f37cfe8c272cc102280f08d66}{Extract\+Name}} (const bool verbose=false)
+\begin{DoxyCompactList}\small\item\em Extract name \& formula for the crystal. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_c_i_f_data_ab0ea11e45199961a3af2981a5ba335c5}\label{class_obj_cryst_1_1_c_i_f_data_ab0ea11e45199961a3af2981a5ba335c5}} 
+void \mbox{\hyperlink{class_obj_cryst_1_1_c_i_f_data_ab0ea11e45199961a3af2981a5ba335c5}{Extract\+Unit\+Cell}} (const bool verbose=false)
+\begin{DoxyCompactList}\small\item\em Extract unit cell. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_c_i_f_data_a9aa5afcbe90a074c4ace30ac5149526d}\label{class_obj_cryst_1_1_c_i_f_data_a9aa5afcbe90a074c4ace30ac5149526d}} 
+void \mbox{\hyperlink{class_obj_cryst_1_1_c_i_f_data_a9aa5afcbe90a074c4ace30ac5149526d}{Extract\+Spacegroup}} (const bool verbose=false)
+\begin{DoxyCompactList}\small\item\em Extract spacegroup number or symbol. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_obj_cryst_1_1_c_i_f_data_ada558a6f28454cae868aef9710a785d7}{Extract\+Atomic\+Positions}} (const bool verbose=false)
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_c_i_f_data_aeb07f0818672475c6ef2732e1254fd5a}\label{class_obj_cryst_1_1_c_i_f_data_aeb07f0818672475c6ef2732e1254fd5a}} 
+void \mbox{\hyperlink{class_obj_cryst_1_1_c_i_f_data_aeb07f0818672475c6ef2732e1254fd5a}{Extract\+Anisotropic\+A\+D\+Ps}} (const bool verbose=false)
+\begin{DoxyCompactList}\small\item\em Extract anisotropic atomic displacement parameters. Isotropic A\+D\+Ps. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_obj_cryst_1_1_c_i_f_data_a10ae5869370e46547334730a1daabe5e}{Extract\+Powder\+Pattern}} (const bool verbose=false)
+\item 
+void \mbox{\hyperlink{class_obj_cryst_1_1_c_i_f_data_aafcf8bbd95432172cca533d4a713729e}{Extract\+Single\+Crystal\+Data}} (const bool verbose=false)
+\begin{DoxyCompactList}\small\item\em Extract single crystal data, with Iobs, sigma(\+Iobs) and h,k,l. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_obj_cryst_1_1_c_i_f_data_abe437ee4b2bbda8bf7a2861f9207a8ee}{Cartesian2\+Fractional\+Coord}} ()
+\item 
+void \mbox{\hyperlink{class_obj_cryst_1_1_c_i_f_data_a8217fa94ba5f6291b566d43123162d9c}{Fractional2\+Cartesian\+Coord}} ()
+\item 
+void \mbox{\hyperlink{class_obj_cryst_1_1_c_i_f_data_ab90f52bca82121f6ddc5efdddf5ac7bc}{f2c}} (R\+E\+AL \&x, R\+E\+AL \&y, R\+E\+AL \&z)
+\item 
+void \mbox{\hyperlink{class_obj_cryst_1_1_c_i_f_data_a8b83f52c41137c83fdfd6c75d9d83888}{c2f}} (R\+E\+AL \&x, R\+E\+AL \&y, R\+E\+AL \&z)
+\item 
+void \mbox{\hyperlink{class_obj_cryst_1_1_c_i_f_data_a51e099b2881e73eb776855177aed4ca9}{Calc\+Matrices}} (const bool verbose=false)
+\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_c_i_f_data_a9408fb91caf78518c74b0de53a7c4d38}\label{class_obj_cryst_1_1_c_i_f_data_a9408fb91caf78518c74b0de53a7c4d38}} 
+std\+::list$<$ std\+::string $>$ \mbox{\hyperlink{class_obj_cryst_1_1_c_i_f_data_a9408fb91caf78518c74b0de53a7c4d38}{mv\+Comment}}
+\begin{DoxyCompactList}\small\item\em Comments from \mbox{\hyperlink{class_obj_cryst_1_1_c_i_f}{C\+IF}} file, in the order they were read. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_c_i_f_data_a50f7e91571f28b3a3a66675a564496a6}\label{class_obj_cryst_1_1_c_i_f_data_a50f7e91571f28b3a3a66675a564496a6}} 
+std\+::map$<$ ci\+\_\+string, std\+::string $>$ \mbox{\hyperlink{class_obj_cryst_1_1_c_i_f_data_a50f7e91571f28b3a3a66675a564496a6}{mv\+Item}}
+\begin{DoxyCompactList}\small\item\em Individual \mbox{\hyperlink{class_obj_cryst_1_1_c_i_f}{C\+IF}} items. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_c_i_f_data_aebd5e242b7771f184f29647527fcab5a}\label{class_obj_cryst_1_1_c_i_f_data_aebd5e242b7771f184f29647527fcab5a}} 
+std\+::map$<$ std\+::set$<$ ci\+\_\+string $>$, std\+::map$<$ ci\+\_\+string, std\+::vector$<$ std\+::string $>$ $>$ $>$ \mbox{\hyperlink{class_obj_cryst_1_1_c_i_f_data_aebd5e242b7771f184f29647527fcab5a}{mv\+Loop}}
+\begin{DoxyCompactList}\small\item\em \mbox{\hyperlink{class_obj_cryst_1_1_c_i_f}{C\+IF}} Loop data. \end{DoxyCompactList}\item 
+std\+::vector$<$ R\+E\+AL $>$ \mbox{\hyperlink{class_obj_cryst_1_1_c_i_f_data_abefa76784381b2b13a9e1ec4abaa7944}{mv\+Lattice\+Par}}
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_c_i_f_data_a3ee9d402a5d06f95e06851d9975aa079}\label{class_obj_cryst_1_1_c_i_f_data_a3ee9d402a5d06f95e06851d9975aa079}} 
+std\+::string \mbox{\hyperlink{class_obj_cryst_1_1_c_i_f_data_a3ee9d402a5d06f95e06851d9975aa079}{m\+Spacegroup\+Number\+IT}}
+\begin{DoxyCompactList}\small\item\em Spacegroup number from International Tables (\+\_\+space\+\_\+group\+\_\+\+I\+T\+\_\+number), or -\/1. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_c_i_f_data_aa7e1eb93e694dc809a925e2abfb50700}\label{class_obj_cryst_1_1_c_i_f_data_aa7e1eb93e694dc809a925e2abfb50700}} 
+std\+::string \mbox{\hyperlink{class_obj_cryst_1_1_c_i_f_data_aa7e1eb93e694dc809a925e2abfb50700}{m\+Spacegroup\+Symbol\+Hall}}
+\begin{DoxyCompactList}\small\item\em Spacegroup Hall symbol (or empty string) (\+\_\+space\+\_\+group\+\_\+name\+\_\+\+Hall) \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_c_i_f_data_aa76770c71d42d48e8d6a83468acd341b}\label{class_obj_cryst_1_1_c_i_f_data_aa76770c71d42d48e8d6a83468acd341b}} 
+std\+::string \mbox{\hyperlink{class_obj_cryst_1_1_c_i_f_data_aa76770c71d42d48e8d6a83468acd341b}{m\+Spacegroup\+Hermann\+Mauguin}}
+\begin{DoxyCompactList}\small\item\em Spacegroup Hermann-\/\+Mauguin symbol (or empty string) (\+\_\+space\+\_\+group\+\_\+name\+\_\+\+H-\/\+M\+\_\+alt) \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_c_i_f_data_a2946588a8b6408e51393ac42f7a84193}\label{class_obj_cryst_1_1_c_i_f_data_a2946588a8b6408e51393ac42f7a84193}} 
+std\+::set$<$ string $>$ \mbox{\hyperlink{class_obj_cryst_1_1_c_i_f_data_a2946588a8b6408e51393ac42f7a84193}{mv\+Symmetry\+\_\+equiv\+\_\+pos\+\_\+as\+\_\+xyz}}
+\begin{DoxyCompactList}\small\item\em Map of \+\_\+symmetry\+\_\+equiv\+\_\+pos\+\_\+as\+\_\+xyz strings. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_c_i_f_data_a89e040b33c74bb6f95a5e5f34ff04117}\label{class_obj_cryst_1_1_c_i_f_data_a89e040b33c74bb6f95a5e5f34ff04117}} 
+std\+::string \mbox{\hyperlink{class_obj_cryst_1_1_c_i_f_data_a89e040b33c74bb6f95a5e5f34ff04117}{m\+Name}}
+\begin{DoxyCompactList}\small\item\em \mbox{\hyperlink{class_obj_cryst_1_1_crystal}{Crystal}} name. Or empty string if none is available. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_c_i_f_data_a128df79c59d0506958f49ae4ceab71f6}\label{class_obj_cryst_1_1_c_i_f_data_a128df79c59d0506958f49ae4ceab71f6}} 
+std\+::string \mbox{\hyperlink{class_obj_cryst_1_1_c_i_f_data_a128df79c59d0506958f49ae4ceab71f6}{m\+Formula}}
+\begin{DoxyCompactList}\small\item\em Formula. Or empty string if none is available. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_c_i_f_data_a7319626ead0beb560cdd5e2f6429692a}\label{class_obj_cryst_1_1_c_i_f_data_a7319626ead0beb560cdd5e2f6429692a}} 
+std\+::vector$<$ \mbox{\hyperlink{struct_obj_cryst_1_1_c_i_f_data_1_1_c_i_f_atom}{C\+I\+F\+Atom}} $>$ \mbox{\hyperlink{class_obj_cryst_1_1_c_i_f_data_a7319626ead0beb560cdd5e2f6429692a}{mv\+Atom}}
+\begin{DoxyCompactList}\small\item\em Atoms, if any are found. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_c_i_f_data_ab75a4932a2938e94b1c67c98e49a9868}\label{class_obj_cryst_1_1_c_i_f_data_ab75a4932a2938e94b1c67c98e49a9868}} 
+R\+E\+AL \mbox{\hyperlink{class_obj_cryst_1_1_c_i_f_data_ab75a4932a2938e94b1c67c98e49a9868}{m\+Orth\+Matrix}} \mbox{[}3\mbox{]}\mbox{[}3\mbox{]}
+\begin{DoxyCompactList}\small\item\em Fractionnal2\+Cartesian matrix. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_c_i_f_data_ab60c86af4b7ffa86f25cba46d9888d0e}\label{class_obj_cryst_1_1_c_i_f_data_ab60c86af4b7ffa86f25cba46d9888d0e}} 
+R\+E\+AL \mbox{\hyperlink{class_obj_cryst_1_1_c_i_f_data_ab60c86af4b7ffa86f25cba46d9888d0e}{m\+Orth\+Matrix\+Invert}} \mbox{[}3\mbox{]}\mbox{[}3\mbox{]}
+\begin{DoxyCompactList}\small\item\em Cartesian2\+Fractionnal matrix. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_c_i_f_data_aa49fc81a02613e9f46ced96d384db7d5}\label{class_obj_cryst_1_1_c_i_f_data_aa49fc81a02613e9f46ced96d384db7d5}} 
+std\+::vector$<$ R\+E\+AL $>$ \mbox{\hyperlink{class_obj_cryst_1_1_c_i_f_data_aa49fc81a02613e9f46ced96d384db7d5}{m\+Powder\+Pattern\+Obs}}
+\begin{DoxyCompactList}\small\item\em Powder pattern data. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_c_i_f_data_abc2e62051c30884128ed1d07f16bfe23}\label{class_obj_cryst_1_1_c_i_f_data_abc2e62051c30884128ed1d07f16bfe23}} 
+std\+::vector$<$ R\+E\+AL $>$ {\bfseries m\+Powder\+PatternX}
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_c_i_f_data_acc81b26ee5930be8db131148065f9fd6}\label{class_obj_cryst_1_1_c_i_f_data_acc81b26ee5930be8db131148065f9fd6}} 
+std\+::vector$<$ R\+E\+AL $>$ {\bfseries m\+Powder\+Pattern\+Sigma}
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_c_i_f_data_a49fa1a8ae167c7c96822fbae5d8af9e8}\label{class_obj_cryst_1_1_c_i_f_data_a49fa1a8ae167c7c96822fbae5d8af9e8}} 
+Cryst\+Vector\+\_\+long \mbox{\hyperlink{class_obj_cryst_1_1_c_i_f_data_a49fa1a8ae167c7c96822fbae5d8af9e8}{mH}}
+\begin{DoxyCompactList}\small\item\em Single crystal data. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_c_i_f_data_acd4fd8612a1b0c7a53d0b1b09ef56b71}\label{class_obj_cryst_1_1_c_i_f_data_acd4fd8612a1b0c7a53d0b1b09ef56b71}} 
+Cryst\+Vector\+\_\+long {\bfseries mK}
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_c_i_f_data_ad4adc3dc03d37e9a7ee0a224edb69929}\label{class_obj_cryst_1_1_c_i_f_data_ad4adc3dc03d37e9a7ee0a224edb69929}} 
+Cryst\+Vector\+\_\+long {\bfseries mL}
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_c_i_f_data_a1834128eaf7946e021a05461e3f37a7f}\label{class_obj_cryst_1_1_c_i_f_data_a1834128eaf7946e021a05461e3f37a7f}} 
+Cryst\+Vector\+\_\+\+R\+E\+AL \mbox{\hyperlink{class_obj_cryst_1_1_c_i_f_data_a1834128eaf7946e021a05461e3f37a7f}{m\+Iobs}}
+\begin{DoxyCompactList}\small\item\em Single crystal data. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_c_i_f_data_a4fd94532ba94bec1910dd1c3335c2fa6}\label{class_obj_cryst_1_1_c_i_f_data_a4fd94532ba94bec1910dd1c3335c2fa6}} 
+Cryst\+Vector\+\_\+\+R\+E\+AL {\bfseries m\+Sigma}
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_c_i_f_data_a0f9d41853a8805a2ef1730271d71f65f}\label{class_obj_cryst_1_1_c_i_f_data_a0f9d41853a8805a2ef1730271d71f65f}} 
+\mbox{\hyperlink{namespace_obj_cryst_a551a5807d5afe2d986758d9a6953a880}{Wavelength\+Type}} \mbox{\hyperlink{class_obj_cryst_1_1_c_i_f_data_a0f9d41853a8805a2ef1730271d71f65f}{m\+Data\+Type}}
+\begin{DoxyCompactList}\small\item\em Is this X-\/\+Ray 2theta, time-\/of-\/flight ? \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_c_i_f_data_a1e3b807b7f6ceb513ef8b602b2135cdd}\label{class_obj_cryst_1_1_c_i_f_data_a1e3b807b7f6ceb513ef8b602b2135cdd}} 
+R\+E\+AL \mbox{\hyperlink{class_obj_cryst_1_1_c_i_f_data_a1e3b807b7f6ceb513ef8b602b2135cdd}{m\+Wavelength}}
+\begin{DoxyCompactList}\small\item\em Wavelength. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+The \mbox{\hyperlink{class_obj_cryst_1_1_c_i_f_data}{C\+I\+F\+Data}} class holds all the information from a {\itshape single} data\+\_\+ block from a cif file.
+
+It is a placeholder for all comments, item and loop data, as raw strings copied from a cif file.
+
+It is also used to interpret this data to extract parts of the cif data, i.\+e. only part of the core cif dictionnary are recognized. \mbox{\hyperlink{class_obj_cryst_1_1_c_i_f}{C\+IF}} tags currently recognized include (\char`\"{}tag1 $>$ tag2\char`\"{} means tag1 is preferred to tag2 when extracting the info, only one is reported)\+:
+\begin{DoxyItemize}
+\item crystal name\+: {\itshape chemical\+\_\+name\+\_\+systematic $>$ \+\_\+chemical\+\_\+name\+\_\+mineral $>$ \+\_\+chemical\+\_\+name\+\_\+structure\+\_\+type $>$ \+\_\+chemical\+\_\+name\+\_\+common}
+\item {\itshape crystal formula\+: \+\_\+chemical\+\_\+formula\+\_\+analytical $>$ \+\_\+chemical\+\_\+formula\+\_\+structural $>$ \+\_\+chemical\+\_\+formula\+\_\+iupac $>$ \+\_\+chemical\+\_\+formula\+\_\+moiety}
+\item {\itshape unit cell\+: \+\_\+cell\+\_\+length}\{a,b,c\} ; {\itshape cell\+\_\+angle}\{alpha,beta,gamma\}
+\item spacegroup number\+: {\itshape space\+\_\+group\+\_\+\+I\+T\+\_\+number $>$ \+\_\+symmetry\+\_\+\+Int\+\_\+\+Tables\+\_\+number}
+\item {\itshape spacegroup Hall symbol\+: \+\_\+space\+\_\+group\+\_\+name\+\_\+\+Hall $>$ \+\_\+symmetry\+\_\+space\+\_\+group\+\_\+name\+\_\+\+Hall}
+\item {\itshape spacegroup Hermann-\/\+Mauguin symbol\+:\+\_\+space\+\_\+group\+\_\+name\+\_\+\+H-\/\+M\+\_\+alt $>$ \+\_\+symmetry\+\_\+space\+\_\+group\+\_\+name\+\_\+\+H-\/M}
+\item {\itshape atom coordinates\+: \+\_\+atom\+\_\+site\+\_\+fract}\{x\} ; {\itshape atom\+\_\+site\+\_\+\+Cartn}\{x,y,z\}
+\item atom occupancy\+: {\itshape atom\+\_\+site\+\_\+occupancy}
+\item {\itshape atom label \& symbol\+: \+\_\+atom\+\_\+site\+\_\+type\+\_\+symbol ; \+\_\+atom\+\_\+site\+\_\+label}
+\item {\itshape atom adps\+: \+\_\+atom\+\_\+site\+\_\+aniso}\{U,B\}\+\_\+\{11,22,33,12,13,23\} $>$ {\itshape atom\+\_\+site}\{U,B\}\+\_\+iso\+\_\+or\+\_\+equiv
+\end{DoxyItemize}
+
+Cartesian coordinates are stored in Angstroems, angles in radians.
+
+To import \mbox{\hyperlink{class_obj_cryst_1_1_powder_pattern}{Powder\+Pattern}} data, the following tags are used\+:
+\begin{DoxyItemize}
+\item observed intensity\+: {\itshape pd\+\_\+meas\+\_\+counts\+\_\+total $>$ \+\_\+pd\+\_\+meas\+\_\+intensity\+\_\+total $>$ \+\_\+pd\+\_\+proc\+\_\+intensity\+\_\+total $>$ \+\_\+pd\+\_\+proc\+\_\+intensity\+\_\+net}
+\item {\itshape uncertainty on intensity\+: deducted from \+\_\+pd\+\_\+proc\+\_\+ls\+\_\+weight or square root of intensity}
+\item {\itshape coordinates\+: \+\_\+pd\+\_\+proc\+\_\+2theta\+\_\+corrected $>$ \+\_\+pd\+\_\+meas\+\_\+angle\+\_\+2theta $>$ \+\_\+pd\+\_\+meas\+\_\+time\+\_\+of\+\_\+flight $>$ \+\_\+pd\+\_\+proc\+\_\+2theta\+\_\+range}\{min,max,inc\}
+\item intensity normalizer (optional)\+: \+\_\+pd\+\_\+meas\+\_\+intensity\+\_\+monitor $>$ \+\_\+pd\+\_\+meas\+\_\+step\+\_\+count\+\_\+time
+\end{DoxyItemize}
+
+If another data field is needed, it is possible to directly access the string data (\mbox{\hyperlink{class_obj_cryst_1_1_c_i_f_data_a9408fb91caf78518c74b0de53a7c4d38}{C\+I\+F\+Data\+::mv\+Comment}} , \mbox{\hyperlink{class_obj_cryst_1_1_c_i_f_data_a50f7e91571f28b3a3a66675a564496a6}{C\+I\+F\+Data\+::mv\+Item}} and \mbox{\hyperlink{class_obj_cryst_1_1_c_i_f_data_aebd5e242b7771f184f29647527fcab5a}{C\+I\+F\+Data\+::mv\+Loop}}) to search for the correct tags. 
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{class_obj_cryst_1_1_c_i_f_data_a8b83f52c41137c83fdfd6c75d9d83888}\label{class_obj_cryst_1_1_c_i_f_data_a8b83f52c41137c83fdfd6c75d9d83888}} 
+\index{ObjCryst::CIFData@{ObjCryst::CIFData}!c2f@{c2f}}
+\index{c2f@{c2f}!ObjCryst::CIFData@{ObjCryst::CIFData}}
+\subsubsection{\texorpdfstring{c2f()}{c2f()}}
+{\footnotesize\ttfamily void Obj\+Cryst\+::\+C\+I\+F\+Data\+::c2f (\begin{DoxyParamCaption}\item[{R\+E\+AL \&}]{x,  }\item[{R\+E\+AL \&}]{y,  }\item[{R\+E\+AL \&}]{z }\end{DoxyParamCaption})}
+
+Convert from cartesia to fractional coordinates \mbox{\hyperlink{class_obj_cryst_1_1_c_i_f_data_a51e099b2881e73eb776855177aed4ca9}{C\+I\+F\+Data\+::\+Calc\+Matrices()}} must be called first Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_obj_cryst_1_1_c_i_f_data_a8b83f52c41137c83fdfd6c75d9d83888_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_obj_cryst_1_1_c_i_f_data_a51e099b2881e73eb776855177aed4ca9}\label{class_obj_cryst_1_1_c_i_f_data_a51e099b2881e73eb776855177aed4ca9}} 
+\index{ObjCryst::CIFData@{ObjCryst::CIFData}!CalcMatrices@{CalcMatrices}}
+\index{CalcMatrices@{CalcMatrices}!ObjCryst::CIFData@{ObjCryst::CIFData}}
+\subsubsection{\texorpdfstring{CalcMatrices()}{CalcMatrices()}}
+{\footnotesize\ttfamily void Obj\+Cryst\+::\+C\+I\+F\+Data\+::\+Calc\+Matrices (\begin{DoxyParamCaption}\item[{const bool}]{verbose = {\ttfamily false} }\end{DoxyParamCaption})}
+
+Calculate real space transformation matrices requires unit cell parameters Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_obj_cryst_1_1_c_i_f_data_a51e099b2881e73eb776855177aed4ca9_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_obj_cryst_1_1_c_i_f_data_abe437ee4b2bbda8bf7a2861f9207a8ee}\label{class_obj_cryst_1_1_c_i_f_data_abe437ee4b2bbda8bf7a2861f9207a8ee}} 
+\index{ObjCryst::CIFData@{ObjCryst::CIFData}!Cartesian2FractionalCoord@{Cartesian2FractionalCoord}}
+\index{Cartesian2FractionalCoord@{Cartesian2FractionalCoord}!ObjCryst::CIFData@{ObjCryst::CIFData}}
+\subsubsection{\texorpdfstring{Cartesian2FractionalCoord()}{Cartesian2FractionalCoord()}}
+{\footnotesize\ttfamily void Obj\+Cryst\+::\+C\+I\+F\+Data\+::\+Cartesian2\+Fractional\+Coord (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Generate fractional coordinates from cartesian ones for all atoms \mbox{\hyperlink{class_obj_cryst_1_1_c_i_f_data_a51e099b2881e73eb776855177aed4ca9}{C\+I\+F\+Data\+::\+Calc\+Matrices()}} must be called first Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_obj_cryst_1_1_c_i_f_data_abe437ee4b2bbda8bf7a2861f9207a8ee_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_obj_cryst_1_1_c_i_f_data_abe437ee4b2bbda8bf7a2861f9207a8ee_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_obj_cryst_1_1_c_i_f_data_a406e1448ca864b4d679edde83c6351ab}\label{class_obj_cryst_1_1_c_i_f_data_a406e1448ca864b4d679edde83c6351ab}} 
+\index{ObjCryst::CIFData@{ObjCryst::CIFData}!ExtractAll@{ExtractAll}}
+\index{ExtractAll@{ExtractAll}!ObjCryst::CIFData@{ObjCryst::CIFData}}
+\subsubsection{\texorpdfstring{ExtractAll()}{ExtractAll()}}
+{\footnotesize\ttfamily void Obj\+Cryst\+::\+C\+I\+F\+Data\+::\+Extract\+All (\begin{DoxyParamCaption}\item[{const bool}]{verbose = {\ttfamily false} }\end{DoxyParamCaption})}
+
+Extract lattice parameters, spacegroup (symbol or number), atomic positions, chemical name and formula if available. All other data is ignored Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_obj_cryst_1_1_c_i_f_data_a406e1448ca864b4d679edde83c6351ab_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_obj_cryst_1_1_c_i_f_data_ada558a6f28454cae868aef9710a785d7}\label{class_obj_cryst_1_1_c_i_f_data_ada558a6f28454cae868aef9710a785d7}} 
+\index{ObjCryst::CIFData@{ObjCryst::CIFData}!ExtractAtomicPositions@{ExtractAtomicPositions}}
+\index{ExtractAtomicPositions@{ExtractAtomicPositions}!ObjCryst::CIFData@{ObjCryst::CIFData}}
+\subsubsection{\texorpdfstring{ExtractAtomicPositions()}{ExtractAtomicPositions()}}
+{\footnotesize\ttfamily void Obj\+Cryst\+::\+C\+I\+F\+Data\+::\+Extract\+Atomic\+Positions (\begin{DoxyParamCaption}\item[{const bool}]{verbose = {\ttfamily false} }\end{DoxyParamCaption})}
+
+Extract all atomic positions. Will generate cartesian from fractional coordinates or vice-\/versa if only cartesian coordinates are available. Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_obj_cryst_1_1_c_i_f_data_ada558a6f28454cae868aef9710a785d7_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=337pt]{class_obj_cryst_1_1_c_i_f_data_ada558a6f28454cae868aef9710a785d7_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_obj_cryst_1_1_c_i_f_data_a57e9ec3f37cfe8c272cc102280f08d66}\label{class_obj_cryst_1_1_c_i_f_data_a57e9ec3f37cfe8c272cc102280f08d66}} 
+\index{ObjCryst::CIFData@{ObjCryst::CIFData}!ExtractName@{ExtractName}}
+\index{ExtractName@{ExtractName}!ObjCryst::CIFData@{ObjCryst::CIFData}}
+\subsubsection{\texorpdfstring{ExtractName()}{ExtractName()}}
+{\footnotesize\ttfamily void Obj\+Cryst\+::\+C\+I\+F\+Data\+::\+Extract\+Name (\begin{DoxyParamCaption}\item[{const bool}]{verbose = {\ttfamily false} }\end{DoxyParamCaption})}
+
+
+
+Extract name \& formula for the crystal. 
+
+\mbox{\hyperlink{class_obj_cryst_1_1_crystal}{Crystal}} formula Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=322pt]{class_obj_cryst_1_1_c_i_f_data_a57e9ec3f37cfe8c272cc102280f08d66_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_obj_cryst_1_1_c_i_f_data_a10ae5869370e46547334730a1daabe5e}\label{class_obj_cryst_1_1_c_i_f_data_a10ae5869370e46547334730a1daabe5e}} 
+\index{ObjCryst::CIFData@{ObjCryst::CIFData}!ExtractPowderPattern@{ExtractPowderPattern}}
+\index{ExtractPowderPattern@{ExtractPowderPattern}!ObjCryst::CIFData@{ObjCryst::CIFData}}
+\subsubsection{\texorpdfstring{ExtractPowderPattern()}{ExtractPowderPattern()}}
+{\footnotesize\ttfamily void Obj\+Cryst\+::\+C\+I\+F\+Data\+::\+Extract\+Powder\+Pattern (\begin{DoxyParamCaption}\item[{const bool}]{verbose = {\ttfamily false} }\end{DoxyParamCaption})}
+
+Extract Powder Diffraction data, with Iobs, sigma(\+Iobs) and either 2theta or time-\/of-\/flight position. Now find the data Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=333pt]{class_obj_cryst_1_1_c_i_f_data_a10ae5869370e46547334730a1daabe5e_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_obj_cryst_1_1_c_i_f_data_aafcf8bbd95432172cca533d4a713729e}\label{class_obj_cryst_1_1_c_i_f_data_aafcf8bbd95432172cca533d4a713729e}} 
+\index{ObjCryst::CIFData@{ObjCryst::CIFData}!ExtractSingleCrystalData@{ExtractSingleCrystalData}}
+\index{ExtractSingleCrystalData@{ExtractSingleCrystalData}!ObjCryst::CIFData@{ObjCryst::CIFData}}
+\subsubsection{\texorpdfstring{ExtractSingleCrystalData()}{ExtractSingleCrystalData()}}
+{\footnotesize\ttfamily void Obj\+Cryst\+::\+C\+I\+F\+Data\+::\+Extract\+Single\+Crystal\+Data (\begin{DoxyParamCaption}\item[{const bool}]{verbose = {\ttfamily false} }\end{DoxyParamCaption})}
+
+
+
+Extract single crystal data, with Iobs, sigma(\+Iobs) and h,k,l. 
+
+Now find the data Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=346pt]{class_obj_cryst_1_1_c_i_f_data_aafcf8bbd95432172cca533d4a713729e_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_obj_cryst_1_1_c_i_f_data_ab90f52bca82121f6ddc5efdddf5ac7bc}\label{class_obj_cryst_1_1_c_i_f_data_ab90f52bca82121f6ddc5efdddf5ac7bc}} 
+\index{ObjCryst::CIFData@{ObjCryst::CIFData}!f2c@{f2c}}
+\index{f2c@{f2c}!ObjCryst::CIFData@{ObjCryst::CIFData}}
+\subsubsection{\texorpdfstring{f2c()}{f2c()}}
+{\footnotesize\ttfamily void Obj\+Cryst\+::\+C\+I\+F\+Data\+::f2c (\begin{DoxyParamCaption}\item[{R\+E\+AL \&}]{x,  }\item[{R\+E\+AL \&}]{y,  }\item[{R\+E\+AL \&}]{z }\end{DoxyParamCaption})}
+
+Convert from fractional to cartesian coordinates \mbox{\hyperlink{class_obj_cryst_1_1_c_i_f_data_a51e099b2881e73eb776855177aed4ca9}{C\+I\+F\+Data\+::\+Calc\+Matrices()}} must be called first Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_obj_cryst_1_1_c_i_f_data_ab90f52bca82121f6ddc5efdddf5ac7bc_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_obj_cryst_1_1_c_i_f_data_a8217fa94ba5f6291b566d43123162d9c}\label{class_obj_cryst_1_1_c_i_f_data_a8217fa94ba5f6291b566d43123162d9c}} 
+\index{ObjCryst::CIFData@{ObjCryst::CIFData}!Fractional2CartesianCoord@{Fractional2CartesianCoord}}
+\index{Fractional2CartesianCoord@{Fractional2CartesianCoord}!ObjCryst::CIFData@{ObjCryst::CIFData}}
+\subsubsection{\texorpdfstring{Fractional2CartesianCoord()}{Fractional2CartesianCoord()}}
+{\footnotesize\ttfamily void Obj\+Cryst\+::\+C\+I\+F\+Data\+::\+Fractional2\+Cartesian\+Coord (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Generate cartesian coordinates from fractional ones for all atoms \mbox{\hyperlink{class_obj_cryst_1_1_c_i_f_data_a51e099b2881e73eb776855177aed4ca9}{C\+I\+F\+Data\+::\+Calc\+Matrices()}} must be called first Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_obj_cryst_1_1_c_i_f_data_a8217fa94ba5f6291b566d43123162d9c_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_obj_cryst_1_1_c_i_f_data_a8217fa94ba5f6291b566d43123162d9c_icgraph}
+\end{center}
+\end{figure}
+
+
+\subsection{Member Data Documentation}
+\mbox{\Hypertarget{class_obj_cryst_1_1_c_i_f_data_abefa76784381b2b13a9e1ec4abaa7944}\label{class_obj_cryst_1_1_c_i_f_data_abefa76784381b2b13a9e1ec4abaa7944}} 
+\index{ObjCryst::CIFData@{ObjCryst::CIFData}!mvLatticePar@{mvLatticePar}}
+\index{mvLatticePar@{mvLatticePar}!ObjCryst::CIFData@{ObjCryst::CIFData}}
+\subsubsection{\texorpdfstring{mvLatticePar}{mvLatticePar}}
+{\footnotesize\ttfamily std\+::vector$<$R\+E\+AL$>$ Obj\+Cryst\+::\+C\+I\+F\+Data\+::mv\+Lattice\+Par}
+
+Lattice parameters, in ansgtroem and degrees -\/ vector size is 0 if no parameters have been obtained yet. 
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+C\+I\+F.\+h\item 
+C\+I\+F.\+cpp\end{DoxyCompactItemize}

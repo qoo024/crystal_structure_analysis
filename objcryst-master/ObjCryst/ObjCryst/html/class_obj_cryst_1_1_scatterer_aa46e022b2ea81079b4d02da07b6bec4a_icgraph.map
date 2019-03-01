@@ -1,0 +1,15 @@
+<map id="ObjCryst::Scatterer::GetX" name="ObjCryst::Scatterer::GetX">
+<area shape="rect" id="node1" title=" " alt="" coords="654,84,789,123"/>
+<area shape="rect" id="node2" href="$class_obj_cryst_1_1_atom.html#a8cf5b61d0df0bf2e55d6c44f67c06da0" title="Print some info about the scatterer (ideally this should be one line...)." alt="" coords="460,5,606,31"/>
+<area shape="rect" id="node3" href="$class_obj_cryst_1_1_z_scatterer.html#aa371bd36d61fe7200753cd3a3e1076c8" title="Copy constructor." alt="" coords="462,55,604,93"/>
+<area shape="rect" id="node4" href="$class_obj_cryst_1_1_z_scatterer.html#abfce23ff84b572acf371cb9dc8cdb09f" title=" " alt="" coords="32,297,179,336"/>
+<area shape="rect" id="node5" href="$class_obj_cryst_1_1_z_scatterer.html#ab6afaab6104211bbca7722033e17a128" title=" " alt="" coords="461,325,605,364"/>
+<area shape="rect" id="node6" href="$class_obj_cryst_1_1_z_scatterer.html#a10481ea0bd711b3097b8cc931fce7eee" title="Get the X fractionnal coordinate of atom i." alt="" coords="261,169,404,208"/>
+<area shape="rect" id="node7" href="$class_obj_cryst_1_1_z_scatterer.html#a8b2384b8c75dd7078b134553a5694101" title="Get the Y fractionnal coordinate of atom i." alt="" coords="261,232,404,271"/>
+<area shape="rect" id="node8" href="$class_obj_cryst_1_1_z_scatterer.html#a4597d7ae7aa099821df9981a19b2763a" title="Get the Z fractionnal coordinate of atom i." alt="" coords="261,295,404,333"/>
+<area shape="rect" id="node9" href="$class_obj_cryst_1_1_z_scatterer.html#a6d7eeb015d3771ee0be1aa1fdd64de90" title="Get the list of all ZAtom cartesian x coordinates." alt="" coords="261,357,404,396"/>
+<area shape="rect" id="node10" href="$class_obj_cryst_1_1_z_scatterer.html#ab73089c2ffb605b3afcf01b0badd9d2a" title="Get the list of all ZAtom cartesian x coordinates." alt="" coords="261,420,404,459"/>
+<area shape="rect" id="node11" href="$class_obj_cryst_1_1_z_scatterer.html#a9daf54a58413751c7d749edfb1a1dd38" title="Get the list of all ZAtom cartesian x coordinates." alt="" coords="261,483,404,521"/>
+<area shape="rect" id="node12" href="$class_obj_cryst_1_1_z_scatterer.html#acec423f3f42ba0b1c173d8bc9fe96279" title=" " alt="" coords="253,545,412,584"/>
+<area shape="rect" id="node13" href="$class_obj_cryst_1_1_z_scatterer.html#afebe0638df5f8f8cd3db05f69ed41a21" title="Get the list of all scattering components for this scatterer." alt="" coords="5,545,205,584"/>
+</map>

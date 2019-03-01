@@ -1,0 +1,11 @@
+<map id="ObjCryst::RefinableObj::RestoreParamSet" name="ObjCryst::RefinableObj::RestoreParamSet">
+<area shape="rect" id="node1" title="Restore a saved set of values." alt="" coords="5,131,163,169"/>
+<area shape="rect" id="node2" href="$class_obj_cryst_1_1_refinable_obj.html#af2042b90302e42e6eec83ba7024df89a" title="Find a parameter set with a given id (and check if it is there)" alt="" coords="211,5,369,44"/>
+<area shape="rect" id="node4" href="$class_obj_cryst_1_1_refinable_obj.html#a3a45838e4463a17f1d32a892dc48c1dd" title=" " alt="" coords="211,68,369,107"/>
+<area shape="rect" id="node5" href="$class_obj_cryst_1_1_refinable_obj.html#a20def1b7c2106df61d4a119b3519e4a4" title="Access all parameters in the order they were inputted." alt="" coords="211,131,369,169"/>
+<area shape="rect" id="node6" href="$class_obj_cryst_1_1_refinable_par.html#aadb7b77e5214d742a2ee21c33a8190c2" title="Is the parameter used (if not, it is simply irrelevant in the model) ?" alt="" coords="211,193,369,232"/>
+<area shape="rect" id="node7" href="$class_obj_cryst_1_1_refinable_par.html#a55a87d842fc046b2f4b3c03c92e53052" title=" " alt="" coords="211,256,369,295"/>
+<area shape="rect" id="node3" href="$class_obj_cryst_1_1_refinable_obj.html#a2d881bf3abcb527cf96142e51226e449" title="Name of the object." alt="" coords="417,5,574,44"/>
+<area shape="rect" id="node8" href="$class_obj_cryst_1_1_refinable_par.html#ab29c440d745f91d1c89bf817169e42db" title="Get the maximum value allowed (if limited)" alt="" coords="417,224,574,263"/>
+<area shape="rect" id="node9" href="$class_obj_cryst_1_1_refinable_par.html#a36eec5c431fa6ebcc2adf95454ba3c58" title="Minimum value allowed (if limited or periodic)" alt="" coords="417,287,574,325"/>
+</map>

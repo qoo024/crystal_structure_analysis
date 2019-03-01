@@ -1,0 +1,828 @@
+\hypertarget{class_obj_cryst_1_1_scattering_data}{}\section{Obj\+Cryst\+::Scattering\+Data Class Reference}
+\label{class_obj_cryst_1_1_scattering_data}\index{ObjCryst::ScatteringData@{ObjCryst::ScatteringData}}
+
+
+Class to compute structure factors for a set of reflections and a \mbox{\hyperlink{class_obj_cryst_1_1_crystal}{Crystal}}.  
+
+
+
+
+{\ttfamily \#include $<$Scattering\+Data.\+h$>$}
+
+
+
+Inheritance diagram for Obj\+Cryst\+::Scattering\+Data\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_obj_cryst_1_1_scattering_data__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Obj\+Cryst\+::Scattering\+Data\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=251pt]{class_obj_cryst_1_1_scattering_data__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_scattering_data_a903a77bd764277db294220be8c560fbf}\label{class_obj_cryst_1_1_scattering_data_a903a77bd764277db294220be8c560fbf}} 
+{\bfseries Scattering\+Data} (const \mbox{\hyperlink{class_obj_cryst_1_1_scattering_data}{Scattering\+Data}} \&old)
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_scattering_data_a9356e72bc7a48184692100d0d1ee8ea1}\label{class_obj_cryst_1_1_scattering_data_a9356e72bc7a48184692100d0d1ee8ea1}} 
+virtual \mbox{\hyperlink{class_obj_cryst_1_1_scattering_data}{Scattering\+Data}} $\ast$ \mbox{\hyperlink{class_obj_cryst_1_1_scattering_data_a9356e72bc7a48184692100d0d1ee8ea1}{Create\+Copy}} () const =0
+\begin{DoxyCompactList}\small\item\em So-\/called virtual copy constructor. \end{DoxyCompactList}\item 
+virtual void \mbox{\hyperlink{class_obj_cryst_1_1_scattering_data_a0520a10b24b0e4f05ba5cee4f3e29c92}{Set\+H\+KL}} (const Cryst\+Vector\+\_\+\+R\+E\+AL \&h, const Cryst\+Vector\+\_\+\+R\+E\+AL \&k, const Cryst\+Vector\+\_\+\+R\+E\+AL \&l)
+\begin{DoxyCompactList}\small\item\em input H,K,L \end{DoxyCompactList}\item 
+virtual void \mbox{\hyperlink{class_obj_cryst_1_1_scattering_data_a63f682dfda2e03f2ab00826c5e116033}{Gen\+H\+K\+L\+Full\+Space2}} (const R\+E\+AL maxsithsl, const bool unique=false)
+\begin{DoxyCompactList}\small\item\em Generate a list of h,k,l to describe a full reciprocal space, up to a given maximum theta value. \end{DoxyCompactList}\item 
+virtual void \mbox{\hyperlink{class_obj_cryst_1_1_scattering_data_a3d15ed5e447e6b2ff6fd8fdaad43a37d}{Gen\+H\+K\+L\+Full\+Space}} (const R\+E\+AL max\+Theta, const bool unique=false)
+\begin{DoxyCompactList}\small\item\em Generate a list of h,k,l to describe a full reciprocal space, up to a given maximum theta value. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_scattering_data_a78f6547a44470466f1b48cdfe9f9325d}\label{class_obj_cryst_1_1_scattering_data_a78f6547a44470466f1b48cdfe9f9325d}} 
+\mbox{\hyperlink{namespace_obj_cryst_a48fe50a094c607f8897378934d3d73ef}{Radiation\+Type}} \mbox{\hyperlink{class_obj_cryst_1_1_scattering_data_a78f6547a44470466f1b48cdfe9f9325d}{Get\+Radiation\+Type}} () const
+\begin{DoxyCompactList}\small\item\em Neutron or x-\/ray experiment ? Wavelength ? \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_scattering_data_a14deaa47d5b79d12369ed5d8d4afbfbe}\label{class_obj_cryst_1_1_scattering_data_a14deaa47d5b79d12369ed5d8d4afbfbe}} 
+virtual const \mbox{\hyperlink{class_obj_cryst_1_1_radiation}{Radiation}} \& \mbox{\hyperlink{class_obj_cryst_1_1_scattering_data_a14deaa47d5b79d12369ed5d8d4afbfbe}{Get\+Radiation}} () const =0
+\begin{DoxyCompactList}\small\item\em Get the radiation object for this data. \end{DoxyCompactList}\item 
+virtual void \mbox{\hyperlink{class_obj_cryst_1_1_scattering_data_a590a553dbea1970266a864256ebf94f3}{Set\+Crystal}} (\mbox{\hyperlink{class_obj_cryst_1_1_crystal}{Crystal}} \&crystal)
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_scattering_data_af36fabc6841d45d4be8a3c3e7fd4d1ff}\label{class_obj_cryst_1_1_scattering_data_af36fabc6841d45d4be8a3c3e7fd4d1ff}} 
+const \mbox{\hyperlink{class_obj_cryst_1_1_crystal}{Crystal}} \& \mbox{\hyperlink{class_obj_cryst_1_1_scattering_data_af36fabc6841d45d4be8a3c3e7fd4d1ff}{Get\+Crystal}} () const
+\begin{DoxyCompactList}\small\item\em Const access to the data\textquotesingle{}s crystal. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_scattering_data_a82ce63a7a3f4681f75a75753870f15a6}\label{class_obj_cryst_1_1_scattering_data_a82ce63a7a3f4681f75a75753870f15a6}} 
+\mbox{\hyperlink{class_obj_cryst_1_1_crystal}{Crystal}} \& \mbox{\hyperlink{class_obj_cryst_1_1_scattering_data_a82ce63a7a3f4681f75a75753870f15a6}{Get\+Crystal}} ()
+\begin{DoxyCompactList}\small\item\em Access to the data\textquotesingle{}s crystal. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_scattering_data_a8002a6aa68156df44e23bc3cc424fbda}\label{class_obj_cryst_1_1_scattering_data_a8002a6aa68156df44e23bc3cc424fbda}} 
+bool \mbox{\hyperlink{class_obj_cryst_1_1_scattering_data_a8002a6aa68156df44e23bc3cc424fbda}{Has\+Crystal}} () const
+\begin{DoxyCompactList}\small\item\em Has a \mbox{\hyperlink{class_obj_cryst_1_1_crystal}{Crystal}} structure associated yet ? \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_scattering_data_aec92465bb5615b797a1e17a796235840}\label{class_obj_cryst_1_1_scattering_data_aec92465bb5615b797a1e17a796235840}} 
+long \mbox{\hyperlink{class_obj_cryst_1_1_scattering_data_aec92465bb5615b797a1e17a796235840}{Get\+Nb\+Refl}} () const
+\begin{DoxyCompactList}\small\item\em Return the number of reflections in this experiment. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_scattering_data_a6f112d90257266103774cdcdecd3e31a}\label{class_obj_cryst_1_1_scattering_data_a6f112d90257266103774cdcdecd3e31a}} 
+const Cryst\+Vector\+\_\+\+R\+E\+AL \& \mbox{\hyperlink{class_obj_cryst_1_1_scattering_data_a6f112d90257266103774cdcdecd3e31a}{GetH}} () const
+\begin{DoxyCompactList}\small\item\em Return the 1D array of H coordinates for all reflections. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_scattering_data_a364c421b607fcc17d8ff5b2522d87d04}\label{class_obj_cryst_1_1_scattering_data_a364c421b607fcc17d8ff5b2522d87d04}} 
+const Cryst\+Vector\+\_\+\+R\+E\+AL \& \mbox{\hyperlink{class_obj_cryst_1_1_scattering_data_a364c421b607fcc17d8ff5b2522d87d04}{GetK}} () const
+\begin{DoxyCompactList}\small\item\em Return the 1D array of K coordinates for all reflections. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_scattering_data_aa49d99de3d1475b3b845d459194cc277}\label{class_obj_cryst_1_1_scattering_data_aa49d99de3d1475b3b845d459194cc277}} 
+const Cryst\+Vector\+\_\+\+R\+E\+AL \& \mbox{\hyperlink{class_obj_cryst_1_1_scattering_data_aa49d99de3d1475b3b845d459194cc277}{GetL}} () const
+\begin{DoxyCompactList}\small\item\em Return the 1D array of L coordinates for all reflections. \end{DoxyCompactList}\item 
+const Cryst\+Vector\+\_\+\+R\+E\+AL \& \mbox{\hyperlink{class_obj_cryst_1_1_scattering_data_a22249caed3843cadff97963de59ff444}{Get\+H2\+Pi}} () const
+\item 
+const Cryst\+Vector\+\_\+\+R\+E\+AL \& \mbox{\hyperlink{class_obj_cryst_1_1_scattering_data_afa7ef198a6e1caeedcc52c2579685dfc}{Get\+K2\+Pi}} () const
+\item 
+const Cryst\+Vector\+\_\+\+R\+E\+AL \& \mbox{\hyperlink{class_obj_cryst_1_1_scattering_data_a4838871273f014329e9ef55ef088fde4}{Get\+L2\+Pi}} () const
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_scattering_data_a5e47cf11f5e2d03707ace6da78384b78}\label{class_obj_cryst_1_1_scattering_data_a5e47cf11f5e2d03707ace6da78384b78}} 
+const Cryst\+Vector\+\_\+\+R\+E\+AL \& \mbox{\hyperlink{class_obj_cryst_1_1_scattering_data_a5e47cf11f5e2d03707ace6da78384b78}{Get\+ReflX}} () const
+\begin{DoxyCompactList}\small\item\em Return the 1D array of orthonormal x coordinates for all reflections (recipr. space) \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_scattering_data_ae3b1bb233df72c31b7e5b4f6f6690d38}\label{class_obj_cryst_1_1_scattering_data_ae3b1bb233df72c31b7e5b4f6f6690d38}} 
+const Cryst\+Vector\+\_\+\+R\+E\+AL \& \mbox{\hyperlink{class_obj_cryst_1_1_scattering_data_ae3b1bb233df72c31b7e5b4f6f6690d38}{Get\+ReflY}} () const
+\begin{DoxyCompactList}\small\item\em Return the 1D array of orthonormal y coordinates for all reflections (recipr. space) \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_scattering_data_a56a76a1e2d7766e311bbc07e42439921}\label{class_obj_cryst_1_1_scattering_data_a56a76a1e2d7766e311bbc07e42439921}} 
+const Cryst\+Vector\+\_\+\+R\+E\+AL \& \mbox{\hyperlink{class_obj_cryst_1_1_scattering_data_a56a76a1e2d7766e311bbc07e42439921}{Get\+ReflZ}} () const
+\begin{DoxyCompactList}\small\item\em Return the 1D array of orthonormal z coordinates for all reflections (recipr. space) \end{DoxyCompactList}\item 
+const Cryst\+Vector\+\_\+\+R\+E\+AL \& \mbox{\hyperlink{class_obj_cryst_1_1_scattering_data_a27cf813d222bbc0b261f794051125219}{Get\+Sin\+Theta\+Over\+Lambda}} () const
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_scattering_data_a4c215cad9905503946a741afe9e9c8ad}\label{class_obj_cryst_1_1_scattering_data_a4c215cad9905503946a741afe9e9c8ad}} 
+const Cryst\+Vector\+\_\+\+R\+E\+AL \& \mbox{\hyperlink{class_obj_cryst_1_1_scattering_data_a4c215cad9905503946a741afe9e9c8ad}{Get\+Theta}} () const
+\begin{DoxyCompactList}\small\item\em Return an array with theta values for all reflections. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_scattering_data_a7e8045588ffcc88c38f98a6661a57e64}\label{class_obj_cryst_1_1_scattering_data_a7e8045588ffcc88c38f98a6661a57e64}} 
+const Refinable\+Obj\+Clock \& \mbox{\hyperlink{class_obj_cryst_1_1_scattering_data_a7e8045588ffcc88c38f98a6661a57e64}{Get\+Clock\+Theta}} () const
+\begin{DoxyCompactList}\small\item\em Clock the last time the sin(theta)/lambda and theta arrays were re-\/computed. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_scattering_data_a76b2f6c60a87bc63895985eac57b8f0b}\label{class_obj_cryst_1_1_scattering_data_a76b2f6c60a87bc63895985eac57b8f0b}} 
+const Cryst\+Vector\+\_\+\+R\+E\+AL \& \mbox{\hyperlink{class_obj_cryst_1_1_scattering_data_a76b2f6c60a87bc63895985eac57b8f0b}{Get\+Fhkl\+Calc\+Sq}} () const
+\begin{DoxyCompactList}\small\item\em Returns the Array of calculated $\vert$F(hkl)$\vert$$^\wedge$2 for all reflections. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_scattering_data_a14c786e7623469cf32bedfd0b1ebb637}\label{class_obj_cryst_1_1_scattering_data_a14c786e7623469cf32bedfd0b1ebb637}} 
+std\+::map$<$ Refinable\+Par $\ast$, Cryst\+Vector\+\_\+\+R\+E\+AL $>$ \& {\bfseries Get\+Fhkl\+Calc\+Sq\+\_\+\+Full\+Deriv} (std\+::set$<$ Refinable\+Par $\ast$ $>$ \&v\+Par)
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_scattering_data_af95450724f3e42f50cd0fc04cb8e1d2a}\label{class_obj_cryst_1_1_scattering_data_af95450724f3e42f50cd0fc04cb8e1d2a}} 
+const Cryst\+Vector\+\_\+\+R\+E\+AL \& \mbox{\hyperlink{class_obj_cryst_1_1_scattering_data_af95450724f3e42f50cd0fc04cb8e1d2a}{Get\+Fhkl\+Calc\+Real}} () const
+\begin{DoxyCompactList}\small\item\em Access to real part of F(hkl)calc. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_scattering_data_abaa9d939602278b94f19c9b592fb87c4}\label{class_obj_cryst_1_1_scattering_data_abaa9d939602278b94f19c9b592fb87c4}} 
+const Cryst\+Vector\+\_\+\+R\+E\+AL \& \mbox{\hyperlink{class_obj_cryst_1_1_scattering_data_abaa9d939602278b94f19c9b592fb87c4}{Get\+Fhkl\+Calc\+Imag}} () const
+\begin{DoxyCompactList}\small\item\em Access to imaginary part of F(hkl)calc. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_scattering_data_a7832da89c7d39214d8a187998b512ca7}\label{class_obj_cryst_1_1_scattering_data_a7832da89c7d39214d8a187998b512ca7}} 
+const Cryst\+Vector\+\_\+\+R\+E\+AL \& \mbox{\hyperlink{class_obj_cryst_1_1_scattering_data_a7832da89c7d39214d8a187998b512ca7}{Get\+Fhkl\+Obs\+Sq}} () const
+\begin{DoxyCompactList}\small\item\em Returns the vector of observed $\vert$F(hkl)$\vert$$^\wedge$2 for all reflections. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_obj_cryst_1_1_scattering_data_acfdcb6eb721579f7cfe270d36cd7e259}{Set\+Fhkl\+Obs\+Sq}} (const Cryst\+Vector\+\_\+\+R\+E\+AL \&obs)
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_scattering_data_a151fb8e51762d0b4d36f948b02351d0a}\label{class_obj_cryst_1_1_scattering_data_a151fb8e51762d0b4d36f948b02351d0a}} 
+const map$<$ const \mbox{\hyperlink{class_obj_cryst_1_1_scattering_power}{Scattering\+Power}} $\ast$, Cryst\+Vector\+\_\+\+R\+E\+AL $>$ \& \mbox{\hyperlink{class_obj_cryst_1_1_scattering_data_a151fb8e51762d0b4d36f948b02351d0a}{Get\+Scattering\+Factor}} () const
+\begin{DoxyCompactList}\small\item\em Scattering factors for each \mbox{\hyperlink{class_obj_cryst_1_1_scattering_power}{Scattering\+Power}}, as vectors with Nb\+Refl elements. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_scattering_data_a406028377b84d874a68b31489d876760}\label{class_obj_cryst_1_1_scattering_data_a406028377b84d874a68b31489d876760}} 
+Cryst\+Vector\+\_\+\+R\+E\+AL \mbox{\hyperlink{class_obj_cryst_1_1_scattering_data_a406028377b84d874a68b31489d876760}{Get\+Wavelength}} () const
+\begin{DoxyCompactList}\small\item\em wavelength of the experiment (in Angstroems) \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_obj_cryst_1_1_scattering_data_ae126b860d309daa78e975b8b6d8a3ec0}{Set\+Is\+Ignoring\+Imag\+Scatt\+Fact}} (const bool b)
+\item 
+bool \mbox{\hyperlink{class_obj_cryst_1_1_scattering_data_a441dc936d43ef67428a69c0090448bf1}{Is\+Ignoring\+Imag\+Scatt\+Fact}} () const
+\item 
+virtual void \mbox{\hyperlink{class_obj_cryst_1_1_scattering_data_a19b6958c0420a7e8dca0664c19f5f2f4}{Print\+Fhkl\+Calc}} (ostream \&os=cout) const
+\begin{DoxyCompactList}\small\item\em Print H, K, L F$^\wedge$2 Re(\+F) Im(\+F) theta sin(theta)/lambda for all reflections. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_scattering_data_ad5c9d2184e77b393317bd055a8116cc7}\label{class_obj_cryst_1_1_scattering_data_ad5c9d2184e77b393317bd055a8116cc7}} 
+virtual void \mbox{\hyperlink{class_obj_cryst_1_1_scattering_data_ad5c9d2184e77b393317bd055a8116cc7}{Print\+Fhkl\+Calc\+Detail}} (ostream \&os=cout) const
+\begin{DoxyCompactList}\small\item\em Print H, K, L sin(theta)/lambda theta F$^\wedge$2 Re(\+F) Im(\+F) \mbox{[}Re(\+F) Im(\+F)\mbox{]}\+\_\+i, where \mbox{[}Re(\+F) Im(\+F)\mbox{]}\+\_\+i are the real and imaginary contribution of the different scattering powers to the overall structure factor. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_scattering_data_affa77ed9291cf30aa652c329c0a1b4fd}\label{class_obj_cryst_1_1_scattering_data_affa77ed9291cf30aa652c329c0a1b4fd}} 
+virtual void {\bfseries Begin\+Optimization} (const bool allow\+Approximations=false, const bool enable\+Restraints=false)
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_scattering_data_af68ad7f1088f42a3b94855cfee26573e}\label{class_obj_cryst_1_1_scattering_data_af68ad7f1088f42a3b94855cfee26573e}} 
+virtual void {\bfseries End\+Optimization} ()
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_scattering_data_a59c45099a1d3a191e072e3bcf38b8660}\label{class_obj_cryst_1_1_scattering_data_a59c45099a1d3a191e072e3bcf38b8660}} 
+virtual void {\bfseries Set\+Approximation\+Flag} (const bool allow)
+\item 
+virtual void \mbox{\hyperlink{class_obj_cryst_1_1_scattering_data_a58e988862eb0e7b128a563e38f07eb22}{Set\+Max\+Sin\+Theta\+Ov\+Lambda}} (const R\+E\+AL max)
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_scattering_data_a395dc507584a607250616000aec3c76f}\label{class_obj_cryst_1_1_scattering_data_a395dc507584a607250616000aec3c76f}} 
+R\+E\+AL \mbox{\hyperlink{class_obj_cryst_1_1_scattering_data_a395dc507584a607250616000aec3c76f}{Get\+Max\+Sin\+Theta\+Ov\+Lambda}} () const
+\begin{DoxyCompactList}\small\item\em Get the maximum value for sin(theta)/lambda. \end{DoxyCompactList}\item 
+virtual long \mbox{\hyperlink{class_obj_cryst_1_1_scattering_data_aeceded13328adf88e001b08ce1abed7f}{Get\+Nb\+Refl\+Below\+Max\+Sin\+Theta\+Ov\+Lambda}} () const
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_scattering_data_a0f6f14009b6d935d9704f2a779d00fbd}\label{class_obj_cryst_1_1_scattering_data_a0f6f14009b6d935d9704f2a779d00fbd}} 
+const Refinable\+Obj\+Clock \& \mbox{\hyperlink{class_obj_cryst_1_1_scattering_data_a0f6f14009b6d935d9704f2a779d00fbd}{Get\+Clock\+Nb\+Refl\+Below\+Max\+Sin\+Theta\+Ov\+Lambda}} () const
+\begin{DoxyCompactList}\small\item\em Clock the last time the number of reflections used was changed. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_scattering_data_a52a2bf0d0ea5a112c771586fc8c1c9c9}\label{class_obj_cryst_1_1_scattering_data_a52a2bf0d0ea5a112c771586fc8c1c9c9}} 
+virtual void {\bfseries Prepare\+H\+K\+Larrays} ()
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_scattering_data_aa0a07cea84be3d4fce2b438d3ddbcf73}\label{class_obj_cryst_1_1_scattering_data_aa0a07cea84be3d4fce2b438d3ddbcf73}} 
+virtual Cryst\+Vector\+\_\+long {\bfseries Sort\+Reflection\+By\+Sin\+Theta\+Over\+Lambda} (const R\+E\+AL max\+S\+T\+OL=-\/1.)
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_scattering_data_ac8cc7361579cd633ae295823a235813c}\label{class_obj_cryst_1_1_scattering_data_ac8cc7361579cd633ae295823a235813c}} 
+Cryst\+Vector\+\_\+long {\bfseries Eliminate\+Extinct\+Reflections} ()
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_scattering_data_a9ccfd7dbc848465b7f79620c0795a057}\label{class_obj_cryst_1_1_scattering_data_a9ccfd7dbc848465b7f79620c0795a057}} 
+virtual void {\bfseries Calc\+Sin\+Theta\+Lambda} () const
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_scattering_data_ac91f02d10690ef50f519819aeec99b07}\label{class_obj_cryst_1_1_scattering_data_ac91f02d10690ef50f519819aeec99b07}} 
+R\+E\+AL \mbox{\hyperlink{class_obj_cryst_1_1_scattering_data_ac91f02d10690ef50f519819aeec99b07}{Calc\+Sin\+Theta\+Lambda}} (R\+E\+AL h, R\+E\+AL k, R\+E\+AL l) const
+\begin{DoxyCompactList}\small\item\em Calculate sin(theta)/lambda for a single reflection. \end{DoxyCompactList}\item 
+virtual const Cryst\+Matrix\+\_\+\+R\+E\+AL \& \mbox{\hyperlink{class_obj_cryst_1_1_scattering_data_abd28bb9c58ba25cc61cb138cab3df5de}{Get\+B\+Matrix}} () const
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_scattering_data_a3924b7c2674c313a0d632c0c190ba148}\label{class_obj_cryst_1_1_scattering_data_a3924b7c2674c313a0d632c0c190ba148}} 
+void {\bfseries Calc\+Scatt\+Factor} () const
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_scattering_data_af1586acd9c69af79c01d2341dcfb8fa3}\label{class_obj_cryst_1_1_scattering_data_af1586acd9c69af79c01d2341dcfb8fa3}} 
+void {\bfseries Calc\+Temperature\+Factor} () const
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_scattering_data_a8d2f1b1c1c07ab7d7516443c8bf85b5a}\label{class_obj_cryst_1_1_scattering_data_a8d2f1b1c1c07ab7d7516443c8bf85b5a}} 
+virtual void {\bfseries Calc\+Resonant\+Scatt\+Factor} () const
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_scattering_data_a7806bd73e3405c7fa50b12a4722f8700}\label{class_obj_cryst_1_1_scattering_data_a7806bd73e3405c7fa50b12a4722f8700}} 
+void \mbox{\hyperlink{class_obj_cryst_1_1_scattering_data_a7806bd73e3405c7fa50b12a4722f8700}{Calc\+Global\+Temperature\+Factor}} () const
+\begin{DoxyCompactList}\small\item\em Compute the overall temperature factor affecting all reflections. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_obj_cryst_1_1_scattering_data_aaf82b283529262aa6b0ec547e23c6b6d}{Calc\+Struct\+Factor}} () const
+\begin{DoxyCompactList}\small\item\em Compute the overall structure factor (real {\bfseries{and}} imaginary part). This function is {\itshape optimized} {\itshape for} {\itshape speed} (geometrical structure factors are computed for all atoms and all reflections in two loops, avoiding re-\/calculation). So use this function for repetitive calculations. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_scattering_data_ad9ac23b71b9cab1b08c342775f2c40fd}\label{class_obj_cryst_1_1_scattering_data_ad9ac23b71b9cab1b08c342775f2c40fd}} 
+void {\bfseries Calc\+Struct\+Factor\+\_\+\+Full\+Deriv} (std\+::set$<$ Refinable\+Par $\ast$ $>$ \&v\+Par)
+\item 
+void \mbox{\hyperlink{class_obj_cryst_1_1_scattering_data_a1b0237b27cf0e5a3fef7dba65113504e}{Calc\+Geom\+Struct\+Factor}} () const
+\begin{DoxyCompactList}\small\item\em Compute the \textquotesingle{}Geometrical Structure Factor\textquotesingle{} for each \mbox{\hyperlink{class_obj_cryst_1_1_scattering_power}{Scattering\+Power}} of the \mbox{\hyperlink{class_obj_cryst_1_1_crystal}{Crystal}}. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_scattering_data_ad3c30b4f623e06e8a9be01fee8e687f0}\label{class_obj_cryst_1_1_scattering_data_ad3c30b4f623e06e8a9be01fee8e687f0}} 
+void {\bfseries Calc\+Geom\+Struct\+Factor\+\_\+\+Full\+Deriv} (std\+::set$<$ Refinable\+Par $\ast$ $>$ \&v\+Par)
+\item 
+void \mbox{\hyperlink{class_obj_cryst_1_1_scattering_data_a40e555c0ab59f92fda10dbe10cdee91b}{Calc\+Luzzati\+Factor}} () const
+\item 
+void \mbox{\hyperlink{class_obj_cryst_1_1_scattering_data_a5e2175dbe3023c1f498091006b01a596}{Calc\+Struct\+Fact\+Variance}} () const
+\end{DoxyCompactItemize}
+\subsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_scattering_data_aba357b481cf3c012da758218da7ff726}\label{class_obj_cryst_1_1_scattering_data_aba357b481cf3c012da758218da7ff726}} 
+long \mbox{\hyperlink{class_obj_cryst_1_1_scattering_data_aba357b481cf3c012da758218da7ff726}{m\+Nb\+Refl}}
+\begin{DoxyCompactList}\small\item\em Number of H,K,L reflections. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_scattering_data_ac589707de5e5d4f0122314d4ba034572}\label{class_obj_cryst_1_1_scattering_data_ac589707de5e5d4f0122314d4ba034572}} 
+Cryst\+Vector\+\_\+\+R\+E\+AL \mbox{\hyperlink{class_obj_cryst_1_1_scattering_data_ac589707de5e5d4f0122314d4ba034572}{mH}}
+\begin{DoxyCompactList}\small\item\em H,K,L coordinates. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_scattering_data_a880e2a060579e815eadbbeefcbba7084}\label{class_obj_cryst_1_1_scattering_data_a880e2a060579e815eadbbeefcbba7084}} 
+Cryst\+Vector\+\_\+\+R\+E\+AL {\bfseries mK}
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_scattering_data_a836d6399a8f5735af724694e63a31d34}\label{class_obj_cryst_1_1_scattering_data_a836d6399a8f5735af724694e63a31d34}} 
+Cryst\+Vector\+\_\+\+R\+E\+AL {\bfseries mL}
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_scattering_data_ac6300cac304360f11ce20a340a786aee}\label{class_obj_cryst_1_1_scattering_data_ac6300cac304360f11ce20a340a786aee}} 
+Cryst\+Vector\+\_\+long \mbox{\hyperlink{class_obj_cryst_1_1_scattering_data_ac6300cac304360f11ce20a340a786aee}{m\+IntH}}
+\begin{DoxyCompactList}\small\item\em H,K,L integer coordinates. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_scattering_data_a42ee2b356e4f1621a32a5f7f495fd0c7}\label{class_obj_cryst_1_1_scattering_data_a42ee2b356e4f1621a32a5f7f495fd0c7}} 
+Cryst\+Vector\+\_\+long {\bfseries m\+IntK}
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_scattering_data_a4f86b449b7e9e0e6ff9a804ebdd598b9}\label{class_obj_cryst_1_1_scattering_data_a4f86b449b7e9e0e6ff9a804ebdd598b9}} 
+Cryst\+Vector\+\_\+long {\bfseries m\+IntL}
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_scattering_data_af9ccd5e0d976d303fb8d84e27d799cdf}\label{class_obj_cryst_1_1_scattering_data_af9ccd5e0d976d303fb8d84e27d799cdf}} 
+Cryst\+Vector\+\_\+\+R\+E\+AL \mbox{\hyperlink{class_obj_cryst_1_1_scattering_data_af9ccd5e0d976d303fb8d84e27d799cdf}{m\+H2\+Pi}}
+\begin{DoxyCompactList}\small\item\em H,K,L coordinates, multiplied by 2PI. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_scattering_data_a0d08c79a1293a32afa79908533cc94d3}\label{class_obj_cryst_1_1_scattering_data_a0d08c79a1293a32afa79908533cc94d3}} 
+Cryst\+Vector\+\_\+\+R\+E\+AL {\bfseries m\+K2\+Pi}
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_scattering_data_a1b551f2ee693eb56a69bd99f58831927}\label{class_obj_cryst_1_1_scattering_data_a1b551f2ee693eb56a69bd99f58831927}} 
+Cryst\+Vector\+\_\+\+R\+E\+AL {\bfseries m\+L2\+Pi}
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_scattering_data_a93547f7f9c1c8d69222e501aee68b07d}\label{class_obj_cryst_1_1_scattering_data_a93547f7f9c1c8d69222e501aee68b07d}} 
+Cryst\+Vector\+\_\+\+R\+E\+AL \mbox{\hyperlink{class_obj_cryst_1_1_scattering_data_a93547f7f9c1c8d69222e501aee68b07d}{mX}}
+\begin{DoxyCompactList}\small\item\em reflection coordinates in an orthonormal base \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_scattering_data_a5aeecfc21d47eb84e60d9ea1900aa6c0}\label{class_obj_cryst_1_1_scattering_data_a5aeecfc21d47eb84e60d9ea1900aa6c0}} 
+Cryst\+Vector\+\_\+\+R\+E\+AL {\bfseries mY}
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_scattering_data_af4b63c112d8865006db7660516859a69}\label{class_obj_cryst_1_1_scattering_data_af4b63c112d8865006db7660516859a69}} 
+Cryst\+Vector\+\_\+\+R\+E\+AL {\bfseries mZ}
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_scattering_data_affaae453ef7ac110ab7a1f0abb2c50a7}\label{class_obj_cryst_1_1_scattering_data_affaae453ef7ac110ab7a1f0abb2c50a7}} 
+Cryst\+Vector\+\_\+int \mbox{\hyperlink{class_obj_cryst_1_1_scattering_data_affaae453ef7ac110ab7a1f0abb2c50a7}{m\+Multiplicity}}
+\begin{DoxyCompactList}\small\item\em Multiplicity for each reflections (mostly for powder diffraction) \end{DoxyCompactList}\item 
+Cryst\+Vector\+\_\+int \mbox{\hyperlink{class_obj_cryst_1_1_scattering_data_a8296cf05015c7c4bbfc1dc7b443e3096}{m\+Expected\+Intensity\+Factor}}
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_scattering_data_a8544897db01ff8f9cb7a245c49c7a4e4}\label{class_obj_cryst_1_1_scattering_data_a8544897db01ff8f9cb7a245c49c7a4e4}} 
+Cryst\+Vector\+\_\+\+R\+E\+AL \mbox{\hyperlink{class_obj_cryst_1_1_scattering_data_a8544897db01ff8f9cb7a245c49c7a4e4}{m\+Fhkl\+Calc\+Real}}
+\begin{DoxyCompactList}\small\item\em real \&imaginary parts of F(\+H\+K\+L)calc \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_scattering_data_a048112ed1fa83eeb209843140e86a41c}\label{class_obj_cryst_1_1_scattering_data_a048112ed1fa83eeb209843140e86a41c}} 
+Cryst\+Vector\+\_\+\+R\+E\+AL {\bfseries m\+Fhkl\+Calc\+Imag}
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_scattering_data_ab48990a96d3b9ab69218d25e8ce33b31}\label{class_obj_cryst_1_1_scattering_data_ab48990a96d3b9ab69218d25e8ce33b31}} 
+std\+::map$<$ Refinable\+Par $\ast$, Cryst\+Vector\+\_\+\+R\+E\+AL $>$ {\bfseries m\+Fhkl\+Calc\+Real\+\_\+\+Full\+Deriv}
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_scattering_data_a4e187727f1f6e5f210e420550f4e9264}\label{class_obj_cryst_1_1_scattering_data_a4e187727f1f6e5f210e420550f4e9264}} 
+std\+::map$<$ Refinable\+Par $\ast$, Cryst\+Vector\+\_\+\+R\+E\+AL $>$ {\bfseries m\+Fhkl\+Calc\+Imag\+\_\+\+Full\+Deriv}
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_scattering_data_a5c61007b1d35f8af192cbb86da7c1ba9}\label{class_obj_cryst_1_1_scattering_data_a5c61007b1d35f8af192cbb86da7c1ba9}} 
+Cryst\+Vector\+\_\+\+R\+E\+AL \mbox{\hyperlink{class_obj_cryst_1_1_scattering_data_a5c61007b1d35f8af192cbb86da7c1ba9}{m\+Fhkl\+Calc\+Sq}}
+\begin{DoxyCompactList}\small\item\em F(\+H\+K\+L)$^\wedge$2 calc for each reflection. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_scattering_data_a7a245e07904bf0d9abdd96e2435d66ed}\label{class_obj_cryst_1_1_scattering_data_a7a245e07904bf0d9abdd96e2435d66ed}} 
+std\+::map$<$ Refinable\+Par $\ast$, Cryst\+Vector\+\_\+\+R\+E\+AL $>$ {\bfseries m\+Fhkl\+Calc\+Sq\+\_\+\+Full\+Deriv}
+\item 
+\mbox{\hyperlink{class_obj_cryst_1_1_crystal}{Crystal}} $\ast$ \mbox{\hyperlink{class_obj_cryst_1_1_scattering_data_a8c4e778a97e93098d585ffdc597dbb54}{mp\+Crystal}}
+\item 
+R\+E\+AL \mbox{\hyperlink{class_obj_cryst_1_1_scattering_data_a15f71120c0eabe7b1bd768663a176752}{m\+Global\+Biso}}
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_scattering_data_af12d3e0312ba9dc9488ca1db7f35be56}\label{class_obj_cryst_1_1_scattering_data_af12d3e0312ba9dc9488ca1db7f35be56}} 
+Cryst\+Vector\+\_\+\+R\+E\+AL \mbox{\hyperlink{class_obj_cryst_1_1_scattering_data_af12d3e0312ba9dc9488ca1db7f35be56}{m\+Global\+Temperature\+Factor}}
+\begin{DoxyCompactList}\small\item\em Global Biso factor. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_obj_cryst_1_1_scattering_data_a7a3fa9e9ea5c3a1dc6076f69ad584ad7}{m\+Use\+Fast\+Less\+Precise\+Func}}
+\item 
+Cryst\+Vector\+\_\+\+R\+E\+AL \mbox{\hyperlink{class_obj_cryst_1_1_scattering_data_a06804c1df56b267a8ecb0218e061bdb4}{m\+Sin\+Theta\+Lambda}}
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_scattering_data_ae7b30bacb0d4bd5e1e54590b7567392f}\label{class_obj_cryst_1_1_scattering_data_ae7b30bacb0d4bd5e1e54590b7567392f}} 
+Cryst\+Vector\+\_\+\+R\+E\+AL \mbox{\hyperlink{class_obj_cryst_1_1_scattering_data_ae7b30bacb0d4bd5e1e54590b7567392f}{m\+Theta}}
+\begin{DoxyCompactList}\small\item\em theta for the crystal and the H\+KL in Recipr\+Space (in radians) \end{DoxyCompactList}\item 
+map$<$ const \mbox{\hyperlink{class_obj_cryst_1_1_scattering_power}{Scattering\+Power}} $\ast$, R\+E\+AL $>$ \mbox{\hyperlink{class_obj_cryst_1_1_scattering_data_a13e1ec375416a17f94370a4cf4bd5583}{mv\+Fprime}}
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_scattering_data_a57882d7477ac1567e1c2caf72f56e9d2}\label{class_obj_cryst_1_1_scattering_data_a57882d7477ac1567e1c2caf72f56e9d2}} 
+map$<$ const \mbox{\hyperlink{class_obj_cryst_1_1_scattering_power}{Scattering\+Power}} $\ast$, R\+E\+AL $>$ {\bfseries mv\+Fsecond}
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_scattering_data_a66d5208047bdd6bf1eb066926adc676f}\label{class_obj_cryst_1_1_scattering_data_a66d5208047bdd6bf1eb066926adc676f}} 
+map$<$ const \mbox{\hyperlink{class_obj_cryst_1_1_scattering_power}{Scattering\+Power}} $\ast$, Cryst\+Vector\+\_\+\+R\+E\+AL $>$ \mbox{\hyperlink{class_obj_cryst_1_1_scattering_data_a66d5208047bdd6bf1eb066926adc676f}{mv\+Temperature\+Factor}}
+\begin{DoxyCompactList}\small\item\em Thermic factors for each \mbox{\hyperlink{class_obj_cryst_1_1_scattering_power}{Scattering\+Power}}, as vectors with Nb\+Refl elements. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_scattering_data_a130783a5c9beffd3791ee1885953b4cd}\label{class_obj_cryst_1_1_scattering_data_a130783a5c9beffd3791ee1885953b4cd}} 
+map$<$ const \mbox{\hyperlink{class_obj_cryst_1_1_scattering_power}{Scattering\+Power}} $\ast$, Cryst\+Vector\+\_\+\+R\+E\+AL $>$ \mbox{\hyperlink{class_obj_cryst_1_1_scattering_data_a130783a5c9beffd3791ee1885953b4cd}{mv\+Scattering\+Factor}}
+\begin{DoxyCompactList}\small\item\em Scattering factors for each \mbox{\hyperlink{class_obj_cryst_1_1_scattering_power}{Scattering\+Power}}, as vectors with Nb\+Refl elements. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_scattering_data_a938a4a024e6fd830786bb22d1171c084}\label{class_obj_cryst_1_1_scattering_data_a938a4a024e6fd830786bb22d1171c084}} 
+map$<$ const \mbox{\hyperlink{class_obj_cryst_1_1_scattering_power}{Scattering\+Power}} $\ast$, Cryst\+Vector\+\_\+\+R\+E\+AL $>$ \mbox{\hyperlink{class_obj_cryst_1_1_scattering_data_a938a4a024e6fd830786bb22d1171c084}{mv\+Real\+Geom\+SF}}
+\begin{DoxyCompactList}\small\item\em Geometrical Structure factor for each \mbox{\hyperlink{class_obj_cryst_1_1_scattering_power}{Scattering\+Power}}, as vectors with Nb\+Refl elements. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_scattering_data_a5dbceac44c1e2f76279dc4e6160c47eb}\label{class_obj_cryst_1_1_scattering_data_a5dbceac44c1e2f76279dc4e6160c47eb}} 
+map$<$ const \mbox{\hyperlink{class_obj_cryst_1_1_scattering_power}{Scattering\+Power}} $\ast$, Cryst\+Vector\+\_\+\+R\+E\+AL $>$ {\bfseries mv\+Imag\+Geom\+SF}
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_scattering_data_a2bafef6981426364eac0ecc4e21856ef}\label{class_obj_cryst_1_1_scattering_data_a2bafef6981426364eac0ecc4e21856ef}} 
+map$<$ Refinable\+Par $\ast$, map$<$ const \mbox{\hyperlink{class_obj_cryst_1_1_scattering_power}{Scattering\+Power}} $\ast$, Cryst\+Vector\+\_\+\+R\+E\+AL $>$ $>$ {\bfseries mv\+Real\+Geom\+S\+F\+\_\+\+Full\+Deriv}
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_scattering_data_abd8ac21d5b25202503a6785b4a1ede5c}\label{class_obj_cryst_1_1_scattering_data_abd8ac21d5b25202503a6785b4a1ede5c}} 
+map$<$ Refinable\+Par $\ast$, map$<$ const \mbox{\hyperlink{class_obj_cryst_1_1_scattering_power}{Scattering\+Power}} $\ast$, Cryst\+Vector\+\_\+\+R\+E\+AL $>$ $>$ {\bfseries mv\+Imag\+Geom\+S\+F\+\_\+\+Full\+Deriv}
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_scattering_data_afad19f562c1f34565391c0a05028516f}\label{class_obj_cryst_1_1_scattering_data_afad19f562c1f34565391c0a05028516f}} 
+Refinable\+Obj\+Clock \mbox{\hyperlink{class_obj_cryst_1_1_scattering_data_afad19f562c1f34565391c0a05028516f}{m\+Clock\+H\+KL}}
+\begin{DoxyCompactList}\small\item\em Clock for the list of hkl. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_scattering_data_a182f20f79682668151ee46092dce98a2}\label{class_obj_cryst_1_1_scattering_data_a182f20f79682668151ee46092dce98a2}} 
+Refinable\+Obj\+Clock \mbox{\hyperlink{class_obj_cryst_1_1_scattering_data_a182f20f79682668151ee46092dce98a2}{m\+Clock\+Struct\+Factor}}
+\begin{DoxyCompactList}\small\item\em Clock for the structure factor. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_scattering_data_a65bf8a4033d331408ba09548eaa202d2}\label{class_obj_cryst_1_1_scattering_data_a65bf8a4033d331408ba09548eaa202d2}} 
+Refinable\+Obj\+Clock \mbox{\hyperlink{class_obj_cryst_1_1_scattering_data_a65bf8a4033d331408ba09548eaa202d2}{m\+Clock\+Struct\+Factor\+Sq}}
+\begin{DoxyCompactList}\small\item\em Clock for the square modulus of the structure factor. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_scattering_data_a22e1b86b0bc485070ebe11bf1461bbe3}\label{class_obj_cryst_1_1_scattering_data_a22e1b86b0bc485070ebe11bf1461bbe3}} 
+Refinable\+Obj\+Clock \mbox{\hyperlink{class_obj_cryst_1_1_scattering_data_a22e1b86b0bc485070ebe11bf1461bbe3}{m\+Clock\+Theta}}
+\begin{DoxyCompactList}\small\item\em Clock the last time theta was computed. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_scattering_data_a8ce62b5bfb1fcd804c67dbd930b1f548}\label{class_obj_cryst_1_1_scattering_data_a8ce62b5bfb1fcd804c67dbd930b1f548}} 
+Refinable\+Obj\+Clock \mbox{\hyperlink{class_obj_cryst_1_1_scattering_data_a8ce62b5bfb1fcd804c67dbd930b1f548}{m\+Clock\+Scatt\+Factor}}
+\begin{DoxyCompactList}\small\item\em Clock the last time scattering factors were computed. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_scattering_data_af3c0765a73ec998573658cce33ccb2c1}\label{class_obj_cryst_1_1_scattering_data_af3c0765a73ec998573658cce33ccb2c1}} 
+Refinable\+Obj\+Clock \mbox{\hyperlink{class_obj_cryst_1_1_scattering_data_af3c0765a73ec998573658cce33ccb2c1}{m\+Clock\+Scatt\+Factor\+Resonant}}
+\begin{DoxyCompactList}\small\item\em Clock the last time resonant scattering factors were computed. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_scattering_data_adae75c08082bf39716f00acf417a661c}\label{class_obj_cryst_1_1_scattering_data_adae75c08082bf39716f00acf417a661c}} 
+Refinable\+Obj\+Clock \mbox{\hyperlink{class_obj_cryst_1_1_scattering_data_adae75c08082bf39716f00acf417a661c}{m\+Clock\+Geom\+Struct\+Fact}}
+\begin{DoxyCompactList}\small\item\em Clock the last time the geometrical structure factors were computed. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_scattering_data_a4295811a2c12d31985b51e2ab6c40088}\label{class_obj_cryst_1_1_scattering_data_a4295811a2c12d31985b51e2ab6c40088}} 
+Refinable\+Obj\+Clock \mbox{\hyperlink{class_obj_cryst_1_1_scattering_data_a4295811a2c12d31985b51e2ab6c40088}{m\+Clock\+Thermic\+Fact}}
+\begin{DoxyCompactList}\small\item\em Clock the last time temperature factors were computed. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_scattering_data_aabaceea890c524c14ca3e6c898d27f8f}\label{class_obj_cryst_1_1_scattering_data_aabaceea890c524c14ca3e6c898d27f8f}} 
+Refinable\+Obj\+Clock \mbox{\hyperlink{class_obj_cryst_1_1_scattering_data_aabaceea890c524c14ca3e6c898d27f8f}{m\+Clock\+Global\+Biso}}
+\begin{DoxyCompactList}\small\item\em last time the global Biso factor was modified \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_scattering_data_a20c193cc38f93c26926dd0d362066ec0}\label{class_obj_cryst_1_1_scattering_data_a20c193cc38f93c26926dd0d362066ec0}} 
+Refinable\+Obj\+Clock \mbox{\hyperlink{class_obj_cryst_1_1_scattering_data_a20c193cc38f93c26926dd0d362066ec0}{m\+Clock\+Global\+Temperature\+Fact}}
+\begin{DoxyCompactList}\small\item\em last time the global temperature factor was computed \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_obj_cryst_1_1_scattering_data_a3a9764c52916a533a44baaea89bdceab}{m\+Ignore\+Imag\+Scatt\+Fact}}
+\begin{DoxyCompactList}\small\item\em Ignore imaginary part of scattering factor. \end{DoxyCompactList}\item 
+R\+E\+AL \mbox{\hyperlink{class_obj_cryst_1_1_scattering_data_acb0398e21f803308b79103182906f6c5}{m\+Max\+Sin\+Theta\+Ov\+Lambda}}
+\item 
+long \mbox{\hyperlink{class_obj_cryst_1_1_scattering_data_a00e0972eebd70ae92231b804884a83b6}{m\+Nb\+Refl\+Used}}
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_scattering_data_a03a5d099c5ff2c41dc37e4f849e5be7b}\label{class_obj_cryst_1_1_scattering_data_a03a5d099c5ff2c41dc37e4f849e5be7b}} 
+Refinable\+Obj\+Clock \mbox{\hyperlink{class_obj_cryst_1_1_scattering_data_a03a5d099c5ff2c41dc37e4f849e5be7b}{m\+Clock\+Nb\+Refl\+Used}}
+\begin{DoxyCompactList}\small\item\em Clock recording the last time the number of reflections used has increased. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_scattering_data_a8b9610ceeee8a68a39fc2f13e14d0391}\label{class_obj_cryst_1_1_scattering_data_a8b9610ceeee8a68a39fc2f13e14d0391}} 
+map$<$ const \mbox{\hyperlink{class_obj_cryst_1_1_scattering_power}{Scattering\+Power}} $\ast$, Cryst\+Vector\+\_\+\+R\+E\+AL $>$ \mbox{\hyperlink{class_obj_cryst_1_1_scattering_data_a8b9610ceeee8a68a39fc2f13e14d0391}{mv\+Luzzati\+Factor}}
+\begin{DoxyCompactList}\small\item\em The Luzzati \textquotesingle{}D\textquotesingle{} factor for each scattering power and each reflection. \end{DoxyCompactList}\item 
+Cryst\+Vector\+\_\+\+R\+E\+AL \mbox{\hyperlink{class_obj_cryst_1_1_scattering_data_a85ab0dd2973824fc2ad62fb6fef2e274}{m\+Fhkl\+Calc\+Variance}}
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_scattering_data_a20ce8091b6bf08d1a37cdebb6e254ac1}\label{class_obj_cryst_1_1_scattering_data_a20ce8091b6bf08d1a37cdebb6e254ac1}} 
+Refinable\+Obj\+Clock {\bfseries m\+Clock\+Luzzati\+Factor}
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_scattering_data_a401ebb00cb9677b9f2faf62ed326c8da}\label{class_obj_cryst_1_1_scattering_data_a401ebb00cb9677b9f2faf62ed326c8da}} 
+Refinable\+Obj\+Clock {\bfseries m\+Clock\+Fhkl\+Calc\+Variance}
+\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_scattering_data_a71ebbc98f69dab63f03d7fb032228e1e}\label{class_obj_cryst_1_1_scattering_data_a71ebbc98f69dab63f03d7fb032228e1e}} 
+Cryst\+Vector\+\_\+\+R\+E\+AL \mbox{\hyperlink{class_obj_cryst_1_1_scattering_data_a71ebbc98f69dab63f03d7fb032228e1e}{m\+Fhkl\+Obs\+Sq}}
+\begin{DoxyCompactList}\small\item\em Observed squared structure factors (zero-\/sized if none) \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_obj_cryst_1_1_scattering_data_a1ea122e6d6eb2c987a7e4f59ec111714}\label{class_obj_cryst_1_1_scattering_data_a1ea122e6d6eb2c987a7e4f59ec111714}} 
+Refinable\+Obj\+Clock \mbox{\hyperlink{class_obj_cryst_1_1_scattering_data_a1ea122e6d6eb2c987a7e4f59ec111714}{m\+Clock\+Fhkl\+Obs\+Sq}}
+\begin{DoxyCompactList}\small\item\em Last time observed squared structure factors were altered. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Class to compute structure factors for a set of reflections and a \mbox{\hyperlink{class_obj_cryst_1_1_crystal}{Crystal}}. 
+
+This class only computes structure factor, but no intensity. i.\+e. it does not include any correction such as absorption, Lorentz or Polarization.
+
+Does this really need to be a Refinable\+Obj ? \begin{DoxyRefDesc}{Todo}
+\item[\mbox{\hyperlink{todo__todo000009}{Todo}}]Optimize computation for Bijvoet/\+Friedel mates. To do this, generate an internal list of \textquotesingle{}true independent reflections\textquotesingle{}, with two entries for each, for both mates, and make the \textquotesingle{}real\textquotesingle{} reflections only a reference to these reflections.\end{DoxyRefDesc}
+
+
+\begin{DoxyRefDesc}{Todo}
+\item[\mbox{\hyperlink{todo__todo000010}{Todo}}]a {\bfseries{lot}} of cleaning is necessary in the computing of structure factors, for (1) the \textquotesingle{}preparation\textquotesingle{} part (deciding what needs to be recomputed) and (2) to allow anisotropic temperature factors (or other anisotropic parts) \end{DoxyRefDesc}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{class_obj_cryst_1_1_scattering_data_a1b0237b27cf0e5a3fef7dba65113504e}\label{class_obj_cryst_1_1_scattering_data_a1b0237b27cf0e5a3fef7dba65113504e}} 
+\index{ObjCryst::ScatteringData@{ObjCryst::ScatteringData}!CalcGeomStructFactor@{CalcGeomStructFactor}}
+\index{CalcGeomStructFactor@{CalcGeomStructFactor}!ObjCryst::ScatteringData@{ObjCryst::ScatteringData}}
+\subsubsection{\texorpdfstring{CalcGeomStructFactor()}{CalcGeomStructFactor()}}
+{\footnotesize\ttfamily void Obj\+Cryst\+::\+Scattering\+Data\+::\+Calc\+Geom\+Struct\+Factor (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+Compute the \textquotesingle{}Geometrical Structure Factor\textquotesingle{} for each \mbox{\hyperlink{class_obj_cryst_1_1_scattering_power}{Scattering\+Power}} of the \mbox{\hyperlink{class_obj_cryst_1_1_crystal}{Crystal}}. 
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_obj_cryst_1_1_scattering_data_a1b0237b27cf0e5a3fef7dba65113504e_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_obj_cryst_1_1_scattering_data_a1b0237b27cf0e5a3fef7dba65113504e_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_obj_cryst_1_1_scattering_data_a40e555c0ab59f92fda10dbe10cdee91b}\label{class_obj_cryst_1_1_scattering_data_a40e555c0ab59f92fda10dbe10cdee91b}} 
+\index{ObjCryst::ScatteringData@{ObjCryst::ScatteringData}!CalcLuzzatiFactor@{CalcLuzzatiFactor}}
+\index{CalcLuzzatiFactor@{CalcLuzzatiFactor}!ObjCryst::ScatteringData@{ObjCryst::ScatteringData}}
+\subsubsection{\texorpdfstring{CalcLuzzatiFactor()}{CalcLuzzatiFactor()}}
+{\footnotesize\ttfamily void Obj\+Cryst\+::\+Scattering\+Data\+::\+Calc\+Luzzati\+Factor (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [protected]}}
+
+Calculate the Luzzati factor associated to each \mbox{\hyperlink{class_obj_cryst_1_1_scattering_power}{Scattering\+Power}} and each reflection, for maximum likelihood optimization. Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_obj_cryst_1_1_scattering_data_a40e555c0ab59f92fda10dbe10cdee91b_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_obj_cryst_1_1_scattering_data_a40e555c0ab59f92fda10dbe10cdee91b_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_obj_cryst_1_1_scattering_data_aaf82b283529262aa6b0ec547e23c6b6d}\label{class_obj_cryst_1_1_scattering_data_aaf82b283529262aa6b0ec547e23c6b6d}} 
+\index{ObjCryst::ScatteringData@{ObjCryst::ScatteringData}!CalcStructFactor@{CalcStructFactor}}
+\index{CalcStructFactor@{CalcStructFactor}!ObjCryst::ScatteringData@{ObjCryst::ScatteringData}}
+\subsubsection{\texorpdfstring{CalcStructFactor()}{CalcStructFactor()}}
+{\footnotesize\ttfamily void Obj\+Cryst\+::\+Scattering\+Data\+::\+Calc\+Struct\+Factor (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+Compute the overall structure factor (real {\bfseries{and}} imaginary part). This function is {\itshape optimized} {\itshape for} {\itshape speed} (geometrical structure factors are computed for all atoms and all reflections in two loops, avoiding re-\/calculation). So use this function for repetitive calculations. 
+
+This function recognizes the type of radiation (X\+Ray or neutron) and uses the corresponding scattering factor/length.
+
+\begin{DoxyReturn}{Returns}
+the result (real and imaginary part of the structure factor) (m\+Real\+Fhkl\+Calc, m\+Imag\+Fhkl\+Calc) are stored in \mbox{\hyperlink{class_obj_cryst_1_1_scattering_data}{Scattering\+Data}}. 
+\end{DoxyReturn}
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_obj_cryst_1_1_scattering_data_aaf82b283529262aa6b0ec547e23c6b6d_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_obj_cryst_1_1_scattering_data_aaf82b283529262aa6b0ec547e23c6b6d_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_obj_cryst_1_1_scattering_data_a5e2175dbe3023c1f498091006b01a596}\label{class_obj_cryst_1_1_scattering_data_a5e2175dbe3023c1f498091006b01a596}} 
+\index{ObjCryst::ScatteringData@{ObjCryst::ScatteringData}!CalcStructFactVariance@{CalcStructFactVariance}}
+\index{CalcStructFactVariance@{CalcStructFactVariance}!ObjCryst::ScatteringData@{ObjCryst::ScatteringData}}
+\subsubsection{\texorpdfstring{CalcStructFactVariance()}{CalcStructFactVariance()}}
+{\footnotesize\ttfamily void Obj\+Cryst\+::\+Scattering\+Data\+::\+Calc\+Struct\+Fact\+Variance (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [protected]}}
+
+Calculate the variance associated to the calculated structure factor Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_obj_cryst_1_1_scattering_data_a5e2175dbe3023c1f498091006b01a596_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_obj_cryst_1_1_scattering_data_a5e2175dbe3023c1f498091006b01a596_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_obj_cryst_1_1_scattering_data_a3d15ed5e447e6b2ff6fd8fdaad43a37d}\label{class_obj_cryst_1_1_scattering_data_a3d15ed5e447e6b2ff6fd8fdaad43a37d}} 
+\index{ObjCryst::ScatteringData@{ObjCryst::ScatteringData}!GenHKLFullSpace@{GenHKLFullSpace}}
+\index{GenHKLFullSpace@{GenHKLFullSpace}!ObjCryst::ScatteringData@{ObjCryst::ScatteringData}}
+\subsubsection{\texorpdfstring{GenHKLFullSpace()}{GenHKLFullSpace()}}
+{\footnotesize\ttfamily void Obj\+Cryst\+::\+Scattering\+Data\+::\+Gen\+H\+K\+L\+Full\+Space (\begin{DoxyParamCaption}\item[{const R\+E\+AL}]{max\+Theta,  }\item[{const bool}]{unique = {\ttfamily false} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Generate a list of h,k,l to describe a full reciprocal space, up to a given maximum theta value. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em maxsithsl\+:maximum} & sin(theta)/lambda=1/2d value \\
+\hline
+{\em unique} & if set to true, only unique reflections will be listed. Bijvoet (Friedel) pairs are N\+OT merged, for \textquotesingle{}anomalous\textquotesingle{} reasons, unless you have chosen to ignore the imaginary part of the scattering factor.\\
+\hline
+\end{DoxyParams}
+The multiplicity is always stored in \mbox{\hyperlink{class_obj_cryst_1_1_scattering_data_affaae453ef7ac110ab7a1f0abb2c50a7}{Scattering\+Data\+::m\+Multiplicity}}.
+
+\begin{DoxyWarning}{Warning}
+The \mbox{\hyperlink{class_obj_cryst_1_1_scattering_data}{Scattering\+Data}} object must already have been assigned a crystal object using \mbox{\hyperlink{class_obj_cryst_1_1_scattering_data_a590a553dbea1970266a864256ebf94f3}{Set\+Crystal()}}, and the experimental wavelength must also have been set before calling this function.
+\end{DoxyWarning}
+\begin{DoxyRefDesc}{Deprecated}
+\item[\mbox{\hyperlink{deprecated__deprecated000026}{Deprecated}}]Rather use Powder\+Pattern\+::\+Gen\+H\+K\+L\+Full\+Space2, with a maximum sin(theta)/lambda value, which also works for dispersive experiments. \end{DoxyRefDesc}
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_obj_cryst_1_1_scattering_data_a3d15ed5e447e6b2ff6fd8fdaad43a37d_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_obj_cryst_1_1_scattering_data_a3d15ed5e447e6b2ff6fd8fdaad43a37d_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_obj_cryst_1_1_scattering_data_a63f682dfda2e03f2ab00826c5e116033}\label{class_obj_cryst_1_1_scattering_data_a63f682dfda2e03f2ab00826c5e116033}} 
+\index{ObjCryst::ScatteringData@{ObjCryst::ScatteringData}!GenHKLFullSpace2@{GenHKLFullSpace2}}
+\index{GenHKLFullSpace2@{GenHKLFullSpace2}!ObjCryst::ScatteringData@{ObjCryst::ScatteringData}}
+\subsubsection{\texorpdfstring{GenHKLFullSpace2()}{GenHKLFullSpace2()}}
+{\footnotesize\ttfamily void Obj\+Cryst\+::\+Scattering\+Data\+::\+Gen\+H\+K\+L\+Full\+Space2 (\begin{DoxyParamCaption}\item[{const R\+E\+AL}]{maxsithsl,  }\item[{const bool}]{unique = {\ttfamily false} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Generate a list of h,k,l to describe a full reciprocal space, up to a given maximum theta value. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em max\+Theta\+:maximum} & theta value \\
+\hline
+{\em unique} & if set to true, only unique reflections will be listed. Bijvoet (Friedel) pairs are N\+OT merged, for \textquotesingle{}anomalous\textquotesingle{} reasons, unless you have chosen to ignore the imaginary part of the scattering factor.\\
+\hline
+\end{DoxyParams}
+The multiplicity is always stored in \mbox{\hyperlink{class_obj_cryst_1_1_scattering_data_affaae453ef7ac110ab7a1f0abb2c50a7}{Scattering\+Data\+::m\+Multiplicity}}.
+
+\begin{DoxyWarning}{Warning}
+The \mbox{\hyperlink{class_obj_cryst_1_1_scattering_data}{Scattering\+Data}} object must already have been assigned a crystal object using \mbox{\hyperlink{class_obj_cryst_1_1_scattering_data_a590a553dbea1970266a864256ebf94f3}{Set\+Crystal()}}, and the experimental wavelength must also have been set before calling this function. 
+\end{DoxyWarning}
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_obj_cryst_1_1_scattering_data_a63f682dfda2e03f2ab00826c5e116033_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_obj_cryst_1_1_scattering_data_a63f682dfda2e03f2ab00826c5e116033_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_obj_cryst_1_1_scattering_data_abd28bb9c58ba25cc61cb138cab3df5de}\label{class_obj_cryst_1_1_scattering_data_abd28bb9c58ba25cc61cb138cab3df5de}} 
+\index{ObjCryst::ScatteringData@{ObjCryst::ScatteringData}!GetBMatrix@{GetBMatrix}}
+\index{GetBMatrix@{GetBMatrix}!ObjCryst::ScatteringData@{ObjCryst::ScatteringData}}
+\subsubsection{\texorpdfstring{GetBMatrix()}{GetBMatrix()}}
+{\footnotesize\ttfamily const Cryst\+Matrix\+\_\+\+R\+E\+AL \& Obj\+Cryst\+::\+Scattering\+Data\+::\+Get\+B\+Matrix (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [protected]}, {\ttfamily [virtual]}}
+
+Get access to the B matrix used to compute reflection positions. May be overridden by derived classes to use different lattice parameters than the \mbox{\hyperlink{class_obj_cryst_1_1_crystal}{Crystal}}\textquotesingle{}s unitcell (used for multiple datasets). 
+
+Reimplemented in \mbox{\hyperlink{class_obj_cryst_1_1_powder_pattern_diffraction_ac2079a53e2f3655ea04aa79474dfb970}{Obj\+Cryst\+::\+Powder\+Pattern\+Diffraction}}.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_obj_cryst_1_1_scattering_data_abd28bb9c58ba25cc61cb138cab3df5de_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_obj_cryst_1_1_scattering_data_abd28bb9c58ba25cc61cb138cab3df5de_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_obj_cryst_1_1_scattering_data_a22249caed3843cadff97963de59ff444}\label{class_obj_cryst_1_1_scattering_data_a22249caed3843cadff97963de59ff444}} 
+\index{ObjCryst::ScatteringData@{ObjCryst::ScatteringData}!GetH2Pi@{GetH2Pi}}
+\index{GetH2Pi@{GetH2Pi}!ObjCryst::ScatteringData@{ObjCryst::ScatteringData}}
+\subsubsection{\texorpdfstring{GetH2Pi()}{GetH2Pi()}}
+{\footnotesize\ttfamily const Cryst\+Vector\+\_\+\+R\+E\+AL \& Obj\+Cryst\+::\+Scattering\+Data\+::\+Get\+H2\+Pi (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+Return the 1D array of H coordinates for all reflections, multiplied by 2$\ast$pi \mbox{\Hypertarget{class_obj_cryst_1_1_scattering_data_afa7ef198a6e1caeedcc52c2579685dfc}\label{class_obj_cryst_1_1_scattering_data_afa7ef198a6e1caeedcc52c2579685dfc}} 
+\index{ObjCryst::ScatteringData@{ObjCryst::ScatteringData}!GetK2Pi@{GetK2Pi}}
+\index{GetK2Pi@{GetK2Pi}!ObjCryst::ScatteringData@{ObjCryst::ScatteringData}}
+\subsubsection{\texorpdfstring{GetK2Pi()}{GetK2Pi()}}
+{\footnotesize\ttfamily const Cryst\+Vector\+\_\+\+R\+E\+AL \& Obj\+Cryst\+::\+Scattering\+Data\+::\+Get\+K2\+Pi (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+Return the 1D array of K coordinates for all reflections, multiplied by 2$\ast$pi \mbox{\Hypertarget{class_obj_cryst_1_1_scattering_data_a4838871273f014329e9ef55ef088fde4}\label{class_obj_cryst_1_1_scattering_data_a4838871273f014329e9ef55ef088fde4}} 
+\index{ObjCryst::ScatteringData@{ObjCryst::ScatteringData}!GetL2Pi@{GetL2Pi}}
+\index{GetL2Pi@{GetL2Pi}!ObjCryst::ScatteringData@{ObjCryst::ScatteringData}}
+\subsubsection{\texorpdfstring{GetL2Pi()}{GetL2Pi()}}
+{\footnotesize\ttfamily const Cryst\+Vector\+\_\+\+R\+E\+AL \& Obj\+Cryst\+::\+Scattering\+Data\+::\+Get\+L2\+Pi (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+Return the 1D array of L coordinates for all reflections, multiplied by 2$\ast$pi \mbox{\Hypertarget{class_obj_cryst_1_1_scattering_data_aeceded13328adf88e001b08ce1abed7f}\label{class_obj_cryst_1_1_scattering_data_aeceded13328adf88e001b08ce1abed7f}} 
+\index{ObjCryst::ScatteringData@{ObjCryst::ScatteringData}!GetNbReflBelowMaxSinThetaOvLambda@{GetNbReflBelowMaxSinThetaOvLambda}}
+\index{GetNbReflBelowMaxSinThetaOvLambda@{GetNbReflBelowMaxSinThetaOvLambda}!ObjCryst::ScatteringData@{ObjCryst::ScatteringData}}
+\subsubsection{\texorpdfstring{GetNbReflBelowMaxSinThetaOvLambda()}{GetNbReflBelowMaxSinThetaOvLambda()}}
+{\footnotesize\ttfamily long Obj\+Cryst\+::\+Scattering\+Data\+::\+Get\+Nb\+Refl\+Below\+Max\+Sin\+Theta\+Ov\+Lambda (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [virtual]}}
+
+Recalc, and get the number of reflections which should be actually used, due to the maximuml sin(theta)/lambda value set. 
+
+Reimplemented in \mbox{\hyperlink{class_obj_cryst_1_1_powder_pattern_diffraction_a87785bf69fbd81df78c47f3d42efaf4e}{Obj\+Cryst\+::\+Powder\+Pattern\+Diffraction}}.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_obj_cryst_1_1_scattering_data_aeceded13328adf88e001b08ce1abed7f_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_obj_cryst_1_1_scattering_data_a27cf813d222bbc0b261f794051125219}\label{class_obj_cryst_1_1_scattering_data_a27cf813d222bbc0b261f794051125219}} 
+\index{ObjCryst::ScatteringData@{ObjCryst::ScatteringData}!GetSinThetaOverLambda@{GetSinThetaOverLambda}}
+\index{GetSinThetaOverLambda@{GetSinThetaOverLambda}!ObjCryst::ScatteringData@{ObjCryst::ScatteringData}}
+\subsubsection{\texorpdfstring{GetSinThetaOverLambda()}{GetSinThetaOverLambda()}}
+{\footnotesize\ttfamily const Cryst\+Vector\+\_\+\+R\+E\+AL \& Obj\+Cryst\+::\+Scattering\+Data\+::\+Get\+Sin\+Theta\+Over\+Lambda (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+Return an array with $ \frac{sin(\theta)}{\lambda} = \frac{1}{2d_{hkl}}$ for all reflections Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_obj_cryst_1_1_scattering_data_a27cf813d222bbc0b261f794051125219_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_obj_cryst_1_1_scattering_data_a441dc936d43ef67428a69c0090448bf1}\label{class_obj_cryst_1_1_scattering_data_a441dc936d43ef67428a69c0090448bf1}} 
+\index{ObjCryst::ScatteringData@{ObjCryst::ScatteringData}!IsIgnoringImagScattFact@{IsIgnoringImagScattFact}}
+\index{IsIgnoringImagScattFact@{IsIgnoringImagScattFact}!ObjCryst::ScatteringData@{ObjCryst::ScatteringData}}
+\subsubsection{\texorpdfstring{IsIgnoringImagScattFact()}{IsIgnoringImagScattFact()}}
+{\footnotesize\ttfamily bool Obj\+Cryst\+::\+Scattering\+Data\+::\+Is\+Ignoring\+Imag\+Scatt\+Fact (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+If true, then the imaginary part of the scattering factor is ignored during Structure factor computation. Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_obj_cryst_1_1_scattering_data_a441dc936d43ef67428a69c0090448bf1_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_obj_cryst_1_1_scattering_data_a19b6958c0420a7e8dca0664c19f5f2f4}\label{class_obj_cryst_1_1_scattering_data_a19b6958c0420a7e8dca0664c19f5f2f4}} 
+\index{ObjCryst::ScatteringData@{ObjCryst::ScatteringData}!PrintFhklCalc@{PrintFhklCalc}}
+\index{PrintFhklCalc@{PrintFhklCalc}!ObjCryst::ScatteringData@{ObjCryst::ScatteringData}}
+\subsubsection{\texorpdfstring{PrintFhklCalc()}{PrintFhklCalc()}}
+{\footnotesize\ttfamily void Obj\+Cryst\+::\+Scattering\+Data\+::\+Print\+Fhkl\+Calc (\begin{DoxyParamCaption}\item[{ostream \&}]{os = {\ttfamily cout} }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Print H, K, L F$^\wedge$2 Re(\+F) Im(\+F) theta sin(theta)/lambda for all reflections. 
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_obj_cryst_1_1_scattering_data_a19b6958c0420a7e8dca0664c19f5f2f4_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_obj_cryst_1_1_scattering_data_a590a553dbea1970266a864256ebf94f3}\label{class_obj_cryst_1_1_scattering_data_a590a553dbea1970266a864256ebf94f3}} 
+\index{ObjCryst::ScatteringData@{ObjCryst::ScatteringData}!SetCrystal@{SetCrystal}}
+\index{SetCrystal@{SetCrystal}!ObjCryst::ScatteringData@{ObjCryst::ScatteringData}}
+\subsubsection{\texorpdfstring{SetCrystal()}{SetCrystal()}}
+{\footnotesize\ttfamily void Obj\+Cryst\+::\+Scattering\+Data\+::\+Set\+Crystal (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_obj_cryst_1_1_crystal}{Crystal}} \&}]{crystal }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+Set the crystal for this experiment 
+
+Reimplemented in \mbox{\hyperlink{class_obj_cryst_1_1_powder_pattern_diffraction_a5e32e21896fdd947add0cc47fad0bc87}{Obj\+Cryst\+::\+Powder\+Pattern\+Diffraction}}.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_obj_cryst_1_1_scattering_data_a590a553dbea1970266a864256ebf94f3_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_obj_cryst_1_1_scattering_data_a590a553dbea1970266a864256ebf94f3_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_obj_cryst_1_1_scattering_data_acfdcb6eb721579f7cfe270d36cd7e259}\label{class_obj_cryst_1_1_scattering_data_acfdcb6eb721579f7cfe270d36cd7e259}} 
+\index{ObjCryst::ScatteringData@{ObjCryst::ScatteringData}!SetFhklObsSq@{SetFhklObsSq}}
+\index{SetFhklObsSq@{SetFhklObsSq}!ObjCryst::ScatteringData@{ObjCryst::ScatteringData}}
+\subsubsection{\texorpdfstring{SetFhklObsSq()}{SetFhklObsSq()}}
+{\footnotesize\ttfamily void Obj\+Cryst\+::\+Scattering\+Data\+::\+Set\+Fhkl\+Obs\+Sq (\begin{DoxyParamCaption}\item[{const Cryst\+Vector\+\_\+\+R\+E\+AL \&}]{obs }\end{DoxyParamCaption})}
+
+Set the vector of observed $\vert$F(hkl)$\vert$$^\wedge$2 for all reflections. The supplied vector must have the same size as the mH, mK, mL vectors. \mbox{\Hypertarget{class_obj_cryst_1_1_scattering_data_a0520a10b24b0e4f05ba5cee4f3e29c92}\label{class_obj_cryst_1_1_scattering_data_a0520a10b24b0e4f05ba5cee4f3e29c92}} 
+\index{ObjCryst::ScatteringData@{ObjCryst::ScatteringData}!SetHKL@{SetHKL}}
+\index{SetHKL@{SetHKL}!ObjCryst::ScatteringData@{ObjCryst::ScatteringData}}
+\subsubsection{\texorpdfstring{SetHKL()}{SetHKL()}}
+{\footnotesize\ttfamily void Obj\+Cryst\+::\+Scattering\+Data\+::\+Set\+H\+KL (\begin{DoxyParamCaption}\item[{const Cryst\+Vector\+\_\+\+R\+E\+AL \&}]{h,  }\item[{const Cryst\+Vector\+\_\+\+R\+E\+AL \&}]{k,  }\item[{const Cryst\+Vector\+\_\+\+R\+E\+AL \&}]{l }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+input H,K,L 
+
+
+\begin{DoxyParams}{Parameters}
+{\em h,k,l} & R\+E\+AL arrays (vectors with Nb\+Refl elements -\/same size), with the h, k and l coordinates of all reflections. \\
+\hline
+\end{DoxyParams}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_obj_cryst_1_1_scattering_data_a0520a10b24b0e4f05ba5cee4f3e29c92_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_obj_cryst_1_1_scattering_data_ae126b860d309daa78e975b8b6d8a3ec0}\label{class_obj_cryst_1_1_scattering_data_ae126b860d309daa78e975b8b6d8a3ec0}} 
+\index{ObjCryst::ScatteringData@{ObjCryst::ScatteringData}!SetIsIgnoringImagScattFact@{SetIsIgnoringImagScattFact}}
+\index{SetIsIgnoringImagScattFact@{SetIsIgnoringImagScattFact}!ObjCryst::ScatteringData@{ObjCryst::ScatteringData}}
+\subsubsection{\texorpdfstring{SetIsIgnoringImagScattFact()}{SetIsIgnoringImagScattFact()}}
+{\footnotesize\ttfamily void Obj\+Cryst\+::\+Scattering\+Data\+::\+Set\+Is\+Ignoring\+Imag\+Scatt\+Fact (\begin{DoxyParamCaption}\item[{const bool}]{b }\end{DoxyParamCaption})}
+
+If true, then the imaginary part of the scattering factor is ignored during Structure factor computation. (default value=false)
+
+\begin{DoxyRefDesc}{Todo}
+\item[\mbox{\hyperlink{todo__todo000011}{Todo}}]this should become useless once we take fully advantage of coupled computation of Structure Factors for Fridel/\+Bijvoet mates using an internal list of \textquotesingle{}fully unique\textquotesingle{} reflections. Then only one of the mates need to be computed.. \end{DoxyRefDesc}
+\mbox{\Hypertarget{class_obj_cryst_1_1_scattering_data_a58e988862eb0e7b128a563e38f07eb22}\label{class_obj_cryst_1_1_scattering_data_a58e988862eb0e7b128a563e38f07eb22}} 
+\index{ObjCryst::ScatteringData@{ObjCryst::ScatteringData}!SetMaxSinThetaOvLambda@{SetMaxSinThetaOvLambda}}
+\index{SetMaxSinThetaOvLambda@{SetMaxSinThetaOvLambda}!ObjCryst::ScatteringData@{ObjCryst::ScatteringData}}
+\subsubsection{\texorpdfstring{SetMaxSinThetaOvLambda()}{SetMaxSinThetaOvLambda()}}
+{\footnotesize\ttfamily void Obj\+Cryst\+::\+Scattering\+Data\+::\+Set\+Max\+Sin\+Theta\+Ov\+Lambda (\begin{DoxyParamCaption}\item[{const R\+E\+AL}]{max }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+Set the maximum value for sin(theta)/lambda. All data (reflections,..) still exist but are ignored for all calculations. 
+
+Reimplemented in \mbox{\hyperlink{class_obj_cryst_1_1_powder_pattern_diffraction_a6eabf890d810833b58a903f70dad5885}{Obj\+Cryst\+::\+Powder\+Pattern\+Diffraction}}.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_obj_cryst_1_1_scattering_data_a58e988862eb0e7b128a563e38f07eb22_icgraph}
+\end{center}
+\end{figure}
+
+
+\subsection{Member Data Documentation}
+\mbox{\Hypertarget{class_obj_cryst_1_1_scattering_data_a8296cf05015c7c4bbfc1dc7b443e3096}\label{class_obj_cryst_1_1_scattering_data_a8296cf05015c7c4bbfc1dc7b443e3096}} 
+\index{ObjCryst::ScatteringData@{ObjCryst::ScatteringData}!mExpectedIntensityFactor@{mExpectedIntensityFactor}}
+\index{mExpectedIntensityFactor@{mExpectedIntensityFactor}!ObjCryst::ScatteringData@{ObjCryst::ScatteringData}}
+\subsubsection{\texorpdfstring{mExpectedIntensityFactor}{mExpectedIntensityFactor}}
+{\footnotesize\ttfamily Cryst\+Vector\+\_\+int Obj\+Cryst\+::\+Scattering\+Data\+::m\+Expected\+Intensity\+Factor\hspace{0.3cm}{\ttfamily [protected]}}
+
+Expected intensity factor for all reflections.
+
+See \mbox{\hyperlink{class_obj_cryst_1_1_space_group_a6f0b08e8a3e713b596bc424407859d7a}{Space\+Group\+::\+Get\+Expected\+Intensity\+Factor()}} \mbox{\Hypertarget{class_obj_cryst_1_1_scattering_data_a85ab0dd2973824fc2ad62fb6fef2e274}\label{class_obj_cryst_1_1_scattering_data_a85ab0dd2973824fc2ad62fb6fef2e274}} 
+\index{ObjCryst::ScatteringData@{ObjCryst::ScatteringData}!mFhklCalcVariance@{mFhklCalcVariance}}
+\index{mFhklCalcVariance@{mFhklCalcVariance}!ObjCryst::ScatteringData@{ObjCryst::ScatteringData}}
+\subsubsection{\texorpdfstring{mFhklCalcVariance}{mFhklCalcVariance}}
+{\footnotesize\ttfamily Cryst\+Vector\+\_\+\+R\+E\+AL Obj\+Cryst\+::\+Scattering\+Data\+::m\+Fhkl\+Calc\+Variance\hspace{0.3cm}{\ttfamily [mutable]}, {\ttfamily [protected]}}
+
+The variance on all calculated structure factors, taking into account the positionnal errors and the expected intensity factor.
+
+Actually this is the variance on both real and imaginary parts. \mbox{\Hypertarget{class_obj_cryst_1_1_scattering_data_a15f71120c0eabe7b1bd768663a176752}\label{class_obj_cryst_1_1_scattering_data_a15f71120c0eabe7b1bd768663a176752}} 
+\index{ObjCryst::ScatteringData@{ObjCryst::ScatteringData}!mGlobalBiso@{mGlobalBiso}}
+\index{mGlobalBiso@{mGlobalBiso}!ObjCryst::ScatteringData@{ObjCryst::ScatteringData}}
+\subsubsection{\texorpdfstring{mGlobalBiso}{mGlobalBiso}}
+{\footnotesize\ttfamily R\+E\+AL Obj\+Cryst\+::\+Scattering\+Data\+::m\+Global\+Biso\hspace{0.3cm}{\ttfamily [protected]}}
+
+Global Biso, affecting the overall structure factor for all reflections (but not the structure factors of individual atoms or type of atomes). \mbox{\Hypertarget{class_obj_cryst_1_1_scattering_data_a3a9764c52916a533a44baaea89bdceab}\label{class_obj_cryst_1_1_scattering_data_a3a9764c52916a533a44baaea89bdceab}} 
+\index{ObjCryst::ScatteringData@{ObjCryst::ScatteringData}!mIgnoreImagScattFact@{mIgnoreImagScattFact}}
+\index{mIgnoreImagScattFact@{mIgnoreImagScattFact}!ObjCryst::ScatteringData@{ObjCryst::ScatteringData}}
+\subsubsection{\texorpdfstring{mIgnoreImagScattFact}{mIgnoreImagScattFact}}
+{\footnotesize\ttfamily bool Obj\+Cryst\+::\+Scattering\+Data\+::m\+Ignore\+Imag\+Scatt\+Fact\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+Ignore imaginary part of scattering factor. 
+
+This can be used either to speed up computation, or when f" has a small effect on calculated intensities, mostly for powder diffraction (Gen\+H\+K\+L\+Full\+Space will not generate Friedel pairs, reducing the number of reflections by a factor up to 2 for some structures).
+
+Practically this makes f"=0 during computation. The real resonant contribution (f\textquotesingle{}) is not affected.
+
+This may be removed later on... \mbox{\Hypertarget{class_obj_cryst_1_1_scattering_data_acb0398e21f803308b79103182906f6c5}\label{class_obj_cryst_1_1_scattering_data_acb0398e21f803308b79103182906f6c5}} 
+\index{ObjCryst::ScatteringData@{ObjCryst::ScatteringData}!mMaxSinThetaOvLambda@{mMaxSinThetaOvLambda}}
+\index{mMaxSinThetaOvLambda@{mMaxSinThetaOvLambda}!ObjCryst::ScatteringData@{ObjCryst::ScatteringData}}
+\subsubsection{\texorpdfstring{mMaxSinThetaOvLambda}{mMaxSinThetaOvLambda}}
+{\footnotesize\ttfamily R\+E\+AL Obj\+Cryst\+::\+Scattering\+Data\+::m\+Max\+Sin\+Theta\+Ov\+Lambda\hspace{0.3cm}{\ttfamily [protected]}}
+
+Maximum sin(theta)/lambda for all calculations (10 by default).
+
+This keeps all data in memory, but only the part which is below the max is calculated.
+
+This affects the computing of structure factors, intensities (for single crystal and powder patterns), R and Rw.
+
+The reflections {\bfseries{must}} be sorted by increasing sin(theta)/lambda for this to work correctly. \mbox{\Hypertarget{class_obj_cryst_1_1_scattering_data_a00e0972eebd70ae92231b804884a83b6}\label{class_obj_cryst_1_1_scattering_data_a00e0972eebd70ae92231b804884a83b6}} 
+\index{ObjCryst::ScatteringData@{ObjCryst::ScatteringData}!mNbReflUsed@{mNbReflUsed}}
+\index{mNbReflUsed@{mNbReflUsed}!ObjCryst::ScatteringData@{ObjCryst::ScatteringData}}
+\subsubsection{\texorpdfstring{mNbReflUsed}{mNbReflUsed}}
+{\footnotesize\ttfamily long Obj\+Cryst\+::\+Scattering\+Data\+::m\+Nb\+Refl\+Used\hspace{0.3cm}{\ttfamily [mutable]}, {\ttfamily [protected]}}
+
+Number of reflections which are below the max. This is updated automatically from \mbox{\hyperlink{class_obj_cryst_1_1_scattering_data_acb0398e21f803308b79103182906f6c5}{Scattering\+Data\+::m\+Max\+Sin\+Theta\+Ov\+Lambda}} \mbox{\Hypertarget{class_obj_cryst_1_1_scattering_data_a8c4e778a97e93098d585ffdc597dbb54}\label{class_obj_cryst_1_1_scattering_data_a8c4e778a97e93098d585ffdc597dbb54}} 
+\index{ObjCryst::ScatteringData@{ObjCryst::ScatteringData}!mpCrystal@{mpCrystal}}
+\index{mpCrystal@{mpCrystal}!ObjCryst::ScatteringData@{ObjCryst::ScatteringData}}
+\subsubsection{\texorpdfstring{mpCrystal}{mpCrystal}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_obj_cryst_1_1_crystal}{Crystal}}$\ast$ Obj\+Cryst\+::\+Scattering\+Data\+::mp\+Crystal\hspace{0.3cm}{\ttfamily [protected]}}
+
+Pointer to the crystal corresponding to this experiment.
+
+This gives an access to the UB matrix for the crystal, as well as to the list of \mbox{\hyperlink{class_obj_cryst_1_1_scatterer}{Scatterer}}. \mbox{\Hypertarget{class_obj_cryst_1_1_scattering_data_a06804c1df56b267a8ecb0218e061bdb4}\label{class_obj_cryst_1_1_scattering_data_a06804c1df56b267a8ecb0218e061bdb4}} 
+\index{ObjCryst::ScatteringData@{ObjCryst::ScatteringData}!mSinThetaLambda@{mSinThetaLambda}}
+\index{mSinThetaLambda@{mSinThetaLambda}!ObjCryst::ScatteringData@{ObjCryst::ScatteringData}}
+\subsubsection{\texorpdfstring{mSinThetaLambda}{mSinThetaLambda}}
+{\footnotesize\ttfamily Cryst\+Vector\+\_\+\+R\+E\+AL Obj\+Cryst\+::\+Scattering\+Data\+::m\+Sin\+Theta\+Lambda\hspace{0.3cm}{\ttfamily [mutable]}, {\ttfamily [protected]}}
+
+$ \frac{sin(\theta)}{\lambda} = \frac{1}{2d_{hkl}}$ for the crystal and the reflections in Recipr\+Space \mbox{\Hypertarget{class_obj_cryst_1_1_scattering_data_a7a3fa9e9ea5c3a1dc6076f69ad584ad7}\label{class_obj_cryst_1_1_scattering_data_a7a3fa9e9ea5c3a1dc6076f69ad584ad7}} 
+\index{ObjCryst::ScatteringData@{ObjCryst::ScatteringData}!mUseFastLessPreciseFunc@{mUseFastLessPreciseFunc}}
+\index{mUseFastLessPreciseFunc@{mUseFastLessPreciseFunc}!ObjCryst::ScatteringData@{ObjCryst::ScatteringData}}
+\subsubsection{\texorpdfstring{mUseFastLessPreciseFunc}{mUseFastLessPreciseFunc}}
+{\footnotesize\ttfamily bool Obj\+Cryst\+::\+Scattering\+Data\+::m\+Use\+Fast\+Less\+Precise\+Func\hspace{0.3cm}{\ttfamily [protected]}}
+
+Use faster, but less precise, approximations for functions? (integer approximations to compute sin and cos in structure factors, and also to compute interatomic distances). This is activated by global optimization algortithms, only during the optimization. \mbox{\Hypertarget{class_obj_cryst_1_1_scattering_data_a13e1ec375416a17f94370a4cf4bd5583}\label{class_obj_cryst_1_1_scattering_data_a13e1ec375416a17f94370a4cf4bd5583}} 
+\index{ObjCryst::ScatteringData@{ObjCryst::ScatteringData}!mvFprime@{mvFprime}}
+\index{mvFprime@{mvFprime}!ObjCryst::ScatteringData@{ObjCryst::ScatteringData}}
+\subsubsection{\texorpdfstring{mvFprime}{mvFprime}}
+{\footnotesize\ttfamily map$<$const \mbox{\hyperlink{class_obj_cryst_1_1_scattering_power}{Scattering\+Power}}$\ast$,R\+E\+AL$>$ Obj\+Cryst\+::\+Scattering\+Data\+::mv\+Fprime\hspace{0.3cm}{\ttfamily [mutable]}, {\ttfamily [protected]}}
+
+Anomalous X-\/\+Ray scattering term f\textquotesingle{} and f" are stored here for each \mbox{\hyperlink{class_obj_cryst_1_1_scattering_power}{Scattering\+Power}} We store here only a value. For multi-\/wavelength support this should be changed to a vector... or to a matrix to take into account anisotropy of anomalous scattering... 
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+Scattering\+Data.\+h\item 
+Scattering\+Data.\+cpp\end{DoxyCompactItemize}

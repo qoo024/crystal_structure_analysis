@@ -1,0 +1,5 @@
+<map id="ObjCryst::Radiation::Radiation" name="ObjCryst::Radiation::Radiation">
+<area shape="rect" id="node1" title=" " alt="" coords="5,5,142,44"/>
+<area shape="rect" id="node2" href="$class_obj_cryst_1_1_radiation.html#adc4fac12bb11e01e515365e5d7a46ddc" title="Set the Wavelength type (monochromatic, Alpha1+Alpha2, Time Of Flight...)" alt="" coords="190,5,338,44"/>
+<area shape="rect" id="node3" href="$class_obj_cryst_1_1_radiation.html#a8fd969b9f546fc48f5bfd7b38ff9c995" title="Set the radiation type (X&#45;Rays, Neutron)" alt="" coords="386,5,523,44"/>
+</map>

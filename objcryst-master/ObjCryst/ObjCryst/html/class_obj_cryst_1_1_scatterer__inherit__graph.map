@@ -1,0 +1,8 @@
+<map id="ObjCryst::Scatterer" name="ObjCryst::Scatterer">
+<area shape="rect" id="node1" title="Generic type of scatterer: can be an atom, or a more complex assembly of atoms." alt="" coords="141,79,275,104"/>
+<area shape="rect" id="node3" href="$class_obj_cryst_1_1_atom.html" title=" " alt="" coords="5,152,117,177"/>
+<area shape="rect" id="node4" href="$class_obj_cryst_1_1_molecule.html" title=" " alt="" coords="141,152,275,177"/>
+<area shape="rect" id="node5" href="$class_obj_cryst_1_1_z_scatterer.html" title=" " alt="" coords="299,152,442,177"/>
+<area shape="rect" id="node2" title=" " alt="" coords="159,5,257,31"/>
+<area shape="rect" id="node6" href="$class_obj_cryst_1_1_z_polyhedron.html" title=" " alt="" coords="292,225,449,251"/>
+</map>
