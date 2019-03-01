@@ -1,5 +1,0 @@
-<map id="ObjCryst::Crystal::GetMinDistanceTable" name="ObjCryst::Crystal::GetMinDistanceTable">
-<area shape="rect" id="node1" title="Minimum interatomic distance between all scattering components (atoms) in the crystal." alt="" coords="207,37,355,76"/>
-<area shape="rect" id="node2" href="$class_obj_cryst_1_1_crystal.html#a483003d7cfbd4bc0027615f1bc2e9f39" title="Print the minimum distance table between all scattering centers (atoms) in the crystal." alt="" coords="5,5,159,44"/>
-<area shape="rect" id="node3" href="$class_obj_cryst_1_1_crystal.html#a12969ab06ecb5293c57fb305e146cc72" title="output Crystal structure as a cif file (EXPERIMENTAL !)" alt="" coords="18,68,147,107"/>
-</map>

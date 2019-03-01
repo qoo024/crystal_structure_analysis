@@ -1,6 +1,0 @@
-<map id="ObjCryst::Crystal::AddScatterer" name="ObjCryst::Crystal::AddScatterer">
-<area shape="rect" id="node1" title="Add a scatterer to the crystal." alt="" coords="239,61,369,100"/>
-<area shape="rect" id="node2" href="$class_obj_cryst_1_1_crystal.html#a6e7bc69bcb5331e8faf60ef13db1255c" title=" " alt="" coords="34,5,163,44"/>
-<area shape="rect" id="node3" href="$namespace_obj_cryst.html#a775b62d07c596365d2f2d021dca408db" title=" " alt="" coords="26,68,170,93"/>
-<area shape="rect" id="node4" href="$class_obj_cryst_1_1_global_scattering_power.html#af81844742d8cfdca7dec979a08e4abf0" title="Get the Scattering factor for all reflections of a given ScatteringData object." alt="" coords="5,117,191,156"/>
-</map>

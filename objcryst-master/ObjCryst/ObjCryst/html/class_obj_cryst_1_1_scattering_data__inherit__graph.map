@@ -1,6 +1,0 @@
-<map id="ObjCryst::ScatteringData" name="ObjCryst::ScatteringData">
-<area shape="rect" id="node1" title="Class to compute structure factors for a set of reflections and a Crystal." alt="" coords="116,79,285,104"/>
-<area shape="rect" id="node3" href="$class_obj_cryst_1_1_diffraction_data_single_crystal.html" title="DiffractionData object for Single Crystal analysis." alt="" coords="5,152,174,191"/>
-<area shape="rect" id="node4" href="$class_obj_cryst_1_1_powder_pattern_diffraction.html" title="Class to compute the contribution to a powder pattern from a crystalline phase." alt="" coords="198,159,427,184"/>
-<area shape="rect" id="node2" title=" " alt="" coords="151,5,249,31"/>
-</map>

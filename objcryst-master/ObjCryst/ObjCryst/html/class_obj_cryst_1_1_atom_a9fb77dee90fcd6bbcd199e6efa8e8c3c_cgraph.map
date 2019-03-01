@@ -1,5 +1,0 @@
-<map id="ObjCryst::Atom::GetMass" name="ObjCryst::Atom::GetMass">
-<area shape="rect" id="node1" title="Returns the molar mass of the atom." alt="" coords="5,33,178,59"/>
-<area shape="rect" id="node2" href="$class_obj_cryst_1_1_atom.html#a5f5aaf79fba4a85a0b2af58e817c3460" title=" " alt="" coords="227,5,403,31"/>
-<area shape="rect" id="node3" href="$class_obj_cryst_1_1_scattering_power.html#a410cbc9c760375aff093a901fd8ad0dd" title="Returns the isotropic temperature B factor." alt="" coords="226,55,404,93"/>
-</map>

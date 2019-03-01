@@ -1,6 +1,0 @@
-<map id="ObjCryst::PowderPatternComponent" name="ObjCryst::PowderPatternComponent">
-<area shape="rect" id="node1" title="Generic class to compute components (eg the contribution of a given phase, or background) of a powder..." alt="" coords="5,253,243,279"/>
-<area shape="rect" id="node2" title=" " alt="" coords="104,5,203,31"/>
-<area shape="rect" id="node3" href="$class_obj_cryst_1_1_powder_pattern.html" title="Powder pattern class, with an observed pattern and several calculated components to modelize the patt..." alt="" coords="140,167,309,192"/>
-<area shape="rect" id="node4" href="$class_obj_cryst_1_1_radiation.html" title="Class to define the radiation (type, monochromaticity, wavelength(s)) of an experiment." alt="" coords="190,80,327,105"/>
-</map>

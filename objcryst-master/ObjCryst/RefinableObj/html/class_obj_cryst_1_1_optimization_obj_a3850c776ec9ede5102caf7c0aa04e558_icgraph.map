@@ -1,7 +1,0 @@
-<map id="ObjCryst::OptimizationObj::GetLogLikelihood" name="ObjCryst::OptimizationObj::GetLogLikelihood">
-<area shape="rect" id="node1" title="The optimized (minimized, actually) function." alt="" coords="420,68,596,107"/>
-<area shape="rect" id="node2" href="$class_obj_cryst_1_1_monte_carlo_obj.html#ad036c6dbffb9a65ae1a7545418f16c73" title=" " alt="" coords="202,5,372,44"/>
-<area shape="rect" id="node3" href="$class_obj_cryst_1_1_monte_carlo_obj.html#a86a5e1222f1a836da730f7d17b752021" title=" " alt="" coords="202,68,372,107"/>
-<area shape="rect" id="node4" href="$class_obj_cryst_1_1_simplex_obj.html#aa5d987434598f3c6e2045b1446cfb064" title=" " alt="" coords="213,131,362,169"/>
-<area shape="rect" id="node5" href="$class_obj_cryst_1_1_simplex_obj.html#a15315e9e1509d8c1c0235d4b1e03ed92" title=" " alt="" coords="5,131,154,169"/>
-</map>

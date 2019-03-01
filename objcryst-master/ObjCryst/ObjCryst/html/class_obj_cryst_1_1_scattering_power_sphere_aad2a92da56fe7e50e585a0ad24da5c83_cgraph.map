@@ -1,9 +1,0 @@
-<map id="ObjCryst::ScatteringPowerSphere::GetScatteringFactor" name="ObjCryst::ScatteringPowerSphere::GetScatteringFactor">
-<area shape="rect" id="node1" title="Get the Scattering factor for all reflections of a given ScatteringData object." alt="" coords="5,163,196,201"/>
-<area shape="rect" id="node2" href="$class_obj_cryst_1_1_scattering_data.html#a5e47cf11f5e2d03707ace6da78384b78" title="Return the 1D array of orthonormal x coordinates for all reflections (recipr. space)" alt="" coords="296,5,464,44"/>
-<area shape="rect" id="node3" href="$class_obj_cryst_1_1_scattering_data.html#ae3b1bb233df72c31b7e5b4f6f6690d38" title="Return the 1D array of orthonormal y coordinates for all reflections (recipr. space)" alt="" coords="296,68,464,107"/>
-<area shape="rect" id="node4" href="$class_obj_cryst_1_1_scattering_data.html#a56a76a1e2d7766e311bbc07e42439921" title="Return the 1D array of orthonormal z coordinates for all reflections (recipr. space)" alt="" coords="296,131,464,169"/>
-<area shape="rect" id="node5" href="$class_obj_cryst_1_1_scattering_data.html#aec92465bb5615b797a1e17a796235840" title="Return the number of reflections in this experiment." alt="" coords="296,193,464,232"/>
-<area shape="rect" id="node6" href="$class_obj_cryst_1_1_scattering_data.html#aeceded13328adf88e001b08ce1abed7f" title=" " alt="" coords="244,256,515,295"/>
-<area shape="rect" id="node7" href="$class_obj_cryst_1_1_scattering_data.html#a27cf813d222bbc0b261f794051125219" title=" " alt="" coords="290,319,470,357"/>
-</map>

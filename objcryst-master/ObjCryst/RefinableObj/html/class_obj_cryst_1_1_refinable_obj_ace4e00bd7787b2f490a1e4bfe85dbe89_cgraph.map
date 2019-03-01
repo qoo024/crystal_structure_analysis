@@ -1,5 +1,0 @@
-<map id="ObjCryst::RefinableObj::GetGeneGroup" name="ObjCryst::RefinableObj::GetGeneGroup">
-<area shape="rect" id="node1" title="Get the gene group assigned to each parameter." alt="" coords="5,37,163,76"/>
-<area shape="rect" id="node2" href="$class_obj_cryst_1_1_refinable_obj.html#a3a45838e4463a17f1d32a892dc48c1dd" title=" " alt="" coords="211,5,369,44"/>
-<area shape="rect" id="node3" href="$class_obj_cryst_1_1_refinable_obj.html#a20def1b7c2106df61d4a119b3519e4a4" title="Access all parameters in the order they were inputted." alt="" coords="211,68,369,107"/>
-</map>

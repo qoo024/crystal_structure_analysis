@@ -1,6 +1,0 @@
-<map id="ObjCryst::string2floatC" name="ObjCryst::string2floatC">
-<area shape="rect" id="node1" title=" " alt="" coords="499,40,654,65"/>
-<area shape="rect" id="node2" href="$class_obj_cryst_1_1_diffraction_data_single_crystal.html#a7cb0c6ef5e877e582baf5eb8133e2199" title="Import h,k,l,I,Sigma from a file using shelx HKLF 4 format." alt="" coords="231,5,451,44"/>
-<area shape="rect" id="node3" href="$namespace_obj_cryst.html#a36ff196370e39131e82f33eb55306c6d" title=" " alt="" coords="263,68,419,93"/>
-<area shape="rect" id="node4" href="$class_obj_cryst_1_1_z_scatterer.html#a097d27206e6e54259bb987a06d65f71c" title=" " alt="" coords="5,61,183,100"/>
-</map>

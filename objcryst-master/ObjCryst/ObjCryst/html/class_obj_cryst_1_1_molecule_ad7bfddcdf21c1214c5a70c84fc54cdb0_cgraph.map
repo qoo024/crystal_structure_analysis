@@ -1,8 +1,0 @@
-<map id="ObjCryst::Molecule::BondLengthRandomChange" name="ObjCryst::Molecule::BondLengthRandomChange">
-<area shape="rect" id="node1" title=" " alt="" coords="5,37,203,76"/>
-<area shape="rect" id="node2" href="$namespace_obj_cryst.html#a8b6775b47b6ebf273d5737006ffd3209" title=" " alt="" coords="251,5,435,44"/>
-<area shape="rect" id="node3" href="$class_obj_cryst_1_1_molecule.html#a0d3122b53dd81aa23d2aaa2427e6291e" title=" " alt="" coords="267,68,419,107"/>
-<area shape="rect" id="node4" href="$class_obj_cryst_1_1_molecule.html#a839d362bb9c2e6f0951caf00c8c8e92c" title="Number of components in the scatterer (eg number of point scatterers)" alt="" coords="524,5,660,44"/>
-<area shape="rect" id="node5" href="$class_obj_cryst_1_1_scatterer.html#a733922e9273220375cef87359773dc25" title="In which crystal is this Scatterer included ?" alt="" coords="525,68,659,107"/>
-<area shape="rect" id="node6" href="$class_obj_cryst_1_1_unit_cell.html#a69debaf9dc539baf3c5ccc599ae614cd" title="Get fractional cartesian coordinates for a set of (x,y,z) orthonormal coordinates." alt="" coords="483,131,701,169"/>
-</map>

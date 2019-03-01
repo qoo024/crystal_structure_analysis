@@ -1,8 +1,0 @@
-<map id="ObjCryst::LorentzCorr" name="ObjCryst::LorentzCorr">
-<area shape="rect" id="node1" title=" " alt="" coords="14,403,165,428"/>
-<area shape="rect" id="node2" href="$class_obj_cryst_1_1_scattering_corr.html" title=" " alt="" coords="6,328,173,353"/>
-<area shape="rect" id="node3" href="$class_obj_cryst_1_1_scattering_data.html" title="Class to compute structure factors for a set of reflections and a Crystal." alt="" coords="5,241,174,267"/>
-<area shape="rect" id="node4" title=" " alt="" coords="35,5,134,31"/>
-<area shape="rect" id="node6" href="$class_obj_cryst_1_1_unit_cell.html" title="Unit Cell class: Unit cell with spacegroup information." alt="" coords="106,80,233,105"/>
-<area shape="rect" id="node5" href="$class_obj_cryst_1_1_crystal.html" title="Crystal class: Unit cell, spacegroup, scatterers." alt="" coords="107,155,229,180"/>
-</map>

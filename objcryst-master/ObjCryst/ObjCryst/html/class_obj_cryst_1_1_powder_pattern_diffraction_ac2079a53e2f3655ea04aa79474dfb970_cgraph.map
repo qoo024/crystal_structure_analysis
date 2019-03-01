@@ -1,6 +1,0 @@
-<map id="ObjCryst::PowderPatternDiffraction::GetBMatrix" name="ObjCryst::PowderPatternDiffraction::GetBMatrix">
-<area shape="rect" id="node1" title=" " alt="" coords="5,37,234,76"/>
-<area shape="rect" id="node2" href="$class_obj_cryst_1_1_scattering_data.html#abd28bb9c58ba25cc61cb138cab3df5de" title=" " alt="" coords="282,37,451,76"/>
-<area shape="rect" id="node3" href="$class_obj_cryst_1_1_scattering_data.html#af36fabc6841d45d4be8a3c3e7fd4d1ff" title="Const access to the data&#39;s crystal." alt="" coords="499,5,668,44"/>
-<area shape="rect" id="node4" href="$class_obj_cryst_1_1_unit_cell.html#ac0cdfda8a5ebab4ee60f3e55dc37c9a3" title="Get the &#39;B&#39; matrix (UnitCell::mBMatrix)for the UnitCell (orthogonalization matrix for the given latti..." alt="" coords="519,68,647,107"/>
-</map>

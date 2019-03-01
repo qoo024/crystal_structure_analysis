@@ -1,5 +1,0 @@
-<map id="ObjCryst::DiffractionDataSingleCrystal::ImportCIF" name="ObjCryst::DiffractionDataSingleCrystal::ImportCIF">
-<area shape="rect" id="node1" title="Import diffraction data from a CIF file." alt="" coords="5,5,174,44"/>
-<area shape="rect" id="node2" href="$class_obj_cryst_1_1_diffraction_data_single_crystal.html#a0d13ab934c60c9bd0aebbb285a92c5cb" title="input H,K,L, Iobs and Sigma" alt="" coords="222,5,394,44"/>
-<area shape="rect" id="node3" href="$class_obj_cryst_1_1_diffraction_data_single_crystal.html#a76f0f6b9eab4f00b7fa9afc17e951235" title="Set the weight for all observed intensities to 1/sigma^2." alt="" coords="442,5,687,44"/>
-</map>

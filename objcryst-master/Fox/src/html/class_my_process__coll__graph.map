@@ -1,7 +1,0 @@
-<map id="MyProcess" name="MyProcess">
-<area shape="rect" id="node1" title=" " alt="" coords="42,179,129,204"/>
-<area shape="rect" id="node2" title=" " alt="" coords="5,92,91,117"/>
-<area shape="rect" id="node3" href="$class_fox_client.html" title=" " alt="" coords="115,92,192,117"/>
-<area shape="rect" id="node4" title=" " alt="" coords="44,5,148,31"/>
-<area shape="rect" id="node5" href="$class_i_o_socket.html" title=" " alt="" coords="171,5,248,31"/>
-</map>
